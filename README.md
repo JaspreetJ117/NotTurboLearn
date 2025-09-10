@@ -4,3 +4,5 @@ TurboLearn is an open-source MVP app that helps students transform lecture recor
 Commit 1 on 2025-09-10
 
 Commit 2 on 2025-09-10
+
+Commit 3 on 2025-09-10
