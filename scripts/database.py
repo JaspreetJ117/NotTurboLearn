@@ -1,3 +1,24 @@
+"""
+database.py
+
+Database management module for the NotTurboLearn application.
+
+This module handles all database operations for NotTurboLearn, including:
+
+- Initialization and schema creation for transcripts, notes, and chat history.
+- Secure storage and retrieval of transcript and note data.
+- Management of chat history linked to transcripts.
+- Support for session management and data integrity.
+- Integration with core business logic in core.py and web interface in app.py.
+
+The design ensures robust error handling, extensibility, and secure access to user data. It is intended for use in secure, internal deployments.
+
+Author: Jaspreet Jawanda
+Email: jaspreetjawanda@proton.me
+Version: 2.1
+Status: Production
+"""
+
 import sqlite3
 import os
 from pathlib import Path

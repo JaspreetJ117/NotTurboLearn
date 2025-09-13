@@ -1,3 +1,27 @@
+"""
+app.py
+
+Server entry point for the NotTurboLearn application.
+
+This module implements the web interface for the NotTurboLearn note-taking and transcript management system using Flask. It provides:
+
+- Audio transcription using Whisper AI.
+- Automated note generation from transcripts using Ollama LLM.
+- Session management for multiple transcripts and notes.
+- RESTful API endpoints for transcript, note, and chat history management.
+- Interactive chat assistant grounded in user notes and transcripts.
+- Secure upload and deletion of audio files and session data.
+- Integration with core business logic and database operations in core.py and database.py.
+
+The architecture separates web presentation, business logic, and data access, supporting extensibility and robust error handling. Security features include session-based access control and file validation. The application is designed for deployment in a secure, internal environment.
+
+Author: Jaspreet Jawanda
+Email: jaspreetjawanda@proton.me
+Version: 2.1
+Status: Production
+"""
+
+
 import os
 import uuid
 import torch
@@ -39,7 +63,7 @@ Your task: Turn the following lecture transcript into **clear, exam-ready notes*
 
 Requirements:
 - Format in **Markdown** with headings and bullet points.
-- Start with a short **Title** and a **2–3 sentence TL;DR**.
+- Start with a short **Title** and a **2 to 3 sentence TL;DR**.
 - Include:
   ## Key Concepts
   - Short bullet points for the main ideas.
@@ -50,24 +74,21 @@ Requirements:
   ## Step-by-Step Explanations
   - Break down processes or arguments in order.
   
-  ## Equations / Formulas
+  ## Equations / Formulas (if any)
   - Use LaTeX formatting inside ```math``` blocks if any appear.
   
-  ## Code Examples / Snippets
+  ## Code Examples / Snippets (if applicable)
   - Include any code examples mentioned in the lecture.
   - Use proper Markdown code blocks with syntax highlighting if language is specified:
     ```python
     # example
     print("Hello World")
     ```
-  
   ## Examples (with timestamps if mentioned)
-  
-  ## 5 Sample Exam-Style Questions
-  - Write questions that test understanding of key points.
-  
-  ## Action Items / Next Steps
-  - Things to review, practice, or think about.
+    - Include any examples given in the lecture.
+
+  ## Potential Exam Questions 
+    - Make a section for potential questions that the professor referred to being on the exam in lecture (if any).
 
 Guidelines:
 - Be **concise but complete**.
@@ -75,7 +96,11 @@ Guidelines:
 - **Bold** key terms and ideas.
 - Preserve any **code or formulas** exactly as shown in the transcript.
 - Do not invent information not present in the transcript.
-- Keep the whole output under ~600 words.
+- Do not skip any sections of the transcript.
+- Ensure the notes are **well-organized** and easy to review.
+- Use proper Markdown syntax throughout.
+- Make detailed notes yet easy to read.
+- Create a section for potential questions that the professor referred to being on the exam in lecture (if any).
 
 Transcript:
 {transcript}
