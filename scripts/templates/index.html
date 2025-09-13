@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotTurboAI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="app-layout">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>History</h2>
+            </div>
+            <div id="history-list" class="sidebar-content">
+                <p class="placeholder">No sessions yet.</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="main-header">
+                <div class="header-left">
+                    <h1>NotTurboAI</h1>
+                    <!-- ✅ TOGGLE BUTTON FOR MOBILE -->
+                    <button class="sidebar-toggle" aria-label="Toggle History">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+                <div class="controls">
+                    <button id="recordBtn" title="Record Audio">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
+                        <span id="recordBtnText">Record</span>
+                    </button>
+                    <label for="uploadInput" class="upload-label" title="Upload Audio File">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                        <span>Upload</span>
+                    </label>
+                    <input type="file" id="uploadInput" accept="audio/*" hidden>
+                </div>
+            </header>
+
+            <div id="loader" class="loader-container hidden">
+                <p id="loader-text">Transcribing and generating notes...</p>
+                <div id="progress-container" class="progress-bar-container hidden">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+                <p id="loader-status" style="margin-top: 0.5rem;"></p>
+            </div>
+
+            <div class="tab-nav">
+                <button class="tab-btn active" data-tab="notes">Notes</button>
+                <button class="tab-btn" data-tab="chat">Chat</button>
+            </div>
+
+            <div class="tab-content">
+                <div id="notes" class="tab-pane active">
+                    <div id="notes-output" class="prose">
+                        <div class="placeholder-content">
+                            <h3>Welcome to NotTurboAI</h3>
+                            <p>Record or upload a lecture to get started. Your notes will appear here.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="chat" class="tab-pane">
+                    <div id="chat-messages" class="chat-window">
+                    </div>
+                    <form id="chat-form" class="chat-input-area">
+                        <input type="text" id="chat-input" placeholder="Ask a question about the notes..." autocomplete="off" disabled>
+                        <button type="submit" id="chat-submit-btn" disabled title="Send Message">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
