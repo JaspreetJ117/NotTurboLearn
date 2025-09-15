@@ -206,6 +206,7 @@ body {
     display: flex;
     gap: 0.75rem;
     flex-wrap: wrap;
+    align-items: center;
 }
 .controls button, .upload-label {
     display: flex;
@@ -231,6 +232,12 @@ body {
 }
 #recordBtn.recording:hover {
     background-color: var(--danger-color-hover);
+}
+
+#visualizer {
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background-color: var(--bg-sidebar);
 }
 
 /* ===== SIDEBAR TOGGLE BUTTON ===== */

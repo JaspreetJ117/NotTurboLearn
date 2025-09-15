@@ -7,7 +7,7 @@ This module implements the web interface for the LectureScribe note-taking and t
 
 - Audio transcription using Whisper AI.
 - Automated note generation from transcripts using Ollama LLM.
-- Session management for multiple transcripts and notes.
+- Session management for multiple transcripts and notes stored in physical folders.
 - RESTful API endpoints for transcript, note, and chat history management.
 - Interactive chat assistant grounded in user notes and transcripts.
 - Secure upload and deletion of audio files and session data.
@@ -19,7 +19,7 @@ The architecture separates web presentation, business logic, and data access, su
 
 Author: Jaspreet Jawanda
 Email: jaspreetjawanda@proton.me
-Version: 2.0
+Version: 2.1
 Status: Production
 """
 
@@ -30,15 +30,18 @@ import whisper
 import requests
 import json
 import sqlite3
+import shutil
 from flask import Flask, render_template, request, jsonify, session, send_from_directory
 import threading
 import time
 
 # --- Configuration ---
 UPLOAD_FOLDER = '../uploads'
+DATA_FOLDER = '../data'
 DATABASE_FILE = '../data/lecturescribe.db'
 
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+os.makedirs(DATA_FOLDER, exist_ok=True)
 
 # --- Global variables for the background queue processor ---
 queue_lock = threading.Lock()
@@ -69,10 +72,14 @@ def get_whisper_model():
 # --- Ollama Configuration ---
 OLLAMA_ENDPOINT = "http://localhost:11434/api/generate"
 OLLAMA_CONFIG = {
-    "model": "gpt-oss:20b",
+    "model": "qwen2.5:7b",
     "stream": False,
-    "options": {"temperature": 0.3, "top_p": 0.9}
+    "options": {
+        "temperature": 0.2,
+        "top_p": 0.9
+    }
 }
+
 
 NOTES_PROMPT_TEMPLATE = """You are an expert note-taker. 
 Your task: Turn the following lecture transcript into **clear, exam-ready notes**.
@@ -122,9 +129,17 @@ Transcript:
 {transcript}
 """
 
-CHAT_PROMPT_TEMPLATE = """You are a helpful AI assistant. Answer the user's question based ONLY on the provided lecture notes and conversation history. Your answer must be grounded in the context provided. If the answer is not in the notes, say "I can't answer that based on the provided notes."
+CHAT_PROMPT_TEMPLATE = """
+You are a careful and precise assistant.
 
---- Notes ---
+Rules:
+- Use ONLY the information in the provided lecture notes and conversation history.
+- Do NOT add, guess, or infer details that are not explicitly stated.
+- If the information is missing or unclear, respond with: "I can't answer that based on the provided notes."
+- Prefer bullet points and concise phrasing when summarizing.
+- Maintain the original meaning of the notes without reinterpreting.
+
+--- Lecture Notes ---
 {notes}
 
 --- Conversation History ---
@@ -133,6 +148,7 @@ CHAT_PROMPT_TEMPLATE = """You are a helpful AI assistant. Answer the user's ques
 --- User's Question ---
 {question}
 """
+
 
 # --- Database Connection ---
 def get_db():
@@ -220,12 +236,23 @@ def queue_processor():
                     default_folder = db.execute("SELECT id FROM folders WHERE name = 'Unorganized'").fetchone()
                     default_folder_id = default_folder['id'] if default_folder else None
 
+                    # Create a new directory for the session data
+                    session_folder_name = f"{original_filename}_{str(uuid.uuid4())[:8]}"
+                    session_folder_path = os.path.join(DATA_FOLDER, session_folder_name)
+                    os.makedirs(session_folder_path, exist_ok=True)
+
+                    # Save transcript, notes, and chat history to files
+                    with open(os.path.join(session_folder_path, 'transcript.txt'), 'w', encoding='utf-8') as f:
+                        f.write(transcript_text)
+                    with open(os.path.join(session_folder_path, 'notes.md'), 'w', encoding='utf-8') as f:
+                        f.write(notes_md)
+                    with open(os.path.join(session_folder_path, 'chat_history.json'), 'w', encoding='utf-8') as f:
+                        json.dump([], f) # Start with an empty chat history
+
                     cursor = db.cursor()
-                    cursor.execute("INSERT INTO transcripts (filename, transcript_text, folder_id) VALUES (?, ?, ?)",
-                                   (original_filename, transcript_text, default_folder_id))
+                    cursor.execute("INSERT INTO transcripts (filename, data_path, folder_id) VALUES (?, ?, ?)",
+                                   (original_filename, session_folder_path, default_folder_id))
                     transcript_id = cursor.lastrowid
-                    
-                    cursor.execute("INSERT INTO notes (transcript_id, notes_text) VALUES (?, ?)", (transcript_id, notes_md))
                     
                     db.commit()
                     
@@ -315,47 +342,56 @@ def get_history():
 @app.route('/session/<int:transcript_id>')
 def get_session_data(transcript_id):
     db = get_db()
-    transcript_row = db.execute("SELECT transcript_text FROM transcripts WHERE id = ?", (transcript_id,)).fetchone()
-    notes_row = db.execute("SELECT notes_text FROM notes WHERE transcript_id = ?", (transcript_id,)).fetchone()
-    chat_rows = db.execute("SELECT sender, message FROM chat_history WHERE transcript_id = ? ORDER BY created_at ASC", (transcript_id,)).fetchall()
+    transcript_row = db.execute("SELECT data_path FROM transcripts WHERE id = ?", (transcript_id,)).fetchone()
     db.close()
 
-    if not transcript_row or not notes_row:
+    if not transcript_row:
         return jsonify({'error': 'Session data not found'}), 404
 
+    data_path = transcript_row['data_path']
+    try:
+        with open(os.path.join(data_path, 'transcript.txt'), 'r', encoding='utf-8') as f:
+            transcript_text = f.read()
+        with open(os.path.join(data_path, 'notes.md'), 'r', encoding='utf-8') as f:
+            notes_markdown = f.read()
+        with open(os.path.join(data_path, 'chat_history.json'), 'r', encoding='utf-8') as f:
+            chat_history = json.load(f)
+    except FileNotFoundError:
+        return jsonify({'error': 'Session files not found'}), 404
+
     session['current_transcript_id'] = transcript_id
+    session['current_data_path'] = data_path
+    
     return jsonify({
-        'transcript_text': transcript_row['transcript_text'],
-        'notes_markdown': notes_row['notes_text'],
-        'chat_history': [dict(row) for row in chat_rows]
+        'transcript_text': transcript_text,
+        'notes_markdown': notes_markdown,
+        'chat_history': chat_history
     })
     
 @app.route('/chat', methods=['POST'])
 def chat():
     user_message = request.json.get('message')
     transcript_id = session.get('current_transcript_id')
+    data_path = session.get('current_data_path')
 
-    if not user_message or not transcript_id:
+    if not user_message or not transcript_id or not data_path:
         return jsonify({'error': 'Missing message or session context'}), 400
 
-    db = get_db()
-    notes_row = db.execute("SELECT notes_text FROM notes WHERE transcript_id = ?", (transcript_id,)).fetchone()
-    history_rows = db.execute("SELECT sender, message FROM chat_history WHERE transcript_id = ? ORDER BY created_at DESC LIMIT 10", (transcript_id,)).fetchall()
-    
-    if not notes_row:
-        db.close()
-        return jsonify({'error': 'Could not retrieve notes for context'}), 404
-    
-    notes_context = notes_row['notes_text']
-    chat_history = [dict(row) for row in reversed(history_rows)]
+    try:
+        with open(os.path.join(data_path, 'notes.md'), 'r', encoding='utf-8') as f:
+            notes_context = f.read()
+        with open(os.path.join(data_path, 'chat_history.json'), 'r', encoding='utf-8') as f:
+            chat_history = json.load(f)
+    except FileNotFoundError:
+        return jsonify({'error': 'Could not retrieve notes or chat history for context'}), 404
 
     ai_response = get_chat_response(user_message, notes_context, chat_history)
     
-    cursor = db.cursor()
-    cursor.execute("INSERT INTO chat_history (transcript_id, sender, message) VALUES (?, 'user', ?)", (transcript_id, user_message))
-    cursor.execute("INSERT INTO chat_history (transcript_id, sender, message) VALUES (?, 'ai', ?)", (transcript_id, ai_response))
-    db.commit()
-    db.close()
+    chat_history.append({'sender': 'user', 'message': user_message})
+    chat_history.append({'sender': 'ai', 'message': ai_response})
+
+    with open(os.path.join(data_path, 'chat_history.json'), 'w', encoding='utf-8') as f:
+        json.dump(chat_history, f)
 
     return jsonify({'response': ai_response})
 
@@ -373,20 +409,20 @@ def edit_session_name(transcript_id):
 @app.route('/delete/<int:transcript_id>', methods=['POST'])
 def delete_session(transcript_id):
     db = get_db()
-    cursor = db.cursor()
-    try:
-        cursor.execute("PRAGMA foreign_keys = ON")
-        cursor.execute("DELETE FROM transcripts WHERE id = ?", (transcript_id,))
-        db.commit()
-        if session.get('current_transcript_id') == transcript_id:
-            session.pop('current_transcript_id', None)
-        return jsonify({'success': True})
-    except sqlite3.Error as e:
-        db.rollback()
-        return jsonify({'error': f'Database error: {e}'}), 500
-    finally:
-        if db:
-            db.close()
+    transcript_row = db.execute("SELECT data_path FROM transcripts WHERE id = ?", (transcript_id,)).fetchone()
+    
+    if transcript_row:
+        shutil.rmtree(transcript_row['data_path'], ignore_errors=True)
+
+    db.execute("DELETE FROM transcripts WHERE id = ?", (transcript_id,))
+    db.commit()
+    db.close()
+    
+    if session.get('current_transcript_id') == transcript_id:
+        session.pop('current_transcript_id', None)
+        session.pop('current_data_path', None)
+        
+    return jsonify({'success': True})
 
 @app.route('/folders', methods=['POST'])
 def create_folder():
@@ -450,3 +486,4 @@ if __name__ == '__main__':
 
     # Use 0.0.0.0 so other devices on your Tailnet can access it
     app.run(host="0.0.0.0", port=443, ssl_context=(cert_file, key_file))
+    #app.run(host="0.0.0.0", port=5000)

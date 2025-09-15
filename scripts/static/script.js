@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const tabPanes = document.querySelectorAll('.tab-pane');
     const sidebar = document.querySelector('.sidebar');
     const addFolderBtn = document.getElementById('add-folder-btn');
+    const visualizer = document.getElementById('visualizer');
     
     // Move Modal Elements
     const moveModal = document.getElementById('move-modal');
@@ -39,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentTranscriptId = null;
     let transcriptToMove = null;
     let pollingInterval = null;
+    let audioContext, analyser, dataArray, source, animationFrameId;
 
     // --- Core Functions ---
     const loadHistory = async () => {
@@ -413,6 +415,54 @@ document.addEventListener('DOMContentLoaded', () => {
         recordBtnText.textContent = isRecording ? 'Stop' : 'Record';
         recordBtn.classList.toggle('recording', isRecording);
     };
+    
+    const startVisualizer = (stream) => {
+        visualizer.classList.remove('hidden');
+        audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        analyser = audioContext.createAnalyser();
+        source = audioContext.createMediaStreamSource(stream);
+        source.connect(analyser);
+    
+        analyser.fftSize = 256;
+        const bufferLength = analyser.frequencyBinCount;
+        dataArray = new Uint8Array(bufferLength);
+    
+        const canvasCtx = visualizer.getContext('2d');
+        const WIDTH = visualizer.width;
+        const HEIGHT = visualizer.height;
+    
+        const draw = () => {
+            if (!isRecording) return;
+            animationFrameId = requestAnimationFrame(draw);
+    
+            analyser.getByteFrequencyData(dataArray);
+    
+            canvasCtx.fillStyle = '#111111';
+            canvasCtx.fillRect(0, 0, WIDTH, HEIGHT);
+    
+            const barWidth = (WIDTH / bufferLength) * 2.5;
+            let barHeight;
+            let x = 0;
+    
+            for (let i = 0; i < bufferLength; i++) {
+                barHeight = dataArray[i] / 2;
+                
+                canvasCtx.fillStyle = 'rgb(0, 122, 255)';
+                canvasCtx.fillRect(x, HEIGHT - barHeight / 2, barWidth, barHeight);
+    
+                x += barWidth + 1;
+            }
+        };
+        draw();
+    };
+    
+    const stopVisualizer = () => {
+        visualizer.classList.add('hidden');
+        cancelAnimationFrame(animationFrameId);
+        if (audioContext) {
+            audioContext.close();
+        }
+    };
 
     // --- Event Handlers ---
     uploadInput.addEventListener('change', (event) => {
@@ -430,6 +480,7 @@ document.addEventListener('DOMContentLoaded', () => {
             try {
                 const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
                 isRecording = true;
+                startVisualizer(stream);
                 audioChunks = [];
                 const supportedTypes = ['audio/mp4', 'audio/webm', 'audio/ogg'];
                 const mimeType = supportedTypes.find(type => MediaRecorder.isTypeSupported(type)) || 'audio/webm';
@@ -445,14 +496,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     sendAudioForTranscription(audioBlob, fileName);
                     stream.getTracks().forEach(track => track.stop());
                     isRecording = false;
-                    updateRecordingUI();
+                    stopVisualizer(); // MODIFIED: Moved this line
+                    updateRecordingUI(); // MODIFIED: Moved this line
                 };
                 
                 mediaRecorder.start();
                 updateRecordingUI();
             } catch (err) {
-                console.error("Error accessing microphone:", err);
-                alert("Could not access microphone. Please check browser permissions.");
+                console.error("Error accessing microphone:", err.name, err.message);
+                if (err.name === 'NotAllowedError') {
+                    alert("Microphone access was denied. Please check browser permissions by clicking the lock icon in the address bar.");
+                } else if (err.name === 'NotFoundError') {
+                    alert("No microphone was found. Please ensure your microphone is connected and enabled.");
+                } else {
+                    alert(`Could not access microphone. Error: ${err.name}. Please ensure you are using HTTPS and have granted permissions.`);
+                }
             }
         }
     });
