@@ -2,8 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NotTurboAI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>LectureScribe AI</title>
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#007aff"/>
+    <link rel="apple-touch-icon" href="/static/images/icons/icon-192x192.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="LectureScribe AI">
+
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
@@ -12,6 +20,7 @@
         <aside class="sidebar">
             <div class="sidebar-header">
                 <h2>History</h2>
+                <button id="add-folder-btn" title="Add New Folder">+</button>
             </div>
             <div id="history-list" class="sidebar-content">
                 <p class="placeholder">No sessions yet.</p>
@@ -21,8 +30,7 @@
         <main class="main-content">
             <header class="main-header">
                 <div class="header-left">
-                    <h1>NotTurboAI</h1>
-                    <!--  TOGGLE BUTTON FOR MOBILE -->
+                    <h1>LectureScribe AI</h1>
                     <button class="sidebar-toggle" aria-label="Toggle History">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <line x1="3" y1="12" x2="21" y2="12"></line>
@@ -40,12 +48,16 @@
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
                         <span>Upload</span>
                     </label>
-                    <input type="file" id="uploadInput" accept="audio/*" hidden>
+                    <input type="file" id="uploadInput" accept="audio/*,video/*,.m4a,audio/mp4" hidden>
+                    <button id="statusBtn" title="Check Queue Status">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2h4v4h-4zM2 10h4v4H2zm16 0h4v4h-4zM10 18h4v4h-4zM6 6h4v4H6zm12 0h4v4h-4zM6 14h4v4H6zm12 0h4v4h-4z"/></svg>
+                        <span>Status</span>
+                    </button>
                 </div>
             </header>
 
             <div id="loader" class="loader-container hidden">
-                <p id="loader-text">Transcribing and generating notes...</p>
+                <p id="loader-text">Transcribing...</p>
                 <div id="progress-container" class="progress-bar-container hidden">
                     <div id="progress-bar" class="progress-bar"></div>
                 </div>
@@ -54,6 +66,7 @@
 
             <div class="tab-nav">
                 <button class="tab-btn active" data-tab="notes">Notes</button>
+                <button class="tab-btn" data-tab="transcription">Transcription</button>
                 <button class="tab-btn" data-tab="chat">Chat</button>
             </div>
 
@@ -61,14 +74,21 @@
                 <div id="notes" class="tab-pane active">
                     <div id="notes-output" class="prose">
                         <div class="placeholder-content">
-                            <h3>Welcome to NotTurboAI</h3>
-                            <p>Record or upload a lecture to get started. Your notes will appear here.</p>
+                            <h3>Welcome to LectureScribe AI</h3>
+                            <p>Record or upload a lecture to get started. Your AI-generated notes will appear here.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="transcription" class="tab-pane">
+                    <div id="transcription-output" class="prose">
+                        <div class="placeholder-content">
+                            <p>Your full transcription will appear here.</p>
                         </div>
                     </div>
                 </div>
                 <div id="chat" class="tab-pane">
                     <div id="chat-messages" class="chat-window">
-                    </div>
+                        </div>
                     <form id="chat-form" class="chat-input-area">
                         <input type="text" id="chat-input" placeholder="Ask a question about the notes..." autocomplete="off" disabled>
                         <button type="submit" id="chat-submit-btn" disabled title="Send Message">
@@ -79,6 +99,44 @@
             </div>
         </main>
     </div>
+
+    <div id="move-modal" class="modal-backdrop hidden">
+        <div class="modal">
+            <h3>Move Session To...</h3>
+            <select id="folder-select"></select>
+            <div class="modal-actions">
+                <button id="cancel-move-btn" class="btn-secondary">Cancel</button>
+                <button id="confirm-move-btn" class="btn-primary">Move</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="status-modal" class="modal-backdrop hidden">
+        <div class="modal">
+            <h3>Transcription Queue Status</h3>
+            <div id="status-modal-content">
+                <p>Loading status...</p>
+            </div>
+            <div class="modal-actions">
+                <button id="close-status-btn" class="btn-primary">Close</button>
+            </div>
+        </div>
+    </div>
+
     <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script>
+      // Register the service worker
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(registration => {
+              console.log('Service Worker registered successfully:', registration.scope);
+            })
+            .catch(error => {
+              console.log('Service Worker registration failed:', error);
+            });
+        });
+      }
+    </script>
 </body>
 </html>

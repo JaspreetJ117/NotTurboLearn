@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const progressBar = document.getElementById('progress-bar');
     const historyList = document.getElementById('history-list');
     const notesOutput = document.getElementById('notes-output');
+    const transcriptionOutput = document.getElementById('transcription-output');
     const chatMessages = document.getElementById('chat-messages');
     const chatForm = document.getElementById('chat-form');
     const chatInput = document.getElementById('chat-input');
@@ -17,58 +18,139 @@ document.addEventListener('DOMContentLoaded', () => {
     const tabBtns = document.querySelectorAll('.tab-btn');
     const tabPanes = document.querySelectorAll('.tab-pane');
     const sidebar = document.querySelector('.sidebar');
+    const addFolderBtn = document.getElementById('add-folder-btn');
+    
+    // Move Modal Elements
+    const moveModal = document.getElementById('move-modal');
+    const folderSelect = document.getElementById('folder-select');
+    const cancelMoveBtn = document.getElementById('cancel-move-btn');
+    const confirmMoveBtn = document.getElementById('confirm-move-btn');
+
+    // Status Modal Elements
+    const statusBtn = document.getElementById('statusBtn');
+    const statusModal = document.getElementById('status-modal');
+    const statusModalContent = document.getElementById('status-modal-content');
+    const closeStatusBtn = document.getElementById('close-status-btn');
 
     // --- State Management ---
     let isRecording = false;
     let mediaRecorder;
     let audioChunks = [];
+    let currentTranscriptId = null;
+    let transcriptToMove = null;
+    let pollingInterval = null;
 
     // --- Core Functions ---
     const loadHistory = async () => {
         try {
             const response = await fetch('/history');
             if (!response.ok) throw new Error('Failed to fetch history.');
-            const history = await response.json();
+            const data = await response.json();
 
             historyList.innerHTML = '';
-            if (history.length === 0) {
+            if (data.folders.length === 0 && data.unfiled.length === 0) {
                 historyList.innerHTML = '<p class="placeholder">No sessions yet.</p>';
                 return;
             }
 
-            history.forEach(item => {
-                const div = document.createElement('div');
-                div.className = 'history-item';
-                div.dataset.id = item.id;
-                
-                const fileName = item.filename || 'Recording';
-                const date = new Date(item.created_at).toLocaleString();
-
-                div.innerHTML = `
-                    <div class="history-item-info">
-                        <p class="filename">${fileName}</p>
-                        <p class="date">${date}</p>
-                    </div>
-                    <div class="history-item-actions">
-                        <button class="edit-btn" title="Edit Name">✏️</button>
-                        <button class="delete-btn" title="Delete Session">🗑️</button>
-                    </div>
-                `;
-                div.querySelector('.history-item-info').addEventListener('click', () => loadSession(item.id));
-                div.querySelector('.edit-btn').addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    editSessionName(item.id, fileName);
-                });
-                div.querySelector('.delete-btn').addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    deleteSession(item.id);
-                });
-                historyList.appendChild(div);
+            data.folders.forEach(folder => {
+                const folderDiv = createFolderElement(folder, data.folders);
+                historyList.appendChild(folderDiv);
             });
+            
+            if (data.unfiled.length > 0) {
+                const unfiledContainer = document.createElement('div');
+                unfiledContainer.className = 'folder-item';
+                
+                const unfiledHeader = document.createElement('div');
+                unfiledHeader.className = 'folder-header';
+                unfiledHeader.textContent = 'Unorganized';
+                unfiledHeader.addEventListener('click', () => unfiledContainer.classList.toggle('open'));
+                unfiledContainer.appendChild(unfiledHeader);
+
+                const unfiledContents = document.createElement('div');
+                unfiledContents.className = 'folder-contents';
+                data.unfiled.forEach(item => {
+                    unfiledContents.appendChild(createTranscriptElement(item, data.folders));
+                });
+                unfiledContainer.appendChild(unfiledContents);
+                historyList.appendChild(unfiledContainer);
+            }
+
         } catch (error) {
             console.error('Failed to load history:', error);
             historyList.innerHTML = `<p class="placeholder">Could not load history.</p>`;
         }
+    };
+
+    const createFolderElement = (folder, allFolders) => {
+        const folderDiv = document.createElement('div');
+        folderDiv.className = 'folder-item';
+
+        const folderHeader = document.createElement('div');
+        folderHeader.className = 'folder-header';
+        
+        const folderNameSpan = document.createElement('span');
+        folderNameSpan.textContent = folder.name;
+        folderHeader.appendChild(folderNameSpan);
+
+        if (folder.name !== 'Unorganized') {
+            const deleteBtn = document.createElement('button');
+            deleteBtn.className = 'delete-folder-btn';
+            deleteBtn.title = 'Delete Folder';
+            deleteBtn.innerHTML = '🗑️';
+            deleteBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                deleteFolder(folder.id, folder.name);
+            });
+            folderHeader.appendChild(deleteBtn);
+        }
+        
+        folderHeader.addEventListener('click', () => folderDiv.classList.toggle('open'));
+        folderDiv.appendChild(folderHeader);
+
+        const folderContents = document.createElement('div');
+        folderContents.className = 'folder-contents';
+        folder.transcripts.forEach(item => {
+            folderContents.appendChild(createTranscriptElement(item, allFolders));
+        });
+        folderDiv.appendChild(folderContents);
+        return folderDiv;
+    };
+    
+    const createTranscriptElement = (item, allFolders) => {
+        const div = document.createElement('div');
+        div.className = 'history-item';
+        div.dataset.id = item.id;
+        
+        const fileName = item.filename || 'Recording';
+        const date = new Date(item.created_at).toLocaleString();
+
+        div.innerHTML = `
+            <div class="history-item-info">
+                <p class="filename">${fileName}</p>
+                <p class="date">${date}</p>
+            </div>
+            <div class="history-item-actions">
+                <button class="move-btn" title="Move Session">➡️</button>
+                <button class="edit-btn" title="Edit Name">✏️</button>
+                <button class="delete-btn" title="Delete Session">🗑️</button>
+            </div>
+        `;
+        div.querySelector('.history-item-info').addEventListener('click', () => loadSession(item.id));
+        div.querySelector('.edit-btn').addEventListener('click', (e) => {
+            e.stopPropagation();
+            editSessionName(item.id, fileName);
+        });
+        div.querySelector('.delete-btn').addEventListener('click', (e) => {
+            e.stopPropagation();
+            deleteSession(item.id);
+        });
+        div.querySelector('.move-btn').addEventListener('click', (e) => {
+            e.stopPropagation();
+            openMoveModal(item.id, allFolders);
+        });
+        return div;
     };
 
     const loadSession = async (transcriptId) => {
@@ -78,9 +160,11 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
             const data = await response.json();
             
+            currentTranscriptId = transcriptId;
             renderNotes(data.notes_markdown);
+            renderTranscription(data.transcript_text);
             renderChatHistory(data.chat_history);
-            enableChat();
+            enableChat(true);
             
             document.querySelectorAll('.history-item').forEach(item => {
                 item.classList.toggle('active', item.dataset.id == transcriptId);
@@ -91,8 +175,8 @@ document.addEventListener('DOMContentLoaded', () => {
             showLoader(false);
         }
     };
-
-    const sendAudioWithProgress = (audioData, fileName) => {
+    
+    const sendAudioForTranscription = (audioData, fileName) => {
         const formData = new FormData();
         formData.append('audio', audioData, fileName);
 
@@ -108,46 +192,128 @@ document.addEventListener('DOMContentLoaded', () => {
                 const percentComplete = Math.round((event.loaded / event.total) * 100);
                 progressBar.style.width = percentComplete + '%';
                 if (percentComplete === 100) {
-                    loaderText.textContent = 'Processing...';
-                    loaderStatus.textContent = 'Transcribing audio with Whisper...';
+                    loaderText.textContent = 'Queued...';
+                    loaderStatus.textContent = 'Your file is in line for transcription.';
                 }
             }
         };
 
         xhr.onload = async () => {
-            loaderStatus.textContent = 'Generating notes with Ollama...';
             if (xhr.status >= 200 && xhr.status < 300) {
                 const data = JSON.parse(xhr.responseText);
-                renderNotes(data.notes_markdown);
-                renderChatHistory([]);
-                await loadHistory();
-                if (data.transcript_id) {
-                    const newItem = historyList.querySelector(`[data-id='${data.transcript_id}']`);
-                    if (newItem) newItem.click();
-                    enableChat();
-                }
+                startPolling(data.job_id);
             } else {
                 let errorMessage = `HTTP error! Status: ${xhr.status}`;
                 try {
                     const errData = JSON.parse(xhr.responseText);
                     errorMessage = errData.error || errorMessage;
                 } catch (e) {}
-                renderNotes(`## Upload Failed\n\n${errorMessage}`);
+                renderNotes(`<h2>Upload Failed</h2><p>${errorMessage}</p>`);
+                showLoader(false);
             }
-            showLoader(false);
         };
         
         xhr.onerror = () => {
-            renderNotes(`## Upload Failed\n\nCould not connect to the server.`);
+            renderNotes(`<h2>Upload Failed</h2><p>Could not connect to the server.</p>`);
             showLoader(false);
         };
 
         xhr.send(formData);
     };
 
+    const startPolling = (jobId) => {
+        stopPolling(); 
+
+        pollingInterval = setInterval(async () => {
+            try {
+                const response = await fetch(`/status/${jobId}`);
+                if (!response.ok) return;
+
+                const data = await response.json();
+                
+                if (data.status === 'processing') {
+                    showLoader(true, 'Transcribing...', 'This may take a few moments.');
+                } else if (data.status === 'completed') {
+                    stopPolling();
+                    await loadHistory();
+                    if(data.transcript_id) {
+                        await loadSession(data.transcript_id);
+                    } else {
+                        showLoader(false);
+                    }
+                } else if (data.status === 'failed') {
+                    stopPolling();
+                    renderNotes(`<h2>Transcription Failed</h2><p>${data.error_message || 'An unknown error occurred.'}</p>`);
+                    showLoader(false);
+                } else if (data.status === 'queued') {
+                    showLoader(true, 'In Queue...', 'Waiting for another job to finish.');
+                }
+
+            } catch (error) {
+                console.error('Polling error:', error);
+            }
+        }, 3000);
+    };
+
+    const stopPolling = () => {
+        if (pollingInterval) {
+            clearInterval(pollingInterval);
+            pollingInterval = null;
+        }
+    };
+
+
+    const openMoveModal = (transcriptId, folders) => {
+        transcriptToMove = transcriptId;
+        folderSelect.innerHTML = '';
+
+        const unorganizedFolder = folders.find(f => f.name === 'Unorganized');
+        if (unorganizedFolder) {
+            const option = document.createElement('option');
+            option.value = unorganizedFolder.id;
+            option.textContent = unorganizedFolder.name;
+            folderSelect.appendChild(option);
+        }
+
+        folders.forEach(folder => {
+            if (folder.name !== 'Unorganized') {
+                const option = document.createElement('option');
+                option.value = folder.id;
+                option.textContent = folder.name;
+                folderSelect.appendChild(option);
+            }
+        });
+
+        moveModal.classList.remove('hidden');
+    };
+
+    const closeMoveModal = () => {
+        transcriptToMove = null;
+        moveModal.classList.add('hidden');
+    };
+
+    const moveSession = async () => {
+        if (!transcriptToMove) return;
+
+        const folderId = folderSelect.value;
+        try {
+            const response = await fetch(`/transcripts/${transcriptToMove}/move`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ folder_id: folderId })
+            });
+            if (!response.ok) throw new Error('Failed to move session.');
+            await loadHistory();
+        } catch (error) {
+            alert(`Error: ${error.message}`);
+        } finally {
+            closeMoveModal();
+        }
+    };
+
     const editSessionName = async (transcriptId, currentName) => {
         const newName = prompt("Enter a new name for this session:", currentName);
-        if (newName && newName.trim() !== "") {
+        if (newName && newName.trim() !== "" && newName.trim() !== currentName) {
             try {
                 const response = await fetch(`/edit/${transcriptId}`, {
                     method: 'POST',
@@ -155,7 +321,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     body: JSON.stringify({ name: newName.trim() })
                 });
                 if (!response.ok) throw new Error('Failed to save new name.');
-                loadHistory();
+                await loadHistory();
             } catch (error) {
                 alert(`Error: ${error.message}`);
             }
@@ -168,13 +334,29 @@ document.addEventListener('DOMContentLoaded', () => {
                 const response = await fetch(`/delete/${transcriptId}`, { method: 'POST' });
                 if (!response.ok) throw new Error('Failed to delete session.');
                 
-                const activeItem = document.querySelector('.history-item.active');
-                if (activeItem && activeItem.dataset.id == transcriptId) {
+                if (currentTranscriptId == transcriptId) {
                     renderNotes('<div class="placeholder-content"><h3>Session Deleted</h3><p>Please select another session or start a new one.</p></div>');
+                    renderTranscription('');
                     renderChatHistory([]);
                     enableChat(false);
+                    currentTranscriptId = null;
                 }
-                loadHistory();
+                await loadHistory();
+            } catch (error) {
+                alert(`Error: ${error.message}`);
+            }
+        }
+    };
+    
+    const deleteFolder = async (folderId, folderName) => {
+        if (confirm(`Are you sure you want to delete the folder "${folderName}"? All sessions inside will be moved to Unorganized.`)) {
+            try {
+                const response = await fetch(`/folders/${folderId}`, { method: 'DELETE' });
+                if (!response.ok) {
+                    const errData = await response.json();
+                    throw new Error(errData.error || 'Failed to delete folder.');
+                }
+                await loadHistory();
             } catch (error) {
                 alert(`Error: ${error.message}`);
             }
@@ -182,18 +364,26 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     
     // --- UI Update Functions ---
-    const showLoader = (isLoading, text = 'Processing...') => {
+    const showLoader = (isLoading, text = 'Processing...', status = '') => {
         loaderText.textContent = text;
+        loaderStatus.textContent = status;
         loader.classList.toggle('hidden', !isLoading);
         if (!isLoading) {
             progressContainer.classList.add('hidden');
             progressBar.style.width = '0%';
-            loaderStatus.textContent = '';
         }
     };
     
     const renderNotes = (markdown) => {
         notesOutput.innerHTML = markdown ? marked.parse(markdown) : '<div class="placeholder-content"><h3>Error</h3><p>Received empty notes from the server.</p></div>';
+    };
+
+    const renderTranscription = (text) => {
+        if (!text || text.trim() === '') {
+            transcriptionOutput.innerHTML = '<div class="placeholder-content"><h3>Transcription is empty.</h3></div>';
+            return;
+        }
+        transcriptionOutput.innerHTML = marked.parse(text);
     };
 
     const renderChatHistory = (history) => {
@@ -228,8 +418,9 @@ document.addEventListener('DOMContentLoaded', () => {
     uploadInput.addEventListener('change', (event) => {
         const file = event.target.files[0];
         if (file) {
-            sendAudioWithProgress(file, file.name);
+            sendAudioForTranscription(file, file.name);
         }
+        event.target.value = null;
     });
 
     recordBtn.addEventListener('click', async () => {
@@ -240,14 +431,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
                 isRecording = true;
                 audioChunks = [];
-                mediaRecorder = new MediaRecorder(stream, { mimeType: 'audio/webm' });
+                const supportedTypes = ['audio/mp4', 'audio/webm', 'audio/ogg'];
+                const mimeType = supportedTypes.find(type => MediaRecorder.isTypeSupported(type)) || 'audio/webm';
+                const fileExtension = mimeType.includes('mp4') ? 'mp4' : 'webm';
+                mediaRecorder = new MediaRecorder(stream, { mimeType: mimeType });
                 
                 mediaRecorder.ondataavailable = e => audioChunks.push(e.data);
                 
                 mediaRecorder.onstop = () => {
-                    const audioBlob = new Blob(audioChunks, { type: 'audio/webm' });
-                    const fileName = `recording_${new Date().toISOString()}.webm`;
-                    sendAudioWithProgress(audioBlob, fileName);
+                    const audioBlob = new Blob(audioChunks, { type: mimeType });
+                    const safeTimestamp = new Date().toISOString().replace(/:/g, '-').replace(/\..+/, '');
+                    const fileName = `recording_${safeTimestamp}.${fileExtension}`;
+                    sendAudioForTranscription(audioBlob, fileName);
                     stream.getTracks().forEach(track => track.stop());
                     isRecording = false;
                     updateRecordingUI();
@@ -256,7 +451,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 mediaRecorder.start();
                 updateRecordingUI();
             } catch (err) {
-                alert("Could not access microphone. Please check permissions.");
+                console.error("Error accessing microphone:", err);
+                alert("Could not access microphone. Please check browser permissions.");
             }
         }
     });
@@ -289,6 +485,23 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    addFolderBtn.addEventListener('click', async () => {
+        const folderName = prompt("Enter a new folder name:");
+        if (folderName && folderName.trim() !== "") {
+            try {
+                const response = await fetch('/folders', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ name: folderName.trim() })
+                });
+                if (!response.ok) throw new Error('Failed to create folder.');
+                await loadHistory();
+            } catch (error) {
+                alert(`Error: ${error.message}`);
+            }
+        }
+    });
+
     tabBtns.forEach(btn => {
         btn.addEventListener('click', () => {
             tabBtns.forEach(b => b.classList.remove('active'));
@@ -299,6 +512,40 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // --- Modal Event Handlers ---
+    confirmMoveBtn.addEventListener('click', moveSession);
+    cancelMoveBtn.addEventListener('click', closeMoveModal);
+    moveModal.addEventListener('click', (e) => {
+        if (e.target === moveModal) closeMoveModal();
+    });
+
+    statusBtn.addEventListener('click', async () => {
+        statusModal.classList.remove('hidden');
+        statusModalContent.innerHTML = '<p>Loading status...</p>';
+        try {
+            const response = await fetch('/queue_status');
+            const data = await response.json();
+            
+            let content = '';
+            if (data.processing_file) {
+                content += `<p><strong>Currently Processing:</strong><br>${data.processing_file}</p>`;
+            } else {
+                content += '<p>No file is currently being processed.</p>';
+            }
+            content += `<p style="margin-top: 1rem;"><strong>Files in Queue:</strong> ${data.queued_count}</p>`;
+            
+            statusModalContent.innerHTML = content;
+        } catch (error) {
+            statusModalContent.innerHTML = '<p>Could not load queue status.</p>';
+        }
+    });
+
+    const closeStatusModal = () => statusModal.classList.add('hidden');
+    closeStatusBtn.addEventListener('click', closeStatusModal);
+    statusModal.addEventListener('click', (e) => {
+        if (e.target === statusModal) closeStatusModal();
+    });
+
     // --- Sidebar Toggle for Mobile ---
     const sidebarToggle = document.querySelector('.sidebar-toggle');
     const sidebarBackdrop = document.createElement('div');
@@ -307,19 +554,26 @@ document.addEventListener('DOMContentLoaded', () => {
     if (sidebarToggle) {
         document.body.appendChild(sidebarBackdrop);
 
-        const toggleSidebar = () => {
+        const toggleSidebar = (forceClose = false) => {
             const isActive = sidebar.classList.contains('active');
-            sidebar.classList.toggle('active', !isActive);
-            sidebarBackdrop.classList.toggle('active', !isActive);
-            document.body.style.overflow = !isActive ? 'hidden' : '';
+            const shouldBeActive = !isActive && !forceClose;
+            sidebar.classList.toggle('active', shouldBeActive);
+            sidebarBackdrop.classList.toggle('active', shouldBeActive);
+            document.body.style.overflow = shouldBeActive ? 'hidden' : '';
         };
 
-        sidebarToggle.addEventListener('click', toggleSidebar);
-        sidebarBackdrop.addEventListener('click', toggleSidebar);
+        sidebarToggle.addEventListener('click', () => toggleSidebar());
+        sidebarBackdrop.addEventListener('click', () => toggleSidebar(true));
+        
+        historyList.addEventListener('click', (e) => {
+             if (e.target.closest('.history-item-info')) {
+                 setTimeout(() => toggleSidebar(true), 150);
+             }
+        });
 
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape' && sidebar.classList.contains('active')) {
-                toggleSidebar();
+                toggleSidebar(true);
             }
         });
     }
