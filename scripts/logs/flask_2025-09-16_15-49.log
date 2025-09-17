@@ -1,0 +1,1869 @@
+Directory '..\data' is ready.
+Database and tables verified successfully.
+Queue processor thread started.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.0.0.26:443
+Press CTRL+C to quit
+100.117.97.99 - - [16/Sep/2025 15:55:41] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 15:55:41] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 15:55:41] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 15:55:41] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 15:55:41] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 15:55:41] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 15:55:48] "GET /session/11 HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 16:04:56] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 16:04:57] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 16:04:57] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 16:04:57] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 16:04:57] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 16:04:57] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 16:05:28] "GET /session/11 HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 16:05:58] "GET /session/10 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:06:09] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:06:09] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [16/Sep/2025 16:06:09] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [16/Sep/2025 16:06:09] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:06:09] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 16:06:09] "GET /favicon.ico HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 16:06:12] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 16:06:29] "GET /session/11 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:06:57] "GET /session/10 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:07:12] "GET /session/9 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:07:17] "GET /session/10 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:10:55] "POST /transcribe HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:10:59] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:01] "GET /queue_status HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:01] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:05] "GET /status/16 HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 16:11:06] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 16:11:06] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 16:11:06] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 16:11:06] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 16:11:06] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 16:11:06] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 16:11:07] "GET /queue_status HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:08] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:11] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:14] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:17] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:20] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:23] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:26] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:29] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:32] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:35] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:38] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:41] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:45] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:47] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:50] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:53] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:56] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:11:59] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:12:02] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:12:05] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:12:09] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:12:11] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:12:14] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:12:17] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:12:20] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:12:23] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:12:26] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:12:29] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:12:32] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:12:41] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:13:41] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:14:41] "GET /status/16 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:14:42] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:15:42] "GET /session/12 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:17:14] "GET /session/9 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:17:17] "GET /session/11 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:20:20] "GET /session/10 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:21:10] "POST /delete/12 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:21:11] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:23:38] "GET /queue_status HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:23:48] "POST /chat HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:28:56] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:28:56] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [16/Sep/2025 16:28:56] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [16/Sep/2025 16:28:56] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 16:28:56] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 16:28:57] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 17:00:15] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 17:00:15] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 17:00:15] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 17:00:15] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 17:00:15] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 17:00:15] "GET /favicon.ico HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 17:00:15] "GET /static/images/icons/icon-192x192.png HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 17:00:16] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 17:09:52] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 17:09:52] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [16/Sep/2025 17:09:52] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [16/Sep/2025 17:09:52] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 17:09:52] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 17:09:54] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 17:19:35] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 17:19:35] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [16/Sep/2025 17:19:35] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [16/Sep/2025 17:19:35] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 17:19:36] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 17:19:36] "GET /favicon.ico HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 17:19:37] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 17:20:07] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 17:21:09] "GET /session/9 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 17:21:13] "GET /session/10 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 17:21:45] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 17:26:46] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 17:26:46] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [16/Sep/2025 17:26:46] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [16/Sep/2025 17:26:46] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 17:26:48] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 17:26:51] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 17:27:22] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 17:31:39] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 17:31:39] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [16/Sep/2025 17:31:39] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [16/Sep/2025 17:31:40] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 17:31:40] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 17:31:41] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 17:32:11] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 18:01:24] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 18:01:52] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 18:01:52] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 18:01:52] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 18:01:52] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 18:01:53] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 18:01:54] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 18:11:25] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 18:11:25] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 18:11:25] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 18:11:25] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 18:11:25] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 18:11:25] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 18:11:31] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 18:11:31] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 18:11:31] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 18:11:31] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 18:11:32] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 18:11:32] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 18:11:32] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 18:11:32] "GET /favicon.ico HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 18:11:32] "GET /static/images/icons/icon-192x192.png HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 18:11:32] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 18:11:35] "GET /static/images/icons/icon-192x192.png HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 18:14:41] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 18:14:41] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 18:14:41] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 18:14:41] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 18:14:41] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 18:14:41] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 18:14:46] "GET /queue_status HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 18:43:30] "POST /transcribe HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 18:43:33] "GET /status/17 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 18:43:36] "GET /status/17 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 18:43:37] "GET /queue_status HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 18:43:39] "GET /status/17 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 18:43:42] "GET /status/17 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 18:43:46] "GET /status/17 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 18:43:48] "GET /status/17 HTTP/1.1" 200 -
+Queue processor checking for a new job...
+Processing job 16: recording_2025-09-16T20-10-35.mp4
+Loading Whisper model for the first time...
+Whisper is using device: cuda
+Whisper model loaded successfully.
+--- Starting Transcription for ../uploads\5b5a1240-5fdd-4b0b-bd2c-64a4f527f0f9.mp4 ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:15.800]  So, this is a very you know it is a longer double value 19.83456, then only include up
+[00:15.800 --> 00:18.800]  to 2 decimal places right.
+[00:18.800 --> 00:23.800]  So, this is what we are going to do.
+[00:23.800 --> 00:42.800]  So, S means that we are going to display a floating type value with a double of flow.
+[00:42.800 --> 00:49.800]  0.2 means only display up to 2 decimal places and this 6 over here this can either be positive
+[00:49.800 --> 00:58.800]  6 or negative 6 just means that need some space either on the left if it is positive
+[00:58.800 --> 01:05.800]  give some space on the left of this value and if it is negative that means need some
+[01:05.800 --> 01:08.800]  space between right of this value right.
+[01:08.800 --> 01:19.800]  So, we are just going to add 6 spaces to the left of this value.
+[01:25.800 --> 01:33.800]  So, it is going to leave 5 spaces up to 6 spaces on the left of this value.
+[01:38.800 --> 01:45.800]  So, here is another example using the same format specifier presentation here which
+[01:45.800 --> 01:52.800]  is used to display or which is used to format how a floating type value is going to be displayed
+[01:52.800 --> 01:53.800]  right.
+[01:53.800 --> 02:04.800]  So, here we have a value 12.123 and we want it to appear right in the middle of the string
+[02:04.800 --> 02:05.800]  right.
+[02:05.800 --> 02:12.800]  So, we have a string start and we have put our format specifier, I said format specifier
+[02:12.800 --> 02:17.800]  is like a place rule right it decides where that value is going to be displayed.
+[02:17.800 --> 02:24.800]  So, we are putting it in between these two strings start and end right and so one you
+[02:24.800 --> 02:31.800]  know printf table is executed this value 12.123 is going to be inserted right here in the
+[02:31.800 --> 02:32.800]  space.
+[02:32.800 --> 02:43.800]  And then it is going to display up to 2 decimal places and it is going to leave 8 blank spaces
+[02:43.800 --> 02:44.800]  towards the left.
+[02:44.800 --> 02:57.800]  So, the C over here is F star where 8 character spaces towards the left right and then you
+[02:57.800 --> 03:04.800]  write 12.123 we only display up to 2 decimal places.
+[03:04.800 --> 03:09.800]  So, this is only 12.123 and then the rest of the string right.
+[03:09.800 --> 03:14.800]  So, it appears right between the start and end right in this particular format.
+[03:14.800 --> 03:19.800]  Similarly, you know we can also use some space after the value right.
+[03:19.800 --> 03:28.800]  So, we are putting negative sign here, negative sign means leave 8 spaces to the right.
+[03:28.800 --> 03:36.800]  So, same value because it is coming to decimal places start and then you put the value here
+[03:36.800 --> 03:45.800]  right 12.12 leave 8 spaces after and then the second string end.
+[04:15.800 --> 04:23.800]  So, this is a similar example instead of a 14.5 like double or flute I want to insert
+[04:23.800 --> 04:30.800]  this string A B C you know in the middle between two strings start and end right.
+[04:30.800 --> 04:35.800]  So, the format specifier for a string is percentage yes.
+--- Transcription Finished ---
+--- Generating Notes with Ollama ---
+--- Notes Generation Finished ---
+Job 16 finalized and removed from queue.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+Queue processor checking for a new job...
+Processing job 17: recording_2025-09-16T22-43-07.mp4
+--- Starting Transcription for ../uploads\60d31d37-08ed-4c15-944a-c04624901c92.mp4 ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:10.000]  Remember, this goes again, if I want to store 11 in the computer using the two component
+[00:10.000 --> 00:12.000]  vectors, this is 11.
+[00:12.000 --> 00:25.000]  If I want to store minus 11 in the computer, to do some subtraction relation, then what
+[00:25.000 --> 00:35.000]  I have to do is I have to store one component for 11, zero, zero, one, zero, and then I
+[00:35.000 --> 00:37.000]  have four ones.
+[00:37.000 --> 00:39.000]  This is the one's component, right?
+[00:39.000 --> 00:41.000]  Change the one, then zero, zero, zero, one.
+[00:41.000 --> 00:43.000]  Then I add one to it, then this will be negative 11.
+[00:43.000 --> 00:45.000]  Then this is how I store negative 11.
+[00:45.000 --> 00:51.000]  Why is a computer going to use the two complement?
+[00:51.000 --> 00:55.000]  Because I can use it in the subtraction.
+[00:55.000 --> 01:01.000]  Suppose that I want to perform 13 minus 11.
+[01:01.000 --> 01:06.320]  because I can use it in the subtle action.
+[01:06.320 --> 01:14.720]  Suppose that I want to perform 13 minus 11.
+[01:14.720 --> 01:17.080]  I don't have minus 11,
+[01:17.080 --> 01:20.640]  I have 13 plus minus 11.
+[01:20.640 --> 01:24.160]  I have 13 plus the two's complement of the algorithm.
+[01:24.160 --> 01:26.920]  So what is 13?
+[01:27.120 --> 01:31.480]  This is 12, this is 13,
+[01:31.480 --> 01:33.880]  root four zeroes here,
+[01:33.880 --> 01:37.840]  and then plus minus 11.
+[01:41.040 --> 01:43.680]  This is minus 11,
+[01:43.680 --> 01:47.720]  but still I'm doing plus operations.
+[01:47.720 --> 01:52.360]  So this one plus one equal zero,
+[01:52.360 --> 01:54.120]  I have a 10 one.
+[01:54.120 --> 01:58.960]  One plus one equals zero.
+[02:05.640 --> 02:08.400]  I have a mistake,
+[02:08.400 --> 02:09.920]  I don't know where the mistake is.
+[02:09.920 --> 02:11.960]  So let me do it again.
+[02:11.960 --> 02:15.040]  This is 17, yes.
+[02:15.040 --> 02:21.400]  This is 0010111, add one,
+[02:21.640 --> 02:26.200]  and this would be 10111.
+[02:26.200 --> 02:29.280]  Okay. Now,
+[02:37.280 --> 02:40.080]  is this zero?
+[02:42.240 --> 02:44.480]  One plus one is zero,
+[02:44.480 --> 02:45.800]  I have a carry one,
+[02:45.800 --> 02:48.440]  but this would be one.
+[02:49.280 --> 02:51.120]  Why?
+[02:51.120 --> 02:54.400]  Just give me a second.
+[02:56.560 --> 02:59.560]  This is 11.
+[03:04.880 --> 03:07.680]  This is 11, yes.
+[03:07.680 --> 03:12.560]  Oh, this is zero here.
+[03:12.560 --> 03:14.920]  This one is here, right?
+[03:14.920 --> 03:18.880]  Okay, I'll give you a little bit.
+[03:18.880 --> 03:20.560]  So I have here,
+[03:20.560 --> 03:23.320]  and zero one.
+[03:25.800 --> 03:28.200]  Okay, zero I have a carry one,
+[03:28.200 --> 03:32.320]  zero, zero, zero, zero, zero, one.
+[03:32.320 --> 03:34.400]  What is this result?
+[03:34.400 --> 03:38.280]  This carry, this carry.
+[03:38.280 --> 03:42.080]  So I just have this carry.
+[03:42.080 --> 03:43.320]  Okay.
+[03:43.320 --> 03:52.120]  And the result is two.
+[03:52.320 --> 03:54.360]  The result is two.
+[03:54.360 --> 03:57.400]  17 minus 11 is two.
+[03:57.400 --> 04:02.000]  So 17 plus minus 11,
+[04:02.000 --> 04:05.280]  13 plus minus 11,
+[04:06.080 --> 04:08.960]  which was minus three.
+[04:09.960 --> 04:14.400]  So this is why we use the two's common.
+[04:14.400 --> 04:19.240]  Okay, but what is our goal today?
+[04:19.240 --> 04:25.000]  Our goal today is to deal with large numbers.
+[04:25.000 --> 04:28.880]  When I deal with large numbers,
+[04:28.880 --> 04:31.720]  the easiest way is to use the power.
+[04:31.720 --> 04:34.880]  Okay, let us talk about the discipline.
+[04:34.880 --> 04:39.960]  If I want to say the distance from the Earth to the Sun,
+[04:39.960 --> 04:43.640]  I think it is like this range.
+[04:43.640 --> 04:53.120]  I don't remember, but suppose it is three times 10 to the power 12 perimeter,
+[04:53.120 --> 04:54.720]  the distance.
+[04:54.720 --> 04:57.960]  So now I'm talking about large distance.
+[04:57.960 --> 05:02.840]  How can I talk about large distance and discuss it in the computer?
+[05:02.840 --> 05:06.560]  So one way to think about it is, in this case,
+[05:06.560 --> 05:10.520]  I only need to store this number and this number.
+[05:10.520 --> 05:11.880]  Right?
+[05:11.880 --> 05:16.760]  I can use one byte for this number and one byte for this number.
+[05:16.760 --> 05:23.120]  So I can store very large numbers.
+[05:23.120 --> 05:27.920]  But if I want to store also very small numbers,
+[05:27.920 --> 05:32.120]  then I can, instead of store this number directly,
+[05:32.120 --> 05:35.080]  I will add say 100 to it.
+[05:35.080 --> 05:42.640]  If I add 12 plus 100, then I will store 112 at the same time as 12.
+[05:42.640 --> 05:45.760]  And I will store three in another byte.
+[05:45.760 --> 05:50.080]  So I store one byte for this number, one byte for this number.
+[05:50.080 --> 05:57.760]  So if I have here minus 20, I add 100 minus 20 plus 100,
+[05:57.760 --> 06:02.000]  then I will add a score into it.
+[06:02.000 --> 06:03.400]  So it's still positive.
+[06:03.400 --> 06:08.440]  But I'm trying to show you that I want to store large numbers
+[06:08.440 --> 06:11.320]  and the small numbers in the computer.
+[06:11.320 --> 06:14.920]  So I started by this image to give you an idea.
+[06:14.920 --> 06:19.440]  But I will use binary numbers at the end.
+[06:19.440 --> 06:25.840]  And if I want to store minus 3 times 10 to the power of 12,
+[06:25.840 --> 06:29.080]  then for this minus, I need one bit.
+[06:29.080 --> 06:35.040]  OK, so you got the idea that I will need to store the power.
+[06:35.040 --> 06:37.520]  And this is what we are going to do actually.
+[06:37.520 --> 06:43.560]  What we are going to do here is we're going to store the number.
+[06:43.560 --> 06:48.280]  This is for single precision clothing binary number.
+[06:48.280 --> 06:52.280]  I need one bit for the sign.
+[06:52.280 --> 06:56.880]  And I need to store e.
+[06:56.880 --> 06:58.560]  This is e.
+[06:58.560 --> 07:00.040]  This is the number.
+[07:00.040 --> 07:03.320]  This is the binary number, big number.
+[07:03.320 --> 07:08.160]  So I will represent it as one point something
+[07:08.160 --> 07:12.560]  to multiply by 2 to the power of something.
+[07:12.560 --> 07:14.480]  In this case, it's 2 to the power of 12,
+[07:14.480 --> 07:19.120]  because I have 1, 2, 3, 4, 5, 6, 7, 8, 12.
+[07:19.120 --> 07:21.000]  That's where it digits.
+[07:21.000 --> 07:24.640]  I don't need to store 1, because 1 is always there.
+[07:24.640 --> 07:27.120]  So I need to store the power.
+[07:27.120 --> 07:30.760]  I need to store this number.
+[07:30.760 --> 07:37.600]  And in order to store also small numbers,
+[07:37.600 --> 07:45.120]  as I explained a minute ago, I will add 157 to the number.
+[07:45.120 --> 07:51.120]  So again, this number, I want to store it in the computer.
+[07:51.120 --> 07:53.200]  So I'm going to store the 12.
+[07:53.200 --> 07:54.840]  I'm going to store this number.
+[07:54.840 --> 07:58.000]  But I'm going to store 12 with 157,
+[07:58.000 --> 08:00.680]  because if this is minus 12, then I
+[08:00.680 --> 08:04.320]  will add minus 12 with 157.
+[08:04.320 --> 08:07.600]  So I will extend those numbers, because we don't have
+[08:07.600 --> 08:11.280]  those numbers in the computer.
+[08:11.280 --> 08:15.080]  We store it like when we talked about the two components.
+[08:15.080 --> 08:17.800]  We store the relative number.
+[08:17.800 --> 08:19.680]  Good.
+[08:19.680 --> 08:23.360]  And if I want to get the original number back,
+[08:23.360 --> 08:27.560]  I will subtract the 127.
+[08:27.560 --> 08:32.400]  So it will end up that the store the number is number.
+[08:32.400 --> 08:33.240]  This number.
+[08:33.240 --> 08:35.120]  Positive?
+[08:35.120 --> 08:35.880]  Yes.
+[08:35.880 --> 08:37.760]  So I will see.
+[08:37.760 --> 08:39.600]  How many bits I have here?
+[08:39.600 --> 08:41.840]  32 bits.
+[08:41.840 --> 08:43.080]  I have 32 bits.
+[08:43.080 --> 08:44.560]  What is here?
+[08:44.560 --> 08:48.760]  This 12 plus 127.
+[08:48.760 --> 08:54.160]  So it is 139, which is this number.
+[08:54.160 --> 08:57.200]  This is 139.
+[08:57.200 --> 08:57.880]  Why quickly?
+[08:57.880 --> 09:00.880]  Why this is 139?
+[09:00.880 --> 09:03.200]  This one is 126.
+[09:03.200 --> 09:05.200]  128.
+[09:05.200 --> 09:11.840]  2, 4, 8, 16, 72, 64, 128.
+[09:11.840 --> 09:13.920]  So I have 128 plus.
+[09:13.920 --> 09:15.440]  128 plus 3.
+[09:15.440 --> 09:20.040]  I have 128 plus 13.
+[09:20.040 --> 09:26.080]  128 plus 13 is 179.
+[09:26.080 --> 09:28.720]  179.
+[09:28.720 --> 09:32.400]  So I will store 179 in the end.
+[09:32.400 --> 09:33.840]  This is 0.
+[09:33.840 --> 09:35.200]  What is f?
+[09:35.200 --> 09:39.600]  f is this number without 1, because I don't need to store
+[09:39.600 --> 09:40.100]  1.
+[09:40.100 --> 09:41.560]  I know that this is 1.
+[09:41.560 --> 09:46.520]  0, 1, 1, 0, 1, 0, 1, 1, 0, 1.
+[09:46.520 --> 09:50.640]  And then I wrote the rest of the number.
+[09:50.640 --> 09:53.520]  Questions?
+[09:53.520 --> 09:58.000]  So as you can see here, I stored my number.
+[09:58.000 --> 10:01.280]  And if I give you this number and I ask you the original
+[10:01.280 --> 10:03.320]  number, what do you do?
+[10:03.320 --> 10:07.440]  You know that this e is the original number, but we added
+[10:07.440 --> 10:11.640]  127.
+[10:11.640 --> 10:16.880]  So I will subtract 127 from this number.
+[10:16.880 --> 10:19.360]  What do I get?
+[10:19.360 --> 10:22.400]  127 from the 179.
+[10:22.400 --> 10:24.520]  I will get the 12, and then I will know that this is
+[10:24.520 --> 10:26.400]  the correct one.
+[10:26.400 --> 10:29.400]  And I will find what is this number.
+[10:29.400 --> 10:33.520]  And I will put this f here.
+[10:33.520 --> 10:35.280]  And then I can get the original number.
+[10:38.200 --> 10:43.680]  Given this number converted into the same floating
+[10:43.680 --> 10:47.080]  points, yes, we can.
+[10:47.080 --> 10:48.880]  We can.
+[10:48.880 --> 10:56.480]  One bit for the sign, 8 bits for e, 23 bits for a.
+[10:56.480 --> 11:02.800]  So you can store small numbers, and you can store very
+[11:02.800 --> 11:05.040]  large numbers.
+[11:05.040 --> 11:11.720]  Of course, you expect that the 64 bit will be better than
+[11:11.720 --> 11:16.160]  32 bits, and 128 bit will be better.
+[11:16.160 --> 11:18.880]  But here, it's an end-the-method.
+[11:18.880 --> 11:24.560]  And I want you to memorize the method itself.
+[11:24.560 --> 11:28.160]  The method, not exactly what we are doing.
+[11:28.160 --> 11:36.480]  The method is we use one byte for e, or two bytes for e,
+[11:36.480 --> 11:41.760]  three bytes for f, one bit for the sign.
+[11:41.760 --> 11:46.280]  But am I going to ask you a question in the final exam to
+[11:46.280 --> 11:52.720]  convert number to the floating point?
+[11:52.720 --> 11:53.720]  No.
+[11:53.720 --> 11:56.320]  Unless I give you the method.
+[11:56.320 --> 11:57.680]  Unless I give you this method.
+[11:57.680 --> 12:02.960]  So I don't want you to fall with a lot of memorization.
+[12:02.960 --> 12:04.440]  So don't even memorize.
+[12:04.440 --> 12:07.080]  Can I ask you this question in the end-term exam?
+[12:07.080 --> 12:08.160]  Of course, yes.
+[12:08.160 --> 12:11.080]  End-term exam is the big, home exam.
+[12:11.080 --> 12:12.400]  So you have the book.
+[12:12.400 --> 12:15.560]  You can go for the method and the other method.
+[12:15.560 --> 12:18.480]  Can I ask you a question about my lab assignment?
+[12:18.480 --> 12:19.480]  Yes.
+[12:19.480 --> 12:22.440]  Because again, you have the book, and you can go for the
+[12:22.440 --> 12:26.760]  method and go for binary.
+[12:26.760 --> 12:34.840]  So the floating point or from the floating point representation
+[12:34.840 --> 12:37.120]  to the original number.
+[12:37.120 --> 12:40.560]  So if I give you the number, it's equal to minus 1 to the
+[12:40.560 --> 12:41.560]  power of s.
+[12:41.560 --> 12:46.680]  If s is 0, then the number is positive.
+[12:46.680 --> 12:50.120]  If s is 1, the number is negative.
+[12:50.120 --> 12:55.400]  Here we have 1 plus f, 2 to the power of e, and subtract the
+[12:55.400 --> 12:59.080]  1.5 percent that you added in the design.
+[12:59.080 --> 13:00.320]  Questions?
+[13:14.320 --> 13:18.960]  So if I give you the number, and represent it to binary, find
+[13:18.960 --> 13:22.160]  how many digits.
+[13:22.400 --> 13:27.360]  1.11111 times the power of 14.
+[13:27.360 --> 13:28.840]  Here, 14 digits.
+[13:28.840 --> 13:31.080]  1.14 digits.
+[13:31.080 --> 13:34.960]  You add 157 to the 14.
+[13:34.960 --> 13:37.760]  And then this is your team.
+[13:37.760 --> 13:40.440]  This is your team.
+[13:40.440 --> 13:43.960]  And this number is here.
+[13:46.440 --> 13:50.240]  Starting from after the point.
+[13:50.400 --> 13:51.640]  OK.
+[13:55.360 --> 14:00.160]  Now back to our tools complement.
+[14:00.160 --> 14:04.440]  I remember that we addressed overflow.
+[14:04.440 --> 14:09.160]  Overflow means the result is not correct.
+[14:09.160 --> 14:14.040]  When the result is going to be not correct, this bit, this
+[14:14.040 --> 14:17.720]  last bit, is a signed bit.
+[14:17.720 --> 14:21.640]  When this is 0, the number is positive.
+[14:21.640 --> 14:25.200]  So suppose that you add two positive numbers, and you
+[14:25.200 --> 14:26.480]  find the signed bit changed.
+[14:29.880 --> 14:36.600]  Like in this case, you add this number, 155 plus 58.
+[14:36.600 --> 14:38.280]  What did you get?
+[14:38.280 --> 14:40.360]  Negative number.
+[14:40.360 --> 14:43.400]  Because this bit is for negative.
+[14:43.400 --> 14:46.440]  Then you would say, yeah, overflow.
+[14:46.440 --> 14:50.040]  You will learn in this course how to design a circuit, very
+[14:50.040 --> 14:55.120]  simple circuit, that when this is 0, this is 0, and this is
+[14:55.120 --> 14:58.720]  1, they are all.
+[14:58.720 --> 15:04.080]  Because this has to be the same sign.
+[15:04.080 --> 15:07.520]  If this is 1, this is 1, and this is 0, they are all.
+[15:07.520 --> 15:11.120]  So if you add two negative numbers or two positive
+[15:11.120 --> 15:15.840]  numbers, then there is a possibility of overflow.
+[15:15.840 --> 15:20.320]  But if you add positive number, the last, the first
+[15:20.320 --> 15:25.000]  component of 24, in this case, means you subtract the
+[15:25.000 --> 15:29.720]  number, then you will never get overflow.
+[15:29.720 --> 15:34.480]  Because you are from the originally, if you have
+[15:34.480 --> 15:38.000]  different signs, then there is no overflow.
+[15:38.000 --> 15:40.600]  16 plus minus 24.
+[15:40.600 --> 15:44.760]  How do I get this minus 24?
+[15:44.800 --> 15:48.960]  You write 24, and then you find the one's complement, and
+[15:48.960 --> 15:50.240]  then you add one.
+[15:50.240 --> 15:54.560]  Then you do get the two's complement.
+[15:54.560 --> 15:57.640]  This is the two's complement of 24.
+[15:57.640 --> 16:03.720]  So this operation is 16 minus 24.
+[16:03.720 --> 16:08.920]  The result is negative 8, which is correct.
+[16:08.920 --> 16:09.880]  Yes?
+[16:09.880 --> 16:14.640]  So if you're doing plus negative 24, you just do 24
+[16:14.640 --> 16:17.280]  as binary number, and then put an extra one in front?
+[16:17.280 --> 16:19.520]  No, you have to get the two's complement.
+[16:19.520 --> 16:22.240]  Let me do it in between.
+[16:22.240 --> 16:23.480]  16 minus 24.
+[16:33.400 --> 16:36.840]  16 minus 24.
+[16:36.840 --> 16:38.440]  How do I do that?
+[16:38.440 --> 16:41.520]  16 is 1, 0, 0, 0.
+[16:41.520 --> 16:42.280]  This is 8.
+[16:42.280 --> 16:43.960]  This is 16.
+[16:43.960 --> 16:46.760]  And I'm using 8 bits.
+[16:46.760 --> 16:48.360]  So this is 8 bits.
+[16:48.360 --> 16:49.320]  Right?
+[16:49.320 --> 16:51.200]  What is 24?
+[16:51.200 --> 16:54.720]  24 is 16 plus 8.
+[16:54.720 --> 16:55.480]  Right?
+[16:55.480 --> 17:00.160]  1, 0, 1, 0, 0, 0.
+[17:00.160 --> 17:00.640]  Let me see.
+[17:00.640 --> 17:02.120]  This is 8, 0.
+[17:02.120 --> 17:03.360]  This is.
+[17:06.000 --> 17:07.240]  What is this number?
+[17:09.280 --> 17:15.880]  This is 8 plus 16 equal to 24.
+[17:15.880 --> 17:19.320]  The way that I get the two's complement is I change.
+[17:19.320 --> 17:23.440]  I have to use the right number of bits.
+[17:23.440 --> 17:27.040]  I change 0 into 1.
+[17:27.040 --> 17:31.280]  1, 1, 0, 0, 1, 1, 1.
+[17:31.280 --> 17:32.640]  What is this number?
+[17:32.640 --> 17:35.520]  This is the ones on the right.
+[17:35.520 --> 17:36.680]  The ones from.
+[17:36.680 --> 17:39.200]  I add 1, then I get the two's complement.
+[17:39.200 --> 17:41.160]  1 plus 1 is 0.
+[17:41.160 --> 17:45.680]  1 plus 1 is 0.
+[17:45.680 --> 17:49.240]  1 plus 1 is 0.
+[17:49.240 --> 17:53.040]  And this is 0, 1, 1, 1.
+[17:53.040 --> 17:55.280]  What is this number?
+[17:55.280 --> 18:02.760]  This is the two's complement of 24.
+[18:02.760 --> 18:04.360]  Questions?
+[18:04.360 --> 18:05.200]  Yes?
+[18:05.200 --> 18:08.360]  Do you know the right number of bits to use?
+[18:08.360 --> 18:09.880]  No, it will be given.
+[18:09.880 --> 18:13.360]  So given 8 bits, then use 8 bits.
+[18:13.360 --> 18:16.920]  Given 16 bits, then use 16 bits.
+[18:16.920 --> 18:20.320]  But we will use 8 bits.
+[18:20.320 --> 18:22.800]  I'm going to talk about this very soon.
+[18:22.800 --> 18:27.120]  So this is why I said I'm not going to say this is 16, 3.
+[18:27.120 --> 18:30.080]  No, I have to go to 3, 0.
+[18:30.080 --> 18:36.600]  Now 16 represented in two's complement.
+[18:36.600 --> 18:39.120]  Represented in 8 bits.
+[18:39.120 --> 18:40.080]  8 bits.
+[18:40.080 --> 18:41.960]  This is 16.
+[18:41.960 --> 18:46.640]  This is minus 24.
+[18:46.640 --> 18:55.120]  Or this is what we say the two's complement of 24.
+[18:55.120 --> 18:59.800]  Subtraction is addition to the two's complement.
+[18:59.800 --> 19:02.360]  So this is 16.
+[19:02.360 --> 19:06.200]  This is two's complement of 64.
+[19:06.200 --> 19:07.280]  Then we add.
+[19:07.280 --> 19:09.040]  We already have adders.
+[19:09.040 --> 19:12.040]  We get the adders.
+[19:12.040 --> 19:13.600]  We get the adder.
+[19:13.600 --> 19:18.480]  And we have another circuit that does the two's complement.
+[19:18.480 --> 19:27.960]  So addition is actually going to use the sub-traction for us.
+[19:27.960 --> 19:29.320]  0 plus 0 is 0.
+[19:29.320 --> 19:35.520]  0, 0, 1, 1, 1, 1, 1.
+[19:35.520 --> 19:37.240]  So this is the result.
+[19:46.560 --> 19:49.320]  How about the state?
+[19:49.320 --> 19:51.680]  Do I have a state now?
+[19:51.680 --> 19:54.560]  Correct.
+[19:54.560 --> 19:57.160]  What is this number?
+[19:57.160 --> 19:58.000]  This is negative.
+[20:15.320 --> 20:19.320]  If I have a negative number, that means that it is in the two's
+[20:19.320 --> 20:21.760]  complement format.
+[20:21.760 --> 20:30.720]  I have autocompletion to give me the number.
+[20:30.720 --> 20:34.640]  The way that I do it, but the book has different way.
+[20:34.640 --> 20:36.640]  And you should know both ways.
+[20:36.640 --> 20:41.200]  The book, both here, 2 to the power negative number.
+[20:41.200 --> 20:44.680]  But what I'm going to do is I know that this is the two's
+[20:44.680 --> 20:46.960]  complement.
+[20:46.960 --> 20:49.520]  Then what was the last thing that we did for the two's
+[20:49.520 --> 20:50.640]  complement?
+[20:50.640 --> 20:52.720]  We added 1.
+[20:52.720 --> 20:55.120]  I'm going to subtract the 1.
+[20:55.120 --> 21:03.000]  So if I subtract 1 from this number, we will have here 1, 1,
+[21:03.000 --> 21:08.360]  1, 0, 1, 1, 1, 1.
+[21:08.360 --> 21:11.400]  I subtracted 1 from this number.
+[21:11.400 --> 21:18.320]  If I add 1, then this would be 0, 0, 0, 1, 1, 1, 1.
+[21:18.320 --> 21:19.320]  I subtracted 1.
+[21:19.320 --> 21:20.120]  Why?
+[21:20.120 --> 21:21.520]  It's easier.
+[21:21.520 --> 21:25.080]  And then I changed the amount into 0, 0, 1.
+[21:25.080 --> 21:29.040]  0, 0, 0, 1, 0, 0, 0, 0, 0.
+[21:29.040 --> 21:31.920]  What is this number?
+[21:31.920 --> 21:34.640]  8.
+[21:34.640 --> 21:40.880]  So the number that was given here is negative.
+[21:44.560 --> 21:45.760]  I do it this way.
+[21:45.760 --> 21:48.240]  You do it in another place.
+[21:48.240 --> 21:52.880]  But we know that this number is negative.
+[21:52.880 --> 21:53.360]  Why?
+[21:53.360 --> 21:57.440]  Because this bit is for the negative.
+[21:57.440 --> 21:58.680]  Questions?
+[22:03.080 --> 22:08.560]  So we can do subtractions by using the two's complement.
+[22:08.560 --> 22:12.720]  If I wanted to represent minus 5, then I have to give minus 5
+[22:12.720 --> 22:14.760]  the two's complement of 5.
+[22:14.760 --> 22:21.240]  Plus the two's complement of 9 to do minus 5 minus 9.
+[22:21.240 --> 22:22.520]  And then I do it carefully.
+[22:22.520 --> 22:24.800]  I will get minus 14.
+[22:24.800 --> 22:28.080]  And I will change the number here.
+[22:28.080 --> 22:32.360]  And when I do the addition, this is the value.
+[22:32.360 --> 22:33.600]  OK.
+[22:33.600 --> 22:35.800]  You want to verify that this is minus 14.
+[22:35.800 --> 22:38.760]  One way to do it is to re-do it today, subtract 1,
+[22:38.760 --> 22:40.040]  and the change gives you 1.
+[22:40.040 --> 22:43.560]  And then you'll get the same result.
+[22:43.560 --> 22:46.880]  When the problem will happen, the problem
+[22:46.880 --> 22:52.960]  will happen overflow if both of them have the same sign,
+[22:52.960 --> 22:56.640]  and the result is different sign.
+[22:56.640 --> 23:01.400]  Then this is obviously a problem.
+[23:01.400 --> 23:05.160]  Now question, but I think he solved the question.
+[23:05.160 --> 23:09.240]  How can I improve my system?
+[23:09.240 --> 23:15.840]  I can improve my system if instead of using bytes,
+[23:15.840 --> 23:19.680]  I use two bytes.
+[23:19.680 --> 23:25.640]  If I use two bytes, then the sign bit will be here.
+[23:25.640 --> 23:30.640]  Then there is no overflow in this case.
+[23:30.640 --> 23:31.640]  Why?
+[23:31.640 --> 23:37.640]  Because I spent money and I have to do the subtraction.
+[23:37.640 --> 23:40.880]  I spent money and instead of using one byte,
+[23:40.880 --> 23:48.800]  I'm using two bytes, three bytes, four bytes.
+[23:48.800 --> 23:51.640]  Then I will present the overflow.
+[24:01.000 --> 24:01.500]  Questions?
+[24:01.500 --> 24:06.500]  What is multiplication?
+[24:06.500 --> 24:08.500]  How did we do the multiplication?
+[24:12.500 --> 24:13.500]  In the December.
+[24:17.500 --> 24:29.500]  If I have the 7 times 1 is 7, 7 times 3 is 7,
+[24:29.500 --> 24:37.500]  7 times 3 is 1, 1, 3, and then I add.
+[24:37.500 --> 24:42.500]  So I multiply and shift and I add.
+[24:42.500 --> 24:44.500]  And this is what I will do.
+[24:44.500 --> 24:48.500]  1, 0, 1, say times 1, 0, 1.
+[24:48.500 --> 24:51.500]  1 times 1 is 1, 0, 1.
+[24:51.500 --> 24:55.500]  0 times 1 is 0, 0, 0.
+[24:55.500 --> 24:59.500]  1 times 1 is 1, 0, 1.
+[24:59.500 --> 25:00.500]  So easy.
+[25:00.500 --> 25:01.500]  I multiply and shift.
+[25:01.500 --> 25:03.500]  Multiply and shift.
+[25:03.500 --> 25:04.500]  And then I add.
+[25:04.500 --> 25:11.500]  1, 0, 1 plus 1, 0, 1, 1.
+[25:11.500 --> 25:14.500]  What is this number?
+[25:14.500 --> 25:17.500]  9 plus 16, 25.
+[25:17.500 --> 25:18.500]  This is 5.
+[25:18.500 --> 25:19.500]  This is 5.
+[25:19.500 --> 25:22.500]  5 times 5 is 25.
+[25:22.500 --> 25:23.500]  OK.
+[25:23.500 --> 25:34.500]  So multiplication is done the same way as we did for the December.
+[25:34.500 --> 25:36.500]  We multiply.
+[25:36.500 --> 25:38.500]  We shift and add.
+[25:43.500 --> 25:47.500]  Subtraction we add to the two squares.
+[25:47.500 --> 25:50.500]  What is left is the division.
+[25:50.500 --> 25:58.500]  And we can do the division the same way that we did for December.
+[25:58.500 --> 26:09.500]  Suppose that I have here 1, 0, 1, 0 divided by 1, 0, 1.
+[26:09.500 --> 26:19.500]  So this would be 1, 0, 1, 0 divided by 1, 0, 1 is 0.
+[26:19.500 --> 26:25.500]  So that means that 10 divided by 5 is equal to.
+[26:31.500 --> 26:38.500]  Or we can have 1, 0, 0, 1.
+[26:38.500 --> 26:41.500]  So this is 9 plus 16.
+[26:41.500 --> 26:44.500]  1, 0, 1.
+[26:44.500 --> 26:48.500]  1 times 1, 0, 1 is 1, 0, 1.
+[26:48.500 --> 26:52.500]  When I subtract, I will get 1.
+[26:52.500 --> 26:55.500]  And then 0, 1.
+[26:55.500 --> 26:58.500]  1, 0, 1 divided by 1, 0, 1.
+[27:01.500 --> 27:10.500]  When I got a 0 and I divide it to be 0, and I got a 1, I divide it as 1.
+[27:10.500 --> 27:15.500]  Similar to what we do in the division in the case of the December.
+[27:15.500 --> 27:18.500]  So this is 25.
+[27:18.500 --> 27:22.500]  1 divided by 5 is 5.
+[27:29.500 --> 27:30.500]  Okay.
+[27:30.500 --> 27:37.500]  Last time I mentioned something about the ratio that I talked about in this group as well.
+[27:37.500 --> 28:04.500]  So I talked about if I have 0, 1, 0, 1, 0, 1, 0, to infinity, there is a thread that when you share, in binary, the current from the multiply by group.
+[28:04.500 --> 28:07.500]  So how many shares need to be here?
+[28:07.500 --> 28:08.500]  Two.
+[28:08.500 --> 28:12.500]  So I will have 2 times 2, this equal.
+[28:12.500 --> 28:14.500]  I do two shares.
+[28:14.500 --> 28:17.500]  1, 0, 1, 0, 1, 0.
+[28:17.500 --> 28:22.500]  So if I subtract this part from this part, I will end up having 1, 0.
+[28:22.500 --> 28:26.500]  And for this minus this, this for this minus this is 3.
+[28:26.500 --> 28:28.500]  This is in binary.
+[28:28.500 --> 28:32.500]  Then S equal, this is 2, 2 over 3.
+[28:32.500 --> 28:33.500]  Right?
+[28:33.500 --> 28:42.500]  But did I mention that also this is of course correct if I'm talking about say octal.
+[28:42.500 --> 28:44.500]  3, 5.
+[28:44.500 --> 28:46.500]  3, 5.
+[28:46.500 --> 28:48.500]  3, 5.
+[28:48.500 --> 28:52.500]  But this is given as octal.
+[28:52.500 --> 28:56.500]  Octal, the shift is multiplied by?
+[28:56.500 --> 28:57.500]  8.
+[28:57.500 --> 28:59.500]  How many shifts I need?
+[28:59.500 --> 29:00.500]  2.
+[29:00.500 --> 29:06.500]  So 8 times 8 equal 3, 5.
+[29:06.500 --> 29:11.500]  3, 5, 3, 5, 3, 5.
+[29:11.500 --> 29:14.500]  So this is 64.
+[29:14.500 --> 29:16.500]  Minus 1 equal?
+[29:16.500 --> 29:18.500]  63.
+[29:18.500 --> 29:22.500]  And this series now is gone.
+[29:22.500 --> 29:24.500]  I have 3, 5.
+[29:24.500 --> 29:26.500]  The rate is?
+[29:26.500 --> 29:27.500]  Octal.
+[29:27.500 --> 29:29.500]  Octal, 8.
+[29:29.500 --> 29:31.500]  So S equal?
+[29:31.500 --> 29:33.500]  3, 5.
+[29:33.500 --> 29:38.500]  This 8 means 3 times e to the power 1.
+[29:38.500 --> 29:41.500]  Plus 5 times e to the power?
+[29:41.500 --> 29:42.500]  Huh?
+[29:42.500 --> 29:44.500]  0.
+[29:44.500 --> 29:49.500]  3 times 8 is 24, 24 plus 5 is?
+[29:49.500 --> 29:51.500]  29.
+[29:51.500 --> 29:53.500]  By the time?
+[29:53.500 --> 29:55.500]  By the time.
+[29:55.500 --> 29:57.500]  By the time.
+[29:57.500 --> 29:59.500]  By the time.
+[29:59.500 --> 30:02.500]  So all that you decided to say I am confused.
+[30:02.500 --> 30:05.500]  I want to go to finite number.
+[30:05.500 --> 30:09.500]  3, 5 means what is 3, 5?
+[30:09.500 --> 30:15.500]  3 in 3 bits will be 1, 1, 0.
+[30:15.500 --> 30:17.500]  5 is 1, 0, 1.
+[30:17.500 --> 30:20.500]  Then 0, 1, 1.
+[30:20.500 --> 30:23.500]  1, 0, 1, 8.
+[30:23.500 --> 30:26.500]  That's all.
+[30:26.500 --> 30:30.500]  How many shifts I need to do so the pattern will repeat?
+[30:30.500 --> 30:32.500]  6.
+[30:32.500 --> 30:35.500]  6 shifts.
+[30:35.500 --> 30:41.500]  Here I needed 2 shifts.
+[30:41.500 --> 30:44.500]  For each 3 shifts is like 8.
+[30:44.500 --> 30:49.500]  2 times 2 times 2 times 2 times 2 times 2.
+[30:49.500 --> 30:57.500]  6 times 2 times 2 times 2, 2 to the power 6.
+[30:57.500 --> 31:00.500]  Yes?
+[31:00.500 --> 31:03.500]  Equal?
+[31:03.500 --> 31:06.500]  6 and 1.
+[31:13.500 --> 31:16.500]  Oops.
+[31:16.500 --> 31:19.500]  So I needed 2 to the power 6.
+[31:19.500 --> 31:21.500]  What is 2 to the power 6?
+[31:21.500 --> 31:23.500]  It's 4.
+[31:23.500 --> 31:25.500]  Is this the same?
+100.117.97.99 - - [16/Sep/2025 19:13:33] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:13:33] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 19:13:33] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 19:13:33] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 19:13:33] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:13:33] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 19:13:36] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:13:59] "GET /session/9 HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:14:26] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:14:27] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 19:14:27] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:14:28] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 19:14:30] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:17:06] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:17:07] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 19:17:07] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:17:08] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 19:17:09] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:17:09] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 19:17:09] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 19:17:09] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 19:17:09] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:17:09] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 19:17:15] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:17:29] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:17:29] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 19:17:29] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:17:30] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 19:17:37] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:17:37] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 19:17:37] "GET /static/style.css HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:17:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:26:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:26:54] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:26:54] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:26:54] "GET /history HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:26:55] "GET /manifest.json HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2025 19:26:55] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2025 19:26:55] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2025 19:27:02] "POST /transcribe HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:05] "GET /status/18 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:05] "GET /queue_status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:08] "GET /status/18 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:11] "GET /status/18 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:14] "GET /status/18 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:17] "GET /status/18 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:20] "GET /status/18 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:23] "GET /status/18 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:26] "GET /status/18 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:29] "GET /status/18 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:32] "GET /status/18 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:35] "GET /status/18 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:38] "GET /status/18 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:41] "GET /status/18 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:44] "GET /status/18 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:47] "GET /status/18 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:48] "GET /queue_status HTTP/1.1" 200 -
+[31:25.500 --> 31:27.500]  Yeah, the same.
+[31:27.500 --> 31:29.500]  64.
+[31:29.500 --> 31:35.500]  And here I will end up having 0, 1, 1, 1, 0, 1.
+[31:35.500 --> 31:37.500]  It's up to that.
+[31:37.500 --> 31:39.500]  1.
+[31:39.500 --> 31:43.500]  This equals this number, right?
+[31:43.500 --> 31:46.500]  What is this number in this image?
+[31:46.500 --> 31:50.500]  5 plus 8, 13.
+[31:50.500 --> 31:53.500]  13 plus 16, 29.
+[31:59.500 --> 32:01.500]  The same answer.
+[32:01.500 --> 32:04.500]  Of course, it has to be the same answer.
+[32:07.500 --> 32:09.500]  Questions.
+[32:09.500 --> 32:15.500]  When I give you the answers, in your case you have answers.
+[32:15.500 --> 32:18.500]  Select one answer, show the methods.
+[32:18.500 --> 32:20.500]  Then what is the answer?
+[32:20.500 --> 32:24.500]  Obviously, maybe I will write 29 over 64.
+[32:24.500 --> 32:27.500]  This is the correct answer, right?
+[32:27.500 --> 32:30.500]  But I want to make sure that you know the correct answer.
+[32:30.500 --> 32:35.500]  So some students will select, oh, 39 over 64, which is wrong.
+[32:35.500 --> 32:40.500]  Because you subtracted 64 minus 1S.
+[32:40.500 --> 32:43.500]  So be careful when you select the answer.
+[32:43.500 --> 32:45.500]  And of course, choose a spell.
+[32:45.500 --> 32:50.500]  They mean I sometimes look at your details.
+[32:50.500 --> 32:54.500]  But you will submit in the first page your answer.
+[32:54.500 --> 32:57.500]  If it is wrong, then it is wrong.
+[32:57.500 --> 33:03.500]  If it is correct, I want to make sure that you didn't copy from someone else.
+[33:03.500 --> 33:06.500]  So I will look at your details.
+[33:06.500 --> 33:08.500]  How random.
+[33:08.500 --> 33:10.500]  To give you the clue.
+[33:10.500 --> 33:16.500]  With 400, 500 students, I cannot look at all the details for all the students.
+[33:16.500 --> 33:18.500]  Of course, I will look at the first page.
+[33:18.500 --> 33:20.500]  If it is wrong, then it is wrong.
+[33:20.500 --> 33:23.500]  If it is correct, then it doesn't mean that it is correct.
+[33:23.500 --> 33:25.500]  I will look for the details.
+[33:25.500 --> 33:28.500]  To see, did you select like B, just B.
+[33:28.500 --> 33:31.500]  Here's somebody saying B.
+[33:31.500 --> 33:32.500]  Okay.
+[33:32.500 --> 33:34.500]  Okay.
+[33:38.500 --> 33:43.500]  For the midterm exam, you will have like similar thing.
+[33:43.500 --> 33:46.500]  So the first division will summarize your answer.
+[33:46.500 --> 33:50.500]  Inside the booklet, show the details.
+[33:50.500 --> 33:53.500]  Here's the right details.
+[33:53.500 --> 33:55.500]  Sometimes the question is so short.
+[33:55.500 --> 33:57.500]  No details.
+[33:57.500 --> 34:00.500]  Converts the binary number into octa.
+[34:00.500 --> 34:03.500]  You have the terms, reheats, reheats, you can do it quickly.
+[34:03.500 --> 34:06.500]  So there is not that many details.
+[34:06.500 --> 34:08.500]  Hexadecimab.
+[34:08.500 --> 34:11.500]  What is hexadecimab?
+[34:11.500 --> 34:20.500]  Instead of having numbers from 0 to 9, which is 10 different symbols, we have 16 symbols.
+[34:20.500 --> 34:24.500]  So we use ABCDEF.
+[34:24.500 --> 34:27.500]  So this is for the hexadecimab.
+[34:28.500 --> 34:30.500]  What is if we are counting?
+[34:30.500 --> 34:32.500]  What is after F?
+[34:32.500 --> 34:35.500]  0, 1.
+[34:35.500 --> 34:38.500]  What is after 0, 1?
+[34:38.500 --> 34:39.500]  1, 1.
+[34:39.500 --> 34:40.500]  2, 1.
+[34:40.500 --> 34:41.500]  3, 1.
+[34:41.500 --> 34:43.500]  So until F1.
+[34:43.500 --> 34:45.500]  And then 0, 2.
+[34:45.500 --> 34:46.500]  1, 2.
+[34:46.500 --> 34:47.500]  2, 2.
+[34:47.500 --> 34:49.500]  And so on.
+[34:49.500 --> 34:56.500]  So if I give you a number and ask you to convert it into hexadecimab, the easiest way is use four bits.
+[34:56.500 --> 34:58.500]  For each symbol.
+[34:58.500 --> 35:00.500]  So this is 7.
+[35:00.500 --> 35:02.500]  This is 5.
+[35:02.500 --> 35:04.500]  This is 8.
+[35:04.500 --> 35:06.500]  This is 7.
+[35:06.500 --> 35:08.500]  So you can do it quickly.
+[35:08.500 --> 35:11.500]  So you can see here there is not that many steps.
+[35:11.500 --> 35:14.500]  I ask you to convert this number into hexadecimab.
+[35:14.500 --> 35:16.500]  You just show that.
+[35:16.500 --> 35:18.500]  And this is the answer.
+[35:18.500 --> 35:19.500]  And that's it.
+[35:19.500 --> 35:25.500]  But some students, they may convert it into hexadecimab.
+[35:25.500 --> 35:29.500]  Convert the number into decimab.
+[35:29.500 --> 35:33.500]  And then convert the decimab into hexadecimab.
+[35:33.500 --> 35:35.500]  That's fine.
+[35:35.500 --> 35:36.500]  Fine.
+[35:36.500 --> 35:39.500]  So you are just doing the extra work.
+[35:39.500 --> 35:41.500]  But you can do that later.
+[35:41.500 --> 35:43.500]  Okay.
+[35:46.500 --> 35:50.500]  If I give you the hexadecimab.
+[35:50.500 --> 35:53.500]  And convert it into primary.
+[35:53.500 --> 35:55.500]  No problem.
+[35:55.500 --> 35:57.500]  Four.
+[35:57.500 --> 35:59.500]  The problem is.
+[35:59.500 --> 36:03.500]  The mistake that you may do.
+[36:03.500 --> 36:05.500]  Is you see this four.
+[36:05.500 --> 36:07.500]  Then you got 1, 0, 0.
+[36:07.500 --> 36:09.500]  And then A.
+[36:09.500 --> 36:11.500]  A is.
+[36:14.500 --> 36:16.500]  0.
+[36:16.500 --> 36:19.500]  1, 0, 1.
+[36:19.500 --> 36:21.500]  What is the mistake here?
+[36:23.500 --> 36:24.500]  Oh yes.
+[36:24.500 --> 36:25.500]  Yeah.
+[36:25.500 --> 36:26.500]  Yes.
+[36:26.500 --> 36:27.500]  Yes.
+[36:27.500 --> 36:29.500]  You have to have 0 here.
+[36:29.500 --> 36:32.500]  You have to use four bits.
+[36:32.500 --> 36:34.500]  Four bits.
+[36:34.500 --> 36:38.500]  Four bits.
+[36:38.500 --> 36:40.500]  Yes.
+[36:40.500 --> 36:45.500]  Four bits for the hexadecimab.
+[36:45.500 --> 36:48.500]  No, I'm not talking about eight bits now.
+[36:48.500 --> 36:51.500]  Four bits for each hexadecimab.
+[36:51.500 --> 36:53.500]  So your friend said.
+[36:53.500 --> 36:56.500]  You forgot about 0 here.
+[36:56.500 --> 36:58.500]  Okay.
+[36:58.500 --> 37:01.500]  And this 0 is.
+[37:01.500 --> 37:03.500]  0, 0, 0, 0.
+[37:03.500 --> 37:06.500]  And then 1 is 1.
+[37:06.500 --> 37:08.500]  This is the answer.
+[37:08.500 --> 37:10.500]  Okay.
+[37:10.500 --> 37:14.500]  So suppose that I put here instead of four 0s.
+[37:14.500 --> 37:16.500]  Like I wrote.
+[37:16.500 --> 37:18.500]  And then.
+[37:18.500 --> 37:20.500]  This 0s.
+[37:20.500 --> 37:22.500]  If I wrote the A 0s.
+[37:22.500 --> 37:24.500]  Then the answer is wrong.
+[37:24.500 --> 37:25.500]  You'll get 0s.
+[37:25.500 --> 37:27.500]  I will give you credit.
+[37:27.500 --> 37:34.500]  So the answer is 0, 0, 1, 0.
+[37:34.500 --> 37:39.500]  Four bits for each hexadecimab.
+[37:39.500 --> 37:44.500]  A 0, 1, 0, 1.
+[37:44.500 --> 37:48.500]  0, 0, 0, 0.
+[37:48.500 --> 37:49.500]  1.
+[37:49.500 --> 37:51.500]  If you wrote 1, 0, 0, it's correct.
+[37:51.500 --> 37:53.500]  If you just wrote 1, it's correct.
+[37:53.500 --> 37:55.500]  It may be this was your question.
+[37:55.500 --> 37:57.500]  When I was a star.
+[37:57.500 --> 37:59.500]  Right?
+[37:59.500 --> 38:01.500]  But the question will be very clear.
+[38:01.500 --> 38:06.500]  Number one.
+[38:06.500 --> 38:10.500]  What about hexadecimab?
+[38:10.500 --> 38:14.500]  Two decimab.
+[38:14.500 --> 38:17.500]  One C.
+[38:17.500 --> 38:18.500]  This is one.
+[38:18.500 --> 38:20.500]  This is C.
+[38:20.500 --> 38:24.500]  So it is E 4 plus E.
+[38:24.500 --> 38:27.500]  4 plus E plus 16.
+[38:27.500 --> 38:28.500]  Which is 28.
+[38:28.500 --> 38:31.500]  So one way to do it is.
+[38:31.500 --> 38:34.500]  When I look at the equivalent binary number.
+[38:34.500 --> 38:38.500]  I can quickly find the.
+[38:38.500 --> 38:39.500]  Waves.
+[38:39.500 --> 38:41.500]  And find the answer.
+[38:41.500 --> 38:45.500]  But also there is another way to do it.
+[38:45.500 --> 38:49.500]  Another way to do it for one C.
+[38:49.500 --> 38:53.500]  The general answer that we talked about was the waves.
+127.0.0.1 - - [16/Sep/2025 19:27:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:51] "GET /static/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [16/Sep/2025 19:27:51] "GET /static/script.js HTTP/1.1" 304 -
+127.0.0.1 - - [16/Sep/2025 19:27:51] "GET /history HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:27:51] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2025 19:27:51] "GET /manifest.json HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2025 19:27:52] "GET /queue_status HTTP/1.1" 200 -
+[38:53.500 --> 38:58.500]  This is 1 times 16 to the power.
+[38:58.500 --> 39:04.500]  1 plus C times 16 to the power.
+[39:04.500 --> 39:05.500]  0.
+[39:05.500 --> 39:07.500]  When we talk about A, B, C.
+[39:07.500 --> 39:09.500]  A is 10.
+[39:09.500 --> 39:12.500]  B is 11.
+[39:12.500 --> 39:14.500]  C is 12.
+[39:14.500 --> 39:18.500]  So I have here 12 plus 16.
+[39:18.500 --> 39:22.500]  12 plus 16 is 28.
+[39:22.500 --> 39:23.500]  28.
+[39:23.500 --> 39:25.500]  So I get the same answer.
+[39:25.500 --> 39:29.500]  So in general I can use a weight method.
+[39:29.500 --> 39:31.500]  Weight methods means octa.
+[39:31.500 --> 39:33.500]  A to the power 0.
+[39:33.500 --> 39:34.500]  A to the power 1.
+[39:34.500 --> 39:35.500]  A to the power 2.
+[39:35.500 --> 39:36.500]  A to the power minus 1.
+[39:36.500 --> 39:38.500]  A to the power minus 2.
+[39:38.500 --> 39:39.500]  By the way.
+[39:39.500 --> 39:41.500]  2 to the power 0.
+[39:41.500 --> 39:42.500]  2 to the power 1.
+[39:42.500 --> 39:43.500]  2 to the power 2.
+[39:43.500 --> 39:45.500]  2 to the power 3.
+[39:45.500 --> 39:47.500]  2 to the power minus 1.
+[39:47.500 --> 39:49.500]  2 to the power minus 2.
+[39:49.500 --> 39:53.500]  Decimals.
+[39:53.500 --> 39:57.500]  10 to the power 0.
+[39:57.500 --> 39:59.500]  10 to the power 1.
+[39:59.500 --> 40:00.500]  So.
+[40:00.500 --> 40:02.500]  X is decimals.
+[40:02.500 --> 40:05.500]  16 to the power 0.
+[40:05.500 --> 40:08.500]  16 to the power 1.
+[40:08.500 --> 40:09.500]  And so on.
+[40:09.500 --> 40:12.500]  The one that I like and you don't like.
+[40:12.500 --> 40:14.500]  This 7.
+[40:14.500 --> 40:17.500]  7 to the power 0.
+[40:17.500 --> 40:19.500]  7 to the power 1.
+[40:19.500 --> 40:21.500]  7 to the power 2.
+[40:21.500 --> 40:23.500]  Because this is 6.
+[40:23.500 --> 40:25.500]  7 to the power minus 1.
+[40:25.500 --> 40:27.500]  So regardless any of these.
+[40:27.500 --> 40:29.500]  You use the same method.
+[40:29.500 --> 40:31.500]  But sometimes I ask is this weird.
+[40:31.500 --> 40:34.500]  Since the 10 to the base is 7.
+[40:34.500 --> 40:36.500]  And suppose that I give you this number.
+[40:36.500 --> 40:37.500]  3.
+[40:37.500 --> 40:38.500]  6.
+[40:38.500 --> 40:40.500]  This 7.
+[40:40.500 --> 40:43.500]  And find the equivalent decimal number.
+[40:43.500 --> 40:45.500]  Easy question.
+[40:45.500 --> 40:47.500]  How?
+[40:47.500 --> 40:49.500]  3 to the power.
+[40:49.500 --> 40:52.500]  7 to the power.
+[40:52.500 --> 40:53.500]  1.
+[40:53.500 --> 40:55.500]  Plus 6.
+[40:55.500 --> 40:57.500]  And 7 to the power.
+[40:57.500 --> 40:58.500]  0.
+[40:58.500 --> 41:00.500]  So 21 plus 6.
+[41:00.500 --> 41:02.500]  And 7 to the power.
+[41:02.500 --> 41:03.500]  0.
+[41:03.500 --> 41:05.500]  So 21 plus 6.
+[41:05.500 --> 41:06.500]  27.
+[41:06.500 --> 41:08.500]  This is.
+[41:08.500 --> 41:10.500]  And then you get the full credit.
+[41:10.500 --> 41:12.500]  Why do you think you understand that?
+[41:12.500 --> 41:13.500]  Okay.
+[41:13.500 --> 41:16.500]  But for some people what is this 7?
+[41:16.500 --> 41:19.500]  Because they didn't come to the answer.
+[41:19.500 --> 41:21.500]  I want to see.
+[41:21.500 --> 41:22.500]  Okay.
+[41:22.500 --> 41:25.500]  So that you understand the message then.
+[41:25.500 --> 41:26.500]  Yes?
+[41:27.500 --> 41:28.500]  Count?
+[41:28.500 --> 41:30.500]  What do you mean?
+[41:30.500 --> 41:31.500]  Yeah.
+[41:31.500 --> 41:34.500]  I have to count?
+[41:34.500 --> 41:41.500]  It is almost like if you have 0.
+[41:41.500 --> 41:42.500]  1.
+[41:42.500 --> 41:43.500]  2.
+[41:43.500 --> 41:44.500]  3.
+[41:44.500 --> 41:45.500]  4.
+[41:45.500 --> 41:46.500]  5.
+[41:46.500 --> 41:47.500]  6.
+[41:47.500 --> 41:48.500]  7.
+[41:48.500 --> 41:49.500]  8.
+[41:49.500 --> 41:50.500]  9.
+[41:50.500 --> 41:51.500]  10.
+[41:51.500 --> 41:52.500]  11.
+[41:52.500 --> 41:53.500]  12.
+[41:53.500 --> 41:54.500]  13.
+[41:54.500 --> 41:55.500]  14.
+[41:55.500 --> 41:56.500]  15.
+[41:56.500 --> 41:57.500]  16.
+[41:57.500 --> 41:58.500]  17.
+[41:58.500 --> 41:59.500]  18.
+[41:59.500 --> 42:00.500]  19.
+[42:00.500 --> 42:01.500]  20.
+[42:01.500 --> 42:02.500]  21.
+[42:02.500 --> 42:03.500]  22.
+[42:03.500 --> 42:04.500]  23.
+[42:04.500 --> 42:05.500]  24.
+[42:05.500 --> 42:06.500]  25.
+[42:06.500 --> 42:07.500]  26.
+[42:07.500 --> 42:08.500]  27.
+[42:08.500 --> 42:09.500]  28.
+[42:09.500 --> 42:10.500]  29.
+[42:10.500 --> 42:11.500]  30.
+[42:11.500 --> 42:12.500]  31.
+[42:12.500 --> 42:13.500]  32.
+[42:13.500 --> 42:14.500]  33.
+[42:14.500 --> 42:15.500]  34.
+[42:15.500 --> 42:16.500]  35.
+[42:16.500 --> 42:17.500]  36.
+[42:17.500 --> 42:18.500]  37.
+[42:18.500 --> 42:19.500]  38.
+[42:19.500 --> 42:20.500]  39.
+[42:20.500 --> 42:21.500]  40.
+[42:21.500 --> 42:22.500]  41.
+[42:22.500 --> 42:23.500]  42.
+[42:23.500 --> 42:24.500]  43.
+[42:24.500 --> 42:25.500]  44.
+[42:25.500 --> 42:26.500]  45.
+[42:26.500 --> 42:27.500]  46.
+[42:27.500 --> 42:28.500]  47.
+[42:28.500 --> 42:29.500]  48.
+[42:29.500 --> 42:30.500]  49.
+[42:30.500 --> 42:31.500]  50.
+[42:31.500 --> 42:32.500]  51.
+[42:32.500 --> 42:33.500]  52.
+[42:33.500 --> 42:34.500]  53.
+[42:34.500 --> 42:35.500]  54.
+[42:35.500 --> 42:36.500]  55.
+[42:36.500 --> 42:37.500]  56.
+[42:37.500 --> 42:38.500]  57.
+[42:38.500 --> 42:39.500]  58.
+[42:39.500 --> 42:40.500]  59.
+[42:40.500 --> 42:41.500]  60.
+[42:41.500 --> 42:42.500]  61.
+[42:42.500 --> 42:43.500]  62.
+[42:43.500 --> 42:44.500]  63.
+[42:44.500 --> 42:45.500]  64.
+[42:45.500 --> 42:46.500]  65.
+[42:46.500 --> 42:47.500]  66.
+[42:47.500 --> 42:48.500]  67.
+[42:48.500 --> 42:49.500]  68.
+[42:49.500 --> 42:50.500]  69.
+[42:50.500 --> 42:51.500]  70.
+[42:51.500 --> 42:52.500]  70.
+[42:52.500 --> 42:53.500]  70.
+[42:53.500 --> 42:54.500]  70.
+[42:54.500 --> 42:55.500]  71.
+[42:55.500 --> 42:56.500]  71.
+[42:56.500 --> 42:57.500]  71.
+[42:57.500 --> 42:58.500]  71.
+[42:58.500 --> 42:59.500]  71.
+[42:59.500 --> 43:00.500]  71.
+[43:00.500 --> 43:01.500]  71.
+[43:01.500 --> 43:02.500]  71.
+[43:02.500 --> 43:03.500]  71.
+[43:03.500 --> 43:04.500]  What is theùs?
+An error occurred during transcription for job 17: 'charmap' codec can't encode characters in position 27-29: character maps to <undefined>
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+Queue processor checking for a new job...
+Processing job 18: 60d31d37-08ed-4c15-944a-c04624901c92.mp4
+--- Starting Transcription for ../uploads\76ec23c6-4466-43b9-a003-9cf8807c5b55.mp4 ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:10.000]  Remember, this goes again, if I want to store 11 in the computer using the two component
+[00:10.000 --> 00:12.000]  vectors, this is 11.
+[00:12.000 --> 00:25.000]  If I want to store minus 11 in the computer, to do some subtraction relation, then what
+[00:25.000 --> 00:35.000]  I have to do is I have to store one component for 11, zero, zero, one, zero, and then I
+[00:35.000 --> 00:37.000]  have four ones.
+[00:37.000 --> 00:39.000]  This is the one's component, right?
+[00:39.000 --> 00:41.000]  Change the one, then zero, zero, zero, one.
+[00:41.000 --> 00:43.000]  Then I add one to it, then this will be negative 11.
+[00:43.000 --> 00:45.000]  Then this is how I store negative 11.
+[01:15.000 --> 01:21.000]  I don't have minus 11, I have 13 plus minus 11.
+[01:21.000 --> 01:24.000]  I have 13 plus the two component of 11.
+[01:24.000 --> 01:28.000]  So what is 13?
+[01:28.000 --> 01:42.000]  This is 12, this is 13, good for zeros here, and then plus minus 11.
+[01:42.000 --> 01:48.000]  This is minus 11, but still I'm doing plus operations.
+[01:48.000 --> 01:54.000]  So this one plus one equals zero, and I have a kind one.
+[01:54.000 --> 01:58.000]  One plus one equals zero.
+[02:06.000 --> 02:10.000]  I have a mistake, I don't know where the mistake is.
+[02:10.000 --> 02:12.000]  So let me go again.
+[02:12.000 --> 02:15.000]  This is 17, yes.
+[02:15.000 --> 02:27.000]  This is zero, zero, one, zero, one, one, one, add one, and this would be one, zero, one, one, one, okay?
+[02:27.000 --> 02:43.000]  Now, is this zero?
+[02:43.000 --> 02:49.000]  One plus one equals zero, I have a kind one, but this would be one.
+[02:49.000 --> 02:51.000]  Why?
+[02:51.000 --> 02:57.000]  Just give me a second.
+[02:57.000 --> 03:05.000]  This is 11.
+[03:05.000 --> 03:10.000]  This is 11, yes.
+[03:10.000 --> 03:13.000]  Oh, this is zero here.
+[03:13.000 --> 03:19.000]  This one is here, right?
+[03:19.000 --> 03:26.000]  So I have here one, zero, one.
+[03:26.000 --> 03:32.000]  Zero, I have a kind one, zero, zero, zero, zero, one.
+[03:32.000 --> 03:34.000]  What is this result?
+[03:34.000 --> 03:38.000]  This curve is carrying.
+[03:38.000 --> 03:42.000]  So I'm just going to just carry.
+[03:42.000 --> 03:43.000]  Okay?
+[03:43.000 --> 03:53.000]  And the result is two.
+[03:53.000 --> 03:55.000]  The result is two.
+[03:55.000 --> 03:58.000]  13 minus 11 is two.
+[03:58.000 --> 04:02.000]  So 13 plus minus 11.
+[04:02.000 --> 04:07.000]  13 plus minus 11.
+[04:07.000 --> 04:10.000]  This was minus two, and I wrote it.
+[04:10.000 --> 04:14.000]  So this is why we use the two's curve.
+[04:14.000 --> 04:19.000]  Okay, but what is our goal today?
+[04:19.000 --> 04:25.000]  Our goal today is to deal with large numbers.
+[04:25.000 --> 04:32.000]  When I deal with large numbers, the easiest way is to use the power.
+[04:32.000 --> 04:35.000]  Let us talk about the distance.
+[04:35.000 --> 04:44.000]  If I want to say the distance from the Earth to the Sun, I think it is like this range.
+[04:44.000 --> 04:55.000]  I don't remember, but suppose it is three times 10 to the power 12 perimeter, the distance.
+[04:55.000 --> 04:58.000]  So now I'm talking about large distance.
+[04:58.000 --> 05:03.000]  How can I talk about large distance and discuss it in the computer?
+[05:03.000 --> 05:10.000]  One way to think about it is in this case, I only need to store this number and this number.
+[05:10.000 --> 05:12.000]  Right?
+[05:12.000 --> 05:16.000]  I can use one byte for this number and one byte for this number.
+[05:16.000 --> 05:23.000]  So I can store very large numbers.
+[05:23.000 --> 05:32.000]  But if I want to store also very small numbers, then I can, instead of store this number directly,
+[05:32.000 --> 05:35.000]  I will add 100 to it.
+[05:35.000 --> 05:42.000]  If I add 12 plus 100, then I will store 112 at the same time as 12.
+[05:42.000 --> 05:45.000]  And I will store three in another byte.
+[05:45.000 --> 05:50.000]  So I store one byte for this number, one byte for this number.
+[05:50.000 --> 06:01.000]  So if I have here minus 20, I add 100 minus 20 plus 100, then I will add, I store 80.
+[06:01.000 --> 06:03.000]  So it's still possible.
+[06:03.000 --> 06:11.000]  But I'm trying to show you that I want to store large numbers and the small numbers in the computer.
+[06:11.000 --> 06:14.000]  So I started by this image to give you some idea.
+[06:14.000 --> 06:19.000]  But I will use binary numbers at the end.
+[06:19.000 --> 06:28.000]  And if I want to store minus 3 times 10 to the power 12, then for this minus, I need one byte.
+[06:28.000 --> 06:34.000]  Okay, so you got the idea that I will need to store the power.
+[06:34.000 --> 06:37.000]  And this is what we are going to do actually.
+[06:37.000 --> 06:43.000]  What we are going to do here is we will store the number.
+[06:43.000 --> 06:48.000]  This is for single precision floating point binary number.
+[06:48.000 --> 06:52.000]  I need one bit for the sign.
+[06:52.000 --> 06:56.000]  And I need to store E.
+[06:56.000 --> 07:00.000]  This is E. This is the number.
+[07:00.000 --> 07:03.000]  This is the binary number, big number.
+[07:03.000 --> 07:12.000]  So I will represent it as one point something, multiplied by 2 to the power something.
+[07:12.000 --> 07:19.000]  In this case, it's 2 to the power 12 because I have 1, 2, 3, 4, 5, 6, 7, 8, 12.
+[07:19.000 --> 07:21.000]  That's what this is.
+[07:21.000 --> 07:24.000]  I don't need to store 1 because 1 is always there.
+[07:24.000 --> 07:27.000]  So I need to store the power.
+[07:27.000 --> 07:30.000]  I need to store this number.
+[07:30.000 --> 07:44.000]  And in order to store also small numbers, as I explained a minute ago, I will add 1, 2, 3, 7 to the number.
+[07:44.000 --> 07:51.000]  So again, this number, I want to store it in the computer.
+[07:51.000 --> 07:53.000]  So I'm going to store the power.
+[07:53.000 --> 07:55.000]  I'm going to store this number.
+[07:55.000 --> 08:04.000]  But I'm going to store 12 with 157 because if this is minus 12, then I will add minus 12 with 157.
+[08:04.000 --> 08:10.000]  So I will still have the number because we don't have the numbers in the computer.
+[08:10.000 --> 08:15.000]  We store it like when we talk about the tooth component.
+[08:15.000 --> 08:17.000]  This was a negative number.
+[08:17.000 --> 08:19.000]  Good.
+[08:19.000 --> 08:26.000]  And if I want to get the original number back, I will subtract the 127.
+[08:26.000 --> 08:27.000]  Okay?
+[08:27.000 --> 08:35.000]  So it will end up that to store the number, this number, positive?
+[08:35.000 --> 08:36.000]  Yes.
+[08:36.000 --> 08:37.000]  So I will see.
+[08:37.000 --> 08:39.000]  How many bits I have here?
+[08:39.000 --> 08:41.000]  32 bits.
+[08:41.000 --> 08:43.000]  I have 32 bits.
+[08:43.000 --> 08:44.000]  What is E?
+[08:44.000 --> 08:49.000]  This is 12 plus 127.
+[08:49.000 --> 08:54.000]  So it is 139, which is this number.
+[08:54.000 --> 08:56.000]  This is 139.
+[08:56.000 --> 08:57.000]  Why?
+[08:57.000 --> 08:58.000]  Why quickly?
+[08:58.000 --> 09:01.000]  Why this is 139?
+[09:01.000 --> 09:03.000]  This one is 126.
+[09:03.000 --> 09:05.000]  128.
+[09:05.000 --> 09:12.000]  2, 4, 8, 16, 72, 64, 128.
+[09:12.000 --> 09:15.000]  I have 128 plus 8 plus 3.
+[09:15.000 --> 09:20.000]  I have 128 plus 13.
+[09:20.000 --> 09:26.000]  128 plus 13 is 139.
+[09:26.000 --> 09:28.000]  Good.
+[09:28.000 --> 09:32.000]  So I will store 139 in the E.
+[09:32.000 --> 09:34.000]  This is 0.
+[09:34.000 --> 09:35.000]  What is F?
+[09:35.000 --> 09:40.000]  F is this number without 1 because I don't need to store 1.
+[09:40.000 --> 09:41.000]  I know that this is 1.
+[09:41.000 --> 09:46.000]  0, 1, 1, 0, 1, 0, 1, 1, 0, 1.
+[09:46.000 --> 09:50.000]  And then I know that that is the number.
+[09:50.000 --> 09:53.000]  Questions?
+[09:53.000 --> 09:58.000]  So as you can see here, I stored my number.
+[09:58.000 --> 10:03.000]  And if I give you this number and I ask you the original number, what do you do?
+[10:03.000 --> 10:11.000]  You know that this E is the original number, but we added 127.
+[10:11.000 --> 10:17.000]  So I will subtract 127 from this number.
+[10:17.000 --> 10:19.000]  What do I get?
+[10:19.000 --> 10:23.000]  127 from the 179, I will get the 127.
+[10:23.000 --> 10:26.000]  And you know that this is going to be the last one.
+[10:26.000 --> 10:29.000]  And I will find what is this number.
+[10:29.000 --> 10:33.000]  And I will put this F here.
+[10:33.000 --> 10:37.000]  And then I can get the original number.
+[10:37.000 --> 10:47.000]  So given this number converted into the same floating point, yes, we can.
+[10:47.000 --> 10:49.000]  We can.
+[10:49.000 --> 10:56.000]  One bit for the sign, 8 bits for E, 23 bits for F.
+[10:56.000 --> 11:04.000]  So you can store small numbers and you can store very large numbers.
+[11:04.000 --> 11:12.000]  Of course, you expect that the 64 bit will be better than 32 bits.
+[11:12.000 --> 11:16.000]  And 128 bit will be better.
+[11:16.000 --> 11:18.000]  But here it is in the method.
+[11:18.000 --> 11:24.000]  And I want you to memorize the method itself.
+[11:24.000 --> 11:28.000]  The method, note, not exactly what we are doing.
+[11:28.000 --> 11:41.000]  The method is we use one byte for E or two bytes for E, three bytes for F, one bit for the sign.
+127.0.0.1 - - [16/Sep/2025 19:29:54] "GET /queue_status HTTP/1.1" 200 -
+[11:41.000 --> 11:52.000]  But am I going to ask you a question in the final exam to convert number to the floating point?
+[11:52.000 --> 11:53.000]  No.
+[11:53.000 --> 11:56.000]  Unless I give you the method.
+[11:56.000 --> 11:58.000]  Unless I give you this method.
+[11:58.000 --> 12:03.000]  So I don't want you to fall with a lot of memorization.
+[12:03.000 --> 12:04.000]  So don't even memorize.
+[12:04.000 --> 12:07.000]  Can I ask you this question in the midterm exam?
+[12:07.000 --> 12:08.000]  Oops, yes.
+[12:08.000 --> 12:11.000]  Midterm exam is the big home exam.
+[12:11.000 --> 12:12.000]  So you have the book.
+[12:12.000 --> 12:15.000]  You can go for the method and the other method.
+[12:15.000 --> 12:18.000]  Can I ask you a question about my lab assignment?
+[12:18.000 --> 12:19.000]  Yes.
+[12:19.000 --> 12:37.000]  Because again you have the book and you can look for the method and go from binary to the floating point or from the floating point representation to the original number.
+[12:37.000 --> 12:41.000]  So if I give you the number, it's equal to minus one to the power of S.
+[12:41.000 --> 12:46.000]  If S is zero, then the number is positive.
+[12:46.000 --> 12:47.000]  This is one.
+[12:47.000 --> 12:49.000]  The number is negative.
+[12:49.000 --> 12:59.000]  Here we have one plus F, two to the power of E, and subtract the one hundred and fifty cent that you added in the middle line.
+[12:59.000 --> 13:00.000]  Questions?
+[13:00.000 --> 13:22.000]  So if I give you the number and look at it in the binary, find how many digits.
+[13:22.000 --> 13:31.000]  Then put one point, one, one, one, one, one, one, times, this is about 14, real 14 digits, one point, 14 digits.
+[13:31.000 --> 13:37.000]  You add 157 to the 14 and then this is your E.
+[13:37.000 --> 13:40.000]  This is your E.
+[13:40.000 --> 13:46.000]  And this number is here.
+[13:46.000 --> 13:50.000]  Starting from a thousand points.
+[13:50.000 --> 13:55.000]  Okay.
+[13:55.000 --> 14:00.000]  Now back to our tools complement.
+[14:00.000 --> 14:04.000]  I remember that we addressed overflow.
+[14:04.000 --> 14:09.000]  Overflow means the result is not correct.
+[14:09.000 --> 14:17.000]  When the result is going to be not correct, this bit, this last bit is assigned bit.
+[14:17.000 --> 14:21.000]  When this is zero, the number is positive.
+[14:21.000 --> 14:29.000]  So suppose that you add two positive numbers and you find the assigned bit changed.
+[14:29.000 --> 14:38.000]  Like in this case, you add this number, 155 plus 58, what did you get?
+[14:38.000 --> 14:40.000]  Negative number.
+[14:40.000 --> 14:43.000]  Because this bit is for negative.
+[14:43.000 --> 14:46.000]  Then you would say, yeah, overflow.
+[14:46.000 --> 14:58.000]  You will learn in this course how to design a circuit, very simple circuit, that when this is zero, this is zero and this is one.
+[14:58.000 --> 15:04.000]  Because this has to be the same sign.
+[15:04.000 --> 15:07.000]  If this is one, this is one and this is zero, they are all.
+[15:07.000 --> 15:15.000]  So if you add two negative numbers or two positive numbers, then there is a possibility of overflow.
+[15:15.000 --> 15:29.000]  But if you add positive number, the last, the tools complement of 24, in this case means like you subtract the number, then you will never get overflow.
+[15:29.000 --> 15:37.000]  Because you are, originally, if you are, you have different signs, then there is no overflow.
+[15:37.000 --> 15:44.000]  16 plus minus 24, how do I get this minus 24?
+[15:44.000 --> 15:50.000]  You write 24 and then you find the ones complement and then you add one.
+[15:50.000 --> 15:54.000]  Then you do get the tools complement.
+[15:54.000 --> 15:57.000]  This is the tools complement of 24.
+[15:57.000 --> 16:03.000]  So this operation is 16 minus 24.
+[16:03.000 --> 16:08.000]  The result is negative 8, which is correct?
+[16:08.000 --> 16:09.000]  Yes?
+[16:09.000 --> 16:17.000]  So if you are doing plus negative 24, you just do 24 binary number and then put an extra one in front?
+[16:17.000 --> 16:19.000]  No, you have to get the tools complement.
+[16:19.000 --> 16:22.000]  Let me do it in between.
+[16:22.000 --> 16:33.000]  16 minus 24.
+[16:33.000 --> 16:36.000]  16 minus 24.
+[16:36.000 --> 16:38.000]  How do I do that?
+[16:38.000 --> 16:43.000]  16 is 1, 0, 0, 0, this is 8, this is 16.
+[16:43.000 --> 16:48.000]  And I'm using 8 bits, so this is 8 bits.
+[16:48.000 --> 16:49.000]  Right?
+[16:49.000 --> 16:51.000]  What is 24?
+[16:51.000 --> 16:55.000]  24 is 16 plus 8, right?
+[16:55.000 --> 17:05.000]  1, 0, 1, 0, 0, 0, let me see, this is 8, this is 0.
+[17:05.000 --> 17:09.000]  What is this number?
+[17:09.000 --> 17:15.000]  This is 8 plus 16 equals 24.
+[17:15.000 --> 17:23.000]  The way that I get the tools complement is I change, I have to use the right number of bits.
+[17:23.000 --> 17:31.000]  I change 0 into 1, 1, 1, 0, 0, 1, 1, 1.
+[17:31.000 --> 17:32.000]  What is this number?
+[17:32.000 --> 17:35.000]  This is the 1's complement.
+[17:35.000 --> 17:39.000]  I add 1, then I get the tools complement.
+[17:39.000 --> 17:53.000]  1 plus 1 is 0, 1 plus 1 is 0, 1 plus 1 is 0, and this is 0, 1, 1, 1.
+[17:53.000 --> 17:55.000]  What is this number?
+[17:55.000 --> 18:02.000]  This is the tools complement of 24.
+[18:02.000 --> 18:04.000]  Questions?
+[18:04.000 --> 18:05.000]  Yes?
+[18:05.000 --> 18:08.000]  How do you know what the right number of bits is?
+[18:08.000 --> 18:10.000]  No, it will be given.
+[18:10.000 --> 18:13.000]  So, give it 8 bits, then use 8 bits.
+[18:13.000 --> 18:17.000]  Give it 16 bits, then use 16 bits.
+[18:17.000 --> 18:20.000]  But we will use 8 bits, okay?
+[18:20.000 --> 18:23.000]  I'm going to talk about this very soon.
+[18:23.000 --> 18:27.000]  So, this is why I said I'm not going to say this is 16 bits.
+[18:27.000 --> 18:30.000]  No, I have to go to the 3-0's, okay?
+[18:30.000 --> 18:42.000]  Now, 16 represented in tools complement, represented in 8 bits, 8 bits, this is 16.
+[18:42.000 --> 18:47.000]  This is minus 24.
+[18:47.000 --> 18:55.000]  So, this is what we say the tools complement of 24.
+[18:55.000 --> 19:00.000]  Subtraction is addition to the tools complement.
+[19:00.000 --> 19:02.000]  So, this is 16.
+[19:02.000 --> 19:06.000]  This is tools complement of 64.
+[19:06.000 --> 19:08.000]  Then we add.
+[19:08.000 --> 19:10.000]  We already have adders.
+[19:10.000 --> 19:12.000]  We get the adders.
+[19:12.000 --> 19:18.000]  We get the adders, and we have another circuit that does the tools complement.
+[19:18.000 --> 19:28.000]  So, addition is actually going to use this approximation for us.
+[19:28.000 --> 19:35.000]  0 plus 0 is 0, 0, 0, 1, 1, 1, 1, 1.
+[19:35.000 --> 19:37.000]  So, this is the result.
+[19:42.000 --> 19:47.000]  How about this thing?
+[19:47.000 --> 19:50.000]  Do I have this thing?
+[19:50.000 --> 19:52.000]  Correct.
+[19:52.000 --> 19:55.000]  This is, what is this number?
+[19:55.000 --> 19:58.000]  This is negative.
+[19:58.000 --> 20:01.000]  Yeah.
+[20:15.000 --> 20:21.000]  If I have a negative number, that means that it is in the tools complement format.
+[20:21.000 --> 20:30.000]  How to complement it to the original number?
+[20:30.000 --> 20:36.000]  The way that I do it, but the book has different way, and you should know most ways.
+[20:36.000 --> 20:46.000]  The book, both here, 2 to the power negative number, but what I'm going to do is, I know that this is the tools complement, right?
+[20:46.000 --> 20:50.000]  Then what is the last thing that we did for the tools complement?
+[20:50.000 --> 20:52.000]  We added 1.
+[20:52.000 --> 20:55.000]  I'm going to subtract the 1.
+[20:55.000 --> 21:08.000]  So, if I subtract 1 from this number, we will have here 1, 1, 1, 0, 1, 1, 1, 1, right?
+[21:08.000 --> 21:11.000]  I subtracted 1 from this number.
+[21:11.000 --> 21:18.000]  If I add 1, then this would be 0, 0, 0, 1, 1, 1, 1, right?
+[21:18.000 --> 21:21.000]  I subtracted 1. Why? It's easier.
+100.117.97.99 - - [16/Sep/2025 19:32:06] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:32:06] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 19:32:06] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 19:32:06] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 19:32:06] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:32:06] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 19:32:09] "GET /queue_status HTTP/1.1" 200 -
+[21:21.000 --> 21:29.000]  And then I changed the amount into 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0.
+[21:29.000 --> 21:33.000]  What is this number? 8.
+[21:33.000 --> 21:43.000]  Okay. So, the number that was given here is negative.
+[21:43.000 --> 21:50.000]  Right? I do it this way. You do it, you know, if I'm placed right, step right.
+[21:50.000 --> 21:56.000]  But we know that this number is negative. Why? Because this bit is for the negative.
+[21:56.000 --> 22:03.000]  Okay? Questions?
+[22:03.000 --> 22:08.000]  So, we can do subtractions by using the tools complement.
+[22:08.000 --> 22:14.000]  If I wanted to represent minus 5, then I have to give a minus 5, a tools complement of 5,
+[22:14.000 --> 22:21.000]  plus the tools complement of 9 to do minus 5, minus 9.
+[22:21.000 --> 22:28.000]  And then I do it carefully. I will get minus 14, and I will check the number here.
+[22:28.000 --> 22:32.000]  And when I do the addition, I'll just get this guy.
+[22:32.000 --> 22:36.000]  Okay. You want to verify that this is minus 14.
+[22:36.000 --> 22:43.000]  So, I'm going to do it the way I did it today. Subtract one, and the change it into one, and then we'll do the procedures.
+[22:43.000 --> 22:56.000]  When the problem will happen? The problem will happen over flow if both of them have the same sign, and the result is different sign.
+[22:56.000 --> 23:01.000]  Then this is obviously a problem.
+[23:01.000 --> 23:11.000]  Now question, but I think he solved the question. How can I improve my system?
+[23:11.000 --> 23:25.000]  I can improve my system if instead of using bytes, I use two bytes.
+[23:25.000 --> 23:36.000]  If I use two bytes, then the sign will be here. Then there's no overflow in this case.
+[23:36.000 --> 23:43.000]  Why? Because I spent money, and instead of using one byte, I'm using two bytes.
+[23:43.000 --> 24:00.000]  Three bytes. Four bytes. Then I will present the overflow.
+[24:00.000 --> 24:07.000]  Questions?
+[24:07.000 --> 24:16.000]  What is multiplication? How did we do the multiplication?
+[24:16.000 --> 24:37.000]  In the December, if I have the 7 times 1 is 7, 7 times 3 is 1, 1, 3, and then I add.
+[24:37.000 --> 24:44.000]  So I multiply and shift, and I add. And this is what I will do.
+[24:44.000 --> 25:00.000]  1, 0, 1. Say times 1, 0, 1. 1 times 1 is 1, 0, 1. 0 times 1 is 0, 0, 0. 1 times 1 is 1, 0, 1, so easy.
+[25:00.000 --> 25:11.000]  I multiply and shift. Multiply and shift. And then I add. 1, 0, 1 plus 1, 0, 1, 1.
+[25:11.000 --> 25:23.000]  What is this number? 9 plus 16, 25. This is 5. This is 5. 5 times 5 is 25.
+[25:23.000 --> 25:34.000]  So multiplication is done the same way as we did for the December.
+[25:34.000 --> 25:43.000]  We multiply, we shift, and I add.
+[25:43.000 --> 25:51.000]  Subtraction we add to the two's component. What is left is the division.
+[25:51.000 --> 26:00.000]  And we can do the division the same way that we did for December.
+[26:00.000 --> 26:20.000]  So what I have here, 1, 0, 1, 0, divided by 1, 0, 1. So this would be 1, 0, 1, 0, divided by 1, 0, 1 is 0.
+[26:20.000 --> 26:32.000]  So that means that 10 divided by 5 is equal to.
+[26:32.000 --> 26:48.000]  So we can have 1, 0, 0, 1. So this is 9 plus 16. 1, 0, 1. 1 times 1, 0, 1 is 1, 0, 1.
+[26:48.000 --> 27:02.000]  When I subtract, I will get 1. And then 0, 1. 1, 0, 1 divided by 1, 0, 1.
+[27:02.000 --> 27:10.000]  When I got a 0 and I divide it to be 0, and I got a 1, I divide it as 1.
+[27:10.000 --> 27:23.000]  Similar to what we do in the division in the case of the December. So this is 25 divided by 5 is 5.
+[27:23.000 --> 27:38.000]  Okay. Last time I mentioned something about the ratio that I talked about in this group as well.
+[27:38.000 --> 28:01.000]  So I talked about if I have 0, 1, 0, 1, 0, 1, 0, to infinity, there is a thread that when you share in binary,
+[28:01.000 --> 28:16.000]  you can multiply by 2. So how many shapes need to be here? 2. So I have 2 times 2, this equal. I do 2 shapes. 1, 0, 1, 0, 1, 0.
+[28:16.000 --> 28:26.000]  So if I subtract this part from this part, you end up having 1, 0. And for this minus this, this for this minus this is 3.
+[28:26.000 --> 28:44.000]  This is in binary. Then S equal this is 2, 2 over 3. Right? But did I mention that also this is of course correct if I'm talking about say octa, 3, 5.
+[28:44.000 --> 29:07.000]  3, 5. 3, 5. But this is given as octa. Octa, the shift is multiplied by 8. How many shift I need? 2. So 8 times 8 equal 3, 5.
+[29:07.000 --> 29:28.000]  3, 5, 3, 5, 3, 5. So this is 64. Minus 1 equal 63. And this series now is gone. I have 3, 5. The raise is octa, 8.
+[29:28.000 --> 29:51.000]  So S equal 3, 5. This 8 means 3 times e to the power of 1 plus 5 times e to the power of 0. 3 times 8 is 24, 24 plus 5 is 29.
+[29:51.000 --> 30:05.000]  Divide it by 15 and then you get 4 triangles. Get 4 triangles. Suppose that you decided to say I am confused, I want to go to binary number.
+[30:05.000 --> 30:26.000]  3, 5 means what is 3, 5? 3 in 3 bits will be 1, 1, 0. 5 is 1, 0, 1. Then 0, 1, 1, 1, 0, 1. Right? That's all.
+[30:26.000 --> 30:49.000]  How many shift I need to do so the button will be moved? 6. 6 shifts. Here I needed 2 shifts. For each 3 shifts is like 8. 2 times 2 times 2 times 2 times 2.
+[30:49.000 --> 31:03.000]  6 times 2 times 2 times 2, 2 to the power of 6. Yes? Equal?
+[31:03.000 --> 31:27.000]  Oops. So I needed 2 to the power of 6. What is 2 to the power of 6? 64. Is this the same? Yeah? 64.
+[31:27.000 --> 31:45.000]  And here I will end up having 0, 1, 1, 1, 0, 1. Subtract 1. This equals this number, right? What is this number in this image?
+[31:45.000 --> 32:08.000]  5 plus 8, 13. 13 plus 16, 29. The same answer? Of course, I have to give the same answer. Questions?
+[32:08.000 --> 32:24.000]  Oh, when I give you the answers, in your case you have answers. Select one answer, show the method. Then what is the answer? Obviously, maybe I will write 29 over 64.
+[32:24.000 --> 32:35.000]  This is the correct answer, right? But I want to make sure that you know the correct answer. So some students will select 29 over 64, which is wrong.
+[32:35.000 --> 32:50.000]  Because you subtracted 64 minus 1S. So be careful when you select the answer. And of course, choose a spell. I sometimes look at your details.
+[32:50.000 --> 33:03.000]  But you will submit in the first page your answer. If it is wrong, then it is wrong. If it is correct, I want to make sure that you didn't copy from someone else.
+[33:03.000 --> 33:16.000]  So I will look at your details. How random to think it is a clue. With 400, 500 students, I may not look at all the details for all the students.
+[33:16.000 --> 33:25.000]  Of course, I will look at the first page. If it is wrong, then it is wrong. If it is correct, then it doesn't mean that it is correct. I will look at the details.
+[33:25.000 --> 33:40.000]  So I will look at the first page. If it is correct, I will look at the details. If it is wrong, then it is wrong. I will look at the first page. If it is correct, I will look at the details.
+[33:40.000 --> 33:53.000]  And you will have similar things. So in the first page you will summarize your answer. Inside the booklet, show the details. Here are the details.
+[33:53.000 --> 34:08.000]  Sometimes the question is so short. No details. Convert the binary number into octaves. You have three, four, three, four, four, four, four. You can do it quickly. There are not that many details.
+[34:08.000 --> 34:25.000]  Hexadecimal. What is hexadecimal? Instead of having numbers from zero to nine, which is ten different symbols, we have sixteen symbols. So we use ABCDEF.
+[34:25.000 --> 34:48.000]  This is for hexadecimal. What is after F? Zero one. What is after zero one? One one. Two one. Three one. And then F1. And then zero two. One two. Two two. And so on.
+[34:48.000 --> 35:08.000]  So if I give you a number and ask you to convert it into hexadecimal, the easiest way is to use four bits for each symbol. So this is seven. This is five. This is eight. This is seven.
+[35:08.000 --> 35:20.000]  So you can do it quickly. So you can see here there are not that many steps. I ask you to convert this number into hexadecimal. You just show that. And this is the answer. And that's it.
+[35:20.000 --> 35:41.000]  But some students, they may convert the number into decimals. And then convert the decimals into hexadecimal. That's fine. Fine. We are just doing the extra work. But you can do that as well.
+[35:41.000 --> 35:56.000]  So that's the answer. Okay. If I give you the hexadecimal and convert it into binary, no problem at all.
+[35:56.000 --> 36:21.000]  The problem is, the mistake that you may do is, you see this four, then you got one zero zero. And then A. A is zero one zero one. What is the mistake here?
+[36:21.000 --> 36:45.000]  Oh, yes. Yeah. Yes. Yes. You have to use four bits. Four bits. Four bits. Yes. Four bits for the hexadecimal.
+[36:45.000 --> 37:06.000]  No, I'm not talking about eight bits now. Four bits for each hexadecimal. So your friend said you forgot to put zero here. Okay. And this zero is zero zero zero zero. And then one is one.
+[37:06.000 --> 37:26.000]  This is the answer. Okay. So suppose that I wrote here instead of four zeros, like I wrote. And then this zero, if I wrote three zeros, then the answer is wrong. You'll get zero. I will give you credit.
+[37:26.000 --> 37:53.000]  So the answer is zero zero one zero. Four bits for each hexadecimal. A zero one zero one. Zero zero zero zero. One. If you wrote one zero zero, it's correct. If you just wrote one, it's correct.
+[37:53.000 --> 38:20.000]  This is your question. When I just talk, right? But the question will be very clear. What about hexadecimal? Two decimal. One C. This is one. This is C.
+[38:20.000 --> 38:41.000]  So it is four plus three plus six K, which is 28. So one way to do it is when I look at the equivalent binary number, I can quickly find the weight and find the answer.
+[38:41.000 --> 39:05.000]  But also there is another way to do it. Another way to do it for one C. The general answer that we talked about was the weight. This is one times 16 to the power one plus C times 16 to the power zero.
+[39:05.000 --> 39:25.000]  When we talk about A, B, C, A is 10. B is 11. C is 12. So I have here 12 plus 16. 12 plus 16 is 28. So I get the same answer.
+[39:25.000 --> 39:36.000]  So in general, I can use the weight method. Weight method means octa- one zero. Two zero, one, two. Two to the power minus one. Two to the power minus two.
+[39:36.000 --> 39:43.920]  It was about minus one. It was about minus two by two to the power zero to the power of one to the power two
+[39:44.640 --> 39:46.640]  To the right three
+[39:46.640 --> 39:49.200]  To the lower minus one to the lower minus two
+[39:53.320 --> 39:55.320]  This is
+[39:55.320 --> 39:57.320]  10 to the power
+[39:57.360 --> 39:59.720]  Zero 10 to the power one
+[40:00.880 --> 40:02.880]  So I accept this
+[40:03.880 --> 40:08.480]  16 to the power zero 16 to the power one
+[40:10.240 --> 40:14.120]  The one that I like and you don't like this seven
+[40:15.560 --> 40:23.000]  Seven to the power zero seven to the power one seven to the power two because this is six
+[40:23.480 --> 40:25.480]  seven to the power minus one
+[40:25.960 --> 40:29.800]  So regardless any of these you use the same method
+[40:30.640 --> 40:36.480]  But sometimes I ask is this weird things that they have to the basis seven and suppose that I give you this number
+[40:40.520 --> 40:47.920]  Three six this seven and find the equivalent decimal number
+[40:48.840 --> 40:50.840]  easy question
+[40:50.920 --> 40:52.440]  How?
+[40:52.440 --> 40:54.440]  three to the power
+[40:54.600 --> 40:56.200]  three
+[40:56.200 --> 40:58.200]  Seven to the power
+[40:58.560 --> 41:03.200]  One plus six and seven to the power zero
+[41:03.920 --> 41:06.680]  so 21 plus six
+[41:08.440 --> 41:10.440]  27 days is
+[41:11.520 --> 41:15.320]  Then you get the four credits. Why do you understand that?
+[41:17.680 --> 41:20.680]  But for some people what is this seven?
+[41:28.400 --> 41:30.400]  That you understand this is
+[41:32.680 --> 41:34.680]  Yes
+[41:38.520 --> 41:45.320]  Tell me what do we know how to count?
+[41:50.400 --> 41:54.180]  It is almost like if you if you have zero
+[41:55.200 --> 41:57.200]  one two and
+[41:57.560 --> 42:01.000]  Then here that you reach it. What is not enough?
+[42:04.720 --> 42:07.000]  I'm counting now. This is your question
+[42:09.680 --> 42:11.680]  What is the number
+[42:12.360 --> 42:15.320]  Your one the number is not is not
+[42:18.400 --> 42:20.400]  That this is your question
+[42:21.400 --> 42:27.360]  So this is always this is what we didn't do in any way of company
+[42:28.600 --> 42:31.580]  Okay, so what's the basis speed?
+[42:32.600 --> 42:34.880]  Okay, zero one two
+[42:35.560 --> 42:37.560]  You'll say what is the number?
+[42:39.840 --> 42:47.400]  Zero one actually when I met you your question is should I say one zero or I say zero one?
+[42:50.960 --> 42:56.120]  So this is zero one and then one and then two one
+[43:01.120 --> 43:03.600]  Okay, and when we talk about the ways
+[43:04.320 --> 43:06.320]  The way it is always
+[43:06.680 --> 43:11.800]  This is two is over zero two to the power one two to the power two two to the power three
+[43:12.000 --> 43:14.000]  So this is the way, okay
+[43:17.880 --> 43:19.880]  Convert from hexadecimal
+[43:20.400 --> 43:22.400]  to this
+[43:22.520 --> 43:26.480]  So one way as I said to do it he times
+[43:27.440 --> 43:29.440]  16 to the power
+[43:29.640 --> 43:31.480]  one
+[43:31.480 --> 43:34.520]  plus five times it's easy about
+[43:40.320 --> 43:42.320]  Questions
+[43:50.400 --> 43:52.400]  When we convert from this image to hexadecimal
+[43:55.080 --> 43:59.880]  How do you do it? You may say oh, okay, I'm going to divide by two
+[43:59.880 --> 44:04.880]  I will convert it to binary. Okay, and after it converts the number into binary
+[44:05.880 --> 44:10.880]  You can take four heads for this for this and the formula is that hexadecimal
+[44:12.760 --> 44:14.760]  But faster one
+[44:14.760 --> 44:16.760]  And the formula is that hexadecimal
+[44:18.120 --> 44:25.000]  But faster one is instead of dividing by two dividing by 16
+[44:26.760 --> 44:28.520]  And then
+[44:28.520 --> 44:32.360]  You take this one converted into A or B or C or whatever
+[44:32.800 --> 44:35.040]  Equivalent so in this case it is
+[44:36.320 --> 44:38.320]  40 divided by 16
+[44:38.840 --> 44:43.120]  2.5 convert this point five by multiplying by 16
+[44:43.640 --> 44:48.000]  It and finally you have to divide by 16
+[44:53.640 --> 44:57.060]  Most significant is this one to
+[44:59.480 --> 45:04.320]  You want to check the answer because you don't want to lose this easy question
+[45:05.560 --> 45:08.880]  Because what is the answer I may give to you is A
+[45:09.600 --> 45:11.600]  8 2
+[45:13.680 --> 45:15.680]  The correct answer will be to
+[45:28.960 --> 45:30.960]  Yes
+[45:33.160 --> 45:35.880]  If I ask you to convert I
+[45:36.560 --> 45:41.360]  Didn't force you right and I will give you one of the answer answers
+[45:41.560 --> 45:44.880]  Then you are free to do any any message
+[45:45.080 --> 45:50.560]  Like for example you can come you can come to this by me. You may say I'm going to convert it to binary
+[45:51.400 --> 45:53.400]  To answers correct, right?
+[45:56.800 --> 46:02.360]  I want to add that you don't want to lose the credit because if you write
+[46:02.600 --> 46:07.840]  He is to if you mess up with this significant digit
+[46:08.840 --> 46:14.120]  You get here right so at this stage I want you to do backward to see
+[46:16.640 --> 46:20.400]  So this is 2 times 16 to the world
+[46:22.080 --> 46:28.100]  To write plus 8 times 16 to the world 1 plus 10
+[46:28.680 --> 46:31.200]  Then you will see the other original number
+[46:31.400 --> 46:37.400]  Good but if you mix a with 2 you will get a huge number
+[46:41.800 --> 46:46.440]  And the remember that you example have a lot of choice so you have a
+[46:47.280 --> 46:49.280]  Good chance to get full credit
+[46:49.560 --> 46:54.640]  Why because you would be able to find the stick quickly when you spend a few seconds to verify the answer
+[46:55.000 --> 47:00.320]  And you have to not find more than enough time to put the question again and again
+[47:01.800 --> 47:07.280]  I got exam in the middle exam of course you can verify the answer by the front end
+[47:07.720 --> 47:09.720]  Because I'm not going to look at
+[47:10.720 --> 47:12.720]  See really can sleeping as I
+[47:13.000 --> 47:18.560]  Know some time the first week talk about it if you verify the answer you can chat in the teeth, okay?
+[47:19.160 --> 47:24.440]  You have to give it a why not why not you want to verify the answer, but use it right?
+[47:25.240 --> 47:27.920]  Because also should be the key sometimes give wrong answers
+[47:28.480 --> 47:30.480]  But you shouldn't
+[47:31.480 --> 47:33.480]  Why because it is exam
+[47:36.600 --> 47:39.280]  You shouldn't talk with someone
+[47:41.040 --> 47:46.640]  But if you don't with resources cool calculator Google book
+[47:50.800 --> 47:52.800]  For the assignments I have
+[47:58.920 --> 48:00.920]  To learn from each other
+[48:01.240 --> 48:03.240]  For the assignment
+[48:03.360 --> 48:04.920]  exams
+[48:04.920 --> 48:09.760]  But you can do the resources all the resources find an exam no resources
+[48:20.560 --> 48:26.240]  Addition when you know addition you can't convert is a number
+[48:28.520 --> 48:30.520]  Suppose that you convert the number into this
+[48:36.960 --> 48:41.200]  Correct because I didn't tell you don't use this method
+[48:45.280 --> 48:47.280]  Or you converted into binary
+[48:48.520 --> 48:50.200]  Exadimension each
+[48:50.200 --> 48:52.200]  letter for this
+[48:53.120 --> 48:54.920]  What is it?
+[48:54.960 --> 49:02.320]  Because you are familiar with binary numbers so you converted into binary the user addition and then you can bet it back into exodus
+[49:03.760 --> 49:07.520]  But for the exodus number one I want to remind you that
+[49:09.800 --> 49:13.960]  If this is this is seven plus eight is
+[49:16.400 --> 49:21.320]  Five one or fifteen what is seven plus eight?
+[49:22.040 --> 49:29.480]  If I take three from the eight to make it ten what is left?
+[49:30.760 --> 49:32.840]  Fine then it is five
+[49:33.520 --> 49:35.520]  Ten point one
+[49:35.680 --> 49:37.680]  So what does I have here?
+[49:38.920 --> 49:40.760]  If
+[49:40.760 --> 49:42.760]  Plus three
+[49:43.160 --> 49:45.160]  Exadiscent
+[49:46.600 --> 49:49.160]  Then I will take one
+[49:51.680 --> 49:58.200]  Right and what is that is to then this would be to work right
+[49:59.120 --> 50:03.080]  This is 15 right 15 plus 3 is
+[50:04.840 --> 50:07.520]  18 right so in this is this is
+[50:09.480 --> 50:14.640]  What is this number what is this result 16 times
+[50:15.680 --> 50:17.680]  1 times 16
+[50:18.280 --> 50:22.600]  One which is 16 plus two times 16 to the power 0
+[50:23.080 --> 50:25.880]  18 so this correct right
+[50:26.680 --> 50:28.680]  now if I have if
+[50:29.640 --> 50:30.840]  plus
+[50:30.840 --> 50:32.840]  B I
+[50:34.000 --> 50:37.600]  Need one from F to make it 16 right
+[50:38.200 --> 50:41.600]  You have one here, and I took one from B
+[50:41.880 --> 50:45.480]  Then it is E so the result is one A or E1
+[50:45.960 --> 50:51.760]  This is the result yeah, what would be five answer. This is 15
+[50:53.160 --> 50:55.160]  B is 11
+[50:56.960 --> 51:02.000]  So the result here is 26 here. This is 16
+[51:04.160 --> 51:06.160]  Plus ten
+[51:06.800 --> 51:08.800]  The same answer 36
+[51:09.520 --> 51:16.760]  You see I always will find the answer to make sure that I understand because we find the answer will take seconds
+[51:17.280 --> 51:19.280]  It takes few seconds
+[51:19.280 --> 51:22.040]  So you are you will make sure that the answer is correct
+[51:23.840 --> 51:29.920]  Of course for some problems the answer is correct and it could be three plus six is nine
+[51:30.520 --> 51:34.440]  Two plus one is three and the basis is 16
+[51:34.440 --> 51:40.760]  And that is correct. All you will come to have a four plus B then
+[51:42.000 --> 51:44.480]  One plus B is C another one
+[51:45.440 --> 51:49.360]  Is B another one is E another one is F for F
+[51:49.720 --> 51:52.320]  Yeah, two plus eight is eight
+[51:52.840 --> 51:59.840]  Okay, so you do it slowly and you will not go any straight from the right a lot of examples here
+[52:00.080 --> 52:04.000]  the same that I want to make sure that you will remember also is
+[52:04.440 --> 52:09.160]  C plus F I think one from C to become B
+[52:09.800 --> 52:12.280]  then I have one here and then
+[52:12.960 --> 52:14.960]  we add and
+[52:15.480 --> 52:17.480]  subtract from A
+[52:17.520 --> 52:20.440]  to reach one here then one is
+[52:21.040 --> 52:24.600]  B of course you can convert this into binary number
+[52:25.320 --> 52:28.080]  and add the two binary numbers
+[52:29.400 --> 52:33.440]  And after you get the result you convert it into hexadecimal
+[52:35.120 --> 52:37.120]  Yes
+[52:41.680 --> 52:47.800]  Oh, no, no, you do it slow I said the answer is here. The answer here is I want to reach
+[52:49.040 --> 52:51.040]  16 so what did I do?
+[52:51.560 --> 52:54.440]  No, I am talking about this one. The other one you will do it at home
+[52:54.960 --> 52:56.960]  Okay, because it is the same thing
+[52:57.280 --> 53:00.600]  Okay, let me know what question you want me to go on the case
+[53:01.600 --> 53:03.600]  A or B or C or D?
+[53:05.600 --> 53:07.600]  B?
+[53:10.440 --> 53:12.440]  So you want to go to D?
+[53:24.120 --> 53:29.200]  So if I add these two numbers, this is your question, right?
+[53:31.320 --> 53:37.240]  C plus F I need one from here to make this go to the other
+[53:39.160 --> 53:43.600]  So this becomes D and I have one
+[53:44.960 --> 53:48.040]  one plus D plus A
+[53:48.760 --> 53:50.760]  Right one plus D plus A
+[53:51.520 --> 53:53.880]  Correct? What is one plus D?
+[53:54.680 --> 53:57.760]  E then I have E plus E
+[53:58.040 --> 54:00.040]  So you take one from there?
+[54:00.040 --> 54:03.040]  Yes, then this will be the same as F
+[54:04.240 --> 54:08.560]  And here nine, right? And I take one
+[54:09.840 --> 54:13.400]  So this will be one E. So you do it slow
+[54:14.280 --> 54:15.400]  Okay
+[54:15.400 --> 54:17.400]  Thank you for the question
+[54:17.800 --> 54:20.400]  Questions so there are no questions here
+[54:21.000 --> 54:25.800]  This is how we do it and also one way to do it is binary number
+[54:26.320 --> 54:32.680]  And at the end verify the answer because if you in the exam if you will give one nine
+[54:33.400 --> 54:35.400]  B
+[54:36.160 --> 54:38.160]  How to verify the answer
+[54:38.760 --> 54:42.920]  You convert this one into decimal this one into decimal that is not into decimal
+[54:43.120 --> 54:49.200]  What is decimal one times 16 to the power 2 plus 8 times 16 to the power
+[54:50.200 --> 54:55.800]  No, this is 16 to the power 2, 8 times 16 to the power 1
+[54:57.240 --> 54:59.240]  plus B which is
+[55:00.720 --> 55:03.320]  11 times 16 to the power 0
+[55:04.040 --> 55:05.200]  Okay
+[55:05.200 --> 55:07.960]  It is it is not difficult
+[55:08.480 --> 55:13.680]  But you have to be very careful because your answer is either correct or wrong
+[55:14.520 --> 55:17.320]  When we do the subtraction convert to the number
+[55:18.320 --> 55:21.320]  Into binary and the case that is complicated
+[55:22.280 --> 55:26.240]  So we don't have subtraction. We have the tools compliment
+[55:27.440 --> 55:29.440]  of the number
+[55:29.920 --> 55:34.560]  This is excellent number very easy to come into binary numbers
+[55:36.400 --> 55:38.400]  To visit the binary number
+[55:38.440 --> 55:40.440]  get the once compliment
+[55:40.720 --> 55:44.400]  the truth compliments and then become the addition to the
+[55:44.800 --> 55:46.800]  Now
+[55:48.960 --> 55:56.600]  The number how many that's three three this zero one two three four five six seven
+[56:00.360 --> 56:04.640]  A different samples for the open numbers
+[56:04.760 --> 56:06.760]  Interface
+100.117.97.99 - - [16/Sep/2025 19:36:11] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:36:11] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 19:36:11] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 19:36:11] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 19:36:11] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:36:11] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 19:36:12] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:37:36] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:48:27] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:48:31] "GET /session/11 HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:51:11] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 19:51:47] "GET /session/10 HTTP/1.1" 200 -
+[56:08.600 --> 56:34.240]  Again the Mr. V bitter
+[56:34.640 --> 56:41.640]  Suppose that I want to convert this decimal number into an octal number.
+[56:41.640 --> 56:52.640]  I can divide by 2 actually to convert it into a binary number and then combine 3 bits into
+[56:52.640 --> 56:53.640]  one octal number.
+[56:53.640 --> 56:56.640]  Or I can divide by 8.
+[56:56.640 --> 57:09.640]  Here I divide by 8, 44, 5.5, 5.5 and the score.
+[57:09.640 --> 57:13.640]  Then the number is 547.
+[57:13.640 --> 57:15.640]  This is the most significant digit.
+[57:15.640 --> 57:17.640]  This is the least significant digit.
+[57:17.640 --> 57:30.640]  If I give you the number octal and convert it into binary, don't forget the 0.
+[57:30.640 --> 57:36.640]  Some students will just use one and then they will get one.
+[57:36.640 --> 57:37.640]  That's it.
+[57:37.640 --> 57:38.640]  This is wrong.
+[57:38.640 --> 57:44.640]  You need to use 3 bits for each octal number.
+[57:44.640 --> 57:50.640]  And you are going to get credit for finding this mistake.
+[57:50.640 --> 57:53.640]  This is to make it clear.
+[57:53.640 --> 57:58.640]  You will not forget the 0 if needed.
+[57:58.640 --> 58:01.640]  By way of octal, easy.
+[58:01.640 --> 58:06.640]  This is 6, 5 or say 5, 6 is better.
+[58:06.640 --> 58:11.640]  You want to verify the answer, 6.
+[58:11.640 --> 58:18.640]  If you want to verify the answer by converting this number into this number, this will be
+[58:18.640 --> 58:23.640]  5 plus 16 plus 32.
+[58:23.640 --> 58:34.640]  And this is 6 and 8 is about 1 plus 5 and 8 is about 0.
+[58:34.640 --> 58:42.640]  Now I'm going to talk about something different.
+[58:42.640 --> 58:45.640]  First of all, I don't want you to get confused.
+[58:45.640 --> 58:49.640]  This is called the BCD, binary coded decimal.
+[58:49.640 --> 58:55.640]  So I'm using 4 bits for each disempowering digit.
+[58:55.640 --> 58:56.640]  Good.
+[58:56.640 --> 58:58.640]  What does this mean?
+[58:58.640 --> 59:03.640]  This means that 1, 0 doesn't exist.
+[59:03.640 --> 59:04.640]  Why?
+[59:04.640 --> 59:08.640]  All my numbers will be between 0 and 9.
+[59:08.640 --> 59:09.640]  Why?
+[59:09.640 --> 59:11.640]  Because this is BCD.
+[59:11.640 --> 59:14.640]  This has nothing to do with what we have said so far.
+[59:14.640 --> 59:22.640]  This is a representation for the number in BCD, binary coded decimal.
+[59:22.640 --> 59:24.640]  Good.
+[59:24.640 --> 59:26.640]  What kind of question we can have here?
+[59:26.640 --> 59:30.640]  Convert each of the following decimal numbers to BCD.
+[59:30.640 --> 59:34.640]  35.
+[59:34.640 --> 59:37.640]  Am I going to have the result by dividing by 2?
+[59:37.640 --> 59:41.640]  No, this is if I ask you to convert into binary numbers.
+[59:41.640 --> 59:45.640]  Now I'm asking you to do BCD.
+[59:45.640 --> 59:49.640]  BCD means for the 5, you have 4 bits.
+[59:49.640 --> 59:52.640]  For 3, you have 4 bits.
+[59:52.640 --> 59:55.640]  So I have here 4 bits for the 5.
+[59:55.640 --> 59:59.640]  I have here 4 bits for the 3.
+[59:59.640 --> 01:00:00.640]  Okay?
+[01:00:00.640 --> 01:00:02.640]  So look at the question.
+[01:00:02.640 --> 01:00:04.640]  Convert the number.
+[01:00:04.640 --> 01:00:07.640]  This is the number into BCD.
+[01:00:12.640 --> 01:00:14.640]  Questions?
+[01:00:18.640 --> 01:00:20.640]  This is BCD.
+[01:00:22.640 --> 01:00:24.640]  Convert each of the following...
+[01:00:24.640 --> 01:00:26.640]  This is now BCD.
+[01:00:26.640 --> 01:00:29.640]  This is already BCD.
+[01:00:29.640 --> 01:00:35.640]  And I want you to get the number, the decimal number.
+[01:00:35.640 --> 01:00:44.640]  Convert each of the following BCD codes, so it is already coded, into BCD.
+[01:00:44.640 --> 01:00:48.640]  So this is D6, right?
+[01:00:48.640 --> 01:00:51.640]  1, 0, 0, 0 is this.
+[01:00:51.640 --> 01:00:54.640]  0, 1, 1, 0, 6.
+[01:00:54.640 --> 01:01:04.640]  Now, if I add 2 BCD numbers, I'm doing addition now.
+[01:01:04.640 --> 01:01:06.640]  2 BCD numbers.
+[01:01:06.640 --> 01:01:10.640]  BCD means I'm using 4 bits.
+[01:01:10.640 --> 01:01:12.640]  So I have to be very clear with you.
+[01:01:12.640 --> 01:01:14.640]  I'm using 4 bits.
+[01:01:14.640 --> 01:01:15.640]  I'm using 8 bits.
+[01:01:15.640 --> 01:01:17.640]  I'm using 13 points.
+[01:01:17.640 --> 01:01:19.640]  So here I'm using BCD.
+[01:01:19.640 --> 01:01:21.640]  And what is the question?
+[01:01:21.640 --> 01:01:23.640]  8.
+[01:01:23.640 --> 01:01:25.640]  And you add these, I can.
+[01:01:25.640 --> 01:01:27.640]  I will add.
+[01:01:27.640 --> 01:01:29.640]  What is the problem?
+[01:01:29.640 --> 01:01:35.640]  The problem is when I add these 2 numbers, this is 9.
+[01:01:35.640 --> 01:01:37.640]  Plus 4.
+[01:01:37.640 --> 01:01:39.640]  This is the result.
+[01:01:39.640 --> 01:01:43.640]  The result is greater than 9.
+[01:01:43.640 --> 01:01:46.640]  Then this is need to be correct.
+[01:01:46.640 --> 01:01:53.640]  In some of my final exams, I asked the students to weld a circuit to do the correction.
+[01:01:53.640 --> 01:01:57.640]  So in future, you will know how to weld the circuit.
+[01:01:57.640 --> 01:02:05.640]  To correct the solution, if the solution is out of the range from 0 to 9.
+[01:02:05.640 --> 01:02:08.640]  This case is out of the range.
+[01:02:08.640 --> 01:02:10.640]  It is greater than 9.
+[01:02:10.640 --> 01:02:12.640]  So what is the correction?
+[01:02:12.640 --> 01:02:19.640]  The correction method is if it is greater than 9, add 6.
+[01:02:19.640 --> 01:02:21.640]  9 plus 4.
+[01:02:21.640 --> 01:02:23.640]  Greater than 9.
+[01:02:23.640 --> 01:02:26.640]  This number is greater than 9.
+[01:02:26.640 --> 01:02:28.640]  What is this number?
+[01:02:28.640 --> 01:02:30.640]  1101.
+[01:02:30.640 --> 01:02:34.640]  It is 5 plus 13.
+[01:02:34.640 --> 01:02:36.640]  Greater than 9.
+[01:02:36.640 --> 01:02:38.640]  Add 6.
+[01:02:38.640 --> 01:02:40.640]  Then you correct it.
+[01:02:40.640 --> 01:02:42.640]  You add 6, you correct it.
+[01:02:45.640 --> 01:02:47.640]  Questions?
+[01:02:47.640 --> 01:02:50.640]  I will ask a question for Abomas.
+[01:02:50.640 --> 01:02:54.640]  Let's see who is the first student to answer.
+[01:02:54.640 --> 01:03:00.640]  Why the correction by adding the number 6?
+[01:03:00.640 --> 01:03:02.640]  Why 6?
+[01:03:02.640 --> 01:03:04.640]  Why not 7?
+[01:03:04.640 --> 01:03:06.640]  Here is my answer.
+[01:03:06.640 --> 01:03:08.640]  Yes?
+[01:03:08.640 --> 01:03:10.640]  Yes?
+[01:03:10.640 --> 01:03:16.640]  So we have to go from 9 to 15.
+[01:03:16.640 --> 01:03:18.640]  15?
+[01:03:18.640 --> 01:03:20.640]  Correct.
+[01:03:20.640 --> 01:03:22.640]  So 7 is greater than 8.
+[01:03:22.640 --> 01:03:24.640]  Today.
+[01:03:24.640 --> 01:03:29.640]  So you said when we count 0, 1, 2, 3, 4, 5, 6, 7, 9.
+[01:03:29.640 --> 01:03:31.640]  And then?
+[01:03:31.640 --> 01:03:32.640]  A.
+[01:03:32.640 --> 01:03:33.640]  B.
+[01:03:33.640 --> 01:03:34.640]  C.
+[01:03:34.640 --> 01:03:35.640]  D.
+[01:03:35.640 --> 01:03:36.640]  E.
+[01:03:36.640 --> 01:03:38.640]  F.
+[01:03:38.640 --> 01:03:40.640]  Those 6 counts.
+[01:03:40.640 --> 01:03:45.640]  You said the 4 bits will stand 16 different counts.
+[01:03:45.640 --> 01:03:48.640]  When we use the decimal, we use 10 counts.
+[01:03:48.640 --> 01:03:54.640]  So there is a difference between 16 counts and 10 counts 6.
+[01:03:54.640 --> 01:03:56.640]  And I want to go to the next one.
+[01:03:56.640 --> 01:03:59.640]  So this is why I corrected by adding 6.
+[01:03:59.640 --> 01:04:03.640]  Because I will not have A or B or C or D.
+[01:04:03.640 --> 01:04:08.640]  I will just move this one here.
+[01:04:08.640 --> 01:04:12.640]  So I need to add 6 to the number.
+[01:04:12.640 --> 01:04:14.640]  Okay?
+[01:04:14.640 --> 01:04:16.640]  Good.
+[01:04:23.640 --> 01:04:25.640]  Okay.
+[01:04:25.640 --> 01:04:29.640]  So here I have gray code.
+[01:04:29.640 --> 01:04:31.640]  Different code.
+[01:04:31.640 --> 01:04:33.640]  This is binary.
+[01:04:33.640 --> 01:04:35.640]  You are familiar with binary.
+[01:04:35.640 --> 01:04:37.640]  Binary numbers 0, 1, 2, 3.
+[01:04:37.640 --> 01:04:43.640]  But you can see here the gray code for decimal 0 is 0, but for 1 is 1.
+[01:04:43.640 --> 01:04:47.640]  For 2 is not 1, 0.
+[01:04:47.640 --> 01:04:53.640]  You can see this code looks like what is going on here.
+[01:04:53.640 --> 01:04:57.640]  I have gray code.
+[01:04:57.640 --> 01:04:59.640]  And I have a gray code for 3.
+[01:04:59.640 --> 01:05:03.640]  I have a gray code for 4.
+[01:05:03.640 --> 01:05:07.640]  Can you see something special about gray code?
+[01:05:13.640 --> 01:05:15.640]  What is going on here?
+[01:05:15.640 --> 01:05:21.640]  When I go from here to here, from here to here, can you see something special?
+[01:05:21.640 --> 01:05:23.640]  Yes, I can.
+[01:05:23.640 --> 01:05:25.640]  It's like 2, 1, 2, 3, 4.
+[01:05:25.640 --> 01:05:27.640]  Who is talking?
+[01:05:27.640 --> 01:05:29.640]  Did you listen to that?
+[01:05:29.640 --> 01:05:31.640]  No?
+[01:05:31.640 --> 01:05:33.640]  Okay.
+[01:05:33.640 --> 01:05:35.640]  Then let somebody else.
+[01:05:35.640 --> 01:05:37.640]  Let me see your answers.
+[01:05:37.640 --> 01:05:39.640]  Yes?
+[01:05:39.640 --> 01:05:41.640]  Huh?
+[01:05:41.640 --> 01:05:43.640]  Yes?
+[01:05:43.640 --> 01:05:47.640]  No, I don't have one.
+[01:05:47.640 --> 01:05:51.640]  It was 1, 0, I had 1, 21, 1.
+[01:05:51.640 --> 01:05:55.640]  If you raise your hand, I will raise it too.
+[01:05:55.640 --> 01:05:57.640]  I will raise it too.
+[01:05:57.640 --> 01:05:59.640]  No, I won't.
+[01:05:59.640 --> 01:06:01.640]  Yes?
+[01:06:01.640 --> 01:06:03.640]  2 and 3.
+[01:06:03.640 --> 01:06:05.640]  2 and 3, huh?
+[01:06:07.640 --> 01:06:11.640]  Like there is something happening from here to here.
+[01:06:11.640 --> 01:06:15.640]  And the similar thing happening from here to here.
+[01:06:15.640 --> 01:06:17.640]  And from here to here, and from here to here.
+[01:06:17.640 --> 01:06:19.640]  What is this thing?
+[01:06:25.640 --> 01:06:27.640]  From here to here.
+[01:06:27.640 --> 01:06:29.640]  From here to here.
+[01:06:29.640 --> 01:06:31.640]  From here to here.
+[01:06:55.640 --> 01:06:57.640]  Yes?
+[01:07:03.640 --> 01:07:05.640]  Yes?
+[01:07:11.640 --> 01:07:13.640]  0 instead of 1.
+[01:07:13.640 --> 01:07:21.640]  What he wants to say is, there is one big change.
+[01:07:21.640 --> 01:07:27.640]  When I go from here to here, 1 becomes 0, 1 big change.
+[01:07:27.640 --> 01:07:31.640]  When I go from here to here, this one becomes 0, 1 big change.
+[01:07:31.640 --> 01:07:35.640]  So in the whole pattern, there is one big change.
+[01:07:35.640 --> 01:07:39.640]  You try it, I will give you a try.
+[01:07:39.640 --> 01:07:41.640]  Okay?
+[01:07:41.640 --> 01:07:45.640]  He was able to see, there is one 0 change.
+[01:07:45.640 --> 01:07:51.640]  But the answer is, there is a change in 1 bit.
+[01:07:51.640 --> 01:07:53.640]  Is this useful? Yes, sir.
+[01:07:53.640 --> 01:07:55.640]  In some applications.
+[01:07:55.640 --> 01:07:59.640]  In some applications, we want to do one bit change.
+[01:07:59.640 --> 01:08:03.640]  I want to start from here.
+[01:08:03.640 --> 01:08:07.640]  I stopped at this point in the other lecture, but I told them also,
+[01:08:07.640 --> 01:08:11.640]  there is a way to go from binary to gray.
+[01:08:11.640 --> 01:08:14.640]  And from gray to binary.
+[01:08:14.640 --> 01:08:16.640]  How?
+[01:08:16.640 --> 01:08:18.640]  This is a binary number.
+[01:08:18.640 --> 01:08:22.640]  You put this number here, 1 plus 1 is 0.
+[01:08:22.640 --> 01:08:24.640]  I will carry 1, forget about carrying.
+[01:08:24.640 --> 01:08:26.640]  1 plus 0 is 1.
+[01:08:26.640 --> 01:08:28.640]  0 plus 0 is 0.
+[01:08:28.640 --> 01:08:30.640]  0 plus 0 is 0.
+[01:08:30.640 --> 01:08:32.640]  0 plus 1 is 1.
+[01:08:32.640 --> 01:08:34.640]  1 plus 1 is 0.
+[01:08:34.640 --> 01:08:36.640]  1 plus 0 is 1.
+[01:08:36.640 --> 01:08:40.640]  And to go from gray to gray, this is gray.
+[01:08:40.640 --> 01:08:42.640]  And we want the binary number.
+[01:08:42.640 --> 01:08:44.640]  1 plus 0 is 1.
+[01:08:44.640 --> 01:08:46.640]  1 plus 1 is 0.
+[01:08:46.640 --> 01:08:48.640]  0 plus 0 is 0.
+[01:08:48.640 --> 01:08:50.640]  0 plus 1 is 1.
+[01:08:50.640 --> 01:08:52.640]  And so on.
+[01:08:52.640 --> 01:08:56.640]  And then finally, this is the ASCII code.
+[01:08:56.640 --> 01:08:58.640]  It's a completely loose.
+[01:08:58.640 --> 01:09:00.640]  For E, B, C, E, C.
+[01:09:00.640 --> 01:09:04.640]  For every setting, this is what is called the ASCII code.
+[01:09:04.640 --> 01:09:08.640]  Still asking me, why I'm going to write ASCII code.
+[01:09:08.640 --> 01:09:12.640]  So next time, I'm going to start from here again.
+[01:09:12.640 --> 01:09:16.640]  Because I still have a script to go through this again.
+[01:09:16.640 --> 01:09:18.640]  So I will do consistent.
+[01:09:18.640 --> 01:09:20.640]  I will do this.
+[01:09:20.640 --> 01:09:22.640]  That's it for today.
+--- Transcription Finished ---
+--- Generating Notes with Ollama ---
+--- Notes Generation Finished ---
+Job 18 finalized and removed from queue.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.

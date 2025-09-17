@@ -1,0 +1,45 @@
+Directory '..\data' is ready.
+Database and tables verified successfully.
+Queue processor thread started.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.0.0.26:443
+Press CTRL+C to quit
+127.0.0.1 - - [16/Sep/2025 19:55:20] "POST /transcribe HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:55:23] "GET /queue_status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:55:24] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:55:27] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:55:29] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:55:33] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:55:35] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:55:39] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:55:41] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:55:45] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:55:47] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:55:51] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:55:53] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:55:57] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:55:59] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:56:03] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:56:05] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:56:09] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:56:11] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:56:15] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:56:17] "GET /status/19 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2025 19:56:21] "GET /status/19 HTTP/1.1" 200 -
+Queue processor checking for a new job...
+Processing job 19: cp220.mp3
+Loading Whisper model for the first time...
+Whisper is using device: cuda
+Whisper model loaded successfully.
+--- Starting Transcription for ../uploads\005d3b4d-aca2-4b5e-8fcd-e26ea632bd8a.mp3 ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: Pashto
+An error occurred during transcription for job 19: 'charmap' codec can't encode characters in position 27-28: character maps to <undefined>
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.

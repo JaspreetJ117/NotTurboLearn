@@ -1,0 +1,821 @@
+Directory '..\data' is ready.
+Database and tables verified successfully.
+Queue processor thread started.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.0.0.26:443
+Press CTRL+C to quit
+100.117.97.99 - - [16/Sep/2025 10:34:31] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 10:34:31] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 10:34:31] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 10:34:31] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 10:34:31] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 10:34:31] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 10:34:38] "GET /session/10 HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 10:59:09] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 10:59:09] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 10:59:09] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 10:59:10] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 10:59:10] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 10:59:10] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 10:59:25] "GET /session/10 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 11:24:50] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 11:24:50] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [16/Sep/2025 11:24:50] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [16/Sep/2025 11:24:50] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 11:24:50] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 11:24:50] "GET /favicon.ico HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 11:24:52] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 11:25:42] "GET /session/9 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 11:25:54] "GET /session/10 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 11:26:45] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 11:26:45] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [16/Sep/2025 11:26:45] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [16/Sep/2025 11:26:45] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 11:26:45] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [16/Sep/2025 11:26:48] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 11:53:35] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 11:53:35] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 11:53:35] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 11:53:35] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 11:53:35] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 11:53:35] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 11:53:50] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 11:53:50] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 11:53:50] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 11:53:50] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 11:53:50] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 11:53:50] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 11:53:57] "GET /session/10 HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 12:10:47] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 12:10:47] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 12:10:47] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 12:10:47] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 12:10:47] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 12:10:47] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 12:10:50] "GET /session/10 HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 12:15:57] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 12:15:57] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 12:15:57] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 12:15:57] "GET /static/images/icons/icon-192x192.png HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 12:21:31] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 12:21:31] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 12:21:31] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 12:21:31] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 12:21:31] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 12:21:31] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:49:38] "POST /transcribe HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:49:41] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:49:45] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:49:48] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:49:50] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:49:53] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:49:57] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:50:00] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:50:02] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:50:05] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:50:09] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:50:11] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:50:14] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:50:18] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:50:21] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:50:24] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:50:27] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:50:30] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:50:32] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:50:35] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:50:39] "GET /status/15 HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:50:39] "GET /queue_status HTTP/1.1" 200 -
+100.69.197.53 - - [16/Sep/2025 12:50:41] "GET /status/15 HTTP/1.1" 200 -
+Queue processor checking for a new job...
+Processing job 15: recording_2025-09-16T16-49-06.mp4
+Loading Whisper model for the first time...
+Whisper is using device: cuda
+Whisper model loaded successfully.
+--- Starting Transcription for ../uploads\ab406557-8f4e-4588-8174-973c9eb4e350.mp4 ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:02.320]  I'm gonna make a variability.
+[00:02.320 --> 00:05.200]  Last class, we just started doing that.
+[00:05.200 --> 00:08.400]  I put, we talked about range very quickly
+[00:08.400 --> 00:10.240]  and I put a couple of terms on there,
+[00:10.240 --> 00:12.400]  variance and standard deviation.
+[00:12.400 --> 00:14.840]  We're gonna take those calculations today.
+[00:16.120 --> 00:18.280]  We will get started a lot more probably,
+[00:18.280 --> 00:20.280]  I think, by the second half of class
+[00:20.280 --> 00:22.960]  and then I'll take us into the next class.
+[00:22.960 --> 00:27.960]  And we're, I think your first quiz covers
+[00:28.120 --> 00:29.680]  all the way through the last two more.
+[00:29.680 --> 00:30.760]  So we have a little bit more to do
+[00:30.760 --> 00:32.520]  before you even finish your first quiz.
+[00:32.520 --> 00:34.760]  I mean, by the end of this week or early next week,
+[00:34.760 --> 00:37.200]  you're gonna try to have a quick quiz.
+[00:39.080 --> 00:41.280]  You have a little bit of a nice,
+[00:45.480 --> 00:48.480]  you have the video textbook program.
+[00:49.640 --> 00:52.720]  We think you should stay in for a little bit,
+[00:52.720 --> 00:56.320]  but if you want an update, you do it by the next week.
+[00:56.600 --> 00:59.000]  And then your quick one is due on the second week.
+[01:02.840 --> 01:05.560]  You only can do the quizzes if you pay in ETA
+[01:05.560 --> 01:06.560]  or you buy a new one.
+[01:14.240 --> 01:17.520]  Probably get for admins.
+[01:20.400 --> 01:24.160]  Maybe after the break or by next class,
+[01:24.160 --> 01:25.320]  I've been asked a couple times
+[01:25.600 --> 01:28.480]  how do I practice for the four times?
+[01:28.480 --> 01:32.880]  We have a few different places you can practice online.
+[01:32.880 --> 01:36.680]  And so maybe I might remember after the break
+[01:36.680 --> 01:38.760]  or on Thursday class, I'll walk you through
+[01:38.760 --> 01:40.280]  a couple places in my little space
+[01:40.280 --> 01:43.080]  and you should know all the different places
+[01:43.080 --> 01:43.920]  you can get help.
+[01:46.640 --> 01:48.240]  Questions before we get started?
+[01:48.240 --> 01:53.240]  Okay, so I did one thing, it's not a mistake,
+[01:56.400 --> 02:00.120]  I just did something out of order last class.
+[02:00.120 --> 02:01.800]  Near the end of your notes last class,
+[02:01.800 --> 02:05.360]  you saw that we have notes on what a population is
+[02:05.360 --> 02:07.200]  and what a sample is for so long.
+[02:07.200 --> 02:11.360]  And what I could tell you was a couple lines
+[02:11.360 --> 02:13.800]  that would fit in nicely right after that.
+[02:13.800 --> 02:15.560]  But then we skipped ahead and started talking about
+[02:15.560 --> 02:19.200]  brain for jobs, there was one thing right here.
+[02:20.120 --> 02:22.320]  So if you have, especially if you have the ability
+[02:22.320 --> 02:25.200]  to edit your notes, then just do slide this in
+[02:25.200 --> 02:28.200]  and let me write it before we started talking about brain.
+[02:28.200 --> 02:29.200]  Watch my notes.
+[02:40.800 --> 02:44.800]  Okay, an important piece of notation in this class
+[02:45.600 --> 02:47.760]  is of course, A is the population average,
+[02:47.760 --> 02:50.520]  which is mu, A is the Greek letter,
+[02:56.520 --> 02:58.440]  actually the Greek letter for m,
+[02:58.440 --> 03:01.800]  that is a little m in Greek, and you say mu.
+[03:03.960 --> 03:06.120]  And A is equal to the population average,
+[03:06.120 --> 03:11.120]  which you calculate by, hopefully you've seen that before,
+[03:11.160 --> 03:16.160]  and sum, but we'll use it three times in this course.
+[03:17.560 --> 03:19.520]  I'm just gonna be a little casual with it
+[03:19.520 --> 03:24.520]  and just say all i's, all i's, maybe all i's better.
+[03:25.880 --> 03:28.160]  All i, x i,
+[03:29.680 --> 03:33.680]  divided by big N,
+[03:35.000 --> 03:36.880]  that is under the last time,
+[03:36.880 --> 03:41.880]  so x i, maybe we haven't talked about this,
+[03:44.080 --> 03:48.080]  this is just like the i's values you measured,
+[03:54.120 --> 03:55.200]  and population.
+[04:03.120 --> 04:05.520]  Sum up all the values in the population that you measured
+[04:05.680 --> 04:08.680]  divided by N and you get the average, all at nip.
+[04:15.680 --> 04:16.680]  In contrast,
+[04:25.480 --> 04:27.060]  the sample average,
+[04:35.520 --> 04:40.520]  the sample average is essentially the same as the horion,
+[04:49.920 --> 04:52.120]  except for you add up all the i's,
+[04:52.120 --> 04:54.480]  or all the x i's, all the values,
+[04:54.480 --> 04:57.720]  and then you divide by N,
+[04:57.720 --> 04:58.560]  it's a little under the sign
+[04:58.560 --> 05:01.160]  because the number of items is N.
+[05:05.520 --> 05:06.360]  So,
+[05:10.440 --> 05:11.280]  we know that.
+[05:13.360 --> 05:15.640]  Okay, so these formulas are the same
+[05:16.760 --> 05:19.720]  in that you are adding up everything and dividing by N,
+[05:19.720 --> 05:22.280]  and the difference is how,
+[05:24.960 --> 05:28.960]  the difference is what you know about N.
+[05:31.920 --> 05:33.920]  Let me try and explain that.
+[05:35.520 --> 05:36.360]  So,
+[05:42.080 --> 05:44.800]  what example I think is your heights.
+[05:44.800 --> 05:48.840]  So, I could estimate,
+[05:48.840 --> 05:51.160]  no, I could calculate the average height in this room,
+[05:51.160 --> 05:52.440]  or let's be more ambitious,
+[05:52.440 --> 05:55.560]  let's say the average height on an undergrad student board,
+[05:55.560 --> 05:57.160]  which are like 20,000 meters.
+[05:58.760 --> 06:02.120]  So, I could find everyone and measure all their heights,
+[06:02.160 --> 06:05.880]  but that would be very costly, possibly impossible,
+[06:05.880 --> 06:08.760]  because maybe some of you don't have your hands.
+[06:08.760 --> 06:11.000]  But maybe I can't figure this out.
+[06:11.000 --> 06:15.520]  In fact, we often talk or assume
+[06:15.520 --> 06:18.520]  that this new value is unknowable.
+[06:25.440 --> 06:28.920]  As in, you do not have the ability to calculate it,
+[06:28.920 --> 06:32.080]  and you cannot measure everyone in the population.
+[06:32.080 --> 06:34.920]  So, instead, you're calculating that
+[06:34.920 --> 06:37.600]  by sampling five, 10, 20 of these,
+[06:39.320 --> 06:41.520]  and then you calculate this,
+[06:41.520 --> 06:42.920]  and you use this
+[06:47.800 --> 06:49.720]  and I talked about this a little last class,
+[06:49.720 --> 06:51.400]  and I draw that through that diagram
+[06:51.400 --> 06:53.320]  with the population and the sample,
+[06:53.320 --> 06:58.080]  and this is just a specific way that we do this
+[06:58.320 --> 07:02.040]  is we collect the sample, we calculate X bar,
+[07:02.040 --> 07:04.840]  which is the sample versus the sample mean,
+[07:04.840 --> 07:06.400]  we use this estimate mu,
+[07:06.400 --> 07:09.400]  because mu is impossible to know sometimes.
+[07:11.840 --> 07:13.360]  And by the way,
+[07:14.720 --> 07:17.720]  this is called a program.
+[07:24.480 --> 07:25.960]  And that is called a
+[07:28.080 --> 07:28.920]  program.
+[07:30.920 --> 07:32.720]  I put the camera back over there.
+[07:35.720 --> 07:39.480]  So we use statistics to estimate parameters.
+[07:48.120 --> 07:49.400]  Camera comes back to me
+[07:49.400 --> 07:52.960]  because I've made a couple of changes to this.
+[07:52.960 --> 07:54.960]  This can fill up that.
+[07:55.080 --> 07:56.400]  Questions about mu,
+[07:59.400 --> 08:04.400]  X bar, population, sample, parameters, statistics?
+[08:05.120 --> 08:06.760]  We'll keep coming back to these ideas
+[08:06.760 --> 08:07.840]  because they're pretty important,
+[08:07.840 --> 08:11.880]  but this is like your first case.
+[08:11.880 --> 08:12.720]  Okay.
+[08:24.720 --> 08:26.320]  This is very good.
+[08:26.320 --> 08:27.760]  We did range already.
+[08:34.320 --> 08:36.720]  I'll just put the last class.
+[08:36.720 --> 08:37.560]  Next.
+[08:42.520 --> 08:43.360]  Variation.
+[08:49.160 --> 08:52.160]  Finally, co-addition of variation.
+[09:11.880 --> 09:12.720]  Okay.
+[09:35.000 --> 09:35.840]  Oh.
+[09:38.400 --> 09:41.000]  There's something I need to do first.
+[09:41.040 --> 09:43.120]  I'm grouping up on space.
+[09:45.760 --> 09:48.000]  I'm going to do it on space.
+[09:56.440 --> 09:57.280]  Okay.
+[09:58.240 --> 10:00.160]  Sorry if it's hard for you to add in the div,
+[10:00.160 --> 10:03.240]  but we used to talk about mean absolute deviation first.
+[10:03.240 --> 10:04.720]  We don't use it very much,
+[10:04.720 --> 10:07.200]  but it is simple and kind of useful,
+[10:07.200 --> 10:08.700]  so we should not.
+[10:11.000 --> 10:11.840]  Okay.
+[10:21.840 --> 10:23.680]  Also known as the SMAT.
+[10:27.080 --> 10:27.920]  Okay.
+[10:29.680 --> 10:30.880]  Now before we talk about that,
+[10:30.880 --> 10:33.840]  we can talk about the pain in the rear of the head.
+[10:33.840 --> 10:36.180]  So we are trying to estimate.
+[10:36.180 --> 10:37.760]  Trying to estimate.
+[10:39.660 --> 10:40.580]  Or capture.
+[10:42.260 --> 10:44.260]  How spread out data is.
+[10:50.700 --> 10:52.780]  So the range, we talked about last class,
+[10:52.780 --> 10:55.300]  was diverse in kind of measuring how spread out data was.
+[10:55.300 --> 10:57.620]  We just put the pain as one minus the smallest one,
+[10:57.620 --> 10:59.980]  and we said that's the range of the data.
+[10:59.980 --> 11:02.940]  But it misses some subtleties.
+[11:02.940 --> 11:06.440]  Like it doesn't capture where most data is.
+[11:07.420 --> 11:09.740]  If you have a single outlier,
+[11:09.740 --> 11:12.900]  then it will push the range to one end or the other,
+[11:12.900 --> 11:14.980]  or it will make the range really big.
+[11:14.980 --> 11:17.820]  And we're interested in kind of like
+[11:17.820 --> 11:20.060]  how spread out people are.
+[11:21.540 --> 11:25.120]  So one idea is called the deviation company.
+[11:32.940 --> 11:33.780]  Okay.
+[11:56.780 --> 11:59.860]  Okay, so the first thing you might think of past range
+[11:59.900 --> 12:03.300]  is why don't we calculate how far every point is
+[12:03.300 --> 12:06.180]  around the middle and maybe add that up or something.
+[12:06.180 --> 12:10.780]  And that will be a measure of how spread out it is.
+[12:10.780 --> 12:12.780]  But something happens when you do that.
+[12:25.620 --> 12:27.940]  So let's
+[12:30.180 --> 12:33.180]  let's reuse the data from diversity.
+[12:45.660 --> 12:48.660]  So I'm gonna use five data points.
+[12:52.020 --> 12:53.780]  We need their average.
+[12:55.940 --> 12:57.980]  Do you think how big their average are?
+[12:57.980 --> 13:01.460]  On the first five, I'm not sure either.
+[13:01.460 --> 13:03.620]  It should be out of the first one.
+[13:03.620 --> 13:04.460]  9.7.
+[13:27.980 --> 13:28.820]  Okay.
+[13:31.580 --> 13:34.500]  And then we can calculate the difference
+[13:34.500 --> 13:37.220]  between each point and the average
+[13:37.220 --> 13:40.220]  and figure out how spread out it is.
+[13:57.980 --> 14:02.980]  So we actually write this as point XI minus XR.
+[14:10.700 --> 14:12.900]  So I'm gonna take the number of the first column
+[14:12.900 --> 14:15.100]  subtract the number of the second column.
+[14:15.100 --> 14:17.060]  And then I get like 6.3,
+[14:19.060 --> 14:21.740]  I get minus, write this minus that,
+[14:21.740 --> 14:22.580]  minus 6.7,
+[14:25.580 --> 14:26.420]  minus 4.2,
+[14:28.940 --> 14:29.780]  5.3,
+[14:31.620 --> 14:32.460]  5.2.
+[14:37.340 --> 14:38.180]  Okay.
+[14:38.180 --> 14:41.140]  And then maybe we could add those up
+[14:41.140 --> 14:45.100]  or we could add them to the number of the first column.
+[14:45.100 --> 14:45.940]  Okay.
+[14:58.500 --> 15:02.180]  And maybe that'll give us a measure
+[15:02.180 --> 15:03.820]  of how spread out everything is.
+[15:03.820 --> 15:05.860]  So if the average of those five numbers,
+[15:07.020 --> 15:09.020]  then we know what happens.
+[15:15.340 --> 15:16.740]  What goes into your calculator
+[15:16.740 --> 15:19.180]  and you don't see what happens?
+[15:23.540 --> 15:24.460]  Every time.
+[15:28.980 --> 15:30.940]  So it turns out we have a problem,
+[15:30.940 --> 15:34.820]  which is that if you average the distance
+[15:36.740 --> 15:38.540]  from each point to the average,
+[15:38.540 --> 15:40.260]  it always works out to zero.
+[15:41.180 --> 15:44.940]  Which means that average deviation,
+[15:44.940 --> 15:47.260]  which sounded like a good idea,
+[15:47.260 --> 15:50.940]  turned out to not be a good measure of deviation.
+[15:50.940 --> 15:52.460]  Because you can't like,
+[15:52.460 --> 15:53.820]  because it always works out to zero.
+[15:53.820 --> 15:55.180]  It doesn't matter if spread out the numbers are.
+[15:55.180 --> 15:57.340]  The average, the pluses and minuses
+[15:57.340 --> 15:59.100]  always cancel each other out.
+[15:59.100 --> 16:00.380]  And it doesn't work.
+[16:05.300 --> 16:08.300]  Pluses and minuses will cancel.
+[16:20.340 --> 16:21.180]  So,
+[16:21.180 --> 16:22.680]  instead of doing that,
+[16:24.020 --> 16:26.700]  we're like, okay, let's try some other tricks.
+[16:26.700 --> 16:28.700]  And the other tricks we try,
+[16:29.580 --> 16:31.780]  like how do you get rid of minus signs?
+[16:32.820 --> 16:35.900]  One of them is absolute value,
+[16:35.900 --> 16:38.900]  which means the mean absolute deviation.
+[16:38.900 --> 16:40.860]  And the other way to get rid of minus signs
+[16:40.860 --> 16:42.900]  is to square things.
+[16:42.900 --> 16:44.900]  So, you go with that.
+[16:46.900 --> 16:47.740]  So,
+[16:47.740 --> 16:48.580]  go.
+[16:50.660 --> 16:51.500]  So,
+[17:17.740 --> 17:46.060]  So, I really like the history of this.
+[17:46.060 --> 17:54.060]  When we're trying to measure how spread out things are, we want to use how far things are from the outer.
+[17:54.060 --> 17:59.060]  We deviate from the mean, from the linear to the minus sign, and we're always going to use statisticians.
+[17:59.060 --> 18:05.060]  We came up with two different ideas for that. One is to use the absolute values and can't use that with the mean-actualization.
+[18:05.060 --> 18:13.060]  The other one is you can square all the differences. And that leads to fairness.
+[18:13.060 --> 18:24.060]  There are pros and cons to both strategies. I can tell you that it turns out that variants have a lot more interesting properties,
+[18:24.060 --> 18:30.060]  including that it is differentiable at zero if you care about detail for this.
+[18:30.060 --> 18:36.060]  They also add nicely, so that if you have multiple things and you want to add their variances up,
+[18:36.060 --> 18:41.060]  adding up the mean-actualization doesn't work properly, but adding their actuates does.
+[18:41.060 --> 18:47.060]  And so because of a few technical reasons, we actually prefer to use variants, even though we're experts.
+[18:47.060 --> 18:51.060]  For example, it's a step harder, but it's definitely better.
+[18:51.060 --> 18:55.060]  I'll just add that note here.
+[18:55.060 --> 19:03.060]  One of the things in square brackets, it's more like, it'll be like instructions about where to go with the notes, or like side notes.
+[19:03.060 --> 19:08.060]  And this is one of those side notes that you will not be tested on, but it's kind of interesting to know that.
+[19:09.060 --> 19:15.060]  And that is a couple of technical reasons.
+[19:27.060 --> 19:30.060]  We prefer working with variants.
+[19:30.060 --> 19:41.060]  And that is why you learn about mean-actual deviation, but we don't actually do it very much.
+[19:41.060 --> 19:47.060]  It doesn't have very good mathematical problems.
+[20:01.060 --> 20:03.060]  That did not work.
+100.117.97.99 - - [16/Sep/2025 12:53:25] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 12:53:25] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 12:53:25] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 12:53:25] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 12:53:25] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 12:53:25] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 12:53:28] "GET /queue_status HTTP/1.1" 200 -
+[20:03.060 --> 20:06.060]  All right.
+[20:06.060 --> 20:08.060]  All right.
+[20:27.060 --> 20:29.060]  All right.
+[20:29.060 --> 20:33.060]  Questions about that digression?
+[20:36.060 --> 20:40.060]  Okay, so we need to talk about mean-actual deviation, how to calculate it. It's very easy.
+[20:40.060 --> 20:47.060]  We're going to take those values that we calculated in the third column, we're going to get rid of the minus signs, and then do that.
+[20:47.060 --> 20:51.060]  And that's it. And that is mean-actual deviation.
+[20:51.060 --> 20:53.060]  Okay.
+[21:04.060 --> 21:06.060]  Okay.
+[21:06.060 --> 21:08.060]  Okay.
+[21:18.060 --> 21:20.060]  I think we're doing it again.
+[21:24.060 --> 21:26.060]  I'll put the table back.
+[21:26.060 --> 21:35.060]  Maybe we'll do it in a different color to show that this part is from before.
+[21:36.060 --> 21:38.060]  Okay.
+[21:45.060 --> 21:51.060]  And if you want to make your notes nice and succinct, see this part?
+[21:53.060 --> 21:55.060]  I'm just copying over there.
+[22:06.060 --> 22:11.060]  And now we're taking the absolute value of that instead of the...
+[22:11.060 --> 22:15.060]  That's great. Instead of the sine value.
+[22:15.060 --> 22:19.060]  And then we're going to take the average.
+[22:19.060 --> 22:22.060]  Instead of the sine value.
+[22:25.060 --> 22:28.060]  And then the average.
+[22:49.060 --> 22:51.060]  Okay.
+[22:57.060 --> 22:59.060]  19.85, right?
+[22:59.060 --> 23:03.060]  11.8, 19.8.
+[23:03.060 --> 23:05.060]  Okay.
+[23:15.060 --> 23:20.060]  As you know, 3.9.
+[23:20.060 --> 23:23.060]  I used to be really good at this.
+[23:23.060 --> 23:25.060]  And I'm getting...
+[23:25.060 --> 23:28.060]  Well, I'm not as young as I used to be.
+[23:31.060 --> 23:33.060]  Okay. 3.9 steps.
+[23:35.060 --> 23:37.060]  Really doesn't check my marks.
+[23:37.060 --> 23:39.060]  That's a good mark.
+[23:39.060 --> 23:41.060]  This has units.
+[23:41.060 --> 23:43.060]  And this has a number.
+[23:43.060 --> 23:45.060]  And this has a number.
+[23:45.060 --> 23:47.060]  Doesn't check my marks.
+[23:47.060 --> 23:49.060]  That's a good mark.
+[23:49.060 --> 23:54.060]  This has units because this original data,
+[23:54.060 --> 23:56.060]  this is from my COVID data,
+[23:56.060 --> 23:58.060]  these are my days of symptoms.
+[23:58.060 --> 24:00.060]  These are average days of symptoms.
+[24:00.060 --> 24:02.060]  The difference is in days.
+[24:02.060 --> 24:04.060]  It's divided by a number.
+[24:04.060 --> 24:07.060]  So this is still in days of...
+[24:07.060 --> 24:12.060]  So the average is 9.7 days
+[24:12.060 --> 24:17.060]  with an average dispersion of about 4 days.
+[24:17.060 --> 24:22.060]  And you could even...
+[24:22.060 --> 24:24.060]  Probably shouldn't do this.
+[24:24.060 --> 24:28.060]  If you are kind of being fast and lazy,
+[24:28.060 --> 24:30.060]  you can do this.
+[24:30.060 --> 24:32.060]  You can do this.
+[24:33.060 --> 24:37.060]  If you are kind of being fast and lazy
+[24:37.060 --> 24:39.060]  and didn't finish your stats class,
+[24:39.060 --> 24:41.060]  you could be like,
+[24:41.060 --> 24:45.060]  oh, the typical days of symptoms of COVID are 9.7
+[24:45.060 --> 24:47.060]  plus or minus 3.9 steps.
+[24:47.060 --> 24:49.060]  But as we go through the rest of the course,
+[24:49.060 --> 24:52.060]  you'll see why that's a very simple and lazy way of talking.
+[24:52.060 --> 24:54.060]  So I'm not even going to write it
+[24:54.060 --> 24:56.060]  because you're not supposed to do that.
+[24:56.060 --> 24:58.060]  So you can get an idea of typical values
+[24:58.060 --> 25:00.060]  within 4 days of the average.
+[25:00.060 --> 25:02.060]  On average.
+[25:02.060 --> 25:04.060]  That some are more than 4,
+[25:04.060 --> 25:06.060]  some are less than 4 away,
+[25:06.060 --> 25:08.060]  some are about 4 away.
+[25:08.060 --> 25:10.060]  This is the average.
+[25:10.060 --> 25:12.060]  From the average.
+[25:12.060 --> 25:14.060]  I'm writing it.
+[25:14.060 --> 25:16.060]  The average distance from the average.
+[25:20.060 --> 25:24.060]  Okay, questions about all of this?
+[25:24.060 --> 25:26.060]  Okay.
+[25:26.060 --> 25:30.060]  How many distance you're from the average?
+[25:30.060 --> 25:32.060]  Yeah.
+[25:38.060 --> 25:40.060]  My name is Jacob.
+[25:44.060 --> 25:46.060]  It's possible.
+[25:48.060 --> 25:50.060]  Let me double check.
+[25:50.060 --> 25:52.060]  Now I'm going to double check.
+[25:52.060 --> 25:56.060]  6, 3, 6, 7.
+[25:56.060 --> 25:58.060]  Let's see.
+[26:02.060 --> 26:04.060]  It is better than 10.
+[26:04.060 --> 26:06.060]  Oh, something is wrong.
+[26:06.060 --> 26:08.060]  Oh, I know what I did.
+[26:14.060 --> 26:16.060]  21?
+[26:18.060 --> 26:20.060]  Oh, it's right.
+[26:20.060 --> 26:24.060]  So I added these two and I got 11 for some reason.
+[26:28.060 --> 26:30.060]  Okay.
+[26:30.060 --> 26:32.060]  Since I made mistakes, I'll put it in red.
+[26:32.060 --> 26:34.060]  So that if you're following along,
+[26:34.060 --> 26:36.060]  you know where my mistake is from.
+[26:36.060 --> 26:38.060]  And then forward.
+[26:46.060 --> 26:48.060]  Sometimes I'll make mistakes by accident once a day.
+[26:48.060 --> 26:50.060]  Other times I do it on purpose.
+[26:50.060 --> 26:52.060]  See if I catch the whole class.
+[26:52.060 --> 26:54.060]  No, I don't think I'll do that.
+[26:56.060 --> 26:58.060]  Good thing.
+[27:00.060 --> 27:02.060]  Okay, questions?
+[27:08.060 --> 27:10.060]  No, we're good.
+[27:10.060 --> 27:12.060]  How many are you?
+[27:12.060 --> 27:14.060]  I'm just coming out for a minute.
+[27:14.060 --> 27:16.060]  That's so great.
+[27:16.060 --> 27:18.060]  I'm not going to lie.
+[27:36.060 --> 27:40.060]  So now that we have seen main apps for TVA,
+[27:40.060 --> 27:44.060]  the jump to variants is actually very simple.
+[27:44.060 --> 27:48.060]  Even though variants sound complicated and look complicated
+[27:48.060 --> 27:50.060]  when you look at the formula,
+[27:50.060 --> 27:54.060]  what you are actually doing is not much more complicated than this.
+[27:54.060 --> 27:58.060]  So instead of making the actual values of these,
+[27:58.060 --> 28:02.060]  we square them and we average them, and that's it.
+[28:02.060 --> 28:04.060]  That's various.
+[28:04.060 --> 28:16.060]  So, we need to differentiate between sample variants
+[28:16.060 --> 28:18.060]  and population variants.
+[28:18.060 --> 28:20.060]  So if we're dealing with a sample,
+[28:20.060 --> 28:22.060]  let's do sample variants.
+[28:22.060 --> 28:36.060]  So, sample variants is denoted as S.
+[28:40.060 --> 28:48.060]  Calculation in a pre-maple looks like this.
+[28:52.060 --> 28:56.060]  So I take my values.
+[29:04.060 --> 29:10.060]  And that is an S, not a 5.
+[29:10.060 --> 29:14.060]  That's what we call a sample variant.
+[29:14.060 --> 29:16.060]  I'll put the values back.
+[29:16.060 --> 29:26.060]  16, 3, 5.5, 13, 11, 9, 11, 9, 11, 1.
+[29:30.060 --> 29:34.060]  Then we need to take all those differences
+[29:34.060 --> 29:36.060]  and we have to square them.
+[29:36.060 --> 29:44.060]  So, we have differences up there.
+[29:44.060 --> 29:50.060]  Some of these I know, and some of these I haven't checked.
+[29:50.060 --> 29:58.060]  That's 1.6 times 10.8 times 17.6.
+[29:58.060 --> 30:02.060]  You all have to learn how to square all the numbers from 1 to 1.
+[30:02.060 --> 30:16.060]  I think that top one is 36.39.
+[30:16.060 --> 30:18.060]  No, that's not right.
+[30:18.060 --> 30:20.060]  36.6.
+[30:20.060 --> 30:22.060]  Let's check.
+[30:22.060 --> 30:24.060]  I want to make numbers up.
+[30:24.060 --> 30:28.060]  39.6.
+[30:34.060 --> 30:38.060]  Okay, so these numbers are those numbers squared.
+[30:38.060 --> 30:42.060]  They go technically.
+[30:42.060 --> 30:48.060]  And then S.
+[30:52.060 --> 30:54.060]  That's some.
+[30:54.060 --> 31:22.060]  I forgot to put the 2 in the box.
+[31:22.060 --> 31:26.060]  So we call this S squared.
+[31:30.060 --> 31:32.060]  And what is the sum of those numbers?
+[31:32.060 --> 31:34.060]  I don't want to do that in my head.
+[31:34.060 --> 31:36.060]  It's scary.
+[31:36.060 --> 31:40.060]  114.8.
+[31:40.060 --> 31:56.060]  And we can find by n minus 1 instead of n.
+[31:56.060 --> 32:18.060]  The reason we divide by n minus 1 instead of n is low cost.
+[32:18.060 --> 32:26.060]  Okay.
+[32:26.060 --> 32:34.060]  Oh, I felt this one wrong.
+[32:34.060 --> 32:38.060]  Okay.
+[32:38.060 --> 32:43.060]  So normally when you take averages, you can divide by the number of
+[32:43.060 --> 32:51.060]  When you are calculating the variance of a sample, you divide by n minus 1 instead.
+[32:51.060 --> 32:57.060]  And the reason has to do with, I've seen a few explanations.
+[32:57.060 --> 33:03.060]  One is it's about degrees of freedom, which is a concept we're going to come back to later.
+[33:03.060 --> 33:11.060]  And that has to do with we don't actually know what X bar is.
+[33:11.060 --> 33:15.060]  So we divide by n minus 1.
+[33:15.060 --> 33:21.060]  And we can estimate based on us finding these values from the whole population.
+[33:21.060 --> 33:33.060]  And because we don't know what this is, the actual uncertainty in this method, which is the distance to the average, is higher than the index.
+[33:33.060 --> 33:37.060]  And so we divide by a smaller number.
+[33:37.060 --> 33:41.060]  And so this is called the Vessel's Correction.
+[33:41.060 --> 33:45.060]  You don't need to know anything I just said in the last minute.
+[33:45.060 --> 33:53.060]  If you're really curious about how this works, the Wikipedia page for Vessel's Correction is pretty good.
+[33:53.060 --> 34:01.060]  You don't need to know it, but if you're like, I must understand why it's n minus 1 instead of n,
+[34:01.060 --> 34:05.060]  I got a little bit of feedback for Vessel's Correction.
+[34:11.060 --> 34:17.060]  So this is 148.8 divided by 4.
+[34:31.060 --> 34:59.060]  In contrast,
+[34:59.060 --> 35:09.060]  if you know that you are looking at everything that is,
+[35:09.060 --> 35:15.060]  if you know that you're looking at every element of the population,
+[35:15.060 --> 35:21.060]  the formula is slightly different.
+[35:29.060 --> 35:49.060]  If you're dealing with population variance, instead of s squared, we call it sigma squared.
+[35:49.060 --> 35:57.060]  When my kids started saying things were sigma, I didn't know it.
+[35:57.060 --> 36:05.060]  Because we have been using, you know, dirty math people have been using sigma for a very long time to mean this.
+[36:11.060 --> 36:15.060]  So sigma squared, population variance.
+[36:15.060 --> 36:17.060]  The formula is almost the same.
+[36:17.060 --> 36:21.060]  You can only use it if you know you're dealing with the population.
+[36:29.060 --> 36:39.060]  And a simple example of measuring the whole population is trying to understand a classical dog.
+[37:09.060 --> 37:17.060]  And it's no great time, but I promise you that when we have breaks,
+[37:17.060 --> 37:19.060]  that I might give you something to do during that break.
+[37:19.060 --> 37:21.060]  You don't have to do it, because I'm going to do it afterwards.
+[37:21.060 --> 37:23.060]  If you're bored and want to try something.
+[37:27.060 --> 37:35.060]  Why don't you try and calculate the variance of the outcome of a six-sided die?
+[37:35.060 --> 37:41.060]  So you need to find the average of these six numbers, build up this table.
+[37:41.060 --> 37:49.060]  You need x bar, you need xi minus x bar squared.
+[37:51.060 --> 37:59.060]  And then the formula, sigma squared, is the sum of the values.
+[37:59.060 --> 38:05.060]  You don't correct, you devise by taking that.
+[38:07.060 --> 38:11.060]  So I'll see you in five minutes at 12.15.
+[38:11.060 --> 38:15.060]  If you want something to do, see if you can find something to do.
+[38:29.060 --> 38:35.060]  This is a break. Do not account until 12.15.
+[38:59.060 --> 39:09.060]  This is an open AID. It's basically like O3 mini, but O3 performance, which is pretty good.
+[39:09.060 --> 39:11.060]  Let me show you the notes that I've drawn.
+[39:29.060 --> 39:33.060]  Check it out.
+[39:33.060 --> 39:35.060]  That was 167.
+[39:43.060 --> 39:45.060]  How do you say it right?
+[39:45.060 --> 39:47.060]  Take the misses off.
+[39:47.060 --> 39:49.060]  That's the same thing.
+[39:49.060 --> 39:51.060]  You can go to 12.15.
+[39:51.060 --> 39:53.060]  But it's two point five.
+[39:53.060 --> 39:55.060]  It's the same thing.
+[39:55.060 --> 39:57.060]  No.
+[39:57.060 --> 39:59.060]  So that's correct.
+[39:59.060 --> 40:01.060]  In case you want to find something.
+[40:01.060 --> 40:03.060]  How do you do it?
+[40:03.060 --> 40:05.060]  I'm going to be real hell-bent.
+[40:05.060 --> 40:07.060]  You can check it out.
+[40:07.060 --> 40:09.060]  Just protect it right there.
+[40:09.060 --> 40:11.060]  That's what I'm doing.
+[40:41.060 --> 40:43.060]  That's the language.
+[40:51.060 --> 40:53.060]  That's the job.
+[41:11.060 --> 41:13.060]  That's the job.
+[41:13.060 --> 41:15.060]  You read YouTube?
+[41:15.060 --> 41:17.060]  I read it.
+[41:17.060 --> 41:21.060]  I actually have a small assignment for you.
+[41:21.060 --> 41:23.060]  Should I make this?
+[41:23.060 --> 41:25.060]  I love you.
+[41:25.060 --> 41:27.060]  Kevin?
+[41:27.060 --> 41:29.060]  Kevin.
+[41:29.060 --> 41:31.060]  What was the last week?
+[41:31.060 --> 41:33.060]  I have a small assignment.
+[41:33.060 --> 41:35.060]  Except for a little mic.
+[41:35.060 --> 41:37.060]  What was the mic at?
+[42:07.060 --> 42:09.060]  I don't know.
+[42:09.060 --> 42:11.060]  He told me he was going to do it.
+[42:11.060 --> 42:13.060]  He said don't beat him.
+[42:13.060 --> 42:15.060]  What are you talking about bro?
+[42:15.060 --> 42:17.060]  What are you talking about bro?
+[42:17.060 --> 42:19.060]  Sit down.
+[42:19.060 --> 42:21.060]  What are you talking about bro?
+[42:21.060 --> 42:23.060]  Oh my god.
+[42:23.060 --> 42:25.060]  Let me see it.
+[42:25.060 --> 42:27.060]  Holy.
+[42:27.060 --> 42:29.060]  Holy.
+[42:29.060 --> 42:31.060]  Can you sit down bro?
+[42:31.060 --> 42:33.060]  That kind bro.
+[42:33.060 --> 42:35.060]  You're triggering my AI.
+[42:35.060 --> 42:37.060]  What does it say?
+[42:37.060 --> 42:39.060]  It says
+[42:39.060 --> 42:43.060]  You don't kill women, you kill women.
+[42:43.060 --> 42:45.060]  Oh.
+[42:45.060 --> 42:47.060]  Oh.
+[42:47.060 --> 42:49.060]  I can't even read.
+[42:49.060 --> 42:51.060]  What does that mean?
+[42:51.060 --> 42:53.060]  I don't know.
+[42:53.060 --> 42:55.060]  I'm asking.
+[42:55.060 --> 42:57.060]  What does that water bottle mean?
+[42:57.060 --> 42:59.060]  Why is it made out of wood?
+[42:59.060 --> 43:01.060]  It's made out of wood.
+[43:01.060 --> 43:03.060]  Is that wood?
+[43:03.060 --> 43:05.060]  Bro he likes putting it in his mouth.
+[43:05.060 --> 43:07.060]  He likes eating wood.
+[43:07.060 --> 43:09.060]  What is this guy bro?
+[43:09.060 --> 43:11.060]  Bum ass guy.
+[43:11.060 --> 43:13.060]  Bum ass guy.
+[43:13.060 --> 43:15.060]  The OG Bum.
+[43:17.060 --> 43:19.060]  Where the OG Bum?
+[43:19.060 --> 43:21.060]  Bro, the Bum with me.
+[43:21.060 --> 43:23.060]  Where the Waterloo rejects bro?
+[43:23.060 --> 43:25.060]  I forget the Waterloo.
+[43:25.060 --> 43:27.060]  Waterloo wants us.
+[43:27.060 --> 43:29.060]  Waterloo is going to want us.
+[43:29.060 --> 43:31.060]  Waterloo doesn't want you bro.
+[43:31.060 --> 43:33.060]  It wants nobody.
+[43:33.060 --> 43:35.060]  Yo we're loyal demons bro.
+[43:35.060 --> 43:37.060]  Nobody can have us.
+[43:37.060 --> 43:39.060]  We're loyal demons bro.
+[43:39.060 --> 43:41.060]  We're loyal demons bro.
+[43:41.060 --> 43:43.060]  We're loyal demons.
+[43:53.060 --> 43:55.060]  Welcome back to my
+[43:55.060 --> 43:57.060]  I have started building
+[43:57.060 --> 43:59.060]  the table.
+[43:59.060 --> 44:01.060]  I now live in the average
+[44:01.060 --> 44:03.060]  in my head.
+[44:03.060 --> 44:05.060]  It's the sum of the numbers from 1 to 6 divided by 6.
+[44:05.060 --> 44:07.060]  It's 12.5.
+[44:07.060 --> 44:09.060]  And then I
+[44:09.060 --> 44:11.060]  square the differences.
+[44:11.060 --> 44:13.060]  1 and a square, 1 and a half square.
+[44:13.060 --> 44:15.060]  I've got those numbers.
+[44:15.060 --> 44:17.060]  You'll also notice that
+[44:17.060 --> 44:19.060]  some of the waterloo waterloo colleagues
+[44:19.060 --> 44:21.060]  noticed this before we got to water.
+[44:21.060 --> 44:23.060]  I have put X bar here.
+[44:23.060 --> 44:25.060]  But remember the very beginning of class
+[44:25.060 --> 44:27.060]  that when you were dealing with the population
+[44:27.060 --> 44:29.060]  you called X bar and it's called mu.
+[44:29.060 --> 44:31.060]  So it should be a mu.
+[44:31.060 --> 44:33.060]  I fixed that. Thank you.
+[44:33.060 --> 44:35.060]  And so that is in
+[44:35.060 --> 44:37.060]  red because I fixed it.
+[44:37.060 --> 44:39.060]  And I filled these out
+[44:39.060 --> 44:41.060]  even. And then we add
+[44:41.060 --> 44:43.060]  these up.
+[44:47.060 --> 44:49.060]  6,
+[44:49.060 --> 44:51.060]  2 is 8 and
+[44:51.060 --> 44:53.060]  16 and a whole bunch of
+[44:53.060 --> 44:55.060]  thirds. Thank you for that.
+[44:55.060 --> 44:57.060]  And then we get the
+[44:57.060 --> 44:59.060]  5 divided by 6.
+[45:07.060 --> 45:09.060]  Which is
+[45:09.060 --> 45:11.060]  2.91.
+[45:25.060 --> 45:27.060]  Great.
+[45:33.060 --> 45:35.060]  Another thing that came up quickly
+[45:35.060 --> 45:37.060]  during the break I did want to talk about
+[45:37.060 --> 45:39.060]  we talked about now. What unit
+[45:39.060 --> 45:41.060]  is this in?
+[45:41.060 --> 45:43.060]  Or, I mean we didn't talk about
+[45:43.060 --> 45:45.060]  what units die. They come out of
+[45:45.060 --> 45:47.060]  they were like points, like one point or two points
+[45:47.060 --> 45:49.060]  or roughly pips
+[45:49.060 --> 45:51.060]  P-I-P.
+[45:51.060 --> 45:53.060]  So like there's one pips, two pips, three pips on a die.
+[45:53.060 --> 45:55.060]  So this is like 2.9 pips.
+[45:55.060 --> 45:57.060]  But is it really in pips?
+[45:57.060 --> 45:59.060]  What unit is
+[45:59.060 --> 46:01.060]  that in? 28.7.
+[46:03.060 --> 46:05.060]  It's not in days
+[46:05.060 --> 46:07.060]  anymore. It's in
+[46:07.060 --> 46:09.060]  days squared.
+[46:11.060 --> 46:13.060]  It's got to make
+[46:13.060 --> 46:15.060]  a lot of sense. What is a squared day?
+[46:15.060 --> 46:17.060]  And this is in pips
+[46:17.060 --> 46:19.060]  squared.
+[46:23.060 --> 46:25.060]  So,
+[46:29.060 --> 46:31.060]  just in case you haven't seen that
+[46:31.060 --> 46:33.060]  workbook or text, those are like talks on the day.
+[46:35.060 --> 46:37.060]  So this is in pips squared, that's in days squared.
+[46:37.060 --> 46:39.060]  Doesn't make any sense.
+[46:39.060 --> 46:41.060]  Just for the camera sake
+[46:41.060 --> 46:43.060]  I'm going to put the camera over here
+[46:43.060 --> 46:45.060]  and see how
+[46:45.060 --> 46:47.060]  I wrote days squared.
+[46:53.060 --> 46:55.060]  So, this is where standard deviation
+[46:55.060 --> 46:57.060]  comes from.
+[46:57.060 --> 46:59.060]  It is unsquare named
+[46:59.060 --> 47:01.060]  variance so that we can work
+[47:01.060 --> 47:03.060]  with it. So that's the unit to make sense.
+[47:15.060 --> 47:17.060]  Population
+[47:17.060 --> 47:19.060]  standard deviation.
+[47:23.060 --> 47:25.060]  Sigma
+[47:25.060 --> 47:27.060]  is equal to the square root
+[47:27.060 --> 47:29.060]  of sigma.
+[47:47.060 --> 47:49.060]  The whole point of standard
+[47:49.060 --> 47:51.060]  deviation is that
+[47:51.060 --> 47:53.060]  variance is
+[47:53.060 --> 47:55.060]  useful. It has lots of mathematical properties
+[47:55.060 --> 47:57.060]  we will run into a couple of them
+[47:57.060 --> 47:59.060]  throughout the course.
+[47:59.060 --> 48:01.060]  But variance is in squared
+[48:01.060 --> 48:03.060]  units, which makes no sense to work
+[48:03.060 --> 48:05.060]  with. Or it doesn't make sense
+[48:05.060 --> 48:07.060]  to do it in the perfect way.
+[48:07.060 --> 48:09.060]  So we unsquare it to get standard deviation
+[48:09.060 --> 48:11.060]  which is now that.
+[48:15.060 --> 48:17.060]  For example,
+[48:17.060 --> 48:19.060]  the standard deviation
+[48:19.060 --> 48:21.060]  of the dice
+[48:31.060 --> 48:33.060]  square root of 2.91
+[48:33.060 --> 48:35.060]  square root of 2.91
+[48:53.060 --> 48:55.060]  1.71
+[49:03.060 --> 49:05.060]  Let's see
+[49:05.060 --> 49:07.060]  the other
+[49:07.060 --> 49:09.060]  formulas
+[49:09.060 --> 49:11.060]  for variance.
+[49:13.060 --> 49:15.060]  Let's see
+[49:15.060 --> 49:17.060]  what we can do.
+[49:21.060 --> 49:23.060]  You know,
+[49:23.060 --> 49:25.060]  I can put it here.
+[49:25.060 --> 49:27.060]  It is unsquare
+[49:27.060 --> 49:29.060]  deviation.
+[49:29.060 --> 49:31.060]  I'll do this.
+[49:31.060 --> 49:33.060]  Yeah.
+[50:01.060 --> 50:03.060]  I'll do this.
+[50:21.060 --> 50:23.060]  You will see this formula
+[50:23.060 --> 50:25.060]  in your slides
+[50:25.060 --> 50:27.060]  in your text wherever you are like
+[50:27.060 --> 50:29.060]  double checking my notes.
+[50:31.060 --> 50:33.060]  It is another way
+[50:33.060 --> 50:35.060]  to calculate variance
+[50:35.060 --> 50:37.060]  and standard deviation.
+[50:37.060 --> 50:39.060]  So the inside is variance
+[50:39.060 --> 50:41.060]  and you square root it again
+[50:41.060 --> 50:43.060]  the standard deviation.
+[50:43.060 --> 50:45.060]  And it is
+[50:45.060 --> 50:47.060]  different than the table method
+[50:47.060 --> 50:49.060]  I used.
+[50:49.060 --> 50:51.060]  It can be faster.
+[50:53.060 --> 50:55.060]  So you
+[50:55.060 --> 50:57.060]  square all the x's
+[50:57.060 --> 50:59.060]  add them up.
+[50:59.060 --> 51:01.060]  Add up all the x's
+[51:01.060 --> 51:03.060]  square them, divide that by n
+[51:03.060 --> 51:05.060]  and finish the formula.
+[51:05.060 --> 51:07.060]  And you can double check if you apply that formula
+[51:07.060 --> 51:09.060]  that you get the same answer.
+[51:11.060 --> 51:13.060]  I think this is known as a computational formula.
+[51:13.060 --> 51:15.060]  Computational formula.
+[51:27.060 --> 51:29.060]  Now
+[51:29.060 --> 51:31.060]  you only need to calculate
+[51:31.060 --> 51:33.060]  variance by hand a couple more times in your life
+[51:33.060 --> 51:35.060]  and then you can turn it back over to
+[51:35.060 --> 51:37.060]  your cell.
+[51:37.060 --> 51:39.060]  These are the formulas.
+[51:39.060 --> 51:41.060]  There is the table method to calculate variance
+[51:41.060 --> 51:43.060]  with this method
+[51:43.060 --> 51:45.060]  and you square root it again.
+[51:47.060 --> 51:49.060]  I will let you practice
+[51:49.060 --> 51:51.060]  that moment.
+[51:51.060 --> 51:53.060]  Figure out the formula you need.
+[52:01.060 --> 52:03.060]  And then
+[52:03.060 --> 52:05.060]  we should do this
+[52:05.060 --> 52:07.060]  for the sample.
+[52:11.060 --> 52:13.060]  So let's do this.
+[52:25.060 --> 52:27.060]  The sample standard deviation
+[52:27.060 --> 52:29.060]  is an s
+[52:29.060 --> 52:31.060]  which is the square root of s squared
+[52:31.060 --> 52:33.060]  again
+[52:33.060 --> 52:35.060]  back in the original units.
+[52:41.060 --> 52:43.060]  The sample
+[52:43.060 --> 52:45.060]  is the square root
+[52:45.060 --> 52:47.060]  at 28.7
+[52:55.060 --> 52:57.060]  You get 5. something
+[53:03.060 --> 53:05.060]  5.36
+[53:05.060 --> 53:07.060]  and that
+[53:07.060 --> 53:09.060]  is the end states.
+[53:11.060 --> 53:13.060]  Notice that the standard deviation
+[53:13.060 --> 53:15.060]  is
+[53:15.060 --> 53:17.060]  close
+[53:17.060 --> 53:19.060]  to the mean absolute deviation
+[53:19.060 --> 53:21.060]  and they often will be pretty close.
+[53:23.060 --> 53:25.060]  They are
+[53:25.060 --> 53:27.060]  each a little sensitive to outliers
+[53:27.060 --> 53:29.060]  in their own ways.
+[53:29.060 --> 53:31.060]  In fact, if there are more
+[53:31.060 --> 53:33.060]  outliers
+[53:33.060 --> 53:35.060]  the standard deviation will be
+[53:35.060 --> 53:37.060]  deeper.
+[53:37.060 --> 53:39.060]  But otherwise
+[53:39.060 --> 53:41.060]  they tend to be pretty similar.
+100.117.97.99 - - [16/Sep/2025 12:56:36] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 12:56:36] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 12:56:36] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 12:56:36] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 12:56:36] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 12:56:36] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 12:56:46] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 12:56:54] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 12:56:54] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 12:56:54] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 12:56:54] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 12:56:54] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 12:56:54] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 13:20:12] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 13:20:12] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 13:20:12] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 13:20:12] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 13:20:12] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 13:20:12] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 13:20:13] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 13:20:16] "GET /session/11 HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 13:21:15] "POST /edit/11 HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 13:21:16] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 13:21:35] "POST /folders HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 13:21:35] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 13:21:40] "POST /transcripts/11/move HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 13:21:41] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 13:28:44] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 13:28:44] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 13:28:45] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 13:28:46] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 13:28:47] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 13:28:48] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 13:28:57] "GET /session/11 HTTP/1.1" 200 -

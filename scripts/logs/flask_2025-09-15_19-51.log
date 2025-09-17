@@ -1,0 +1,2427 @@
+Directory '..\data' is ready.
+Database and tables verified successfully.
+Queue processor thread started.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.0.0.26:443
+Press CTRL+C to quit
+100.117.97.99 - - [15/Sep/2025 19:52:33] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:52:33] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [15/Sep/2025 19:52:33] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [15/Sep/2025 19:52:33] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [15/Sep/2025 19:52:33] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:52:33] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [15/Sep/2025 19:52:48] "POST /transcribe HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:52:55] "POST /folders HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:52:55] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:52:55] "GET /status/10 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:53:03] "POST /folders HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:53:03] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:53:05] "GET /status/10 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:53:08] "GET /status/10 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:53:34] "GET /status/10 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:53:35] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:53:37] "GET /status/10 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:53:40] "GET /status/10 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:53:43] "GET /status/10 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:53:44] "POST /transcribe HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:53:45] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:53:47] "GET /status/11 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:53:50] "GET /status/11 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:53:53] "GET /status/11 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:54:13] "GET /status/11 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:54:16] "GET /status/11 HTTP/1.1" 200 -
+Queue processor checking for a new job...
+Processing job 10: CP212 chapter 3-4.m4a
+Loading Whisper model for the first time...
+Whisper is using device: cuda
+Whisper model loaded successfully.
+--- Starting Transcription for ../uploads\5b1d6a11-989f-4888-9b2c-8dbbf5cd869b.m4a ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:04.000]  This is the end of chapter 3, chapter 2.
+[00:04.000 --> 00:18.000]  And about more to the chapter 3, we started with how to open, or how to insert all these, how to write a video code inside.
+[00:18.000 --> 00:21.000]  But not exactly just introduction.
+[00:21.000 --> 00:33.000]  And then I only left three slides there for this chapter, and now we'll move to chapter 4 for how to record micro or micro.
+[00:33.000 --> 00:42.000]  So IntelliSense, IntelliSense which is available for pretty much every language, so you know.
+[00:42.000 --> 00:49.000]  Right, and here if you click, if you do a lot of things, they save you time.
+[00:49.000 --> 00:53.000]  I'm going to do on the left side.
+[00:53.000 --> 01:11.000]  So we start with using the left side.
+[01:11.000 --> 01:22.000]  And then developer, that's the first sentence you need to put in your insert to your Excel.
+[01:22.000 --> 01:28.000]  And now once you insert your Avidar ribbon, it will be there, right?
+[01:28.000 --> 01:33.000]  So IntelliSense, and you can see all the colors.
+[01:34.000 --> 01:40.000]  IntelliSense refers to give you errors and help you write a little bit.
+[01:40.000 --> 01:48.000]  Only one or two words, and then it will give you some hint, like for some keyword.
+[01:48.000 --> 01:59.000]  If you type an integer, for example now we need to define a variable, like an integer, like a single or double.
+[01:59.000 --> 02:12.000]  If you just write in, then it will write away and lead to, like here, define JS integer.
+[02:12.000 --> 02:19.000]  So if I just write in, then it will show integer on the right side.
+[02:19.000 --> 02:22.000]  Then it will directly make it quickly.
+[02:22.000 --> 02:25.000]  And also the color you can see here.
+[02:25.000 --> 02:35.000]  And also if you just type this out, then it will give you, and for writing code here now,
+[02:35.000 --> 02:52.000]  let's see, if I write a new sign, let's just write a new sign.
+[02:53.000 --> 02:55.000]  Sub.
+[02:55.000 --> 03:01.000]  So Sub, Sub team, when you write your code, always start with Sub.
+[03:01.000 --> 03:04.000]  Then you need to have your name.
+[03:04.000 --> 03:06.000]  Let's say pest.
+[03:06.000 --> 03:09.000]  Then you need a parenthesis.
+[03:09.000 --> 03:14.000]  And then it will automatically give you an end sub.
+[03:14.000 --> 03:18.000]  You just use space and it will give you that.
+[03:18.000 --> 03:30.000]  And inside it will deem, deem, like deem M as, as you see.
+[03:30.000 --> 03:37.000]  Whenever you use space, whenever you see here, as space, I'm touching space,
+[03:37.000 --> 03:42.000]  then it will show properties and message.
+[03:42.000 --> 03:47.000]  You don't need, like if you type one word, one character, it will automatically give you that.
+[03:47.000 --> 03:49.000]  You can just click.
+[03:49.000 --> 03:54.000]  So now I'm just doing integers, so I, surely everywhere.
+[03:54.000 --> 03:57.000]  Then end, you see here integer.
+[03:57.000 --> 04:02.000]  Then you just right click on the space, then it will begin.
+[04:02.000 --> 04:05.000]  You don't need to type lot.
+[04:05.000 --> 04:18.000]  But also if you do the dot, if you say range, if I express range, let's say if I'm doing range, see, I'm doing range.
+[04:18.000 --> 04:22.000]  Then if you don't know what to do, you see here, you just type range.
+[04:22.000 --> 04:25.000]  Then you click here, range.
+[04:25.000 --> 04:29.000]  You just directly showing range message.
+[04:29.000 --> 04:31.000]  How do you do, right?
+[04:31.000 --> 04:33.000]  You say sales, right?
+[04:33.000 --> 04:38.000]  It shows you sales, one sales, two sales, right?
+[04:38.000 --> 04:42.000]  And so on.
+[04:42.000 --> 04:54.000]  Also, for example, I can just write range, let's say, because right inside it,
+[04:54.000 --> 04:57.000]  you need to have these quotes, double quotes.
+[04:57.000 --> 05:09.000]  Let's say in one, so I'm pointing out in one sale, then if you just use dot, then it will choose dot.
+[05:09.000 --> 05:12.000]  Whenever you use dot, it will choose the message.
+[05:12.000 --> 05:21.000]  Like you want to, like, doing like a font, if I write font, write at all.
+[05:21.000 --> 05:23.000]  And these are all the message.
+[05:23.000 --> 05:25.000]  And all can read.
+[05:25.000 --> 05:32.000]  You see here, if I put a key in and delete there, and just move here, space, and so on.
+[05:32.000 --> 05:40.000]  And also, like, if I want to type a message box, often showing you the results, what is that, right?
+[05:40.000 --> 05:48.000]  Message box, starting with M-S-G, M-S-G as message box, B-G-O-S.
+[05:48.000 --> 05:53.000]  Then you do the space, see here, space.
+[05:53.000 --> 05:58.000]  So it will give you the message there.
+[05:58.000 --> 06:07.000]  A lot of things, you see, you have to memorize, but we don't know how to memorize a lot of things like that, right?
+[06:07.000 --> 06:12.000]  So you see there, you know where you put, where you should put.
+[06:12.000 --> 06:14.000]  That's in the case you don't know, right?
+[06:14.000 --> 06:20.000]  So that's what refers these in palaces.
+[06:20.000 --> 06:24.000]  Next, color.
+[06:24.000 --> 06:27.000]  Case and color.
+[06:27.000 --> 06:32.000]  Case, in case V-B-N-E is case insensitive.
+[06:32.000 --> 06:35.000]  But keyword always start.
+[06:35.000 --> 06:39.000]  Keyword means, like, pivot table.
+[06:40.000 --> 06:45.000]  These are keywords, like, it's reserved there, you cannot touch, right?
+[06:45.000 --> 06:53.000]  And they have the first letter as capital, that's where you see all keywords start with capital letter.
+[06:53.000 --> 06:57.000]  Make four loops, you want to start with four.
+[06:57.000 --> 07:02.000]  J is equal to one, then to five, and so on, and next, right?
+[07:02.000 --> 07:07.000]  So your next would be reserved there, and with capital N, okay?
+[07:07.000 --> 07:12.000]  But in general, your names would be just okay, just case insensitive.
+[07:12.000 --> 07:20.000]  So that really means if you use capital words and non-capital words, they are the same.
+[07:20.000 --> 07:25.000]  But, however, it's always give you only one.
+[07:25.000 --> 07:33.000]  Like, if you start with, like, start, like, if I start here, J, you see here, J.
+[07:33.000 --> 07:36.000]  D, the first one, D, J as integer.
+[07:36.000 --> 07:39.000]  And that J is lower case.
+[07:39.000 --> 07:48.000]  If you start, first one is lower case, then the rest one, if you even write upper case,
+[07:48.000 --> 07:51.000]  it will directly show you the lower case.
+[07:51.000 --> 07:59.000]  But, however, if you just use, so that's for single word.
+[08:00.000 --> 08:07.000]  But, however, often when you have your meaningful names, meaningful names,
+[08:07.000 --> 08:11.000]  like you don't want to make, like, sine theta, right?
+[08:11.000 --> 08:14.000]  I want value sine theta.
+[08:14.000 --> 08:16.000]  So what variable do you want to use?
+[08:16.000 --> 08:19.000]  You would probably use SIN, right?
+[08:19.000 --> 08:25.000]  But SIN is reserved by them, so you don't want to use SIN, right?
+[08:25.000 --> 08:27.000]  And, because that's a function, right?
+[08:27.000 --> 08:30.000]  That's a function reserved.
+[08:30.000 --> 08:35.000]  So I would use SINQ.
+[08:35.000 --> 08:38.000]  I use capital S here.
+[08:38.000 --> 08:43.000]  And often the reason why I use capital, that's what I always like to do.
+[08:43.000 --> 08:46.000]  The first one, capital order.
+[08:46.000 --> 08:54.000]  If your words with two words, I would use either if your word use two words,
+[08:54.000 --> 08:59.000]  make some cost as one word, like total of your cost, right?
+[08:59.000 --> 09:02.000]  And you put it there, that's your name.
+[09:02.000 --> 09:09.000]  And then the name here, you put a C here, C-O-S-T, C there.
+[09:09.000 --> 09:16.000]  So, next time whenever you write something wrong, you write a capital.
+[09:16.000 --> 09:19.000]  So, whatever you check, it's easy to check,
+[09:19.000 --> 09:22.000]  because whenever you change something, it doesn't change,
+[09:22.000 --> 09:24.000]  and then you know something wrong.
+[09:24.000 --> 09:25.000]  That's what I do.
+[09:25.000 --> 09:31.000]  So I always put a capital either in S or in C.
+[09:31.000 --> 09:36.000]  And so if you have a long name, you want to use one capital there,
+[09:36.000 --> 09:41.000]  so next time whenever you write, it's easy to detect if you lose.
+[09:41.000 --> 09:46.000]  If you're missing one word, one letter, right?
+[09:46.000 --> 09:51.000]  Because very often you don't want to miss if you use a sound.
+[09:51.000 --> 09:56.000]  If you suddenly write wrong, like S, you write as T.
+[09:56.000 --> 10:02.000]  And so, but anyway, that's my experience.
+[10:02.000 --> 10:08.000]  I like to use one capital word at the beginning or in the middle of that
+[10:08.000 --> 10:11.000]  to show the difference, to see.
+[10:11.000 --> 10:16.000]  Because this is a larger word, you can see easily your variable.
+[10:16.000 --> 10:21.000]  And so, so comments, comments are green,
+[10:21.000 --> 10:25.000]  and all the keywords are blue as you can see here.
+[10:25.000 --> 10:31.000]  And I comment here, apostrophe, starting with apostrophe here,
+[10:31.000 --> 10:35.000]  then you see the keyword.
+[10:35.000 --> 10:39.000]  And by your code or variable, they're all black, right?
+[10:39.000 --> 10:41.000]  All black.
+[10:41.000 --> 10:47.000]  But if you do something wrong there, it will remind you.
+[10:47.000 --> 10:49.000]  So it will show you that.
+[10:49.000 --> 10:55.000]  For example, if I just write for something J, I missed equal.
+[10:55.000 --> 10:57.000]  Then it will tell you.
+[10:57.000 --> 11:02.000]  If I missed equal, it will tell you, you missed equal sign.
+[11:02.000 --> 11:12.000]  And for example here, if I just delete, see here,
+[11:12.000 --> 11:16.000]  it will say compile error, expect equal.
+[11:16.000 --> 11:18.000]  Right, so you know.
+[11:18.000 --> 11:21.000]  So that's something here.
+[11:21.000 --> 11:25.000]  If you have a syntax error, it will remind you.
+[11:25.000 --> 11:30.000]  So it's not too bad.
+[11:30.000 --> 11:36.000]  So finally, all of these, if you want to know your open to work book,
+[11:36.000 --> 11:42.000]  it always goes to here.
+[11:42.000 --> 11:47.000]  And that's VBA project.
+[11:47.000 --> 11:49.000]  VBA projects.
+[11:49.000 --> 11:56.000]  And that's from here.
+[11:56.000 --> 12:01.000]  From here, this is simple.
+[12:01.000 --> 12:04.000]  Always choose what do you have.
+[12:04.000 --> 12:07.000]  And you see here you have these, you have these.
+[12:07.000 --> 12:10.000]  That's the solver, that's I have here inside.
+[12:10.000 --> 12:15.000]  And that's this workbook, this workbook.
+[12:15.000 --> 12:17.000]  And I have these.
+[12:17.000 --> 12:21.000]  And if you have forms in the future, user forms, you know what you'll hear.
+[12:21.000 --> 12:25.000]  And if you have charge, and you will hear.
+[12:25.000 --> 12:28.000]  So you see here you have worksheets.
+[12:28.000 --> 12:31.000]  In worksheets also you could have charts.
+[12:31.000 --> 12:35.000]  So if you ever have charts, it will show you here.
+[12:35.000 --> 12:42.000]  So everything, everything will, if you want to see everything, then it's here.
+[12:42.000 --> 12:48.000]  And if you want to change your module name, and module name is here,
+[12:48.000 --> 12:54.000]  modules means your video code, your subroutines, I mean your sound mode.
+[12:54.000 --> 13:02.000]  Actually if you want to put a module inside, you can put several or many subroutines there.
+[13:02.000 --> 13:07.000]  But your module is your module, it's your, I mean, kind of big sense.
+[13:07.000 --> 13:11.000]  Then you inside put all the subroutines to finish the work.
+[13:11.000 --> 13:15.000]  And so the module you just click on here.
+[13:15.000 --> 13:21.000]  And then you click on the profile window.
+[13:21.000 --> 13:24.000]  The name belongs to 40.
+[13:24.000 --> 13:27.000]  So that's for the profile window.
+[13:27.000 --> 13:33.000]  So for example, I want to change, if I want to change it on the left side now,
+[13:33.000 --> 13:35.000]  I want to change the name.
+[13:35.000 --> 13:36.000]  Did you see here?
+[13:36.000 --> 13:38.000]  I can close them.
+[13:38.000 --> 13:41.000]  I close them, then it's gone.
+[13:41.000 --> 13:48.000]  But now I highlight the sign for sign means, I highlight this.
+[13:48.000 --> 13:54.000]  And you can use these, you see here, profile windows to shoot.
+[13:54.000 --> 14:02.000]  Then names I can say, okay, test, underscore test.
+[14:02.000 --> 14:04.000]  And that's it.
+[14:04.000 --> 14:07.000]  You see here, underscore test is shooting here.
+[14:07.000 --> 14:10.000]  So you can change whatever name you like.
+[14:10.000 --> 14:16.000]  Because if you're silent and I will ask you to change your module name,
+[14:16.000 --> 14:20.000]  so you will need to change your module name for different,
+[14:20.000 --> 14:24.000]  according to what I asked in your first assignment.
+[14:24.000 --> 14:28.000]  I will announce it soon, a couple of days today or tomorrow.
+[14:28.000 --> 14:30.000]  Okay.
+[14:30.000 --> 14:39.000]  And then that's all for this.
+[14:39.000 --> 14:43.000]  For the chapter.
+[14:43.000 --> 14:47.000]  For the chapter three.
+[14:47.000 --> 14:51.000]  Oh, no.
+[14:51.000 --> 14:56.000]  No, I couldn't close.
+[14:56.000 --> 14:58.000]  What should I do?
+[14:58.000 --> 15:01.000]  I might share.
+[15:01.000 --> 15:06.000]  I'll do it here.
+[15:06.000 --> 15:08.000]  I'll do it here.
+[15:08.000 --> 15:18.000]  See if I can do.
+[15:18.000 --> 15:21.000]  Okay, now I can do here.
+[15:21.000 --> 15:27.000]  So that's the chapter three.
+[15:27.000 --> 15:47.000]  Now I want to go to here.
+[15:47.000 --> 15:57.000]  Now since I'm done with this, I'm going to show you.
+[15:57.000 --> 16:02.000]  Show the scene.
+[16:02.000 --> 16:03.000]  You know what?
+[16:03.000 --> 16:13.000]  I can do this.
+[16:14.000 --> 16:26.000]  So now, it's about, let's move to the recording module.
+[16:26.000 --> 16:31.000]  Then we can start to recreate real, real right there.
+[16:31.000 --> 16:37.000]  So what is the module?
+[16:37.000 --> 16:41.720]  A markful is just to do repetitive work.
+[16:41.720 --> 16:42.220]  Right.
+[16:42.220 --> 16:47.320]  And a markful, I know we say markful,
+[16:47.320 --> 16:54.640]  and it refers to a piece of code inside of your VBA editor.
+[16:54.640 --> 16:59.480]  So whenever you record the markful,
+[16:59.480 --> 17:01.480]  you record the sequence.
+[17:01.480 --> 17:04.760]  Then actually they write a code on the page.
+[17:04.760 --> 17:06.080]  We don't need to write.
+[17:06.120 --> 17:09.600]  So we say, without a code.
+[17:09.600 --> 17:12.840]  We don't need to do code, but they do by themselves.
+[17:20.880 --> 17:25.880]  And so markful can do this easy work,
+[17:25.880 --> 17:28.360]  but it cannot do the loops.
+[17:28.360 --> 17:34.320]  And it cannot do the controls and a lot of advanced database
+[17:35.000 --> 17:36.800]  operations.
+[17:36.800 --> 17:40.760]  And they cannot do on time collaborations.
+[17:40.760 --> 17:45.000]  Means they cannot do input or output.
+[17:45.000 --> 17:48.760]  Because it's just you do from step one,
+[17:48.760 --> 17:52.280]  then you do finally, and you stop.
+[17:52.280 --> 17:56.760]  And you cannot do anything, interact with them.
+[17:56.760 --> 18:01.920]  So markful cannot do a lot of things.
+[18:01.960 --> 18:11.360]  So what we want to do first, we will work with a spreadsheet.
+[18:11.360 --> 18:13.400]  Then we're doing that.
+[18:13.400 --> 18:15.080]  We're doing the markful.
+100.117.97.99 - - [15/Sep/2025 19:57:02] "GET /status/11 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:57:03] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:57:05] "GET /status/11 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:57:08] "GET /status/11 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:57:11] "GET /status/11 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:57:14] "GET /status/11 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:57:17] "GET /status/11 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:57:20] "GET /status/11 HTTP/1.1" 200 -
+[18:15.080 --> 18:20.040]  So spreadsheet, for the spreadsheet, let's say,
+[18:20.040 --> 18:29.120]  oh, OK, I'm going to use my, I'm going
+[18:29.240 --> 18:30.720]  to show my spreadsheet.
+[18:33.720 --> 18:37.520]  So spreadsheet, when you see here, I have the same.
+[18:37.520 --> 18:44.280]  Even on my menu space, I have these two files uploaded here.
+[18:44.280 --> 18:48.400]  But you see the same names, but different extension.
+[18:48.400 --> 18:53.160]  So one is Excel, the other is markful enabled.
+[18:53.160 --> 18:58.920]  You have M. So this one, you don't have the markful enabled.
+[18:59.120 --> 19:06.600]  So let me first show you here.
+[19:06.600 --> 19:15.400]  Now back into the, what I want to do here is, not yet,
+[19:15.400 --> 19:15.880]  but here.
+[19:20.320 --> 19:28.000]  So graph, assign, and assign function, and staff.
+[19:28.560 --> 19:32.560]  So what I write here is, what I want to do,
+[19:32.560 --> 19:37.280]  what you want to do is, first, if you want to do markful,
+[19:37.280 --> 19:39.120]  first you need a data.
+[19:39.120 --> 19:47.560]  So now I just want to import sine, sine curves.
+[19:47.560 --> 19:53.920]  So you need a data's angles, 0 to 360 degree.
+[19:53.960 --> 19:58.760]  So first you import your angles in the column A.
+[19:58.760 --> 20:05.000]  Then you need to write equations, I mean, functions,
+[20:05.000 --> 20:08.880]  and to calculate what is your sine theta, what
+[20:08.880 --> 20:11.040]  is cosine theta, right?
+[20:11.040 --> 20:17.040]  And then we can do the functions.
+[20:17.040 --> 20:19.120]  So let's first view your data.
+[20:19.120 --> 20:21.880]  So now enter formula.
+[20:21.880 --> 20:24.560]  This is enter formula.
+[20:24.560 --> 20:29.600]  We need to do how to enter our formula here.
+[20:29.600 --> 20:33.160]  And how to do copy and paste, how
+[20:33.160 --> 20:38.680]  to do auto-fill of this net creation chart.
+[20:38.680 --> 20:41.760]  The copy and paste spatial values,
+[20:41.760 --> 20:44.720]  probably you already know this, and the sorting and format
+[20:44.720 --> 20:45.600]  sales.
+[20:45.600 --> 20:48.680]  Thus, you can do, of course, you have
+[20:48.720 --> 20:52.840]  more than this, these are the main things you can do.
+[20:52.840 --> 20:54.320]  And for the spreadsheet.
+[20:59.440 --> 21:02.240]  So opening cell, whenever you open cell,
+[21:02.240 --> 21:13.480]  now if I just open a new, this is new Excel.
+[21:13.480 --> 21:15.960]  So this is a new Excel.
+[21:16.000 --> 21:20.440]  Then it always issues this one by default.
+[21:20.440 --> 21:23.560]  You can change its name.
+[21:23.560 --> 21:26.200]  What is the address?
+[21:26.200 --> 21:28.760]  And how do it refers to each here?
+[21:28.760 --> 21:38.160]  So we use, you see here, rows, 1 to many, and A, B, C, B to many.
+[21:38.160 --> 21:43.640]  So we use A1 refers to this one, B1 refers to this one,
+[21:43.640 --> 21:44.880]  L, and so on.
+[21:44.880 --> 21:49.200]  So we start with character A, B, C, D,
+[21:49.200 --> 21:53.440]  and then we use the number to express the position.
+[21:57.040 --> 22:01.200]  Then now, for here, for the address,
+[22:01.200 --> 22:05.440]  now as you can see here, and if you want to use a range,
+[22:05.440 --> 22:07.720]  A1 is here, but if you want a range,
+[22:07.720 --> 22:12.960]  and then you just need to be knowing D2 and to G3,
+[22:13.000 --> 22:16.720]  that's a range here, right?
+[22:16.720 --> 22:20.720]  And when you use range, you use here.
+[22:20.720 --> 22:25.720]  Or you use the signs here.
+[22:25.720 --> 22:29.200]  And now, next.
+[22:32.480 --> 22:36.120]  As you can see here, this is a cell address.
+[22:36.120 --> 22:39.200]  As you already know, it use rows.
+[22:39.440 --> 22:44.480]  Column use the letters to represent them.
+[22:44.480 --> 22:50.080]  And this is the range.
+[22:50.080 --> 22:53.080]  Now, how do you enter your formula?
+[22:53.080 --> 22:56.400]  Formula bar is here.
+[22:56.400 --> 22:59.960]  And also, cell name is here.
+[22:59.960 --> 23:03.440]  Whenever you highlight which of everyone you choose here,
+[23:03.440 --> 23:04.680]  that's what cell address.
+[23:04.680 --> 23:06.360]  And this is formula bar.
+[23:06.440 --> 23:09.400]  Formula bar always start with equal.
+[23:09.400 --> 23:10.880]  Equal to what?
+[23:14.880 --> 23:17.360]  And this is worksheet.
+[23:17.360 --> 23:18.840]  And you just worksheets.
+[23:18.840 --> 23:19.840]  Worksheets.
+[23:19.840 --> 23:22.840]  I'm going to, on the right side, worksheet name.
+[23:22.840 --> 23:25.320]  You can always change to whatever you like.
+[23:25.320 --> 23:27.320]  Just rename.
+[23:27.320 --> 23:29.320]  See here, rename.
+[23:29.320 --> 23:38.800]  And to S-H-T sheet.
+[23:38.800 --> 23:40.800]  Or you can use plus.
+[23:44.280 --> 23:48.280]  And this plus sign always means insert.
+[23:48.280 --> 23:50.280]  So it's just insert.
+[23:50.280 --> 23:54.280]  If you want to insert a chart, it always
+[23:54.280 --> 23:56.280]  can insert a chart here.
+[23:56.280 --> 23:57.280]  See here.
+[23:57.280 --> 23:59.280]  Insert a chart.
+[24:00.240 --> 24:01.720]  OK.
+[24:01.720 --> 24:03.200]  So it can.
+[24:03.200 --> 24:06.200]  And you just delete.
+[24:06.200 --> 24:08.200]  Just delete.
+[24:08.200 --> 24:09.200]  See here.
+[24:09.200 --> 24:10.200]  Right click.
+[24:10.200 --> 24:11.200]  Key.
+[24:11.200 --> 24:14.200]  You highlight whatever you want to operate with whenever you
+[24:14.200 --> 24:16.200]  just highlight them.
+[24:16.200 --> 24:18.200]  Right to plus.
+[24:18.200 --> 24:20.200]  Then you see all of these.
+[24:23.200 --> 24:26.200]  And so now let's go back to the left.
+[24:26.200 --> 24:28.200]  So cell address.
+[24:29.120 --> 24:34.120]  Cell address, we have relative or absolute.
+[24:34.120 --> 24:36.120]  We have two things.
+[24:36.120 --> 24:40.120]  Like A2, A1, this is relative.
+[24:40.120 --> 24:43.120]  And absolute refers to constant.
+[24:49.120 --> 24:51.120]  And you see here.
+[24:51.120 --> 24:53.120]  You see here.
+[24:53.120 --> 24:56.120]  Relative means whether you copy cell,
+[24:57.040 --> 25:01.040]  or you will copy relatively regarding that cells.
+[25:01.040 --> 25:07.040]  And so let's say absolute reference refers to constant.
+[25:07.040 --> 25:12.040]  If you want to use that value in that cell,
+[25:12.040 --> 25:15.040]  you don't want to change.
+[25:15.040 --> 25:17.040]  You want to keep that as constant.
+[25:17.040 --> 25:19.040]  You need to add a dollar sign.
+[25:19.040 --> 25:23.040]  And that's for absolute reference.
+[25:23.040 --> 25:25.040]  Now formula.
+[25:25.960 --> 25:27.960]  Bar is this bar.
+[25:27.960 --> 25:30.960]  This one is showing whichever highlights.
+[25:30.960 --> 25:32.960]  I want to highlight this.
+[25:32.960 --> 25:33.960]  So now I have two, three.
+[25:33.960 --> 25:35.960]  Now I want to do what?
+[25:35.960 --> 25:37.960]  I want to add these two, three.
+[25:37.960 --> 25:39.960]  So equal and dot.
+[25:39.960 --> 25:42.960]  So it will show the formula you use.
+[25:42.960 --> 25:44.960]  Now you can copy and paste.
+[25:44.960 --> 25:47.960]  You just copy these to paste here.
+[25:47.960 --> 25:51.960]  Then you don't need to redo everything.
+[25:52.880 --> 25:59.880]  You can copy paste, or you can just drag to draw.
+[25:59.880 --> 26:02.880]  Let me just show you here.
+[26:02.880 --> 26:04.880]  This one.
+[26:04.880 --> 26:07.880]  On the right side.
+[26:07.880 --> 26:08.880]  See?
+[26:08.880 --> 26:09.880]  That's the equal.
+[26:09.880 --> 26:12.880]  Then if I just create this.
+[26:12.880 --> 26:14.880]  Now I wanted to operate this.
+[26:14.880 --> 26:19.880]  You can just copy and paste.
+[26:20.800 --> 26:24.800]  Because it's relative, so it will change.
+[26:24.800 --> 26:27.800]  In this condition, it will add this, this.
+[26:27.800 --> 26:30.800]  So now I change it to the nine from eight.
+[26:30.800 --> 26:35.800]  And one way you can copy, you just use copy.
+[26:35.800 --> 26:41.800]  The other way you can do it, you use plus.
+[26:41.800 --> 26:44.800]  You place your mouse.
+[26:44.800 --> 26:49.800]  Place the mouse to the bottom right corner.
+[26:50.720 --> 26:52.720]  And this corner.
+[26:52.720 --> 26:56.720]  Now I'm going to show you a plus sign.
+[26:56.720 --> 26:58.720]  Then you just drag.
+[26:58.720 --> 27:01.720]  And so that's how you copy here.
+[27:01.720 --> 27:04.720]  Copy and paste automatically.
+[27:04.720 --> 27:09.720]  Now let's back to the left.
+[27:09.720 --> 27:10.720]  Back to the left.
+[27:10.720 --> 27:15.720]  Now I'm showing you what is the absolute reference.
+[27:15.720 --> 27:18.720]  You need to use a dollar sign.
+[27:19.120 --> 27:22.120]  Right now you have 88.
+[27:22.120 --> 27:24.120]  You don't have dollar sign.
+[27:24.120 --> 27:27.120]  Next you need a dollar sign to show that number doesn't
+[27:27.120 --> 27:31.120]  change the next time you do something.
+[27:31.120 --> 27:37.120]  I'm going to show you that when we are going to do the graph
+[27:37.120 --> 27:43.120]  sign or cosine, I do need to have a constant number, which
+[27:43.120 --> 27:45.120]  is conversion.
+[27:45.120 --> 27:47.120]  Fact.
+[27:47.520 --> 27:51.520]  I need to convert the degree to the radian.
+[27:54.520 --> 27:56.520]  So the dollar sign.
+[27:56.520 --> 27:58.520]  You might want to see, you might want to use dollar sign
+[27:58.520 --> 28:01.520]  when you have a dollar sign too much to work.
+[28:01.520 --> 28:03.520]  Just use F4.
+[28:03.520 --> 28:06.520]  Just click on that cell and click on F4.
+[28:06.520 --> 28:08.520]  It directly gives you.
+[28:08.520 --> 28:13.520]  But some computer may be, laptop may be different.
+[28:13.920 --> 28:18.920]  If that's where you use F4, they use function, you use F.
+[28:18.920 --> 28:22.920]  And function and form goes together.
+[28:22.920 --> 28:25.920]  I have several different computers.
+[28:25.920 --> 28:29.920]  Some I have to use this.
+[28:29.920 --> 28:33.920]  And then you have the absolute address.
+[28:34.320 --> 28:35.320]  Next.
+[28:42.320 --> 28:45.320]  R1C1 notation.
+[28:45.320 --> 28:48.320]  That you see here.
+[28:48.320 --> 28:57.320]  When we say, when we say notation, we have A1 notation.
+[28:57.320 --> 28:59.320]  R1C1 notation.
+[28:59.320 --> 29:01.320]  Did you see here?
+[29:01.720 --> 29:09.720]  A1 notation is the relative address.
+[29:09.720 --> 29:12.720]  This one.
+[29:12.720 --> 29:13.720]  Sorry.
+[29:13.720 --> 29:17.720]  This refers to one type of notation.
+[29:17.720 --> 29:20.720]  This refers to another type of notation.
+[29:20.720 --> 29:25.720]  But by default, Excel just use this A1 notation.
+[29:25.720 --> 29:27.720]  And this one is not default.
+[29:27.720 --> 29:29.720]  R1 and C1.
+[29:30.120 --> 29:32.120]  Not default.
+[29:32.120 --> 29:36.120]  I'm going to show you here.
+[29:36.120 --> 29:46.120]  Now R1, C1 notation, if you click here on the right side,
+[29:46.120 --> 29:51.120]  use here, use option, use the formula.
+[29:51.120 --> 29:53.120]  Then you will see here.
+[29:53.120 --> 29:54.120]  That's what you see.
+[29:54.120 --> 29:56.120]  R1C1, graphics.
+[29:56.120 --> 29:58.120]  But actually, we don't do that.
+[29:58.520 --> 30:02.520]  Just to let you know, this is the option.
+[30:02.520 --> 30:06.520]  But we don't really use that.
+[30:06.520 --> 30:08.520]  But you might wonder why we don't use it.
+[30:08.520 --> 30:10.520]  Why do we need to use this?
+[30:10.520 --> 30:14.520]  When you do the markup, and the markup
+[30:14.520 --> 30:18.520]  express this address using the R1, C1
+[30:18.520 --> 30:23.520]  notation for you operate the sentence.
+[30:24.420 --> 30:32.420]  So we said in A1 location, you have absolute and relative
+[30:32.420 --> 30:33.420]  reference.
+[30:33.420 --> 30:35.920]  Absolute use dollar sign.
+[30:35.920 --> 30:39.420]  And now look at these case.
+[30:39.420 --> 30:45.920]  R1, C1, R refers to row, row number, column number.
+[30:45.920 --> 30:48.920]  So this still refers to A1.
+[30:48.920 --> 30:53.420]  They are corresponding to C. This is row one and column one.
+[30:54.320 --> 30:59.320]  But now we have these.
+[30:59.320 --> 31:02.820]  When you look at here, some of this reference in here
+[31:02.820 --> 31:06.320]  can be represented as this.
+[31:06.320 --> 31:11.820]  And as all these spaces just as that, like R2, C3.
+[31:11.820 --> 31:19.320]  And here you have the bracket here.
+[31:19.720 --> 31:23.720]  And the bracket here now, inside you have M and N,
+[31:23.720 --> 31:25.220]  which is the number.
+[31:25.220 --> 31:28.220]  And in here is the relative one.
+[31:28.220 --> 31:31.720]  And this one is absolute one.
+[31:31.720 --> 31:33.720]  This one is relative one.
+[31:33.720 --> 31:38.220]  Relative one means you can do IJ, IJ, you can operate it.
+[31:38.220 --> 31:42.220]  You can write your code to do a lot of things.
+[31:50.220 --> 31:52.720]  So now I have these.
+[31:58.720 --> 32:04.220]  Now how do you know each corresponds to each?
+[32:04.220 --> 32:07.720]  Like R2, C4.
+[32:07.720 --> 32:11.220]  What does that correspond to A1 location?
+[32:11.220 --> 32:17.220]  First, this 2 and 4 means they are absolute value.
+[32:17.220 --> 32:19.220]  You don't have the bracket.
+[32:20.120 --> 32:23.120]  So absolute value corresponds to the daughter sign.
+[32:23.120 --> 32:26.120]  Row two, then corresponds to here.
+[32:26.120 --> 32:32.120]  Column four, column four, A, B, C, D. So that's D.
+[32:32.120 --> 32:38.120]  So that's how equivalent in the two locations.
+[32:39.020 --> 32:40.020]  Now question.
+[32:40.020 --> 32:43.020]  I have a question here.
+[32:43.020 --> 32:50.020]  F13 in R1, C1 location, what will be?
+[32:53.020 --> 32:56.020]  What will be the cell address in here?
+[32:56.020 --> 33:01.020]  So rows will be should be what?
+[33:01.020 --> 33:06.020]  Rows of A1, C1, C2, C3, C4.
+[33:06.920 --> 33:11.920]  Rows of R1, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13.
+[33:11.920 --> 33:20.920]  And column F, C6, C9.
+[33:20.920 --> 33:27.920]  So that's how you wanted to see what is the address of this in R1, C1 location.
+[33:27.920 --> 33:34.920]  Then you should know to be able to write what would be corresponding number.
+[33:35.820 --> 33:38.820]  First, this is absolute value.
+[33:38.820 --> 33:41.820]  So you just write R, what?
+[33:41.820 --> 33:43.820]  Rho, 13, C, 6.
+[33:43.820 --> 33:45.820]  And now look at here.
+[33:45.820 --> 33:51.820]  This one refers to relative or absolute?
+[33:55.820 --> 33:57.820]  Relative, because you have bracket.
+[33:57.820 --> 33:58.820]  Right.
+[33:58.820 --> 34:02.820]  And in A1 and the location.
+[34:03.720 --> 34:06.720]  And then we don't need the $2 sign.
+[34:06.720 --> 34:07.720]  Right?
+[34:07.720 --> 34:12.720]  Then column 4 is D. So it should be D.
+[34:12.720 --> 34:14.720]  And so it should be D5.
+[34:14.720 --> 34:15.720]  Right?
+[34:15.720 --> 34:18.720]  And so that's how you do each.
+[34:25.720 --> 34:28.720]  Now how do you create formula?
+[34:28.720 --> 34:31.720]  How do you create formula in Excel?
+[34:32.620 --> 34:33.620]  Use all these.
+[34:36.620 --> 34:39.620]  Equal, you always start with equal sign.
+[34:39.620 --> 34:44.620]  Then multiplication, division, power is correct.
+[34:44.620 --> 34:50.620]  And the computations use string, use unsolved.
+[34:54.620 --> 34:59.620]  And always you start with equal sign.
+[35:00.520 --> 35:03.520]  And now that's what I have here.
+[35:03.520 --> 35:06.520]  Now you can see.
+[35:06.520 --> 35:18.520]  In this C3, C3 equal S2RT is the function for square root.
+[35:18.520 --> 35:24.520]  Square root A3 square is this square plus E3 square.
+[35:24.520 --> 35:28.520]  And then you use n time.
+[35:29.420 --> 35:31.420]  Then you copy down to here.
+[35:31.420 --> 35:34.420]  That's how you do it there.
+[35:38.420 --> 35:40.420]  And that's the steps here.
+[35:44.420 --> 35:47.420]  As you probably see here, square root.
+[35:51.420 --> 35:53.420]  I don't have that.
+[35:53.420 --> 35:56.420]  I just copy it.
+[35:57.320 --> 36:00.320]  So you just equal this thing.
+100.117.97.99 - - [15/Sep/2025 19:58:40] "GET /status/11 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 19:58:43] "GET /status/11 HTTP/1.1" 200 -
+[36:00.320 --> 36:02.320]  Why does it rewrite it?
+[36:02.320 --> 36:03.320]  You have to equal.
+[36:03.320 --> 36:05.320]  That's QR.
+[36:05.320 --> 36:16.320]  When I'm going to put SQRT then, you just place this so it will give you the root.
+[36:17.220 --> 36:28.220]  Then you have to put SQRT plus E3 and two parentheses.
+[36:30.220 --> 36:33.220]  So that's how you do it.
+[36:38.220 --> 36:41.220]  And these are the two different signs.
+[36:42.120 --> 36:47.120]  And also the signs of multiplication.
+[36:47.120 --> 36:49.120]  And that's functions.
+[36:49.120 --> 36:54.120]  Now many of these are given functions.
+[36:54.120 --> 36:59.120]  Mathematical function or sub-economic functions.
+[36:59.120 --> 37:01.120]  And as you can see, sum.
+[37:01.120 --> 37:05.120]  Average minimum math can't continue.
+[37:06.020 --> 37:08.020]  And the sine cosine tangent.
+[37:08.020 --> 37:13.020]  Square root absolute value logarithm.
+[37:13.020 --> 37:16.020]  And it can show more.
+[37:16.020 --> 37:17.020]  More.
+[37:17.020 --> 37:21.020]  Rather, when you turn, you run up, run down.
+[37:21.020 --> 37:23.020]  In PMT.
+[37:23.020 --> 37:27.020]  PMT, you will be using PMT.
+[37:27.020 --> 37:33.020]  You will be using PMT function to find the mortgage.
+[37:33.920 --> 37:36.920]  In your assignment number one.
+[37:38.920 --> 37:44.920]  And we look at actual part and match.
+[37:44.920 --> 37:49.920]  These are all useful functions.
+[37:49.920 --> 37:53.920]  Sum if and average if.
+[37:53.920 --> 37:56.920]  And these are the functions sometimes you need to use.
+[37:57.820 --> 37:58.820]  So now in here.
+[38:03.820 --> 38:06.820]  In here correspond to how do you do this.
+[38:06.820 --> 38:11.820]  And here's the explanation for the formula.
+[38:11.820 --> 38:14.820]  A1 and R1, B2.
+[38:14.820 --> 38:19.820]  I mean R1, C1 formula.
+[38:19.820 --> 38:22.820]  Sorry, this should be R1, C1 formula.
+[38:23.720 --> 38:28.720]  And this corresponds to write something in the cell A2.
+[38:28.720 --> 38:31.720]  Write something in the cell A2.
+[38:31.720 --> 38:36.720]  Average equal to B5 plus 2.
+[38:36.720 --> 38:41.720]  Then if on R1, C1 notation, what do you do?
+[38:41.720 --> 38:46.720]  So you need to see what is B5 relative to A2?
+[38:46.720 --> 38:49.720]  What is B5?
+[38:50.620 --> 38:53.620]  What is B5?
+[38:53.620 --> 38:58.620]  B5 should be here.
+[38:58.620 --> 38:59.620]  A2 should be here.
+[38:59.620 --> 39:04.620]  So you want to move right side by one column.
+[39:04.620 --> 39:07.620]  Move down by one, two, three.
+[39:07.620 --> 39:12.620]  So that's you move low down three.
+[39:12.620 --> 39:14.620]  You move column by one.
+[39:14.620 --> 39:16.620]  Right side is plus side.
+[39:16.620 --> 39:19.620]  And going down is plus side.
+[39:20.520 --> 39:23.520]  Negative up, we use negative.
+[39:23.520 --> 39:29.520]  That's why if we go to here at B3 position.
+[39:29.520 --> 39:34.520]  If you write at B3 position to the equation of this,
+[39:34.520 --> 39:38.520]  then correspond to the R1, C1 formula with this.
+[39:38.520 --> 39:41.520]  This all refers to virtual cells.
+[39:41.520 --> 39:45.520]  You write now to C2 on C2.
+[39:45.520 --> 39:48.520]  And B2 is on the left side.
+[39:49.420 --> 39:50.420]  So that's the reason.
+[39:50.420 --> 39:56.420]  Because this is column shift to the left by three.
+[39:56.420 --> 39:59.420]  Shift goes to the up by one.
+[39:59.420 --> 40:00.420]  So we have minus one.
+[40:00.420 --> 40:08.420]  And for here, we only have the column to shift.
+[40:08.420 --> 40:10.420]  See here, column shift by what?
+[40:10.420 --> 40:12.420]  By two rows, no shift.
+[40:12.420 --> 40:13.420]  So no shift.
+[40:13.420 --> 40:15.420]  You don't need to write.
+[40:15.420 --> 40:17.420]  You don't need to just zero.
+[40:18.320 --> 40:21.320]  And then sum.
+[40:21.320 --> 40:27.320]  And sum in general, this is sum in the A1 equation.
+[40:27.320 --> 40:34.320]  If I want to see sum of the number here from C1 to C5.
+[40:34.320 --> 40:37.320]  See sum, C1 to C5.
+[40:41.320 --> 40:47.320]  Then in this equation, and it's in the same column.
+[40:48.220 --> 40:52.220]  And so you don't, you have column C.
+[40:52.220 --> 40:54.220]  But it's more up.
+[40:54.220 --> 40:56.220]  More up by five.
+[40:56.220 --> 40:58.220]  Two more up by one.
+[40:58.220 --> 41:00.220]  So starting from here to here.
+[41:00.220 --> 41:03.220]  So that's minus five, and then minus one.
+[41:03.220 --> 41:04.220]  And that's how we do it.
+[41:04.220 --> 41:08.220]  But in the same column, you don't even need to write a column.
+[41:08.220 --> 41:09.220]  Just write that.
+[41:09.220 --> 41:10.220]  That's all fine.
+[41:11.120 --> 41:17.120]  So that's how you can understand the different communications.
+[41:22.120 --> 41:30.120]  OK, those are the most common sale errors here.
+[41:30.120 --> 41:31.120]  Often you want to see.
+[41:41.120 --> 42:09.120]  So we have different errors, as you can see here.
+[42:10.020 --> 42:11.020]  Different signs.
+[42:11.020 --> 42:17.020]  Different signs correspond to different meaning of errors
+[42:17.020 --> 42:19.020]  in Excel.
+[42:19.020 --> 42:23.020]  And you might see some multiple choice questions regarding
+[42:23.020 --> 42:27.020]  this, like giving you what is the sign correspond,
+[42:27.020 --> 42:29.020]  what meaning of that.
+[42:29.020 --> 42:31.020]  Asking you to select.
+[42:31.020 --> 42:33.020]  Standing for that.
+[42:33.020 --> 42:35.020]  Like here, not available.
+[42:35.020 --> 42:38.020]  And A, not available.
+[42:38.920 --> 42:40.920]  If you have a quanticizer of these,
+[42:40.920 --> 42:43.920]  where's this exclamation?
+[42:43.920 --> 42:44.920]  Invalid.
+[42:44.920 --> 42:48.920]  And also you see here, with this invalid.
+[42:48.920 --> 42:50.920]  Now means no.
+[42:50.920 --> 42:52.920]  So empty valid.
+[42:52.920 --> 42:55.920]  And division by zero, as you can see.
+[42:55.920 --> 42:57.920]  And couldn't find name.
+[42:57.920 --> 42:58.920]  Question mark.
+[42:58.920 --> 42:59.920]  Couldn't find name.
+[42:59.920 --> 43:01.920]  And couldn't find the reference.
+[43:01.920 --> 43:02.920]  No reference.
+[43:02.920 --> 43:04.920]  And invalid.
+[43:05.820 --> 43:09.820]  And this one, if you see this, you really just
+[43:09.820 --> 43:11.820]  drop to the right side.
+[43:11.820 --> 43:14.820]  The column width is too small.
+[43:14.820 --> 43:16.820]  Just drop to the right side.
+[43:16.820 --> 43:18.820]  Then you can see it.
+[43:18.820 --> 43:20.820]  So couldn't display values.
+[43:24.820 --> 43:25.320]  Now.
+[43:29.320 --> 43:30.820]  For example, here.
+[43:30.820 --> 43:32.820]  On this one, actually, I'm showing you
+[43:33.720 --> 43:34.720]  ways we look.
+[43:34.720 --> 43:35.720]  We look up.
+[43:35.720 --> 43:38.720]  You might use we look up in your future.
+[43:38.720 --> 43:40.720]  In your work.
+[43:40.720 --> 43:44.720]  If you use Excel, you don't use VBA.
+[43:44.720 --> 43:51.720]  We look up the function as lookup value.
+[43:51.720 --> 43:54.720]  So on the first column, you see here,
+[43:54.720 --> 43:57.720]  this is the formula you write.
+[43:57.720 --> 43:59.720]  We look up.
+[44:00.620 --> 44:05.620]  I have this ID, and now name, gender, age.
+[44:05.620 --> 44:10.620]  Now if I wish to use one column, the first column,
+[44:10.620 --> 44:13.620]  to find the rest of information.
+[44:13.620 --> 44:18.620]  For example, I want to type 205.
+[44:18.620 --> 44:21.620]  Then I want to know what is the name.
+[44:21.620 --> 44:24.620]  In the case you have so many sirens, sirens,
+[44:24.620 --> 44:26.620]  you couldn't look.
+[44:26.620 --> 44:28.620]  You want to use this.
+[44:29.520 --> 44:32.520]  So that's the L7.
+[44:32.520 --> 44:35.520]  It means I want to look up this number.
+[44:35.520 --> 44:37.520]  The relative of the names of that.
+[44:37.520 --> 44:38.520]  It should be this one.
+[44:38.520 --> 44:40.520]  So where do you want to look?
+[44:40.520 --> 44:42.520]  You want to look at this range.
+[44:42.520 --> 44:45.520]  So that's the range.
+[44:45.520 --> 44:46.520]  You look.
+[44:46.520 --> 44:48.520]  Then what is the column?
+[44:48.520 --> 44:50.520]  Which information you want to look?
+[44:50.520 --> 44:53.520]  You want to look at column two.
+[44:53.520 --> 44:54.520]  One, two.
+[44:54.520 --> 44:57.520]  So you want to look at the names.
+[44:57.620 --> 45:00.620]  Force means exact match.
+[45:00.620 --> 45:01.620]  Exact match.
+[45:01.620 --> 45:03.620]  So that's how you do.
+[45:03.620 --> 45:07.620]  And then you have this, and then you can find this.
+[45:07.620 --> 45:10.120]  But in the case of here, you couldn't.
+[45:10.120 --> 45:15.120]  Because we had a long of here.
+[45:15.120 --> 45:22.120]  It is this one.
+[45:22.220 --> 45:27.220]  See here.
+[45:27.220 --> 45:29.220]  See here.
+[45:29.220 --> 45:31.220]  I have the red.
+[45:31.220 --> 45:35.220]  The range, I used the wrong range.
+[45:35.220 --> 45:38.220]  I was supposed to use the range of here.
+[45:38.220 --> 45:45.220]  So that's why it shows wrong range.
+[45:45.220 --> 45:48.220]  Then next is the values.
+[45:48.220 --> 45:51.220]  If you use the values, invalid value,
+[45:51.320 --> 45:56.320]  because in here, I have this amount,
+[45:56.320 --> 46:02.320]  which is quantity times price times.
+[46:02.320 --> 46:05.320]  But here, I have a string.
+[46:05.320 --> 46:08.320]  Then of course I have error.
+[46:08.320 --> 46:11.320]  And so on, you can check all of these.
+[46:15.320 --> 46:17.320]  And I have all the reasons.
+[46:17.320 --> 46:19.320]  And this is a typo.
+[46:19.420 --> 46:22.420]  If I have a typo, then it means.
+[46:22.420 --> 46:24.420]  Because now, what is this?
+[46:24.420 --> 46:25.420]  Average.
+[46:25.420 --> 46:30.420]  Average is supposed to, you're supposed to have average.
+[46:30.420 --> 46:33.420]  I type a wrong function.
+[46:33.420 --> 46:36.420]  It should have an e, right?
+[46:36.420 --> 46:37.420]  So you couldn't.
+[46:37.420 --> 46:39.420]  So that's a typo.
+[46:39.420 --> 46:41.420]  So on.
+[46:41.420 --> 46:44.420]  And this one is divided by zero.
+[46:44.420 --> 46:47.420]  And this one, you see things.
+[46:47.520 --> 46:48.520]  You couldn't see.
+[46:48.520 --> 46:51.520]  Just drive to here, you can see.
+[46:51.520 --> 46:52.520]  You see?
+[46:52.520 --> 46:53.520]  You couldn't see.
+[46:53.520 --> 46:57.520]  So these are the values.
+[46:57.520 --> 47:00.520]  And this was missing.
+[47:02.520 --> 47:04.520]  The missing number.
+[47:04.520 --> 47:07.520]  The common sign.
+[47:07.520 --> 47:09.520]  So I couldn't have that.
+[47:09.520 --> 47:12.520]  And this one, you do have the sign.
+[47:12.520 --> 47:14.520]  And now, what about this?
+[47:14.520 --> 47:16.520]  Invalid number.
+[47:17.520 --> 47:22.520]  And because now square root, you have a negative, right?
+[47:22.520 --> 47:24.520]  So of course, you don't have.
+[47:24.520 --> 47:27.520]  So these are, now let's go back.
+[47:27.520 --> 47:30.520]  These are the settings.
+[47:30.520 --> 47:35.520]  Now next, so these are the errors you can take a look.
+[47:35.520 --> 47:43.520]  Now next is how we are going to do manually, if you're in, create this.
+[47:43.620 --> 47:49.620]  We first want to manually create this graph.
+[47:49.620 --> 47:53.620]  Then we're going to do a macro.
+[47:53.620 --> 47:56.620]  And manually, how to do that?
+[47:56.620 --> 48:03.620]  And now I'm going to close it first.
+[48:03.620 --> 48:09.620]  I'm going to create the, okay?
+[48:09.720 --> 48:16.720]  Now first, as you can see on the left side,
+[48:16.720 --> 48:21.720]  and you open and you,
+[48:23.720 --> 48:27.720]  of course, first, you want to add these settings, right?
+[48:27.720 --> 48:30.720]  Add these title.
+[48:30.720 --> 48:35.720]  And degree, just write the degree to the, what is this?
+[48:35.820 --> 48:40.820]  This is conversion, degree to the reading.
+[48:40.820 --> 48:42.820]  So what did I write?
+[48:42.820 --> 48:47.820]  I write pi and divide by 180 degree.
+[48:47.820 --> 48:52.820]  That should be the absolute scale you need.
+[48:52.820 --> 48:55.820]  Then I need theta, a degree.
+[48:55.820 --> 48:57.820]  You might couldn't find theta, actually,
+[48:57.820 --> 49:00.820]  you can just highlight this and select it to simple.
+[49:00.820 --> 49:04.820]  For this one, Q actually is simple as theta.
+[49:04.920 --> 49:07.920]  So you can write beautifully or these,
+[49:07.920 --> 49:10.920]  just to type the things there.
+[49:10.920 --> 49:11.920]  Okay?
+[49:11.920 --> 49:17.920]  Now next is I need to input the degrees, right?
+[49:17.920 --> 49:24.920]  And degree, I can put zero and five.
+[49:24.920 --> 49:27.920]  And next should be 10 and 15, right?
+[49:27.920 --> 49:30.920]  But you know, you don't want to do,
+[49:30.920 --> 49:33.920]  you want to auto-fill, right?
+[49:34.020 --> 49:37.020]  So auto-fill, how do you auto-fill?
+[49:37.020 --> 49:39.020]  You just highlight them two,
+[49:39.020 --> 49:42.020]  such that you let, you still know
+[49:42.020 --> 49:46.020]  you want to increment by five, right?
+[49:46.020 --> 49:49.020]  And then you look at the right side of this
+[49:49.020 --> 49:51.020]  and fill handle.
+[49:51.020 --> 49:53.020]  You see here, I put my mouse,
+[49:53.020 --> 49:58.020]  and see here, I put my mouse to here,
+[49:59.020 --> 50:01.020]  right bottom.
+[50:01.120 --> 50:03.120]  So you choose classic sign,
+[50:03.120 --> 50:05.120]  classic sign, you choose a handle,
+[50:05.120 --> 50:08.120]  then you just use these.
+[50:14.120 --> 50:16.120]  Oops, sorry.
+[50:16.120 --> 50:17.120]  What happened?
+[50:17.120 --> 50:18.120]  Sorry.
+[50:19.120 --> 50:21.120]  I must missed.
+[50:21.120 --> 50:22.120]  This is very good.
+[50:22.120 --> 50:23.120]  Okay.
+[50:23.120 --> 50:24.120]  This is good.
+[50:24.120 --> 50:26.120]  You have to have this,
+[50:26.120 --> 50:28.120]  not losing them.
+[50:28.120 --> 50:29.120]  Okay.
+[50:31.120 --> 50:33.120]  See here.
+[50:33.120 --> 50:36.120]  So it's automatically towards here.
+[50:36.120 --> 50:39.120]  Now towards here, I need to write
+[50:39.120 --> 50:42.120]  a degree to the rating.
+[50:42.120 --> 50:45.120]  So I want to equal, first equal,
+[50:45.120 --> 50:47.120]  this one, higher.
+[50:47.120 --> 50:50.120]  Then this.
+[50:50.120 --> 50:52.120]  This number is not good enough,
+[50:52.120 --> 50:54.120]  because if you want to use these,
+[50:54.120 --> 50:57.120]  and for the first number it's good,
+[50:57.120 --> 50:59.120]  and for the next number
+[50:59.220 --> 51:01.220]  I would just copy, right?
+[51:01.220 --> 51:02.220]  Value.
+[51:02.220 --> 51:04.220]  Because of what?
+[51:04.220 --> 51:07.220]  They try to find a number in here.
+[51:07.220 --> 51:09.220]  Because whenever you shift,
+[51:09.220 --> 51:10.220]  whenever you here,
+[51:10.220 --> 51:12.220]  you find a number here,
+[51:12.220 --> 51:14.220]  and here, they find a number here.
+[51:14.220 --> 51:16.220]  And if you go moving down,
+[51:16.220 --> 51:17.220]  they're moving down.
+[51:17.220 --> 51:19.220]  So it doesn't work.
+[51:19.220 --> 51:21.220]  So that's invalid number,
+[51:21.220 --> 51:23.220]  because this is string.
+[51:23.220 --> 51:24.220]  So, you know,
+[51:24.220 --> 51:26.220]  that's the reason now you need
+[51:26.220 --> 51:28.220]  absolute value.
+[51:28.320 --> 51:30.320]  It doesn't change the scale.
+[51:30.320 --> 51:32.320]  So now you put F4.
+[51:32.320 --> 51:35.320]  My F4 doesn't work.
+[51:35.320 --> 51:38.320]  Let's see my F4.
+[51:38.320 --> 51:42.320]  I use function Fn in here.
+[51:42.320 --> 51:45.320]  So now, now I would be good.
+[51:45.320 --> 51:46.320]  See here.
+[51:46.320 --> 51:48.320]  I would be all good.
+[51:48.320 --> 51:51.320]  Now, if you don't want to,
+[51:51.320 --> 51:53.320]  now if you do,
+[51:53.320 --> 51:56.320]  you would be all attractive here, right?
+[51:56.420 --> 51:59.420]  But now you take your time, right?
+[52:01.420 --> 52:02.420]  I'm going to show you next
+[52:02.420 --> 52:05.420]  how to do that.
+[52:05.420 --> 52:07.420]  So we continue to here.
+[52:07.420 --> 52:09.420]  Equal sign.
+[52:09.420 --> 52:11.420]  This one would be sign.
+[52:11.420 --> 52:13.420]  Then this angle.
+[52:13.420 --> 52:17.420]  And then cosine.
+[52:17.420 --> 52:21.420]  Then this angle.
+[52:21.420 --> 52:23.420]  Then I want to
+[52:23.520 --> 52:26.520]  just write one more
+[52:26.520 --> 52:29.520]  of these square
+[52:29.520 --> 52:34.520]  plus this square
+[52:34.520 --> 52:38.520]  square equal.
+[52:38.520 --> 52:40.520]  Oh, sorry.
+[52:40.520 --> 52:44.520]  I should use C.
+[52:44.520 --> 52:46.520]  I should use D.
+[52:46.520 --> 52:48.520]  Okay.
+[52:48.520 --> 52:50.520]  So, so now
+[52:50.620 --> 52:53.620]  I'm having equation formula there.
+[52:53.620 --> 52:55.620]  Now,
+[52:55.620 --> 52:57.620]  I want it to auto-field.
+[52:57.620 --> 52:59.620]  How do we auto-field?
+[52:59.620 --> 53:02.620]  You can just aim here to select
+[53:02.620 --> 53:06.620]  and select B3
+[53:10.620 --> 53:12.620]  to where?
+[53:12.620 --> 53:15.620]  To E75.
+[53:15.720 --> 53:17.720]  Okay.
+[53:19.720 --> 53:22.720]  I'm going to use the two C.
+[53:28.720 --> 53:30.720]  Now decide. Do you know how?
+[53:32.720 --> 53:34.720]  Oh, that's not it.
+[53:34.720 --> 53:36.720]  That's only I already taught.
+[53:36.720 --> 53:39.720]  I'm going to shoot next this place.
+[53:45.720 --> 53:48.720]  So, that's what I have done so far.
+[53:51.720 --> 53:53.720]  Right? Next.
+[53:53.720 --> 53:55.720]  Drag to everything.
+[53:55.720 --> 53:57.720]  Now, I want to auto-field.
+[53:57.720 --> 54:00.720]  Auto-field. How do you do auto-field?
+[54:00.720 --> 54:02.720]  You just use control D.
+[54:02.720 --> 54:05.720]  And this is E75.
+[54:05.720 --> 54:08.720]  Then you need to use enter.
+[54:10.720 --> 54:12.720]  Enter to select
+[54:12.820 --> 54:14.820]  then control D.
+[54:16.820 --> 54:18.820]  Give it all. That's it.
+[54:18.820 --> 54:20.820]  Okay.
+[54:20.820 --> 54:22.820]  That's how you can do.
+[54:22.820 --> 54:24.820]  Then next.
+[54:26.820 --> 54:29.820]  Let us look at the left side.
+[54:29.820 --> 54:32.820]  Then you select regions.
+[54:32.820 --> 54:34.820]  Just to plot, right?
+[54:34.820 --> 54:36.820]  Just plot.
+[54:36.820 --> 54:39.820]  Select a region, then insert
+[54:39.820 --> 54:41.820]  towards here.
+[54:41.920 --> 54:43.920]  Then you can use the chart.
+[54:43.920 --> 54:45.920]  Use here.
+[54:45.920 --> 54:47.920]  It will give you.
+[54:47.920 --> 54:49.920]  And then use design.
+[54:49.920 --> 54:51.920]  Design first.
+[54:51.920 --> 54:53.920]  Add a chart element.
+[54:53.920 --> 54:55.920]  You can do the X
+[54:55.920 --> 54:57.920]  and Y.
+[54:57.920 --> 54:59.920]  And also you can add a legend.
+[54:59.920 --> 55:01.920]  And so on.
+[55:01.920 --> 55:03.920]  That's how you do the graph.
+[55:03.920 --> 55:05.920]  And this is the title.
+[55:05.920 --> 55:07.920]  And this is
+[55:07.920 --> 55:09.920]  X, Y.
+[55:10.020 --> 55:12.020]  You can write at this.
+[55:12.020 --> 55:14.020]  This is the legend.
+[55:14.020 --> 55:16.020]  You can move actually.
+[55:16.020 --> 55:18.020]  You can move.
+[55:20.020 --> 55:22.020]  And also you can change
+[55:22.020 --> 55:24.020]  this number by doing that.
+[55:24.020 --> 55:26.020]  By doing here.
+[55:26.020 --> 55:28.020]  You can change here.
+[55:30.020 --> 55:32.020]  Now next, I'm going to show you.
+[55:34.020 --> 55:36.020]  So this is the graph.
+[55:36.020 --> 55:38.020]  And next I'm going to
+[55:40.020 --> 55:42.020]  On the left side,
+[55:42.020 --> 55:44.020]  I do have more
+[55:44.020 --> 55:46.020]  to show you.
+[55:48.020 --> 55:50.020]  If you do this,
+[55:50.020 --> 55:52.020]  I select
+[55:52.020 --> 55:54.020]  left, this is 3.
+[55:54.020 --> 55:56.020]  It will show you the rating.
+[55:56.020 --> 55:58.020]  The rating, but if I wish
+[55:58.020 --> 56:00.020]  to show degree, it should be here.
+[56:00.020 --> 56:02.020]  And then
+[56:02.020 --> 56:04.020]  if you wish to change
+[56:04.020 --> 56:06.020]  each of the sign
+[56:06.020 --> 56:08.020]  of here, you see here?
+[56:08.120 --> 56:10.120]  You can change this to A.
+[56:12.120 --> 56:14.120]  A, you can just
+[56:14.120 --> 56:16.120]  change it here.
+[56:18.120 --> 56:20.120]  See here?
+[56:20.120 --> 56:22.120]  And change this one, would be
+[56:22.120 --> 56:24.120]  good.
+[56:24.120 --> 56:26.120]  So, because
+[56:26.120 --> 56:28.120]  this number will be degree, right?
+[56:28.120 --> 56:30.120]  And that's
+[56:30.120 --> 56:32.120]  how you make a change.
+[56:32.120 --> 56:34.120]  You can change from
+[56:34.120 --> 56:36.120]  degree to there to use
+[56:36.220 --> 56:38.220]  the number here.
+[56:40.220 --> 56:42.220]  And also, if you want to
+[56:42.220 --> 56:44.220]  add a legend,
+[56:44.220 --> 56:46.220]  you can add a legend here.
+[56:46.220 --> 56:48.220]  You see here?
+[56:50.220 --> 56:52.220]  In the front of here,
+[56:52.220 --> 56:54.220]  you just tie all these
+[56:54.220 --> 56:56.220]  double quotes
+[56:56.220 --> 56:58.220]  with your legend.
+[56:58.220 --> 57:00.220]  That's how you look the difference.
+[57:00.320 --> 57:02.320]  Right?
+[57:04.320 --> 57:06.320]  Okay, so that's
+[57:06.320 --> 57:08.320]  how you...the reason why
+[57:08.320 --> 57:10.320]  I want to ideally use
+[57:10.320 --> 57:12.320]  this range,
+[57:12.320 --> 57:14.320]  starting from B, because
+[57:14.320 --> 57:16.320]  the X is B.
+[57:16.320 --> 57:18.320]  If I use A,
+[57:18.320 --> 57:20.320]  X is A, but it will give me
+[57:20.320 --> 57:22.320]  three curve.
+[57:22.320 --> 57:24.320]  Then that
+[57:24.320 --> 57:26.320]  curve will give, which I don't.
+[57:26.320 --> 57:28.320]  You can do that, and then you delete
+[57:28.420 --> 57:30.420]  that curve. You can do this.
+[57:30.420 --> 57:32.420]  Right?
+[57:32.420 --> 57:34.420]  It will choose you three
+[57:34.420 --> 57:36.420]  and with one that is
+[57:36.420 --> 57:38.420]  linear for the first one, then you
+[57:38.420 --> 57:40.420]  delete that to give you
+[57:40.420 --> 57:42.420]  the next two, right?
+[57:42.420 --> 57:44.420]  So you can do all the different things
+[57:44.420 --> 57:46.420]  by trying to
+[57:46.420 --> 57:48.420]  do the different work. Did you see here?
+[57:48.420 --> 57:50.420]  Because
+[57:50.420 --> 57:52.420]  it's all starting from
+[57:52.420 --> 57:54.420]  the first column as your
+[57:54.420 --> 57:56.420]  case, right? So you just
+[57:56.520 --> 57:58.520]  delete the other one.
+[57:58.520 --> 58:00.520]  Delete this one.
+[58:00.520 --> 58:02.520]  Linear curve as the
+[58:02.520 --> 58:04.520]  degree. See?
+[58:04.520 --> 58:06.520]  Right, that's how you
+[58:06.520 --> 58:08.520]  do differences.
+[58:08.520 --> 58:10.520]  And you find
+[58:10.520 --> 58:12.520]  the P.
+[58:12.520 --> 58:14.520]  Okay, so that's how you
+[58:14.520 --> 58:16.520]  do. And next,
+[58:16.520 --> 58:18.520]  I'm going to show you how to
+[58:18.520 --> 58:20.520]  recall micro.
+[58:20.520 --> 58:22.520]  And
+[58:22.520 --> 58:24.520]  now first, you want to
+[58:24.620 --> 58:26.620]  protect your sheet. How do you protect
+[58:26.620 --> 58:28.620]  your sheet? And you
+[58:28.620 --> 58:30.620]  use the
+[58:30.620 --> 58:32.620]  protect
+[58:32.620 --> 58:34.620]  the sheet you review.
+[58:34.620 --> 58:36.620]  In the review,
+[58:36.620 --> 58:38.620]  it's in the review. On the
+[58:38.620 --> 58:40.620]  website, in the review, you have
+[58:40.620 --> 58:42.620]  protect. So now
+[58:42.620 --> 58:44.620]  you just protect, click okay.
+[58:44.620 --> 58:46.620]  Now I cannot do anything.
+[58:46.620 --> 58:48.620]  You just cannot do anything.
+[58:48.620 --> 58:50.620]  Because it's protected. Now
+[58:50.620 --> 58:52.620]  I'm protected.
+[58:52.720 --> 58:54.720]  Okay.
+[58:54.720 --> 58:56.720]  Now you can rename, as I said,
+[58:56.720 --> 58:58.720]  you can rename here, just here,
+[58:58.720 --> 59:00.720]  right?
+[59:00.720 --> 59:02.720]  And you can add
+100.117.97.99 - - [15/Sep/2025 20:13:45] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:13:45] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [15/Sep/2025 20:13:45] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [15/Sep/2025 20:13:45] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [15/Sep/2025 20:13:45] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:13:45] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [15/Sep/2025 20:13:50] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:13:52] "GET /session/7 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:14:28] "POST /transcribe HTTP/1.1" 400 -
+100.117.97.99 - - [15/Sep/2025 20:22:44] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:22:44] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [15/Sep/2025 20:22:44] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [15/Sep/2025 20:22:44] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [15/Sep/2025 20:22:44] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:22:44] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [15/Sep/2025 20:22:58] "POST /transcribe HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:23:00] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:23:01] "GET /status/12 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:23:04] "GET /status/12 HTTP/1.1" 200 -
+[59:02.720 --> 59:04.720]  nodes. Add nodes is just
+[59:04.720 --> 59:06.720]  to include here.
+[59:06.720 --> 59:08.720]  And insert.
+[59:08.720 --> 59:10.720]  So you can add the text box.
+[59:10.720 --> 59:12.720]  If you want to add the text box
+[59:12.720 --> 59:14.720]  is here. And so on.
+[59:14.720 --> 59:16.720]  You can format sales.
+[59:16.720 --> 59:18.720]  If you want to see here,
+[59:18.720 --> 59:20.720]  just right click, format
+[59:20.820 --> 59:22.820]  sales. And you can go
+[59:22.820 --> 59:24.820]  to different numbers.
+[59:24.820 --> 59:26.820]  See here.
+[59:26.820 --> 59:28.820]  Will not give you too many numbers, right?
+[59:28.820 --> 59:30.820]  And so on. You can do many
+[59:30.820 --> 59:32.820]  of the things. You can highlight.
+[59:32.820 --> 59:34.820]  Highlight
+[59:34.820 --> 59:36.820]  column or rows. If I want to
+[59:36.820 --> 59:38.820]  highlight this. No, no.
+[59:38.820 --> 59:40.820]  Hide.
+[59:40.820 --> 59:42.820]  You cannot see. So that's
+[59:42.820 --> 59:44.820]  how you hide.
+[59:44.820 --> 59:46.820]  You can also hide
+[59:46.820 --> 59:48.820]  sheet. And insert
+[59:48.920 --> 59:50.920]  column.
+[59:50.920 --> 59:52.920]  Just go in here.
+[59:52.920 --> 59:54.920]  Insert.
+[59:54.920 --> 59:56.920]  Okay.
+[59:56.920 --> 59:58.920]  Now I'm going to come back.
+[59:58.920 --> 01:00:00.920]  Unhide.
+[01:00:00.920 --> 01:00:02.920]  Right.
+[01:00:02.920 --> 01:00:04.920]  Okay.
+[01:00:06.920 --> 01:00:08.920]  Right. Unhide.
+[01:00:08.920 --> 01:00:10.920]  So.
+[01:00:10.920 --> 01:00:12.920]  And also if you copy a worksheet.
+[01:00:12.920 --> 01:00:14.920]  If you want to say, okay, I want to copy.
+[01:00:14.920 --> 01:00:16.920]  If you're doing something
+[01:00:17.020 --> 01:00:19.020]  you don't want to reset.
+[01:00:19.020 --> 01:00:21.020]  You need to copy here.
+[01:00:21.020 --> 01:00:23.020]  Copy exactly the same.
+[01:00:23.020 --> 01:00:25.020]  You can play with the other sheet.
+[01:00:25.020 --> 01:00:27.020]  And then that's
+[01:00:27.020 --> 01:00:29.020]  next
+[01:00:29.020 --> 01:00:31.020]  sheet name.
+[01:00:31.020 --> 01:00:33.020]  And
+[01:00:33.020 --> 01:00:35.020]  she's
+[01:00:35.020 --> 01:00:37.020]  insert worksheet.
+[01:00:37.020 --> 01:00:39.020]  Yeah. Insert worksheet.
+[01:00:39.020 --> 01:00:41.020]  As I said, you're just doing that.
+[01:00:41.020 --> 01:00:43.020]  It's insert worksheet. Just using
+[01:00:43.020 --> 01:00:45.020]  this. Then
+[01:00:45.120 --> 01:00:47.120]  when you want to do macro.
+[01:00:47.120 --> 01:00:49.120]  What you want to do.
+[01:00:49.120 --> 01:00:51.120]  You see here.
+[01:00:51.120 --> 01:00:53.120]  In here.
+[01:00:53.120 --> 01:00:55.120]  First I'm going to copy this.
+[01:00:55.120 --> 01:00:57.120]  Because I don't want to miss.
+[01:00:57.120 --> 01:00:59.120]  I want to save time.
+[01:00:59.120 --> 01:01:01.120]  I want to save time.
+[01:01:01.120 --> 01:01:03.120]  Okay. Yeah.
+[01:01:03.120 --> 01:01:05.120]  I did copy here.
+[01:01:05.120 --> 01:01:07.120]  Now you do.
+[01:01:07.120 --> 01:01:09.120]  Now I copy here. Now I'm going
+[01:01:09.120 --> 01:01:11.120]  to do the macro.
+[01:01:11.120 --> 01:01:13.120]  So whenever you do the macro.
+[01:01:13.220 --> 01:01:15.220]  You see here.
+[01:01:15.220 --> 01:01:17.220]  On the left side.
+[01:01:17.220 --> 01:01:19.220]  Record.
+[01:01:19.220 --> 01:01:21.220]  You see here. Record.
+[01:01:21.220 --> 01:01:23.220]  Okay.
+[01:01:23.220 --> 01:01:25.220]  Record macro. This is my command.
+[01:01:25.220 --> 01:01:27.220]  Just click okay.
+[01:01:27.220 --> 01:01:29.220]  Now it's recording.
+[01:01:29.220 --> 01:01:31.220]  Whatever you're doing.
+[01:01:31.220 --> 01:01:33.220]  It will automatically write code.
+[01:01:33.220 --> 01:01:35.220]  So what I
+[01:01:35.220 --> 01:01:37.220]  want to do first.
+[01:01:37.220 --> 01:01:39.220]  I'm going to do what?
+[01:01:39.220 --> 01:01:41.220]  Select this first.
+[01:01:41.320 --> 01:01:43.320]  Select first.
+[01:01:43.320 --> 01:01:45.320]  Then I put zero.
+[01:01:45.320 --> 01:01:47.320]  Then I put five.
+[01:01:47.320 --> 01:01:49.320]  Right?
+[01:01:49.320 --> 01:01:51.320]  Then I select
+[01:01:51.320 --> 01:01:53.320]  this.
+[01:01:53.320 --> 01:01:55.320]  To five. Then finally handle.
+[01:01:55.320 --> 01:01:57.320]  Then copy that to 75.
+[01:01:59.320 --> 01:02:01.320]  To 360.
+[01:02:01.320 --> 01:02:03.320]  360.
+[01:02:03.320 --> 01:02:05.320]  Then I'm going to here to write
+[01:02:05.320 --> 01:02:07.320]  equation of
+[01:02:07.320 --> 01:02:09.320]  use this
+[01:02:09.420 --> 01:02:11.420]  number and
+[01:02:11.420 --> 01:02:13.420]  after four.
+[01:02:13.420 --> 01:02:15.420]  After four.
+[01:02:15.420 --> 01:02:17.420]  And types.
+[01:02:17.420 --> 01:02:19.420]  This equal.
+[01:02:19.420 --> 01:02:21.420]  Then use these.
+[01:02:21.420 --> 01:02:23.420]  Sign.
+[01:02:23.420 --> 01:02:25.420]  This number.
+[01:02:25.420 --> 01:02:27.420]  Enter.
+[01:02:27.420 --> 01:02:29.420]  Then cosine.
+[01:02:31.420 --> 01:02:33.420]  This.
+[01:02:33.420 --> 01:02:35.420]  Enter.
+[01:02:35.420 --> 01:02:37.420]  Then equal.
+[01:02:37.520 --> 01:02:39.520]  This is square.
+[01:02:39.520 --> 01:02:41.520]  Sorry. This is square.
+[01:02:41.520 --> 01:02:43.520]  Square plus.
+[01:02:43.520 --> 01:02:45.520]  This square.
+[01:02:45.520 --> 01:02:47.520]  Equal. I'm done.
+[01:02:47.520 --> 01:02:49.520]  Now I'm going to select
+[01:02:49.520 --> 01:02:51.520]  this. So B3.
+[01:02:51.520 --> 01:02:53.520]  Then E.
+[01:02:53.520 --> 01:02:55.520]  75.
+[01:02:55.520 --> 01:02:57.520]  Enter.
+[01:02:57.520 --> 01:02:59.520]  Then control B.
+[01:02:59.520 --> 01:03:01.520]  That's it. I'm done with
+[01:03:01.520 --> 01:03:03.520]  this.
+[01:03:03.520 --> 01:03:05.520]  So I'm stop recording.
+[01:03:05.620 --> 01:03:07.620]  So I'm done now.
+[01:03:07.620 --> 01:03:09.620]  I already stop.
+[01:03:09.620 --> 01:03:11.620]  So now if you look at
+[01:03:11.620 --> 01:03:13.620]  BBA here now. You suppose
+[01:03:13.620 --> 01:03:15.620]  to see here
+[01:03:15.620 --> 01:03:17.620]  you do have automatically generated
+[01:03:17.620 --> 01:03:19.620]  module one.
+[01:03:19.620 --> 01:03:21.620]  As you can see here.
+[01:03:21.620 --> 01:03:23.620]  Okay.
+[01:03:23.620 --> 01:03:25.620]  And it will give you what did you do.
+[01:03:25.620 --> 01:03:27.620]  And what's the result. You see here?
+[01:03:27.620 --> 01:03:29.620]  No no patient.
+[01:03:29.620 --> 01:03:31.620]  And
+[01:03:31.620 --> 01:03:33.620]  so I'm going to you see
+[01:03:33.720 --> 01:03:35.720]  the left. Now you going to see the left.
+[01:03:37.720 --> 01:03:39.720]  And now you do
+[01:03:39.720 --> 01:03:41.720]  these are the module the code
+[01:03:41.720 --> 01:03:43.720]  inside here.
+[01:03:43.720 --> 01:03:45.720]  Now if you don't
+[01:03:45.720 --> 01:03:47.720]  now if you want to
+[01:03:47.720 --> 01:03:49.720]  you want to run
+[01:03:49.720 --> 01:03:51.720]  this code you need to go
+[01:03:51.720 --> 01:03:53.720]  here. Insert control
+[01:03:53.720 --> 01:03:55.720]  button. Right?
+[01:03:55.720 --> 01:03:57.720]  So you have plus sign.
+[01:03:57.720 --> 01:03:59.720]  Then you just use your mouse
+[01:03:59.720 --> 01:04:01.720]  to then connect
+[01:04:01.820 --> 01:04:03.820]  connect them to the
+[01:04:03.820 --> 01:04:05.820]  module one. This module one is your code.
+[01:04:05.820 --> 01:04:07.820]  Right? So
+[01:04:07.820 --> 01:04:09.820]  that's the one.
+[01:04:09.820 --> 01:04:11.820]  And then you can
+[01:04:11.820 --> 01:04:13.820]  change
+[01:04:13.820 --> 01:04:15.820]  wrong button.
+[01:04:15.820 --> 01:04:17.820]  Wrong program.
+[01:04:17.820 --> 01:04:19.820]  That's how you can
+[01:04:19.820 --> 01:04:21.820]  do. Now I can
+[01:04:21.820 --> 01:04:23.820]  we can
+[01:04:23.820 --> 01:04:25.820]  just test this.
+[01:04:25.820 --> 01:04:27.820]  We just clear content.
+[01:04:27.820 --> 01:04:29.820]  We don't have anything right.
+100.117.97.99 - - [15/Sep/2025 20:23:07] "GET /status/12 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:23:10] "GET /session/7 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:23:10] "GET /status/12 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:23:13] "GET /status/12 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:23:16] "GET /status/12 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:23:19] "GET /status/12 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:23:22] "GET /status/12 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:23:25] "GET /status/12 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:23:28] "GET /status/12 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:23:31] "GET /status/12 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:23:34] "GET /status/12 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:23:37] "GET /status/12 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:23:40] "GET /status/12 HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:23:43] "GET /status/12 HTTP/1.1" 200 -
+[01:04:29.920 --> 01:04:31.920]  That's what we have to do. Right?
+[01:04:31.920 --> 01:04:33.920]  Then we just
+[01:04:33.920 --> 01:04:35.920]  click it.
+[01:04:35.920 --> 01:04:37.920]  So that's how you want.
+[01:04:37.920 --> 01:04:39.920]  Of course here the plot the graph
+[01:04:39.920 --> 01:04:41.920]  is if you
+[01:04:41.920 --> 01:04:43.920]  already have the graph then
+[01:04:43.920 --> 01:04:45.920]  it graph will show. Right?
+[01:04:45.920 --> 01:04:47.920]  If the graph is showing
+[01:04:47.920 --> 01:04:49.920]  there directly then
+[01:04:49.920 --> 01:04:51.920]  it will show. Let me just
+[01:04:51.920 --> 01:04:53.920]  use this.
+[01:04:53.920 --> 01:04:55.920]  Let me just use this
+[01:04:55.920 --> 01:04:57.920]  quickly. The graph
+[01:04:58.020 --> 01:05:00.020]  then
+[01:05:00.020 --> 01:05:02.020]  insert
+[01:05:02.020 --> 01:05:04.020]  the graph.
+[01:05:04.020 --> 01:05:06.020]  Right? We just keep quickly.
+[01:05:06.020 --> 01:05:08.020]  Just I'm not going to make it
+[01:05:08.020 --> 01:05:10.020]  beautiful. Just like that. Right?
+[01:05:10.020 --> 01:05:12.020]  Now I'm going to
+[01:05:14.020 --> 01:05:16.020]  clear.
+[01:05:16.020 --> 01:05:18.020]  Then I'm going to do wrong
+[01:05:18.020 --> 01:05:20.020]  button. Just click on
+[01:05:20.020 --> 01:05:22.020]  button. Wrong.
+[01:05:22.020 --> 01:05:24.020]  Right. That's how
+[01:05:24.020 --> 01:05:26.020]  it can automatically work.
+[01:05:26.120 --> 01:05:28.120]  Here.
+[01:05:28.120 --> 01:05:30.120]  And you can as I say
+[01:05:30.120 --> 01:05:32.120]  you can change your
+[01:05:32.120 --> 01:05:34.120]  wrong button name.
+[01:05:36.120 --> 01:05:38.120]  And explanation
+[01:05:38.120 --> 01:05:40.120]  here
+[01:05:40.120 --> 01:05:42.120]  on code you can check whatever
+[01:05:42.120 --> 01:05:44.120]  code it will give
+[01:05:44.120 --> 01:05:46.120]  to relative to
+[01:05:46.120 --> 01:05:48.120]  what. Okay?
+[01:05:48.120 --> 01:05:50.120]  So now finally
+[01:05:50.120 --> 01:05:52.120]  finally
+[01:05:52.120 --> 01:05:54.120]  what model can do
+[01:05:54.220 --> 01:05:56.220]  what cannot do.
+[01:05:56.220 --> 01:05:58.220]  This automatically your work
+[01:05:58.220 --> 01:06:00.220]  if you want to do
+[01:06:00.220 --> 01:06:02.220]  consolidate your
+[01:06:02.220 --> 01:06:04.220]  worksheet when you working
+[01:06:04.220 --> 01:06:06.220]  bank or institution
+[01:06:06.220 --> 01:06:08.220]  then you can do
+[01:06:08.220 --> 01:06:10.220]  this way
+[01:06:10.220 --> 01:06:12.220]  and you can just do a mark
+[01:06:12.220 --> 01:06:14.220]  right? And then
+[01:06:14.220 --> 01:06:16.220]  record and do what. But
+[01:06:16.220 --> 01:06:18.220]  however can we do
+[01:06:18.220 --> 01:06:20.220]  interact anything? No.
+[01:06:20.220 --> 01:06:22.220]  You cannot. So you have to
+[01:06:22.320 --> 01:06:24.320]  learn how to write
+[01:06:24.320 --> 01:06:26.320]  in order to do everything.
+[01:06:26.320 --> 01:06:28.320]  Right? And in your
+[01:06:28.320 --> 01:06:30.320]  I'm going to announce your assignment
+[01:06:30.320 --> 01:06:32.320]  which is related to
+[01:06:32.320 --> 01:06:34.320]  this and you will
+[01:06:34.320 --> 01:06:36.320]  write to the macro
+[01:06:36.320 --> 01:06:38.320]  and to find
+[01:06:38.320 --> 01:06:40.320]  the model
+[01:06:40.320 --> 01:06:42.320]  rate even the constant
+[01:06:42.320 --> 01:06:44.320]  rate. So you need
+[01:06:44.320 --> 01:06:46.320]  to use the absolute
+[01:06:46.320 --> 01:06:48.320]  address. Right?
+[01:06:48.320 --> 01:06:50.320]  And you need to do the
+[01:06:50.420 --> 01:06:52.420]  add the right
+[01:06:52.420 --> 01:06:54.420]  formulas. Right?
+[01:06:54.420 --> 01:06:56.420]  And to do the calculation
+[01:06:56.420 --> 01:06:58.420]  and also you need to input
+[01:06:58.420 --> 01:07:00.420]  what number like mortgage rate from
+[01:07:00.420 --> 01:07:02.420]  where to where
+[01:07:02.420 --> 01:07:04.420]  from like 2% to 5%
+[01:07:04.420 --> 01:07:06.420]  then you want to see
+[01:07:06.420 --> 01:07:08.420]  your loans
+[01:07:08.420 --> 01:07:10.420]  if you want to loan a car
+[01:07:10.420 --> 01:07:12.420]  like 10
+[01:07:12.420 --> 01:07:14.420]  salary pay that
+[01:07:14.420 --> 01:07:16.420]  you need to
+[01:07:16.420 --> 01:07:18.420]  pay more for how many years
+[01:07:18.520 --> 01:07:20.520]  you need to pay how much
+[01:07:20.520 --> 01:07:22.520]  money per month. Right?
+[01:07:22.520 --> 01:07:24.520]  So that will be your
+[01:07:24.520 --> 01:07:26.520]  first assignment
+[01:07:26.520 --> 01:07:28.520]  will be
+[01:07:28.520 --> 01:07:30.520]  put in your draw
+[01:07:30.520 --> 01:07:32.520]  box and assignment in
+[01:07:32.520 --> 01:07:34.520]  assignment for the school. A couple
+[01:07:34.520 --> 01:07:36.520]  of days. Right?
+[01:07:36.520 --> 01:07:38.520]  And so do you have any
+[01:07:38.520 --> 01:07:40.520]  questions?
+[01:07:40.520 --> 01:07:42.520]  You're good? Okay.
+[01:07:42.520 --> 01:07:44.520]  So next lecture we'll start
+[01:07:44.520 --> 01:07:46.520]  with the BPA
+[01:07:46.620 --> 01:07:48.620]  okay
+[01:07:48.620 --> 01:07:50.620]  thank you
+--- Transcription Finished ---
+--- Generating Notes with Ollama ---
+--- Notes Generation Finished ---
+Job 10 finalized and removed from queue.
+Queue processor checking for a new job...
+Processing job 11: CP212 chapter 3-4.m4a
+--- Starting Transcription for ../uploads\c5c5ea9a-c368-49e0-9ab8-d6cf179db19e.m4a ---
+An error occurred during transcription for job 11: Failed to load audio: ffmpeg version 8.0-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (Rev8, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60.  8.100 / 60.  8.100
+  libavcodec     62. 11.100 / 62. 11.100
+  libavformat    62.  3.100 / 62.  3.100
+  libavdevice    62.  1.100 / 62.  1.100
+  libavfilter    11.  4.100 / 11.  4.100
+  libswscale      9.  1.100 /  9.  1.100
+  libswresample   6.  1.100 /  6.  1.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000001c69eca3d00] Format mov,mp4,m4a,3gp,3g2,mj2 detected only with low score of 1, misdetection possible!
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000001c69eca3d00] moov atom not found
+[in#0 @ 000001c69eca3a80] Error opening input: Invalid data found when processing input
+Error opening input file ../uploads\c5c5ea9a-c368-49e0-9ab8-d6cf179db19e.m4a.
+Error opening input files: Invalid data found when processing input
+
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+Queue processor checking for a new job...
+Processing job 12: New Recording 59.m4a
+--- Starting Transcription for ../uploads\7c56bf6b-f8e7-44fe-b03d-3d1674da69cc.m4a ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:02.800]  So I can have the participation link.
+[00:02.800 --> 00:04.440]  I completely forgot about this class.
+[00:04.440 --> 00:05.400]  I'm really sorry.
+[00:05.400 --> 00:07.640]  So I didn't bear that a minute.
+[00:07.640 --> 00:08.320]  So it's fine.
+[00:08.320 --> 00:11.440]  If you haven't done it, do so today.
+[00:11.440 --> 00:13.800]  That was for the previous week.
+[00:13.800 --> 00:18.000]  And then what I will do is, every Wednesday in the newsfeed,
+[00:18.000 --> 00:22.000]  I will just put up the participation survey link
+[00:22.000 --> 00:24.520]  for the week that we've just completed.
+[00:24.520 --> 00:28.000]  So try and answer as honestly as possible.
+[00:30.360 --> 00:33.440]  And that's that.
+[00:33.440 --> 00:35.680]  And then what are we going to cover today?
+[00:35.680 --> 00:37.760]  I'm going to try and, well, I'm going
+[00:37.760 --> 00:40.680]  to definitely cover research.
+[00:40.680 --> 00:43.200]  I'm also going to delve into personality.
+[00:43.200 --> 00:46.200]  But I don't want to fall too behind.
+[00:46.200 --> 00:50.360]  So what might happen is, on Wednesday, I
+[00:50.360 --> 00:51.680]  will try and cover learning.
+[00:51.680 --> 00:54.280]  But then I'll record myself with whatever I miss,
+[00:54.280 --> 00:56.600]  because I kind of want to be on pace with everyone else.
+[00:56.600 --> 01:00.200]  And I don't want to rush through the things at the very end
+[01:00.200 --> 01:02.720]  when you're talking about your midterm.
+[01:02.720 --> 01:05.120]  But I'm not supposed to be recording.
+[01:05.120 --> 01:06.600]  So I'll put it on.
+[01:06.600 --> 01:08.040]  I'll say, you have a week.
+[01:08.040 --> 01:08.920]  Look at it.
+[01:08.920 --> 01:11.680]  And then I'll take off the recording so no one knows.
+[01:11.680 --> 01:13.080]  All right.
+[01:13.080 --> 01:14.720]  All right, so let's get right into it.
+[01:14.720 --> 01:17.680]  So let's talk about the Paul Thorn effect.
+[01:17.680 --> 01:20.480]  This is something you should definitely note.
+[01:20.480 --> 01:23.480]  I know that there is a multiple choice question on this.
+[01:23.480 --> 01:25.200]  So what is this effect?
+[01:25.200 --> 01:32.080]  So this is when research participants change
+[01:32.080 --> 01:37.200]  their behavior simply because they know that they know more.
+[01:40.040 --> 01:43.160]  So it's not because of the experimental treatment, which
+[01:43.160 --> 01:45.080]  you'll understand in a few minutes.
+[01:45.080 --> 01:49.360]  It's just because they know that they're being studied.
+[01:49.360 --> 01:53.680]  So they're going to change their behavior accordingly.
+[01:53.680 --> 01:57.200]  So what this does is it highlights
+[01:57.200 --> 02:01.400]  how psychological factors like feeling special or receiving
+[02:01.400 --> 02:06.600]  attention, these can all influence results.
+[02:06.600 --> 02:09.440]  And obviously, when it's influencing these results,
+[02:09.440 --> 02:12.600]  these are not accurate results.
+[02:12.600 --> 02:15.520]  These are not accurate conclusions
+[02:15.520 --> 02:18.320]  about the effect of the independent variable.
+[02:18.840 --> 02:21.720]  OK?
+[02:21.720 --> 02:24.720]  So here's a particular study that I
+[02:24.720 --> 02:26.040]  want you to think about.
+[02:26.040 --> 02:27.640]  It was a workplace study.
+[02:27.640 --> 02:30.400]  And it looked at a factory.
+[02:30.400 --> 02:32.320]  And what the researchers wanted to do
+[02:32.320 --> 02:37.880]  was they wanted to test whether increasing light would
+[02:37.880 --> 02:39.800]  improve worker productivity.
+[02:39.800 --> 02:43.000]  So these light bulbs, does it increase
+[02:43.000 --> 02:45.480]  your worker productivity?
+[02:45.480 --> 02:50.040]  So productivity did indeed increase.
+[02:50.040 --> 02:52.680]  But surprisingly, it also went up
+[02:52.680 --> 02:56.440]  when the lights were dimmed again.
+[02:56.440 --> 03:00.360]  The real cause wasn't the lighting.
+[03:00.360 --> 03:03.040]  It was actually the attention that workers
+[03:03.040 --> 03:08.280]  were receiving from being part of that study.
+[03:08.280 --> 03:10.400]  So they felt observed.
+[03:10.400 --> 03:13.040]  They felt valued, which motivated
+[03:13.040 --> 03:14.160]  them to perform better.
+[03:14.160 --> 03:16.400]  So it wasn't the light.
+[03:16.400 --> 03:18.600]  It was just the attention that they were receiving,
+[03:18.600 --> 03:22.560]  as being participants in that particular study.
+[03:22.560 --> 03:24.880]  So this actually demonstrates to us
+[03:24.880 --> 03:30.240]  that the Hawthorne effect can actually take place.
+[03:30.240 --> 03:37.920]  That how your study can in itself influence behavior,
+[03:37.920 --> 03:42.120]  regardless of the actual experimental changes.
+[03:42.120 --> 03:44.120]  So do we understand that?
+[03:45.080 --> 03:45.920]  All right.
+[03:45.920 --> 03:49.480]  Remember, the other way of doing research
+[03:49.480 --> 03:52.480]  is using a correlational design.
+[03:52.480 --> 03:56.840]  So what happens in a correlational design?
+[03:56.840 --> 04:02.080]  So correlational research, these measures,
+[04:02.080 --> 04:04.760]  they measure variables precisely.
+[04:04.760 --> 04:06.640]  And they examine relationships.
+[04:06.640 --> 04:10.840]  They examine associations between variables
+[04:10.840 --> 04:17.400]  without introducing any sort of change in the research setting.
+[04:17.400 --> 04:19.680]  So this kind of research actually
+[04:19.680 --> 04:23.960]  tells us whether or not two variables are related.
+[04:26.760 --> 04:28.120]  But it does not test.
+[04:28.120 --> 04:30.520]  And this is the important thing that you have to know.
+[04:30.520 --> 04:33.480]  It does not tell us whether or not
+[04:33.480 --> 04:36.320]  there is a cause and effect put into place.
+[04:36.320 --> 04:39.640]  And I will explain that in a few minutes.
+[04:39.720 --> 04:43.800]  So it tells us whether or not two variables are associated.
+[04:43.800 --> 04:45.760]  Are they related to one another?
+[04:45.760 --> 04:48.840]  So stress and job satisfaction.
+[04:48.840 --> 04:50.480]  Are they related?
+[04:50.480 --> 04:52.360]  But it doesn't tell us cause and effect.
+[04:52.360 --> 05:02.560]  What I mean by that is, does stress lead to job satisfaction or not?
+[05:02.560 --> 05:03.640]  That's a distinction.
+[05:03.640 --> 05:04.720]  They're related.
+[05:04.720 --> 05:06.440]  But does one lead to another?
+[05:07.440 --> 05:08.920]  OK.
+[05:08.920 --> 05:12.920]  So there are several ways in which we can conduct correlational research.
+[05:12.920 --> 05:17.480]  There is surveys and interviews, where we basically
+[05:17.480 --> 05:22.200]  ask people directly about their experiences, their thoughts,
+[05:22.200 --> 05:25.120]  their behaviors.
+[05:25.120 --> 05:27.400]  But we can also use existing data.
+[05:27.400 --> 05:30.520]  So this is things like records.
+[05:30.520 --> 05:31.880]  Maybe it's reports.
+[05:31.880 --> 05:35.360]  Maybe it's data sets that already exist.
+[05:35.360 --> 05:39.000]  You can look into those as well to see patterns.
+[05:39.000 --> 05:39.520]  OK?
+[05:39.520 --> 05:40.720]  Does that make sense?
+[05:40.720 --> 05:43.840]  Will you remember that distinction between correlational
+[05:43.840 --> 05:46.320]  and experimental, which I'll tell you in a few minutes?
+[05:46.320 --> 05:49.760]  But just remember with correlational, all you're doing
+[05:49.760 --> 05:54.840]  is you're trying to establish a relationship or an association.
+[05:54.840 --> 05:57.600]  Or maybe it's just to identify a pattern.
+[05:57.600 --> 06:03.480]  What you're not doing is whether or not these two variables, what
+[06:03.480 --> 06:04.280]  leads to what.
+[06:04.280 --> 06:07.120]  So there's no cause and effect put into place.
+[06:07.120 --> 06:09.440]  Does that make sense?
+[06:09.440 --> 06:10.520]  Say yes or no.
+[06:10.520 --> 06:11.080]  Yes.
+[06:11.080 --> 06:11.600]  OK.
+[06:11.600 --> 06:15.760]  Because my short answer, it has that.
+[06:15.760 --> 06:16.680]  OK?
+[06:16.680 --> 06:17.200]  All right.
+[06:17.200 --> 06:19.840]  You have to remember that in order to apply it.
+[06:19.840 --> 06:21.000]  OK.
+[06:21.000 --> 06:21.520]  All right.
+[06:21.520 --> 06:24.640]  Now let's talk about what happens in a correlational design.
+[06:24.640 --> 06:25.160]  OK?
+[06:25.160 --> 06:32.200]  So I think by now, or maybe you haven't, how many of us have taken stats?
+[06:32.240 --> 06:35.840]  How many of us know what a correlation coefficient is?
+[06:35.840 --> 06:37.320]  No one does.
+[06:37.320 --> 06:37.840]  OK.
+[06:37.840 --> 06:38.840]  Like a few hands.
+[06:38.840 --> 06:39.680]  OK.
+[06:39.680 --> 06:40.280]  All right.
+[06:40.280 --> 06:44.640]  So a correlation coefficient is abbreviated as R,
+[06:44.640 --> 06:46.960]  like that small symbol R. Right?
+[06:46.960 --> 06:49.800]  It describes the statistical relationship
+[06:49.800 --> 06:51.720]  between two variables.
+[06:51.720 --> 06:52.600]  OK?
+[06:52.600 --> 06:58.480]  And it can range from minus 1 to positive 1.
+[06:58.480 --> 06:59.560]  OK?
+[06:59.560 --> 07:05.040]  What a correlation coefficient does is it tells us the direction as well
+[07:05.040 --> 07:09.000]  as the strength of the relationship.
+[07:09.000 --> 07:09.720]  OK?
+[07:09.720 --> 07:15.920]  So direction has to do with whether or not it's positive or negative.
+[07:15.920 --> 07:17.360]  OK?
+[07:17.360 --> 07:25.400]  Minus 1 refers to a perfectly negative relationship.
+[07:25.400 --> 07:30.840]  And a positive 1 refers to a perfectly positive relationship.
+[07:30.840 --> 07:31.360]  OK?
+[07:31.360 --> 07:33.280]  So that's the first thing you have to remember,
+[07:33.280 --> 07:35.600]  that the correlation coefficient tells us
+[07:35.600 --> 07:37.880]  the direction of that relationship.
+[07:37.880 --> 07:41.480]  Is it positive or is it negative?
+[07:41.480 --> 07:42.800]  OK?
+[07:42.800 --> 07:44.880]  Minus 1, perfectly negative.
+[07:44.880 --> 07:48.880]  Minus a positive 1, perfectly positive.
+[07:48.880 --> 07:52.160]  And then 0, if you get the numerical value of 0,
+[07:52.160 --> 07:56.640]  that means there's no statistical relationship.
+[07:56.640 --> 07:57.640]  OK?
+[07:57.640 --> 08:00.840]  So let me explain this using an example.
+[08:00.840 --> 08:03.600]  What is meant by a positive correlation?
+[08:03.600 --> 08:11.400]  A positive correlation basically means that when you increase on one variable,
+[08:11.400 --> 08:17.880]  increase a unit on one variable, it is associated with an increase
+[08:17.880 --> 08:21.120]  in another variable.
+[08:21.120 --> 08:21.620]  OK?
+[08:22.640 --> 08:25.320]  So here's the thing.
+[08:25.320 --> 08:33.080]  Let's take a attendance in class, right, and your grade on the midterm.
+[08:36.040 --> 08:36.520]  OK?
+[08:36.520 --> 08:39.360]  If we were to use a correlational design,
+[08:39.360 --> 08:43.520]  we would basically be seeing the association between the two.
+[08:43.520 --> 08:46.000]  We're not really seeing cause and effect.
+[08:46.000 --> 08:47.800]  We're just seeing, are they related?
+[08:47.800 --> 08:49.400]  Are they associated?
+[08:49.400 --> 08:50.200]  OK?
+[08:50.200 --> 08:56.080]  Attendance in class with grade on the midterm.
+[08:56.080 --> 09:00.120]  So this is what a positive relationship is.
+[09:00.120 --> 09:06.920]  The more you attend in class, so you're seeing an increase on one variable,
+[09:06.920 --> 09:09.520]  the greater your grade will be on the midterm.
+[09:09.520 --> 09:12.600]  You're seeing an increase on the other variable.
+[09:12.600 --> 09:16.040]  These are associated with one another.
+[09:16.040 --> 09:17.640]  Does that make sense?
+[09:17.640 --> 09:22.160]  A negative one would be you see an increase on one,
+[09:22.160 --> 09:26.160]  and that's associated with a decrease on the other.
+[09:26.160 --> 09:30.680]  So the more you attend class, the less likely
+[09:30.680 --> 09:32.600]  you are to do well on the midterm.
+[09:32.600 --> 09:34.200]  That sounds pretty weird, right?
+[09:34.200 --> 09:36.840]  But it can happen.
+[09:36.840 --> 09:38.040]  It's an association.
+[09:38.040 --> 09:39.200]  Just a minute.
+[09:39.200 --> 09:40.560]  It's an association.
+[09:40.560 --> 09:43.200]  It doesn't mean that it's cause and effect.
+[09:43.200 --> 09:46.800]  What that means is there's no way for me to know.
+[09:46.800 --> 09:48.080]  There's no research.
+[09:48.080 --> 09:49.360]  I mean, it's hypothetical.
+[09:49.360 --> 09:50.600]  There is research for this.
+[09:50.600 --> 09:53.040]  But it's hypothetical.
+[09:53.040 --> 09:58.040]  There's no way for me to know that attending class will lead you
+[09:58.040 --> 10:01.400]  to have an A plus in on the midterm.
+[10:01.400 --> 10:02.560]  Does that make sense?
+[10:02.560 --> 10:06.480]  That's what an experiment does, not a correlational design.
+[10:06.480 --> 10:07.360]  Yes?
+[10:07.360 --> 10:11.800]  So just to make sure that a positive correlation is when,
+[10:11.840 --> 10:17.960]  let's say, an increase in x causes an increase in y.
+[10:17.960 --> 10:19.520]  Not causes an increase.
+[10:19.520 --> 10:20.520]  It's associated.
+[10:20.520 --> 10:21.160]  Associated.
+[10:21.160 --> 10:23.840]  So what's the difference between associated and it causes?
+[10:23.840 --> 10:27.040]  Causes is it leads to something.
+[10:27.040 --> 10:30.160]  Associated is you don't know if it leads to it.
+[10:30.160 --> 10:31.840]  It's just associated.
+[10:31.840 --> 10:33.920]  Just statistically.
+[10:33.920 --> 10:36.000]  Yeah, statistically, even just we
+[10:36.000 --> 10:38.680]  don't have any experimental design put into place.
+[10:38.680 --> 10:41.360]  So we don't really know if it leads to one thing.
+[10:41.400 --> 10:43.000]  We just know they're associated.
+[10:43.000 --> 10:45.600]  And then for a negative correlation,
+[10:45.600 --> 10:47.400]  if x increases, y decreases.
+[10:47.400 --> 10:47.920]  Yes.
+[10:47.920 --> 10:48.480]  Statistically.
+[10:48.480 --> 10:50.040]  Yes.
+[10:50.040 --> 10:53.160]  If x increases, y decreases.
+[10:53.160 --> 10:54.200]  They're associated.
+[10:54.200 --> 10:55.600]  Does that make sense?
+[10:55.600 --> 10:56.160]  Good.
+[10:56.160 --> 10:56.680]  OK.
+[10:56.680 --> 10:59.080]  So that's the direction.
+[10:59.080 --> 11:01.160]  Now let's talk about the strength.
+[11:01.160 --> 11:04.400]  The strength of a correlation is inferred
+[11:04.400 --> 11:08.800]  from judging how compact something is on a scatter plot.
+[11:09.800 --> 11:11.280]  OK.
+[11:11.280 --> 11:14.360]  When it comes to the x and y values.
+[11:14.360 --> 11:17.800]  The more compact it is, the stronger
+[11:17.800 --> 11:20.080]  the correlation would be.
+[11:20.080 --> 11:20.760]  OK.
+[11:20.760 --> 11:23.840]  The less compact it is, the weaker the correlation
+[11:23.840 --> 11:25.600]  it would be.
+[11:25.600 --> 11:27.840]  So here are some.
+[11:27.840 --> 11:28.720]  OK.
+[11:28.720 --> 11:30.200]  So correlation.
+[11:30.200 --> 11:32.240]  Let me just test you on this.
+[11:32.240 --> 11:32.920]  OK.
+[11:32.920 --> 11:36.160]  So r is the correlation coefficient.
+[11:36.160 --> 11:38.280]  Here, do we have any correlation?
+[11:38.280 --> 11:40.480]  Let's talk about direction first.
+[11:40.480 --> 11:41.400]  Look at the values.
+[11:41.400 --> 11:46.080]  r equals 0, r equals 70, r equals minus 70.
+[11:46.080 --> 11:50.000]  So in the first case, when it comes to the two variables,
+[11:50.000 --> 11:52.120]  draw satisfaction and draw performance,
+[11:52.120 --> 11:54.240]  are they associated with one another?
+[11:54.240 --> 11:55.880]  Yes or no?
+[11:55.880 --> 11:56.360]  No.
+[11:56.360 --> 11:56.880]  Good.
+[11:56.880 --> 11:58.240]  Why?
+[11:58.240 --> 12:00.880]  Who wants to take a stab?
+[12:00.880 --> 12:01.640]  Yes.
+[12:01.640 --> 12:02.920]  Looking at the coefficient alone,
+[12:02.920 --> 12:04.560]  0 means there's no thing.
+[12:04.560 --> 12:05.200]  Exactly.
+[12:05.200 --> 12:06.280]  There's no association.
+[12:09.280 --> 12:10.760]  No.
+[12:10.760 --> 12:12.240]  It starts with a, right?
+[12:12.240 --> 12:13.240]  Anthony.
+[12:13.240 --> 12:14.240]  No.
+[12:14.240 --> 12:15.720]  Double A.
+[12:15.720 --> 12:16.480]  Aiden.
+[12:16.480 --> 12:17.960]  No.
+[12:17.960 --> 12:18.960]  Aaron.
+[12:18.960 --> 12:19.480]  Aaron.
+[12:19.480 --> 12:20.560]  OK.
+[12:20.560 --> 12:21.400]  All right.
+[12:21.400 --> 12:22.200]  OK.
+[12:22.200 --> 12:23.280]  OK, good, Aaron.
+[12:23.280 --> 12:26.960]  OK, how about r equals 70?
+[12:26.960 --> 12:29.640]  First of all, is there an association?
+[12:29.640 --> 12:30.120]  Jenny.
+[12:30.120 --> 12:30.800]  Jenny, right?
+[12:30.800 --> 12:31.480]  Yes.
+[12:31.480 --> 12:33.480]  Is it a positive or a negative?
+[12:33.480 --> 12:35.000]  Why is it positive?
+[12:35.000 --> 12:36.680]  Well, in the numbers.
+[12:36.680 --> 12:37.400]  Good.
+[12:37.560 --> 12:38.480]  Yeah, that's it.
+[12:38.480 --> 12:40.080]  That's all you need to know.
+[12:40.080 --> 12:40.600]  Right?
+[12:40.600 --> 12:41.480]  Like, that's it.
+[12:41.480 --> 12:42.040]  OK.
+[12:42.040 --> 12:44.840]  How about r equals my own?
+[12:44.840 --> 12:46.280]  Like, scream there.
+[12:46.280 --> 12:49.040]  r equals minus 70.
+[12:52.560 --> 12:53.800]  Adeny.
+[12:53.800 --> 12:54.400]  Adeny?
+[12:54.400 --> 12:55.000]  Adeny.
+[12:55.000 --> 12:56.400]  Adeny, yes.
+[12:56.400 --> 12:57.840]  There's a negative coefficient.
+[12:57.840 --> 12:58.360]  Negative.
+[12:58.360 --> 12:59.720]  Why?
+[12:59.720 --> 13:01.800]  Well, the coefficient's negative.
+[13:01.800 --> 13:02.640]  Exactly.
+[13:02.640 --> 13:03.120]  Right?
+[13:03.120 --> 13:03.720]  It's negative.
+[13:03.720 --> 13:04.000]  OK.
+[13:04.000 --> 13:04.640]  So that's that.
+[13:04.640 --> 13:05.160]  So good.
+[13:05.160 --> 13:06.520]  We understand the direction.
+[13:06.600 --> 13:09.160]  Now let's look at the compactness.
+[13:09.160 --> 13:11.000]  Remember what I said, the strength.
+[13:11.000 --> 13:15.520]  It refers to how compact the numbers are.
+[13:15.520 --> 13:16.240]  OK?
+[13:16.240 --> 13:23.200]  So the more compact they are, the stronger it is.
+[13:23.200 --> 13:27.200]  The weaker it is, the less compact it is, the weaker it is.
+[13:27.200 --> 13:30.800]  So here is that strength of it.
+[13:30.800 --> 13:31.800]  What do you think?
+[13:34.800 --> 13:35.320]  Sweet.
+[13:35.320 --> 13:36.480]  This is all we're going to say.
+[13:36.480 --> 13:37.440]  No correlation.
+[13:37.440 --> 13:39.000]  Why would you even give?
+[13:39.000 --> 13:40.960]  How about with these two?
+[13:40.960 --> 13:42.080]  They're almost the same.
+[13:42.080 --> 13:42.560]  Yes?
+[13:42.560 --> 13:44.760]  Um, numbers.
+[13:44.760 --> 13:45.600]  Exactly.
+[13:45.600 --> 13:46.080]  Right?
+[13:46.080 --> 13:46.880]  That's it.
+[13:46.880 --> 13:48.640]  That's all you're going to need to know.
+[13:48.640 --> 13:50.000]  But there isn't a test.
+[13:50.000 --> 13:51.600]  On the test, there isn't a question
+[13:51.600 --> 13:53.440]  where it's asking you about the strength of it.
+[13:53.440 --> 13:54.080]  So you don't really need to.
+[13:54.080 --> 13:54.920]  It's so easy.
+[13:54.920 --> 13:56.960]  I did such a good job of dumbing it down for you,
+[13:56.960 --> 13:58.160]  but it's not on it.
+[13:58.160 --> 13:58.800]  OK?
+[13:58.800 --> 13:59.920]  But know that.
+[13:59.920 --> 14:00.640]  OK?
+[14:00.640 --> 14:01.880]  All right.
+[14:01.880 --> 14:02.600]  Good.
+[14:02.600 --> 14:08.480]  Now, let's talk about how the correlations should be.
+[14:08.480 --> 14:09.120]  OK?
+[14:09.120 --> 14:11.960]  So here are some correlations.
+[14:11.960 --> 14:14.480]  Height and weight.
+[14:14.480 --> 14:17.600]  Is it positively or negatively correlated?
+[14:17.600 --> 14:20.120]  r equals 0.44.
+[14:20.120 --> 14:20.840]  Positive.
+[14:20.840 --> 14:21.640]  OK.
+[14:21.640 --> 14:25.600]  Is it as close to plus 1?
+[14:25.600 --> 14:26.480]  No.
+[14:26.480 --> 14:28.960]  So is it a perfect one?
+[14:28.960 --> 14:29.960]  OK.
+[14:29.960 --> 14:33.480]  How about smoking and lung cancer within 25?
+[14:33.480 --> 14:36.840]  Is it positive or negative?
+[14:36.840 --> 14:38.080]  Positive.
+[14:38.080 --> 14:40.400]  Closer to 1?
+[14:40.400 --> 14:40.960]  No.
+[14:40.960 --> 14:42.000]  Right?
+[14:42.000 --> 14:43.040]  Closer to 0.1?
+[14:43.040 --> 14:43.320]  No.
+[14:43.320 --> 14:44.000]  OK.
+[14:44.000 --> 14:46.320]  So you're probably wondering, like, well, OK,
+[14:46.320 --> 14:48.920]  how do I go about assessing this?
+[14:48.920 --> 14:49.400]  Right?
+[14:49.400 --> 14:50.680]  Like, how do I deal with this?
+[14:50.680 --> 14:52.640]  So the general rule of thumb when
+[14:52.640 --> 14:56.000]  it comes to evaluating the size of correlation
+[14:56.040 --> 14:58.400]  is basically what's written on the slide.
+[14:58.400 --> 15:00.120]  OK?
+[15:00.120 --> 15:06.680]  To get a perfect 1, or to get a perfect minus 1,
+[15:06.680 --> 15:08.680]  is going to be so rare.
+[15:08.680 --> 15:10.720]  It's going to be very, very rare.
+[15:10.720 --> 15:13.400]  If you get something like that you see in a journal article,
+[15:13.400 --> 15:16.600]  you can for sure go and do some research
+[15:16.600 --> 15:18.720]  and find out if it's being fabricated or not.
+[15:18.720 --> 15:20.240]  OK?
+[15:20.240 --> 15:21.040]  For sure.
+[15:21.040 --> 15:22.240]  It's rare.
+[15:22.240 --> 15:24.520]  It's rare to get perfect 1 or minus 1.
+[15:24.520 --> 15:25.280]  Yes?
+[15:25.280 --> 15:27.400]  I was just wondering if there is anything
+[15:27.400 --> 15:29.880]  that is typically more complex.
+[15:29.880 --> 15:31.960]  There isn't, because there are other variables that
+[15:31.960 --> 15:32.760]  go into place.
+[15:32.760 --> 15:33.880]  So there isn't.
+[15:33.880 --> 15:34.560]  OK?
+[15:34.560 --> 15:35.880]  So what is our general rule?
+[15:35.880 --> 15:38.480]  As scholars, what is it that we do?
+[15:38.480 --> 15:43.640]  We say that if it's close to 0.50, right,
+[15:43.640 --> 15:45.280]  whether it's positive or negative,
+[15:45.280 --> 15:49.000]  it doesn't matter, it's considered to be strong.
+[15:49.000 --> 15:51.960]  0.30, considered to be moderate.
+[15:51.960 --> 15:54.840]  0.10, considered to be weak.
+[15:54.880 --> 15:56.960]  But there's still correlations, right?
+[15:56.960 --> 15:59.280]  There's still some association.
+[15:59.280 --> 16:03.240]  So even weak correlations will be there.
+[16:03.240 --> 16:06.600]  And they're actually very, I would say,
+[16:06.600 --> 16:10.240]  in the realm of OVHR, they are very important,
+[16:10.240 --> 16:12.040]  because they will, and you will learn this
+[16:12.040 --> 16:13.880]  as you take more courses, hopefully,
+[16:13.880 --> 16:16.040]  in this particular domain, that they
+[16:16.040 --> 16:19.560]  could lead to costly behaviors and important outcomes.
+[16:19.560 --> 16:20.360]  OK?
+[16:20.360 --> 16:25.840]  But anyway, so let's now talk about correlation
+[16:25.840 --> 16:27.440]  in a little bit more detail.
+[16:27.440 --> 16:28.080]  OK?
+[16:28.080 --> 16:30.160]  This I feel like you should definitely know.
+[16:30.160 --> 16:34.360]  So correlation only tells us if there is a relationship
+[16:34.360 --> 16:39.920]  or if there is an association between two variables.
+[16:39.920 --> 16:42.800]  It tells you the direction of that relationship.
+[16:42.800 --> 16:45.560]  It tells you the strength of that relationship.
+[16:45.560 --> 16:51.680]  What it doesn't tell us is why that association exists.
+[16:51.680 --> 16:57.880]  It does not tell us what causes what, what leads to what.
+[16:57.880 --> 17:01.560]  So correlation is not enough to prove causation.
+[17:05.160 --> 17:08.200]  So causation would be why does it exist
+[17:08.200 --> 17:11.440]  and what leads to what.
+[17:11.440 --> 17:15.160]  So making causal inferences requires
+[17:15.160 --> 17:18.320]  ruling out alternative explanations, which you cannot
+[17:18.320 --> 17:21.960]  do with a correlational design.
+[17:21.960 --> 17:23.760]  So what comes into play here?
+[17:23.760 --> 17:26.040]  Experimental designs.
+[17:26.040 --> 17:26.880]  OK?
+[17:26.880 --> 17:28.680]  They're used for that purpose.
+[17:28.680 --> 17:30.680]  What happens in an experiment?
+[17:30.680 --> 17:33.080]  Well, you'll learn about that in a week from today.
+[17:33.080 --> 17:36.680]  But what happens is you control things.
+[17:36.680 --> 17:37.440]  OK?
+[17:37.440 --> 17:40.200]  You control factors that could actually
+[17:40.200 --> 17:44.960]  create misleading correlations.
+[17:44.960 --> 17:46.200]  OK?
+[17:46.200 --> 17:48.600]  Let's take this as an example.
+[17:48.600 --> 17:52.680]  You attended class, right?
+[17:52.680 --> 17:54.360]  Getting a good grade.
+[17:54.360 --> 17:56.640]  But what are some other things that might result
+[17:56.640 --> 17:59.960]  in you getting a good grade?
+[17:59.960 --> 18:01.240]  Studying for more hours.
+[18:01.240 --> 18:02.440]  You study more hours.
+[18:02.440 --> 18:04.640]  So that would be a reason why, right?
+[18:04.640 --> 18:05.840]  What else?
+[18:05.840 --> 18:06.600]  Who else wants to?
+[18:06.600 --> 18:11.320]  You do the practice exams, right?
+[18:11.320 --> 18:13.040]  OK, good.
+[18:13.040 --> 18:14.240]  What else?
+[18:14.240 --> 18:15.840]  You're taking notes in the lectures?
+[18:15.840 --> 18:16.720]  You're taking notes.
+[18:16.720 --> 18:18.320]  So there are a couple of different things
+[18:18.320 --> 18:20.760]  that could go into place, right?
+[18:20.760 --> 18:23.760]  Here are some other things that might have an effect.
+[18:23.760 --> 18:24.680]  Maybe it's your race.
+[18:24.680 --> 18:27.400]  So there's research that indicate
+[18:27.400 --> 18:33.320]  that certain races are at a disadvantage for certain tests.
+[18:33.320 --> 18:36.200]  Cognitive ability tests, you see certain races
+[18:36.200 --> 18:38.120]  not doing well in them.
+[18:38.120 --> 18:40.680]  There's an ample research to indicate that.
+[18:40.680 --> 18:43.640]  So what I'm trying to say is that there are other factors
+[18:43.640 --> 18:46.200]  that will be going to affect, but they are not
+[18:46.200 --> 18:48.520]  measured at this stage.
+[18:48.520 --> 18:50.160]  Does that make sense?
+[18:50.160 --> 18:53.880]  So correlation does not equal causation.
+[18:53.880 --> 18:57.080]  And that is something you need to drill in your head.
+[18:57.080 --> 19:01.360]  Because that is the thing that is the key in the question
+[19:01.360 --> 19:03.320]  that I will ask you.
+[19:03.320 --> 19:04.240]  OK?
+[19:04.240 --> 19:04.840]  Good.
+[19:04.840 --> 19:05.480]  All right.
+[19:05.480 --> 19:10.440]  So experimental design comes into place.
+[19:10.440 --> 19:11.920]  I'm curious about this comment.
+[19:11.920 --> 19:15.120]  I don't want to spend too much.
+[19:15.120 --> 19:16.760]  Should I give you this example?
+[19:16.760 --> 19:19.440]  OK, let's give this correlational research
+[19:19.440 --> 19:20.760]  an example.
+[19:20.760 --> 19:23.240]  OK, so here's the hypothesis.
+[19:23.240 --> 19:25.720]  Employees who perceive their supervisors
+[19:25.720 --> 19:29.920]  as friendly and considerate will be more productive
+[19:29.920 --> 19:34.080]  than those who perceive their supervisors as unfriendly
+[19:34.080 --> 19:36.280]  and inconsiderate.
+[19:36.280 --> 19:37.000]  OK?
+[19:37.000 --> 19:38.960]  So how can you go about testing this?
+[19:38.960 --> 19:40.560]  Well, you can use a service.
+[19:40.560 --> 19:45.840]  You can just ask people to talk about their supervisor.
+[19:45.840 --> 19:46.840]  Are they friendly?
+[19:46.840 --> 19:48.520]  Are they considerate?
+[19:48.520 --> 19:51.600]  And then you can ask them how productive you
+[19:51.600 --> 19:53.320]  feel and all that stuff.
+[19:53.320 --> 19:54.680]  OK?
+[19:54.680 --> 19:57.520]  So what do we find?
+[19:57.520 --> 19:58.520]  OK?
+[19:58.520 --> 20:03.920]  We find that it is correlated.
+[20:03.920 --> 20:05.520]  Is it in a positive direction?
+[20:05.520 --> 20:06.520]  What are your thoughts?
+[20:06.520 --> 20:10.120]  It's planting upward, so it must be positive, right?
+[20:10.120 --> 20:11.600]  What is the strength?
+[20:11.600 --> 20:13.880]  Do you think this is a compact one?
+[20:13.880 --> 20:15.040]  Yes, right?
+[20:15.040 --> 20:15.680]  It is.
+[20:15.680 --> 20:16.440]  OK.
+[20:16.440 --> 20:18.360]  Good.
+[20:18.360 --> 20:21.960]  Now, based on what we know, right?
+[20:21.960 --> 20:24.440]  So there's a lot of correlations between the supervisor
+[20:24.440 --> 20:28.760]  being friendly, considerate, and worker productivity.
+[20:28.760 --> 20:31.600]  Based on this study, shouldn't an organization
+[20:31.600 --> 20:35.640]  attempt to select only the friendly supervisors
+[20:35.640 --> 20:38.560]  or train existing supervisors to be friendly to obtain
+[20:38.560 --> 20:39.600]  higher productivity?
+[20:39.600 --> 20:41.960]  What are your thoughts?
+[20:41.960 --> 20:42.480]  Yeah?
+[20:42.480 --> 20:44.120]  No, because there might be something
+[20:44.120 --> 20:46.360]  going on under the hood that we don't know about.
+[20:46.360 --> 20:46.880]  OK.
+[20:46.880 --> 20:48.320]  Maybe they have better training.
+[20:48.320 --> 20:48.880]  OK.
+[20:48.880 --> 20:51.160]  And that leads them to perform better at their job
+[20:51.160 --> 20:52.760]  instead of the supervisor being nice.
+[20:52.760 --> 20:53.320]  Good.
+[20:53.320 --> 20:53.800]  OK.
+[20:53.800 --> 20:54.800]  What is your name?
+[20:54.800 --> 20:55.440]  What's your name?
+[20:55.440 --> 20:55.960]  My name?
+[20:55.960 --> 20:56.880]  Eris.
+[20:56.880 --> 20:57.400]  Eris.
+[20:57.400 --> 20:57.960]  OK.
+[20:57.960 --> 20:58.440]  Good.
+[20:58.440 --> 21:00.520]  Anyone else have a point to add to that?
+[21:00.520 --> 21:02.680]  Or maybe it's a different explanation.
+[21:02.680 --> 21:05.600]  So maybe it's the training that they received.
+[21:05.600 --> 21:07.080]  You haven't participated yet.
+[21:07.080 --> 21:09.000]  Oh, yeah.
+[21:09.000 --> 21:11.400]  It was very similar to that.
+[21:11.400 --> 21:13.480]  No.
+[21:13.480 --> 21:14.360]  Should I just tell you?
+[21:14.360 --> 21:15.120]  Jaspreet.
+[21:15.120 --> 21:16.160]  Jaspreet.
+[21:16.160 --> 21:17.000]  Yeah.
+[21:17.000 --> 21:20.640]  So I mean, the friendly supervisors
+[21:20.640 --> 21:22.880]  exist because they had unfriendly supervisors
+[21:22.880 --> 21:23.960]  in the first place, maybe.
+[21:23.960 --> 21:24.960]  OK, sure.
+[21:24.960 --> 21:29.360]  Yeah, because maybe in the first place,
+[21:29.360 --> 21:31.000]  they experience the unfriendly supervisor.
+[21:31.000 --> 21:33.240]  That's why they're like, oh, let me just be friendly.
+[21:33.240 --> 21:35.200]  Yeah, so they might make a conscious effort
+[21:35.200 --> 21:38.000]  to be friendly just because of their past experiences.
+[21:38.000 --> 21:39.760]  OK, sure.
+[21:39.760 --> 21:40.400]  All right.
+[21:40.400 --> 21:42.880]  OK.
+[21:42.880 --> 21:43.880]  All right, go on.
+[21:43.880 --> 21:46.000]  So the way that the study was conducted,
+[21:46.000 --> 21:47.000]  Jaspreet started that.
+[21:47.000 --> 21:50.480]  And so the employees could have maybe influenced them a lot.
+[21:50.480 --> 21:51.880]  Exactly, right?
+[21:51.880 --> 21:56.120]  The employees, maybe they responded in such a way
+[21:56.120 --> 22:02.080]  where it was not fabricated, but they exaggerated, right?
+[22:02.080 --> 22:03.960]  Because maybe, who knows?
+[22:03.960 --> 22:05.920]  They felt like their supervisor might be it,
+[22:05.920 --> 22:07.120]  or whatever the case may be.
+[22:07.120 --> 22:08.920]  OK, sure.
+[22:08.920 --> 22:11.760]  If it's not a clear definition of what
+[22:11.760 --> 22:14.440]  it means to be friendly, they might become too lenient.
+[22:14.440 --> 22:16.880]  And they might drop productivity because they'll be like, oh,
+[22:16.880 --> 22:17.360]  do whatever.
+[22:17.360 --> 22:18.360]  Exactly, right?
+[22:18.360 --> 22:19.680]  So again, it comes down.
+[22:19.680 --> 22:21.600]  So as you can see, there's several.
+[22:21.600 --> 22:25.000]  We can say this with affirmation.
+[22:25.000 --> 22:31.760]  Yes, friendly supervisors will lead to productive workers.
+[22:31.760 --> 22:33.080]  We simply can't.
+[22:33.080 --> 22:36.040]  So that's where causation comes in.
+[22:36.040 --> 22:36.760]  OK?
+[22:36.760 --> 22:39.960]  So here, we cannot infer causation.
+[22:39.960 --> 22:43.240]  We know they're associated, but there are other factors
+[22:43.240 --> 22:46.440]  that might be playing, right?
+[22:46.440 --> 22:51.160]  So the answer to that question is basically no.
+[22:51.160 --> 22:51.680]  Why?
+[22:51.680 --> 22:54.040]  Because the relationship is correlational,
+[22:54.040 --> 22:57.320]  is not causal.
+[22:57.320 --> 23:01.720]  Supervisors might be friendly if their employees are productive.
+[23:01.720 --> 23:03.760]  We didn't consider that, right?
+[23:03.760 --> 23:08.080]  So if all of you get A's in my class,
+[23:08.080 --> 23:11.000]  I might be friendly as a result because of that.
+[23:11.000 --> 23:12.520]  So it might be the other way around.
+[23:12.520 --> 23:14.200]  Does that make sense?
+[23:14.200 --> 23:15.400]  Yeah.
+[23:15.400 --> 23:19.120]  So this is where a third variable problem comes in,
+[23:19.120 --> 23:22.480]  meaning that there might be other factors explaining
+[23:22.480 --> 23:25.720]  that relationship.
+[23:25.720 --> 23:27.280]  So here is one.
+[23:27.280 --> 23:31.520]  It could be positive work environment.
+[23:31.520 --> 23:33.040]  It could be that.
+[23:33.040 --> 23:34.600]  It could be a number of other things
+[23:34.600 --> 23:36.760]  that you've already discussed.
+[23:36.760 --> 23:38.760]  OK?
+[23:38.760 --> 23:41.720]  So that's what you see in red is very important.
+[23:41.720 --> 23:45.280]  Correlation does not mean causation.
+[23:45.280 --> 23:50.720]  So how can we find out which factors cause these behaviors?
+[23:50.800 --> 23:53.000]  Well, this is where the experimental design
+[23:53.000 --> 23:54.800]  comes into play.
+[23:54.800 --> 23:55.960]  OK?
+[23:55.960 --> 23:58.200]  So what happens in an experiment?
+[23:58.200 --> 24:03.200]  An experiment is like a test where it's a trial.
+[24:03.200 --> 24:03.960]  OK?
+[24:03.960 --> 24:06.480]  What we're doing is we want to see what
+[24:06.480 --> 24:09.960]  happens when we change something.
+[24:09.960 --> 24:10.800]  OK?
+[24:10.800 --> 24:14.280]  So imagine that you're baking cookies.
+[24:14.280 --> 24:15.240]  OK?
+[24:15.240 --> 24:19.440]  And you want to know if adding more sugar
+[24:19.440 --> 24:20.720]  will make them taste better.
+[24:24.240 --> 24:26.600]  So basically what you would do is this.
+[24:26.600 --> 24:30.560]  You would bake two batches of cookies.
+[24:30.560 --> 24:31.800]  Right?
+[24:31.800 --> 24:35.880]  In one would be the usual amount of sugar.
+[24:35.880 --> 24:40.600]  And in the other one, you added extra sugar.
+[24:40.600 --> 24:45.160]  Then you would taste both, and you'd compare.
+[24:45.160 --> 24:45.840]  OK?
+[24:45.840 --> 24:48.240]  That's an experiment right there.
+[24:48.240 --> 24:50.640]  Does that make sense?
+[24:50.640 --> 24:53.680]  So we have two conditions basically, two or more
+[24:53.680 --> 24:57.560]  conditions, where we have changed the thing
+[24:57.560 --> 24:58.840]  to see if it leads to it.
+[25:01.880 --> 25:02.480]  OK?
+[25:02.480 --> 25:06.800]  So in science or organizational studies, it's the same thing.
+[25:06.800 --> 25:08.680]  We change one thing.
+[25:08.680 --> 25:10.360]  This is called a variable.
+[25:10.360 --> 25:11.160]  Right?
+[25:11.160 --> 25:14.320]  We keep everything else the same.
+[25:14.320 --> 25:16.960]  And then we see what happens.
+[25:16.960 --> 25:17.920]  OK?
+[25:17.960 --> 25:20.880]  We see if that change will make a difference.
+[25:20.880 --> 25:22.600]  Will it lead to a different outcome?
+[25:26.440 --> 25:29.800]  And this helps us figure out what causes what.
+[25:29.800 --> 25:32.120]  Does that make sense?
+[25:32.120 --> 25:33.640]  OK.
+[25:33.640 --> 25:38.080]  So let's go back to that hypothesis of ours.
+[25:38.080 --> 25:42.120]  Friendly supervision contributes to employee product.
+[25:42.120 --> 25:42.880]  OK?
+[25:42.880 --> 25:47.880]  So we want to find out if being supervised in a friendly way
+[25:47.880 --> 25:51.320]  helps our employees work better, maybe become better
+[25:51.320 --> 25:54.240]  productive, or be more productive.
+[25:54.240 --> 25:54.880]  OK?
+[25:54.880 --> 25:59.040]  So to test our hypothesis, which is basically
+[25:59.040 --> 26:00.720]  like it said on the previous slide,
+[26:00.720 --> 26:04.320]  friendly supervision contributes to employee productivity,
+[26:04.320 --> 26:05.640]  we manipulate.
+[26:05.640 --> 26:06.920]  That's a key thing here.
+[26:06.920 --> 26:14.160]  We manipulate, or we change the level of friendliness
+[26:14.160 --> 26:16.240]  in some supervisors.
+[26:16.240 --> 26:16.880]  OK?
+[26:16.880 --> 26:21.400]  So how might we be able to do that?
+[26:21.400 --> 26:27.800]  Well, you could teach some supervisors to be considerate.
+[26:27.800 --> 26:29.800]  You can teach them to be encouraging.
+[26:29.800 --> 26:31.880]  You can teach them to be personable.
+[26:31.880 --> 26:33.800]  It depends on your definition of friendliness,
+[26:33.800 --> 26:36.080]  how you've defined it friendly.
+[26:36.080 --> 26:38.200]  But you can teach some people to do that.
+[26:41.760 --> 26:44.440]  And in the other condition, what you could do
+[26:44.440 --> 26:48.480]  is you could just not teach them anything,
+[26:48.480 --> 26:51.880]  or teach them the complete opposite.
+[26:51.880 --> 26:55.600]  Teach them to be inconsiderate, not encouraging, not
+[26:55.600 --> 26:57.440]  personable.
+[26:57.440 --> 26:58.400]  OK?
+[26:58.400 --> 27:02.880]  So then what we're going to do is there is a manipulation.
+[27:02.880 --> 27:03.680]  There's a change.
+[27:03.680 --> 27:07.840]  And we observe whether these employees become more productive.
+[27:08.840 --> 27:12.040]  Compared to those who either didn't receive the training
+[27:12.040 --> 27:14.520]  or who received the training in the opposite direction.
+[27:14.520 --> 27:16.320]  Does that make sense?
+[27:16.320 --> 27:21.360]  So that's the key thing with experimental design.
+[27:21.360 --> 27:26.800]  Experimental design, you're manipulating something.
+[27:26.800 --> 27:27.800]  OK?
+[27:27.800 --> 27:30.760]  So if you want to test for something, your IV,
+[27:30.760 --> 27:35.400]  you have two conditions to test your IV.
+[27:36.000 --> 27:36.880]  To test your IV.
+[27:39.600 --> 27:40.080]  OK?
+[27:40.080 --> 27:41.720]  In one condition, you're actually
+[27:41.720 --> 27:43.160]  doing what you want to set out.
+[27:43.160 --> 27:45.640]  Like, if in this case it's friendly supervisor,
+[27:45.640 --> 27:47.600]  train them to be friendly supervisor.
+[27:47.600 --> 27:49.200]  And then in the other condition, you're
+[27:49.200 --> 27:51.840]  doing the complete opposite, or they receive no training
+[27:51.840 --> 27:54.360]  whatsoever.
+[27:54.360 --> 27:58.360]  Usually, the best way is to give no training.
+[27:58.360 --> 27:59.440]  Makes sense?
+[27:59.440 --> 28:02.160]  And then you just see who's more productive.
+[28:02.160 --> 28:07.840]  Is it those employees who receive the friendly training,
+[28:07.840 --> 28:13.080]  or is it those who receive no training?
+[28:13.080 --> 28:14.680]  Make sense?
+[28:14.680 --> 28:16.440]  OK.
+[28:16.440 --> 28:19.840]  So that's basically how you would go about doing this.
+[28:23.360 --> 28:26.320]  Now, what is this particular graph showing you?
+[28:27.320 --> 28:27.800]  OK.
+[28:31.280 --> 28:33.280]  One of the questions that's often asked
+[28:33.280 --> 28:37.200]  is, like, the friendly training, does it actually work?
+[28:37.200 --> 28:37.920]  Right?
+[28:37.920 --> 28:43.000]  Can we now confidently say that friendly supervisors lead
+[28:43.000 --> 28:46.680]  to more productive employees?
+[28:46.680 --> 28:50.880]  And it's not always necessarily the case.
+[28:50.880 --> 28:52.480]  OK?
+[28:52.480 --> 28:55.800]  Even if we see an increase in productivity,
+[28:55.800 --> 28:59.520]  we can't be 100% sure that it was because
+[28:59.520 --> 29:02.840]  of the friendly training.
+[29:02.840 --> 29:07.440]  Maybe something else changed at the same time.
+[29:07.440 --> 29:09.880]  Like, maybe new equipment was introduced,
+[29:09.880 --> 29:14.800]  or maybe it was that the employees became more motivated,
+[29:14.800 --> 29:18.200]  or maybe they're stressed because of, I don't know,
+[29:18.200 --> 29:20.080]  maybe there are rumors of layoff.
+[29:20.080 --> 29:21.400]  Who knows, right?
+[29:21.400 --> 29:26.720]  So these are all called confounding errors.
+[29:26.720 --> 29:30.240]  These are outside factors that might have influenced
+[29:30.240 --> 29:34.720]  the result without us realizing it.
+[29:34.720 --> 29:35.920]  OK?
+[29:35.920 --> 29:40.960]  And so to control for that, we have a control group.
+[29:40.960 --> 29:42.920]  What's a control group?
+[29:42.920 --> 29:45.920]  Well, it's basically what I had described to you before.
+[29:45.920 --> 29:49.000]  It's a group that was not exposed
+[29:49.000 --> 29:53.680]  to the experimental treatment at all.
+[29:53.680 --> 29:54.160]  OK?
+[29:54.160 --> 29:56.200]  So in this case, it would be supervisors
+[29:56.200 --> 29:58.200]  who didn't receive any sort of training.
+[30:03.200 --> 30:05.280]  So why is this important?
+[30:05.280 --> 30:10.280]  Why is it important to include a control group?
+[30:10.280 --> 30:12.880]  It's important because in good experiment,
+[30:12.880 --> 30:17.720]  we want to be confident that it's the treatment and just
+[30:17.720 --> 30:19.920]  the treatment that caused the effect.
+[30:24.320 --> 30:24.840]  OK?
+[30:24.840 --> 30:26.840]  So that's why in a control group,
+[30:26.840 --> 30:29.600]  we want everything to be the same, right?
+[30:29.600 --> 30:33.280]  Like, we want the supervisors to be similar in age.
+[30:33.280 --> 30:35.480]  We want them to have similar background.
+[30:35.480 --> 30:39.280]  We want them to have similar experience.
+[30:39.280 --> 30:41.560]  The only thing that should differ
+[30:41.560 --> 30:44.240]  is the training that they received in one condition
+[30:44.240 --> 30:45.640]  and in the other that they didn't.
+[30:45.640 --> 30:49.760]  Because then you can say it with affirmation that, yes,
+[30:49.760 --> 30:52.200]  it was the treatment that caused the effect.
+[30:52.200 --> 30:54.320]  Does that make sense?
+[30:54.320 --> 30:56.160]  So all else equal.
+[30:56.160 --> 30:57.960]  That's why it led to that.
+[30:57.960 --> 30:59.760]  So do we understand the difference
+[30:59.760 --> 31:03.320]  between correlation and experimental?
+[31:03.320 --> 31:07.480]  And do we understand how an experiment is conducted?
+[31:07.480 --> 31:08.160]  Yes?
+[31:08.160 --> 31:11.040]  Can I pick on someone to teach us how it stands?
+[31:11.040 --> 31:12.680]  Because this is very important.
+[31:12.680 --> 31:15.040]  So I want to, like, can I pick on someone?
+[31:15.040 --> 31:16.360]  Who wants to volunteer?
+[31:16.360 --> 31:16.840]  Yes, Simon?
+[31:20.000 --> 31:23.200]  Basically, to conduct an experiment,
+[31:23.200 --> 31:27.280]  you need a bunch of variables in one control group.
+[31:27.280 --> 31:29.080]  Basically, what you want to do is
+[31:29.080 --> 31:31.760]  you want to make sure that your environment is controlled.
+[31:31.760 --> 31:32.480]  OK.
+[31:32.480 --> 31:35.480]  Everything within the environment is the same.
+[31:35.480 --> 31:37.120]  You have one thing to change.
+[31:37.120 --> 31:37.600]  OK.
+[31:37.600 --> 31:40.920]  So in the control group, you have a set base.
+[31:40.920 --> 31:41.520]  Yes.
+[31:41.520 --> 31:43.880]  And then in every other group, you change that base.
+[31:43.880 --> 31:44.840]  OK.
+[31:44.840 --> 31:45.340]  Good.
+[31:45.340 --> 31:48.320]  And then you check the results of each group.
+[31:48.320 --> 31:48.800]  Good.
+[31:48.800 --> 31:49.280]  OK.
+[31:49.280 --> 31:53.120]  But it won't be, on a test, it won't be like so many groups.
+[31:53.120 --> 31:56.360]  It would just probably be like, just focus on this.
+[31:56.360 --> 31:58.920]  There's two conditions, right?
+[31:58.920 --> 32:01.680]  In one, you're manipulating.
+[32:01.680 --> 32:03.720]  And in the other is a control.
+[32:03.720 --> 32:04.200]  OK.
+[32:04.200 --> 32:06.360]  And then what you explain is correct.
+[32:06.360 --> 32:06.960]  OK.
+[32:06.960 --> 32:09.880]  So in the control, you keep everything,
+[32:09.880 --> 32:11.640]  basically everything stays the same.
+[32:11.640 --> 32:13.120]  Everything stays the same.
+[32:13.120 --> 32:15.800]  But in that one experimental treatment,
+[32:15.800 --> 32:18.240]  you make that change that you're interested in.
+[32:18.240 --> 32:21.280]  And then you look at the outcome.
+[32:21.280 --> 32:22.760]  Make sense?
+[32:22.760 --> 32:23.260]  OK.
+[32:25.800 --> 32:26.320]  All right.
+[32:26.320 --> 32:26.820]  Sorry.
+[32:26.820 --> 32:28.280]  I already spoke about that.
+[32:28.280 --> 32:28.780]  That's great.
+[32:28.780 --> 32:29.280]  OK.
+[32:29.280 --> 32:29.880]  Whatever.
+[32:29.880 --> 32:30.380]  All right.
+[32:30.380 --> 32:37.360]  Now let's talk about evaluating the quality of OB research.
+[32:37.360 --> 32:39.040]  OK.
+[32:39.040 --> 32:41.360]  The extent to which we don't actually
+[32:41.360 --> 32:42.320]  provide the definition.
+[32:42.320 --> 32:42.820]  Oh, I said it.
+[32:42.820 --> 32:43.320]  Great.
+[32:43.320 --> 32:43.820]  OK.
+[32:43.820 --> 32:44.320]  Great.
+[32:44.320 --> 32:44.820]  There we go.
+[32:44.820 --> 32:45.320]  All right.
+[32:45.320 --> 32:48.040]  The extent to which a researcher can
+[32:48.040 --> 32:52.560]  be confident that changes in a dependent variable
+[32:52.560 --> 32:56.000]  are due to the independent variable,
+[32:56.000 --> 33:01.240]  and not by anything else, is known as internal validity.
+[33:01.240 --> 33:03.040]  OK.
+[33:03.040 --> 33:05.880]  In other words, what we're doing is we're actually
+[33:05.880 --> 33:09.200]  asking ourselves, did the treatment really
+[33:09.200 --> 33:12.040]  cause the effect?
+[33:12.040 --> 33:13.040]  OK.
+[33:13.040 --> 33:17.240]  And experiments usually tend to have higher internal validity.
+[33:17.240 --> 33:18.560]  Why is that?
+[33:18.560 --> 33:21.520]  Because the IV, the independent variable,
+[33:21.520 --> 33:24.200]  is manipulated by the researcher.
+[33:24.200 --> 33:25.160]  Right?
+[33:25.160 --> 33:29.240]  There is strong control over other variables.
+[33:29.240 --> 33:33.160]  And this is often, there is often a control group
+[33:33.160 --> 33:35.120]  of comparison.
+[33:35.120 --> 33:37.360]  OK.
+[33:37.360 --> 33:41.040]  So this kind of setup, the experimental setup, what it
+[33:41.040 --> 33:45.720]  does is it helps eliminate any of the confounding variables.
+[33:45.720 --> 33:46.200]  OK.
+[33:46.200 --> 33:48.600]  Other things that could have caused the outcome.
+[33:52.080 --> 33:56.440]  We can be quite confident that the cause-effect relationship
+[33:56.440 --> 33:58.880]  is real.
+[33:58.880 --> 34:01.640]  So internal validity is really having
+[34:01.640 --> 34:03.920]  to do with the experimental stuff.
+[34:03.920 --> 34:06.640]  Did the treatment cause the effect?
+[34:06.640 --> 34:07.640]  OK.
+[34:07.640 --> 34:11.040]  The other one is known as external validity.
+[34:11.040 --> 34:14.040]  External validity is all about whether the results
+[34:14.040 --> 34:17.560]  of the study can be generalized or can
+[34:17.560 --> 34:20.280]  be applied to the real world.
+[34:20.280 --> 34:21.360]  OK.
+[34:21.360 --> 34:25.120]  Real world, that means like other people, places, or times
+[34:25.120 --> 34:28.040]  outside of the study.
+[34:28.040 --> 34:30.040]  So basically, can we generalize these?
+[34:30.040 --> 34:35.040]  And here's the thing.
+[34:35.040 --> 34:38.440]  Correlational designs usually tend
+[34:38.440 --> 34:45.320]  to have higher external validity and lower internal validity.
+[34:45.320 --> 34:46.880]  Why?
+[34:46.880 --> 34:57.600]  Why is it that correlations have higher external validity,
+[34:57.600 --> 34:59.520]  lower internal validity?
+[34:59.520 --> 35:01.520]  Well, there's a couple of different reasons.
+[35:01.520 --> 35:05.920]  First, correlational, usually a survey or an interview
+[35:05.920 --> 35:07.720]  that we've given to people.
+[35:07.720 --> 35:14.240]  So they're often based on real world observations or surveys.
+[35:14.240 --> 35:19.000]  They include naturally occurring variables,
+[35:19.000 --> 35:20.160]  not manipulated ones.
+[35:23.760 --> 35:28.320]  But having said that, since we can't really
+[35:28.320 --> 35:31.080]  control or even randomly assign, which
+[35:31.080 --> 35:32.920]  I'll talk about in a few minutes,
+[35:32.920 --> 35:36.320]  we can't be sure what's causing what.
+[35:36.320 --> 35:37.920]  OK?
+[35:37.920 --> 35:40.600]  So does that make sense?
+[35:40.600 --> 35:41.080]  Yes?
+[35:41.080 --> 35:41.560]  No?
+[35:44.920 --> 35:45.680]  All right.
+[35:45.680 --> 35:50.040]  So in experiments, if there is no control group,
+[35:50.040 --> 35:53.960]  internal validity would be low.
+[35:53.960 --> 35:54.440]  Why?
+[35:54.440 --> 35:59.000]  Because other factors might be explaining
+[35:59.000 --> 36:01.960]  the dependent variable changes.
+[36:01.960 --> 36:05.480]  In our case, it might be productivity.
+[36:05.480 --> 36:07.880]  So what might these factors be?
+[36:07.880 --> 36:09.440]  We've already discussed some.
+[36:09.440 --> 36:13.360]  But maybe it's the selection of participants.
+[36:13.360 --> 36:15.640]  So when participants, when they're
+[36:15.640 --> 36:18.200]  selected for an experimental group,
+[36:18.200 --> 36:21.480]  maybe they differ from those who are in the control group
+[36:21.480 --> 36:23.440]  in some form or another.
+[36:23.440 --> 36:25.760]  Maybe, I don't know.
+[36:25.760 --> 36:27.560]  It could be a number of different things
+[36:27.560 --> 36:32.040]  that could influence the experiment itself.
+[36:32.040 --> 36:34.320]  Maybe it's the testing itself.
+[36:34.320 --> 36:36.920]  Maybe the process of completing a survey
+[36:36.920 --> 36:40.760]  and answering questions at the start of an experiment
+[36:40.760 --> 36:45.920]  might sensitize participants to the study.
+[36:45.920 --> 36:47.760]  It might influence how they respond
+[36:47.760 --> 36:51.760]  to the questions after the experiment.
+[36:51.760 --> 36:55.920]  So all in all, there might be a number of different factors
+[36:55.920 --> 36:57.600]  that can go into it.
+[36:57.600 --> 36:59.040]  And in order to address, in order
+[36:59.040 --> 37:03.400]  to overcome the explanation of those different factors,
+[37:03.400 --> 37:06.160]  we need to have a control group.
+[37:06.160 --> 37:07.120]  Does that make sense?
+[37:09.680 --> 37:10.200]  All right.
+[37:10.200 --> 37:15.400]  So I already mentioned, here are some that you can make note of.
+[37:15.400 --> 37:17.400]  OK, so we talked about that already.
+[37:17.400 --> 37:19.320]  Let's talk about random sampling.
+[37:19.360 --> 37:23.960]  So experimental studies use random sampling.
+[37:23.960 --> 37:27.200]  In a well-designed experimental study,
+[37:27.200 --> 37:32.000]  researchers often start with random sampling.
+[37:32.000 --> 37:35.800]  So what this means is that they randomly
+[37:35.800 --> 37:41.720]  choose participants from a larger population of interest.
+[37:41.720 --> 37:43.480]  So by doing so, you're making sure
+[37:43.480 --> 37:47.480]  that your sample is representative of the population
+[37:47.640 --> 37:51.360]  that you're interested in, so that your results can
+[37:51.360 --> 37:55.960]  be generalized beyond your own study.
+[37:55.960 --> 37:59.520]  And of course, then, this will lead to external validity,
+[37:59.520 --> 38:00.920]  which is, remember what it is.
+[38:00.920 --> 38:05.200]  It's the ability to apply the findings to the real world.
+[38:11.440 --> 38:16.200]  So in an experiment, how might random,
+[38:16.560 --> 38:18.400]  so that's random sampling.
+[38:18.400 --> 38:23.400]  So say I'm interested in university students.
+[38:23.400 --> 38:26.880]  I'm interested in the same thing, my hypothesis,
+[38:26.880 --> 38:31.680]  which would be, the more they attend class, the more likely
+[38:31.680 --> 38:39.400]  they are to get an A on their test.
+[38:39.400 --> 38:41.680]  So random sampling would be what?
+[38:41.680 --> 38:44.000]  Which population should I be looking at, first of all?
+[38:46.200 --> 38:47.200]  Students.
+[38:47.200 --> 38:50.360]  Does it have to be from loop or Laurier?
+[38:50.360 --> 38:53.200]  Doesn't have to be, but it can be,
+[38:53.200 --> 38:55.400]  because you're students, much like every other.
+[38:55.400 --> 38:57.160]  Should it be at the undergraduate level
+[38:57.160 --> 38:58.880]  or master's level?
+[38:58.880 --> 39:00.160]  What are your thoughts there?
+[39:05.640 --> 39:07.560]  It depends on what I'm looking at.
+[39:07.560 --> 39:09.560]  So if I'm saying undergrad, I should only
+[39:09.560 --> 39:11.440]  be focusing my attention on undergrad, right?
+[39:11.440 --> 39:13.880]  So it needs to be a little bit more specific.
+[39:13.880 --> 39:15.880]  But that's what random sampling is,
+[39:15.880 --> 39:18.040]  is to make sure you know your population
+[39:18.040 --> 39:22.080]  and then to randomly select one.
+[39:22.080 --> 39:26.960]  So I could send out a survey to almost all the universities
+[39:26.960 --> 39:30.760]  and be like, I'm looking for second year
+[39:30.760 --> 39:35.320]  organizational behavior students to complete my survey.
+[39:35.320 --> 39:36.400]  That's it.
+[39:36.400 --> 39:38.680]  That's random sampling.
+[39:38.680 --> 39:44.200]  What happens after random sampling is random assignment.
+[39:44.200 --> 39:46.040]  I don't think I mentioned that on this slide.
+[39:46.040 --> 39:46.520]  No, I didn't.
+[39:46.520 --> 39:47.760]  So note this down.
+[39:47.760 --> 39:51.600]  So what happens is random assignment.
+[39:51.600 --> 39:56.000]  So once you have selected your sample,
+[39:56.000 --> 40:00.520]  the next important step is to randomly assign
+[40:00.520 --> 40:04.520]  the participants to the groups.
+[40:04.520 --> 40:07.160]  So you're randomly assigning them to the different groups.
+[40:07.160 --> 40:08.880]  What are the two different groups?
+[40:08.880 --> 40:13.200]  What are they called in an experiment?
+[40:13.200 --> 40:14.400]  One is the?
+[40:14.400 --> 40:14.880]  Control.
+[40:14.880 --> 40:16.000]  Control.
+[40:16.000 --> 40:16.920]  Control, good.
+[40:16.920 --> 40:18.400]  The other one would be?
+[40:18.400 --> 40:20.520]  Experimental.
+[40:20.520 --> 40:24.800]  Experimental, treatments, manipulation, any of those.
+[40:24.800 --> 40:25.840]  Any of those names.
+[40:25.840 --> 40:27.520]  OK, makes sense?
+[40:27.520 --> 40:28.720]  OK, good.
+[40:28.720 --> 40:30.480]  So you randomly assign them.
+[40:35.040 --> 40:38.200]  So remember, the experimental, manipulation, the treatment
+[40:38.200 --> 40:42.120]  group, it receives the manipulation,
+[40:42.120 --> 40:44.160]  the intervention.
+[40:44.160 --> 40:47.160]  The control group does not receive it.
+[40:47.160 --> 40:50.080]  So let me tell you what that means.
+[40:50.080 --> 40:51.880]  So random assignment.
+[40:51.880 --> 40:55.840]  So I now have conducted an experiment.
+[40:55.840 --> 40:57.960]  This is my random class.
+[40:57.960 --> 40:59.120]  It's a conflict of interest.
+[40:59.120 --> 41:00.200]  But whatever.
+[41:00.200 --> 41:02.800]  So this is my class.
+[41:02.800 --> 41:05.480]  Randomly sampling this particular class.
+[41:05.480 --> 41:09.240]  I want to see if you coming in for every class
+[41:09.240 --> 41:13.880]  will result in a greater grade.
+[41:13.880 --> 41:15.320]  That's my hypothesis.
+[41:15.320 --> 41:17.960]  The more you attend class, the better your grade
+[41:17.960 --> 41:19.920]  would be in the test.
+[41:19.920 --> 41:21.760]  So how would I go about testing this?
+[41:21.760 --> 41:23.440]  How about someone take a stab at this?
+[41:23.440 --> 41:27.200]  Tell me how you would do this in an experimental class.
+[41:27.200 --> 41:28.360]  Yes.
+[41:28.360 --> 41:31.840]  I mean, for the control group, you could just let them be.
+[41:31.840 --> 41:34.560]  And for the experimental group, we
+[41:34.560 --> 41:36.560]  could offer them an incentive.
+[41:36.560 --> 41:38.960]  Maybe give them a bonus mark for coming to class.
+[41:38.960 --> 41:40.240]  Or like, you know.
+[41:40.240 --> 41:40.840]  Yeah.
+[41:40.840 --> 41:41.880]  You don't have to do that.
+[41:41.880 --> 41:42.560]  It's a very safe.
+[41:42.560 --> 41:43.200]  But you're good.
+[41:43.200 --> 41:43.680]  OK.
+[41:43.680 --> 41:46.560]  So the control group, let them be.
+[41:46.560 --> 41:47.400]  Who wants to come?
+[41:47.400 --> 41:48.280]  Who doesn't?
+[41:48.280 --> 41:50.920]  For the other one, you make it mandatory for them
+[41:50.920 --> 41:52.520]  to come to every class.
+[41:52.520 --> 41:55.800]  It doesn't have to be associated with a bonus or anything.
+[41:55.800 --> 41:58.320]  Do you see the difference between the two?
+[41:58.320 --> 41:59.640]  Control is good.
+[41:59.640 --> 42:00.920]  Let them be.
+[42:00.920 --> 42:02.440]  Some people will show up for class.
+[42:02.440 --> 42:03.840]  Some won't.
+[42:03.840 --> 42:04.680]  It depends.
+[42:04.680 --> 42:06.040]  Who cares?
+[42:06.040 --> 42:08.360]  Other ones, you say to them, you need
+[42:08.360 --> 42:10.120]  to show up for every class.
+[42:10.120 --> 42:11.080]  So good.
+[42:11.080 --> 42:12.960]  So we have an experimental group,
+[42:12.960 --> 42:14.960]  which is like, come up for every class.
+[42:14.960 --> 42:16.160]  And then we have a control.
+[42:16.160 --> 42:18.480]  What would be my D.V.?
+[42:18.480 --> 42:19.400]  What would be my D.V.?
+[42:19.400 --> 42:21.600]  What is the outcome that I'm interested in?
+[42:21.600 --> 42:22.240]  Yes, Aaron.
+[42:22.240 --> 42:23.040]  The grade in the course.
+[42:23.040 --> 42:24.720]  The grade in the course on the midterm.
+[42:24.720 --> 42:25.200]  Right?
+[42:25.200 --> 42:26.200]  OK, good.
+[42:26.200 --> 42:26.720]  All right.
+[42:26.720 --> 42:27.200]  So good.
+[42:27.200 --> 42:31.920]  So we now have an experimental design put into place.
+[42:31.920 --> 42:35.560]  So I randomly sampled this group for you.
+[42:35.560 --> 42:37.120]  It's a random sample.
+[42:37.120 --> 42:40.680]  Why I'm saying it's random sampling
+[42:40.680 --> 42:45.120]  is because you are representative of all the second year
+[42:45.120 --> 42:48.440]  OB students in Canada.
+[42:48.440 --> 42:49.440]  OK?
+[42:49.440 --> 42:50.960]  So that's random sampling.
+[42:50.960 --> 42:53.000]  So now I have an experimental design.
+[42:53.000 --> 42:55.280]  I have you come into the lab.
+[42:55.280 --> 42:56.640]  Right?
+[42:56.640 --> 42:58.480]  Now random assignment happens.
+[42:58.480 --> 43:00.200]  So what does that mean?
+[43:00.200 --> 43:01.480]  What does that mean?
+[43:01.480 --> 43:02.400]  Yes, Aaron.
+[43:02.400 --> 43:04.320]  Oh, specific people go into the lab?
+[43:04.320 --> 43:06.280]  Yeah, but it's randomly done.
+[43:07.080 --> 43:08.200]  What was your name, Aaron?
+[43:08.200 --> 43:08.720]  Andrew.
+[43:08.720 --> 43:09.400]  Andrew.
+[43:09.400 --> 43:09.920]  OK.
+[43:09.920 --> 43:11.280]  So Andrew's right.
+[43:11.280 --> 43:14.280]  Specific people go into different groups.
+[43:14.280 --> 43:15.840]  But how might that be?
+[43:15.840 --> 43:17.680]  Maybe it's a draw.
+[43:17.680 --> 43:19.400]  Maybe it's from a hat.
+[43:19.400 --> 43:20.200]  Right?
+[43:20.200 --> 43:21.440]  So Andrew comes in.
+[43:21.440 --> 43:22.400]  Here's a hat.
+[43:22.400 --> 43:24.040]  One says this condition.
+[43:24.040 --> 43:25.800]  The other one says this condition.
+[43:25.800 --> 43:27.640]  And that's how he's assigned.
+[43:27.640 --> 43:31.280]  Or maybe I randomly assign you using a computer.
+[43:31.280 --> 43:32.680]  Sort of like how I did the groups.
+[43:32.680 --> 43:33.000]  Right?
+[43:33.000 --> 43:35.160]  That was randomly assigning you to the groups.
+[43:35.160 --> 43:36.200]  You don't know each other.
+[43:36.200 --> 43:37.840]  I'm just like, here's the computer.
+[43:37.840 --> 43:39.160]  Put them into groups.
+[43:39.160 --> 43:40.920]  Same thing here.
+[43:40.920 --> 43:42.040]  Makes sense?
+[43:42.040 --> 43:43.280]  So do we understand that?
+[43:43.280 --> 43:45.600]  Do we understand random assignment?
+[43:45.600 --> 43:46.400]  Good.
+[43:46.400 --> 43:47.440]  OK.
+[43:47.440 --> 43:49.280]  So random assignment, what it does
+[43:49.280 --> 43:52.880]  is it strengthens internal validity.
+[43:52.880 --> 43:53.600]  OK?
+[43:53.600 --> 43:58.200]  It helps make sure that the differences in the outcomes
+[43:58.200 --> 44:01.480]  are likely due to the treatment and not other factors.
+[44:01.480 --> 44:04.760]  Are likely due to the experimental manipulation
+[44:04.760 --> 44:05.760]  and not other factors.
+[44:08.960 --> 44:10.360]  Make sense?
+[44:10.360 --> 44:10.840]  OK.
+[44:10.840 --> 44:13.600]  So what's the main thing that I want you to take away from this?
+[44:13.600 --> 44:15.360]  So tell me again.
+[44:15.360 --> 44:18.240]  Between correlational and you're going
+[44:18.240 --> 44:19.600]  to know the offer and effect.
+[44:19.600 --> 44:22.720]  But between correlational and experimental.
+[44:22.720 --> 44:24.080]  Tell me the main difference.
+[44:28.480 --> 44:29.960]  Yes?
+[44:29.960 --> 44:33.480]  Correlational is that there isn't a causal relationship
+[44:33.480 --> 44:34.440]  with experimental.
+[44:34.440 --> 44:35.600]  It can be all correlational.
+[44:35.600 --> 44:36.600]  Exactly.
+[44:36.600 --> 44:38.600]  That is the main thing.
+[44:38.600 --> 44:41.200]  So in correlational, it only tells you
+[44:41.200 --> 44:45.040]  whether or not there's an association or a relationship.
+[44:45.040 --> 44:47.800]  It does not tell you what leads to what.
+[44:47.800 --> 44:50.440]  So there's no cause and effect put into place.
+[44:50.440 --> 44:50.920]  OK.
+[44:50.920 --> 44:53.440]  So that's the first thing I want you to take away from this.
+[44:53.440 --> 44:58.840]  And the second is just how to design an experimental design.
+[44:58.840 --> 45:03.000]  So if something, if you need to design an experimental design,
+[45:03.000 --> 45:05.480]  understand that there is a treatment
+[45:05.480 --> 45:08.600]  or an experimental group, understand the fact
+[45:08.600 --> 45:11.200]  that there is a control group, understand
+[45:11.200 --> 45:14.000]  that you're going to randomly sample, also understand
+[45:14.000 --> 45:15.760]  that there is going to be random assignment.
+[45:15.760 --> 45:17.000]  Four key words.
+[45:17.000 --> 45:19.320]  So remember this?
+[45:19.320 --> 45:21.600]  Yes?
+[45:21.600 --> 45:22.560]  Good.
+[45:22.560 --> 45:23.400]  OK.
+[45:23.400 --> 45:23.920]  All right.
+[45:23.920 --> 45:26.040]  Now let's talk about ethics very quickly.
+[45:26.040 --> 45:30.920]  Researchers, they have a moral and professional responsibility
+[45:30.960 --> 45:35.280]  to basically conduct research vigorously
+[45:35.280 --> 45:38.880]  and to report the findings truthfully.
+[45:38.880 --> 45:40.160]  OK.
+[45:40.160 --> 45:44.720]  They also have the moral and professional responsibility
+[45:44.720 --> 45:49.120]  to protect the well-being of their participants.
+[45:49.120 --> 45:49.640]  OK.
+[45:49.640 --> 45:51.440]  So there are a couple of different things
+[45:51.440 --> 45:53.640]  that go into play.
+[45:53.640 --> 45:57.200]  So what are some key ethical principles when it comes to these?
+[45:57.200 --> 45:59.320]  Well, you have to give them informed consent.
+[45:59.360 --> 46:03.560]  So if you participated in the research, which you should have,
+[46:03.560 --> 46:06.760]  like that long acronym, do we remember?
+[46:06.760 --> 46:08.080]  Who is it?
+[46:08.080 --> 46:12.440]  LR, L, RP, whatever.
+[46:12.440 --> 46:13.840]  L is it, whatever it was.
+[46:13.840 --> 46:16.240]  Make sure you're going to participate in those.
+[46:16.240 --> 46:19.480]  You're going to get three marks, three percentages.
+100.117.97.99 - - [15/Sep/2025 20:37:59] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:38:00] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [15/Sep/2025 20:38:00] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [15/Sep/2025 20:38:00] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [15/Sep/2025 20:38:00] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:38:00] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [15/Sep/2025 20:38:01] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [15/Sep/2025 20:38:05] "GET /session/8 HTTP/1.1" 200 -

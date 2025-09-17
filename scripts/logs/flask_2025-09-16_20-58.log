@@ -1,0 +1,39 @@
+Directory '..\data' is ready.
+Database and tables verified successfully.
+Queue processor thread started.
+Queue processor checking for a new job...
+Job 20 is already being processed. Worker will wait.
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.0.0.26:443
+Press CTRL+C to quit
+100.117.97.99 - - [16/Sep/2025 22:15:59] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 22:16:00] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 22:16:00] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 22:16:00] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 22:16:00] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 22:16:00] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 22:16:03] "GET /session/13 HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 22:16:12] "GET /session/13 HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 22:16:28] "POST /edit/13 HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 22:16:28] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 22:16:35] "POST /transcripts/13/move HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 22:16:35] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 22:16:50] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 22:16:50] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 22:16:50] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 22:16:50] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [16/Sep/2025 22:16:50] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 22:16:50] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 22:17:03] "POST /folders HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 22:17:03] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 22:17:11] "POST /transcripts/13/move HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 22:17:11] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 22:17:15] "GET /session/13 HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 22:25:04] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 22:25:04] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [16/Sep/2025 22:25:04] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [16/Sep/2025 22:25:05] "GET /sw.js HTTP/1.1" 404 -

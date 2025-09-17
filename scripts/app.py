@@ -72,7 +72,7 @@ def get_whisper_model():
 # --- Ollama Configuration ---
 OLLAMA_ENDPOINT = "http://localhost:11434/api/generate"
 OLLAMA_CONFIG = {
-    "model": "qwen2.5:7b",
+    "model": "gpt-oss:20b",
     "stream": False,
     "options": {
         "temperature": 0.2,
