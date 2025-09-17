@@ -1,0 +1,3167 @@
+Directory '..\data' is ready.
+Database and tables verified successfully.
+Queue processor thread started.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.0.0.26:443
+Press CTRL+C to quit
+100.117.97.99 - - [17/Sep/2025 08:02:53] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 08:02:53] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 08:02:53] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 08:02:53] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 08:02:53] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 08:02:54] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 08:02:58] "GET /queue_status HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 09:04:29] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 09:04:29] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [17/Sep/2025 09:04:29] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [17/Sep/2025 09:04:29] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 09:04:29] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [17/Sep/2025 09:04:29] "GET /favicon.ico HTTP/1.1" 404 -
+100.69.197.53 - - [17/Sep/2025 09:04:31] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [17/Sep/2025 09:04:32] "GET /session/13 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 09:04:49] "GET /session/11 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 09:04:51] "GET /session/10 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 09:05:06] "GET /queue_status HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 09:05:21] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 09:05:21] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [17/Sep/2025 09:05:21] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [17/Sep/2025 09:05:22] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 09:05:22] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [17/Sep/2025 09:05:23] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [17/Sep/2025 09:31:15] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 09:31:15] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [17/Sep/2025 09:31:15] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [17/Sep/2025 09:31:15] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 09:31:17] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 09:46:15] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 09:46:16] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 09:46:16] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 09:46:16] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 09:46:21] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 09:46:22] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 09:46:36] "POST /transcribe HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 09:46:39] "GET /status/21 HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 09:46:42] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 09:46:42] "GET /status/21 HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 09:46:45] "GET /status/21 HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 09:46:48] "GET /status/21 HTTP/1.1" 200 -
+Queue processor checking for a new job...
+Processing job 21: New Recording 60.m4a
+Loading Whisper model for the first time...
+Whisper is using device: cuda
+Whisper model loaded successfully.
+--- Starting Transcription for ../uploads\e7d27776-211e-42d6-95ca-3410264a8e4f.m4a ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:06.000]  So I closed the summer number one.
+[00:06.000 --> 00:14.000]  You can see all my new space here.
+[00:14.000 --> 00:19.000]  So now I have some of the same new rules for summer number one.
+[00:19.000 --> 00:23.000]  For the new one, I usually want to close in here.
+[00:23.000 --> 00:32.000]  And so the new date will be ten days from here to here.
+[00:32.000 --> 00:41.000]  And then as you can see, you can go from content.
+[00:41.000 --> 00:48.000]  And then the summer rules.
+[00:48.000 --> 00:53.000]  Then that's your assignments.
+[00:53.000 --> 00:56.000]  You can download here.
+[00:56.000 --> 01:00.000]  That's about introduction.
+[01:00.000 --> 01:06.000]  This gives you briefly introduce you what is PLP function,
+[01:06.000 --> 01:10.000]  how do you use it to find the moment,
+[01:10.000 --> 01:13.000]  giving the rate and the loan.
+[01:13.000 --> 01:19.000]  The loan actually is present value as to its PLP.
+[01:19.000 --> 01:25.000]  And also if you read this and you understand what that mean,
+[01:25.000 --> 01:31.000]  then you can do a lot of things here.
+[01:31.000 --> 01:36.000]  Now this is introduction.
+[01:36.000 --> 01:45.000]  We doing the PMT function to find the monthly payment for the mortgage.
+[01:45.000 --> 01:47.000]  And you can do two ways.
+[01:47.000 --> 01:56.000]  One is, as I have here, just use Excel PMT function.
+[01:56.000 --> 01:59.000]  That function is very easy.
+[01:59.000 --> 02:00.000]  Just like that.
+[02:00.000 --> 02:05.000]  Just write equal, type this equation.
+[02:05.000 --> 02:14.000]  And then type this Excel given equation, PLP, and the rate and so on.
+[02:14.000 --> 02:19.000]  And now next is, so that's kind of in this assignment,
+[02:19.000 --> 02:31.000]  this assignment is just to give you, ask you to perform how to type the Excel given functions.
+[02:31.000 --> 02:39.000]  And next is, in reality, Excel may not give you equations as much.
+[02:39.000 --> 02:42.000]  You may have your own model.
+[02:43.000 --> 02:52.000]  So that's the second method here.
+[02:52.000 --> 02:57.000]  As you can see here.
+[02:57.000 --> 03:00.000]  You can use this equation.
+[03:00.000 --> 03:02.000]  That's the equation.
+[03:02.000 --> 03:07.000]  So that means when you input, when you write a number,
+[03:07.000 --> 03:12.000]  then you need to use this instead of just use PMT and then you input numbers.
+[03:12.000 --> 03:16.000]  Now you just need to put everything in here.
+[03:16.000 --> 03:19.000]  But it's okay like this.
+[03:19.000 --> 03:22.000]  It's not too hard.
+[03:22.000 --> 03:31.000]  But these rate PB and then PER and R given equations,
+[03:31.000 --> 03:40.000]  and so you can find to meet these given conditions, you should get exactly the same answer.
+[03:40.000 --> 03:45.000]  And so you can use these two methods.
+[03:45.000 --> 03:53.000]  So in your assignment, I do have the answer.
+[03:54.000 --> 04:05.000]  So in your assignment, I do have this step one, two, three, four, five.
+[04:05.000 --> 04:11.000]  And originally, previous year, I did not have the steps.
+[04:11.000 --> 04:13.000]  I just had a description.
+[04:13.000 --> 04:20.000]  Now I thought maybe it's easier for you guys to understand one, two, three, and down.
+[04:20.000 --> 04:25.000]  So you just follow these steps, then to do the work.
+[04:25.000 --> 04:29.000]  Then, and rubrics.
+[04:32.000 --> 04:35.000]  Here.
+[04:35.000 --> 04:38.000]  Rubrics is here.
+[04:38.000 --> 04:41.000]  So you know which steps you will come in for.
+[04:41.000 --> 04:45.000]  So this is part A. I have part A and part B.
+[04:45.000 --> 04:47.000]  So I took parts.
+[04:47.000 --> 04:50.000]  Now also I have these.
+[04:50.000 --> 04:52.000]  I post these.
+[04:52.000 --> 04:54.000]  That's what I do.
+[04:54.000 --> 04:56.000]  My results there.
+[04:56.000 --> 04:58.000]  So you can follow just the results.
+[04:58.000 --> 05:05.000]  So you should double check if you use the same number.
+[05:05.000 --> 05:09.000]  You can just use the same number so I can check.
+[05:09.000 --> 05:11.000]  Exactly the same.
+[05:11.000 --> 05:14.000]  And then you can get the answer.
+[05:15.000 --> 05:19.000]  So that's for part A.
+[05:19.000 --> 05:22.000]  And part B in the following page.
+[05:22.000 --> 05:26.000]  On the following page, you will see it's just like an easy equation.
+[05:26.000 --> 05:28.000]  You two get the same.
+[05:28.000 --> 05:31.000]  And remember, also you need to graph.
+[05:33.000 --> 05:38.000]  So that's about your assignment, A1.
+[05:38.000 --> 05:45.000]  And your A2 will be, I think it's still far away from now.
+[05:45.000 --> 05:53.000]  By A2, you will write, I believe one of the parts, part A,
+[05:53.000 --> 05:58.000]  will be part A. Only a few points.
+[05:58.000 --> 06:03.000]  You will write the VBA code to do everything here.
+[06:03.000 --> 06:08.000]  Here now, part two is doing math.
+[06:08.000 --> 06:11.000]  You just need to do math to do everything.
+[06:11.000 --> 06:15.000]  So from there, you know how to do math, right?
+[06:18.000 --> 06:24.000]  Then, as I said, in your assignment, you will write code to do this.
+[06:24.000 --> 06:27.000]  So the same thing, you can do different ways.
+[06:27.000 --> 06:28.000]  Okay.
+[06:28.000 --> 06:33.000]  And that's about your assignment information.
+[06:33.000 --> 06:36.000]  Do you have any questions?
+[06:36.000 --> 06:38.000]  Yeah, I think you need to do both.
+[06:38.000 --> 06:40.000]  That one.
+[06:40.000 --> 06:42.000]  You're working.
+[06:42.000 --> 06:44.000]  I just want to say.
+[06:44.000 --> 06:46.000]  I already have this assignment.
+[06:46.000 --> 06:48.000]  I did not give you anything.
+[06:48.000 --> 06:51.000]  Like it's still far away from now to the question.
+[06:51.000 --> 06:52.000]  This.
+[06:52.000 --> 06:55.000]  The question about the second part and the second part.
+[06:55.000 --> 06:57.000]  The second part, yes.
+[06:57.000 --> 06:59.000]  Doing the same thing.
+[06:59.000 --> 07:01.000]  Part B, right?
+[07:01.000 --> 07:04.000]  Use math.
+[07:04.000 --> 07:06.000]  Math.
+[07:06.000 --> 07:08.000]  You just do this.
+[07:08.000 --> 07:11.000]  I have the instruction, you just do the same.
+[07:11.000 --> 07:13.000]  But you record it.
+[07:13.000 --> 07:17.000]  The second part is using math.
+[07:17.000 --> 07:20.000]  The first.
+[07:20.000 --> 07:21.000]  The first.
+[07:21.000 --> 07:22.000]  Paray?
+[07:22.000 --> 07:23.000]  Yes.
+[07:23.000 --> 07:25.000]  You examine manually.
+[07:25.000 --> 07:28.000]  Manually.
+[07:28.000 --> 07:30.000]  Paray is manually.
+[07:30.000 --> 07:31.000]  You do the same.
+[07:31.000 --> 07:35.000]  Part B is math or automatic.
+[07:35.000 --> 07:36.000]  Never mind.
+[07:36.000 --> 07:37.000]  It's fucking hard.
+[07:37.000 --> 07:39.000]  You record your process.
+[07:39.000 --> 07:42.000]  Then you create a button.
+[07:42.000 --> 07:44.000]  Control button.
+[07:44.000 --> 07:46.000]  It's a lot of work.
+[07:46.000 --> 07:50.000]  I'm not even like committed from here.
+[07:50.000 --> 07:52.000]  Change the channel.
+[08:14.000 --> 08:16.000]  So you see here.
+[08:16.000 --> 08:18.000]  This is part A.
+[08:18.000 --> 08:19.000]  Part A.
+[08:19.000 --> 08:23.000]  So I have all the instructions asking you to change everything.
+[08:23.000 --> 08:26.000]  Like including this.
+[08:26.000 --> 08:29.000]  And part A is for PMP function.
+[08:29.000 --> 08:32.000]  But you're doing manually everything.
+[08:32.000 --> 08:39.000]  And part B is you are going to do math.
+[08:39.000 --> 08:46.000]  And in the article, so you will know, you have to use this.
+[08:46.000 --> 08:50.000]  You have to record the macro, right?
+[08:50.000 --> 08:54.000]  Then after you do everything, then you stop.
+[08:54.000 --> 08:58.000]  Then you want to create this.
+[08:58.000 --> 09:00.000]  Control button.
+[09:00.000 --> 09:02.000]  And so.
+[09:02.000 --> 09:05.000]  This is a big, big, big.
+[09:05.000 --> 09:08.000]  Everything you've got.
+[09:08.000 --> 09:12.000]  For example, I'm going to.
+[09:12.000 --> 09:16.000]  Also, you want to test your result.
+[09:16.000 --> 09:18.000]  I don't know anything.
+[09:18.000 --> 09:20.000]  But now.
+[09:20.000 --> 09:21.000]  I mean, two.
+[09:21.000 --> 09:23.000]  I mean, two things.
+[09:23.000 --> 09:25.000]  You'll get everything there.
+[09:25.000 --> 09:27.000]  That's automation.
+[09:27.000 --> 09:29.000]  Yeah.
+[09:29.000 --> 09:31.000]  Right?
+[09:31.000 --> 09:36.000]  So you need to submit the excel.
+[09:36.000 --> 09:42.000]  XLSM.
+[09:42.000 --> 09:45.000]  That's micro enabled.
+[09:45.000 --> 09:46.000]  Right.
+[09:46.000 --> 09:48.000]  If you just use XLS, then.
+[09:48.000 --> 09:51.000]  That's what I see in part two.
+[09:51.000 --> 09:53.000]  But when you have part one.
+[09:53.000 --> 09:54.000]  You know this one.
+[09:54.000 --> 09:56.000]  When you have the.
+[09:56.000 --> 09:58.000]  Part one has 12 points.
+[09:58.000 --> 10:00.000]  Part B has 8 points.
+[10:00.000 --> 10:04.000]  And you should have 30 points.
+[10:04.000 --> 10:07.000]  Right?
+[10:07.000 --> 10:11.000]  Any questions?
+[10:11.000 --> 10:13.000]  Just remember your part.
+[10:13.000 --> 10:16.000]  Part A is manual.
+[10:16.000 --> 10:18.000]  Part B.
+[10:18.000 --> 10:21.000]  Between the automation.
+[10:21.000 --> 10:27.000]  You got to go by the order of control.
+[10:27.000 --> 10:29.000]  Okay.
+[10:29.000 --> 10:34.000]  That's like their version.
+[10:34.000 --> 10:37.000]  Well, you updated it.
+[10:37.000 --> 10:38.000]  Okay.
+[10:38.000 --> 10:39.000]  So.
+[10:39.000 --> 10:40.000]  All right.
+[10:40.000 --> 10:43.000]  Let's go.
+[10:43.000 --> 10:44.000]  Start.
+[10:44.000 --> 10:45.000]  Okay.
+[10:45.000 --> 10:47.000]  Let's go.
+[10:47.000 --> 10:49.000]  Do they want it?
+[10:49.000 --> 10:51.000]  Do they want it?
+[10:51.000 --> 10:53.000]  Did it give you an idea?
+[10:53.000 --> 10:54.000]  They want it.
+[10:54.000 --> 10:55.000]  Yeah, they bought it.
+[10:55.000 --> 10:56.000]  Now, you can see.
+[10:56.000 --> 10:58.000]  We're getting to the right immediate.
+[10:58.000 --> 10:59.000]  So.
+[10:59.000 --> 11:00.000]  So it's having a hard.
+[11:00.000 --> 11:01.000]  Well.
+[11:01.000 --> 11:05.000]  You don't write code.
+[11:05.000 --> 11:06.000]  You got to know the control.
+[11:06.000 --> 11:08.000]  Will you use the code?
+[11:08.000 --> 11:10.000]  Oh, you went through his article.
+[11:10.000 --> 11:11.000]  Okay.
+[11:11.000 --> 11:16.000]  So in this chapter, you still have a lot of content.
+[11:16.000 --> 11:18.000]  I can do more faculty.
+[11:18.000 --> 11:19.000]  You know what I'm doing?
+[11:19.000 --> 11:21.000]  I'm going to do the application.
+[11:21.000 --> 11:23.000]  That was what I was ever going to do.
+[11:23.000 --> 11:25.000]  I'm just going to do the entry here.
+[11:25.000 --> 11:30.000]  And once you're listening, going to be artist.
+[11:30.000 --> 11:32.000]  It's like a worksheet, a workbook.
+[11:32.000 --> 11:36.000]  They can include the art.
+[11:36.000 --> 11:42.000]  The art and you are in the defined argument.
+[11:42.000 --> 11:47.000]  Define a, are declared these workbook or worksheet.
+[11:47.000 --> 11:52.000]  So next time it's easy for us to refer to the workbook
+[11:52.000 --> 11:54.000]  or worksheet.
+[11:54.000 --> 12:01.000]  And for sheet name, code name, when you write a big code,
+[12:01.000 --> 12:03.000]  some people have to use this.
+[12:03.000 --> 12:06.000]  And feeling constant.
+[12:06.000 --> 12:09.000]  And feeling constant.
+[12:09.000 --> 12:13.000]  When you move a mouse up and down,
+[12:13.000 --> 12:16.000]  this will respond to it.
+[12:16.000 --> 12:18.000]  The feeling constant.
+[12:18.000 --> 12:21.000]  And also make in a message box,
+[12:21.000 --> 12:23.000]  you can see OK button.
+[12:23.000 --> 12:28.000]  OK, like this button.
+[12:28.000 --> 12:32.000]  These all using building,
+[12:32.000 --> 12:35.000]  maybe it will be constant.
+[12:35.000 --> 12:37.000]  It doesn't write.
+[12:37.000 --> 12:40.000]  So you're working different information.
+[12:40.000 --> 12:46.000]  And also you can do input box or message box.
+[12:46.000 --> 12:49.000]  And by using the code.
+[12:49.000 --> 12:52.000]  Streams.
+[12:52.000 --> 12:55.000]  That's a very important thing.
+[12:55.000 --> 12:58.000]  And building stream functions.
+[12:58.000 --> 13:01.000]  A lot of times you need to replace,
+[13:01.000 --> 13:09.000]  you find some character along the streams.
+[13:09.000 --> 13:14.000]  And you want to replace, you want to delete.
+[13:14.000 --> 13:17.000]  Delete is such a pile of names.
+[13:17.000 --> 13:19.000]  And this is you need to search.
+[13:19.000 --> 13:22.000]  You need to search a character.
+[13:22.000 --> 13:27.000]  So you can use these building functions on the stream.
+[13:27.000 --> 13:32.000]  And also you have the medical functions.
+[13:32.000 --> 13:35.000]  And even when it's medical functions,
+[13:35.000 --> 13:39.000]  specifically in here also,
+[13:39.000 --> 13:44.000]  you have the square root of sine and cosine.
+[13:44.000 --> 13:51.000]  And I want to say we do have excel functions.
+[13:51.000 --> 13:55.000]  And as you say, PNT function is well felt.
+[13:55.000 --> 13:59.000]  And also how is your sound.
+[13:59.000 --> 14:04.000]  And there are a little bit difference only in the fuses.
+[14:04.000 --> 14:12.000]  A minor difference between the VBA and excel functions.
+[14:12.000 --> 14:23.000]  For example, square root SQRT in excel function.
+[14:23.000 --> 14:27.000]  Excel means use the spreadsheet into the things.
+[14:27.000 --> 14:31.000]  Maybe if you write that, it doesn't reply to you.
+[14:31.000 --> 14:33.000]  And it will give you error.
+[14:33.000 --> 14:35.000]  It's SQRT.
+[14:35.000 --> 14:40.000]  And also like arctangent.
+[14:40.000 --> 14:43.000]  So I will give the information.
+[14:43.000 --> 14:46.000]  And with a general amount of R,
+[14:46.000 --> 14:50.000]  many R functions in excel,
+[14:50.000 --> 14:55.000]  we can take advantage of excel functions, PNT functions.
+[14:55.000 --> 14:57.000]  We can use them.
+[14:57.000 --> 14:59.000]  We can go larger.
+[14:59.000 --> 15:01.000]  You can even create it.
+[15:01.000 --> 15:03.000]  But you still can use it.
+[15:03.000 --> 15:06.000]  So that's inside of here we will talk about that.
+[15:06.000 --> 15:10.000]  And we specify object.
+[15:10.000 --> 15:14.000]  And this is really we want to do something here.
+[15:14.000 --> 15:16.000]  How to write.
+[15:16.000 --> 15:22.000]  So how to finish this chapter.
+[15:22.000 --> 15:26.000]  We will be able to write it.
+[15:26.000 --> 15:31.000]  Not for the excel mode.
+[15:32.000 --> 15:37.000]  But later on we will do the control groups and the VE groups.
+[15:37.000 --> 15:39.000]  In the logic sense.
+[15:39.000 --> 15:41.000]  And then following chapter.
+[15:41.000 --> 15:45.000]  And then following chapter will do the arrays.
+[15:45.000 --> 15:46.000]  Right?
+[15:46.000 --> 15:51.000]  Then functions, some routines, call, many type of call.
+[15:51.000 --> 15:52.000]  And routines.
+[15:52.000 --> 15:53.000]  Right?
+[15:53.000 --> 15:54.000]  And so on.
+[15:54.000 --> 15:56.000]  But now this is getting started.
+[15:56.000 --> 15:59.000]  Once we've done this, you're all done.
+[16:00.000 --> 16:01.000]  Okay.
+[16:01.000 --> 16:06.000]  Now let's move to the next.
+[16:06.000 --> 16:11.000]  So the subgroup team, we all know you already have the experience.
+[16:11.000 --> 16:13.000]  And a program.
+[16:13.000 --> 16:16.000]  Program is a big thing in the law.
+[16:16.000 --> 16:18.000]  Law 432.
+[16:18.000 --> 16:19.000]  Or subs.
+[16:19.000 --> 16:23.000]  Many call subs as a being one.
+[16:23.000 --> 16:26.000]  And subgroup team.
+[16:26.000 --> 16:31.000]  So we're going to install some VBA interface.
+[16:31.000 --> 16:34.000]  VBA.
+[16:34.000 --> 16:37.000]  And install the module.
+[16:37.000 --> 16:42.000]  As you can recall in the last chapter we said we use insert.
+[16:42.000 --> 16:44.000]  And insert.
+[16:44.000 --> 16:47.000]  And it will insert module.
+[16:47.000 --> 16:49.000]  The full module.
+[16:49.000 --> 16:53.000]  And also use a form from there.
+[16:53.000 --> 16:57.000]  And so that's in the modules.
+[16:57.000 --> 17:00.000]  That's where we see the code.
+[17:00.000 --> 17:03.000]  Where we access the code.
+[17:03.000 --> 17:09.000]  And so what we want to do is we click development and it goes to.
+[17:09.000 --> 17:14.000]  Oh, this is for if you don't have development.
+[17:14.000 --> 17:16.000]  As we mentioned earlier.
+[17:16.000 --> 17:19.000]  We mentioned in the last chapter.
+[17:19.000 --> 17:22.000]  And you can go with this, right?
+[17:22.000 --> 17:24.000]  We mentioned from last chapter.
+[17:24.000 --> 17:27.000]  This one is not by default you have that.
+[17:27.000 --> 17:28.000]  You have.
+[17:28.000 --> 17:30.000]  If you don't have this, you can.
+[17:30.000 --> 17:31.000]  No worries.
+[17:31.000 --> 17:33.000]  It's all here.
+[17:33.000 --> 17:34.000]  By all means.
+[17:34.000 --> 17:35.000]  Choose option.
+[17:35.000 --> 17:37.000]  Choose customer reason.
+[17:37.000 --> 17:38.000]  And check.
+[17:38.000 --> 17:41.000]  Because then it will be here.
+[17:41.000 --> 17:43.000]  And now here you can see.
+[17:43.000 --> 17:45.000]  See the base module.
+[17:45.000 --> 17:48.000]  And.
+[17:48.000 --> 17:50.000]  And I see analog.
+[17:50.000 --> 17:51.000]  And now.
+[17:51.000 --> 17:53.000]  To do your control button.
+[17:53.000 --> 17:54.000]  Your assignment.
+[17:54.000 --> 17:56.000]  You use here.
+[17:56.000 --> 17:58.000]  Insert.
+[17:58.000 --> 18:00.000]  Click this insert.
+[18:00.000 --> 18:03.000]  Then you will see that you can change the box.
+[18:03.000 --> 18:05.000]  That's control box.
+[18:05.000 --> 18:07.000]  Right?
+[18:07.000 --> 18:08.000]  And.
+[18:08.000 --> 18:10.000]  And then.
+[18:10.000 --> 18:12.000]  Click on the.
+[18:12.000 --> 18:14.000]  Well, it will be.
+[18:14.000 --> 18:15.000]  Basic.
+[18:15.000 --> 18:16.000]  Then the editor.
+[18:16.000 --> 18:18.000]  Window will pop up.
+[18:20.000 --> 18:22.000]  And that's.
+[18:22.000 --> 18:23.000]  So now.
+[18:23.000 --> 18:25.000]  For this one.
+[18:25.000 --> 18:27.000]  You need to know.
+[18:27.000 --> 18:29.000]  What.
+[18:29.000 --> 18:31.000]  The three of the things.
+[18:31.000 --> 18:33.000]  Are most important.
+[18:33.000 --> 18:34.000]  And these.
+[18:34.000 --> 18:35.000]  This.
+[18:35.000 --> 18:37.000]  Project is for.
+[18:37.000 --> 18:38.000]  That's.
+[18:38.000 --> 18:39.000]  That's right.
+[18:39.000 --> 18:42.000]  It just over you what you have.
+[18:42.000 --> 18:44.000]  And so.
+[18:44.000 --> 18:45.000]  What you have.
+[18:45.000 --> 18:46.000]  That's what I have.
+[18:46.000 --> 18:48.000]  And what you have inside.
+[18:48.000 --> 18:49.000]  What you have.
+[18:49.000 --> 18:50.000]  But.
+[18:50.000 --> 18:51.000]  Then.
+[18:51.000 --> 18:52.000]  And going down.
+[18:52.000 --> 18:54.000]  If you have.
+[18:54.000 --> 18:56.000]  If you have.
+[18:56.000 --> 18:57.000]  The module.
+[18:57.000 --> 18:58.000]  It will show.
+[18:58.000 --> 18:59.000]  Okay.
+[18:59.000 --> 19:01.000]  And then.
+[19:01.000 --> 19:02.000]  Optic windows.
+[19:02.000 --> 19:04.000]  Is here.
+[19:04.000 --> 19:05.000]  This is for.
+[19:05.000 --> 19:06.000]  Browser.
+[19:06.000 --> 19:08.000]  Objective browser.
+[19:08.000 --> 19:11.000]  So you want familiar with.
+[19:11.000 --> 19:12.000]  These.
+[19:12.000 --> 19:14.000]  Things.
+[19:14.000 --> 19:15.000]  Now.
+[19:15.000 --> 19:18.000]  Now this is the.
+[19:18.000 --> 19:20.000]  Excel VBA.
+[19:20.000 --> 19:21.000]  This.
+[19:21.000 --> 19:23.000]  Editor window.
+[19:23.000 --> 19:25.000]  So these are the bars.
+[19:25.000 --> 19:27.000]  Here this is typo bar.
+[19:27.000 --> 19:28.000]  Is here.
+[19:28.000 --> 19:30.000]  The file you have.
+[19:30.000 --> 19:31.000]  And.
+[19:31.000 --> 19:35.000]  The manual bar is here.
+[19:35.000 --> 19:37.000]  And.
+[19:37.000 --> 19:38.000]  Now.
+[19:38.000 --> 19:41.000]  If you want to write a video code.
+[19:41.000 --> 19:44.000]  First thing you want to do is.
+[19:44.000 --> 19:46.000]  Then the module will show up.
+[19:46.000 --> 19:48.000]  And that's the module.
+[19:48.000 --> 19:49.000]  That's the module.
+[19:49.000 --> 19:50.000]  Where.
+[19:50.000 --> 19:51.000]  You can hold.
+[19:51.000 --> 19:52.000]  All the code.
+[19:52.000 --> 19:53.000]  All.
+[19:53.000 --> 19:54.000]  Of course you can.
+[19:54.000 --> 19:55.000]  This kind of.
+[19:55.000 --> 19:56.000]  You know.
+[19:56.000 --> 19:57.000]  One.
+[19:57.000 --> 19:58.000]  Full.
+[19:58.000 --> 19:59.000]  Of.
+[19:59.000 --> 20:00.000]  Of.
+[20:00.000 --> 20:01.000]  Of.
+[20:01.000 --> 20:02.000]  Of.
+[20:02.000 --> 20:03.000]  Of.
+[20:03.000 --> 20:04.000]  Of.
+[20:04.000 --> 20:05.000]  Of.
+[20:05.000 --> 20:06.000]  Of.
+[20:06.000 --> 20:07.000]  Of.
+[20:07.000 --> 20:08.000]  Of.
+[20:08.000 --> 20:09.000]  Of.
+[20:09.000 --> 20:10.000]  Of.
+[20:10.000 --> 20:11.000]  Of.
+[20:11.000 --> 20:12.000]  Of.
+[20:12.000 --> 20:13.000]  Of.
+[20:13.000 --> 20:14.000]  Of.
+[20:14.000 --> 20:15.000]  Of.
+[20:15.000 --> 20:16.000]  Of.
+[20:16.000 --> 20:17.000]  Of.
+[20:17.000 --> 20:18.000]  Of.
+[20:18.000 --> 20:19.000]  Of.
+[20:19.000 --> 20:20.000]  Of.
+[20:20.000 --> 20:21.000]  Of.
+[20:21.000 --> 20:22.000]  Of.
+[20:22.000 --> 20:23.000]  Of.
+[20:23.000 --> 20:24.000]  Of.
+[20:24.000 --> 20:25.000]  Of.
+[20:25.000 --> 20:26.000]  Of.
+[20:26.000 --> 20:27.000]  I have assignment.
+[20:27.000 --> 20:28.000]  Not.
+[20:28.000 --> 20:29.000]  Let's say.
+[20:29.000 --> 20:30.000]  I have assignment two.
+[20:30.000 --> 20:31.000]  I have two parts.
+[20:31.000 --> 20:32.000]  Of your work.
+[20:32.000 --> 20:34.000]  Part A and part B.
+[20:34.000 --> 20:36.000]  I might ask you.
+[20:36.000 --> 20:37.000]  Don't.
+[20:37.000 --> 20:40.000]  Don't put together.
+[20:40.000 --> 20:41.000]  Because if you don't put together.
+[20:41.000 --> 20:42.000]  Put together now.
+[20:42.000 --> 20:48.080]  If I encode or chuck, then it's mixed.
+[20:48.080 --> 20:51.560]  So you might need to insert module.
+[20:51.560 --> 20:53.480]  And by default, it's module one.
+[20:53.480 --> 20:58.440]  Then you want to change the name by doing here.
+[20:58.440 --> 21:00.400]  Because this is the property.
+[21:00.400 --> 21:02.640]  If you click this and right-click key,
+[21:02.640 --> 21:05.520]  it will show the property windows.
+[21:05.520 --> 21:07.920]  Then you can change the name to my name.
+[21:07.920 --> 21:09.560]  I'll say part A.
+[21:09.560 --> 21:13.520]  The next one, you create another insert, another module.
+[21:13.520 --> 21:17.520]  Then you start to add part B. Then in part A,
+[21:17.520 --> 21:21.520]  you just put all your code in part A, part B, all your code
+[21:21.520 --> 21:22.520]  in part E.
+[21:22.520 --> 21:23.000]  Right?
+[21:23.000 --> 21:26.480]  So don't put it together.
+[21:26.480 --> 21:26.960]  Right?
+[21:26.960 --> 21:33.440]  So now let's add a code with this.
+[21:33.440 --> 21:34.920]  The code with this here.
+[21:35.280 --> 21:36.760]  Just click this.
+[21:36.760 --> 21:40.240]  Then you're showing these windows.
+[21:40.240 --> 21:44.720]  And then you just write a code.
+[21:44.720 --> 21:48.200]  Now, video, the tool.
+[21:48.200 --> 21:49.680]  So now, where is the tool box?
+[21:49.680 --> 21:54.680]  Tool box is this one, and standard, and robot editor.
+[21:54.680 --> 21:57.160]  And this one is debugging.
+[21:57.160 --> 21:58.640]  And debug.
+[21:58.640 --> 22:03.640]  And the robot editor.
+[22:03.840 --> 22:08.840]  So you notice, like indent, then comment, and uncomment,
+[22:08.840 --> 22:10.040]  all these.
+[22:10.040 --> 22:14.080]  And here, I must have these windows for watching
+[22:14.080 --> 22:15.080]  what's going on inside.
+[22:18.560 --> 22:19.040]  OK.
+[22:19.040 --> 22:22.640]  So if you don't see these, you can also
+[22:22.640 --> 22:27.040]  use view, owner, and click here.
+[22:27.040 --> 22:29.040]  You're showing the property view.
+[22:29.040 --> 22:31.040]  It's here.
+[22:31.440 --> 22:39.440]  And the project window is the project voice.
+[22:39.440 --> 22:45.440]  And the property window is this one.
+[22:45.440 --> 22:48.440]  So project is called property window.
+[22:48.440 --> 22:51.920]  Then next, this is property window.
+[22:51.920 --> 22:54.920]  Then immediate window is this one.
+[22:54.920 --> 22:57.920]  And it's very fun, this one.
+[22:58.280 --> 23:02.280]  With the key, the red key.
+[23:02.280 --> 23:04.280]  And the loophole would be this one.
+[23:04.280 --> 23:06.280]  This one would be watching.
+[23:06.280 --> 23:09.280]  Loophole, loophole, loophole.
+[23:09.280 --> 23:10.280]  And watching with glasses.
+[23:13.760 --> 23:15.760]  And so these are from the back.
+[23:15.760 --> 23:19.760]  You see what's going on inside the short code.
+[23:19.760 --> 23:25.760]  And it might be in the box, the short code, the brick code.
+[23:26.080 --> 23:32.560]  So brick code is on here, all the way side, all the way here.
+[23:36.560 --> 23:42.040]  And now, what about some of the names?
+[23:42.040 --> 23:42.540]  Names.
+[23:46.040 --> 23:52.040]  The names can be a combination of several words.
+[23:52.320 --> 23:57.320]  You don't want to have space or spatial to have it,
+[23:57.320 --> 24:00.320]  except on the score.
+[24:00.320 --> 24:03.320]  On the score is O, G, K.
+[24:03.320 --> 24:06.320]  And then sub-t names.
+[24:06.320 --> 24:09.320]  And you have these, sub, and there
+[24:09.320 --> 24:13.320]  is the names, sub, and there is the space.
+[24:13.320 --> 24:15.320]  And N is this.
+[24:15.320 --> 24:18.320]  Always have N.
+[24:18.600 --> 24:22.600]  And you can take arguments.
+[24:22.600 --> 24:24.600]  For now, for this chapter, next chapter,
+[24:24.600 --> 24:26.600]  we don't take any argument.
+[24:26.600 --> 24:28.600]  This new how we go.
+[24:28.600 --> 24:31.600]  The routines, you have input, output.
+[24:31.600 --> 24:35.600]  You can't, next time if you want to call, you have input.
+[24:35.600 --> 24:39.600]  And you have get out, results.
+[24:39.600 --> 24:43.600]  And input and output, you can put inside.
+[24:43.600 --> 24:45.600]  But for now, we don't have it.
+[24:45.600 --> 24:47.600]  We just put everything inside.
+[24:48.380 --> 24:51.880]  So we just write this empty.
+[24:51.880 --> 24:54.880]  And that is it.
+[24:54.880 --> 24:57.880]  Just leave it as empty.
+[24:57.880 --> 25:01.880]  So here, module.
+[25:01.880 --> 25:03.880]  And module, as I said, module inside
+[25:03.880 --> 25:06.880]  can include many of them.
+[25:06.880 --> 25:08.880]  Many points of group.
+[25:08.880 --> 25:12.880]  Then next is, how she explains it.
+[25:12.880 --> 25:16.880]  We need to use this usually.
+[25:17.160 --> 25:20.160]  And it looks like we need to use this.
+[25:20.160 --> 25:26.160]  This is the typical example that always on top,
+[25:26.160 --> 25:30.160]  it's actually placed on top.
+[25:30.160 --> 25:32.160]  And that's the first.
+[25:32.160 --> 25:36.160]  So if I ask you, what does this mean?
+[25:36.160 --> 25:45.160]  It really means it force you to declare
+[25:45.440 --> 25:48.440]  these variables.
+[25:48.440 --> 25:50.440]  Because sometimes if you don't close,
+[25:50.440 --> 25:52.440]  you will probably forgot to be right.
+[25:52.440 --> 25:53.440]  Hold.
+[25:53.440 --> 25:55.440]  And this is just to give you.
+[25:55.440 --> 25:58.440]  If you don't, they will be in a wrong condition.
+[25:58.440 --> 26:01.440]  If you don't, you declare your variable.
+[26:01.440 --> 26:07.440]  So that's, it force us to declare a variable.
+[26:07.440 --> 26:08.440]  Right?
+[26:08.440 --> 26:10.440]  Right?
+[26:10.440 --> 26:13.440]  Now, that's the way you see it.
+[26:13.440 --> 26:14.440]  Always on the top.
+[26:15.220 --> 26:19.720]  How do you do this automatically when you write a code?
+[26:19.720 --> 26:21.720]  It's here.
+[26:21.720 --> 26:24.720]  It goes towards the editor.
+[26:24.720 --> 26:27.720]  From the editor, you have towards option,
+[26:27.720 --> 26:30.720]  then you see here, towards option,
+[26:30.720 --> 26:32.720]  then you click here, edit.
+[26:32.720 --> 26:37.720]  So you apply a variable to clear the region.
+[26:37.720 --> 26:42.720]  And now, once you have this checked,
+[26:43.000 --> 26:45.000]  you automatically clear it.
+[26:45.000 --> 26:48.000]  You don't need to write a message by your own.
+[26:48.000 --> 26:51.000]  Because you don't want to write everything by your own,
+[26:51.000 --> 26:53.000]  by yourself, right?
+[26:53.000 --> 26:57.000]  And on here, also, you can see we've thought it.
+[26:57.000 --> 27:03.000]  And it's so nice, because you couldn't write it in your windows.
+[27:03.000 --> 27:08.000]  And here, you click on, and you can draw it.
+[27:08.000 --> 27:12.000]  And all on top of it, for different variables.
+[27:12.280 --> 27:13.280]  Right?
+[27:13.280 --> 27:20.280]  This, sometimes, you only use it if you couldn't write it in your windows.
+[27:20.280 --> 27:21.280]  Right?
+[27:21.280 --> 27:22.280]  Right?
+[27:22.280 --> 27:24.280]  Now, next.
+[27:28.280 --> 27:30.280]  Verbal.
+[27:30.280 --> 27:33.280]  A verbal, we need to use verbal.
+[27:33.280 --> 27:38.280]  It's really important to store information.
+[27:38.280 --> 27:39.280]  Right?
+[27:39.560 --> 27:48.560]  And now, how do we, what, how many types of them are?
+[27:48.560 --> 27:57.560]  And how many types of them are, for an integer?
+[27:57.560 --> 28:01.560]  And for the integer, the only thing you use,
+[28:01.560 --> 28:08.560]  if I can, in being, I, as integer.
+[28:08.840 --> 28:11.840]  And I only hold the number of bits.
+[28:11.840 --> 28:13.840]  This is really not a big number.
+[28:13.840 --> 28:14.840]  Right?
+[28:14.840 --> 28:18.840]  So, sometimes, you need to use this, now.
+[28:18.840 --> 28:21.840]  Like, if you have a large number, but for it,
+[28:21.840 --> 28:26.840]  you can imagine the integer again is huge.
+[28:26.840 --> 28:27.840]  Right?
+[28:27.840 --> 28:31.840]  So, in that case, you cannot hold any more than this, at all.
+[28:31.840 --> 28:32.840]  Okay?
+[28:32.840 --> 28:33.840]  Right?
+[28:34.120 --> 28:35.120]  And that's it.
+[28:35.120 --> 28:37.120]  It's not an integer, and that means what?
+[28:37.120 --> 28:39.120]  Single or double.
+[28:39.120 --> 28:42.120]  For a given, I can't see them.
+[28:45.120 --> 28:48.120]  And a single or double.
+[28:48.120 --> 28:51.120]  A double, we know, but I guess, sometimes,
+[28:51.120 --> 28:56.120]  we use the separate digits, what we call it, company.
+[28:56.120 --> 29:01.120]  And that means, after the decimal.
+[29:01.400 --> 29:03.400]  And next, is the string.
+[29:03.400 --> 29:05.400]  The string is the big cities.
+[29:05.400 --> 29:06.400]  Right?
+[29:06.400 --> 29:12.400]  We have to clear a character, or a sentence, with the string.
+[29:12.400 --> 29:15.400]  And then, this one is very important.
+[29:15.400 --> 29:16.400]  Bully.
+[29:16.400 --> 29:21.400]  Sometimes, we need to find if it's true, or if it's false.
+[29:21.400 --> 29:28.400]  So, if you have a bully, you can declare a bully variable.
+[29:28.400 --> 29:29.400]  Right?
+[29:31.900 --> 29:40.400]  And then, currency, date, and finally,
+[29:40.400 --> 29:43.400]  and we have variant.
+[29:43.400 --> 29:52.400]  Variant is defined variable as, it can catch the whole.
+[29:52.400 --> 29:57.400]  Then, if it can serves as, if your data is integer,
+[29:57.400 --> 30:01.680]  it serves as an integer.
+[30:01.680 --> 30:06.680]  So, whatever, it's just so flexible.
+[30:06.680 --> 30:10.680]  It can hold any types of data.
+[30:10.680 --> 30:12.680]  Hold any types of data.
+[30:12.680 --> 30:18.680]  And you can really determine if any type of data
+[30:18.680 --> 30:20.680]  according to what you have.
+[30:20.680 --> 30:21.680]  OK?
+[30:21.960 --> 30:26.960]  And normally, it's really fun.
+[30:26.960 --> 30:30.960]  You don't really want to use that often,
+[30:30.960 --> 30:33.960]  because it's less efficient.
+[30:33.960 --> 30:36.960]  So, you don't want to use that often,
+[30:36.960 --> 30:40.960]  because it's less efficient.
+[30:40.960 --> 30:43.960]  So, these are the variables.
+[30:44.240 --> 30:49.240]  Now, that's how we declare.
+[30:49.240 --> 30:54.240]  How do we declare the deem, j, as?
+[30:54.240 --> 31:01.240]  So, you can see, we must start from deem, then as.
+[31:01.240 --> 31:06.240]  And change your variable as what variable type.
+[31:06.240 --> 31:11.240]  So, that must be this deem.
+[31:11.520 --> 31:16.520]  That must be this deem, as.
+[31:16.520 --> 31:19.000]  Deem.
+[31:19.000 --> 31:27.000]  And now, if I have deem i, j, k, all three of them,
+[31:27.000 --> 31:34.480]  all integers, then you have to deem everything.
+[31:34.480 --> 31:35.960]  See here?
+[31:35.960 --> 31:39.440]  From i to j, and from to k.
+[31:39.640 --> 31:44.120]  And you can put one line by line.
+[31:44.120 --> 31:49.120]  And all you can put on the one line is a complex.
+[31:49.120 --> 31:56.120]  And now, if I write in this deem,
+[31:56.120 --> 31:59.120]  it does seem as this.
+[31:59.120 --> 32:01.120]  Two.
+[32:01.120 --> 32:08.120]  And so, this two means this only has k as integer.
+[32:08.800 --> 32:13.800]  And so, if you have to declare i, j, you really do not declare
+[32:13.800 --> 32:14.800]  as anything.
+[32:14.800 --> 32:17.800]  So, that really is a variant.
+[32:17.800 --> 32:20.800]  For a self-adjective, think about it.
+[32:20.800 --> 32:23.800]  It's a variant, not an integer.
+[32:23.800 --> 32:27.800]  And so, that's the difference here.
+[32:27.800 --> 32:28.800]  If you don't have that.
+[32:28.800 --> 32:30.800]  So, that means, if you don't do this,
+[32:30.800 --> 32:34.800]  you cannot omit the as integer.
+[32:34.800 --> 32:36.800]  You have to put everything here.
+[32:37.480 --> 32:40.480]  All right?
+[32:40.480 --> 32:43.480]  Now, that's the same.
+[32:43.480 --> 32:46.480]  You want to be careful.
+[32:46.480 --> 32:51.480]  And we can always use intelligence.
+[32:51.480 --> 32:55.480]  And intelligence just use control space.
+[32:55.480 --> 32:56.480]  Then it can shoot.
+[32:56.480 --> 33:01.480]  If you use control space, then it will shoot all of these
+[33:01.480 --> 33:05.480]  properties, and that's the other things, and the names,
+[33:06.160 --> 33:11.160]  and so, if I try, for example, I have these.
+[33:11.160 --> 33:17.160]  If you declare, if you declare the degree to the radian,
+[33:17.160 --> 33:19.160]  this is going to be long.
+[33:19.160 --> 33:24.160]  And now, if you declare it will shoot here,
+[33:24.160 --> 33:27.160]  you use the control on space.
+[33:27.160 --> 33:32.160]  And it will shoot whenever you just type three words,
+[33:32.160 --> 33:34.160]  three words, it will shoot here.
+[33:34.840 --> 33:35.840]  So, that's the space.
+[33:35.840 --> 33:37.840]  That's the space, and then you'll be good.
+[33:37.840 --> 33:39.840]  You don't need to type all.
+[33:42.840 --> 33:45.840]  How do you declare constant?
+[33:45.840 --> 33:49.840]  You declare constant is constant to what?
+[33:49.840 --> 33:51.840]  Three.
+[33:51.840 --> 33:54.840]  That's the format of, you declare constant.
+[34:00.840 --> 34:01.840]  Next.
+[34:02.520 --> 34:06.520]  And object variable.
+[34:06.520 --> 34:15.520]  And object variable refers to the work of, and all these things.
+[34:15.520 --> 34:22.520]  And so, when we declare the achieve, or range, or,
+[34:22.520 --> 34:27.520]  we can declare range.
+[34:28.200 --> 34:34.200]  And this way, it is convenient, convenient for us to refer it
+[34:34.200 --> 34:35.200]  either, right?
+[34:35.200 --> 34:39.200]  Otherwise, we have to write long things, right?
+[34:39.200 --> 34:44.200]  And so, it was still on the reference, but it's not just,
+[34:44.200 --> 34:48.200]  it isn't referred to the image itself,
+[34:48.200 --> 34:51.200]  only refers to object.
+[34:51.200 --> 34:56.200]  So, we can also do this, but, but, and,
+[34:58.200 --> 35:02.200]  object, declare object is different with this
+[35:02.200 --> 35:04.200]  declare variable.
+[35:04.200 --> 35:05.200]  Okay?
+[35:05.200 --> 35:07.200]  Declare variable, you know, is variable.
+[35:07.200 --> 35:09.200]  It's a number, so only one, right?
+[35:09.200 --> 35:13.200]  And this, and then object might be special,
+[35:13.200 --> 35:15.200]  and then what is the advantage of this?
+[35:15.200 --> 35:18.200]  You have to set.
+[35:18.200 --> 35:20.200]  Okay, that's the key thing.
+[35:20.200 --> 35:25.200]  After you've done this set, you will have long,
+[35:25.200 --> 35:30.200]  you will have long, and long, and long, and long,
+[35:30.200 --> 35:33.200]  and long, and long, and long, and long.
+[35:33.200 --> 35:38.200]  And that will give you the syntax error, as you can see here.
+[35:38.200 --> 35:43.200]  But in range as range, RNG as range.
+[35:46.680 --> 35:51.680]  And the reason we cannot use reserved word,
+[35:51.680 --> 35:53.680]  and for here, so now,
+[35:53.680 --> 35:57.660]  And meaning also belittled as range.
+[35:57.660 --> 36:03.620]  And set, so here set, range is equal to what?
+[36:03.620 --> 36:06.620]  So what starting with this?
+[36:06.620 --> 36:10.120]  And then this, you see here, what sheet?
+[36:10.120 --> 36:14.120]  So this refers to what?
+[36:14.120 --> 36:18.620]  The what sheet named method, what?
+[36:18.620 --> 36:23.120]  You have to use this double quotes.
+[36:23.120 --> 36:25.100]  And then dot, range.
+[36:25.100 --> 36:28.100]  And also you have to use these double quotes.
+[36:28.100 --> 36:30.600]  This is a double quote.
+[36:30.600 --> 36:33.100]  And that refers to the range.
+[36:33.100 --> 36:36.600]  Then also you can do the what sheets.
+[36:36.600 --> 36:41.600]  What sheets as in set, what sheet?
+[36:41.600 --> 36:43.100]  Equal to what?
+[36:43.100 --> 36:45.600]  You see here now, what sheets?
+[36:45.600 --> 36:47.100]  And what sheets?
+[36:47.100 --> 36:52.600]  And that refers to the name of the what sheet.
+[36:53.060 --> 36:55.560]  And this is the spreadsheet.
+[36:55.560 --> 36:56.060]  Great.
+[36:59.560 --> 37:05.560]  Now next is objects and collections.
+[37:05.560 --> 37:13.560]  And so if you look at here, when you see here sheets,
+[37:13.560 --> 37:18.060]  right, when you see here work sheets,
+[37:19.020 --> 37:22.520]  if you write a worksheet, does it work?
+[37:22.520 --> 37:23.020]  No.
+[37:23.020 --> 37:24.520]  Wrong.
+[37:24.520 --> 37:29.020]  Because it only refers to this worksheet's collection
+[37:29.020 --> 37:32.520]  with the name of that.
+[37:32.520 --> 37:37.020]  So that's, you need to use these collections here.
+[37:37.020 --> 37:42.520]  But first, these work sheets, sheets collection,
+[37:42.520 --> 37:44.020]  is a natural one.
+[37:44.480 --> 37:47.980]  Because seeing your spreadsheet and the new itself,
+[37:47.980 --> 37:49.980]  I know you can do the charts.
+[37:49.980 --> 37:51.980]  And you can insert charts.
+[37:51.980 --> 37:53.980]  You can insert what sheets, right?
+[37:53.980 --> 37:59.980]  The sheets include charts and work sheets.
+[37:59.980 --> 38:01.480]  You know what I mean?
+[38:01.480 --> 38:02.980]  This is a large one.
+[38:02.980 --> 38:06.980]  You can hold, focus.
+[38:06.980 --> 38:10.480]  And then what sheets is, when you use this,
+[38:11.440 --> 38:14.440]  this is just a simple worksheet.
+[38:14.440 --> 38:20.940]  And what sheets is collection of including the all work sheets
+[38:20.940 --> 38:24.440]  including in workbook.
+[38:24.440 --> 38:30.940]  Now next one, and charts.
+[38:30.940 --> 38:36.440]  Charts refers to that single chart.
+[38:36.440 --> 38:38.940]  Just like this means a single worksheet.
+[38:39.400 --> 38:40.900]  This refers to a collection.
+[38:44.400 --> 38:48.900]  When you have plural S, then that's collection.
+[38:51.900 --> 38:56.400]  Then there are these rules.
+[38:56.400 --> 39:00.900]  Reserve the keyword, and you need this object.
+[39:00.900 --> 39:03.400]  Name is cannot be used.
+[39:03.400 --> 39:05.400]  That makes sense, right?
+[39:05.400 --> 39:06.900]  Because this is reserved.
+[39:06.900 --> 39:07.400]  Right?
+[39:09.900 --> 39:17.400]  And they start with a letter.
+[39:17.400 --> 39:19.900]  They start with a letter.
+[39:19.900 --> 39:23.400]  And no space.
+[39:23.400 --> 39:26.900]  And no spatial property.
+[39:26.900 --> 39:31.400]  And except on the scoreboard.
+[39:31.400 --> 39:32.900]  Except on the scoreboard.
+[39:32.900 --> 39:36.400]  And also case and in sensitivity.
+[39:36.400 --> 39:37.900]  In sensitivity.
+[39:38.860 --> 39:42.360]  And I mean that's your verbal name in case in sensitivity.
+[39:42.360 --> 39:45.860]  Just follow the first.
+[39:45.860 --> 39:48.860]  When you do the declared, right?
+[39:48.860 --> 39:52.360]  And just in the declared, you use capital word.
+[39:52.360 --> 39:56.860]  Then next time you write lowercase.
+[39:56.860 --> 40:02.360]  Now it will automatically change into the capital word.
+[40:02.360 --> 40:04.860]  Just follow the first time you use.
+[40:04.860 --> 40:06.360]  That makes sense, right?
+[40:08.360 --> 40:18.860]  And now I have a few examples.
+[40:27.360 --> 40:30.860]  Now we cannot use these because this is a strategist number.
+[40:30.860 --> 40:33.360]  And we cannot use because you have space.
+[40:33.360 --> 40:34.860]  Input.
+[40:34.860 --> 40:37.360]  Input cannot use because see?
+[40:37.820 --> 40:39.320]  We cannot use input.
+[40:39.320 --> 40:40.820]  We cannot use pivot table.
+[40:40.820 --> 40:42.320]  We cannot use for.
+[40:42.320 --> 40:43.820]  We cannot use next.
+[40:43.820 --> 40:46.320]  These keywords cannot use.
+[40:52.820 --> 40:57.320]  And then I want to ask them what would be the best practice?
+[40:57.320 --> 40:59.320]  Best practice.
+[40:59.320 --> 41:01.820]  And you want to use meaningful.
+[41:01.820 --> 41:03.320]  Meaningful.
+[41:03.320 --> 41:05.320]  Like what sheet?
+[41:05.320 --> 41:06.820]  Right?
+[41:07.780 --> 41:10.280]  And you see you can use the work sheet.
+[41:10.280 --> 41:10.780]  Work sheet.
+[41:10.780 --> 41:11.280]  Right?
+[41:11.280 --> 41:12.280]  Pivot table.
+[41:12.280 --> 41:13.780]  You can use Pt.
+[41:13.780 --> 41:15.280]  Pivot table.
+[41:15.280 --> 41:15.780]  Right?
+[41:15.780 --> 41:20.280]  You can use pivot table one, pivot table two, Pt one, Pt two.
+[41:20.280 --> 41:22.280]  Or work sheets one.
+[41:22.280 --> 41:24.780]  Ws one, Ws two, and so on.
+[41:24.780 --> 41:25.780]  Right?
+[41:25.780 --> 41:31.280]  But that's how we say meaningful.
+[41:37.780 --> 41:41.280]  Now next is work sheet name.
+[41:41.280 --> 41:47.280]  As you just now have viewed, we want to say certain range.
+[41:47.280 --> 41:49.780]  In a certain range of parameter,
+[41:49.780 --> 41:53.280]  you need to have work sheets and then princesses.
+[41:53.280 --> 41:56.780]  Then you use double quotes inside names.
+[41:56.780 --> 41:57.780]  Right?
+[41:57.780 --> 42:00.780]  That names refers to this.
+[42:00.780 --> 42:05.780]  What do I have is this refers to my Excel file bottom.
+[42:06.740 --> 42:08.240]  Bottom.
+[42:08.240 --> 42:10.740]  And bottom bar, as you can see here,
+[42:10.740 --> 42:15.740]  this refers to I have three worksheets here.
+[42:15.740 --> 42:18.740]  Where is each name by this?
+[42:18.740 --> 42:19.240]  Right?
+[42:19.240 --> 42:21.740]  If you look at the first time work worksheet,
+[42:21.740 --> 42:25.240]  it by default give you sheets one.
+[42:25.240 --> 42:27.240]  Then you click another one.
+[42:27.240 --> 42:30.740]  You use this to insert another new worksheet
+[42:30.740 --> 42:32.240]  if it all gives you what?
+[42:32.240 --> 42:33.740]  Sheets two.
+[42:34.200 --> 42:36.700]  And so on by default.
+[42:36.700 --> 42:39.700]  But you want to tend to your own name.
+[42:39.700 --> 42:42.200]  You don't want to use the default name.
+[42:42.200 --> 42:45.700]  For example, I want to have an EDA or macro.
+[42:45.700 --> 42:46.700]  Right?
+[42:46.700 --> 42:48.700]  Then for your assignments, you want
+[42:48.700 --> 42:51.200]  to use those micro and others give.
+[42:51.200 --> 42:51.700]  So on.
+[42:51.700 --> 42:56.700]  So this refers to work sheet name.
+[42:56.700 --> 42:58.700]  Now I also have what?
+[42:58.700 --> 43:00.200]  Coding.
+[43:00.200 --> 43:02.700]  Because now you write EDA code.
+[43:03.160 --> 43:07.660]  And sometimes if you don't want to use the same bar,
+[43:07.660 --> 43:13.660]  because you do first worksheet and you need to use work sheets.
+[43:13.660 --> 43:16.660]  It's just inside the code name.
+[43:16.660 --> 43:17.160]  Right?
+[43:17.160 --> 43:18.660]  It's kind of long.
+[43:18.660 --> 43:20.660]  And you can use coding names.
+[43:25.160 --> 43:31.660]  And how do you tend to this worksheet name?
+[43:32.120 --> 43:35.620]  You can click worksheet name.
+[43:35.620 --> 43:38.620]  Highlight this worksheet.
+[43:38.620 --> 43:47.620]  When you click means active, convicted, controllable.
+[43:47.620 --> 43:52.620]  When you click on this worksheet in the product,
+[43:52.620 --> 43:53.620]  it's full.
+[43:53.620 --> 43:59.120]  Then you can't click the property window.
+[44:00.080 --> 44:03.080]  You can change the name.
+[44:03.080 --> 44:09.580]  Or you can change that by here.
+[44:09.580 --> 44:16.080]  Just click here and right side click key or here.
+[44:16.080 --> 44:18.080]  And it has a rename.
+[44:18.080 --> 44:19.580]  You can rename there.
+[44:19.580 --> 44:22.080]  You can do both way in the review code.
+[44:22.080 --> 44:25.080]  Or you can even in the review code.
+[44:26.040 --> 44:29.040]  You can do different ways to change the name.
+[44:29.040 --> 44:33.040]  And this is referred to worksheet tab.
+[44:33.040 --> 44:35.040]  What you have.
+[44:35.040 --> 44:38.040]  And that's the worksheet name.
+[44:38.040 --> 44:39.540]  Now we go here.
+[44:39.540 --> 44:41.040]  What do we have?
+[44:41.040 --> 44:46.540]  And these, as you can see here, what do you see here?
+[44:46.540 --> 44:50.040]  This is the product that is full.
+[44:50.040 --> 44:52.540]  And this is here?
+[44:53.500 --> 44:54.000]  1, 2, 3.
+[44:57.500 --> 44:59.000]  So now you can see.
+[45:05.500 --> 45:09.000]  We have three works here.
+[45:09.000 --> 45:13.500]  And what you see on the right side.
+[45:23.500 --> 45:28.000]  You can see here.
+[45:28.000 --> 45:32.500]  So the right side is what she did.
+[45:32.500 --> 45:37.000]  And on the left side, now you see this is the same as that.
+[45:37.000 --> 45:41.000]  If we don't change this, it will be the same as here.
+[45:41.000 --> 45:42.500]  She's too confused.
+[45:45.500 --> 45:46.000]  And.
+[45:46.960 --> 45:56.960]  And on the right side is code V.
+[45:56.960 --> 46:02.460]  And code V means if you want to say this worksheet,
+[46:02.460 --> 46:04.960]  you can just use this.
+[46:04.960 --> 46:09.460]  And you can just use she's one.
+[46:09.460 --> 46:14.960]  And to represent that she's one with name
+[46:15.920 --> 46:19.920]  of this, that's a code name.
+[46:19.920 --> 46:23.920]  And code name, also you can change the code name.
+[46:23.920 --> 46:25.920]  And from the pocket windows.
+[46:31.920 --> 46:34.920]  And now.
+[46:34.920 --> 46:39.920]  So as you can see here, what she's doing.
+[46:39.920 --> 46:42.920]  Now how do you change the code name?
+[46:45.920 --> 46:48.420]  You can change this code name.
+[46:48.420 --> 46:48.920]  It's here.
+[46:52.920 --> 46:53.920]  You click.
+[46:53.920 --> 46:55.920]  Click on here.
+[46:55.920 --> 46:58.420]  Click on this.
+[46:58.420 --> 46:59.920]  See.
+[46:59.920 --> 47:03.420]  Then the pocket window will pop.
+[47:03.420 --> 47:06.420]  Then that's the window pop here.
+[47:09.920 --> 47:12.420]  And that's the name here.
+[47:12.420 --> 47:14.420]  You can change it.
+[47:15.380 --> 47:23.880]  If currently she's three, then you just write VBA, code name.
+[47:23.880 --> 47:26.380]  We didn't code the name yet.
+[47:26.380 --> 47:28.880]  So.
+[47:28.880 --> 47:30.380]  So you click on here.
+[47:30.380 --> 47:33.380]  And then wait for it.
+[47:33.380 --> 47:35.880]  If it doesn't show in this, you can always
+[47:35.880 --> 47:39.380]  click the pocket window that you want to show.
+[47:39.380 --> 47:43.880]  So you can change it from here.
+[47:44.840 --> 47:52.340]  And that's how we can change this.
+[47:52.340 --> 48:01.340]  And so now, you have two names to specify what she's.
+[48:01.340 --> 48:04.840]  You can specify with code name.
+[48:04.840 --> 48:09.840]  And code name can be changed in pocket windows.
+[48:09.840 --> 48:13.840]  And what she's needs, then you can change it
+[48:14.800 --> 48:23.300]  from the worksheet pop on the work sheets there on the pop.
+[48:23.300 --> 48:24.300]  Not here.
+[48:24.300 --> 48:25.300]  Not here.
+[48:25.300 --> 48:27.800]  Because the spreadsheet is water.
+[48:27.800 --> 48:29.300]  Right click.
+[48:29.300 --> 48:31.800]  And change.
+[48:31.800 --> 48:39.280]  So that's what we have for the worksheet.
+[48:40.220 --> 48:42.720]  Now, let's build in function.
+[48:42.720 --> 48:45.220]  Building constant.
+[48:45.220 --> 48:53.220]  And building constant are really useful and save us time.
+[48:53.220 --> 48:57.220]  And you have a lot of them.
+[48:57.220 --> 49:02.720]  And the dialog box, message box, and the input box.
+[49:02.720 --> 49:04.720]  These are dialog box.
+[49:04.720 --> 49:07.220]  And they'll be OK.
+[49:07.660 --> 49:12.660]  And as long as you get these up, the constant and the border,
+[49:12.660 --> 49:19.660]  you can also control the border of your cell or bench
+[49:19.660 --> 49:22.660]  on five meters.
+[49:22.660 --> 49:26.160]  Then also, you can control the color.
+[49:26.160 --> 49:29.660]  And so navigation, as I was saying,
+[49:29.660 --> 49:32.160]  if you want to select, if you want to do something,
+[49:32.160 --> 49:34.660]  you can select a bench.
+[49:35.600 --> 49:38.100]  You can pocket first to select one cell.
+[49:38.100 --> 49:41.600]  Then you use mouse to right side and down.
+[49:41.600 --> 49:43.100]  Right?
+[49:43.100 --> 49:46.100]  That's what you can do here.
+[49:46.100 --> 49:51.100]  When you use the sorting, the sorting one,
+[49:51.100 --> 49:55.100]  then you sort and you are going to get this.
+[49:58.100 --> 50:03.100]  And so it's all the S1 alignment.
+[50:03.540 --> 50:06.540]  And that's alignment is for format.
+[50:06.540 --> 50:12.540]  If I have so many later here, I want to align them in the center.
+[50:12.540 --> 50:15.540]  And then that's the center.
+[50:15.540 --> 50:17.040]  It's like that.
+[50:17.040 --> 50:18.040]  It's still right.
+[50:18.040 --> 50:21.540]  It's still top, bottom.
+[50:21.540 --> 50:22.540]  And so on.
+[50:22.540 --> 50:25.540]  And how do we test copy paste?
+[50:25.540 --> 50:30.040]  As I mentioned, you need to paste values.
+[50:30.480 --> 50:34.480]  You need a lot of volume, so you need to do this.
+[50:34.480 --> 50:37.480]  Unless you paste the volume and so on.
+[50:37.480 --> 50:39.480]  And pivot table.
+[50:39.480 --> 50:42.980]  These are the four pivot table constants,
+[50:42.980 --> 50:45.480]  which are very useful.
+[50:45.480 --> 50:48.480]  We talked about after 15.
+[50:48.480 --> 50:51.480]  And we would use these.
+[50:51.480 --> 50:56.480]  And so we will say how to ascend in quality here.
+[50:56.920 --> 50:59.920]  So these constants are very useful.
+[51:06.420 --> 51:09.920]  Now, this is building functions.
+[51:09.920 --> 51:12.920]  Just now, it's building constant.
+[51:12.920 --> 51:15.920]  I have building function.
+[51:15.920 --> 51:17.920]  And building function, we have message box
+[51:17.920 --> 51:21.420]  and we interact with user.
+[51:21.860 --> 51:29.360]  And first, we're going to talk about message box.
+[51:29.360 --> 51:31.860]  So message box.
+[51:31.860 --> 51:36.860]  And as you can see here, you can use this message box
+[51:36.860 --> 51:42.360]  and prompt, buttons, title.
+[51:42.360 --> 51:44.860]  And the title means the box.
+[51:44.860 --> 51:46.360]  What is the title?
+[51:46.800 --> 51:49.800]  Button means it's OK or cancel.
+[51:49.800 --> 51:52.800]  OK, cancel, different options.
+[51:52.800 --> 51:56.800]  But you only need these.
+[51:56.800 --> 51:58.800]  It's required because you are going
+[51:58.800 --> 52:02.800]  to pop up what you want.
+[52:02.800 --> 52:06.800]  These are the options.
+[52:06.800 --> 52:11.300]  And you can do with this solo.
+[52:11.300 --> 52:15.800]  And you can without this.
+[52:16.740 --> 52:19.240]  Without, it's still OK.
+[52:19.240 --> 52:22.740]  But in this is the case, the result returned.
+[52:22.740 --> 52:24.740]  You can see here.
+[52:24.740 --> 52:29.740]  Sometimes we want to see maybe we give the message box.
+[52:29.740 --> 52:34.740]  If the message box has OK, cancel,
+[52:34.740 --> 52:38.740]  or ignore different selection, different results,
+[52:38.740 --> 52:42.240]  we want to see how user respond.
+[52:42.240 --> 52:45.240]  So that means you need to know the results.
+[52:46.180 --> 52:49.180]  And so that means you need to know the return.
+[52:49.180 --> 52:53.680]  In that case, and here this case is just one of these three
+[52:53.680 --> 52:54.180]  results.
+[52:54.180 --> 52:59.680]  You don't care about how they reply.
+[52:59.680 --> 53:05.680]  Here is, and I wanted to see, what do they reply?
+[53:05.680 --> 53:09.680]  Do they click OK or do they click cancel?
+[53:09.680 --> 53:13.180]  And so you want to have something here
+[53:13.620 --> 53:17.120]  equal to what?
+[53:17.120 --> 53:20.620]  And in this case, this is how to.
+[53:20.620 --> 53:23.120]  You have to put it in this case.
+[53:23.120 --> 53:24.120]  You might.
+[53:24.120 --> 53:26.120]  Maybe you need to have this.
+[53:26.120 --> 53:30.120]  But now, you want to see what would be the response?
+[53:30.120 --> 53:31.620]  How do I know?
+[53:31.620 --> 53:33.120]  And click OK.
+[53:33.120 --> 53:35.620]  Will that give the answer OK?
+[53:35.620 --> 53:36.620]  Or cancel?
+[53:36.620 --> 53:43.120]  No, actually, they use constant number to express that.
+[53:44.060 --> 53:49.560]  And so that's the reason now when you do this,
+[53:49.560 --> 53:53.560]  you see here we have an integer value instead of saying
+[53:53.560 --> 53:56.560]  that it's really an integer.
+[53:56.560 --> 53:59.560]  So in here, when you use results,
+[53:59.560 --> 54:03.560]  you have to declare results as integers, right?
+[54:03.560 --> 54:09.560]  Because you expect to have an integer returned, right?
+[54:09.560 --> 54:12.060]  Because you have to match both.
+[54:13.000 --> 54:16.500]  If you don't know, then it just means alert.
+[54:16.500 --> 54:17.000]  Right?
+[54:17.000 --> 54:17.500]  In that case.
+[54:20.000 --> 54:21.500]  OK.
+[54:21.500 --> 54:24.500]  So these are the statements you can
+[54:24.500 --> 54:32.500]  find out because all teachers have OK, OK, cancel.
+[54:32.500 --> 54:36.500]  And these are the options you can use.
+[54:36.500 --> 54:39.500]  Now, a different answer corresponds
+[54:39.940 --> 54:42.940]  to a different response.
+[54:42.940 --> 54:43.940]  We got here.
+[54:43.940 --> 54:44.940]  That's the value.
+[54:44.940 --> 54:47.940]  If you click on OK, then it just gives you what?
+[54:47.940 --> 54:53.440]  So let's say the return.
+[54:53.440 --> 54:53.940]  Right?
+[54:53.940 --> 54:56.440]  So for message box, without return,
+[54:56.440 --> 54:58.940]  you don't need to have the princesses.
+[54:58.940 --> 55:03.440]  But if you have and then you do the return states.
+[55:04.380 --> 55:05.880]  Right?
+[55:05.880 --> 55:10.380]  So now, next, you can see here.
+[55:13.380 --> 55:16.880]  This is a simple example.
+[55:16.880 --> 55:21.380]  Declare output as integer.
+[55:21.380 --> 55:23.880]  Now, for example, these.
+[55:23.880 --> 55:29.380]  Now, because I wanted to have return, right?
+[55:29.820 --> 55:34.320]  So message box of these.
+[55:34.320 --> 55:35.820]  You are.
+[55:35.820 --> 55:41.820]  So this will show the shoe here.
+[55:41.820 --> 55:46.820]  And this prompt and buttons and the title.
+[55:46.820 --> 55:52.320]  And if this is the sixth, then great.
+[55:52.320 --> 55:55.320]  And sixth corresponds, yes.
+[55:55.760 --> 55:59.760]  Then it will prompt this.
+[55:59.760 --> 56:04.760]  Otherwise, it will say, you are just not expert.
+[56:04.760 --> 56:07.260]  And then, eval.print.
+[56:07.260 --> 56:08.760]  Eval.print.
+[56:08.760 --> 56:10.260]  Eval.print.
+[56:10.260 --> 56:12.760]  Vpy.yes.
+[56:12.760 --> 56:14.760]  Vpy.yes.
+[56:14.760 --> 56:17.260]  Vpy.yes is a number, right?
+[56:17.260 --> 56:22.760]  I will use processes from previous slides.
+[56:22.760 --> 56:23.760]  Right?
+[56:24.700 --> 56:28.700]  So in what shoe in what window, when I have these,
+[56:28.700 --> 56:31.200]  what does that mean?
+[56:31.200 --> 56:33.200]  Eval.print.
+[56:33.200 --> 56:36.200]  In what shoe in what?
+[56:36.200 --> 56:36.700]  Where?
+[56:36.700 --> 56:38.200]  You see that.
+[56:38.200 --> 56:39.700]  Ones.
+[56:39.700 --> 56:42.200]  Yes, in which shoe, one center.
+[56:42.200 --> 56:46.700]  But in what shoe, whenever you see eval.print,
+[56:46.700 --> 56:51.200]  in what shoe in immediate, when not?
+[56:51.200 --> 56:52.700]  Smalls.
+[56:53.640 --> 56:56.640]  Immediate window.
+[56:56.640 --> 56:58.140]  Immediate window.
+[56:58.140 --> 57:01.640]  You have the default methods by what shoe in the video.
+[57:07.140 --> 57:09.640]  OK.
+[57:09.640 --> 57:13.140]  And so, in some of these.
+[57:13.140 --> 57:16.640]  And so whenever you execute this,
+[57:16.640 --> 57:19.140]  they will show you here, right?
+[57:19.140 --> 57:22.640]  And five more.
+[57:23.580 --> 57:24.580]  And a button.
+[57:24.580 --> 57:28.580]  A little button, and this is prompt.
+[57:28.580 --> 57:32.580]  And if you answer yes, it will go in this.
+[57:32.580 --> 57:35.580]  It will go in no, it will go in this.
+[57:35.580 --> 57:38.080]  Just here, you can see.
+[57:40.080 --> 57:44.080]  Now, if you see here, you don't have these.
+[57:44.080 --> 57:44.580]  Right?
+[57:44.580 --> 57:47.080]  Empty, leave empty for the buttons.
+[57:47.080 --> 57:51.580]  If you have empty, by default, it will just give you OK.
+[57:52.520 --> 57:54.020]  You just OK.
+[57:54.020 --> 57:54.520]  You see here?
+[57:54.520 --> 57:57.020]  But here you have maybe yes, no.
+[57:57.020 --> 58:01.020]  Means you have yes, no, two buttons.
+[58:01.020 --> 58:03.020]  So different buttons is different.
+[58:03.020 --> 58:05.020]  And if you're OK, you can ignore,
+[58:05.020 --> 58:10.020]  you can't wait, but just leave empty space here.
+[58:10.020 --> 58:12.520]  Right?
+[58:12.520 --> 58:15.020]  And eval.print, it will show you.
+[58:15.020 --> 58:17.020]  When I say here eval.print, you're
+[58:17.460 --> 58:19.460]  going to ignore it in the prompt.
+[58:19.460 --> 58:22.960]  But you need to use the S of that.
+[58:22.960 --> 58:23.460]  Right?
+[58:23.460 --> 58:27.960]  And that is this.
+[58:27.960 --> 58:35.460]  When you have the blocks, you also can show the,
+[58:35.460 --> 58:38.460]  you can also use this.
+[58:38.460 --> 58:42.960]  You see here, maybe yes, no.
+[58:43.400 --> 58:46.900]  Plus expression.
+[58:46.900 --> 58:51.400]  You can plus exclamation, make reverse sign,
+[58:51.400 --> 58:56.900]  make question sign, make exclamation, evalation.
+[58:56.900 --> 59:02.400]  So you can get more resourceful.
+[59:02.400 --> 59:05.400]  And you can use this plus to show you
+[59:05.400 --> 59:12.900]  two different icons in your message box.
+[59:13.340 --> 59:17.840]  And now, when I say next is, if I write a long sentence,
+[59:17.840 --> 59:19.840]  what can I do with this?
+[59:19.840 --> 59:22.840]  Sometimes I look up the message and I always
+[59:22.840 --> 59:24.340]  name it or feel it.
+[59:24.340 --> 59:25.840]  It's a long one.
+[59:25.840 --> 59:27.340]  Then you need to work.
+[59:27.340 --> 59:30.340]  You always use this type of space
+[59:30.340 --> 59:32.840]  followed by an underscroll.
+[59:32.840 --> 59:33.840]  You see here?
+[59:33.840 --> 59:36.340]  This one is a speech, this is an underscroll.
+[59:36.340 --> 59:40.840]  So that corresponds to one sentence.
+[59:41.280 --> 59:41.780]  Right?
+[59:45.280 --> 59:48.780]  As you execute space, underscroll.
+[59:48.780 --> 59:52.280]  You use this to look for the next line.
+[59:52.280 --> 59:54.780]  And here.
+[59:54.780 --> 59:57.280]  All right?
+[59:57.280 --> 01:00:00.280]  So that's how you break a sentence.
+[01:00:00.280 --> 01:00:04.780]  Now, so we just learned the message box.
+[01:00:04.780 --> 01:00:09.280]  The message box, M-S-T-P-O-S.
+[01:00:09.280 --> 01:00:10.780]  The message box.
+[01:00:11.220 --> 01:00:12.720]  Next is input box.
+[01:00:12.720 --> 01:00:13.720]  Input box.
+[01:00:13.720 --> 01:00:16.220]  Just use input box.
+[01:00:16.220 --> 01:00:21.220]  Now, as you see here, input box normally
+[01:00:21.220 --> 01:00:24.720]  refers to you want as a user.
+[01:00:24.720 --> 01:00:31.220]  Because you want to let a user to do input.
+[01:00:31.220 --> 01:00:33.220]  When I say, what's your name?
+[01:00:33.220 --> 01:00:34.220]  What's your name?
+[01:00:34.220 --> 01:00:36.220]  You're appearing in the front.
+[01:00:36.220 --> 01:00:38.220]  What's your name, right?
+[01:00:38.220 --> 01:00:40.220]  So you want to get information.
+[01:00:40.660 --> 01:00:43.660]  That means you need to have a return, right?
+[01:00:43.660 --> 01:00:50.160]  And to prompt the type of default,
+[01:00:50.160 --> 01:00:51.660]  by looking for the default value.
+[01:00:51.660 --> 01:00:56.160]  These are the options that we've compiled.
+[01:00:56.160 --> 01:00:59.660]  And so because it has a return, you
+[01:00:59.660 --> 01:01:03.160]  do need to have a parenthesis.
+[01:01:03.160 --> 01:01:07.660]  Now, also, by default, it returns a string value.
+[01:01:10.220 --> 01:01:12.220]  To this my value.
+[01:01:12.220 --> 01:01:13.220]  Right?
+[01:01:13.220 --> 01:01:17.220]  And now, that's how we write here.
+[01:01:17.220 --> 01:01:21.700]  For example, I have these input box.
+[01:01:21.700 --> 01:01:24.700]  Enter the name, then the name.
+[01:01:24.700 --> 01:01:27.700]  This is title, and the input box.
+[01:01:27.700 --> 01:01:30.200]  Message box, title.
+[01:01:30.200 --> 01:01:33.700]  And here's the message box.
+[01:01:33.700 --> 01:01:35.200]  You see here?
+[01:01:35.200 --> 01:01:36.700]  Enter name.
+[01:01:36.700 --> 01:01:39.200]  And you see here, title.
+[01:01:39.680 --> 01:01:41.680]  So on the top, always, like here,
+[01:01:41.680 --> 01:01:50.160]  is prompt into your family name by default, like here.
+[01:01:50.160 --> 01:01:50.660]  Wait.
+[01:01:50.660 --> 01:01:52.660]  This might be a bit big.
+[01:01:52.660 --> 01:01:56.160]  And so that's how we have.
+[01:01:56.160 --> 01:02:01.160]  And this, after you go here, and after you do this,
+[01:02:01.160 --> 01:02:05.660]  then you're going to have this string information given
+[01:02:05.660 --> 01:02:07.160]  to my family.
+[01:02:07.620 --> 01:02:14.120]  That's how you get the resource of information.
+[01:02:14.120 --> 01:02:16.620]  Right?
+[01:02:16.620 --> 01:02:19.120]  So I call a prompt default value.
+[01:02:23.120 --> 01:02:25.120]  If you don't put a default value,
+[01:02:25.120 --> 01:02:26.620]  then it will leave empty.
+[01:02:27.580 --> 01:02:43.580]  Then what if, as we said, it will return the value input
+[01:02:43.580 --> 01:02:47.580]  and there, and you have to match, right?
+[01:02:47.580 --> 01:02:51.580]  And on the left, my value, and that type
+[01:02:51.580 --> 01:02:56.080]  will see it as the right side returned.
+[01:02:57.040 --> 01:03:00.540]  So I want to use to declare this as a string.
+[01:03:00.540 --> 01:03:07.040]  It has to return a string information.
+[01:03:07.040 --> 01:03:09.040]  Now, what if you don't know?
+100.117.97.99 - - [17/Sep/2025 10:07:05] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 10:07:05] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 10:07:05] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 10:07:05] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 10:07:05] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 10:07:05] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 10:07:12] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 10:19:40] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 10:19:48] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 10:19:48] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 10:19:48] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 10:19:48] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 10:19:48] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 10:19:48] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 10:19:51] "GET /session/14 HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 14:27:38] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 14:27:38] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 14:27:38] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 14:27:38] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 14:27:38] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 14:27:38] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 14:27:41] "GET /session/14 HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 14:28:02] "POST /edit/14 HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 14:28:02] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 14:28:07] "POST /transcripts/14/move HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 14:28:07] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 15:58:25] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 15:58:26] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [17/Sep/2025 15:58:26] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [17/Sep/2025 15:58:26] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 15:58:26] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [17/Sep/2025 15:58:26] "GET /favicon.ico HTTP/1.1" 404 -
+100.69.197.53 - - [17/Sep/2025 15:58:28] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [17/Sep/2025 15:58:58] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [17/Sep/2025 15:59:49] "GET /session/13 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 16:00:21] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [17/Sep/2025 16:02:15] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 16:02:15] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [17/Sep/2025 16:02:15] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [17/Sep/2025 16:02:16] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 16:02:16] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [17/Sep/2025 16:02:17] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [17/Sep/2025 16:02:47] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [17/Sep/2025 16:08:02] "GET /session/10 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 16:08:34] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [17/Sep/2025 17:08:00] "POST /transcribe HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:03] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:06] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:09] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:12] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:15] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:18] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:21] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:24] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:27] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:30] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:33] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:36] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:39] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:42] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:45] "GET /status/22 HTTP/1.1" 200 -
+[01:03:09.040 --> 01:03:13.540]  For the data, I want to put a data not string.
+[01:03:13.540 --> 01:03:17.540]  And you can put here, my value as a parent,
+[01:03:17.540 --> 01:03:22.040]  such that it will give you if this data is an integer,
+[01:03:22.040 --> 01:03:23.540]  it will give you an integer.
+[01:03:23.540 --> 01:03:24.040]  Right?
+[01:03:27.040 --> 01:03:31.540]  And now, without showing the title,
+[01:03:31.540 --> 01:03:36.540]  you see here, leave empty in the middle.
+[01:03:36.540 --> 01:03:39.040]  So here, all the issues will be solved.
+[01:03:39.040 --> 01:03:41.040]  Microsoft will be solved.
+[01:03:41.040 --> 01:03:44.040]  And what if I have these?
+[01:03:44.040 --> 01:03:48.540]  But if you don't have this default option,
+[01:03:48.540 --> 01:03:51.040]  you just don't need that.
+[01:03:51.040 --> 01:03:55.040]  So you may have two, you don't have three.
+[01:03:55.500 --> 01:04:02.000]  So that's how you do the input box.
+[01:04:02.000 --> 01:04:03.500]  OK?
+[01:04:03.500 --> 01:04:13.000]  Then next, and format functions, and format functions.
+[01:04:13.000 --> 01:04:15.000]  Format functions.
+[01:04:15.000 --> 01:04:20.000]  And we have format as if you click the sale on the right side,
+[01:04:20.000 --> 01:04:22.500]  you can see format for sale.
+[01:04:23.460 --> 01:04:32.960]  And custom is available types you can do in here.
+[01:04:32.960 --> 01:04:37.460]  So how do we do that?
+[01:04:37.460 --> 01:04:39.460]  These are the options.
+[01:04:39.460 --> 01:04:41.460]  How do we do that?
+[01:04:41.460 --> 01:04:42.960]  We can do it in this way.
+[01:04:42.960 --> 01:04:44.460]  Format.
+[01:04:44.460 --> 01:04:46.460]  So that's format.
+[01:04:46.460 --> 01:04:47.960]  Is it here?
+[01:04:47.960 --> 01:04:48.960]  This is the number.
+[01:04:48.960 --> 01:04:51.960]  I want it to format this number.
+[01:04:52.920 --> 01:04:55.420]  But if you don't have this number, you have variable.
+[01:04:55.420 --> 01:04:56.920]  That's OK, right?
+[01:04:56.920 --> 01:04:58.920]  Because you hold the numbers.
+[01:04:58.920 --> 01:05:00.920]  Then you have these.
+[01:05:00.920 --> 01:05:03.920]  That's the number, by double quote.
+[01:05:03.920 --> 01:05:06.420]  That's the type of here.
+[01:05:06.420 --> 01:05:09.920]  And this here, this is for custom, but also here,
+[01:05:09.920 --> 01:05:11.920]  for numbering, you have two digits.
+[01:05:11.920 --> 01:05:13.920]  And we have different digits.
+[01:05:13.920 --> 01:05:15.920]  Right?
+[01:05:15.920 --> 01:05:19.420]  And so that's the sentence you can do.
+[01:05:20.380 --> 01:05:22.380]  And then the percentage of my here,
+[01:05:22.380 --> 01:05:24.380]  we have the percentage of.
+[01:05:24.380 --> 01:05:27.380]  And these are for the year old.
+[01:05:27.380 --> 01:05:29.380]  And also we can do for the date.
+[01:05:29.380 --> 01:05:30.380]  Right?
+[01:05:30.380 --> 01:05:34.380]  Different options we can do here.
+[01:05:34.380 --> 01:05:38.380]  You see here, I have debug.print.
+[01:05:38.380 --> 01:05:45.380]  And then that results will show just a VBA edge window.
+[01:05:46.340 --> 01:05:49.340]  And then you will see the results.
+[01:05:49.340 --> 01:05:51.340]  The result is final.
+[01:05:51.340 --> 01:05:53.340]  And you can debug.
+[01:05:56.340 --> 01:05:58.340]  All right.
+[01:05:58.340 --> 01:06:00.340]  And next is the string.
+[01:06:04.340 --> 01:06:06.340]  And strings.
+[01:06:06.340 --> 01:06:09.340]  Strings.
+[01:06:09.340 --> 01:06:11.340]  Strings, when we declare, it just
+[01:06:12.300 --> 01:06:17.300]  string, and message is equal to this.
+[01:06:17.300 --> 01:06:22.300]  Then we can use this variable name for the message box.
+[01:06:22.300 --> 01:06:23.300]  Right?
+[01:06:23.300 --> 01:06:26.300]  The message box, if you look here,
+[01:06:26.300 --> 01:06:28.300]  did I use the princesses?
+[01:06:28.300 --> 01:06:30.300]  No, I didn't.
+[01:06:30.300 --> 01:06:31.300]  Because of what?
+[01:06:31.300 --> 01:06:32.300]  I don't want to return.
+[01:06:32.300 --> 01:06:34.300]  I don't need to return.
+[01:06:34.300 --> 01:06:36.300]  If you don't need to return, you don't
+[01:06:36.300 --> 01:06:39.300]  need to have that princesses.
+[01:06:40.260 --> 01:06:42.260]  So the result will be the Christmas
+[01:06:42.260 --> 01:06:44.260]  box for this year.
+[01:06:44.260 --> 01:06:45.260]  Hello.
+[01:06:45.260 --> 01:06:47.260]  Hello, which is here.
+[01:06:47.260 --> 01:06:48.260]  Hi.
+[01:06:48.260 --> 01:06:50.260]  And here is prompt.
+[01:06:50.260 --> 01:06:52.260]  Prompt is here.
+[01:06:52.260 --> 01:06:55.260]  And that's OK.
+[01:07:00.260 --> 01:07:03.260]  Now, if you want, I want to say more.
+[01:07:03.260 --> 01:07:05.260]  We have two explanations.
+[01:07:05.260 --> 01:07:08.260]  And it's Amazon.
+[01:07:09.220 --> 01:07:13.220]  So if I say, OK, I want to have this message.
+[01:07:13.220 --> 01:07:15.220]  I want to cry.
+[01:07:15.220 --> 01:07:19.220]  You guys, on your course instruction,
+[01:07:19.220 --> 01:07:20.220]  so cry, you guys.
+[01:07:20.220 --> 01:07:23.220]  But in the future, you need to use the space
+[01:07:23.220 --> 01:07:25.220]  to separate, to separate.
+[01:07:25.220 --> 01:07:26.220]  Right?
+[01:07:26.220 --> 01:07:27.220]  So you just use this.
+[01:07:27.220 --> 01:07:29.220]  It's Amazon.
+[01:07:29.220 --> 01:07:30.220]  Right.
+[01:07:30.220 --> 01:07:33.220]  So that's how you connect.
+[01:07:33.220 --> 01:07:35.220]  Incarnate.
+[01:07:35.220 --> 01:07:37.220]  Your strings is Amazon.
+[01:07:39.220 --> 01:07:42.220]  And that's it.
+[01:07:42.220 --> 01:07:44.220]  That's how you do.
+[01:07:44.220 --> 01:07:48.220]  And now, the message box is showing this.
+[01:07:48.220 --> 01:07:49.220]  Then next.
+[01:07:49.220 --> 01:07:54.220]  And this one is the two important things here now.
+[01:07:54.220 --> 01:07:57.220]  For the string functions, because we really
+[01:07:57.220 --> 01:07:59.220]  need to do the strings a lot.
+[01:07:59.220 --> 01:08:02.220]  You want to take the strings, take
+[01:08:02.220 --> 01:08:04.220]  the information about the strings.
+[01:08:04.220 --> 01:08:07.220]  So really, and you have left and the right.
+[01:08:08.180 --> 01:08:09.180]  Is this string.
+[01:08:09.180 --> 01:08:11.180]  You're starting from the left.
+[01:08:11.180 --> 01:08:13.180]  You want to take five letters.
+[01:08:13.180 --> 01:08:14.180]  See here.
+[01:08:14.180 --> 01:08:17.180]  You want to start from right side taking five.
+[01:08:17.180 --> 01:08:18.180]  Right.
+[01:08:18.180 --> 01:08:21.180]  So you have two strings.
+[01:08:21.180 --> 01:08:24.180]  And how many right?
+[01:08:24.180 --> 01:08:26.180]  The left.
+[01:08:26.180 --> 01:08:29.180]  And then on the middle, it means you
+[01:08:29.180 --> 01:08:33.180]  don't need to take from the first left or right.
+[01:08:33.180 --> 01:08:37.180]  You have to take from this middle part.
+[01:08:38.140 --> 01:08:39.140]  The string.
+[01:08:39.140 --> 01:08:40.140]  Start.
+[01:08:40.140 --> 01:08:41.140]  Start from number three.
+[01:08:41.140 --> 01:08:42.140]  One, two, three.
+[01:08:42.140 --> 01:08:43.140]  So you start from three.
+[01:08:43.140 --> 01:08:46.140]  Take five.
+[01:08:46.140 --> 01:08:49.140]  That's how you have.
+[01:08:49.140 --> 01:08:52.140]  And how long is the string?
+[01:08:52.140 --> 01:08:54.140]  That's one, two, three, four, five.
+[01:08:54.140 --> 01:08:56.140]  How long?
+[01:08:56.140 --> 01:08:58.140]  And then you case.
+[01:08:58.140 --> 01:09:00.140]  So you know, up case.
+[01:09:00.140 --> 01:09:01.140]  Lower case.
+[01:09:01.140 --> 01:09:03.140]  Up, lower.
+[01:09:03.140 --> 01:09:05.140]  Somebody you want to uniform.
+[01:09:05.140 --> 01:09:07.140]  You want everything to be the same.
+[01:09:08.100 --> 01:09:10.100]  A lot of cases you can replace.
+[01:09:10.100 --> 01:09:12.100]  A lot of cases you can replace.
+[01:09:12.100 --> 01:09:16.100]  For example, this is a region on the string.
+[01:09:16.100 --> 01:09:18.100]  I want to replace.
+[01:09:18.100 --> 01:09:20.100]  I want to delete actually this one.
+100.69.197.53 - - [17/Sep/2025 17:08:48] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:51] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:54] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:55] "GET /queue_status HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:08:57] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:01] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:03] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:07] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:09] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:12] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:15] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:18] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:21] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:24] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:27] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:30] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:33] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:36] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:39] "GET /status/22 HTTP/1.1" 200 -
+[01:09:20.100 --> 01:09:24.100]  So I can replace this, the character in which
+[01:09:24.100 --> 01:09:28.100]  you want double quote together.
+[01:09:28.100 --> 01:09:31.100]  So that means I want to delete that.
+[01:09:31.100 --> 01:09:32.100]  Right.
+[01:09:32.100 --> 01:09:33.100]  This is empty.
+[01:09:33.100 --> 01:09:35.100]  But if you have double quote and have a space,
+[01:09:36.060 --> 01:09:38.060]  then it becomes A, space B.
+[01:09:38.060 --> 01:09:39.060]  Right.
+[01:09:39.060 --> 01:09:40.060]  So that's how you do it.
+[01:09:40.060 --> 01:09:42.060]  Here now I don't have anything.
+[01:09:42.060 --> 01:09:45.060]  And then so on.
+[01:09:45.060 --> 01:09:51.060]  And also you can find the spatial character's position.
+[01:09:51.060 --> 01:09:53.060]  You can return the position.
+[01:09:53.060 --> 01:09:56.060]  So by this, all return for the character.
+[01:09:56.060 --> 01:10:00.060]  Now is for the position.
+[01:10:00.060 --> 01:10:04.060]  And then where is the spatial character position?
+[01:10:05.020 --> 01:10:10.020]  So that's which position you want to start your spatial.
+[01:10:10.020 --> 01:10:15.020]  And that's where it means you start it from here.
+[01:10:15.020 --> 01:10:19.020]  When you go to the fourth fight, you see this one.
+[01:10:19.020 --> 01:10:22.020]  If you don't have that, that's terrible.
+[01:10:22.020 --> 01:10:26.020]  And some of these are also useful.
+[01:10:26.020 --> 01:10:29.020]  You can cast them here.
+[01:10:29.020 --> 01:10:31.020]  That's what is spring.
+[01:10:31.020 --> 01:10:33.020]  That's what is spring.
+[01:10:33.980 --> 01:10:38.980]  Well, that's all for today.
+[01:10:38.980 --> 01:10:41.980]  So today we learned a lot.
+[01:10:41.980 --> 01:10:44.980]  I'll continue in the next.
+[01:10:44.980 --> 01:10:46.980]  So see you guys next week.
+--- Transcription Finished ---
+--- Generating Notes with Ollama ---
+--- Notes Generation Finished ---
+Job 21 finalized and removed from queue.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+Queue processor checking for a new job...
+Processing job 22: recording_2025-09-17T21-07-25.mp4
+--- Starting Transcription for ../uploads\b2f96d5b-cab4-4682-97e9-0bf15758fd94.mp4 ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:08.000]  But because I do not want to be any more delayed, maybe what I'll do is I will record myself,
+[00:08.000 --> 00:15.000]  like I said on Monday, I'll put it on my learning stage, you watch that before next class, and
+[00:15.000 --> 00:19.000]  then I will do a little bit because I'm not supposed to be recording myself.
+[00:19.000 --> 00:20.000]  Okay?
+[00:20.000 --> 00:21.000]  Between you and me.
+[00:21.000 --> 00:22.000]  Okay?
+[00:22.000 --> 00:30.000]  And then hopefully I will be like on stage, like working with other instructors on the
+[00:30.000 --> 00:31.000]  trackers.
+[00:31.000 --> 00:33.000]  So I don't want to do it at the very end.
+[00:33.000 --> 00:36.000]  I could just keep doing it, but then at the very end you will get too overwhelmed and
+[00:36.000 --> 00:39.000]  you'll be like, oh my god, there's so much I have to now watch a video and I have to
+[00:39.000 --> 00:41.000]  study for the test and I don't want that.
+[00:41.000 --> 00:42.000]  Okay?
+[00:42.000 --> 00:43.000]  Alright.
+[00:43.000 --> 00:49.000]  So we were talking about personality and we talked about the strength and weakness.
+[00:49.000 --> 00:53.000]  So I want to bring to your attention this particular study.
+[00:53.000 --> 00:54.000]  Okay?
+[00:54.000 --> 01:01.000]  So this is just to show you that there is research to back up on our personality.
+[01:01.000 --> 01:02.000]  Okay?
+[01:02.000 --> 01:06.000]  So this was done by Barrick and Mell in 1993.
+[01:06.000 --> 01:16.000]  And so basically what they did was they conducted a study where they examined the role of autonomy
+[01:16.000 --> 01:18.000]  in a relationship.
+[01:18.000 --> 01:23.000]  And that relationship was basically conscientiousness and job performance.
+[01:23.000 --> 01:24.000]  Okay?
+[01:24.000 --> 01:28.000]  So you'll learn about conscientiousness in a few minutes, but what's enough?
+[01:28.000 --> 01:29.000]  Autonomy.
+[01:29.000 --> 01:38.000]  So autonomy basically is the extent to which a job provides you with freedom, with independence,
+[01:38.000 --> 01:46.000]  with discretion in terms of things like scheduling work, determining the procedures to be used,
+[01:46.000 --> 01:47.000]  and so forth.
+[01:47.000 --> 01:48.000]  Okay?
+[01:48.000 --> 01:51.000]  So autonomy is basically having the freedom to do what we want to do.
+[01:51.000 --> 01:52.000]  Okay?
+[01:52.000 --> 02:02.000]  So as you can imagine, high autonomy is consistent with the notion of which one of the two?
+[02:02.000 --> 02:06.000]  Is it a weak or a strong situation?
+[02:08.000 --> 02:12.000]  This is how we have had to find a weak and a strong.
+[02:12.000 --> 02:17.000]  So where do you think high autonomy, which is having more freedom, will be more prominent?
+[02:17.000 --> 02:20.000]  Prominent.
+[02:22.000 --> 02:23.000]  In a weak situation.
+[02:23.000 --> 02:24.000]  In a weak situation.
+[02:24.000 --> 02:25.000]  Why is that?
+[02:25.000 --> 02:30.000]  Because there's less rules, less pressure, so you have more freedom.
+[02:30.000 --> 02:31.000]  Exactly.
+[02:31.000 --> 02:32.000]  Good.
+[02:32.000 --> 02:33.000]  What is your name again?
+[02:33.000 --> 02:34.000]  Mona.
+[02:34.000 --> 02:35.000]  Mona, okay.
+[02:35.000 --> 02:36.000]  So just remind me of your name again.
+[02:36.000 --> 02:37.000]  Okay?
+[02:37.000 --> 02:38.000]  All right.
+[02:38.000 --> 02:46.000]  So low autonomy, more or consistent with weak situation, and then low autonomy is more
+[02:46.000 --> 02:49.000]  consistent with the notion of a strong situation.
+[02:49.000 --> 02:50.000]  Right?
+[02:50.000 --> 02:51.000]  Okay.
+[02:51.000 --> 03:02.000]  So conscientiousness is basically, so I'll talk about this in a few minutes, but conscientiousness
+[03:02.000 --> 03:07.000]  has to do with how hardworking you are or how dependable you are.
+[03:07.000 --> 03:08.000]  Right?
+[03:08.000 --> 03:12.000]  So these are some of the adjectives I go with conscientiousness.
+[03:12.000 --> 03:15.000]  So what do you think would happen?
+[03:15.000 --> 03:23.000]  First of all, the more, the higher the conscientiousness, the less or more likely you are to perform
+[03:23.000 --> 03:24.000]  well.
+[03:24.000 --> 03:25.000]  What do you think?
+[03:25.000 --> 03:26.000]  More.
+[03:26.000 --> 03:27.000]  More, right?
+[03:27.000 --> 03:28.000]  Yes.
+[03:29.000 --> 03:36.000]  So there is a positive correlation or relationship between conscientiousness and performance.
+[03:36.000 --> 03:37.000]  Name again.
+[03:37.000 --> 03:38.000]  Mustafa.
+[03:38.000 --> 03:39.000]  Mustafa.
+[03:39.000 --> 03:40.000]  Okay.
+[03:40.000 --> 03:41.000]  All right.
+[03:41.000 --> 03:43.000]  So what is it that they found?
+[03:43.000 --> 03:44.000]  Okay.
+[03:44.000 --> 03:50.000]  So they brought in a new variable which was autonomy, and what is it that they found?
+[03:50.000 --> 03:57.000]  So they found that in low autonomy situations, okay, there was essentially no relationship
+[03:58.000 --> 04:01.000]  between conscientiousness and performance.
+[04:01.000 --> 04:02.000]  Okay.
+[04:02.000 --> 04:04.000]  That's what you see on there.
+[04:04.000 --> 04:11.000]  So in such situations, basically what that means is that the rules, the rules, the procedures,
+[04:11.000 --> 04:14.000]  it was quite defined, right?
+[04:14.000 --> 04:17.000]  And so, what is that?
+[04:17.000 --> 04:19.000]  What is that?
+[04:19.000 --> 04:21.000]  That alacrino, right?
+[04:21.000 --> 04:22.000]  Oh.
+[04:22.000 --> 04:25.000]  I don't know what that is.
+[04:26.000 --> 04:29.000]  I was just saying, oh no, what did I do?
+[04:29.000 --> 04:32.000]  Oh, you need to tell me because I'm mute.
+[04:32.000 --> 04:33.000]  Okay.100.69.197.53 - - [17/Sep/2025 17:09:42] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:45] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:48] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:51] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:54] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:09:57] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:00] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:03] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:06] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:09] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:12] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:15] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:18] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:21] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:24] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:27] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:30] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:33] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:36] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:39] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:42] "GET /status/22 HTTP/1.1" 200 -
+
+[04:33.000 --> 04:40.000]  So they're well defined, and so then there is little room for individual to really express
+[04:40.000 --> 04:42.000]  his or her personality.
+[04:42.000 --> 04:47.000]  But in high autonomy, which is what you see in the solid, what do they find?
+[04:48.000 --> 04:55.000]  They actually find that strong relationship between conscientiousness and job performance,
+[04:55.000 --> 04:56.000]  right?
+[04:56.000 --> 05:00.000]  So the situation is weak, right?
+[05:00.000 --> 05:04.000]  Roles are less loosely defined.
+[05:04.000 --> 05:07.000]  There are few rules, right?
+[05:07.000 --> 05:11.000]  And so basically, you see performance go up.
+[05:11.000 --> 05:12.000]  Okay.
+[05:12.000 --> 05:16.000]  So bottom line, I will never ask you this on a test, first of all, but I want to demonstrate
+[05:17.000 --> 05:28.000]  to you using a research study that personality really does have a strong effect in weak situations.
+[05:28.000 --> 05:29.000]  Okay?
+[05:29.000 --> 05:31.000]  Does that make sense?
+[05:31.000 --> 05:32.000]  Yes?
+[05:32.000 --> 05:33.000]  Okay.
+[05:33.000 --> 05:34.000]  All right.
+[05:34.000 --> 05:35.000]  Good.
+[05:35.000 --> 05:36.000]  All right.
+[05:36.000 --> 05:38.000]  So how do we go about testing personality?
+[05:38.000 --> 05:43.000]  Well, there are two different ways in which you can do this, okay?
+[05:43.000 --> 05:47.000]  There is self-report, and then there is observation.
+[05:49.000 --> 05:50.000]  Okay.
+[05:50.000 --> 05:57.000]  So self-report basically is sort of like what I had you do in a clinic.
+[05:57.000 --> 06:03.000]  Remember on Monday I said, would you mind completing this scale, right?
+[06:03.000 --> 06:09.000]  So you respond to a question or a couple of questions using a Likert scale, which is the
+[06:09.000 --> 06:12.000]  scale that you saw, that self-report, right?
+[06:13.000 --> 06:17.000]  Observational is where someone describes you.
+[06:19.000 --> 06:20.000]  Okay.
+[06:20.000 --> 06:25.000]  So basically, you would see this in a job situation.
+[06:25.000 --> 06:26.000]  Okay.
+[06:26.000 --> 06:30.000]  In a job interview, what is it that they're doing?
+[06:30.000 --> 06:32.000]  Someone is asking you questions, right?
+[06:32.000 --> 06:34.000]  So they're noticing your behavior.
+[06:34.000 --> 06:36.000]  They're rating your responses.
+[06:36.000 --> 06:40.000]  They're trying to figure out what kind of a person you are, right?
+[06:40.000 --> 06:45.000]  They're trying to ask themselves, do we actually want this person based on the personality
+[06:45.000 --> 06:47.000]  that they're demonstrating, right?
+[06:47.000 --> 06:52.000]  Is this person a good fit for this particular job based on what we see?
+[06:53.000 --> 06:54.000]  Okay.
+[06:54.000 --> 06:58.000]  So those are the two different ways in which you can assess personality.
+[06:59.000 --> 07:05.000]  But as you can just imagine, both of them have their pros and cons, right?
+[07:05.000 --> 07:09.000]  So for example, self-report, what might we see?
+[07:10.000 --> 07:11.000]  We can see people pick.
+[07:11.000 --> 07:12.000]  Oh yeah, sorry, go on.
+[07:12.000 --> 07:13.000]  Sure, I'll ask the question.
+[07:13.000 --> 07:14.000]  What would you?
+[07:14.000 --> 07:15.000]  Yes?
+[07:15.000 --> 07:16.000]  Bias.
+[07:16.000 --> 07:17.000]  Bias.
+[07:17.000 --> 07:18.000]  With what sense?
+[07:18.000 --> 07:20.000]  I think you want to create a better life.
+[07:20.000 --> 07:21.000]  Yeah, right?
+[07:21.000 --> 07:24.000]  So it's not, that's called social desirability.
+[07:24.000 --> 07:25.000]  Okay?
+[07:25.000 --> 07:29.000]  So you're kind of presenting yourself, or impression management.
+[07:29.000 --> 07:34.000]  You're trying to present yourself in a positive light, in a way that the other person might
+[07:34.000 --> 07:35.000]  want to see.
+[07:36.000 --> 07:38.000]  I think it was Rayman.
+[07:38.000 --> 07:39.000]  Yeah.
+[07:39.000 --> 07:40.000]  Rayman.
+[07:40.000 --> 07:41.000]  Rayman.
+[07:43.000 --> 07:44.000]  Albert.
+[07:44.000 --> 07:48.000]  Albert, Rayman, Aaron.
+[07:48.000 --> 07:49.000]  Yep.
+[07:49.000 --> 07:50.000]  Great.
+[07:50.000 --> 07:51.000]  Go on.
+[07:51.000 --> 07:52.000]  Go on.
+[07:52.000 --> 07:53.000]  Janine.
+[07:53.000 --> 07:54.000]  Erica.
+[07:54.000 --> 07:55.000]  Yep.
+[07:55.000 --> 07:56.000]  Good.
+[07:56.000 --> 07:57.000]  Har something.
+[07:57.000 --> 07:58.000]  Yeah.
+[07:58.000 --> 08:01.000]  What did you put again?
+[08:01.000 --> 08:02.000]  Harky rap.
+[08:02.000 --> 08:03.000]  Harky rap.
+[08:03.000 --> 08:04.000]  Yeah.
+[08:04.000 --> 08:05.000]  And then the opposite was on?
+[08:05.000 --> 08:06.000]  By character.
+[08:06.000 --> 08:07.000]  No, opposite, but similar.
+[08:07.000 --> 08:08.000]  Similar.
+[08:08.000 --> 08:09.000]  Haricum.
+[08:09.000 --> 08:10.000]  Haricum.
+[08:10.000 --> 08:11.000]  Haricum.
+[08:11.000 --> 08:12.000]  Haricum.
+[08:12.000 --> 08:13.000]  Haricum.
+[08:13.000 --> 08:14.000]  Haricum.
+[08:14.000 --> 08:15.000]  Haricum.
+[08:15.000 --> 08:16.000]  Yeah.
+[08:16.000 --> 08:17.000]  Right?
+[08:17.000 --> 08:18.000]  Yeah.
+[08:18.000 --> 08:19.000]  Have I said it right?
+[08:19.000 --> 08:20.000]  Yeah, kind of.
+[08:20.000 --> 08:21.000]  Yeah, yeah, yeah.
+[08:21.000 --> 08:22.000]  Harky rap.
+[08:22.000 --> 08:23.000]  Yeah.
+[08:23.000 --> 08:24.000]  Yeah.
+[08:24.000 --> 08:25.000]  Yeah.
+[08:25.000 --> 08:26.000]  Yeah.
+[08:26.000 --> 08:27.000]  Yeah.
+[08:27.000 --> 08:28.000]  Yeah.
+[08:28.000 --> 08:29.000]  Yeah.
+[08:29.000 --> 08:30.000]  Yeah.
+[08:30.000 --> 08:31.000]  Yeah.
+[08:31.000 --> 08:32.000]  Yeah.
+[08:32.000 --> 08:33.000]  Yeah.
+[08:33.000 --> 08:34.000]  Harky rap.
+[08:34.000 --> 08:35.000]  Harky rap.
+[08:35.000 --> 08:36.000]  Yeah.
+[08:36.000 --> 08:37.000]  Rap.
+[08:37.000 --> 08:38.000]  Yeah.
+[08:38.000 --> 08:39.000]  Like night.
+[08:39.000 --> 08:40.000]  Yeah.
+[08:40.000 --> 08:41.000]  Right?
+[08:41.000 --> 08:42.000]  Yeah.
+[08:42.000 --> 08:43.000]  Okay.
+[08:43.000 --> 08:44.000]  Harky rap.
+[08:44.000 --> 08:45.000]  Yeah.
+[08:45.000 --> 08:46.000]  Haricum.
+[08:46.000 --> 08:47.000]  Haricum.
+[08:47.000 --> 08:48.000]  Haricum.
+[08:48.000 --> 08:49.000]  Yeah.
+[08:49.000 --> 08:50.000]  Haricum.
+[08:50.000 --> 08:51.000]  Mustafa and Mona.
+[08:51.000 --> 08:52.000]  Trenton.
+[08:52.000 --> 08:53.000]  That one I got right.
+[08:53.000 --> 08:54.000]  And Zoher.
+[08:54.000 --> 08:55.000]  Zoher.
+[08:55.000 --> 08:56.000]  Zoher.
+[08:56.000 --> 08:57.000]  Zoher.
+[08:57.000 --> 08:58.000]  Zoher.
+[08:58.000 --> 08:59.000]  Zoher.
+[08:59.000 --> 09:00.000]  Zoher.
+[09:00.000 --> 09:01.000]  Zoher.
+[09:01.000 --> 09:02.000]  Zoher.
+[09:02.000 --> 09:03.000]  Zoher.
+[09:03.000 --> 09:04.000]  Zoher.
+[09:04.000 --> 09:05.000]  Okay.
+[09:05.000 --> 09:06.000]  Zoher.
+[09:06.000 --> 09:07.000]  You said no.
+[09:07.000 --> 09:08.000]  Errors.
+[09:08.000 --> 09:09.000]  Errors.
+[09:09.000 --> 09:10.000]  Okay.
+[09:10.000 --> 09:11.000]  Anyway, I'll change the names.
+[09:11.000 --> 09:12.000]  I'll change the names.
+[09:12.000 --> 09:13.000]  Okay.
+[09:13.000 --> 09:14.000]  All right.
+[09:14.000 --> 09:15.000]  Okay.
+[09:15.000 --> 09:16.000]  So what might other people think?
+[09:16.000 --> 09:17.000]  They might think it.
+[09:17.000 --> 09:18.000]  Right?
+[09:18.000 --> 09:19.000]  So social desirability, impression management, thinking it.
+[09:19.000 --> 09:20.000]  And with alterational thinking, right?
+[09:20.000 --> 09:21.000]  Yeah.
+[09:21.000 --> 09:22.000]  Yeah.
+[09:22.000 --> 09:23.000]  Yeah.
+[09:23.000 --> 09:24.000]  Yeah.
+[09:24.000 --> 09:25.000]  Yeah.
+[09:25.000 --> 09:26.000]  Yeah.
+[09:26.000 --> 09:27.000]  Yeah.
+[09:27.000 --> 09:28.000]  Yeah.
+[09:28.000 --> 09:29.000]  Yeah.
+[09:29.000 --> 09:30.000]  Yeah.
+[09:30.000 --> 09:31.000]  Yeah.
+[09:31.000 --> 09:32.000]  So, thinking, right?
+[09:32.000 --> 09:36.440]  Like, you might be even a certain, when we go for our job interviews, we're putting our
+100.69.197.53 - - [17/Sep/2025 17:10:45] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:48] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:51] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:54] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:10:57] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:00] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:03] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:06] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:09] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:12] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:15] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:18] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:21] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:24] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:27] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:30] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:33] "GET /status/22 HTTP/1.1" 200 -
+[09:36.440 --> 09:38.800]  best foot forward, but are we really like that?
+[09:38.800 --> 09:39.800]  Is the question, right?
+[09:39.800 --> 09:40.800]  Probably not.
+[09:40.800 --> 09:41.800]  Right?
+[09:41.800 --> 09:42.800]  Okay.
+[09:42.800 --> 09:45.800]  So, but there are positive things to it too, right?
+[09:45.800 --> 09:51.280]  Like the self-report, for example, you are the person that knows yourself the best.
+[09:51.280 --> 09:59.880]  So if you answer in an honest way, you know yourself the best way possible, right?
+[10:00.880 --> 10:05.880]  So, and observational, remember what I said, personality is like your social reputation,
+[10:05.880 --> 10:06.880]  right?
+[10:06.880 --> 10:13.880]  But someone close to you would know how to observe you accurately as opposed to someone
+[10:13.880 --> 10:14.880]  not.
+[10:14.880 --> 10:19.880]  So anyway, regardless, both of these procedures are used, and we actually say that when it
+[10:19.880 --> 10:22.880]  comes to personality, use both of them.
+[10:22.880 --> 10:23.880]  Okay?
+[10:23.880 --> 10:24.880]  All right.
+[10:24.880 --> 10:26.880]  So I had you complete the skill.
+[10:26.880 --> 10:29.880]  Okay, we got the opportunity to do it, right?
+[10:29.880 --> 10:34.880]  We have like five, what's the word I'm looking for?
+[10:34.880 --> 10:38.880]  Whole numbers for the five different dimensions.
+[10:38.880 --> 10:39.880]  Okay.
+[10:39.880 --> 10:48.880]  So what I had you complete was one of the most popular or one of the most widely accepted
+[10:48.880 --> 10:50.880]  trait models that are out there.
+[10:50.880 --> 10:53.880]  And this is known as the big five, okay?
+[10:53.880 --> 10:58.880]  So definitely understand what the big five comprises of, okay?
+[10:58.880 --> 11:04.880]  Also, go to your textbook, because I remember seeing a multiple choice on the big five.
+[11:04.880 --> 11:09.880]  Go to your textbook and just read up on the big five, as in like more than what I have
+[11:09.880 --> 11:10.880]  written on here.
+[11:10.880 --> 11:15.880]  Yeah, I don't quite remember what it was, but it was like, oh, I don't remember teaching
+[11:15.880 --> 11:18.880]  this, but I'm going to tell my students to do it anyway, okay?
+[11:19.880 --> 11:22.880]  Because it was like some stat, like some stat.
+[11:22.880 --> 11:27.880]  So just go to the textbook on the big five and just like skim through it, okay?
+[11:27.880 --> 11:30.880]  All right, but I'll give you more closer to the 10.
+[11:30.880 --> 11:32.880]  Okay, so let's talk about the big five, okay?
+[11:32.880 --> 11:37.880]  This is also known as the five factor model of personality.
+[11:37.880 --> 11:43.880]  So big five, five factor, obviously that means they're five dimensions, okay?
+[11:43.880 --> 11:45.880]  So they're five dimensions of personality.
+[11:45.880 --> 11:47.880]  So what are they?
+[11:47.880 --> 11:49.880]  It's what you see on the top.
+[11:49.880 --> 11:55.880]  Extraversion, emotional stability, agreeableness, conscientiousness, and openness to experience,
+[11:55.880 --> 11:56.880]  okay?
+[11:56.880 --> 12:03.880]  And I will tell you what each of them corresponds to over the next few slides.
+[12:03.880 --> 12:09.880]  But in a nutshell, extraversion has to do with how sociable, positive you are versus
+[12:09.880 --> 12:11.880]  how withdrawn or shy.
+[12:11.880 --> 12:15.880]  Okay, I acknowledge that this can be very difficult to remember, right?
+[12:15.880 --> 12:16.880]  That's a lot.
+[12:16.880 --> 12:19.880]  So you know me, you know I love acronyms.
+[12:19.880 --> 12:23.880]  So the acronym that I'm going to use is Canoe, okay?
+[12:23.880 --> 12:26.880]  So what does Canoe stand for?
+[12:26.880 --> 12:32.880]  The C stands for Consciousness, Impulsive, and Unimaginative.
+[12:32.880 --> 12:35.880]  Okay, so this is one of the big five.
+[12:35.880 --> 12:37.880]  So let's talk about the big five.
+[12:37.880 --> 12:39.880]  So this is a very important one.
+[12:39.880 --> 12:43.880]  So this is a very important one because that's what we're going to do today.
+[12:43.880 --> 12:45.880]  So let's look at the big five, right?
+[12:45.880 --> 12:47.880]  Okay, so what does Canoe stand for?
+[12:47.880 --> 12:56.880]  The C stands for Conscientiousness, A is for Agreeableness, N is for Neuroticism, which
+[12:56.880 --> 13:01.880]  is actually the opposite of emotional stability, okay?
+[13:01.880 --> 13:06.880]  O is for Openness to Experience, and then E is for Extraversion.
+[13:06.880 --> 13:09.880]  So as you can see, I love nature, right?
+[13:09.880 --> 13:16.880]  My expectations had to do with air, and now I'm introducing you to water, okay, with this
+[13:16.880 --> 13:17.880]  canoe thing.
+[13:17.880 --> 13:18.880]  Make sense?
+[13:18.880 --> 13:20.880]  No one laughed at that, you good joke?
+[13:20.880 --> 13:22.880]  Okay, no problem.
+[13:22.880 --> 13:25.880]  All right, we're moving along.
+[13:25.880 --> 13:31.880]  Okay, a few important things to keep in mind when it comes to the big five model, okay?
+[13:31.880 --> 13:36.880]  The first is that it is efficient, okay?
+[13:36.880 --> 13:43.880]  So the basic premise of this model is that the entire scope of human personality can
+[13:43.880 --> 13:51.880]  be efficiently described with these relatively independent five dimensions, okay?
+[13:51.880 --> 13:57.880]  The second is that it is based on factor analysis.
+[13:57.880 --> 14:02.880]  Now this is a concept that you will learn further in your career, like further, probably
+[14:02.880 --> 14:08.880]  if you're taking an advanced level math course, or maybe if you're going to graduate studies.
+[14:08.880 --> 14:10.880]  But what does that mean?
+[14:10.880 --> 14:12.880]  What does factor analysis mean?
+[14:12.880 --> 14:17.880]  Okay, so when we started off this research, we were actually, and I'm going to look at
+[14:17.880 --> 14:25.880]  my notes here because I don't want to get this wrong, 17,953 personality traits.
+[14:25.880 --> 14:28.880]  That's a lot of personality traits, right?
+[14:28.880 --> 14:31.880]  17,953.
+[14:31.880 --> 14:36.880]  Those were reduced to 17.
+[14:36.880 --> 14:37.880]  Why?
+[14:37.880 --> 14:40.880]  Because they took out synonymous things and stuff like that.
+[14:40.880 --> 14:47.880]  Okay, so basically how they were reduced, and they kept on getting reduced, is through
+[14:47.880 --> 14:48.880]  these factor analysis.
+[14:48.880 --> 14:55.880]  So factor analysis is a statistical procedure, which is what you, this is what it does.
+[14:55.880 --> 15:00.880]  It lumps together related items, okay?
+[15:00.880 --> 15:03.880]  So in a nutshell, that's what it did.
+[15:03.880 --> 15:08.880]  So we used factor analysis, and all these related items were lumped together, and we
+[15:08.880 --> 15:10.880]  ended up with five dimensions.
+[15:10.880 --> 15:19.880]  Otherwise, we wouldn't be dealing with 17,953 dimensions, which is a lot, all right?
+[15:19.880 --> 15:20.880]  Okay.
+[15:20.880 --> 15:23.880]  The third is that it is culturally robust.
+[15:23.880 --> 15:35.880]  In that the five factor model can be reproduced across many cultures as well as languages.
+[15:35.880 --> 15:38.880]  Okay?
+[15:38.880 --> 15:46.880]  So the propensities or the factor structures or whatever you may call them, they're similar
+[15:46.880 --> 15:47.880]  to the five factors.
+[15:47.880 --> 15:58.880]  So you can use basically the same measure to reliably capture the personality traits
+[15:58.880 --> 15:59.880]  across cultures.
+[15:59.880 --> 16:12.880]  And the fourth is that there is evidence to indicate that these five factors, they're
+[16:12.880 --> 16:16.880]  They're heritable and they're stable.
+[16:16.880 --> 16:17.880]  Okay?
+[16:17.880 --> 16:21.880]  So I've already kind of spoken a little bit about how personality can be a function of
+[16:21.880 --> 16:22.880]  our genes, right?
+[16:22.880 --> 16:25.880]  As well as the environment.
+[16:25.880 --> 16:30.880]  So that stays the case here too, but it's also stable.
+100.69.197.53 - - [17/Sep/2025 17:11:36] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:39] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:42] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:45] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:48] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:51] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:54] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:11:57] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:00] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:03] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:06] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:09] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:12] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:15] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:18] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:21] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:24] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:27] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:30] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:33] "GET /status/22 HTTP/1.1" 200 -
+[16:30.880 --> 16:34.880]  So you tend to demonstrate the same personality.
+[16:34.880 --> 16:40.880]  Yes, experience might change it over time, but for the most part, you will still demonstrate
+[16:40.880 --> 16:41.880]  the same.
+[16:41.880 --> 16:43.880]  Okay, makes sense?
+[16:43.880 --> 16:44.880]  Yes?
+[16:44.880 --> 16:45.880]  Okay.
+[16:45.880 --> 16:49.880]  So now let's talk about Canute in a little bit more detail.
+[16:49.880 --> 16:52.880]  So let's first talk about extraversion.
+[16:52.880 --> 16:59.880]  So extraversion really has to do with the comfort level with relationships.
+[16:59.880 --> 17:00.880]  Okay?
+[17:00.880 --> 17:03.880]  It has to do with how sociable you are.
+[17:03.880 --> 17:10.880]  One of the things I want to mention on here.
+[17:10.880 --> 17:17.880]  So before I get into that, here's the thing that I want you to know.
+[17:17.880 --> 17:20.880]  So extroverted people, right?
+[17:20.880 --> 17:23.880]  They tend to prioritize status striving.
+[17:23.880 --> 17:25.880]  So write that down somewhere.
+[17:25.880 --> 17:27.880]  Status striving.
+[17:27.880 --> 17:28.880]  Okay?
+[17:28.880 --> 17:33.880]  So extroversion equals status striving.
+[17:33.880 --> 17:36.880]  So what is status striving?
+[17:36.880 --> 17:42.880]  Status striving is a strong desire to obtain power and influence.
+[17:42.880 --> 17:44.880]  Okay?
+[17:44.880 --> 17:46.880]  Within a social structure.
+[17:46.880 --> 17:55.880]  So it's not surprising that a lot of our leaders, whether you're looking at the groups that
+[17:55.880 --> 18:02.880]  you're assigned to or whether you're looking at the nation or whatever it may be, that
+[18:02.880 --> 18:06.880]  a lot of our leaders are extroverted individuals.
+[18:06.880 --> 18:07.880]  Okay?
+[18:07.880 --> 18:09.880]  Makes sense?
+[18:09.880 --> 18:10.880]  Okay.
+[18:10.880 --> 18:21.880]  So if you score low on this, then you are typically referred to as an introvert.
+[18:21.880 --> 18:22.880]  Okay?
+[18:22.880 --> 18:23.880]  So what does that mean?
+[18:23.880 --> 18:27.880]  Your reserved, your quiet, your timid.
+[18:27.880 --> 18:29.880]  Your shy.
+[18:29.880 --> 18:30.880]  Okay?
+[18:30.880 --> 18:34.880]  But if you score high, you are an extroverted individual.
+[18:34.880 --> 18:35.880]  Right?
+[18:35.880 --> 18:41.880]  You are talkative, you're sociable, you're passionate, you're assertive, you're bold,
+[18:41.880 --> 18:42.880]  you're dominant.
+[18:42.880 --> 18:45.880]  There's so many different traits that go under here.
+[18:45.880 --> 18:46.880]  Yes, son?
+[18:46.880 --> 18:49.880]  What would the range be for low and high?
+[18:49.880 --> 18:50.880]  Is it like a number range?
+[18:51.880 --> 18:55.880]  Yeah, so hold on, because I will bring that up when we take up what we did.
+[18:55.880 --> 18:56.880]  Okay?
+[18:56.880 --> 19:00.880]  What is your name?
+[19:00.880 --> 19:01.880]  Tanveer.
+[19:01.880 --> 19:02.880]  Tanveer.
+[19:02.880 --> 19:03.880]  That's great.
+[19:03.880 --> 19:04.880]  Yes.
+[19:04.880 --> 19:06.880]  I'm getting this.
+[19:11.880 --> 19:12.880]  Sully.
+[19:12.880 --> 19:13.880]  Sully.
+[19:13.880 --> 19:15.880]  Raymond Aaron Trenton.
+[19:15.880 --> 19:18.880]  Let's start.
+[19:18.880 --> 19:19.880]  And A?
+[19:19.880 --> 19:22.880]  And A.
+[19:22.880 --> 19:25.880]  It's not Aaron, right?
+[19:25.880 --> 19:26.880]  Anthony.
+[19:26.880 --> 19:27.880]  Anthony.
+[19:27.880 --> 19:28.880]  Good, okay.
+[19:28.880 --> 19:31.880]  This is how we remember names.
+[19:31.880 --> 19:32.880]  Okay, good.
+[19:32.880 --> 19:35.880]  Oh my god, I forgot your name.
+[19:35.880 --> 19:36.880]  Tanveer, right?
+[19:36.880 --> 19:37.880]  Tanveer.
+[19:37.880 --> 19:38.880]  Okay, good.
+[19:38.880 --> 19:39.880]  All right.
+[19:39.880 --> 19:40.880]  Okay.
+[19:41.880 --> 19:50.880]  Up to big five, extroversion is the easiest to judge in zero situations, zero acquaintance
+[19:50.880 --> 19:51.880]  situations.
+[19:51.880 --> 19:53.880]  So what do I mean by that?
+[19:53.880 --> 19:57.880]  These are situations in which two people have just met.
+[19:57.880 --> 19:58.880]  Okay?
+[19:58.880 --> 20:01.880]  So think about it.
+[20:02.880 --> 20:10.880]  It only takes you five minutes to figure out if someone is an extrovert or an introvert.
+[20:10.880 --> 20:16.880]  Like it only took me five minutes to figure this out.
+[20:16.880 --> 20:19.880]  Now you tell me if you fall in that category, okay?
+[20:19.880 --> 20:24.880]  It took me five minutes to figure out that Anthony is an introvert.
+[20:24.880 --> 20:26.880]  Anthony, am I right?
+[20:26.880 --> 20:27.880]  Good.
+[20:27.880 --> 20:28.880]  Right?
+[20:28.880 --> 20:34.880]  It took me five minutes to figure out that my har-i-ra.
+[20:34.880 --> 20:35.880]  Har-kira.
+[20:35.880 --> 20:36.880]  Har-kira.
+[20:36.880 --> 20:37.880]  Yes.
+[20:37.880 --> 20:38.880]  Is an extrovert.
+[20:38.880 --> 20:39.880]  I'm like 50-50.
+[20:39.880 --> 20:40.880]  50-50, okay.
+[20:40.880 --> 20:46.880]  Sure, I'm trying to see if you will be an extrovert.
+[20:46.880 --> 20:48.880]  Just put this on an extrovert.
+[20:48.880 --> 20:49.880]  Is he really?
+[20:49.880 --> 20:50.880]  He is.
+[20:50.880 --> 20:51.880]  I already don't know.
+[20:51.880 --> 20:52.880]  I don't know myself.
+[20:52.880 --> 20:55.880]  Well, we'll figure it out right now.
+[20:55.880 --> 20:56.880]  You get two bar girls.
+[20:56.880 --> 20:59.880]  One of them has to be an extrovert.
+[20:59.880 --> 21:02.880]  Anyway, who is an extrovert?
+[21:02.880 --> 21:04.880]  Who did the head?
+[21:04.880 --> 21:06.880]  He's not an extrovert.
+[21:06.880 --> 21:07.880]  He's not an extrovert.
+[21:07.880 --> 21:10.880]  You can tell he's not an extrovert.
+[21:10.880 --> 21:13.880]  I think it might be Aaron.
+[21:13.880 --> 21:16.880]  I think it might be Aaron.
+[21:16.880 --> 21:19.880]  I think it might be Aaron.
+[21:20.880 --> 21:23.880]  Down the middle.
+[21:23.880 --> 21:26.880]  Down the middle.
+[21:26.880 --> 21:27.880]  That's weird.
+[21:27.880 --> 21:28.880]  Okay, anyway.
+[21:28.880 --> 21:31.880]  Okay, didn't take too long to figure out.
+[21:31.880 --> 21:38.880]  Honestly, I feel like you would be in between, but I honestly thought you might be an extrovert.
+[21:38.880 --> 21:41.880]  I thought you would be there.
+[21:41.880 --> 21:42.880]  I'm like 70-25.
+[21:42.880 --> 21:43.880]  Huh?
+[21:43.880 --> 21:44.880]  70-25.
+[21:44.880 --> 21:45.880]  Oh.
+[21:45.880 --> 21:46.880]  So you weren't expecting that.
+[21:46.880 --> 21:47.880]  75-25.
+[21:47.880 --> 21:48.880]  70%.
+[21:48.880 --> 21:49.880]  You were an extrovert?
+[21:49.880 --> 21:50.880]  Let's do 80-20.
+[21:50.880 --> 21:51.880]  80-20.
+[21:51.880 --> 21:52.880]  Yeah, so I was correct.
+[21:52.880 --> 21:53.880]  Okay.
+[21:53.880 --> 21:54.880]  Right?
+[21:54.880 --> 21:55.880]  Yeah.
+[21:55.880 --> 21:56.880]  Correct.
+[21:56.880 --> 21:57.880]  You were trying to fool me.
+[21:57.880 --> 21:58.880]  I was correct.
+[21:58.880 --> 21:59.880]  Okay.
+[21:59.880 --> 22:00.880]  All right, good.
+[22:00.880 --> 22:03.880]  So that's zero acquaintance situation.
+[22:03.880 --> 22:08.880]  Interestingly enough, extroversion is related to positive affectivity.
+[22:08.880 --> 22:09.880]  What is that?
+[22:09.880 --> 22:16.880]  Positive affectivity is basically a dispositional tendency to experience positive.
+[22:16.880 --> 22:17.880]  Positive.
+[22:17.880 --> 22:18.880]  Engaging moods.
+[22:18.880 --> 22:19.880]  Right?
+[22:19.880 --> 22:22.880]  So what are some of these positive engaging moods?
+[22:22.880 --> 22:30.880]  Well, it might be enthusiasm, it might be excitement, it might be elation, and so forth.
+[22:30.880 --> 22:31.880]  Okay?
+[22:31.880 --> 22:41.880]  So the tendency to experience positive moods across situations may actually explain why
+[22:42.880 --> 22:47.880]  So extroverts tend to be more satisfied with their jobs.
+[22:47.880 --> 22:48.880]  Okay?
+[22:48.880 --> 22:51.880]  And then as a fun fact, here's another thing.
+100.69.197.53 - - [17/Sep/2025 17:12:36] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:39] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:42] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:44] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [17/Sep/2025 17:12:45] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:48] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:51] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:54] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:12:57] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:00] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:03] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:06] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:09] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:12] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:15] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:18] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:21] "GET /status/22 HTTP/1.1" 200 -
+[22:51.880 --> 22:58.880]  So extroversion is like outside of the workplace, extroverted individuals or extroversion is
+[22:58.880 --> 23:01.880]  associated with a number of other positive outcomes.
+[23:01.880 --> 23:02.880]  Right?
+[23:02.880 --> 23:05.880]  So they might have more partners.
+[23:06.880 --> 23:11.880]  Like they probably have gone through a lot of relationships, romantic relationships.
+[23:11.880 --> 23:14.880]  So they have more dating partners.
+[23:14.880 --> 23:18.880]  They might actually have more friends as well.
+[23:18.880 --> 23:19.880]  Right?
+[23:19.880 --> 23:23.880]  And they tend parties a lot.
+[23:23.880 --> 23:26.880]  Now he's like, no, I'm not 80-20.
+[23:26.880 --> 23:28.880]  I'm 50-50.
+[23:28.880 --> 23:29.880]  Right?
+[23:29.880 --> 23:30.880]  I don't know.
+[23:30.880 --> 23:32.880]  It's all debatable.
+[23:32.880 --> 23:33.880]  It's all debatable.
+[23:33.880 --> 23:34.880]  Sure.
+[23:34.880 --> 23:35.880]  Okay.
+[23:35.880 --> 23:36.880]  All right.
+[23:36.880 --> 23:45.880]  And then finally, extroversion is not necessarily related to performance across all jobs or
+[23:45.880 --> 23:46.880]  occupations.
+[23:46.880 --> 23:47.880]  Right?
+[23:47.880 --> 23:51.880]  It tends to be related to jobs where you need a social interaction.
+[23:51.880 --> 23:52.880]  Okay?
+[23:52.880 --> 24:00.880]  So an extrovert will do well in places that have that social element.
+[24:00.880 --> 24:07.880]  Introverts can still be successful, but they have to train themselves.
+[24:07.880 --> 24:08.880]  Okay?
+[24:08.880 --> 24:15.880]  So teaching is basically an arena where social interaction is required.
+[24:15.880 --> 24:16.880]  Right?
+[24:16.880 --> 24:21.880]  Zero acquaintance situation.
+[24:21.880 --> 24:24.880]  You tell me, am I an introvert or an extrovert?
+[24:24.880 --> 24:25.880]  Introvert.
+[24:25.880 --> 24:26.880]  Wow.
+[24:27.880 --> 24:30.880]  This is a trick question.
+[24:30.880 --> 24:31.880]  Extrovert.
+[24:31.880 --> 24:32.880]  Extrovert.
+[24:32.880 --> 24:33.880]  Okay.
+[24:33.880 --> 24:35.880]  How many of us concur?
+[24:35.880 --> 24:39.880]  How many of us think I'm an introvert?
+[24:39.880 --> 24:43.880]  I think you're an introvert who learned to be more extroverted.
+[24:43.880 --> 24:44.880]  Good.
+[24:44.880 --> 24:47.880]  This is what an extroverted person would say.
+[24:47.880 --> 24:48.880]  Right?
+[24:48.880 --> 24:49.880]  But that's true.
+[24:49.880 --> 24:50.880]  You guys are right.
+[24:50.880 --> 24:51.880]  So I'm an introvert.
+[24:51.880 --> 24:52.880]  Right?
+[24:52.880 --> 24:56.880]  But I have to train myself because this is the profession that I chose for myself.
+[24:56.880 --> 24:58.880]  It's a social interaction.
+[24:58.880 --> 25:01.880]  I needed to train myself to be an extrovert.
+[25:01.880 --> 25:02.880]  Okay?
+[25:02.880 --> 25:07.880]  So I do, but after class, I don't want to talk to anyone.
+[25:07.880 --> 25:09.880]  I just want to be left by myself.
+[25:09.880 --> 25:11.880]  I want to curl up, read a book.
+[25:11.880 --> 25:13.880]  I just want to be left alone.
+[25:13.880 --> 25:17.880]  I've not enjoyed the social relationships that I'm part of.
+[25:17.880 --> 25:18.880]  Truth be told.
+[25:18.880 --> 25:19.880]  Right?
+[25:19.880 --> 25:20.880]  Okay.
+[25:20.880 --> 25:25.880]  And I could have chosen a profession that aligned with this particular dimension, but
+[25:25.880 --> 25:27.880]  I'm not good with numbers.
+[25:27.880 --> 25:29.880]  I hate IT.
+[25:29.880 --> 25:30.880]  So I would, right?
+[25:30.880 --> 25:32.880]  I would be horrible at it.
+[25:32.880 --> 25:35.880]  So it had to be some level of interaction.
+[25:35.880 --> 25:37.880]  And that was another joke which no one laughed at.
+[25:37.880 --> 25:40.880]  This is why an introvert is never good at jokes.
+[25:40.880 --> 25:41.880]  Okay.
+[25:41.880 --> 25:48.880]  So going back to the exercise that I just had you complete, these items capture extroversion.
+[25:48.880 --> 25:49.880]  Okay?
+[25:49.880 --> 25:53.880]  For your test, do you know, do you need to know this?
+[25:53.880 --> 25:54.880]  No.
+[25:54.880 --> 25:57.880]  For your test, you just need to understand this.
+[25:57.880 --> 25:59.880]  What's meant by high and low?
+[25:59.880 --> 26:06.880]  So low is introversion, someone who is reserved, quiet, timid, and then know that high is
+[26:06.880 --> 26:10.880]  someone who's talkative, social, sociable and whatnot.
+[26:10.880 --> 26:11.880]  Okay?
+[26:11.880 --> 26:12.880]  All right.
+[26:12.880 --> 26:15.880]  Now let's talk about neuroticism.
+[26:16.880 --> 26:25.880]  So this particular dimension has, very rarely do we talk about social or emotional stability.
+[26:25.880 --> 26:28.880]  We look at it from the lens of neuroticism.
+[26:28.880 --> 26:29.880]  Okay?
+[26:29.880 --> 26:33.880]  So this has to do with your ability to handle stress.
+[26:37.880 --> 26:38.880]  Okay.
+[26:38.880 --> 26:42.880]  Someone who scores low on this is neurotic.
+[26:42.880 --> 26:43.880]  Okay?
+[26:43.880 --> 26:44.880]  What does that mean?
+[26:44.880 --> 26:48.880]  Someone who is anxious, insecure, sensitive, angry, depressed.
+[26:48.880 --> 26:49.880]  Okay?
+[26:49.880 --> 26:53.880]  Someone who scores high, emotionally stable.
+[26:53.880 --> 26:58.880]  So you're calm, you're self-confident, you're secure, you're content about yourself, as
+[26:58.880 --> 27:01.880]  well as your place in this world.
+[27:01.880 --> 27:02.880]  Okay?
+[27:02.880 --> 27:05.880]  Emotional stability is related to negative affectivity.
+[27:05.880 --> 27:09.880]  So I already told you what positive affectivity was.
+[27:09.880 --> 27:13.880]  What do you think negative affectivity refers to?
+[27:14.880 --> 27:15.880]  What was positive affectivity?
+[27:15.880 --> 27:16.880]  Yes?
+[27:16.880 --> 27:19.880]  Like you just have negative interactions throughout your life?
+[27:19.880 --> 27:20.880]  No, no, no.
+[27:20.880 --> 27:21.880]  It has to do with mood.
+[27:21.880 --> 27:23.880]  Oh, like you're just in a negative mood.
+[27:23.880 --> 27:24.880]  Yes.
+[27:24.880 --> 27:27.880]  You experience more of the negative moods.
+[27:27.880 --> 27:28.880]  Yes, what's that?
+[27:28.880 --> 27:32.880]  It would also be related to being a mood killer, like in your God-like mind.
+[27:32.880 --> 27:33.880]  Yeah, sure.
+[27:33.880 --> 27:34.880]  That would be you.
+[27:34.880 --> 27:35.880]  Ooh.
+[27:35.880 --> 27:36.880]  Ooh.
+[27:36.880 --> 27:37.880]  Ooh.
+[27:37.880 --> 27:38.880]  Ooh.
+[27:38.880 --> 27:43.880]  That's like the only time when I bring people down, do you laugh.
+[27:43.880 --> 27:45.880]  That's not nice of you guys, okay?
+[27:45.880 --> 27:46.880]  That's a joke.
+[27:46.880 --> 27:49.880]  You know you're one of my favorite people.
+[27:49.880 --> 27:54.880]  Now they're like, how do I become one of Sam's favorite people?
+[27:54.880 --> 27:58.880]  For instance, like I don't hear how you go to finance when I count it.
+[27:58.880 --> 27:59.880]  What?
+[27:59.880 --> 28:00.880]  I don't go to finance.
+[28:00.880 --> 28:01.880]  You don't go to finance?
+[28:01.880 --> 28:02.880]  I don't go to finance.
+[28:02.880 --> 28:03.880]  Oh, you don't have finance?
+[28:03.880 --> 28:04.880]  Good luck.
+[28:04.880 --> 28:05.880]  No.
+[28:05.880 --> 28:06.880]  What if you do have it?
+[28:06.880 --> 28:07.880]  Do you like numbers?
+[28:07.880 --> 28:08.880]  Yeah.
+[28:08.880 --> 28:09.880]  Okay.
+[28:09.880 --> 28:12.880]  You seem like the person who would like numbers.
+[28:12.880 --> 28:13.880]  Why?
+[28:13.880 --> 28:14.880]  I see that.
+[28:14.880 --> 28:15.880]  Right?
+[28:15.880 --> 28:16.880]  No, I'm kidding.
+[28:16.880 --> 28:17.880]  I'm teasing.
+[28:17.880 --> 28:18.880]  I want to make you laugh.
+[28:18.880 --> 28:20.880]  I want you to enjoy this, okay?
+[28:20.880 --> 28:23.880]  But Mustafa, okay, going back to you.
+[28:23.880 --> 28:27.880]  Yes, unpleasant moods, and of course that would have a negative effect on us, right?
+100.69.197.53 - - [17/Sep/2025 17:13:24] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:27] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:30] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:33] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:36] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:39] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:42] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:45] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:48] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:51] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:54] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:13:57] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:00] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:03] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:06] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:09] "GET /status/22 HTTP/1.1" 200 -
+[28:27.880 --> 28:29.880]  I hope that's not me.
+[28:29.880 --> 28:30.880]  Okay?
+[28:30.880 --> 28:31.880]  Good.
+[28:31.880 --> 28:32.880]  All right, good.
+[28:32.880 --> 28:33.880]  Okay.
+[28:33.880 --> 28:36.880]  So, you experience unpleasant moods, right?
+[28:36.880 --> 28:38.880]  So, you experience nervousness.
+[28:38.880 --> 28:40.880]  You experience annoyance.
+[28:40.880 --> 28:42.880]  You experience hostility.
+[28:42.880 --> 28:52.880]  So, this is why people who are neurotic are not happy at the workplace.
+[28:52.880 --> 28:56.880]  But those who are more stable emotionally are happy at the workplace.
+[28:56.880 --> 28:58.880]  They're more satisfied with the job.
+[28:58.880 --> 29:00.880]  Does that make sense?
+[29:00.880 --> 29:02.880]  Okay, good.
+[29:02.880 --> 29:04.880]  All right.
+[29:04.880 --> 29:06.880]  Do I really want you to know this?
+[29:06.880 --> 29:08.880]  No, let's forget that.
+[29:08.880 --> 29:10.880]  I don't think it's going to be on your test either.
+[29:10.880 --> 29:12.880]  But I will just talk about this.
+[29:12.880 --> 29:17.880]  So, neuroticism actually influences the way that people deal with stressful situations.
+[29:17.880 --> 29:18.880]  Okay?
+[29:18.880 --> 29:26.880]  Emotional stability is associated with the first, which is differential exposure to stressors.
+[29:26.880 --> 29:36.880]  Meaning that neurotic individuals are more likely to appraise day-to-day situations as stressful.
+[29:36.880 --> 29:38.880]  Okay?
+[29:38.880 --> 29:46.880]  So, basically, they then become exposed to the stressors more frequently because they're viewing it as stressful.
+[29:46.880 --> 29:48.880]  Does that make sense?
+[29:48.880 --> 29:49.880]  Okay.
+[29:49.880 --> 29:53.880]  Emotional stability is more so with differential reactivity.
+[29:53.880 --> 29:56.880]  But again, you don't really need to know this.
+[29:56.880 --> 30:05.880]  What that means is that neurotic individuals are less likely to believe that they can cope with the stressors that they experience.
+[30:06.880 --> 30:07.880]  Okay?
+[30:07.880 --> 30:08.880]  I just had a question.
+[30:08.880 --> 30:17.880]  Like, what do you say that for neuroticism, like, would people score below the average, like, below 50%?
+[30:17.880 --> 30:20.880]  Would they be on the bottom percentile?
+[30:20.880 --> 30:24.880]  You guys really want to know how you did on the test, right?
+[30:24.880 --> 30:25.880]  So, wait.
+[30:25.880 --> 30:26.880]  Wait, I will come to you.
+[30:26.880 --> 30:27.880]  I will come.
+[30:27.880 --> 30:28.880]  Just wait.
+[30:28.880 --> 30:31.880]  Just hold on until you know the definition.
+[30:31.880 --> 30:32.880]  Okay?
+[30:32.880 --> 30:35.880]  Because there's a reason why I'm not telling you right now.
+[30:35.880 --> 30:38.880]  Emotional stability and neuroticism are like polar opposites.
+[30:38.880 --> 30:39.880]  Yes.
+[30:39.880 --> 30:40.880]  Yeah.
+[30:40.880 --> 30:43.880]  So, is this slide referring to the low high referring to emotional stability or the low high referring to neuroticism?
+[30:43.880 --> 30:44.880]  No.
+[30:44.880 --> 30:51.880]  So, the low is referring to neuroticism and the high is referring to emotional stability.
+[30:51.880 --> 30:52.880]  Okay.
+[30:52.880 --> 30:53.880]  Okay.
+[30:53.880 --> 30:54.880]  Make sense?
+[30:54.880 --> 30:55.880]  Yeah.
+[30:55.880 --> 30:56.880]  Did you all get that?
+[30:56.880 --> 30:57.880]  Okay.
+[30:57.880 --> 30:58.880]  Good.
+[30:58.880 --> 30:59.880]  Okay.
+[30:59.880 --> 31:02.880]  So, why is this the second best predictor of job performance?
+[31:02.880 --> 31:06.880]  The first best predictor is conscientiousness, which I'll describe in a few minutes.
+[31:06.880 --> 31:10.880]  But why is this the second best predictor of job performance?
+[31:10.880 --> 31:11.880]  Why do you think?
+[31:11.880 --> 31:17.880]  Because you're going to go through stressful times at your job and it depends on your time.
+[31:17.880 --> 31:18.880]  Exactly.
+[31:18.880 --> 31:19.880]  Right?
+[31:19.880 --> 31:24.880]  Like, it's, you're not going to, you're not going to be able to deal with the stressors.
+[31:24.880 --> 31:25.880]  Right?
+[31:25.880 --> 31:29.880]  So, we don't really want a lot of robotic individuals in the workforce.
+[31:29.880 --> 31:30.880]  Right?
+[31:30.880 --> 31:34.880]  So, you kind of have to train yourself to be emotionally calm and stable.
+[31:34.880 --> 31:37.880]  All right.
+[31:37.880 --> 31:43.880]  Going back to the exercise, these are the terms or these are the adjectives, I would
+[31:43.880 --> 31:47.880]  say, that capture emotional stability and neuroticism.
+[31:47.880 --> 31:48.880]  Okay?
+[31:48.880 --> 31:54.880]  Let's now talk about agreeableness, the complete opposite of this cartoon over here.
+[31:54.880 --> 31:59.880]  Agreeableness has to do with your ability to get along with others.
+[31:59.880 --> 32:00.880]  Okay?
+[32:00.880 --> 32:03.880]  It's your degree of courtesy, trust, cooperation, and tolerance.
+[32:03.880 --> 32:05.880]  So, that's you.
+[32:05.880 --> 32:08.880]  So, here's the thing.
+[32:08.880 --> 32:16.880]  Agreeable people, they prioritize, write this down, they prioritize communion striving.
+[32:16.880 --> 32:17.880]  Okay?
+[32:17.880 --> 32:20.880]  Communion striving.
+[32:20.880 --> 32:22.880]  So, what does that mean?
+[32:22.880 --> 32:26.880]  They focus on really getting along with others.
+[32:26.880 --> 32:27.880]  Okay?
+[32:27.880 --> 32:37.880]  So, people who score low on this particular dimension, they focus on their own needs,
+[32:37.880 --> 32:43.880]  they're less likely to be liked by others, they're suspicious, they're inflexible, they're
+[32:43.880 --> 32:50.880]  irritable, but those who score high are more forgiving, they're good natured, they're cooperative,
+[32:50.880 --> 32:53.880]  they're warm, they're trusted.
+[32:53.880 --> 32:54.880]  Okay?
+[32:54.880 --> 33:02.880]  If you score low, just based on these adjectives, you can tell that you don't really like to
+[33:02.880 --> 33:04.880]  get along with others.
+[33:04.880 --> 33:05.880]  Right?
+[33:05.880 --> 33:07.880]  People irritate you.
+[33:07.880 --> 33:11.880]  If you score high, you can tell that you do want to get along with others, you do want
+[33:11.880 --> 33:15.880]  to vent to like him, and so you're going to be more forgiving and good natured and cooperative
+[33:15.880 --> 33:17.880]  and all that stuff.
+[33:17.880 --> 33:19.880]  Okay?
+[33:19.880 --> 33:22.880]  Now, what do we see?
+[33:22.880 --> 33:26.880]  Agreeableness is not related to performance across all jobs.
+[33:26.880 --> 33:27.880]  Right?
+[33:27.880 --> 33:29.880]  Or occupation.
+[33:29.880 --> 33:31.880]  Why not?
+[33:31.880 --> 33:35.880]  Because remember that term that I gave you in the beginning, the communion striving?
+[33:35.880 --> 33:37.880]  Right?
+[33:37.880 --> 33:43.880]  Striving for communion is beneficial in some jobs, but not others.
+[33:43.880 --> 33:45.880]  Okay?
+[33:46.880 --> 33:51.880]  So, to get along with others is beneficial in some, but not others.
+[33:51.880 --> 33:53.880]  Okay?
+[33:53.880 --> 33:56.880]  What might be some of those jobs?
+[33:56.880 --> 33:58.880]  Okay?
+[33:58.880 --> 34:00.880]  Think about it.
+[34:00.880 --> 34:07.880]  So, you want interaction, you want to help others, you want to cooperate, you want to
+[34:07.880 --> 34:09.880]  nurture others, you want to involve teamwork and cooperation.
+[34:09.880 --> 34:14.880]  So, what are some jobs that you can think of where getting along with others is beneficial?
+[34:14.880 --> 34:16.880]  So, hair.
+[34:16.880 --> 34:17.880]  Teaching.
+[34:17.880 --> 34:18.880]  Teaching.
+[34:18.880 --> 34:19.880]  Good.
+[34:19.880 --> 34:20.880]  Aaron.
+[34:20.880 --> 34:21.880]  Customer service.
+[34:21.880 --> 34:22.880]  Customer service.
+[34:22.880 --> 34:23.880]  Salim.
+[34:23.880 --> 34:24.880]  Salim.
+[34:24.880 --> 34:25.880]  Politics.
+[34:25.880 --> 34:26.880]  Politics.
+[34:26.880 --> 34:27.880]  Yes, you're right.
+100.69.197.53 - - [17/Sep/2025 17:14:12] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:15] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:18] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:21] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:24] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:27] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:30] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:33] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:36] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:39] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:42] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:45] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:48] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:51] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:54] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:14:57] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:00] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:03] "GET /status/22 HTTP/1.1" 200 -
+[34:27.880 --> 34:30.880]  No, it took me a while to register, but you're right.
+[34:30.880 --> 34:31.880]  Jenny.
+[34:31.880 --> 34:32.880]  Child care.
+[34:32.880 --> 34:33.880]  Child care.
+[34:33.880 --> 34:34.880]  Good.
+[34:34.880 --> 34:35.880]  Tanveer?
+[34:35.880 --> 34:38.880]  You didn't have, did you have your hand up?
+[34:38.880 --> 34:39.880]  Teaching.
+[34:39.880 --> 34:40.880]  Teaching.
+[34:40.880 --> 34:41.880]  Do you want another one?
+[34:41.880 --> 34:42.880]  You can take another stab at it.
+[34:42.880 --> 34:43.880]  Really?
+[34:43.880 --> 34:52.880]  Where you interact with others and you want them to like you.
+[34:52.880 --> 34:53.880]  A bank teller.
+[34:53.880 --> 34:54.880]  Bank teller.
+[34:54.880 --> 34:55.880]  Sure.
+[34:55.880 --> 34:58.880]  Okay, what is your name?
+[34:58.880 --> 34:59.880]  Jimmy.
+[34:59.880 --> 35:00.880]  Jimmy.
+[35:00.880 --> 35:01.880]  Okay, yes.
+[35:01.880 --> 35:02.880]  Heart.
+[35:02.880 --> 35:03.880]  Hiccup.
+[35:03.880 --> 35:04.880]  Hiccup.
+[35:05.880 --> 35:06.880]  Hiccup.
+[35:06.880 --> 35:07.880]  Hiccup.
+[35:07.880 --> 35:08.880]  Hiccup.
+[35:08.880 --> 35:09.880]  Hiccup.
+[35:09.880 --> 35:10.880]  Hiccup.
+[35:10.880 --> 35:11.880]  Hiccup.
+[35:11.880 --> 35:12.880]  No, no, with an M at the end.
+[35:12.880 --> 35:13.880]  A-I-K-A-M.
+[35:13.880 --> 35:14.880]  Hiccup.
+[35:14.880 --> 35:15.880]  A-I-K-A-M.
+[35:15.880 --> 35:16.880]  Hiccup.
+[35:16.880 --> 35:17.880]  Hiccup.
+[35:17.880 --> 35:18.880]  Yes, heart.
+[35:18.880 --> 35:19.880]  I was going to say sales.
+[35:19.880 --> 35:20.880]  Sales, yeah, sales, right?
+[35:20.880 --> 35:21.880]  Okay, here are some more.
+[35:21.880 --> 35:32.880]  No, just, I'm going to start with, what does it start with?
+[35:32.880 --> 35:33.880]  Sam.
+[35:33.880 --> 35:34.880]  Sam.
+[35:34.880 --> 35:35.880]  Sam.
+[35:35.880 --> 35:36.880]  Sam.
+[35:36.880 --> 35:37.880]  Sam.
+[35:37.880 --> 35:40.880]  I was going to say a music artist.
+[35:40.880 --> 35:41.880]  A movie?
+[35:41.880 --> 35:42.880]  A music artist.
+[35:42.880 --> 35:45.880]  Music artist, yeah, sure, sure.
+[35:45.880 --> 35:46.880]  Broker.
+[35:46.880 --> 35:47.880]  Broker.
+[35:47.880 --> 35:48.880]  Broker.
+[35:48.880 --> 35:49.880]  Broker.
+[35:49.880 --> 35:50.880]  Broker.
+[35:50.880 --> 35:51.880]  Broker.
+[35:51.880 --> 35:52.880]  Yes, okay, sure.
+[35:52.880 --> 35:53.880]  Healthcare.
+[35:53.880 --> 35:54.880]  Healthcare.
+[35:54.880 --> 35:58.880]  Yes, healthcare, nurses, doctors, yes, okay.
+[35:58.880 --> 36:00.880]  Here are two more participation marks.
+[36:00.880 --> 36:01.880]  Yes, go on.
+[36:01.880 --> 36:02.880]  Social work.
+[36:02.880 --> 36:03.880]  Social work.
+[36:03.880 --> 36:04.880]  What's your name again?
+[36:04.880 --> 36:05.880]  Desiree.
+[36:05.880 --> 36:06.880]  Desiree.
+[36:06.880 --> 36:07.880]  And you're a son?
+[36:07.880 --> 36:08.880]  Oh, my?
+[36:08.880 --> 36:09.880]  Yeah.
+[36:09.880 --> 36:10.880]  The shiny.
+[36:10.880 --> 36:11.880]  The shiny?
+[36:11.880 --> 36:12.880]  Yeah, I was going to say real estate agent.
+[36:12.880 --> 36:13.880]  Real estate agent, okay, good.
+[36:13.880 --> 36:14.880]  Yes, go ahead.
+[36:14.880 --> 36:15.880]  Any management position, like anywhere.
+[36:15.880 --> 36:16.880]  Okay, any management position, sure.
+[36:16.880 --> 36:17.880]  Last person.
+[36:17.880 --> 36:18.880]  Like a rapper.
+[36:18.880 --> 36:19.880]  A rapper, sure.
+[36:19.880 --> 36:20.880]  Okay, all right.
+[36:20.880 --> 36:27.880]  Okay, so what this is telling us is that there are some occupations, some jobs, we're
+[36:28.880 --> 36:33.880]  agreeable individuals will thrive, right?
+[36:33.880 --> 36:42.880]  When you don't have, so basically these are jobs where the employee has direct face-to-face
+[36:42.880 --> 36:51.880]  or verbal contact with the person that they're interacting with, okay?
+[36:52.880 --> 37:01.880]  So agreeableness has actually been shown consistently to have or to be associated with strong customer
+[37:01.880 --> 37:05.880]  service skills, okay?
+[37:05.880 --> 37:12.880]  So a customer service representative, good ones, are going to be agreeable, okay?
+[37:12.880 --> 37:13.880]  Make sense?
+[37:13.880 --> 37:16.880]  All right, good.
+[37:16.880 --> 37:23.880]  So here are the items from that test that I had you do that captures this particular
+[37:23.880 --> 37:25.880]  dimension, okay?
+[37:25.880 --> 37:29.880]  Now let's talk about conscientiousness, okay?
+[37:29.880 --> 37:35.880]  So conscientiousness, this is the big one when it comes to predicting job requirements,
+[37:35.880 --> 37:36.880]  okay?
+[37:36.880 --> 37:44.880]  Conscientiousness, formally, it is defined as a degree of organization, dependability,
+[37:44.880 --> 37:50.880]  thoroughness, and achievement-oriented activities that a person exhibits, okay?
+[37:50.880 --> 37:53.880]  So it's a measure of liability as well as dependability.
+[37:53.880 --> 37:58.880]  So these individuals, they show up in time, right, or on time.
+[37:58.880 --> 38:00.880]  They persevere on their tasks.
+[38:00.880 --> 38:02.880]  They check details.
+[38:02.880 --> 38:05.880]  They make sure that their work is accurate.
+[38:05.880 --> 38:13.880]  They make sure that it is done right the first time around, okay?
+[38:13.880 --> 38:19.880]  So it might be fun to be with someone who is less conscientious, right?
+[38:19.880 --> 38:20.880]  It might be fun.
+[38:20.880 --> 38:22.880]  Yeah, it might be fun.
+[38:22.880 --> 38:30.880]  But in a job setting, when you're hiring someone, you want someone who is high on this particular
+[38:30.880 --> 38:34.880]  dimension, as you can imagine, okay?
+[38:34.880 --> 38:36.880]  Does that make sense?
+[38:36.880 --> 38:37.880]  Okay.
+[38:37.880 --> 38:42.880]  So someone who scores low, unreliable, unorganized, unpredictable.
+[38:42.880 --> 38:50.880]  Someone who scores high, organized, responsible, diligent, dependable, and so forth, okay?
+[38:50.880 --> 38:54.880]  It predicts job performance the best, right?
+[38:54.880 --> 39:05.880]  So the obvious question is why is it that conscientious individuals perform better, right?
+[39:05.880 --> 39:10.880]  Well, I will talk more about this when we talk about motivation, but there was this
+[39:10.880 --> 39:13.880]  one study on sales individuals.
+[39:13.880 --> 39:20.880]  And what they found was that conscientiousness was positively related to the sales goals
+[39:20.880 --> 39:23.880]  that were set by the individual, okay?
+[39:23.880 --> 39:28.880]  As well as the salesperson's commitment to those goals.
+[39:28.880 --> 39:33.880]  And goal setting is a form of motivation, okay?
+[39:33.880 --> 39:36.880]  We'll talk more about that during motivation.
+[39:36.880 --> 39:42.880]  So their findings, basically, I just mentioned one study, but their findings suggest to us
+[39:42.880 --> 39:52.880]  that conscientiousness actually works through motivational mechanisms to increase performance,
+[39:52.880 --> 39:54.880]  okay?
+[39:54.880 --> 40:00.880]  So conscientiousness influences performance through motivational mechanisms.
+[40:00.880 --> 40:03.880]  So let me bring in research study here.
+[40:03.880 --> 40:05.880]  What's the IV?
+[40:09.880 --> 40:13.880]  Conscientiousness, performance, motivational mechanism.
+[40:13.880 --> 40:15.880]  Which, what's the IV?
+[40:22.880 --> 40:23.880]  Yes.
+[40:23.880 --> 40:24.880]  Conscientiousness.
+[40:24.880 --> 40:25.880]  What's the DB?
+[40:25.880 --> 40:26.880]  Not Erin.
+[40:26.880 --> 40:28.880]  Erin's already here.
+[40:28.880 --> 40:29.880]  Yes.
+[40:29.880 --> 40:30.880]  Job performance.
+[40:30.880 --> 40:31.880]  Job performance.
+[40:31.880 --> 40:40.880]  What is mechanical, motivational, motivation is what?
+[40:40.880 --> 40:44.880]  Is it a moderator or a mediator?
+[40:44.880 --> 40:45.880]  Red.
+[40:45.880 --> 40:46.880]  Moderator.
+[40:46.880 --> 40:47.880]  No.
+[40:47.880 --> 40:49.880]  It's a mediator, right?
+100.69.197.53 - - [17/Sep/2025 17:15:06] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:09] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:12] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:15] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:18] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:21] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:24] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:27] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:30] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:33] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:36] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:39] "POST /transcribe HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:39] "GET /status/22 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:42] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:45] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:48] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:51] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:54] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:15:57] "GET /status/23 HTTP/1.1" 200 -
+[40:49.880 --> 40:57.880]  Right, remember mediator explains why a relationship exists, right?
+[40:57.880 --> 41:05.880]  A moderator explains to us under what conditions does this relationship exist, okay?
+[41:05.880 --> 41:06.880]  Good.
+[41:06.880 --> 41:13.880]  Okay, so from your tests, these are the items that capture conscientiousness, okay?
+[41:13.880 --> 41:16.880]  Let's talk about openness to experience.
+[41:16.880 --> 41:18.880]  So this is the final dimension.
+[41:18.880 --> 41:25.880]  So this has to do with the capacity to entertain new ideas, to change as a result of making
+[41:25.880 --> 41:28.880]  information to be creative or even open-minded.
+[41:28.880 --> 41:32.880]  So those who score low are cautious, they're narrow-minded.
+[41:32.880 --> 41:39.880]  Those who score high tend to be more curious, imaginative, playful, artistic, okay?
+[41:39.880 --> 41:47.880]  So much like agreeableness and extroversion, the traits associated with openness are actually
+[41:47.880 --> 41:53.880]  beneficial in some jobs but not others, okay?
+[41:53.880 --> 41:59.880]  So it's related to job performance in some occupations but not others.
+[41:59.880 --> 42:07.880]  So what jobs do you think would benefit by having someone who scores high on openness
+[42:07.880 --> 42:08.880]  to experience?
+[42:08.880 --> 42:10.880]  What do you think?
+[42:10.880 --> 42:11.880]  Yes, Heather?
+[42:11.880 --> 42:14.880]  Maybe they could give like the entrepreneurship.
+[42:14.880 --> 42:16.880]  Entrepreneurship, good.
+[42:16.880 --> 42:17.880]  Anyone else?
+[42:17.880 --> 42:18.880]  Marketing.
+[42:18.880 --> 42:19.880]  Marketing, sure.
+[42:19.880 --> 42:21.880]  What is your name?
+[42:21.880 --> 42:22.880]  Andrew.
+[42:22.880 --> 42:23.880]  Andrew.
+[42:23.880 --> 42:25.880]  Raymond, did you have something?
+[42:25.880 --> 42:26.880]  Marketing, okay.
+[42:26.880 --> 42:27.880]  Anyone else?
+[42:27.880 --> 42:28.880]  Yes.
+[42:28.880 --> 42:29.880]  Artist.
+[42:29.880 --> 42:30.880]  Artist, right?
+[42:30.880 --> 42:31.880]  Yeah, good.
+[42:31.880 --> 42:42.880]  Okay, so you see this, you see an increase in job performance in occupations where or
+[42:42.880 --> 42:50.880]  in jobs that are very fluid, right, that are very dynamic.
+[42:50.880 --> 42:58.880]  You also see it in occupations where the job demands, there are changes in them and they're
+[42:58.880 --> 43:00.880]  rapid in them, okay?
+[43:00.880 --> 43:06.880]  You also see it in occupations like you said where you see a lot of speed.
+[43:06.880 --> 43:07.880]  Okay.
+[43:07.880 --> 43:08.880]  All right.
+[43:08.880 --> 43:19.880]  Now one of the other things is that openness is related to training proficiency, okay?
+[43:19.880 --> 43:27.880]  So employees who score high on openness to experience, they tend to excel in training
+[43:27.880 --> 43:29.880]  and learning environments.
+[43:29.880 --> 43:30.880]  Okay?
+[43:30.880 --> 43:31.880]  Why?
+[43:31.880 --> 43:34.880]  Because their curiosity comes in.
+[43:34.880 --> 43:43.880]  Their curiosity gives them this built-in desire and motivation to learn new things, right?
+[43:43.880 --> 43:48.880]  And training proficiency, basically what they're referring to is like how successful are you
+[43:48.880 --> 43:51.880]  in the training program, okay?
+[43:51.880 --> 43:59.880]  And so these are the items that capture the openness to experience dimension, okay?
+[43:59.880 --> 44:00.880]  All right.
+[44:00.880 --> 44:02.880]  So now let's talk about your results.
+[44:02.880 --> 44:05.880]  Okay, so you should have had five full numbers.
+[44:05.880 --> 44:10.880]  I don't remember if I told you to average them or if I just told you to sum them up.
+[44:10.880 --> 44:12.880]  Which one did I make you do?
+[44:12.880 --> 44:13.880]  Sum them up.
+[44:13.880 --> 44:14.880]  Sum them up, okay.
+[44:14.880 --> 44:19.880]  So each dimension, I believe, I don't remember, let me see how many there were.
+[44:19.880 --> 44:20.880]  I think there were eight.
+[44:20.880 --> 44:23.880]  One, two, three, four, five, six, seven, eight.
+[44:23.880 --> 44:24.880]  It was eight.
+[44:24.880 --> 44:30.880]  So each dimension, because the scale is out of five and there are eight items for each
+[44:30.880 --> 44:33.880]  dimension, it should be out of 40, okay?
+[44:33.880 --> 44:40.880]  Anything that is 19 and below is low on that dimension.
+[44:40.880 --> 44:43.880]  Anything that is 20 and above is high.
+[44:47.880 --> 44:49.880]  Is it reflective of who you are?
+[44:57.880 --> 45:00.880]  Did we score high on extroversion?
+[45:04.880 --> 45:05.880]  I forgot to do it.
+[45:05.880 --> 45:06.880]  You forgot to do it.
+[45:06.880 --> 45:09.880]  Oh yeah, I was going to say, I believe you didn't do it.
+[45:09.880 --> 45:10.880]  Yeah, okay.
+[45:10.880 --> 45:11.880]  How about you just read it?
+[45:11.880 --> 45:13.880]  You asked me the question of neuroticism.
+[45:13.880 --> 45:15.880]  Yeah, I just have that question.
+[45:15.880 --> 45:16.880]  I didn't do it either.
+[45:18.880 --> 45:21.880]  Do it so you understand where you fall.
+[45:21.880 --> 45:22.880]  Okay, who did it?
+[45:22.880 --> 45:23.880]  Oh, great.
+[45:23.880 --> 45:25.880]  These are my favorite people now.
+[45:25.880 --> 45:26.880]  Okay, great.
+[45:26.880 --> 45:27.880]  Okay, so let's talk about it.
+[45:27.880 --> 45:29.880]  Let's talk about your scores.
+[45:29.880 --> 45:32.880]  Do you think they're reflective of who you are?
+[45:33.880 --> 45:34.880]  Somewhat?
+[45:35.880 --> 45:37.880]  Is there somebody that threw you off guard?
+[45:37.880 --> 45:39.880]  You're like, oh no, I don't think I'm like that.
+[45:41.880 --> 45:42.880]  No?
+[45:42.880 --> 45:43.880]  Okay.
+[45:43.880 --> 45:44.880]  Yes.
+[45:44.880 --> 45:46.880]  I quit sedation three years ago, so of course.
+[45:46.880 --> 45:47.880]  Okay.
+[45:47.880 --> 45:52.880]  And I was surprised that my other friends were not so negative.
+[45:52.880 --> 45:53.880]  Oh, did it?
+[45:53.880 --> 45:56.880]  Okay, so are you less neurotic now or more neurotic?
+[45:56.880 --> 45:57.880]  Less neurotic.
+[45:57.880 --> 46:00.880]  So have you gone through any sort of training?
+[46:00.880 --> 46:01.880]  No.
+[46:01.880 --> 46:02.880]  No?
+[46:02.880 --> 46:05.880]  Do you feel less stressed out now than you did three years ago?
+[46:05.880 --> 46:08.880]  Three years ago you would have started your program, right?
+[46:08.880 --> 46:09.880]  No.
+[46:09.880 --> 46:10.880]  No?
+[46:10.880 --> 46:11.880]  Oh, sorry.
+[46:11.880 --> 46:12.880]  It was the second year.
+[46:12.880 --> 46:13.880]  I forgot.
+[46:13.880 --> 46:16.880]  I thought it was my third year in general.
+[46:16.880 --> 46:18.880]  Yeah, that was around like 12th grade.
+[46:18.880 --> 46:20.880]  Oh, so you were finishing up.
+[46:20.880 --> 46:23.880]  You were probably stressed about what you did first, right?
+[46:23.880 --> 46:28.880]  Okay, so the stressors were more probably at that time than they are now.
+[46:28.880 --> 46:30.880]  But did you score the same on the others I mentioned?
+[46:32.880 --> 46:33.880]  Or relatively the same?
+[46:33.880 --> 46:36.880]  Relatively the same except for extra-reported.
+[46:36.880 --> 46:38.880]  Okay, what happened on the extra-reported?
+[46:38.880 --> 46:39.880]  It went slightly up.
+[46:39.880 --> 46:40.880]  Slightly up, okay.
+[46:40.880 --> 46:42.880]  Okay, it's probably pretty high.
+[46:42.880 --> 46:43.880]  Okay, it makes sense.
+[46:43.880 --> 46:44.880]  But it will stay like that.
+[46:44.880 --> 46:53.880]  For the most part, these traits will stay like that until and unless some major event happens, right?
+[46:53.880 --> 46:58.880]  Where you need therapy, for example, or you need to change your thing.
+[46:58.880 --> 47:02.880]  But for your adulthood, most of these will stay relatively the same.
+[47:02.880 --> 47:05.880]  So you said you have to become more extroverted, right?
+[47:05.880 --> 47:06.880]  So when did that happen for you?
+[47:06.880 --> 47:08.880]  When I joined the profession.
+100.69.197.53 - - [17/Sep/2025 17:16:00] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:03] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:06] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:07] "GET /queue_status HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:09] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:12] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:15] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:18] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:21] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:24] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:27] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:30] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:33] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:36] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:39] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:42] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:45] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:48] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:51] "GET /status/23 HTTP/1.1" 200 -
+[47:08.880 --> 47:09.880]  And how long was that?
+[47:09.880 --> 47:11.880]  26 minutes.
+[47:11.880 --> 47:12.880]  Okay.
+[47:12.880 --> 47:13.880]  No, actually it was a little bit.
+[47:13.880 --> 47:16.880]  Okay, so I was slowly developing myself.
+[47:16.880 --> 47:17.880]  What I mean by that is this.
+[47:17.880 --> 47:19.880]  I'll tell you a personal story.
+[47:19.880 --> 47:28.880]  So my undergrad, I was like just like, so in high school, I was a little outgoing, right?
+[47:28.880 --> 47:29.880]  It was a small high school.
+[47:29.880 --> 47:32.880]  I went to a private school, so it was like only 11 of us.
+[47:32.880 --> 47:33.880]  Okay?
+[47:33.880 --> 47:34.880]  Yeah.
+[47:34.880 --> 47:36.880]  So your personality comes out.
+[47:36.880 --> 47:39.880]  So I played hockey, I played soccer.
+[47:39.880 --> 47:41.880]  Like I was like very good, right?
+[47:41.880 --> 47:49.880]  Then when we go into a university setting, my default personality was just introversion.
+[47:49.880 --> 47:54.880]  So in undergrad, I really just focused on my study.
+[47:54.880 --> 47:57.880]  Like I didn't want to just like that.
+[47:57.880 --> 48:00.880]  I was like in my books, I was like one of the highest.
+[48:00.880 --> 48:03.880]  I actually graduated with this major too.
+[48:03.880 --> 48:06.880]  So it was like I was very much into my books.
+[48:06.880 --> 48:08.880]  Then I went to masters.
+[48:08.880 --> 48:17.880]  Masters, you're in, so very, very many people apply for a master's program, but very few people get in.
+[48:17.880 --> 48:19.880]  Especially for master's PhD, right?
+[48:19.880 --> 48:25.880]  So my cohort was only I think maybe about 11 students, right?
+[48:25.880 --> 48:27.880]  And I remember this.
+[48:27.880 --> 48:28.880]  I still remember it.
+[48:28.880 --> 48:31.880]  It was my social psychology class.
+[48:31.880 --> 48:38.880]  And we, here, if I give you marks for participation, it's only like 10% at the undergraduate level, right?
+[48:38.880 --> 48:39.880]  For each course.
+[48:39.880 --> 48:42.880]  Like master's, it's almost 50.
+[48:42.880 --> 48:45.880]  It's high, right?
+[48:45.880 --> 48:46.880]  Like you have to participate.
+[48:46.880 --> 48:48.880]  Like there's no tomorrow.
+[48:48.880 --> 48:53.880]  And so three classes went by and I wasn't participating, right?
+[48:53.880 --> 48:57.880]  But the instructor was my supervisor.
+[48:57.880 --> 49:00.880]  So she knew that I was competent.
+[49:00.880 --> 49:02.880]  She knew this, right?
+[49:02.880 --> 49:06.880]  She knew that Santa knows her stuff, but she's not saying anything.
+[49:06.880 --> 49:12.880]  So she asked me, she took me aside and she said, you know, participation matters a lot.
+[49:12.880 --> 49:16.880]  You're not participating, but I know you know the material.
+[49:16.880 --> 49:17.880]  So what's going on?
+[49:17.880 --> 49:21.880]  And I was like, I just don't know how to say it.
+[49:21.880 --> 49:27.880]  Because I was allowing the dominant students to just like to answer the questions, right?
+[49:27.880 --> 49:31.880]  So I just didn't know how to like put up my hand and say, I have a thing too.
+[49:31.880 --> 49:32.880]  I have a thing too, right?
+[49:32.880 --> 49:39.880]  I was also very, oh my goodness, is my response going to be looked in a positive way or not, right?
+[49:39.880 --> 49:42.880]  So she asked me, how can I make it easier for you?
+[49:42.880 --> 49:45.880]  And I said, pick on me.
+[49:45.880 --> 49:47.880]  Please just pick on me.
+[49:47.880 --> 49:50.880]  Say Santa, do you have anything to contribute?
+[49:50.880 --> 49:55.880]  And so that's what I kind of have I'm doing in my teaching now too.
+[49:55.880 --> 49:59.880]  I will either pick on you or I will just wait until everyone has participated.
+[49:59.880 --> 50:02.880]  Once you feel better about it, right?
+[50:02.880 --> 50:06.880]  So that's when I started to show some changes.
+[50:06.880 --> 50:11.880]  So talking more and more and more and more in class, that's when this happened.
+[50:11.880 --> 50:20.880]  But when I finished my PhD and I was taught to teach social psychology at York University during my postdoc,
+[50:20.880 --> 50:22.880]  it was much bigger than this.
+[50:22.880 --> 50:25.880]  It was 200 and I think 20 students, OK?
+[50:25.880 --> 50:27.880]  Big lecture hall.
+[50:27.880 --> 50:34.880]  And I can you just imagine if I was like, hi, social psychology is a psychology of human beings, right?
+[50:34.880 --> 50:37.880]  Like in social, people will not take me seriously.
+[50:37.880 --> 50:43.880]  So there's this one that I will talk about it in communication when we talk about that chapter.
+[50:43.880 --> 50:46.880]  I'm hoping I get the time to show you that video.
+[50:46.880 --> 50:51.880]  There's this one video that I was introduced to in my PhD.
+[50:51.880 --> 50:55.880]  And it's all about power postures, right?
+[50:55.880 --> 51:05.880]  So it talks a little bit about how like, you know, powerful postures are like you just like what MBA students do, right?
+[51:05.880 --> 51:09.880]  Like they're just like, yeah, like this, like open your body.
+[51:09.880 --> 51:19.880]  And that brings in a number of different positive outcomes, like your confidence level, your testosterone goes up and your cortisol goes down and all that stuff.
+[51:19.880 --> 51:21.880]  Right. So I did that.
+[51:21.880 --> 51:29.880]  I remember right before my class, I went into the bathroom and I did the powerful posture.
+[51:29.880 --> 51:33.880]  And I continued doing that for my social psych class.
+[51:33.880 --> 51:36.880]  And and then that's how I trained myself.
+[51:36.880 --> 51:38.880]  So I've been doing it.
+[51:38.880 --> 51:41.880]  Now I don't. Now I just now I'm like very confidently.
+[51:41.880 --> 51:43.880]  I'm like, OK, I'm just going to say whatever.
+[51:43.880 --> 51:49.880]  Right. I reached that point now, but it took a lot of training for me to get to that point.
+[51:49.880 --> 51:51.880]  Why? You want to change something?
+[51:51.880 --> 51:56.880]  No, no, I was just curious because yeah, because I thought that you were extroverted just like from nature.
+[51:56.880 --> 51:58.880]  But then when you like, oh, I was introverted before.
+[51:58.880 --> 52:00.880]  I was always quiet.
+[52:00.880 --> 52:03.880]  The reserved one, the shy, the timid one.
+[52:03.880 --> 52:07.880]  I'm thankful to the people who helped me in that journey.
+[52:07.880 --> 52:11.880]  But it took many years of training to get to that point.
+[52:11.880 --> 52:15.880]  Right. And so today I give off this expression.
+[52:15.880 --> 52:18.880]  But honestly, I like being on my own.
+[52:18.880 --> 52:22.880]  Right. So yeah, anyway, good question.
+[52:22.880 --> 52:24.880]  OK. So what happens?
+[52:24.880 --> 52:30.880]  So what I gave you was just one of the scales.
+[52:30.880 --> 52:33.880]  The actual scale is much longer.
+[52:33.880 --> 52:35.880]  The big five is way longer.
+[52:35.880 --> 52:37.880]  I gave you the reduced version.
+[52:37.880 --> 52:43.880]  And I also just used an arbitrary halfway midpoint to do high and low.
+[52:43.880 --> 52:45.880]  But how does it actually work?
+[52:45.880 --> 52:49.880]  When you complete this, this is something that you will see.
+[52:49.880 --> 52:52.880]  OK. So you will see this.
+[52:52.880 --> 52:55.880]  So I'm showing like, this is not my result.
+[52:55.880 --> 52:56.880]  This is not my result.
+[52:56.880 --> 52:58.880]  You can just find it from the internet.
+[52:58.880 --> 53:05.880]  So it kind of like displays to you where you score on that particular dimension.
+[53:05.880 --> 53:11.880]  OK. But one of the things I have noticed, and research indicates this as well,
+[53:11.880 --> 53:14.880]  is that during your adulthood, I have already mentioned this,
+[53:14.880 --> 53:19.880]  during your adulthood, your personality tends to be the same.
+[53:19.880 --> 53:20.880]  Right.
+[53:20.880 --> 53:23.880]  So it develops in your childhood.
+[53:23.880 --> 53:27.880]  And then during your adulthood, you remain the same.
+100.69.197.53 - - [17/Sep/2025 17:16:54] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:16:57] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:01] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:03] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:07] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:09] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:12] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:16] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:18] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:22] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:24] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:27] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:30] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:33] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:37] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:39] "GET /status/23 HTTP/1.1" 200 -
+[53:27.880 --> 53:30.880]  So if you are scoring higher in conscientiousness today,
+[53:30.880 --> 53:33.880]  most likely you're going to be scoring higher in conscientiousness
+[53:33.880 --> 53:38.880]  until the end of your, I don't know if it's an academic career,
+[53:38.880 --> 53:40.880]  but no, it will be until the end of your career.
+[53:40.880 --> 53:42.880]  Until the end of your career.
+[53:42.880 --> 53:46.880]  OK. And the same thing goes for all the other factors.
+[53:46.880 --> 53:51.880]  However, one of the things they say, and I still want to do some research on it,
+[53:51.880 --> 53:57.880]  is like when you become even older, you vote your default personality.
+[53:57.880 --> 54:01.880]  That is something I want to understand a little bit more.
+[54:01.880 --> 54:03.880]  Because I want to understand my dad.
+[54:03.880 --> 54:04.880]  Really, I do.
+[54:04.880 --> 54:07.880]  He's so cynical, and I'm just like, it's going to get worse.
+[54:07.880 --> 54:08.880]  That's what everyone says, right?
+[54:08.880 --> 54:10.880]  Like he's going to get worse and worse and worse.
+[54:10.880 --> 54:14.880]  And I'm like, what's my dad's default personality like growing up?
+[54:14.880 --> 54:16.880]  Like I really want to know what it is.
+[54:16.880 --> 54:19.880]  Anyway, so maybe I'll go back to integration.
+[54:19.880 --> 54:21.880]  I'm in my 80s and 90s.
+[54:21.880 --> 54:22.880]  Yes?
+[54:22.880 --> 54:25.880]  Don't you think this way of thinking is kind of like a self-fulfilled prophecy,
+[54:25.880 --> 54:26.880]  and it can trap you?
+[54:26.880 --> 54:28.880]  Oh, OK. What do you mean by that?
+[54:28.880 --> 54:29.880]  How would it trap you?
+[54:29.880 --> 54:35.880]  Because you're saying that your personality doesn't change throughout your adulthood.
+[54:35.880 --> 54:38.880]  Because you think this, let's say you're an integrated person,
+[54:38.880 --> 54:42.880]  because you think you're not going to change, you're actually not changing.
+[54:42.880 --> 54:44.880]  No, no, no.
+[54:44.880 --> 54:46.880]  I don't think it would become like that.
+[54:46.880 --> 54:48.880]  I think you know where you're coming from.
+[54:48.880 --> 54:52.880]  But then you would score very low on openness to experience, for example.
+[54:52.880 --> 54:53.880]  Right?
+[54:53.880 --> 54:54.880]  That's kind of the thing.
+[54:54.880 --> 54:57.880]  If you're scoring high, you're more likely...
+[54:57.880 --> 54:59.880]  It's not going to become a self-fulfilling prophecy.
+[54:59.880 --> 55:03.880]  It's just these are the personality traits that describe you right now.
+[55:03.880 --> 55:05.880]  They're most likely going to stick with you.
+[55:05.880 --> 55:10.880]  Yes, experiences, training, all that stuff will change it.
+[55:10.880 --> 55:14.880]  But your default, your dominant personality will remain the same.
+[55:14.880 --> 55:15.880]  Does that help?
+[55:15.880 --> 55:16.880]  Yeah.
+[55:16.880 --> 55:18.880]  Do you feel better about this test?
+[55:18.880 --> 55:20.880]  I mean, I didn't do the test, but I'm just...
+[55:20.880 --> 55:21.880]  Oh my god.
+[55:21.880 --> 55:23.880]  What was she talking about?
+[55:23.880 --> 55:27.880]  I didn't do the test, but it just seems like it's a little trapped.
+[55:27.880 --> 55:28.880]  No, it's not. It's not.
+[55:28.880 --> 55:30.880]  I understand where you're coming from, but it's not.
+[55:30.880 --> 55:33.880]  There's a lot of research to back this up.
+[55:33.880 --> 55:36.880]  There's a lot of research, first of all, to back up the dimension.
+[55:36.880 --> 55:41.880]  There's a lot of research to indicate that it tends to be relatively stable over time.
+[55:41.880 --> 55:45.880]  But I understand where you're coming from.
+[55:45.880 --> 55:48.880]  I understand why you would feel that way.
+[55:48.880 --> 55:52.880]  And this is another thing.
+[55:52.880 --> 56:01.880]  So if you look at the items that I gave you, the actual scale has way more than 40 items or whatever it is.
+[56:01.880 --> 56:02.880]  It has more.
+[56:03.880 --> 56:07.880]  And you're assessing the dimension in various different ways.
+[56:07.880 --> 56:16.880]  So they'll be asking you two or three questions that are assessing the same thing, but in a different way.
+[56:16.880 --> 56:23.880]  So that way, you can take off all these self-fulfilling prophecies or any alternative explanation.
+[56:23.880 --> 56:24.880]  Because they've asked you this.
+[56:24.880 --> 56:28.880]  You'll understand this more when you take research methods, if you ever do.
+[56:28.880 --> 56:33.880]  But that's one of the ways in which you can take away all the alternative explanation.
+[56:37.880 --> 56:39.880]  And so this is how you usually see it.
+[56:39.880 --> 56:44.880]  Even if you just type in big five in Google, this is what will come up.
+[56:47.880 --> 56:49.880]  I think I've already mentioned all of this.
+[56:49.880 --> 56:51.880]  So I don't really need to mention this.
+[56:51.880 --> 56:54.880]  This is just a summary of things.
+[56:54.880 --> 56:56.880]  So don't really need to.
+[56:56.880 --> 56:57.880]  Don't really need to.
+[56:57.880 --> 56:58.880]  Just understand this.
+[56:58.880 --> 57:04.880]  Conscientiousness, important for almost all the jobs, is the strongest predictor of job performance.
+[57:04.880 --> 57:08.880]  What was the second strongest predictor of job performance?
+[57:08.880 --> 57:09.880]  Do we remember?
+[57:11.880 --> 57:12.880]  Yes.
+[57:12.880 --> 57:13.880]  Neuroarticism.
+[57:13.880 --> 57:14.880]  Neuroarticism, okay.
+[57:14.880 --> 57:16.880]  Extraversion, neuroticism.
+[57:16.880 --> 57:19.880]  This is good for those that have social interaction.
+[57:19.880 --> 57:27.880]  Openness experience, more so with jobs with learning creativity, agreeableness, more so with cooperative interactions.
+[57:27.880 --> 57:38.880]  And then there's more research, so much research to basically say that it's related to a number of different outcomes that OBE specialists are interested in.
+[57:38.880 --> 57:41.880]  And yeah, so there you go.
+[57:41.880 --> 57:51.880]  Okay, one of the things I want to talk about is the Myers-Bergs type indicator, MBTI.
+[57:51.880 --> 57:53.880]  Have we heard of that?
+[57:53.880 --> 57:54.880]  Yeah.
+[57:54.880 --> 57:56.880]  Have we gone through it?
+[57:56.880 --> 57:57.880]  Yes.
+[57:57.880 --> 57:58.880]  Yes?
+[57:58.880 --> 57:59.880]  Yeah, okay.
+[57:59.880 --> 58:02.880]  So let me talk a little bit about this, okay?
+[58:02.880 --> 58:05.880]  And then let me tell you, let me trash talk this.
+[58:05.880 --> 58:06.880]  Okay?
+[58:07.880 --> 58:13.880]  So MBTI, this is what it does, okay?
+[58:13.880 --> 58:24.880]  It basically classifies you on four dimensions to determine one of 16 possible personality types.
+[58:24.880 --> 58:25.880]  Okay?
+[58:25.880 --> 58:27.880]  So what are these four axes?
+[58:27.880 --> 58:29.880]  So it's written over there.
+[58:29.880 --> 58:35.880]  Sociable and agreeableness versus quiet and shy, practical and orderly, unconsciousness.
+[58:35.880 --> 58:38.880]  So that's basically how you would read that, okay?
+[58:38.880 --> 58:47.880]  So there's 16 possible personality types according to this particular personality test, okay?
+[58:47.880 --> 58:50.880]  INTJ is one of them, okay?
+[58:50.880 --> 58:56.880]  INTJ, I think I believe, are said to be revision, they're supposed to be what they're called.
+[58:56.880 --> 58:59.880]  They have like original minds.
+[58:59.880 --> 59:02.880]  They have great drive for their own ideas and purposes.
+[59:02.880 --> 59:04.880]  I forget the exact terminology.
+[59:04.880 --> 59:07.880]  I think it's like visionary or something like that.
+[59:07.880 --> 59:09.880]  I could be wrong, okay?
+[59:09.880 --> 59:11.880]  But that's that.
+[59:11.880 --> 59:14.880]  There's another thing called ESTJ.
+[59:14.880 --> 59:21.880]  Those are known as organizers, so they're more realistic, logical, analytical, and so forth.
+[59:21.880 --> 59:25.880]  Okay, so sure, MBTI is there.
+100.69.197.53 - - [17/Sep/2025 17:17:42] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:45] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:48] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:51] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:54] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:17:57] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:00] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:04] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:06] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:09] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:12] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:14] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [17/Sep/2025 17:18:16] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:18] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:21] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:24] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:27] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:30] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:33] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:36] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:39] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:42] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:45] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:48] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:51] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:54] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:18:57] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:00] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:03] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:06] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:09] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:12] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:15] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:18] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:21] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:24] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:27] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:30] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:33] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:36] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:39] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:42] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:45] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:48] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:51] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:54] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:19:57] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:00] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:03] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:06] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:09] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:12] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:15] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:18] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:21] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:24] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:28] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:30] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:34] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:37] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:41] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:42] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:45] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:48] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:51] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:54] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:20:57] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:00] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:03] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:06] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:09] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:13] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:15] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:18] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:21] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:24] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:27] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:30] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:33] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:36] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:39] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:43] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:45] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:49] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:51] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:54] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:21:57] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:00] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:03] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:06] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:09] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:12] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:15] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:18] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:26] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:26] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:27] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:30] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:33] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:36] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:40] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:42] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:45] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:48] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:51] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:22:54] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:00] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:00] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:03] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:06] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:09] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:12] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:15] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:18] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:21] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:24] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:27] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:31] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:33] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:36] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:39] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:42] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:44] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [17/Sep/2025 17:23:45] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:48] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:51] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:54] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:23:57] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:00] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:03] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:06] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:09] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:13] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:15] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:18] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:21] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:27] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:28] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:30] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:33] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:36] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:39] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:43] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:45] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:48] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:54] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:54] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:24:57] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:00] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:04] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:06] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:09] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:12] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:16] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:19] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:21] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:24] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:27] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:30] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:33] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:36] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:39] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:42] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:45] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:48] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:51] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:54] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:25:57] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:00] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:03] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:07] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:09] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:12] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:15] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:18] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:21] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:26] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:27] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:31] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:33] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:36] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:39] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:42] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:45] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:48] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:51] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:54] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:26:57] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:00] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:03] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:06] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:09] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:13] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:15] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:18] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:21] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:24] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:27] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:31] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:33] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:36] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:39] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:42] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:45] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:48] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:51] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:54] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:27:57] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:00] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:03] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:06] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:09] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:12] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:17] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:18] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:21] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:24] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:27] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:30] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:33] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:36] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:39] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:42] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:45] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:48] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:51] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:54] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:28:57] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:00] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:03] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:06] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:09] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:12] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:14] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [17/Sep/2025 17:29:15] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:18] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:22] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:24] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:27] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:30] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:33] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:36] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:39] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:42] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:45] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:48] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:51] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:54] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:29:57] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:00] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:03] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:06] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:09] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:12] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:15] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:18] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:21] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:24] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:27] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:30] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:33] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:36] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:39] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:42] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:45] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:48] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:51] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:54] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:30:58] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:00] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:04] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:06] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:10] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:12] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:16] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:18] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:21] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:24] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:27] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:30] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:36] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:36] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:47] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:47] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:48] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:51] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:54] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:31:57] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:32:01] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:32:05] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:32:06] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:32:09] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:32:12] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:33:19] "GET /status/23 HTTP/1.1" 200 -
+100.69.197.53 - - [17/Sep/2025 17:33:20] "GET /status/23 HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 17:53:29] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 17:53:29] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 17:53:29] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 17:53:30] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 17:53:30] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 17:53:30] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 17:53:33] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 17:53:36] "GET /session/16 HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 17:53:39] "GET /session/15 HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 18:44:42] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 18:44:42] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 18:44:42] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 18:44:42] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 18:44:42] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 18:44:42] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 18:44:53] "GET /session/13 HTTP/1.1" 200 -
