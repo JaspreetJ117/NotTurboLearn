@@ -1,0 +1,94 @@
+Directory '..\data' is ready.
+Database and tables verified successfully.
+Queue processor thread started.
+Queue processor checking for a new job...
+Job 20 is already being processed. Worker will wait.
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.0.0.26:443
+Press CTRL+C to quit
+100.117.97.99 - - [17/Sep/2025 01:31:13] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:31:13] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:31:13] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 01:31:13] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 01:31:13] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:31:14] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:31:14] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:31:14] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:31:14] "GET /favicon.ico HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:31:14] "GET /static/images/icons/icon-192x192.png HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:31:17] "GET /static/images/icons/icon-192x192.png HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 01:31:42] "GET /static/images/icons/icon-192x192.png HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 01:31:45] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:31:45] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:31:45] "GET /static/style.css HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:31:45] "GET /static/script.js HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:31:45] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:31:45] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:31:48] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:31:48] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:31:48] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 01:31:48] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 01:31:48] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:31:48] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:32:00] "GET /static/images/icons/icon-192x192.png HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 01:32:47] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:32:47] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:32:47] "GET /static/style.css HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:32:47] "GET /static/script.js HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:32:47] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:32:47] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:32:48] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:32:48] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:32:48] "GET /favicon.ico HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:32:48] "GET /static/images/icons/icon-192x192.png HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:32:50] "GET /static/images/icons/icon-192x192.png HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 01:33:34] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:33:34] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:33:34] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:33:35] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:33:35] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:33:35] "GET /favicon.ico HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:33:35] "GET /static/images/icons/icon-192x192.png HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:33:38] "GET /static/images/icons/icon-192x192.png HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:33:42] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:33:42] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:33:42] "GET /static/style.css HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:33:42] "GET /static/script.js HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:33:42] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:33:42] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:33:52] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:33:52] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:33:52] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 01:33:52] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 01:33:52] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:33:52] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:34:29] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:34:29] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:34:29] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 01:34:29] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 01:34:29] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:34:30] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:34:36] "GET /session/13 HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:35:20] "GET /session/11 HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:35:34] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:35:35] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:35:39] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:35:39] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:35:39] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 01:35:39] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [17/Sep/2025 01:35:39] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:35:39] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [17/Sep/2025 01:35:41] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [17/Sep/2025 01:36:09] "GET /queue_status HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2025 02:12:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2025 02:12:56] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2025 02:12:56] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2025 02:12:56] "GET /history HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2025 02:12:57] "GET /manifest.json HTTP/1.1" 404 -
+127.0.0.1 - - [17/Sep/2025 02:12:57] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Sep/2025 02:12:57] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [17/Sep/2025 02:12:57] "GET /queue_status HTTP/1.1" 200 -
