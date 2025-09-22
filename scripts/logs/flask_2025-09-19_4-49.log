@@ -1,0 +1,42 @@
+Directory '..\data' is ready.
+Database and tables verified successfully.
+Queue processor thread started.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.0.0.26:443
+Press CTRL+C to quit
+100.117.97.99 - - [19/Sep/2025 06:11:38] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [19/Sep/2025 06:11:38] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [19/Sep/2025 06:11:38] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [19/Sep/2025 06:11:38] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [19/Sep/2025 06:11:38] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [19/Sep/2025 06:11:38] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [19/Sep/2025 06:11:41] "GET /session/14 HTTP/1.1" 200 -
+100.117.97.99 - - [19/Sep/2025 09:37:23] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [19/Sep/2025 09:37:23] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [19/Sep/2025 09:37:24] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [19/Sep/2025 09:37:24] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [19/Sep/2025 09:37:24] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [19/Sep/2025 09:37:24] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [19/Sep/2025 09:50:20] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [19/Sep/2025 15:49:39] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [19/Sep/2025 15:49:39] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [19/Sep/2025 15:49:39] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [19/Sep/2025 15:49:39] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [19/Sep/2025 15:49:39] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [19/Sep/2025 15:49:39] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [19/Sep/2025 15:49:45] "GET /session/18 HTTP/1.1" 200 -
+100.117.97.99 - - [19/Sep/2025 19:29:03] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [19/Sep/2025 19:29:04] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [19/Sep/2025 19:29:04] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [19/Sep/2025 19:29:04] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [19/Sep/2025 19:29:04] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [19/Sep/2025 19:29:05] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [19/Sep/2025 19:29:10] "GET /session/13 HTTP/1.1" 200 -
+100.117.97.99 - - [19/Sep/2025 19:29:14] "GET /session/18 HTTP/1.1" 200 -
+100.117.97.99 - - [19/Sep/2025 19:29:24] "GET /session/16 HTTP/1.1" 200 -

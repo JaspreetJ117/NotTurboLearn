@@ -1,0 +1,1108 @@
+Directory '..\data' is ready.
+Database and tables verified successfully.
+Queue processor thread started.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.0.0.26:443
+Press CTRL+C to quit
+100.117.97.99 - - [18/Sep/2025 12:51:46] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 12:51:46] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [18/Sep/2025 12:51:46] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 12:51:46] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [18/Sep/2025 12:51:46] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 12:51:46] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 12:52:09] "POST /transcribe HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 12:52:13] "GET /status/24 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 12:52:15] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 12:52:16] "GET /status/24 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 12:52:19] "GET /status/24 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 12:52:22] "GET /status/24 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 12:52:25] "GET /status/24 HTTP/1.1" 200 -
+Queue processor checking for a new job...
+Processing job 24: New Recording 61.m4a
+Loading Whisper model for the first time...
+Whisper is using device: cuda
+Whisper model loaded successfully.
+--- Starting Transcription for ../uploads\8c487803-eefe-4450-bd4a-c96c6db17644.m4a ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:03.240]  is like everyone, and it's not mine,
+[00:03.240 --> 00:06.120]  so it's all awesome for me.
+[00:06.120 --> 00:08.440]  You can do a lot of questions all the way.
+[00:08.440 --> 00:10.920]  And remember, you don't have a tense on the quiz,
+[00:10.920 --> 00:12.880]  you have a tense per question.
+[00:12.880 --> 00:14.480]  So you can open it, you'll have a few questions,
+[00:14.480 --> 00:16.240]  close it, come back with it.
+[00:16.240 --> 00:17.520]  That is fine.
+[00:17.520 --> 00:19.520]  If something goes wrong, let us know.
+[00:19.520 --> 00:21.200]  We'll gladly collect the work out.
+[00:21.200 --> 00:23.000]  We will figure something out.
+[00:23.000 --> 00:26.120]  It's a little gnarly to get two attempts per question.
+[00:26.120 --> 00:27.520]  So you should know how to open it up
+[00:27.520 --> 00:28.360]  and come back with it.
+[00:28.360 --> 00:29.200]  Go on.
+[00:30.000 --> 00:34.480]  And I'll tell you today, if we get far enough,
+[00:34.480 --> 00:35.960]  I think we will.
+[00:35.960 --> 00:37.960]  We'll see how it goes.
+[00:37.960 --> 00:39.920]  I'm going to give you a whole length of now.
+[00:39.920 --> 00:42.400]  I'm going to give you a whole length of now.
+[00:42.400 --> 00:44.360]  The question is about the work on the quiz.
+[00:56.360 --> 00:57.360]  All right.
+[00:57.600 --> 01:02.520]  At the end of the last class, we did Z-sports.
+[01:02.520 --> 01:06.800]  They are easy to calculate from that table we built.
+[01:06.800 --> 01:09.200]  Something's wrong with the recording,
+[01:09.200 --> 01:11.080]  and they're not at the end of the recording,
+[01:11.080 --> 01:12.600]  but I turned on another recording,
+[01:12.600 --> 01:16.680]  so there is now like a one minute video.
+[01:16.680 --> 01:20.200]  If you're reviewing the recording later,
+[01:20.200 --> 01:22.680]  you can see on the Z-sports, you're calculating.
+[01:22.680 --> 01:24.160]  They're hiding the question here.
+[01:24.160 --> 01:29.920]  And now, what do we have to do for a factor three
+[01:29.920 --> 01:31.400]  exposition variation?
+[01:36.400 --> 01:40.640]  People don't use this a lot, but every now and then,
+[01:40.640 --> 01:43.120]  someone cites it.
+[01:43.120 --> 01:44.600]  Did you take that in mind?
+[01:44.600 --> 01:46.600]  Did you take that in mind?
+[01:46.600 --> 01:48.600]  Did you take that in mind?
+[01:49.040 --> 01:53.440]  It often shows up that I see people
+[01:53.440 --> 01:58.440]  finding out in the context of gambling, in the stock markets,
+[01:58.440 --> 02:00.440]  like evaluating how it's the actual price,
+[02:00.440 --> 02:02.440]  and times it's your typical in the variations
+[02:02.440 --> 02:05.920]  instead of the standard deviations.
+[02:05.920 --> 02:08.640]  And the idea is that you're looking at this
+[02:08.640 --> 02:10.120]  where all these things have units.
+[02:10.120 --> 02:12.640]  They all depend on whether you're talking about dollars
+[02:12.640 --> 02:15.400]  or A's, or whatever else we're talking about.
+[02:15.400 --> 02:18.400]  Maybe we could have a unit that's measured in variations.
+[02:18.400 --> 02:21.400]  So that if I told you that something had a coefficient
+[02:21.400 --> 02:24.400]  variation of n, you would have an idea that it was like,
+[02:24.400 --> 02:25.400]  oh, that is risky.
+[02:25.400 --> 02:27.880]  But if it had a coefficient variation of like 0.1,
+[02:27.880 --> 02:30.360]  then it's not risky.
+[02:30.360 --> 02:38.360]  And so, coefficient variation is a unit that has a risk.
+[02:48.400 --> 02:58.360]  So I have an annotation for it.
+[02:58.360 --> 03:02.360]  It's a text called C. OK.
+[03:09.360 --> 03:09.860]  OK.
+[03:09.860 --> 03:14.360]  So all you do is you take the standard deviation
+[03:15.320 --> 03:19.320]  calculated and divide it by the average calculated.
+[03:19.320 --> 03:24.800]  You multiply by 100 to get it as a first set.
+[03:35.800 --> 03:39.800]  If you bother with numbers, you did that last class.
+[03:40.240 --> 03:45.240]  And then maybe we'll do one theory for a sample.
+[03:45.240 --> 03:46.720]  Stealing is wrong.
+[03:46.720 --> 03:47.220]  What?
+[03:47.220 --> 03:50.200]  Stealing is wrong.
+[03:50.200 --> 03:51.200]  What is stealing?
+[03:51.200 --> 03:52.200]  What the fuck?
+[03:56.200 --> 03:57.680]  OK.
+[03:57.680 --> 03:58.180]  Camera.
+[04:02.160 --> 04:03.160]  We're really quick.
+[04:04.000 --> 04:15.000]  So last class, we had an example where s was 0.1.
+[04:27.000 --> 04:28.000]  Yeah.
+[04:28.000 --> 04:32.000]  We had an example where s was 5.36.
+[04:32.840 --> 04:34.840]  The average time was 7.
+[04:35.680 --> 05:04.680]  So you take your s or sigma, number one,
+[05:05.520 --> 05:07.520]  and you calculate it, and then you divide by the average.
+[05:10.520 --> 05:12.520]  Multiply it by 100.
+[05:12.520 --> 05:15.520]  And that gives you the score.
+[05:15.520 --> 05:17.520]  Usually it's given as a percentage.
+[05:21.520 --> 05:25.520]  So 5.36 divided by 9.7.
+[05:25.520 --> 05:29.520]  And I get 0.5523.
+[05:35.520 --> 05:36.020]  OK.
+[05:49.520 --> 05:54.520]  And then I can say simple things like,
+[05:55.360 --> 06:06.360]  CV well above 100% is considered variable or maybe
+[06:06.360 --> 06:12.840]  volatile, risky.
+[06:12.840 --> 06:23.840]  And a CV much lower than 100% is not.
+[06:25.320 --> 06:29.320]  And I'm not giving you specific values
+[06:29.320 --> 06:31.320]  because it depends on the context.
+[06:34.320 --> 06:38.320]  And the text doesn't have anything about this.
+[06:38.320 --> 06:40.320]  And you're not hesitant.
+[06:40.320 --> 06:50.320]  It's kind of like a, generally, let CV be 4.
+[06:54.520 --> 06:55.020]  OK.
+[07:10.520 --> 07:12.520]  It usually takes a lot of work to get it.
+[07:12.520 --> 07:15.520]  You've got to calculate the gap and do the standard deviation.
+[07:15.520 --> 07:19.520]  But once you have those, it's more or less a variable.
+[07:25.520 --> 07:26.020]  OK.
+[07:26.020 --> 07:29.000]  Problem solved.
+[07:29.000 --> 07:33.000]  This is one of the most fun chapters in the game story.
+[07:33.000 --> 07:34.000]  I had fun.
+[07:37.000 --> 07:40.000]  And we should probably, I like to do this.
+[07:40.000 --> 07:42.000]  Remember I said at the beginning of the course,
+[07:42.000 --> 07:43.480]  like, there's a reason we do this?
+[07:43.480 --> 07:43.980]  Well, yes.
+[07:43.980 --> 07:44.980]  That's how it works.
+[07:44.980 --> 07:47.480]  There's a lot of different things in front of it.
+[07:47.480 --> 07:50.960]  What do we do?
+[07:50.960 --> 07:53.460]  And all of the definitions of the things I'll give you,
+[07:53.900 --> 07:55.900]  I'll leave you with a question for a while.
+[07:58.900 --> 08:04.900]  How likely, if there's a problem,
+[08:04.900 --> 08:18.900]  how likely is it that the top card of a scuffled,
+[08:19.340 --> 08:21.340]  standard 52 card deck?
+[08:25.340 --> 08:27.340]  We've also got bridge decks.
+[08:27.340 --> 08:31.340]  They are used for poker or any other card games.
+[08:31.340 --> 08:33.340]  Other parts of the world, including Europe,
+[08:33.340 --> 08:34.340]  have similar decks.
+[08:34.340 --> 08:36.340]  But they sometimes they don't call them decks.
+[08:36.340 --> 08:38.340]  They call them something else.
+[08:38.340 --> 08:40.340]  And then other places have different decks,
+[08:40.340 --> 08:42.340]  but we have a 52 card deck here.
+[08:42.340 --> 08:47.340]  And it's ace.
+[08:49.340 --> 08:58.340]  So the 52 card deck has four suits,
+[08:58.340 --> 09:01.340]  a heart and clubs.
+[09:01.340 --> 09:06.340]  It has 13 denominations, ace, which is a kind of a one,
+[09:06.340 --> 09:09.340]  two to 10, jack and king.
+[09:09.340 --> 09:13.340]  If you know the answer to this question,
+[09:13.340 --> 09:15.340]  the next half an hour it's going to be a little dull.
+[09:15.340 --> 09:18.340]  But we've got to go through it and we've got to define
+[09:18.780 --> 09:21.780]  definitions and show you how to calculate it.
+[09:21.780 --> 09:26.780]  When I was your age, I knew how to do this because I was
+[09:26.780 --> 09:28.780]  probably better at math than you.
+[09:35.780 --> 09:39.780]  One of my secrets is that I almost developed a gambling
+[09:39.780 --> 09:42.780]  problem.
+[09:42.780 --> 09:45.780]  I say almost because I got better and better at math
+[09:46.220 --> 09:49.220]  and I realized that gambling is a wrong way.
+[09:49.220 --> 09:51.220]  But I had a good way of...
+[10:16.220 --> 10:19.220]  I hear some of you like to gamble.
+[10:19.220 --> 10:22.220]  They show up at the cash register.
+[10:22.220 --> 10:25.220]  People will not talk about that.
+[10:25.220 --> 10:28.220]  This...
+[10:28.220 --> 10:31.220]  What about things we don't do?
+[10:35.220 --> 10:38.220]  Okay.
+[10:38.220 --> 10:41.220]  Possibility...
+[10:41.660 --> 10:44.660]  Possibility...
+[11:04.660 --> 11:07.660]  The relative likelihood that an event will occur...
+[11:11.660 --> 11:14.660]  We're going to have to define the probability.
+[11:28.660 --> 11:33.660]  So you could substitute the word probability into this
+[11:36.660 --> 11:39.660]  question and say what is the probability of that?
+[11:40.100 --> 11:43.100]  What is the probability...
+[11:55.100 --> 11:58.100]  So those are the things.
+[11:58.100 --> 12:01.100]  That's how we understand the probability.
+[12:01.100 --> 12:04.100]  What is the likelihood?
+[12:04.100 --> 12:07.100]  What is the probability that something will happen?
+[12:07.540 --> 12:10.540]  What is the probability that something will happen?
+[12:14.540 --> 12:17.540]  Propagation...
+[12:22.540 --> 12:25.540]  A is the event.
+[12:25.540 --> 12:28.540]  Then P of A is the probability.
+[12:37.540 --> 12:40.540]  With a requirement...
+[12:46.540 --> 12:49.540]  That the probability is between zero and one inclusive.
+[12:52.540 --> 12:55.540]  So you can come up with some events.
+[12:59.540 --> 13:02.540]  Like what is the probability that you draw a business card?
+[13:02.980 --> 13:05.980]  A business card...
+[13:05.980 --> 13:08.980]  Not that you can card X, but one is probably zero.
+[13:10.980 --> 13:13.980]  Or what is the probability that you draw an A card?
+[13:13.980 --> 13:16.980]  It will...
+[13:17.420 --> 13:20.420]  What is the probability that you draw an A card?
+[13:20.420 --> 13:23.420]  It will be a little bit more than the probability.
+[13:23.420 --> 13:26.420]  The probability is a little bit more than the probability.
+[13:31.420 --> 13:34.420]  I don't think too much with that.
+[13:37.420 --> 13:40.420]  No, no, I think it's a little bit more than that.
+[13:42.420 --> 13:45.420]  I'm just going to say it's a little bit more than that.
+[13:47.420 --> 13:50.420]  I'm supposed to define...
+[13:50.420 --> 13:53.420]  Elemental things like an experiment and a test.
+[13:53.420 --> 13:56.420]  So we should do that quickly.
+[13:59.420 --> 14:02.420]  This is what I did.
+[14:05.420 --> 14:08.420]  Go back a little bit.
+[14:11.420 --> 14:14.420]  I'm going to go back a little bit.
+[14:14.860 --> 14:17.860]  Okay.
+[14:18.860 --> 14:21.860]  So an experiment is very general term.
+[14:21.860 --> 14:24.860]  It's like something we do that predicts something.
+[14:24.860 --> 14:27.860]  Remember I told you about the physics and the foundation of science?
+[14:27.860 --> 14:30.860]  Well, you know what an experiment is.
+[14:30.860 --> 14:37.860]  You set up some kind of process and then measure the outcome.
+[14:39.860 --> 14:42.860]  In this case, an experiment would be something like...
+[14:43.300 --> 14:46.300]  The options are...
+[15:05.300 --> 15:08.300]  For it to be interesting, there's a few things that have to happen.
+[15:08.300 --> 15:11.300]  There has to be more than one possible outcome.
+[15:13.300 --> 15:16.300]  I'm not really talking about probability anymore.
+[15:16.300 --> 15:19.300]  If you know exactly what's going to happen, probability is not equal.
+[15:21.300 --> 15:24.300]  More than one possible outcome.
+[15:27.300 --> 15:30.300]  What else is in my list here?
+[15:31.300 --> 15:34.300]  A trial is one repetition of an experiment.
+[15:34.300 --> 15:37.300]  There's one aspect.
+[15:37.300 --> 15:40.300]  A trial is one repetition of an experiment.
+[15:40.740 --> 15:43.740]  There's one aspect.
+[15:46.740 --> 15:49.740]  Do that. It's fine.
+[15:59.740 --> 16:02.740]  An experiment...
+[16:02.740 --> 16:07.740]  You'll come back to trials and repetitions in the winter in BDS in 2075.
+[16:08.180 --> 16:11.180]  When you learn about simulations.
+[16:14.180 --> 16:17.180]  There is one aspect of a project.
+[16:23.180 --> 16:28.180]  I can draw a card off the top of the deck.
+[16:28.180 --> 16:31.180]  I can draw a card...
+[16:32.180 --> 16:35.180]  I can shuffle the deck and I can do it again.
+[16:35.620 --> 16:38.620]  Each time I shuffle the deck and draw a card off the deck is a trial.
+[17:01.620 --> 17:04.620]  I shuffle...
+[17:05.620 --> 17:08.620]  ...all the cards.
+[17:19.620 --> 17:22.620]  For this, did you do all the cases?
+[17:22.620 --> 17:25.620]  How many did you do?
+[17:27.620 --> 17:30.620]  Probably just a fellow.
+[17:30.620 --> 17:32.620]  Okay.
+[17:32.620 --> 17:34.620]  Great.
+[17:34.620 --> 17:38.620]  And then the event.
+[17:38.620 --> 17:42.620]  The handle.
+[17:42.620 --> 17:44.620]  What are you doing?
+[17:44.620 --> 17:46.620]  Does it appear to have been there?
+[17:46.620 --> 17:48.620]  You monkey-ass.
+[17:48.620 --> 17:50.620]  Alright.
+[17:50.620 --> 17:54.620]  You just need to spend a few minutes defining the words so that I can say them
+[17:54.620 --> 17:58.620]  and then let everyone hopefully know what you're looking at.
+[17:58.620 --> 18:00.620]  Okay.
+[18:00.620 --> 18:02.620]  Fifteen.
+[18:14.620 --> 18:18.620]  So you can draw the word over.
+[18:18.620 --> 18:20.620]  Okay.
+[18:20.620 --> 18:28.620]  And if you're talking about something that is like an indivisible event,
+[18:28.620 --> 18:34.620]  like I can't draw anything simply, we call it elementary.
+[18:42.620 --> 18:46.620]  Now some of these terms you're not going to hear as often as others.
+[18:46.620 --> 18:50.620]  You don't hear people talking about elementary events very much.
+[18:50.620 --> 18:54.620]  But that's what it's called when you are drawing like,
+[18:54.620 --> 18:58.620]  when it's like the smallest event that is often.
+[19:16.620 --> 19:20.620]  There are also aggregation events.
+[19:20.620 --> 19:26.620]  Aggregation events would be something like drawing a.
+[19:46.620 --> 19:48.620]  Okay.
+[19:48.620 --> 19:54.620]  And four.
+[20:02.620 --> 20:06.620]  So there are many cards that have aggregation problems in the deck.
+[20:06.620 --> 20:10.620]  And so gist is known as aggregation.
+[20:16.620 --> 20:20.620]  So many cards have aggregation problems.
+[20:20.620 --> 20:24.620]  So many cards have or are aggregation problems.
+[20:40.620 --> 20:46.620]  There's another important definition coming from more from theoretical
+[20:46.620 --> 20:48.620]  probability.
+[20:48.620 --> 20:52.620]  Talk about something called sample space.
+[20:52.620 --> 21:02.620]  So the sample space is the set of all possible events.
+[21:02.620 --> 21:06.620]  Probably say the set of all elementary.
+[21:16.620 --> 21:28.620]  We often talk about the size of the sample space.
+[21:28.620 --> 21:34.620]  Or the sets or the space itself.
+[21:34.620 --> 21:38.620]  So let's go ahead and look at this.
+[21:38.620 --> 21:44.620]  It is known as S.
+[21:44.620 --> 21:48.620]  And it's usually written with set notation.
+[21:48.620 --> 21:52.620]  Which hopefully you've run into before.
+[21:52.620 --> 21:58.620]  For us it is all cards of bridge depth or depth.
+[22:04.620 --> 22:08.620]  So let's go ahead and look at this.
+[22:08.620 --> 22:24.620]  So the size of the sample space.
+[22:24.620 --> 22:28.620]  You could write.
+[22:28.620 --> 22:36.620]  I don't know if your text says this.
+[22:36.620 --> 22:46.620]  I will use this.
+[22:46.620 --> 22:50.620]  And it's either this.
+[22:50.620 --> 22:54.620]  Or this.
+[22:54.620 --> 22:58.620]  And it's either this.
+[22:58.620 --> 23:02.620]  And it's either this.
+[23:02.620 --> 23:06.620]  Or this.
+[23:06.620 --> 23:10.620]  Okay.
+[23:10.620 --> 23:20.620]  Are we okay so far with this blurry object?
+[23:20.620 --> 23:30.620]  How do we know how it works?
+[23:30.620 --> 23:40.620]  So let's go ahead and look at this.
+[23:40.620 --> 23:48.620]  So let's go ahead and look at this.
+[23:48.620 --> 23:58.620]  So interesting fact that I only learned about recently.
+[23:58.620 --> 24:02.620]  So that probability and our understanding of chance.
+[24:02.620 --> 24:06.620]  We really only in ten years ago.
+[24:06.620 --> 24:10.620]  About 400 years ago.
+[24:10.620 --> 24:18.620]  Before that we didn't have this language to talk about how language works.
+[24:18.620 --> 24:24.620]  But people still played games of chance and things still happened randomly.
+[24:24.620 --> 24:28.620]  So if you look at old, old books.
+[24:28.620 --> 24:32.620]  People thought about chance as a handle.
+[24:32.620 --> 24:34.620]  Like gods you can wreck.
+[24:34.620 --> 24:38.620]  And you rolled an old dice.
+[24:38.620 --> 24:44.620]  Whatever they came up with it was like god and a thing would come up that way.
+[24:44.620 --> 24:46.620]  And people still gambled.
+[24:46.620 --> 24:50.620]  They gambled assuming they were like under a million more gods.
+[24:50.620 --> 24:52.620]  And that may still be the case.
+[24:52.620 --> 25:02.620]  But now we have a language to describe probability.
+[25:02.620 --> 25:12.620]  And the first real attempt at it was called classical probability.
+[25:12.620 --> 25:28.620]  So we have to look at the rules and the complete understanding of the system.
+[25:28.620 --> 25:36.620]  And the examples are,
+[25:36.620 --> 25:40.620]  things that we can understand complete.
+[25:40.620 --> 25:42.620]  Well, for the reason.
+[25:42.620 --> 25:46.620]  Even like flipping a coin.
+[25:46.620 --> 25:50.620]  We have done experiments and coins tend to not fall exactly 50-50.
+[25:50.620 --> 25:54.620]  If they were like flipped by coin flipping machines.
+[25:54.620 --> 26:00.620]  It's a very small bias to land the way they were already facing.
+[26:00.620 --> 26:04.620]  Very small but it definitely is.
+[26:04.620 --> 26:20.620]  You say that like pointless is 50-50.
+[26:20.620 --> 26:26.620]  That is classical probability.
+[26:26.620 --> 26:30.620]  But there is another type of probability that's really important.
+[26:30.620 --> 26:34.620]  So the system is more complicated than the first dice.
+[26:34.620 --> 26:42.620]  And that is called, I think they call it relative frequency in your text.
+[26:42.620 --> 26:46.620]  I'm going to double-text.
+[26:46.620 --> 26:56.620]  Relative frequency.
+[26:56.620 --> 27:20.620]  Okay.
+[27:20.620 --> 27:22.620]  Okay.
+[27:22.620 --> 27:26.620]  And this is the type of probability that you rely on.
+[27:26.620 --> 27:30.620]  In business and in science and many other things.
+[27:30.620 --> 27:40.620]  Because the systems that you're studying are too complicated.
+[27:40.620 --> 27:52.620]  And that's the most common view.
+[27:52.620 --> 27:56.620]  So this is an example of where relative frequency kind of overrides classical frequencies.
+[27:56.620 --> 27:58.620]  Okay.
+[27:58.620 --> 28:26.620]  Okay.
+[28:26.620 --> 28:54.620]  So if you want to achieve a tiny bit at coin flipping.
+[28:54.620 --> 29:00.620]  The next time you do it, don't be the person that flips it.
+[29:00.620 --> 29:02.620]  Oh, and if they catch it and then flip it again.
+[29:02.620 --> 29:06.620]  You have to know something about the person flipping the coin.
+[29:06.620 --> 29:10.620]  You have to know if they're going to catch it or catch it and flip it or drop it.
+[29:10.620 --> 29:16.620]  And then you glance at what's based on it.
+[29:16.620 --> 29:24.620]  You might have a tiny bit.
+[29:24.620 --> 29:26.620]  Okay.
+[29:26.620 --> 29:38.620]  So we will come back to relative frequency because we use it throughout business and science.
+[29:38.620 --> 29:44.620]  We will do things like build frequency tables and then do more tests all the way from there.
+[29:44.620 --> 29:50.620]  But for now, it's like you can know about it and we'll come back to it.
+[29:50.620 --> 29:54.620]  You'll use classical probability for the rest of the class.
+[29:54.620 --> 29:56.620]  We'll come back to it over to frequency.
+[29:56.620 --> 29:58.620]  And then one more thing.
+[29:58.620 --> 30:00.620]  What are they called?
+[30:00.620 --> 30:02.620]  What are they called?
+[30:30.620 --> 30:54.620]  Okay.
+[30:54.620 --> 30:56.620]  Okay.
+[30:56.620 --> 31:02.620]  So we do use subjective probability.
+[31:02.620 --> 31:08.620]  It is useful when you don't have actual data to go on.
+[31:08.620 --> 31:16.620]  And alarmingly, it is used by experts for some important decisions.
+[31:16.620 --> 31:20.620]  Like should I take my company public for instance?
+[31:20.620 --> 31:22.620]  Okay.
+[31:22.620 --> 31:30.620]  So you don't know how well you're going to do.
+[31:30.620 --> 31:36.620]  Major business decisions.
+[31:36.620 --> 31:42.620]  Another interesting place of this effort is with sports.
+[31:42.620 --> 31:54.620]  You might think that your favorite sports team has like a 60% chance of winning tonight because they won 60% of their games this week.
+[31:54.620 --> 31:56.620]  But I'm not convinced that's true.
+[31:56.620 --> 32:00.620]  I can't say like either are in a way to win or are not in a way to win.
+[32:00.620 --> 32:04.620]  And we have no good way to describe that probability.
+[32:04.620 --> 32:16.620]  I can kind of describe relative probability, but there's all the other factors that play.
+[32:16.620 --> 32:20.620]  Most of sports fall under this.
+[32:20.620 --> 32:30.620]  We try to apply relative frequency probability to sports gambling, but we're probably making some trouble.
+[32:30.620 --> 32:38.620]  We should experience.
+[32:38.620 --> 32:40.620]  All right.
+[32:40.620 --> 32:48.620]  We're getting close to the middle of class.
+[32:48.620 --> 32:52.620]  You know what we should do?
+[33:22.620 --> 33:44.620]  Before we move on to kind of rules probability, we should talk a bit about how gambling cases get kind of complicated.
+[33:44.620 --> 33:46.620]  Okay.
+[34:14.620 --> 34:18.620]  All right.
+[34:18.620 --> 34:22.620]  So sometimes it gets more complicated.
+[34:22.620 --> 34:26.620]  For example, maybe we said try one card out of all the deck.
+[34:26.620 --> 34:28.620]  We want to draw two cards.
+[34:28.620 --> 34:32.620]  Each card is its own kind of deck.
+[34:32.620 --> 34:46.620]  And the sample space of the experiment, which is that here, is all possible cards that we could draw in the board.
+[35:02.620 --> 35:22.620]  Okay.
+[35:22.620 --> 35:28.620]  So we'll have a break in a second.
+[35:28.620 --> 35:40.620]  We'll start with a slightly tricky question for you to think about while we're on break.
+[35:40.620 --> 35:48.620]  First I'm going to start writing out the sample space.
+[35:48.620 --> 35:54.620]  So you could draw the eighth of spades and the eighth of hearts.
+[35:54.620 --> 35:58.620]  You could draw the eighth of spades and then the eighth of diamonds.
+[35:58.620 --> 36:02.620]  You could draw the eighth of spades and then the eighth of clubs.
+[36:02.620 --> 36:08.620]  And then the eighth of spades, and that's considered different.
+[36:08.620 --> 36:10.620]  And so on.
+[36:10.620 --> 36:14.620]  This goes on for a very, very long time.
+[36:14.620 --> 36:20.620]  Okay.
+[36:20.620 --> 36:22.620]  I'm sure this will be fun.
+[36:22.620 --> 36:24.620]  I'm going to call on the final question.
+[36:24.620 --> 36:34.620]  Let's figure out the sample space.
+[36:34.620 --> 36:46.620]  Okay.
+[36:46.620 --> 36:48.620]  So we have 52 ways to draw a first card.
+[36:48.620 --> 36:52.620]  So that first card can be the end of 52 cards.
+[36:52.620 --> 36:54.620]  Then now the deck is down 51 cards.
+[36:54.620 --> 36:56.620]  And 51 possible cards to draw.
+[36:56.620 --> 36:58.620]  The order matters.
+[36:58.620 --> 37:00.620]  I said so somewhere.
+[37:00.620 --> 37:06.620]  The order matters, which is why I put that you could draw them in this order and then in that order.
+[37:06.620 --> 37:08.620]  And those are different outcomes.
+[37:08.620 --> 37:14.620]  And so the answer is 15, 52, and 51.
+[37:14.620 --> 37:22.620]  I can't get very close to, but don't feel like I'm going to go out.
+[37:22.620 --> 37:24.620]  I don't know how to draw it.
+[37:24.620 --> 37:26.620]  I'm not the one on that.
+[37:26.620 --> 37:28.620]  265.
+[37:28.620 --> 37:38.620]  So there are 2652 different ways to draw a two-card.
+[37:38.620 --> 37:40.620]  Okay.
+[37:40.620 --> 37:48.620]  Okay.
+[37:48.620 --> 37:54.620]  You're on my running space now.
+[37:54.620 --> 37:56.620]  I'm just going to show you where else to get.
+[37:56.620 --> 38:00.620]  There's an announcement here, one might think about the second tier support center.
+[38:00.620 --> 38:08.620]  It is upstairs, LA 4092, right-of-the-way grab room on the floor.
+[38:08.620 --> 38:10.620]  Up there.
+[38:10.620 --> 38:14.620]  In-person hours, 4 to 7, Monday to Thursday.
+[38:14.620 --> 38:18.620]  And in-person hours, 5 to 6, midterm and 1.
+[38:18.620 --> 38:20.620]  Okay.
+[38:20.620 --> 38:46.620]  Okay.
+[38:46.620 --> 38:52.620]  So there's a math bug for you people.
+[38:52.620 --> 38:56.620]  What they can be doing is practicing this course.
+[38:56.620 --> 38:58.620]  So here's the text.
+[38:58.620 --> 39:06.620]  Some people would benefit from reading the text, but I'm not sure that's a great use of all of your time.
+[39:06.620 --> 39:14.620]  Instead, if you see something in class that you're like, oh, can I clarify?
+[39:14.620 --> 39:16.620]  You have a couple options.
+[39:16.620 --> 39:20.620]  One, you can practice from a few slides.
+[39:20.620 --> 39:26.620]  I believe her slides are based on one of the professors who helped write the text.
+[39:26.620 --> 39:28.620]  So the slides are just pretty useful.
+[39:28.620 --> 39:40.620]  And you can also read any prior to the text in the course content here that you want to cover.
+[39:40.620 --> 39:46.620]  So the first thing you want to do is practice problems because the whole class is really on calculation with rapid problems.
+[39:46.620 --> 39:48.620]  We'll do practice problems in a couple questions.
+[39:48.620 --> 39:56.620]  One, in the syllabus in general, there are some subjective problems.
+[39:56.620 --> 40:04.620]  And in this list of subjective problems, you'll see a whole bunch of textbook problems from various groups.
+[40:04.620 --> 40:06.620]  Where do you find them?
+[40:06.620 --> 40:10.620]  Well, you get the text.
+[40:10.620 --> 40:14.620]  And they are in one of two places.
+[40:14.620 --> 40:24.620]  So if you want to text, let's say, go into chapter one.
+[40:24.620 --> 40:32.620]  Either you can click through the arrow and get to different sections, but there's also video clear in table contents.
+[40:32.620 --> 40:40.620]  And so at the end of those chapters, there are supplementary problems, which is where a lot of the problems are hiding.
+[40:40.620 --> 40:46.620]  But in some chapters, when we go to the end of chapter supplementary problems, we start at problem one.
+[40:46.620 --> 40:52.620]  In that case, I think chapter four is good.
+[40:52.620 --> 40:58.620]  So looking to the end of chapter problems with chapter four, it starts at problem 35.
+[40:58.620 --> 41:02.620]  So where are all the other practice problems?
+[41:02.620 --> 41:06.620]  Well, they're hiding at the end of each section.
+[41:06.620 --> 41:14.620]  So like after addition line, we're going to learn about today, some of the practice problems are here.
+[41:14.620 --> 41:18.620]  Here's problem eight, nine, and so on.
+[41:18.620 --> 41:22.620]  Some of these have answers written in text.
+[41:22.620 --> 41:28.620]  Some of them have answers that are good problems.
+[41:28.620 --> 41:38.620]  Okay, questions about practice problems and where they are hiding.
+[41:38.620 --> 41:44.620]  Those are great problems that usually just have numerical or human-specific answer answers.
+[41:44.620 --> 41:54.620]  The one downside of these problems is that they are a little different from what you'll see on the exam,
+[41:54.620 --> 41:58.620]  because the exam has to be in multiple choice.
+[41:58.620 --> 42:02.620]  So quizzes, we get to from here.
+[42:02.620 --> 42:04.620]  There's quiz one.
+[42:04.620 --> 42:06.620]  It's all multiple choice.
+[42:06.620 --> 42:08.620]  We talked about that.
+[42:08.620 --> 42:10.620]  So is, I am very fond of these quizzes.
+[42:10.620 --> 42:12.620]  So here's the question.
+[42:12.620 --> 42:14.620]  How many extra review and practice questions?
+[42:14.620 --> 42:16.620]  They are also all multiple choice.
+[42:16.620 --> 42:18.620]  They want to dislike X and Y.
+[42:18.620 --> 42:20.620]  So at the bottom, we'll find more problems.
+[42:20.620 --> 42:24.620]  And you click through all here.
+[42:24.620 --> 42:30.620]  We have to get a bit of data, a math professor, to show us how many students have tried these questions,
+[42:30.620 --> 42:34.620]  who's getting them wrong, conceivably who is struggling.
+[42:34.620 --> 42:44.620]  So when you're writing exam questions, you can save some of these.
+[42:44.620 --> 42:48.620]  But when you actually want to write a review for the exam, you can also do some of these for a week.
+[42:48.620 --> 42:50.620]  So there's a whole bunch of different ways that you can practice.
+[42:50.620 --> 42:56.620]  There's practice problems, there's problems with X, there's quizzes.
+[42:56.620 --> 43:00.620]  Okay, that is the test.
+[43:00.620 --> 43:02.620]  I'll put the name on top of this test.
+[43:26.620 --> 43:28.620]  Okay.
+[43:56.620 --> 44:06.620]  Okay.
+[44:06.620 --> 44:12.620]  We need a couple more definitions before we move on to our calculations today.
+[44:12.620 --> 44:18.620]  And for compliments, note the spelling.
+[44:18.620 --> 44:34.620]  It has an E, not an I.
+[44:34.620 --> 44:58.620]  So the compliment is essentially its opposite.
+[44:58.620 --> 45:10.620]  Compliments are denoted A prime.
+[45:10.620 --> 45:22.620]  So you can say the probability of A prime is E at 1 minus A prime.
+[45:22.620 --> 45:36.620]  So, how do we do this?
+[45:36.620 --> 45:58.620]  So we're going to be drawing space.
+[45:58.620 --> 46:02.620]  So we're going to be using the very easy to assemble like that.
+[46:02.620 --> 46:30.620]  We'll use that.
+[46:30.620 --> 46:32.620]  Okay.
+[47:00.620 --> 47:04.620]  Okay.
+[47:04.620 --> 47:10.620]  Okay.
+[47:10.620 --> 47:38.620]  Okay.
+[47:38.620 --> 47:44.620]  So the definition of two events is those two events combined.
+[47:44.620 --> 47:46.620]  We write it like this a little technically.
+[47:46.620 --> 47:52.620]  The event that contains all of the columns in the event gave me.
+[47:52.620 --> 48:04.620]  We write it like this.
+[48:04.620 --> 48:08.620]  So we're going to be using the very easy to assemble like that.
+[48:08.620 --> 48:10.620]  Okay.
+[48:10.620 --> 48:12.620]  So that's A.
+[48:12.620 --> 48:14.620]  And that's B.
+[48:14.620 --> 48:16.620]  So A is the middle.
+[48:16.620 --> 48:18.620]  That's A.
+[48:18.620 --> 48:20.620]  A is drawing a case.
+[48:20.620 --> 48:24.620]  B is drawing space.
+[48:24.620 --> 48:30.620]  Then remember that question I asked at the beginning of class.
+[48:30.620 --> 48:32.620]  So A is drawing space.
+[48:32.620 --> 48:50.620]  Then A union B is drawing a case for.
+[48:50.620 --> 48:54.620]  So that's probably introduced the concept of Vanna diagrams for problem
+[49:20.620 --> 49:30.620]  solving.
+[49:30.620 --> 49:58.620]  So if this box represents the sample shape.
+100.117.97.99 - - [18/Sep/2025 14:42:54] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 14:42:54] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 14:42:54] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [18/Sep/2025 14:42:54] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [18/Sep/2025 14:42:54] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 14:42:54] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 14:42:58] "GET /session/17 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 14:55:58] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 14:55:58] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 14:55:58] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [18/Sep/2025 14:55:58] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [18/Sep/2025 14:55:58] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 14:55:58] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 14:56:01] "GET /session/17 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 15:40:40] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 15:40:40] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 15:40:40] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [18/Sep/2025 15:40:40] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [18/Sep/2025 15:40:40] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 15:40:40] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 15:40:52] "POST /edit/17 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 15:40:53] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 15:40:58] "POST /transcripts/17/move HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 15:40:58] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 15:41:23] "POST /transcripts/16/move HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 15:41:24] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 15:41:31] "POST /transcripts/15/move HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 15:41:32] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 15:48:07] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 15:48:07] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 15:48:07] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [18/Sep/2025 15:48:07] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [18/Sep/2025 15:48:07] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 15:48:07] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 15:48:35] "GET /session/17 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 15:48:44] "GET /session/11 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 15:49:44] "GET /session/17 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 15:53:24] "POST /chat HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 15:54:16] "POST /chat HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 15:56:03] "POST /chat HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 15:58:42] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 15:58:42] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [18/Sep/2025 15:58:42] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [18/Sep/2025 15:58:42] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 15:58:42] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [18/Sep/2025 15:58:42] "GET /favicon.ico HTTP/1.1" 404 -
+100.69.197.53 - - [18/Sep/2025 15:58:45] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [18/Sep/2025 15:58:48] "GET /session/17 HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 15:59:20] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [18/Sep/2025 16:01:19] "GET /session/11 HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 16:01:20] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 16:01:20] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [18/Sep/2025 16:01:20] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [18/Sep/2025 16:01:20] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 16:01:21] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [18/Sep/2025 16:01:22] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [18/Sep/2025 16:01:24] "GET /session/11 HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 16:01:56] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [18/Sep/2025 16:22:42] "GET /session/17 HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 16:23:13] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [18/Sep/2025 16:24:19] "GET /session/11 HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 16:24:50] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 16:29:20] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 16:29:20] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 16:29:20] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [18/Sep/2025 16:29:20] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [18/Sep/2025 16:29:20] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 16:29:20] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 16:29:35] "GET /session/13 HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 16:41:59] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [18/Sep/2025 18:03:47] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 18:03:47] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [18/Sep/2025 18:03:47] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [18/Sep/2025 18:03:47] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 18:03:48] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [18/Sep/2025 18:03:48] "GET /favicon.ico HTTP/1.1" 404 -
+100.69.197.53 - - [18/Sep/2025 18:03:49] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [18/Sep/2025 18:04:19] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [18/Sep/2025 18:05:45] "GET /session/16 HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 18:05:51] "POST /edit/16 HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 18:05:51] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 18:05:55] "GET /session/11 HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 18:05:57] "GET /session/17 HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 18:05:59] "GET /session/15 HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 18:06:17] "POST /edit/15 HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 18:06:17] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 18:06:42] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 18:06:42] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [18/Sep/2025 18:06:42] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [18/Sep/2025 18:06:42] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [18/Sep/2025 18:06:42] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [18/Sep/2025 18:06:44] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 18:29:26] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 18:29:26] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 18:29:26] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [18/Sep/2025 18:29:26] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [18/Sep/2025 18:29:26] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 18:29:26] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 18:30:24] "POST /transcribe HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 18:30:27] "GET /status/25 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 18:30:30] "GET /status/25 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 18:30:33] "GET /status/25 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 18:30:36] "GET /status/25 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 18:30:39] "GET /status/25 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 18:30:42] "GET /status/25 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 18:30:45] "GET /status/25 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 18:30:48] "GET /status/25 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 18:30:51] "GET /status/25 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 18:30:54] "GET /status/25 HTTP/1.1" 200 -
+[49:58.620 --> 50:10.620]  And event A is some area in the class.
+[50:10.620 --> 50:12.620]  Okay.
+[50:12.620 --> 50:24.620]  Then the complement of A is everything else.
+[50:24.620 --> 50:30.620]  We call it A prime.
+[50:30.620 --> 50:36.620]  That is how you diagram a complement.
+[50:36.620 --> 50:44.620]  A is one part of the sample space and A prime is everything else.
+[50:44.620 --> 51:00.620]  I guess with all the hatches clear I thought.
+[51:00.620 --> 51:10.620]  So we're going to go back.
+[51:10.620 --> 51:14.620]  Maybe I'll go from there.
+[51:14.620 --> 51:38.620]  So think about line.
+[51:38.620 --> 51:44.620]  So that's A.
+[51:44.620 --> 51:48.620]  Then the sample space.
+[51:48.620 --> 51:58.620]  You can draw an A.
+[51:58.620 --> 52:00.620]  Which is here.
+[52:00.620 --> 52:02.620]  So that's A.
+[52:02.620 --> 52:12.620]  Which shall make bigger circles.
+[52:12.620 --> 52:18.620]  And they overlap.
+[52:18.620 --> 52:22.620]  So the union of B is everything.
+[52:22.620 --> 52:38.620]  That is covered by.
+[52:38.620 --> 52:40.620]  So that's A.
+[52:40.620 --> 53:04.620]  So that's A.
+[53:04.620 --> 53:22.620]  So that's A.
+[53:22.620 --> 53:32.620]  The other important and simple concept is these combining probabilities.
+[53:32.620 --> 53:56.620]  So let's go back.
+[54:26.620 --> 54:30.620]  So this is the best example of the spokes move.
+[54:30.620 --> 54:32.620]  It is in the diagram.
+[54:32.620 --> 54:36.620]  It is that little slot right in the middle.
+[54:36.620 --> 54:42.620]  We write in.
+[54:42.620 --> 54:46.620]  I'm not 100% sure why they just put the U upside down.
+[54:46.620 --> 54:48.620]  Anything would confuse them.
+[54:48.620 --> 54:50.620]  Maybe it could get on or something.
+[54:50.620 --> 54:52.620]  So that's A.
+[54:52.620 --> 54:58.620]  It's an upside down U.
+[54:58.620 --> 55:06.620]  And then the diagram.
+[55:06.620 --> 55:08.620]  Let's use all the main colors here.
+[55:08.620 --> 55:10.620]  And then we have to set up the same way.
+[55:10.620 --> 55:12.620]  That is A.
+[55:12.620 --> 55:18.620]  This is A.
+[55:18.620 --> 55:22.620]  And intersection of the two.
+[55:22.620 --> 55:34.620]  Is what the diagram is set.
+[55:34.620 --> 55:42.620]  And the difference between intersection and union is A4 versus M.
+[55:42.620 --> 55:48.620]  This is an A10.
+[55:48.620 --> 55:52.620]  So that's A.
+[55:52.620 --> 55:54.620]  Kids.
+[55:54.620 --> 55:56.620]  So that's A.
+[55:56.620 --> 56:24.620]  So that's A.
+[56:24.620 --> 56:26.620]  Okay.
+[56:26.620 --> 56:28.620]  So that's A.
+[56:28.620 --> 56:32.620]  Any questions about the difference between these two?
+[56:32.620 --> 56:42.620]  Sometime soon, maybe at the end of the class, or likely next class,
+[56:42.620 --> 56:46.620]  we will learn how to make calculations between these two.
+[56:46.620 --> 56:48.620]  There are formulas for that.
+[56:48.620 --> 56:50.620]  Until then.
+[56:50.620 --> 56:58.620]  We have a couple more definitions to talk about.
+[56:58.620 --> 57:12.620]  Maybe you have heard of mutually exclusive equations.
+[57:12.620 --> 57:24.620]  Using our language today.
+[57:24.620 --> 57:48.620]  So, the mutually exclusive event is an event or two events that do not intersect.
+[57:48.620 --> 57:52.620]  So, these two are not hard to think of.
+[57:52.620 --> 58:04.620]  Just any of the things that can't go past it, and the cards that can't go.
+[58:04.620 --> 58:14.620]  So, one card can be both.
+[58:14.620 --> 58:28.620]  Those two events are mutually exclusive.
+[58:28.620 --> 58:34.620]  So, the card can go and pay and also be hard.
+[58:34.620 --> 58:38.620]  They are mutually exclusive.
+[58:38.620 --> 58:56.620]  Another way to think about this is if one happens, the other can't.
+[58:56.620 --> 58:58.620]  And I mean like this card.
+[58:58.620 --> 59:04.620]  So, if you draw a card and it turns out to be a same, you can't magically spend your heart on it.
+[59:04.620 --> 59:16.620]  That's a mutually exclusive event.
+[59:16.620 --> 59:20.620]  So, again, relaxing before we get to calculations.
+[59:50.620 --> 01:00:12.620]  So, let's go ahead and start.
+[01:00:12.620 --> 01:00:34.620]  So, the occurrence of one event does not affect the probability of others.
+[01:00:34.620 --> 01:01:02.620]  So, the results across five events are independent.
+[01:01:02.620 --> 01:01:12.620]  So, the probability of others is not the same.
+[01:01:12.620 --> 01:01:22.620]  So, the probability of others is not the same.
+[01:01:22.620 --> 01:01:32.620]  So, in the case of the first event, I can't say anything about whether others draw.
+[01:01:32.620 --> 01:01:34.620]  In classical probability, the answer is no.
+[01:01:34.620 --> 01:01:38.620]  You want to make sure it's properly.
+[01:01:38.620 --> 01:01:40.620]  It will not change.
+[01:01:40.620 --> 01:01:50.620]  I draw the easy space.
+[01:01:50.620 --> 01:01:56.940]  And then I draw a second.
+[01:01:57.780 --> 01:02:00.940]  So then I shuffle again and start a new trial.
+[01:02:00.940 --> 01:02:02.080]  And I draw a new card.
+[01:02:20.620 --> 01:02:30.220]  Drawing any card now is independent of the first test.
+[01:02:42.220 --> 01:02:46.540]  Real life example that you are at risk of coming to.
+[01:02:46.540 --> 01:02:55.940]  I know that after I had told him this in previous lessons, he didn't come up to me and say, no, go ahead.
+[01:02:55.940 --> 01:02:56.940]  Come on, really.
+[01:02:56.940 --> 01:02:59.940]  Roulette.
+[01:02:59.940 --> 01:03:08.940]  Every outcome, every time you spin the roulette wheel, the ball ends on a number.
+[01:03:08.940 --> 01:03:12.340]  Red, black, blue, red, whatever number it ends on.
+[01:03:12.340 --> 01:03:14.140]  That is one trial.
+[01:03:15.140 --> 01:03:22.140]  And then every time someone spins the roulette wheel, it's a different trial and so on.
+[01:03:22.140 --> 01:03:25.140]  And then the mystery is born.
+[01:03:25.140 --> 01:03:28.140]  Five, six, seven, black, and rose.
+[01:03:28.140 --> 01:03:31.140]  But each trial is independent.
+[01:03:31.140 --> 01:03:43.140]  And then the roulette wheel is an independent trial.
+[01:03:44.140 --> 01:04:07.140]  In five or six blocks here in a row, some people are like, well, black is on a pair.
+[01:04:07.140 --> 01:04:15.140]  And then on a black, some people think that, oh, black has had its due and now it's time for the world to come back to balance.
+[01:04:15.140 --> 01:04:17.140]  And spin a red.
+[01:04:17.140 --> 01:04:19.140]  Neither is true.
+[01:04:19.140 --> 01:04:33.140]  Either the three are likely to continue or a red more likely to appear.
+[01:04:33.140 --> 01:04:46.140]  The leaf otherwise had a formal name.
+[01:04:46.140 --> 01:04:48.140]  It is known as the gambler's bat.
+[01:05:03.140 --> 01:05:26.140]  And I know that much money has been lost.
+[01:05:26.140 --> 01:05:29.140]  The opposite of independence is dependent.
+[01:05:39.140 --> 01:05:47.140]  If you're at the casino with your friends and someone's playing roulette and then they say something on the line, I am due, you tell them to separate.
+[01:06:17.140 --> 01:06:42.140]  I am going to give you a minute to admit it.
+[01:06:42.140 --> 01:06:47.140]  The events are events that do the same thing.
+[01:06:47.140 --> 01:07:09.140]  And unlike drawing one card and then shuffling and then drawing a new first card, if you draw one card and then draw a second card, the event of drawing the first card affects the effect of drawing the second card.
+[01:07:09.140 --> 01:07:34.140]  If the first card is ace, the second card is now less likely to be an ace because there are less aces in the deck.
+[01:07:34.140 --> 01:07:46.140]  That is what a dependent event is, where the actual event can be shown to affect some other event.
+[01:07:46.140 --> 01:07:55.140]  There is a mistaken belief that roulette will work this way, that if the full pick-lacks are rolled, that it is more likely to be a common red or black.
+[01:07:55.140 --> 01:07:57.140]  Neither is true.
+[01:07:57.140 --> 01:08:03.140]  The card is true because what we say is that it affects the composition of the event.
+[01:08:03.140 --> 01:08:11.140]  The interesting thing is that this is a principle of artifact.
+[01:08:11.140 --> 01:08:23.140]  That you actually can, in the right conditions, have slowly, with a lot of risk, but slowly make money playing black.
+[01:08:53.140 --> 01:08:55.140]  Thank you.
+--- Transcription Finished ---
+--- Generating Notes with Ollama ---
+--- Notes Generation Finished ---
+Job 24 finalized and removed from queue.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+Queue processor checking for a new job...
+Processing job 25: New Recording 63.m4a
+--- Starting Transcription for ../uploads\65b99bb9-fc23-4760-8077-251755b99c57.m4a ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:05.000]  And the thing is that you are coming to me to solve your question. This is not right.
+[00:05.000 --> 00:10.000]  If you have a question regarding the law, ask the other person.
+[00:10.000 --> 00:15.000]  If you have a question regarding the political power, don't ask him. Ask me.
+[00:15.000 --> 00:19.000]  If you have questions of resurrection, ask me.
+[00:19.000 --> 00:25.000]  You are welcome to come to my office. Just like an appointment with me.
+[00:25.000 --> 00:29.000]  Usually Mondays, Wednesdays, Fridays, I am free.
+[00:29.000 --> 00:32.000]  But this Monday I am going to go to the doctor.
+[00:32.000 --> 00:36.000]  But in general, I am free Mondays, Wednesdays, Fridays.
+[00:36.000 --> 00:40.000]  Tuesdays and Sundays I teach them seven.
+[00:40.000 --> 00:46.000]  Maybe you can come to my office at seven. But let me know.
+[00:46.000 --> 00:51.000]  If I am still alive, let me know. I can answer your questions.
+[00:52.000 --> 00:55.000]  Okay, questions.
+[00:57.000 --> 01:00.000]  Okay, so what is this logic is?
+[01:00.000 --> 01:08.000]  Although we talked about it before, but now I find to go through it in details.
+[01:08.000 --> 01:13.000]  This is the simple for inverter.
+[01:13.000 --> 01:18.000]  Inverter means I got one, I get zero.
+[01:18.000 --> 01:25.000]  When the input is zero, the output is one.
+[01:25.000 --> 01:29.000]  We are working with the symbols.
+[01:29.000 --> 01:35.000]  These are different symbols for inverter.
+[01:35.000 --> 01:39.000]  The input is low, the output is high.
+[01:39.000 --> 01:45.000]  When the input is high, the output is low.
+[01:48.000 --> 01:51.000]  This is the signal.
+[01:51.000 --> 01:56.000]  High, the output is low.
+[02:01.000 --> 02:04.000]  This is the symbol for inverter.
+[02:04.000 --> 02:10.000]  Input high, output low, low, output high.
+[02:10.000 --> 02:17.000]  In Boolean expression, we will have a bar.
+[02:18.000 --> 02:24.000]  Input e, then the output is a bar.
+[02:25.000 --> 02:29.000]  We have seen what is the once component.
+[02:29.000 --> 02:37.000]  And we can use eight inverters to implement the circuit for the once component.
+[02:37.000 --> 02:41.000]  One, one, zero, one, zero, zero, zero, one.
+[02:41.000 --> 02:51.000]  The output is zero, zero, one, zero, one, one, one, zero.
+[02:54.000 --> 02:59.000]  I may ask you a question like this in the final exam, a simple question.
+[02:59.000 --> 03:04.000]  So I will give you the input and I will ask you to select one of the four outputs.
+[03:04.000 --> 03:10.000]  One of them will be this number and there will be another three wrong answers.
+[03:10.000 --> 03:13.000]  So this kind of question is very easy.
+[03:13.000 --> 03:15.000]  So don't amass with these easy questions.
+[03:15.000 --> 03:19.000]  Make sure to get the full credit.
+[03:19.000 --> 03:26.000]  So spend a few seconds, extra few seconds, to make sure that your answer is correct.
+[03:26.000 --> 03:33.000]  Many times I ask students in the final exam these easy questions
+[03:33.000 --> 03:36.000]  and sometimes I find students do mistakes.
+[03:36.000 --> 03:43.000]  For example, if you want the answer zero, zero, zero, zero, one, one, one, zero,
+[03:43.000 --> 03:45.000]  then the answer is wrong.
+[03:45.000 --> 03:48.000]  When the answer is wrong, then this answer.
+[03:48.000 --> 03:53.000]  If the question was the two's component, what is the two's component?
+[03:53.000 --> 03:58.000]  You get the once component and then what you do?
+[03:58.000 --> 04:00.000]  You add one, you add one.
+[04:00.000 --> 04:05.000]  So if you add one, then this will become one and the rest are the same.
+[04:05.000 --> 04:11.000]  Many times I ask questions, what is the two's component of this solution?
+[04:11.000 --> 04:18.000]  And of course, like I will find 95% of the students' answer is correct,
+[04:18.000 --> 04:22.000]  but few students will answer the question wrong for whatever reason.
+[04:22.000 --> 04:26.000]  I don't know because this is a very simple, easy question.
+[04:26.000 --> 04:27.000]  Okay?
+[04:27.000 --> 04:31.000]  So make sure, and once, one really weird case,
+[04:31.000 --> 04:37.000]  the student answers this question wrong and answers all the other questions,
+[04:37.000 --> 04:41.000]  the difficult questions, correct, correct, correct, correct.
+[04:41.000 --> 04:44.000]  One question wrong, which is the easiest question in the exam,
+[04:44.000 --> 04:46.000]  and of course the student ends up with a buzz,
+[04:46.000 --> 04:50.000]  but I want to meet with this student to see what was wrong,
+[04:50.000 --> 04:56.000]  why he didn't answer the easy question and answer the harder questions.
+[04:56.000 --> 05:00.000]  He reminds me when I was young, I was in the same state,
+[05:00.000 --> 05:10.000]  and the gate, we talked about inverter, now the second gate is, and the gate.
+[05:10.000 --> 05:12.000]  One, one, what is the output?
+[05:12.000 --> 05:13.000]  One.
+[05:13.000 --> 05:15.000]  One, zero, what is the output?
+[05:15.000 --> 05:16.000]  Zero.
+[05:16.000 --> 05:18.000]  Zero, one, what is the output?
+[05:18.000 --> 05:19.000]  Zero.
+[05:19.000 --> 05:20.000]  Zero, zero, what is the output?
+[05:20.000 --> 05:21.000]  Zero.
+[05:21.000 --> 05:22.000]  Zero.
+[05:22.000 --> 05:27.000]  When I say zero or one, it is the same as saying low, low, what is the output?
+[05:27.000 --> 05:28.000]  Low.
+[05:28.000 --> 05:30.000]  High, low, what is the output?
+[05:30.000 --> 05:31.000]  Low.
+[05:31.000 --> 05:34.000]  Only when both the inputs are high, the output is,
+[05:34.000 --> 05:42.000]  we went through this in the first week, first chapter.
+[05:42.000 --> 05:45.000]  True stable.
+[05:45.000 --> 05:48.000]  True stable will solve a lot of problems for us.
+[05:48.000 --> 05:55.000]  This is a true stable, zero, zero, or zero multiplied by zero is zero.
+[05:55.000 --> 05:57.000]  One multiplied by zero is zero.
+[05:57.000 --> 05:59.000]  Zero multiplied by one is zero.
+[05:59.000 --> 06:01.000]  One multiplied by one is one.
+[06:01.000 --> 06:08.000]  And when I say multiplied by, it's correct, but I'm talking about Boolean algebra.
+[06:08.000 --> 06:13.000]  In the Boolean algebra, one times one equal one.
+[06:13.000 --> 06:20.000]  In the Boolean algebra, one plus one equal one.
+[06:20.000 --> 06:24.000]  Because it is true or true.
+[06:24.000 --> 06:26.000]  Equal one.
+[06:26.000 --> 06:29.000]  High or high equals high.
+[06:29.000 --> 06:31.000]  We'll come to this soon.
+[06:31.000 --> 06:40.000]  If I have three inputs, it will be only one if all of them, one plus one, otherwise it is zero.
+[06:40.000 --> 06:43.000]  Still, we still end the gate.
+[06:43.000 --> 06:46.000]  This is end the gate.
+[06:46.000 --> 06:52.000]  Timing diagram means one times one or one and one.
+[06:52.000 --> 06:54.000]  What is the output?
+[06:54.000 --> 06:57.000]  One.
+[06:57.000 --> 06:59.000]  Zero and one. What is the output?
+[06:59.000 --> 07:02.000]  Zero.
+[07:02.000 --> 07:04.000]  Right?
+[07:04.000 --> 07:07.000]  One and one. What is the output?
+[07:07.000 --> 07:08.000]  One.
+[07:08.000 --> 07:11.000]  One and zero. What is the output?
+[07:11.000 --> 07:12.000]  Zero.
+[07:12.000 --> 07:14.000]  Zero and zero. What is the output?
+[07:14.000 --> 07:16.000]  Zero.
+[07:16.000 --> 07:18.000]  Questions?
+[07:18.000 --> 07:28.000]  So if I give you the final exam or middle exam, the input and four possible outputs.
+[07:28.000 --> 07:32.000]  So you'll select this one. You'll select the one which is correct.
+[07:32.000 --> 07:37.000]  There's only one correct and I will confuse you by giving some wrong answers.
+[07:37.000 --> 07:41.000]  I will go zero, zero, one, zero, zero, zero.
+[07:41.000 --> 07:43.000]  If I go zero here, it's not correct.
+[07:43.000 --> 07:49.000]  If I go one, one, one, zero, zero, it's not correct.
+[07:49.000 --> 07:58.000]  So in your case, in the past, I gave two inputs and I asked students to sketch the waveform for the output.
+[07:58.000 --> 08:03.000]  But in your case, all questions will be marked with shorts.
+[08:03.000 --> 08:09.000]  Okay? So you will select one answer out of five answers.
+[08:09.000 --> 08:12.000]  Questions?
+[08:12.000 --> 08:14.000]  Now I have a question.
+[08:14.000 --> 08:19.000]  Suppose that I give you A and X.
+[08:19.000 --> 08:23.000]  Can I ask you what is B?
+[08:23.000 --> 08:27.000]  Yes? Right?
+[08:27.000 --> 08:37.000]  But if I ask you what is B and you begin to sketch B, why the answer will give me a hard time?
+[08:37.000 --> 08:38.000]  Yes?
+[08:38.000 --> 08:43.000]  For T2, it can be zero instead of a one and it will still give you a zero.
+[08:43.000 --> 08:45.000]  Thank you very much. You'll get to it.
+[08:45.000 --> 08:53.000]  So quickly she said, oh, here, this, the answer, you see, what you want to call the answer.
+[08:53.000 --> 08:55.000]  The answer is one.
+[08:55.000 --> 08:59.000]  And there is another answer for B, zero.
+[08:59.000 --> 09:01.000]  And still the output is zero.
+[09:01.000 --> 09:08.000]  Then if I give you the question and if it was not part of the choice, this is zero.
+[09:08.000 --> 09:10.000]  This one is correct.
+[09:10.000 --> 09:16.000]  Then I will have problems marking the question because there will be more than one answer.
+[09:16.000 --> 09:24.000]  But if I give you this input and I give you this output and you select one of the possible B,
+[09:24.000 --> 09:35.000]  I will make sure that I will give you only one correctly to select one out of four.
+[09:35.000 --> 09:39.000]  So again, is this a possible question in the midterm exam or a final exam?
+[09:39.000 --> 09:41.000]  Yes?
+[09:41.000 --> 09:47.000]  And the last one, I give this question, few students did mistake.
+[09:47.000 --> 09:50.000]  Most of the students answered the question.
+[09:50.000 --> 09:53.000]  Okay, because it is a second question.
+[09:56.000 --> 10:01.000]  The same different questions, different waveforms.
+[10:01.000 --> 10:04.000]  When one one, the output is one.
+[10:04.000 --> 10:06.000]  Otherwise, zero.
+[10:06.000 --> 10:09.000]  When zero, we get zero, zero, one, zero.
+[10:09.000 --> 10:14.000]  Zero, zero, zero, zero, zero, the output is zero.
+[10:14.000 --> 10:16.000]  Questions?
+[10:16.000 --> 10:25.000]  Here, during this middle period, one, zero, then what is the output?
+[10:25.000 --> 10:28.000]  Zero.
+[10:28.000 --> 10:31.000]  One one, what is the output?
+[10:31.000 --> 10:33.000]  One.
+[10:33.000 --> 10:36.000]  So you can see the question is simple.
+[10:36.000 --> 10:42.000]  Again, I'm telling you when I taught this course 100 years ago, it was easy.
+[10:42.000 --> 10:45.000]  Of course, this material is the same.
+[10:45.000 --> 10:48.000]  The basics is the same.
+[10:48.000 --> 10:51.000]  We didn't change the basics.
+[10:51.000 --> 10:55.000]  The mass is the same.
+[10:55.000 --> 10:57.000]  Current is the same.
+[10:57.000 --> 10:59.000]  Voltage is the same.
+[10:59.000 --> 11:01.000]  Electrical circuit is the same.
+[11:01.000 --> 11:06.000]  But when we go to other courses, all the materials will change.
+[11:06.000 --> 11:08.000]  The micro-recess will change.
+[11:08.000 --> 11:10.000]  A lot of things will change.
+[11:10.000 --> 11:16.000]  If I have three inputs, it will get one when all of them are.
+[11:16.000 --> 11:19.000]  Otherwise, it is zero.
+[11:19.000 --> 11:22.000]  So this is with three inputs.
+[11:22.000 --> 11:26.000]  The same rules, the same idea.
+[11:26.000 --> 11:31.000]  I can give you three inputs and select one of the possible outputs.
+[11:31.000 --> 11:35.000]  All right?
+[11:35.000 --> 11:37.000]  This is important.
+[11:37.000 --> 11:41.000]  Now, here we will begin to talk about Boolean expression.
+[11:41.000 --> 11:45.000]  If input is A, B, what is the output?
+[11:45.000 --> 11:48.000]  A, B.
+[11:48.000 --> 11:50.000]  A, B is the output.
+[11:50.000 --> 11:52.000]  A multiplied by B.
+[11:52.000 --> 11:54.000]  Boolean expression.
+[11:54.000 --> 11:59.000]  A, B, C is a Boolean expression.
+[11:59.000 --> 12:01.000]  Table.
+[12:01.000 --> 12:05.000]  Zero multiplied by zero is zero.
+[12:05.000 --> 12:08.000]  Zero and zero is zero.
+[12:08.000 --> 12:09.000]  Zero one is zero.
+[12:09.000 --> 12:10.000]  One zero zero.
+[12:10.000 --> 12:15.000]  One one is one.
+[12:15.000 --> 12:22.000]  I can add this big box, one millisecond, with another boxes here.
+[12:22.000 --> 12:27.000]  And the output will be looked like that.
+[12:27.000 --> 12:34.000]  We are going to talk about counters and registers in the night.
+[12:34.000 --> 12:48.000]  I can build useful circuits using just the end gate.
+[12:48.000 --> 12:54.000]  If you turn the car on, then there is one here.
+[12:54.000 --> 13:06.000]  And if you don't hold the seat belt, then one here.
+[13:06.000 --> 13:13.000]  So one and one and one for 50 seconds will give one here.
+[13:13.000 --> 13:15.000]  And then it will be beep beep beep beep beep.
+[13:15.000 --> 13:17.000]  Why? Because the output is one.
+[13:17.000 --> 13:20.000]  What I want to show you here is a simple circuit.
+[13:20.000 --> 13:32.000]  We will use one here to make the alarm on when you start the car and you don't put the seat belt.
+[13:32.000 --> 13:36.000]  But if you put the seat belt, then you will have zero here.
+[13:36.000 --> 13:44.000]  Then this zero will end up in the bottom and you will use zero and no alarm.
+[13:44.000 --> 13:50.000]  So at the end, I have here one or zero.
+[13:50.000 --> 13:54.000]  I will have one means alarm.
+[13:54.000 --> 13:59.000]  One means you didn't put the seat belt.
+[13:59.000 --> 14:04.000]  You didn't put the seat belt and you started the car.
+[14:04.000 --> 14:07.000]  You don't want to be here just beep forever.
+[14:07.000 --> 14:14.000]  So one here means we will use one here for 30 seconds.
+[14:14.000 --> 14:20.000]  After 30 seconds, the alarm will go off.
+[14:20.000 --> 14:24.000]  You can of course design whatever circuit you want.
+[14:24.000 --> 14:31.000]  As long as you want to have one here, then this is one, one, one.
+[14:31.000 --> 14:33.000]  Then there is one here.
+[14:33.000 --> 14:36.000]  The surface is one, one, zero, and then zero.
+[14:36.000 --> 14:39.000]  One, zero, one, then there is zero here.
+[14:39.000 --> 14:42.000]  You didn't start the car.
+[14:42.000 --> 14:44.000]  Zero, one, one, there is zero here.
+[14:44.000 --> 14:48.000]  Then there is no alarm because you didn't start the car.
+[14:48.000 --> 14:52.000]  You can build useful circuits using very simple gates.
+[14:52.000 --> 14:55.000]  I believe you will do this also in the moment.
+[14:55.000 --> 15:01.000]  20 years ago or more, the project was to design calculators.
+[15:01.000 --> 15:04.000]  We changed it to design calculators.
+[15:04.000 --> 15:11.000]  There are several projects with a lot of advisors that you can select from.
+[15:11.000 --> 15:15.000]  Now I'm going to move to all gates.
+[15:15.000 --> 15:18.000]  We talked about inverter.
+[15:18.000 --> 15:21.000]  We talked about no gate.
+[15:21.000 --> 15:23.000]  Now this is all gates.
+[15:23.000 --> 15:43.000]  When I say Boolean expression, Boolean expression means I have something like X equals A, B plus say C.
+[15:43.000 --> 15:46.000]  This is a Boolean expression.
+[15:53.000 --> 15:59.000]  So you didn't see what I was doing in Wisconsin.
+[15:59.000 --> 16:08.000]  So Boolean expression, if I have X equals one plus one, equals one.
+[16:08.000 --> 16:12.000]  Why? Because this is one or one.
+[16:12.000 --> 16:15.000]  Hard or high is high.
+[16:15.000 --> 16:19.000]  Believe me, some students in the final exam, they wrote two.
+[16:19.000 --> 16:22.000]  We don't have to do it by the way.
+[16:22.000 --> 16:24.000]  We don't have to.
+[16:24.000 --> 16:32.000]  One plus one, if I'm doing mathematical operations, then one plus one equals zero and I have a carry one.
+[16:32.000 --> 16:38.000]  But when I'm doing Boolean algebra, this is one or one.
+[16:38.000 --> 16:41.000]  This is true or true.
+[16:41.000 --> 16:45.000]  True or true equals? True.
+[16:45.000 --> 16:48.000]  One plus one equals one.
+[16:48.000 --> 16:51.000]  We'll come to this soon.
+[16:51.000 --> 16:55.000]  This is the all gate.
+[16:55.000 --> 17:00.000]  This is the symbol that we are going to use.
+[17:00.000 --> 17:03.000]  Low plus low equals low.
+[17:03.000 --> 17:06.000]  Low or low equals low.
+[17:06.000 --> 17:11.000]  High or low equals high. Low or high equals high. High or high equals high.
+[17:11.000 --> 17:15.000]  In a table, this is a truth table.
+[17:15.000 --> 17:18.000]  Zero plus zero equals zero.
+[17:18.000 --> 17:20.000]  Zero, one, equals one.
+[17:20.000 --> 17:23.000]  One, zero, that is one.
+[17:23.000 --> 17:27.000]  One plus one, one.
+[17:27.000 --> 17:32.000]  True or true equals true.
+[17:32.000 --> 17:36.000]  So this is Boolean algebra.
+[17:36.000 --> 17:39.000]  Can I have a wave? Yes?
+[17:39.000 --> 17:42.000]  Timing diagram here. One, one.
+[17:42.000 --> 17:44.000]  What is the output?
+[17:44.000 --> 17:47.000]  Zero, one. What is the output? One.
+[17:47.000 --> 17:49.000]  Zero, zero. What is the output? Zero.
+[17:49.000 --> 17:52.000]  One, zero. What is the output? One.
+[17:52.000 --> 17:58.000]  Again, can I give you X and A and ask for B? Yes.
+[17:58.000 --> 18:04.000]  But I may end up with a few answers, which is fine.
+[18:04.000 --> 18:09.000]  No problem.
+[18:09.000 --> 18:13.000]  So if I have zero, zero, zero is zero.
+[18:13.000 --> 18:19.000]  Otherwise, I will have one because one of them is one or both of them is one.
+[18:19.000 --> 18:24.000]  So one, zero, one, zero.
+[18:24.000 --> 18:30.000]  So this is the output for these two inputs.
+[18:30.000 --> 18:33.000]  More examples.
+[18:33.000 --> 18:36.000]  More examples with three inputs.
+[18:36.000 --> 18:40.000]  So only the output will be zero if all of them equals zero.
+[18:40.000 --> 18:43.000]  Result here, zero. Yes.
+[18:43.000 --> 18:45.000]  Bring this period.
+[18:45.000 --> 18:47.000]  Here one.
+[18:47.000 --> 18:51.000]  Here zero. Zero, zero, zero.
+[18:51.000 --> 18:53.000]  This output is zero.
+[18:53.000 --> 18:58.000]  So these kind of questions you do it carefully and you get four marks in here.
+[18:58.000 --> 19:03.000]  This is very easy questions.
+[19:03.000 --> 19:09.000]  In terms of Boolean expression, X equals A plus B.
+[19:09.000 --> 19:14.000]  X equals A plus B plus C. X equals A plus B plus C plus B.
+[19:14.000 --> 19:18.000]  This is the Boolean expression.
+[19:18.000 --> 19:21.000]  For the output.
+[19:21.000 --> 19:23.000]  Table. Zero plus zero, zero.
+[19:23.000 --> 19:26.000]  Zero plus one is one.
+[19:26.000 --> 19:30.000]  One plus zero is one. One plus one is one.
+[19:30.000 --> 19:33.000]  Again, this is Boolean algebra.
+[19:33.000 --> 19:38.000]  It's not mathematical operation. It's Boolean algebra.
+[19:38.000 --> 19:41.000]  Now we have a system here.
+[19:41.000 --> 19:50.000]  And here also to show you that I can build a useful system using just one gate or gate.
+[19:50.000 --> 19:52.000]  What is this system?
+[19:52.000 --> 19:57.000]  I have another window and the door.
+[19:57.000 --> 20:02.000]  And I want to make sure that they are all then closed.
+[20:02.000 --> 20:11.000]  So the sensor are magnetic switches that produce a high output when one is open.
+[20:11.000 --> 20:15.000]  So if this window is open, this is the high window.
+[20:15.000 --> 20:19.000]  If this window is open, window number two, then I have a high window.
+[20:19.000 --> 20:22.000]  If the door is open, I have a high window.
+[20:22.000 --> 20:29.000]  But if this is closed, this is closed, this is closed, then I have zero, zero, zero, then no alarm.
+[20:29.000 --> 20:33.000]  Zero, zero, zero means safe.
+[20:33.000 --> 20:38.000]  Two windows are closed and the door is closed.
+[20:38.000 --> 20:41.000]  So zero here, then no alarm.
+[20:41.000 --> 20:47.000]  But if any one of them is open, or all of them is open, or two of them is open,
+[20:47.000 --> 20:51.000]  then I have one here and there will be alarm.
+[20:51.000 --> 20:56.000]  Telling me that you should close the window.
+[20:56.000 --> 20:58.000]  Or the door.
+[20:58.000 --> 21:03.000]  Because this doesn't tell you if the door is open or the window is open.
+[21:03.000 --> 21:05.000]  It tells you there's a problem.
+[21:05.000 --> 21:07.000]  One of them is open.
+[21:07.000 --> 21:09.000]  Or closed.
+[21:09.000 --> 21:14.000]  So this is telling you that with just one more gate I can design a very useful circuit.
+[21:14.000 --> 21:20.000]  By the end of the course you will be able to do very useful designs using some integrated circuit,
+[21:20.000 --> 21:32.000]  connect them together, then you can do something like piano to select certain frequencies and send it to the speaker.
+[21:32.000 --> 21:39.000]  So you will be able to do some useful circuits after the end of the course.
+[21:39.000 --> 21:43.000]  Now we move to a universal gate.
+[21:43.000 --> 21:47.000]  I talked about and gate or gate, not gate, right?
+[21:47.000 --> 21:49.000]  But this one is universal.
+[21:49.000 --> 21:52.000]  It's called NAND gate.
+[21:52.000 --> 21:55.000]  And why it has this special name?
+[21:55.000 --> 21:57.000]  Because it's a universal gate.
+[21:57.000 --> 22:04.000]  Because I can use it to build not gate, or AND gate, or all gates.
+[22:04.000 --> 22:06.000]  So I can build any gate.
+[22:06.000 --> 22:08.000]  So I can build the whole expression.
+[22:08.000 --> 22:13.000]  So I can build the whole circuit using only NAND gates.
+[22:13.000 --> 22:15.000]  So what is this NAND gate?
+[22:15.000 --> 22:19.000]  NAND gate is N followed by inverter.
+[22:19.000 --> 22:21.000]  Followed by inverter.
+[22:21.000 --> 22:23.000]  Okay.
+[22:32.000 --> 22:41.000]  So I have here NAND gate.
+[22:42.000 --> 22:46.000]  This is X and this is Y.
+[22:46.000 --> 22:49.000]  Before the inverter I have XY.
+[22:49.000 --> 22:55.000]  After the circuit I have XY bar.
+[22:55.000 --> 22:56.000]  Okay.
+[22:56.000 --> 23:06.000]  So if I have here XY, XY, XY bar, 0, 0.
+[23:06.000 --> 23:08.000]  What is XY?
+[23:08.000 --> 23:09.000]  0.
+[23:09.000 --> 23:11.000]  What is XY bar?
+[23:11.000 --> 23:12.000]  1.
+[23:12.000 --> 23:13.000]  1, 0.
+[23:13.000 --> 23:15.000]  What is the output?
+[23:15.000 --> 23:17.000]  0.
+[23:17.000 --> 23:19.000]  What is XY bar?
+[23:19.000 --> 23:21.000]  1.
+[23:21.000 --> 23:23.000]  What is the output?
+[23:23.000 --> 23:24.000]  0.
+[23:24.000 --> 23:26.000]  What is the output?
+[23:26.000 --> 23:27.000]  1.
+[23:27.000 --> 23:28.000]  1, 1.
+[23:28.000 --> 23:30.000]  What is the output?
+[23:30.000 --> 23:32.000]  What is here?
+[23:32.000 --> 23:34.000]  0.
+[23:34.000 --> 23:45.000]  I want you to see here that if I calculate Y bar, then it's for UR1, 0, 0.
+[23:45.000 --> 23:52.000]  If I calculate X bar, then this is 1, 0, 1, 0.
+[23:52.000 --> 23:57.000]  If I calculate X bar plus Y bar, then Y bar plus X bar.
+[23:57.000 --> 24:01.000]  What is 1 plus 1?
+[24:01.000 --> 24:03.000]  1 plus 1 is?
+[24:03.000 --> 24:04.000]  1.
+100.117.97.99 - - [18/Sep/2025 18:35:15] "GET /status/25 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 18:35:16] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 18:35:18] "GET /status/25 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 18:35:21] "GET /status/25 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 18:36:41] "GET /status/25 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 19:16:52] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 19:16:52] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 19:16:52] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [18/Sep/2025 19:16:52] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [18/Sep/2025 19:16:52] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 19:16:52] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 20:07:31] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 20:07:31] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 20:07:31] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [18/Sep/2025 20:07:31] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [18/Sep/2025 20:07:31] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 20:07:31] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [18/Sep/2025 20:07:34] "GET /session/18 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 20:07:57] "POST /edit/18 HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 20:07:57] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 20:08:03] "POST /transcripts/18/move HTTP/1.1" 200 -
+100.117.97.99 - - [18/Sep/2025 20:08:03] "GET /history HTTP/1.1" 200 -
