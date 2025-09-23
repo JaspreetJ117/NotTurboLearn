@@ -1,0 +1,1426 @@
+Directory '..\data' is ready.
+Database and tables verified successfully.
+Queue processor thread started.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.0.0.26:443
+Press CTRL+C to quit
+100.117.97.99 - - [22/Sep/2025 15:23:18] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 15:23:18] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [22/Sep/2025 15:23:18] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [22/Sep/2025 15:23:18] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [22/Sep/2025 15:23:18] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 15:23:19] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [22/Sep/2025 15:37:40] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 15:37:40] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [22/Sep/2025 15:37:40] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [22/Sep/2025 15:37:40] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [22/Sep/2025 15:37:40] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 15:37:40] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [22/Sep/2025 15:37:43] "GET /session/16 HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 15:37:46] "GET /session/10 HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 15:41:35] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 17:28:59] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 17:28:59] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [22/Sep/2025 17:28:59] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [22/Sep/2025 17:29:00] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [22/Sep/2025 17:29:00] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 17:29:00] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [22/Sep/2025 17:29:25] "POST /transcribe HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 17:29:27] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 17:29:29] "GET /status/26 HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 17:29:32] "GET /status/26 HTTP/1.1" 200 -
+Queue processor checking for a new job...
+Processing job 26: New Recording 66.m4a
+Loading Whisper model for the first time...
+Whisper is using device: cuda
+Whisper model loaded successfully.
+--- Starting Transcription for ../uploads\ec5342d2-65b6-4be2-b4e7-66fa3231e8c0.m4a ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:18.760]  I had a situation in my very first class this morning,
+[00:18.760 --> 00:24.440]  and it's never happened in my academic career so far.
+[00:24.440 --> 00:31.440]  And being student-oriented has its advantages.
+[00:31.440 --> 00:37.040]  For you guys, obviously, and I also feel good when I see all those times and stuff.
+[00:37.040 --> 00:42.640]  But I realize that people get to take advantage of that, too.
+[00:42.640 --> 00:50.840]  And then that, then I have to raise my voice, and I don't like doing that.
+[00:51.440 --> 00:56.440]  So I'm not knowing that I'm doing my voice, and that is affecting me greatly.
+[00:58.440 --> 01:02.440]  Yeah, to the point where right now I'm talking about it and I want to cry.
+[01:02.440 --> 01:05.040]  I'm going to crawl up in my corner and cry.
+[01:05.040 --> 01:06.440]  Seriously, I do cry.
+[01:06.440 --> 01:07.840]  I don't feel good.
+[01:07.840 --> 01:14.440]  I don't feel good that I have to scold a student, and then now I'm off talking badly about me,
+[01:14.440 --> 01:16.440]  and the other students are coming to me saying,
+[01:17.040 --> 01:22.040]  It's not your fault that students have been disrupted in other classes for two years,
+[01:22.040 --> 01:24.040]  so don't pay attention to it.
+[01:24.040 --> 01:26.040]  But I'm just like, I feel bad.
+[01:26.040 --> 01:29.040]  And then you don't want to know this.
+[01:29.040 --> 01:31.040]  Girls call me therapist.
+[01:31.040 --> 01:33.040]  So, right?
+[01:33.040 --> 01:36.040]  Anyway, so what I'm going to do is,
+[01:36.040 --> 01:38.040]  so I apologize if I'm not as upbeat,
+[01:38.040 --> 01:42.040]  but maybe just being with you might make me feel a little bit better.
+[01:42.040 --> 01:44.040]  So let's do this.
+[01:44.040 --> 01:47.040]  So I am one chapter full behind,
+[01:47.040 --> 01:52.040]  and the reason why is because the very first day of class I spent so long on introduction,
+[01:52.040 --> 01:54.040]  which I sure have done.
+[01:54.040 --> 01:56.040]  But we should have a class on introductions.
+[01:56.040 --> 02:01.040]  I think that is what I'm going to advocate if I ever teach this course again.
+[02:01.040 --> 02:06.040]  But having said that, I was going to record this for you,
+[02:06.040 --> 02:12.040]  and then I realized this is imported testable material and I cannot record it for you.
+[02:12.040 --> 02:14.040]  Because of that, like why?
+[02:14.040 --> 02:16.040]  It's because it's better if I explain it to you.
+[02:16.040 --> 02:18.040]  So this is what I'm going to do.
+[02:18.040 --> 02:20.040]  I'm going to go through this lecture,
+[02:20.040 --> 02:24.040]  and I'm going to try and explain these tough concepts to you.
+[02:24.040 --> 02:26.040]  The chapter for today,
+[02:26.040 --> 02:29.040]  I will try and record that,
+[02:29.040 --> 02:34.040]  because a lot of that is just like, you will understand it if you listen to me,
+[02:34.040 --> 02:36.040]  or if you read my slides.
+[02:36.040 --> 02:41.040]  But then there is one component of that chapter that is testable,
+[02:41.040 --> 02:43.040]  and that is the short answer.
+[02:43.040 --> 02:48.040]  So that I will bring back to class next class and talk about it.
+[02:48.040 --> 02:50.040]  Does that help?
+[02:50.040 --> 02:52.040]  So today after class, when I get home,
+[02:52.040 --> 02:56.040]  I will de-stress and then I will record.
+[02:56.040 --> 02:59.040]  Hopefully I'll be able to do it in class,
+[02:59.040 --> 03:05.040]  but if not, I will record that little component for this class.
+[03:05.040 --> 03:07.040]  Anyway, let's get right into it.
+[03:07.040 --> 03:13.040]  So remember last week, I kind of tried to talk about learning,
+[03:13.040 --> 03:15.040]  but I was not very successful at it.
+[03:15.040 --> 03:21.040]  So again, learning, awkward learning theory, social cognitive theory,
+[03:21.040 --> 03:24.040]  these are the things I want you to be know about.
+[03:24.040 --> 03:28.040]  So let me quickly go through this slide once more.
+[03:28.040 --> 03:30.040]  So learning, like it says on your slide,
+[03:30.040 --> 03:35.040]  it's a relatively permanent change in behavior potential,
+[03:35.040 --> 03:37.040]  which I'll talk about in a few minutes,
+[03:37.040 --> 03:42.040]  that results from practice or experience.
+[03:42.040 --> 03:48.040]  So the key takeaway here really is that learning does not always lead
+[03:48.040 --> 03:51.040]  to an immediate change in behavior,
+[03:51.040 --> 03:58.040]  but it changes the potential to behave differently in the future.
+[03:59.040 --> 04:06.040]  So the other point that's on this slide is that learning is driven by feedback.
+[04:06.040 --> 04:11.040]  It is shaped by the consequences of our actions.
+[04:11.040 --> 04:16.040]  And this idea, this comes from behavioral theories,
+[04:16.040 --> 04:19.040]  or theories I would say, like the operate conditioning,
+[04:19.040 --> 04:24.040]  which I'll talk about over the next few slides.
+[04:24.040 --> 04:30.040]  But this feedback, it basically shapes future behaviors
+[04:30.040 --> 04:35.040]  by either reinforcing or discouraging the actions.
+[04:37.040 --> 04:44.040]  So feedback shapes future behaviors by reinforcing or discouraging the actions.
+[04:44.040 --> 04:47.040]  So now, before I get into all of that,
+[04:47.040 --> 04:51.040]  I want to talk about what is meant by behavioral potential.
+[04:51.040 --> 04:57.040]  So a person might not show that immediate behavior immediately.
+[04:57.040 --> 05:03.040]  What changes is that person's capacity or their readiness
+[05:03.040 --> 05:07.040]  to behave differently when the opportunity arises.
+[05:07.040 --> 05:10.040]  So there's a potential to see the change,
+[05:10.040 --> 05:13.040]  even though you might not see it immediately.
+[05:13.040 --> 05:18.040]  So the example that I gave in last class was swimming.
+[05:18.040 --> 05:21.040]  So you can't really demonstrate swimming,
+[05:21.040 --> 05:25.040]  I mean in my case it would only be during warmer weathers, right?
+[05:25.040 --> 05:30.040]  So you might not be able to demonstrate it until next summer,
+[05:30.040 --> 05:33.040]  but the potential to swim is still there.
+[05:33.040 --> 05:35.040]  Does that make sense?
+[05:35.040 --> 05:39.040]  So that's what's meant by behavioral potential.
+[05:39.040 --> 05:42.040]  The change might not be immediately visible,
+[05:42.040 --> 05:45.040]  but it will be seen at some point.
+[05:45.040 --> 05:49.040]  The potential to change can be seen in the future.
+[05:52.040 --> 05:55.040]  Now let's talk about the operant learning theory.
+[05:55.040 --> 06:01.040]  So this theory basically states that people learn to operate on the environment
+[06:01.040 --> 06:04.040]  to produce certain outcomes.
+[06:04.040 --> 06:11.040]  So what that means is that the learner discovers how their action
+[06:11.040 --> 06:14.040]  can lead to specific consequences.
+[06:14.040 --> 06:19.040]  Either it could lead to reward or it could lead to punishment.
+[06:19.040 --> 06:28.040]  So operant learning really focuses on what happens after a behavior is performed.
+[06:28.040 --> 06:36.040]  So if the behavior is followed by say a positive outcome,
+[06:37.040 --> 06:45.040]  like it's a reward or it's a praise, then that person is likely to repeat it.
+[06:45.040 --> 06:54.040]  If it's followed by a negative outcome like criticism or pain,
+[06:54.040 --> 06:57.040]  that person is less likely to do it.
+[06:57.040 --> 07:04.040]  So it depends on whether that behavior is followed by a positive outcome or a negative outcome.
+[07:05.040 --> 07:10.040]  Positive outcome increases your chance of repeating that behavior in the future.
+[07:10.040 --> 07:16.040]  Negative outcome, it decreases your chance of repeating that behavior in the future.
+[07:19.040 --> 07:24.040]  Now the last thing that I want to mention is this law of affairs.
+[07:24.040 --> 07:27.040]  So the definition is provided on this slide.
+[07:27.040 --> 07:34.040]  So it's basically that people tend to repeat behaviors that bring them satisfaction and pleasure.
+[07:34.040 --> 07:41.040]  And they avoid behaviors that bring them dissatisfaction or pain.
+[07:41.040 --> 07:49.040]  And this principle is actually foundational to operant conditioning.
+[07:50.040 --> 07:57.040]  So say the behavior is a person or a student like yourself studies hard.
+[08:00.040 --> 08:07.040]  Studies hard, receives praise, receives good praise, then what will happen?
+[08:07.040 --> 08:12.040]  Is that person going to be more likely to study hard or less likely to study hard?
+[08:16.040 --> 08:18.040]  More likely, right?
+[08:18.040 --> 08:25.040]  Because the behavior which is studying increases because of the positive consequence.
+[08:25.040 --> 08:32.040]  The positive consequence in this case was the reward or the good grades.
+[08:32.040 --> 08:33.040]  Make sense?
+[08:35.040 --> 08:46.040]  So like I said before, operant conditioning is used to increase the probability of desired behaviors
+[08:46.040 --> 08:53.040]  and to reduce or to eliminate the probability of undesirable behaviors.
+[08:53.040 --> 08:59.040]  So you want to see desirable behaviors, you do not want to see undesirable behaviors.
+[08:59.040 --> 09:03.040]  So let's say I say a joke in class.
+[09:03.040 --> 09:10.040]  So the behavior, which is also known as the operant in this case, is telling a joke.
+[09:10.040 --> 09:16.040]  So the consequence is that the class laughs.
+[09:16.040 --> 09:19.040]  Is that a positive outcome or a negative outcome?
+[09:19.040 --> 09:20.040]  Positive.
+[09:20.040 --> 09:21.040]  Positive, right?
+[09:21.040 --> 09:24.040]  Okay, so what is going to be the result?
+[09:24.040 --> 09:26.040]  What will happen after that?
+[09:26.040 --> 09:27.040]  You say another joke?
+[09:27.040 --> 09:28.040]  Who said that?
+[09:28.040 --> 09:29.040]  Oh, okay.
+[09:29.040 --> 09:31.040]  Is it there or is it there?
+[09:31.040 --> 09:32.040]  Zohair.
+[09:32.040 --> 09:33.040]  Zohair, okay.
+[09:33.040 --> 09:35.040]  We'll get to that at some point.
+[09:35.040 --> 09:36.040]  Okay, yes.
+[09:36.040 --> 09:39.040]  I will say another joke in the future.
+[09:39.040 --> 09:40.040]  Okay?
+[09:40.040 --> 09:42.040]  There you go.
+[09:42.040 --> 09:43.040]  Okay.
+[09:43.040 --> 09:47.040]  Now say, again, the behavior remains the same.
+[09:47.040 --> 09:54.040]  The operant is I tell a joke, but the class groans or has no reaction, right?
+[09:54.040 --> 09:57.040]  So what is a negative positive outcome?
+[09:57.040 --> 09:58.040]  What is that?
+[09:58.040 --> 09:59.040]  Negative.
+[09:59.040 --> 10:00.040]  Negative.
+[10:00.040 --> 10:02.040]  So what's going to be the result?
+[10:02.040 --> 10:03.040]  Tell us jokes.
+[10:03.040 --> 10:06.040]  I won't tell a joke in the future, right?
+[10:06.040 --> 10:08.040]  So that's basically what it is.
+[10:08.040 --> 10:09.040]  Okay?
+[10:09.040 --> 10:18.040]  You are trying to increase the desired behavior, reduce or eliminate the undesirable behavior.
+[10:18.040 --> 10:20.040]  Does that make sense?
+[10:20.040 --> 10:21.040]  Okay.
+[10:21.040 --> 10:22.040]  Good.
+[10:22.040 --> 10:23.040]  All right.
+[10:23.040 --> 10:25.040]  Now, definitely note this.
+[10:25.040 --> 10:31.040]  So if you don't understand my note, what I will say, you go into the textbook and you
+[10:31.040 --> 10:32.040]  read this up, okay?
+[10:32.040 --> 10:33.040]  Hint, hint.
+[10:33.040 --> 10:34.040]  I couldn't say that in the recording.
+[10:34.040 --> 10:35.040]  That's why I'm doing this.
+[10:35.040 --> 10:36.040]  Okay.
+[10:37.040 --> 10:46.040]  So operant conditioning can be used to increase the probability of what?
+[10:46.040 --> 10:47.040]  Tell me again.
+[10:47.040 --> 10:48.040]  What was it?
+[10:48.040 --> 10:49.040]  What are we increasing the probability?
+[10:49.040 --> 10:50.040]  A desire.
+[10:50.040 --> 10:51.040]  Desired behavior.
+[10:51.040 --> 10:52.040]  And we're trying to reduce and eliminate the probability of?
+[10:52.040 --> 10:53.040]  A undesirable behavior.
+[10:53.040 --> 10:54.040]  A undesirable behavior.
+[10:54.040 --> 10:55.040]  Good.
+[10:55.040 --> 10:56.040]  So there are two ways in which you can increase the probability of behavior.
+[10:56.040 --> 10:57.040]  Okay.
+[10:57.040 --> 10:58.040]  So let's say you're trying to reduce the probability of a desired behavior.
+[10:59.040 --> 11:00.040]  Good.
+[11:00.040 --> 11:05.040]  So there are two ways in which you can increase the probability of behavior.
+[11:05.040 --> 11:07.040]  Okay.
+[11:07.040 --> 11:13.040]  Both based on the concept of reinforcement.
+[11:13.040 --> 11:17.040]  Okay.
+[11:17.040 --> 11:19.040]  So what are they?
+[11:19.040 --> 11:20.040]  You'll see them in green.
+[11:20.040 --> 11:22.040]  Where is the line in the first one?
+[11:22.040 --> 11:23.040]  So you'll see them in green.
+[11:23.040 --> 11:24.040]  Okay.
+[11:24.040 --> 11:26.040]  Positive and negative reinforcement.
+[11:26.040 --> 11:28.040]  So what's positive reinforcement?
+[11:28.040 --> 11:29.040]  Okay.
+[11:29.040 --> 11:36.040]  So positive reinforcement, like it says on your slide, is to increase or maintain the
+[11:36.040 --> 11:48.040]  probability of some behavior by the application for the addition of a stimulus to the situation
+[11:48.040 --> 11:49.040]  in question.
+[11:49.040 --> 11:50.040]  Okay.
+[11:51.040 --> 12:00.040]  So basically, you are increasing, maintaining the behavior by adding or presenting a pleasant
+[12:00.040 --> 12:02.040]  stimulus to the situation.
+[12:02.040 --> 12:03.040]  Okay.
+[12:03.040 --> 12:07.040]  So you're adding something pleasant after the behavior.
+[12:07.040 --> 12:11.040]  So let me give you an example.
+[12:11.040 --> 12:18.040]  So giving praise for a reward when someone does something well.
+[12:18.040 --> 12:19.040]  What happens?
+[12:19.040 --> 12:21.040]  The behavior increases.
+[12:21.040 --> 12:22.040]  Right?
+[12:22.040 --> 12:25.040]  That is positive reinforcement.
+[12:25.040 --> 12:29.040]  You have made an addition to a pleasant stimulus.
+[12:29.040 --> 12:30.040]  Right?
+[12:30.040 --> 12:32.040]  What is the stimulus in this case?
+[12:32.040 --> 12:36.040]  Well, it would probably be the praise for the reward.
+[12:36.040 --> 12:37.040]  Okay.
+[12:37.040 --> 12:39.040]  So the behavior increases.
+[12:39.040 --> 12:40.040]  Make sense?
+[12:40.040 --> 12:41.040]  Okay.
+[12:42.040 --> 12:49.040]  Now, negative reinforcement is basically, again, like it, see how it says on this table,
+[12:49.040 --> 13:01.040]  is to increase or maintain the probability, probability of behavior by removal or where
+[13:01.040 --> 13:07.040]  you're taking away of a stimulus from the situation in question.
+[13:07.040 --> 13:08.040]  Okay.
+[13:08.040 --> 13:19.040]  So basically, you're removing something unpleasant from the situation when the desired behavior
+[13:19.040 --> 13:20.040]  occurs.
+[13:20.040 --> 13:23.040]  So let me give you an example.
+[13:23.040 --> 13:28.040]  So you wear sunglasses, right, because why?
+[13:28.040 --> 13:30.040]  Why do we wear sunglasses?
+[13:30.040 --> 13:35.040]  Yeah, to stop the glare, right?
+[13:35.040 --> 13:36.040]  That's negative.
+[13:36.040 --> 13:39.040]  The glare is negative, right?
+[13:39.040 --> 13:42.040]  The glare hurts your eyes.
+[13:42.040 --> 13:43.040]  Okay.
+[13:43.040 --> 13:45.040]  So what will happen then?
+[13:45.040 --> 13:48.040]  You will continue wearing the sunglasses.
+[13:48.040 --> 13:49.040]  Right?
+[13:49.040 --> 13:52.040]  Similarly, you're taking the painkiller.
+[13:52.040 --> 13:53.040]  Right?
+[13:53.040 --> 13:56.040]  Why are you taking a painkiller?
+[13:56.040 --> 13:59.040]  Because it's relieving your headache.
+[13:59.040 --> 14:02.040]  It's giving you some sort of relief to your headache.
+[14:02.040 --> 14:03.040]  Right?
+[14:03.040 --> 14:08.040]  So you're more likely to take the painkiller the next time you have pain.
+[14:08.040 --> 14:09.040]  Okay?
+[14:09.040 --> 14:12.040]  So do you see the distinction between the two?
+[14:12.040 --> 14:16.040]  In positive reinforcement, it's a pleasant stimulus.
+[14:16.040 --> 14:17.040]  Right?
+[14:17.040 --> 14:21.040]  So it's either a praise, a reward, or something like that.
+[14:21.040 --> 14:27.040]  In negative reinforcement, it is, you're still increasing the probability of behavior, but
+[14:27.040 --> 14:31.040]  you're basically removing or taking away something negative.
+[14:31.040 --> 14:36.040]  So in the cases that I presented to you, the glare that hurts your eyes or your headache
+[14:36.040 --> 14:38.040]  is negative.
+[14:38.040 --> 14:40.040]  Does that make sense?
+[14:40.040 --> 14:42.040]  Okay.
+[14:42.040 --> 14:43.040]  Yes or no?
+[14:43.040 --> 14:44.040]  Yes.
+[14:44.040 --> 14:45.040]  Okay.
+[14:45.040 --> 14:49.040]  Now, there are two ways to decrease the probability of behavior.
+[14:49.040 --> 14:50.040]  Right?
+[14:50.040 --> 14:54.040]  And these are known as extinction in red and punishment.
+[14:54.040 --> 14:56.040]  Okay?
+[14:56.040 --> 15:00.040]  So what happens when something becomes extinct?
+[15:00.040 --> 15:01.040]  Alright.
+[15:01.040 --> 15:07.040]  So basically what you're doing is you're removing the reinforcement that has been keeping the
+[15:07.040 --> 15:09.040]  behavior going.
+[15:09.040 --> 15:11.040]  Okay?
+[15:11.040 --> 15:19.040]  Without that reinforcement, basically what happens is that the behavior gradually fades
+[15:19.040 --> 15:21.040]  over time.
+[15:21.040 --> 15:23.040]  Okay?
+[15:23.040 --> 15:26.040]  So, here's an example.
+[15:26.040 --> 15:28.040]  A child throwing a tantrum.
+[15:28.040 --> 15:29.040]  Okay?
+[15:29.040 --> 15:35.040]  So a child throws tantrums to obviously get attention.
+[15:35.040 --> 15:44.040]  But if the parent stops responding, right, so no longer gives attention to that child,
+[15:44.040 --> 15:50.040]  the tantrums will eventually stop because they are no longer reinforced.
+[15:50.040 --> 15:53.040]  They're no longer paid attention to.
+[15:53.040 --> 15:55.040]  That's basically what extinction refers to.
+[15:55.040 --> 16:02.040]  Extinction is basically trying to say that without that reinforcement, behavior will
+[16:02.040 --> 16:03.040]  become extinct.
+[16:03.040 --> 16:06.040]  It will basically just fade over time.
+[16:06.040 --> 16:09.040]  The child will just stop throwing a tantrum.
+[16:09.040 --> 16:11.040]  Does that make sense?
+[16:11.040 --> 16:12.040]  Yes.
+[16:12.040 --> 16:18.040]  One of the other examples would be like, let's say like when you make money, you're basically
+[16:18.040 --> 16:20.040]  adding a pleasant stimulus.
+[16:20.040 --> 16:27.040]  And then when you use the money to pay off your debt, you're removing negative stimulus
+[16:27.040 --> 16:32.040]  or unpleasant stimulus in a way.
+[16:32.040 --> 16:36.040]  Which one would it be or what would be both?
+[16:36.040 --> 16:39.040]  If you are making money.
+[16:39.040 --> 16:44.040]  So let's say you get a check of like 10 grand every month, right?
+[16:44.040 --> 16:45.040]  Right.
+[16:45.040 --> 16:46.040]  And that increases your bank balance.
+[16:46.040 --> 16:52.040]  That's going to be a pleasant stimulus because you're adding, sorry, that's going to be
+[16:52.040 --> 16:54.040]  positive reinforcement, right?
+[16:54.040 --> 16:56.040]  Because you're adding pleasant stimulus.
+[16:56.040 --> 17:04.040]  Positive reinforcement is just you doing things that will lead to an increase in your desired behavior.
+[17:04.040 --> 17:05.040]  Right?
+[17:05.040 --> 17:08.040]  That's basically what a positive reinforcement is.
+[17:08.040 --> 17:13.040]  Negative reinforcement is you're like taking away something, you're taking away a negative
+[17:13.040 --> 17:18.040]  stimulus, but it would still lead to the desired behavior.
+[17:18.040 --> 17:20.040]  If that makes any sense.
+[17:20.040 --> 17:22.040]  Yeah, that makes sense.
+[17:22.040 --> 17:23.040]  Alright.
+[17:23.040 --> 17:24.040]  Okay.
+[17:24.040 --> 17:29.040]  So extinction, we all understand, like the easiest way for me to make you understand that
+[17:29.040 --> 17:35.040]  is just that when you remove that reinforcement, the behavior becomes extinct.
+[17:35.040 --> 17:39.040]  Basically it is no longer, or it's going to fade over time.
+[17:39.040 --> 17:40.040]  Okay?
+[17:40.040 --> 17:49.040]  Then punishment is involving an unpleasant, is adding an unpleasant consequence after
+[17:49.040 --> 17:54.040]  an unwanted behavior to make it less likely to happen again.
+[17:54.040 --> 17:55.040]  Okay?
+[17:55.040 --> 18:06.040]  So punishment again involves adding an unpleasant consequence after an unwanted behavior to
+[18:06.040 --> 18:08.040]  make it less likely to happen again.
+[18:08.040 --> 18:09.040]  Okay?
+[18:09.040 --> 18:13.040]  So for example, a student talks out of turn.
+[18:13.040 --> 18:15.040]  Alright?
+[18:15.040 --> 18:21.040]  The teacher gives a detention.
+[18:21.040 --> 18:26.040]  The student is less likely to talk out of turn in the future.
+[18:31.040 --> 18:34.040]  That's sort of what I did this morning.
+[18:35.040 --> 18:38.040]  But we shall see if it works next time.
+[18:38.040 --> 18:39.040]  Alright?
+[18:39.040 --> 18:40.040]  Does that make sense?
+[18:40.040 --> 18:41.040]  Yes.
+[18:41.040 --> 18:42.040]  Okay.
+[18:42.040 --> 18:43.040]  So definitely, yes, Anne?
+[18:43.040 --> 18:48.040]  On the term, should we use the words that you say or the words that are written on the
+[18:48.040 --> 18:49.040]  slideshow?
+[18:49.040 --> 18:51.040]  The words that are written on the slideshow.
+[18:51.040 --> 18:54.040]  I mean, I just presented, I just talked a little bit about them.
+[18:54.040 --> 18:55.040]  Yeah.
+[18:55.040 --> 18:56.040]  Right?
+[18:56.040 --> 18:57.040]  I just explained them to you.
+[18:57.040 --> 18:58.040]  But you should know this.
+[18:58.040 --> 18:59.040]  Okay?
+[18:59.040 --> 19:00.040]  Know this.
+[19:00.040 --> 19:04.040]  Know that there are two ways in which you can increase the probability of behavior.
+[19:04.040 --> 19:06.040]  Two ways to reinforce behavior.
+[19:06.040 --> 19:10.040]  So even if you didn't take notes of what I was saying, go to your textbook, take down
+[19:10.040 --> 19:13.040]  the definition of positive and negative reinforcement.
+[19:13.040 --> 19:14.040]  Just the definitions.
+[19:14.040 --> 19:15.040]  Right?
+[19:15.040 --> 19:19.040]  And then know that there are two ways to decrease the probability of behaviors.
+[19:19.040 --> 19:23.040]  So to prevent behaviors, which is extinction and punishment.
+[19:23.040 --> 19:26.040]  Again, if you weren't taking notes of what I was saying, that's okay.
+[19:26.040 --> 19:29.040]  Or if I jumbled it up and you didn't understand it, that's okay.
+[19:29.040 --> 19:32.040]  Go to the textbook, just get the definitions.
+[19:32.040 --> 19:33.040]  Okay?
+[19:33.040 --> 19:34.040]  Alright.
+[19:34.040 --> 19:35.040]  Okay.
+[19:35.040 --> 19:38.040]  So let's talk a little bit more about this.
+[19:38.040 --> 19:43.040]  So I actually did go ahead and provide you with the definitions.
+[19:43.040 --> 19:48.040]  But anyway, so there are two ways to increase the probability of behavior.
+[19:48.040 --> 19:53.040]  Again, both based on the concept of reinforcement.
+[19:53.040 --> 19:55.040]  So what is reinforcement?
+[19:55.040 --> 19:56.040]  Let me just put it all up there.
+[19:56.040 --> 19:57.040]  Okay?
+[19:57.040 --> 20:06.040]  So reinforcement is basically the process by which stimuli strengthens behavior.
+[20:06.040 --> 20:07.040]  Okay?
+[20:07.040 --> 20:11.040]  So write that down, because that's not on your slide.
+[20:11.040 --> 20:18.040]  Reinforcement is a process by which stimuli strengthens behaviors.
+[20:18.040 --> 20:19.040]  Okay?
+[20:20.040 --> 20:27.040]  A reinforcer is, like it says on your slide, a stimulus that follows some behaviors,
+[20:27.040 --> 20:33.040]  and it increases or maintains the probability of that behavior.
+[20:33.040 --> 20:41.040]  Positive reinforcers, they work by their application to the stim situation, right?
+[20:41.040 --> 20:45.040]  So you are adding a pleasant stimulus.
+[20:45.040 --> 20:49.040]  So what's negative reinforcement or reinforcers?
+[20:49.040 --> 20:54.040]  They work by their removal from that situation.
+[20:54.040 --> 20:55.040]  Okay?
+[20:58.040 --> 21:00.040]  So these are the definitions.
+[21:00.040 --> 21:01.040]  Okay.
+[21:01.040 --> 21:03.040]  Now let me give you an example.
+[21:03.040 --> 21:05.040]  So positive reinforcement.
+[21:05.040 --> 21:06.040]  Okay?
+[21:06.040 --> 21:09.040]  So positive reinforcement, remember what it does.
+[21:09.040 --> 21:17.040]  It increases or it maintains the probability of some behavior by the application, right?
+[21:17.040 --> 21:23.040]  Or addition of the stimulus to the situation in question.
+[21:23.040 --> 21:26.040]  So the stimulus is called a positive reinforcement.
+[21:26.040 --> 21:27.040]  Okay.
+[21:27.040 --> 21:32.040]  So basically you are adding something pleasant after a behavior,
+[21:32.040 --> 21:36.040]  which makes the behavior likely to happen again.
+[21:36.040 --> 21:37.040]  Okay?
+[21:37.040 --> 21:42.040]  So say you participate in class, right?
+[21:42.040 --> 21:51.040]  So participating behavior might be that you answer a question when asked.
+[21:51.040 --> 21:52.040]  Okay?
+[21:52.040 --> 21:56.040]  What could be some possible consequences?
+[21:56.040 --> 22:00.040]  Well, if it's me, it's going to be some sort of praise, right?
+[22:00.040 --> 22:02.040]  We already established that.
+[22:02.040 --> 22:04.040]  So I praise you.
+[22:04.040 --> 22:05.040]  Okay?
+[22:05.040 --> 22:06.040]  So what will that do?
+[22:06.040 --> 22:11.040]  It will actually increase the participating behavior.
+[22:11.040 --> 22:13.040]  Right?
+[22:13.040 --> 22:18.040]  So the student is more likely to participate again, which is my hope.
+[22:18.040 --> 22:21.040]  Make sense?
+[22:21.040 --> 22:22.040]  Okay.
+[22:22.040 --> 22:24.040]  Negative reinforcement.
+[22:24.040 --> 22:25.040]  Okay?
+[22:25.040 --> 22:26.040]  So remember what that was.
+[22:26.040 --> 22:35.040]  It was increase or maintain the probability of some behavior by removal of a stimulus from the situation.
+[22:35.040 --> 22:36.040]  Okay?
+[22:36.040 --> 22:44.040]  So it also occurs when a response prevents some event or stimulus from occurring.
+[22:44.040 --> 22:45.040]  Okay?
+[22:45.040 --> 22:52.040]  And that removed or prevented stimulus is called a negative reinforcement.
+[22:52.040 --> 22:53.040]  Okay?
+[22:53.040 --> 22:56.040]  So basically what that means is in a nutshell,
+[22:56.040 --> 23:00.040]  you are removing something unpleasant from the behavior.
+[23:00.040 --> 23:01.040]  Okay?
+[23:01.040 --> 23:06.040]  Which increases the likelihood of that behavior.
+[23:06.040 --> 23:09.040]  So for example, I wrote my dissertation.
+[23:09.040 --> 23:10.040]  Right?
+[23:10.040 --> 23:13.040]  I worked on it.
+[23:13.040 --> 23:16.040]  The consequence was why?
+[23:16.040 --> 23:20.040]  Well, I wanted my supervisor to stop nagging me about it.
+[23:20.040 --> 23:21.040]  Okay?
+[23:21.040 --> 23:25.040]  I wanted her to stop nagging me about the progress.
+[23:25.040 --> 23:28.040]  That was the unpleasantness of the behavior.
+[23:28.040 --> 23:31.040]  I wanted her to stop nagging me about the progress.
+[23:31.040 --> 23:34.040]  That was the unpleasant stimulus right there.
+[23:34.040 --> 23:36.040]  Something negative is unpleasant.
+[23:36.040 --> 23:37.040]  Right?
+[23:37.040 --> 23:39.040]  Her nagging me is unpleasant.
+[23:39.040 --> 23:41.040]  So what did that do?
+[23:41.040 --> 23:47.040]  Well, I was more likely to keep on writing my dissertation.
+[23:47.040 --> 23:50.040]  Is this now making more sense?
+[23:50.040 --> 23:51.040]  Positive and negative.
+[23:51.040 --> 23:52.040]  Yes?
+[23:52.040 --> 23:56.040]  So positive, both are increasing the probability of behavior.
+[23:56.040 --> 23:57.040]  Right?
+[23:57.040 --> 23:59.040]  The word increase is right there.
+[23:59.040 --> 24:02.040]  So both are increasing the probability of behavior.
+[24:02.040 --> 24:09.040]  But in a positive reinforcement, you're basically getting some pleasant stimulus
+[24:09.040 --> 24:14.040]  after the behavior to kind of reinforce the behavior.
+[24:14.040 --> 24:15.040]  Okay?
+[24:15.040 --> 24:22.040]  So an elementary student getting a star for attendance.
+[24:22.040 --> 24:23.040]  It's a pleasant thing.
+[24:23.040 --> 24:24.040]  Getting the star is pleasant.
+[24:24.040 --> 24:25.040]  Right?
+[24:25.040 --> 24:27.040]  So that reinforces the behavior.
+[24:27.040 --> 24:31.040]  Oh, my God, I'm going to a day of next class, too.
+[24:31.040 --> 24:33.040]  That's my elementary student's rotation.
+[24:33.040 --> 24:34.040]  Right?
+[24:34.040 --> 24:36.040]  That's positive.
+[24:36.040 --> 24:43.040]  Negative reinforcement is basically you're removing the unpleasant situation.
+[24:43.040 --> 24:44.040]  Right?
+[24:44.040 --> 24:45.040]  Or the stimulus.
+[24:45.040 --> 24:46.040]  Unpleasant.
+[24:46.040 --> 24:48.040]  The glare is unpleasant.
+[24:48.040 --> 24:51.040]  The heading is unpleasant.
+[24:51.040 --> 24:52.040]  Right?
+[24:52.040 --> 24:57.040]  The supervisor nagging is unpleasant.
+[24:57.040 --> 24:59.040]  So it's going to increase the behavior.
+[24:59.040 --> 25:00.040]  What's the behavior?
+[25:00.040 --> 25:03.040]  In the glare, wearing the sunglasses.
+[25:03.040 --> 25:04.040]  Right?
+[25:04.040 --> 25:07.040]  Headings, it would be the painkillers.
+[25:07.040 --> 25:12.040]  Dissertation, sorry, nagging of the supervisor would increase the likelihood
+[25:12.040 --> 25:14.040]  that I would continue writing my dissertation.
+[25:14.040 --> 25:16.040]  Make sense?
+[25:16.040 --> 25:17.040]  Yes?
+[25:17.040 --> 25:19.040]  Is it making more sense?
+[25:19.040 --> 25:20.040]  Yeah?
+[25:20.040 --> 25:22.040]  Okay, good.
+[25:22.040 --> 25:26.040]  So reinforcement is a very powerful tool.
+[25:26.040 --> 25:27.040]  Okay?
+[25:27.040 --> 25:32.040]  But it only works effectively when it's used correctly.
+[25:32.040 --> 25:36.040]  But there are some common mistakes that can happen.
+[25:36.040 --> 25:37.040]  Okay?
+[25:37.040 --> 25:40.040]  So the first is, and definitely know this, hint, hint.
+[25:40.040 --> 25:42.040]  Definitely know this, okay?
+[25:42.040 --> 25:46.040]  So what is one mistake that can happen?
+[25:46.040 --> 25:49.040]  Well, you can confuse rewards with reinforcements.
+[25:49.040 --> 25:54.040]  So not all rewards are reinforcements.
+[25:54.040 --> 26:02.040]  A reward only works as a reinforcement if it actually increases the desired behavior.
+[26:02.040 --> 26:04.040]  Okay?
+[26:04.040 --> 26:12.040]  So giving everyone a sticker after class, regardless of participation, for example,
+[26:12.040 --> 26:14.040]  might actually feel nice.
+[26:14.040 --> 26:17.040]  Like all those kids, they get a sticker.
+[26:17.040 --> 26:20.040]  Some have participated, some have not.
+[26:20.040 --> 26:22.040]  Right?
+[26:22.040 --> 26:28.040]  It feels nice, but it doesn't actually reinforce participation if it's not tied to something.
+[26:28.040 --> 26:29.040]  Right?
+[26:29.040 --> 26:33.040]  If it's not tied to the specific behavior, which is participation.
+[26:33.040 --> 26:36.040]  Does that make sense?
+[26:36.040 --> 26:42.040]  If I give everyone 10 out of 10, then you're wondering, why should I even participate?
+[26:42.040 --> 26:44.040]  She's going to give 10 out of 10 anyway.
+[26:44.040 --> 26:47.040]  So that's what I mean by that.
+[26:47.040 --> 26:52.040]  Reinforcement only works if it's tied to specific behavior.
+[26:52.040 --> 26:53.040]  Yes?
+[26:53.040 --> 26:56.040]  In that example, what if the stickers are different?
+[26:56.040 --> 26:59.040]  One's encouragement, while the other's like, good job.
+[26:59.040 --> 27:01.040]  One's more like, oh, participate next time.
+[27:01.040 --> 27:03.040]  While the other one's saying, good job.
+[27:03.040 --> 27:04.040]  Yeah, that's fine, too.
+[27:04.040 --> 27:06.040]  That does tend to happen in elementary school, right?
+[27:06.040 --> 27:07.040]  Then it won't.
+[27:07.040 --> 27:13.040]  Then reinforcement does have a meaning associated to it.
+[27:13.040 --> 27:15.040]  So it doesn't apply in that case.
+[27:15.040 --> 27:16.040]  Right?
+[27:16.040 --> 27:19.040]  I think you're talking about the red sticker, green sticker, yellow sticker.
+[27:19.040 --> 27:20.040]  Yeah, yeah.
+[27:20.040 --> 27:23.040]  So then it has a different meaning associated to it.
+[27:23.040 --> 27:27.040]  So you're still reinforcing good behavior because the green sticker ones are getting the best.
+[27:27.040 --> 27:28.040]  Right?
+[27:28.040 --> 27:29.040]  There's still a meaning attached to it.
+[27:29.040 --> 27:34.040]  But when there's no meaning, then it doesn't have enough implementation.
+[27:34.040 --> 27:35.040]  Okay?
+[27:35.040 --> 27:36.040]  That's the first.
+[27:37.040 --> 27:43.040]  The second really has to do with ignoring individual differences.
+[27:43.040 --> 27:44.040]  Okay?
+[27:44.040 --> 27:52.040]  For what reinforces one person might not motivate another.
+[27:52.040 --> 27:53.040]  Okay?
+[27:53.040 --> 28:01.040]  So effective reinforcement must be personally meaningful.
+[28:01.040 --> 28:02.040]  Okay?
+[28:02.040 --> 28:09.040]  For example, if I praise someone in a public domain, like if I publicly praise someone,
+[28:09.040 --> 28:11.040]  for some that's great.
+[28:11.040 --> 28:14.040]  Others might be too embarrassed by it.
+[28:14.040 --> 28:15.040]  Okay?
+[28:15.040 --> 28:17.040]  So yeah, there are situations like that.
+[28:17.040 --> 28:19.040]  People might be too embarrassed by it.
+[28:19.040 --> 28:26.040]  So you need to ensure that this reinforcement is personally meaningful to that person.
+[28:26.040 --> 28:28.040]  Okay?
+[28:28.040 --> 28:35.040]  The third really has to do with neglecting important sources or forms of reinforcement.
+[28:35.040 --> 28:37.040]  Okay?
+[28:37.040 --> 28:44.040]  And there are two powerful but often overlooked forms, which are performance feedback and social recognition.
+[28:44.040 --> 28:46.040]  Okay.
+[28:46.040 --> 28:48.040]  So performance feedback.
+[28:48.040 --> 28:55.040]  People are motivated when they know that they're doing, or when they know how they're doing.
+[28:55.040 --> 28:57.040]  Okay?
+[28:57.040 --> 29:03.040]  So clear, specific feedback.
+[29:03.040 --> 29:11.040]  It allows individuals to understand what behaviors are valued, what should be repeated.
+[29:11.040 --> 29:12.040]  Okay?
+[29:12.040 --> 29:16.040]  So what I mean by that is sometimes you might see feedback that's quite vague.
+[29:16.040 --> 29:17.040]  Right?
+[29:17.040 --> 29:19.040]  So just like, good job.
+[29:19.040 --> 29:21.040]  That's it.
+[29:21.040 --> 29:27.040]  But sometimes you might actually see like three or four sentences talking about your performance.
+[29:27.040 --> 29:28.040]  Right?
+[29:28.040 --> 29:35.040]  Like, oh, your analysis was actually very well structured and insightful,
+[29:35.040 --> 29:39.040]  but then here are some areas in which you can improve.
+[29:39.040 --> 29:40.040]  Right?
+[29:40.040 --> 29:46.040]  The latter is more likely to bring in that desire behavior.
+[29:46.040 --> 29:48.040]  It's more likely to motivate you.
+[29:48.040 --> 29:49.040]  Right?
+[29:49.040 --> 29:50.040]  Okay.
+[29:50.040 --> 29:59.040]  Without feedback, I should also say that even the motivated individuals may feel lost or disconnected.
+[29:59.040 --> 30:01.040]  Okay?
+[30:01.040 --> 30:04.040]  And the second one is social recognition.
+[30:04.040 --> 30:11.040]  So simple acts like praise, like verbal acknowledgement, like public appreciation,
+[30:11.040 --> 30:14.040]  these can all be strong reinforcers.
+[30:14.040 --> 30:15.040]  Okay?
+[30:15.040 --> 30:22.040]  So for example, saying things like, you know, thank you for contributing or great teamwork today.
+[30:22.040 --> 30:24.040]  Right?
+[30:24.040 --> 30:29.040]  These can actually boost participation and it could boost morale.
+[30:29.040 --> 30:31.040]  Right?
+[30:31.040 --> 30:36.040]  And especially important in group settings like classrooms or workplaces,
+[30:37.040 --> 30:48.040]  we, recognition can reinforce both the behavior as well as the thing known as a sense of belonging,
+[30:48.040 --> 30:54.040]  where you're feeling valued, where you're feeling respected, where you're feeling like a member of that organization.
+[30:54.040 --> 30:56.040]  Okay?
+[30:56.040 --> 30:58.040]  Does that make sense?
+[30:58.040 --> 31:00.040]  Okay.
+[31:00.040 --> 31:02.040]  All right.
+[31:02.040 --> 31:04.040]  So we're going to go into this.
+[31:05.040 --> 31:16.040]  So when you're using reinforcement, how and when you deliver, it matters just as much as what the reinforcement is.
+[31:16.040 --> 31:18.040]  Okay?
+[31:18.040 --> 31:21.040]  So there are two things that you should know.
+[31:21.040 --> 31:25.040]  There's the fast acquisition and then there's persistence.
+[31:25.040 --> 31:26.040]  Okay?
+[31:26.040 --> 31:32.040]  So for fast acquisition, all you really need to know is this,
+[31:32.040 --> 31:45.040]  that you're using continuous and that you're using immediate or like short, immediate or short delay reinforcement.
+[31:45.040 --> 31:47.040]  Okay?
+[31:50.040 --> 31:53.040]  So here's an example.
+[31:53.040 --> 31:59.040]  So I give my dog a treat.
+[31:59.040 --> 32:00.040]  Right?
+[32:00.040 --> 32:05.040]  Every time he performs the correct behavior and I give it immediately.
+[32:05.040 --> 32:08.040]  That's fast acquisition right there.
+[32:08.040 --> 32:09.040]  Right?
+[32:09.040 --> 32:18.040]  Continuous, I'm giving my dog a treat every time he performs the act, the behavior.
+[32:18.040 --> 32:21.040]  Okay?
+[32:21.040 --> 32:23.040]  And I do it so immediately.
+[32:23.040 --> 32:25.040]  So see the blue arrows?
+[32:25.040 --> 32:27.040]  That leads to fast acquisition.
+[32:27.040 --> 32:28.040]  Okay?
+[32:28.040 --> 32:32.040]  Where the frequency of the reinforcement is continuous.
+[32:32.040 --> 32:34.040]  So you're doing it on a continuous basis.
+[32:34.040 --> 32:37.040]  You're doing it every time.
+[32:37.040 --> 32:40.040]  And then the reinforcement is short.
+[32:40.040 --> 32:43.040]  There's a short delay, meaning it's immediately done.
+[32:43.040 --> 32:46.040]  Okay?
+[32:46.040 --> 32:51.040]  And then persistence is the other one.
+[32:51.040 --> 32:54.040]  Persistence, the frequency is partial.
+[32:54.040 --> 32:59.040]  So you're using partial or you're using delayed reinforcement.
+[32:59.040 --> 33:00.040]  Okay?
+[33:00.040 --> 33:01.040]  So here's the thing.
+[33:01.040 --> 33:02.040]  This is what I mean.
+[33:02.040 --> 33:06.040]  Let's go back to the example of the dog getting the treat.
+[33:06.040 --> 33:07.040]  Right?
+[33:07.040 --> 33:23.040]  So if I give my dog a treat, say, every third time he performs the correct behavior, that is partial.
+[33:23.040 --> 33:24.040]  Right?
+[33:24.040 --> 33:27.040]  It's not done so on a continuous basis.
+[33:27.040 --> 33:31.040]  It's not done every time it's seen.
+[33:31.040 --> 33:32.040]  Right?
+[33:32.040 --> 33:34.040]  It's partial.
+[33:34.040 --> 33:47.040]  And then if I delay it for a bit, so I don't give it immediately, I give it like 10 minutes later, that is a delayed reinforcement.
+[33:47.040 --> 33:48.040]  Or if I give it late.
+[33:48.040 --> 33:49.040]  Does that make sense?
+[33:49.040 --> 33:50.040]  Am I making sense there?
+[33:50.040 --> 33:51.040]  Okay.
+[33:51.040 --> 33:52.040]  So, yes?
+[33:52.040 --> 34:01.040]  Wait, so the last situation you were describing, was it the same like, you basically say that it's still continuous when you're giving the dog a treat, it's just a longer delay?
+[34:01.040 --> 34:02.040]  It's a longer delay.
+[34:02.040 --> 34:06.040]  So I'm giving it like every third time they perform it.
+[34:06.040 --> 34:12.040]  But treatment, because it's not there, it's not done so every time.
+[34:12.040 --> 34:15.040]  If there is no continuous, I'm giving it treatment.
+[34:15.040 --> 34:16.040]  I'm giving it treat.
+[34:16.040 --> 34:19.040]  But it's every third time he performs that act.
+[34:19.040 --> 34:21.040]  Does that make sense?
+[34:21.040 --> 34:22.040]  Right?
+[34:22.040 --> 34:25.040]  And I delay the giving of the treatment.
+[34:25.040 --> 34:27.040]  That's what I mean.
+[34:27.040 --> 34:36.040]  So it's not like, let's say he does a trick and then you give it to him like an hour later, but every time he does a trick you give it an hour later, is that still like?
+[34:36.040 --> 34:38.040]  Yeah, so, no, repeat that again.
+[34:38.040 --> 34:47.040]  Let's say like every time he does a trick you just give him a treat an hour later because you forgot about it or you needed to do something, but every time he does a trick you still do it like an hour after he does a trick.
+[34:47.040 --> 34:49.040]  Okay, so this is the thing.
+[34:49.040 --> 34:58.040]  So every time he does something and I delay it, that is still continuous, but it's long.
+[34:58.040 --> 35:00.040]  Does that make sense?
+[35:00.040 --> 35:01.040]  Right?
+[35:01.040 --> 35:11.040]  But if I give it to him every third time or every fourth time he does it, so meaning there are three times where he didn't get the treat.
+[35:11.040 --> 35:12.040]  Right?
+[35:12.040 --> 35:15.040]  The treatment, the treat is not the same in every case.
+[35:15.040 --> 35:16.040]  Does that make sense?
+[35:16.040 --> 35:18.040]  And I delayed it.
+[35:18.040 --> 35:22.040]  I delayed the one time that I was supposed to give the treat, I delayed it.
+[35:22.040 --> 35:25.040]  That is what is meant by partial and long.
+[35:25.040 --> 35:26.040]  Okay?
+[35:26.040 --> 35:31.040]  So continuous is every time the correct behavior is seen, I've given it.
+[35:31.040 --> 35:32.040]  Right?
+[35:32.040 --> 35:36.040]  Every single time, whether it's the first, second, third, fourth, fifth, doesn't matter.
+[35:36.040 --> 35:37.040]  That's continuous.
+[35:37.040 --> 35:40.040]  Partial is every third or fourth time.
+[35:40.040 --> 35:42.040]  So meaning the first and second, no treat.
+[35:42.040 --> 35:44.040]  Third time, treat.
+[35:44.040 --> 35:45.040]  Fourth time, treat.
+[35:45.040 --> 35:46.040]  Do you understand what I mean?
+[35:46.040 --> 35:48.040]  That's what's meant by partial.
+[35:48.040 --> 35:49.040]  Yes?
+[35:49.040 --> 35:58.040]  If you give him a treat, like say every hour, and you always give it to him like every hour, would that be considered as continuous and long?
+[35:58.040 --> 35:59.040]  Yes.
+[35:59.040 --> 36:00.040]  Yes.
+[36:00.040 --> 36:01.040]  Yeah.
+[36:01.040 --> 36:03.040]  But there is no, don't look at those combinations.
+[36:03.040 --> 36:04.040]  Right?
+[36:04.040 --> 36:08.040]  This one, just look at the fast acquisition and persistence.
+[36:08.040 --> 36:09.040]  Okay?
+[36:09.040 --> 36:10.040]  Alright.
+[36:10.040 --> 36:12.040]  So, yes?
+[36:12.040 --> 36:16.040]  In what situation would you use persistence over fast acquisition?
+[36:16.040 --> 36:22.040]  Because like the dog, if you only get the treat sometimes, how does he even know that he's getting it?
+[36:22.040 --> 36:25.040]  That's, okay, good question.
+[36:25.040 --> 36:32.040]  Fast acquisition is better, right, than persistence, but that is not going to be on your test.
+[36:32.040 --> 36:34.040]  Don't complicate it.
+[36:34.040 --> 36:35.040]  Don't complicate it.
+[36:35.040 --> 36:36.040]  Delete.
+[36:36.040 --> 36:37.040]  Don't complicate it.
+[36:37.040 --> 36:39.040]  Don't stop challenging me today, too.
+[36:39.040 --> 36:41.040]  So, I'm going to be focusing on the dog treat.
+[36:41.040 --> 36:44.040]  Everyone now wants to know when should I be feeding my dog?
+[36:44.040 --> 36:45.040]  Right?
+[36:45.040 --> 36:49.040]  You should be feeding your dog every time.
+[36:49.040 --> 36:54.040]  Give your dog the treat immediately after the correct action.
+[36:54.040 --> 36:55.040]  Okay?
+[36:55.040 --> 36:57.040]  I'm quoting, quote me on that.
+[36:57.040 --> 36:58.040]  Alright?
+[36:58.040 --> 36:59.040]  Okay.
+[36:59.040 --> 37:00.040]  Alright.
+[37:00.040 --> 37:06.040]  So, it's best to tailor your reinforcement strategies to the news of the situation.
+[37:06.040 --> 37:13.040]  So, no single strategy ever works in every particular context.
+[37:13.040 --> 37:16.040]  You have to take into account a number of different things, right?
+[37:16.040 --> 37:21.040]  You have to consider if we take it away from the dogs and bring it back to the learners,
+[37:21.040 --> 37:25.040]  like us, we have to take a number of different things into consideration.
+[37:25.040 --> 37:31.040]  We need to take our age, our preferences, the complexity of the behavior into consideration.
+[37:31.040 --> 37:41.040]  So, what I'm trying to say is although it talks about this, it's best to adjust your approach, okay, over time.
+[37:41.040 --> 37:49.040]  So, maybe you start off with continuous reinforcement, then you move on to intermediate, then you build persistence,
+[37:49.040 --> 37:52.040]  but again, tailor it to the situation.
+[37:52.040 --> 37:56.040]  And that is too complex for you and you will not be tested on it.
+[37:56.040 --> 37:58.040]  So, do not worry about that.
+[37:58.040 --> 37:59.040]  Okay?
+[37:59.040 --> 38:00.040]  Alright.
+[38:00.040 --> 38:06.040]  There are basically now, so I've now talked about reinforcements, right?
+[38:06.040 --> 38:08.040]  I've talked about positive and negative.
+[38:08.040 --> 38:14.040]  So, I talked about the two green stuff in that particular grid, okay?
+[38:14.040 --> 38:21.040]  Now, let's talk about how to reduce the probability of the learning behavior, right?
+[38:21.040 --> 38:24.040]  And remember, there were two strategies for that.
+[38:24.040 --> 38:27.040]  There was punishment and then extinction, okay?
+[38:27.040 --> 38:35.040]  So, punishment involves the application of an aversive or an unpleasant stimulus, right?
+[38:35.040 --> 38:40.040]  Following undesirable behavior to decrease its occurrence.
+[38:46.040 --> 38:47.040]  Alright?
+[38:47.040 --> 38:58.040]  So, you basically added some negative stimulus to some negative behavior so that it doesn't occur in the future.
+[38:58.040 --> 39:00.040]  Basically, punishing the guy.
+[39:00.040 --> 39:02.040]  If you think about punishment, that's...
+[39:08.040 --> 39:11.040]  If you think about punishment, right?
+[39:11.040 --> 39:15.040]  That's what you're doing in a punishment situation, right?
+[39:15.040 --> 39:21.040]  You're saying something so that that person would stop doing that in the future, okay?
+[39:21.040 --> 39:33.040]  Extinction refers to, like it says on the slide, the gradual dissipation of behavior following determination of reinforcement, okay?
+[39:33.040 --> 39:42.040]  So, it's basically the process of doing away with the reinforcer that is maintaining some unwanted behavior.
+[39:42.040 --> 39:53.040]  In other words, the best way for you to remember what extinction is, besides knowing these formal definitions, is that it is going to fade over time.
+[39:53.040 --> 39:55.040]  It is going to become extinct.
+[39:55.040 --> 39:59.040]  That's basically how you should remember this, okay?
+[39:59.040 --> 40:01.040]  Does that make sense?
+[40:01.040 --> 40:06.040]  But these are the formal definitions, okay?
+[40:06.040 --> 40:07.040]  Alright.
+[40:07.040 --> 40:10.040]  So, let's give you some examples, okay?
+[40:10.040 --> 40:13.040]  So, let's talk about punishment first, okay?
+[40:13.040 --> 40:20.040]  So, the behavior is an employee engages in unethical competition.
+[40:20.040 --> 40:21.040]  So, what might that be?
+[40:21.040 --> 40:26.040]  Maybe you're sabotaging a colleague to get ahead, right?
+[40:26.040 --> 40:28.040]  So, what's the consequence?
+[40:28.040 --> 40:35.040]  Well, they're suspended without pay for half a month, okay?
+[40:35.040 --> 40:38.040]  So, what is the outcome?
+[40:38.040 --> 40:44.040]  Well, you're going to see decrease in that unethical competition, sabotaging the colleague.
+[40:44.040 --> 40:45.040]  Why?
+[40:45.040 --> 40:48.040]  Because pay is so important to all of us.
+[40:48.040 --> 40:51.040]  We don't want to go two weeks without pay.
+[40:51.040 --> 40:53.040]  Okay, that's punishment.
+[40:53.040 --> 40:55.040]  Make sense?
+[40:55.040 --> 40:58.040]  Okay.
+[40:58.040 --> 41:06.040]  So, this is punishment because an inversive consequence, which is the loss of income,
+[41:06.040 --> 41:14.040]  the loss of status maybe, follows the unwanted behavior, reducing its future occurrence, okay?
+[41:14.040 --> 41:17.040]  Alright, now let's talk about extinction, okay?
+[41:17.040 --> 41:21.040]  So, again, let's go back to the unethical competition, right?
+[41:21.040 --> 41:23.040]  So, you're sabotaging others.
+[41:23.040 --> 41:27.040]  Maybe it's other things like, you know, you're withholding information.
+[41:27.040 --> 41:30.040]  Maybe you're bending rules to outsell colleagues.
+[41:30.040 --> 41:33.040]  It could be any number of things, right?
+[41:33.040 --> 41:36.040]  The consequence is this.
+[41:36.040 --> 41:47.040]  So, say now the company removes the policy of giving very large bonuses to the top salesperson, okay?
+[41:47.040 --> 41:56.040]  So, that was kind of the reinforcement that encouraged this competitive unethical competition, right?
+[41:56.040 --> 41:57.040]  So, what will happen?
+[41:57.040 --> 42:06.040]  Over time, we will see the employees becoming less motivated to compete unethically, right?
+[42:06.040 --> 42:09.040]  Because that reward is no longer available.
+[42:09.040 --> 42:12.040]  That reinforcer is no longer available.
+[42:12.040 --> 42:16.040]  The bonus, for example, is no longer available, right?
+[42:16.040 --> 42:19.040]  The undesirable behavior also decreases.
+[42:19.040 --> 42:20.040]  Yes?
+[42:20.040 --> 42:22.040]  Well, I had a question, though.
+[42:22.040 --> 42:24.040]  Does it not push you too hard?
+[42:24.040 --> 42:26.040]  No, it's fine. You can ask.
+[42:26.040 --> 42:31.040]  Okay, so you said before extinction works best with the substitute behavior, right?
+[42:31.040 --> 42:32.040]  With what?
+[42:32.040 --> 42:36.040]  With the reinforcement of a substitute behavior.
+[42:36.040 --> 42:38.040]  Yes, when you remove it.
+[42:38.040 --> 42:40.040]  When you remove that, yes.
+[42:40.040 --> 42:43.040]  So, what would it look like here?
+[42:43.040 --> 42:46.040]  So, here, so that's what I just explained, right?
+[42:46.040 --> 42:55.040]  So, say unethical competition, why does unethical competition occur in the workplace?
+[42:55.040 --> 43:00.040]  Why do people behave unethically in the workplace, right?
+[43:00.040 --> 43:03.040]  It was a rhetorical question.
+[43:03.040 --> 43:05.040]  But you could have responded to it, if you wanted.
+[43:05.040 --> 43:06.040]  No, it's okay.
+[43:06.040 --> 43:08.040]  No, no. Why do most people?
+[43:08.040 --> 43:09.040]  Just to get ahead.
+[43:09.040 --> 43:10.040]  Just to get ahead.
+[43:10.040 --> 43:13.040]  Like, what is that movie called? Wall of Scream?
+[43:13.040 --> 43:15.040]  What is that movie called?
+[43:15.040 --> 43:16.040]  Right, yes.
+[43:16.040 --> 43:18.040]  Just to come up with wall of scream.
+[43:18.040 --> 43:20.040]  Right, yes. To get ahead, right?
+[43:20.040 --> 43:22.040]  Why do they want to get ahead?
+[43:22.040 --> 43:25.040]  Maybe because there's a large bonus associated to it, right?
+[43:25.040 --> 43:31.040]  Like, maybe there is some recognition that comes from being the top salesman, right?
+[43:31.040 --> 43:35.040]  But that's a reinforcer, right?
+[43:35.040 --> 43:40.040]  But if you remove that reinforcer, which is what I said in the example,
+[43:40.040 --> 43:47.040]  if the company removes the policy of giving you a large bonus or giving you that recognition,
+[43:47.040 --> 43:50.040]  you will see a decrease in that behavior.
+[43:50.040 --> 43:52.040]  Because you're no longer motivated.
+[43:52.040 --> 43:54.040]  That behavior becomes extinct.
+[43:54.040 --> 43:55.040]  Does that make sense?
+[43:55.040 --> 43:57.040]  It fades over time.
+[43:57.040 --> 44:00.040]  So no one would want to engage in this unethical behavior.
+[44:00.040 --> 44:03.040]  So it doesn't have to be like a brand new behavior?
+[44:03.040 --> 44:07.040]  For example, when you want to train your dog not to poop on the carpet.
+[44:07.040 --> 44:10.040]  Okay, now I'm so focused on the dog.
+[44:10.040 --> 44:14.040]  But yeah, you wanted to poop on the litter train instead.
+[44:14.040 --> 44:17.040]  That would be the substitute, right?
+[44:17.040 --> 44:18.040]  So I was just trying to think.
+[44:18.040 --> 44:20.040]  It doesn't have to be like a brand new behavior.
+[44:20.040 --> 44:22.040]  Sometimes it just stops doing something.
+[44:22.040 --> 44:24.040]  Yes, yes. You're right in that case.
+[44:24.040 --> 44:28.040]  Now I'm imagining these dogs.
+[44:28.040 --> 44:31.040]  Everyone's imagining a dog now in this situation.
+[44:31.040 --> 44:33.040]  But yes, you're getting the idea.
+[44:33.040 --> 44:35.040]  Is everyone else getting the idea?
+[44:35.040 --> 44:38.040]  We're understanding this a little bit better or no?
+[44:38.040 --> 44:40.040]  Okay, good.
+[44:40.040 --> 44:45.040]  Okay, so when do we use punishment effectively?
+[44:45.040 --> 44:47.040]  I'm not going to read this.
+[44:47.040 --> 44:50.040]  You are going to read it at your own pace.
+[44:50.040 --> 44:53.040]  But I want you to remember this.
+[44:53.040 --> 44:54.040]  Remember this.
+[44:54.040 --> 44:56.040]  Which one is more effective?
+[44:56.040 --> 44:59.040]  You need to definitely remember this.
+[44:59.040 --> 45:00.040]  Intent.
+[45:00.040 --> 45:01.040]  Okay?
+[45:01.040 --> 45:04.040]  I want you to write down this.
+[45:05.040 --> 45:10.040]  Reinforcement is more effective than punishment.
+[45:10.040 --> 45:11.040]  Okay?
+[45:11.040 --> 45:13.040]  Write this down.
+[45:13.040 --> 45:17.040]  And then reproduce it on that damn test of yours on Monday.
+[45:17.040 --> 45:18.040]  Okay?
+[45:18.040 --> 45:20.040]  Where would that be?
+[45:20.040 --> 45:23.040]  Where is it going to be?
+[45:23.040 --> 45:26.040]  Where is it going to be?
+[45:26.040 --> 45:29.040]  Who said that?
+[45:29.040 --> 45:34.040]  Erica, if I'm saying write this down and reproduce it.
+[45:34.040 --> 45:35.040]  Oh, sure.
+[45:35.040 --> 45:36.040]  Good job.
+[45:36.040 --> 45:39.040]  There's my praise.
+[45:39.040 --> 45:42.040]  Is she more likely to say it?
+[45:42.040 --> 45:44.040]  Today she's like, oh no.
+[45:44.040 --> 45:47.040]  Okay, good.
+[45:47.040 --> 45:54.040]  Okay, but if all of what I had just said went over your head, here's a summary.
+[45:54.040 --> 45:55.040]  Okay?
+[45:55.040 --> 46:00.040]  So this one will also explain the thing to you.
+[46:00.040 --> 46:01.040]  Okay?
+[46:01.040 --> 46:08.040]  It explains it using a scenario, but I really need you to drill this into your head.
+[46:08.040 --> 46:09.040]  Okay?
+[46:09.040 --> 46:10.040]  So understand this.
+[46:10.040 --> 46:11.040]  Okay?
+[46:11.040 --> 46:12.040]  Make sense?
+[46:12.040 --> 46:13.040]  All right.
+[46:13.040 --> 46:21.040]  So so far we've been talking about how others can be trained to learn.
+[46:21.040 --> 46:22.040]  Okay?
+[46:22.040 --> 46:27.040]  So we've been talking about how others learn because of what someone else does.
+[46:27.040 --> 46:28.040]  Right?
+[46:28.040 --> 46:29.040]  So do we reinforce them?
+[46:29.040 --> 46:30.040]  Do we punish them?
+[46:30.040 --> 46:35.040]  But what about learning on our own?
+[46:35.040 --> 46:40.040]  This is where the social cognitive theory comes into place.
+[46:40.040 --> 46:41.040]  Okay?
+[46:41.040 --> 46:44.040]  So the social cognitive theory, I'm just going to prevent you from reading out one.
+[46:44.040 --> 46:53.040]  Social cognitive theory, it shows that we can learn by thinking, observing, and regulating ourselves.
+[46:53.040 --> 46:54.040]  Okay?
+[46:55.040 --> 47:05.040]  So it basically emphasizes that the cognitive processes involved in, it emphasizes the cognitive,
+[47:05.040 --> 47:08.040]  what happens in your head, right?
+[47:08.040 --> 47:11.040]  Processes involved in learning and behavior.
+[47:11.040 --> 47:12.040]  Okay?
+[47:12.040 --> 47:16.040]  So people are not passive responders to stimuli.
+[47:16.040 --> 47:19.040]  Like they are in the upper condition, right?
+[47:19.040 --> 47:21.040]  You're responding to some stimulus.
+[47:21.040 --> 47:28.040]  But here you are active agents in shaping your own actions.
+[47:28.040 --> 47:29.040]  Okay?
+[47:29.040 --> 47:35.040]  So according to this particular theory, people can learn in a number of different ways.
+[47:35.040 --> 47:36.040]  Okay?
+[47:36.040 --> 47:39.040]  One would be by observing the behavior of others.
+[47:39.040 --> 47:43.040]  This is also known as observational learning or modeling.
+[47:43.040 --> 47:44.040]  Okay?
+[47:44.040 --> 47:49.040]  So we don't have to experience everything ourselves.
+[47:50.040 --> 47:55.040]  We can watch others and we can learn from their successes and their mistakes.
+[47:55.040 --> 47:56.040]  Right?
+[47:56.040 --> 48:00.040]  So for example, like a new employee, right?
+[48:00.040 --> 48:01.040]  What do they do?
+[48:01.040 --> 48:08.040]  They watch how a colleague deals with a difficult client and then models that approach later on.
+[48:08.040 --> 48:09.040]  Okay?
+[48:09.040 --> 48:12.040]  So you're basically engaging in observational learning.
+[48:12.040 --> 48:16.040]  You can also regulate your own behavior.
+[48:16.040 --> 48:17.040]  Okay?
+[48:17.040 --> 48:20.040]  You can do so in a number of different ways as well.
+[48:20.040 --> 48:28.040]  So you can visit the cognitive processes such as anticipating consequences.
+[48:28.040 --> 48:30.040]  Like you're thinking ahead of time.
+[48:30.040 --> 48:31.040]  Right?
+[48:31.040 --> 48:37.040]  So for example, if I skip this task, it might hurt my performance review.
+[48:37.040 --> 48:38.040]  Okay?
+[48:38.040 --> 48:40.040]  You can set goals.
+[48:41.040 --> 48:50.040]  So you're kind of creating your personal standards or your targets to strive forward or to strive towards.
+[48:50.040 --> 48:52.040]  You can monitor performance.
+[48:52.040 --> 48:58.040]  So you're paying attention to how well we are doing, what needs to improve.
+[48:58.040 --> 49:00.040]  And then you can reward yourself.
+[49:00.040 --> 49:02.040]  Also known as self-rewarding.
+[49:02.040 --> 49:03.040]  Right?
+[49:03.040 --> 49:06.040]  So you're giving yourself positive feedback.
+[49:06.040 --> 49:07.040]  Right?
+[49:07.040 --> 49:09.040]  Or whatever it may be.
+[49:09.040 --> 49:14.040]  Maybe it's like taking a break after a big task or something of that sort.
+[49:14.040 --> 49:15.040]  Okay?
+[49:15.040 --> 49:17.040]  All right.
+[49:17.040 --> 49:26.040]  Now, according to the social cognitive theory, human behavior can best be described as a system of triadic,
+[49:26.040 --> 49:29.040]  reciprocal causation.
+[49:29.040 --> 49:31.040]  What a mouthful.
+[49:31.040 --> 49:39.040]  But what that basically means is that personal factors as well as environmental factors must work together
+[49:39.040 --> 49:43.040]  and interact to influence people's behaviors.
+[49:43.040 --> 49:44.040]  Okay?
+[49:44.040 --> 49:51.040]  And then the other thing is that it's bidirectional, which basically means that people's behaviors influence
+[49:51.040 --> 49:55.040]  these personal factors and environment as well.
+[49:55.040 --> 50:02.040]  Okay, so not only does personal factors and environmental factors influence us with our behaviors,
+[50:02.040 --> 50:08.040]  but our behaviors can influence these personal and environmental factors as well.
+[50:08.040 --> 50:09.040]  Okay?
+[50:09.040 --> 50:10.040]  All right.
+[50:10.040 --> 50:14.040]  So now this is what I need you to take note of.
+[50:14.040 --> 50:18.040]  I mean, just hear me out because the next few slides actually give you the definition.
+[50:18.040 --> 50:19.040]  Okay?
+[50:19.040 --> 50:28.040]  But according to Albert Bendura, who is basically the person who came up with the social cognitive theory,
+[50:28.040 --> 50:30.040]  involves three components.
+[50:30.040 --> 50:37.040]  There is observational learning, there is self-efficacy beliefs, and then there is self-regulation.
+[50:37.040 --> 50:39.040]  Okay?
+[50:39.040 --> 50:42.040]  So observational learning, what is that?
+[50:42.040 --> 50:43.040]  Okay?
+[50:43.040 --> 50:48.040]  It's the process of basically imitating the behavior of others.
+[50:48.040 --> 50:49.040]  Okay?
+[50:49.040 --> 50:55.040]  It's a form of learning that occurs by observing, by imagining the behaviors of others,
+[50:55.040 --> 51:00.040]  rather than by having direct experiences on it.
+[51:00.040 --> 51:02.040]  Okay?
+[51:02.040 --> 51:05.040]  So you're kind of like observing the situation.
+[51:08.040 --> 51:09.040]  Okay.
+[51:09.040 --> 51:15.040]  Now, the best models for observing, this is what research shows,
+[51:15.040 --> 51:22.040]  are those that are attractive, credible components, competent, and high status.
+[51:22.040 --> 51:24.040]  Okay?
+[51:24.040 --> 51:32.040]  So when you observe someone with credibility, meaning if you were to teach OBHR and you observed me,
+[51:32.040 --> 51:37.040]  you're more likely to take that into account.
+[51:37.040 --> 51:39.040]  Does that make sense?
+[51:39.040 --> 51:41.040]  Okay.
+[51:41.040 --> 51:48.040]  The other things you have to note is that vivid, memorable behavior is often imitated as well.
+[51:48.040 --> 51:49.040]  Right?
+[51:49.040 --> 51:58.040]  And the extent of observational learning really is the means by which learning and organization occur.
+[51:58.040 --> 52:03.040]  It suggests to us that managers should pay more attention to this process.
+[52:03.040 --> 52:06.040]  But anyway, let's move on.
+[52:06.040 --> 52:07.040]  Okay?
+[52:07.040 --> 52:09.040]  So that's observational learning.
+[52:09.040 --> 52:14.040]  You're observing the behavior of others, rather than engaging in it yourself.
+[52:14.040 --> 52:22.040]  Self-efficacy, this is basically the belief that you have about your ability to perform the task.
+[52:22.040 --> 52:24.040]  Okay?
+[52:24.040 --> 52:28.040]  So how confident am I that I'm going to actually do well on the task?
+[52:28.040 --> 52:30.040]  That's self-efficacy.
+[52:30.040 --> 52:32.040]  Okay?
+[52:33.040 --> 52:39.040]  And it is a result of four sources of information.
+[52:39.040 --> 52:40.040]  Okay?
+[52:40.040 --> 52:50.040]  There is the performance mastery, observation, verbal persuasion, and social influence, and physiological state.
+[52:50.040 --> 52:56.040]  So performance mastery, this is the experience and the success of performing the task.
+[52:56.040 --> 52:57.040]  Okay?
+[52:57.040 --> 53:07.040]  So I've performed this task, and I've already, you know, I've experienced this task before, and I've been successful at it.
+[53:07.040 --> 53:10.040]  Observation of others performing the task.
+[53:10.040 --> 53:12.040]  Right?
+[53:12.040 --> 53:16.040]  Verbal persuasion and encouragement is basically the third one.
+[53:16.040 --> 53:18.040]  Others say you can do it.
+[53:18.040 --> 53:19.040]  Right?
+[53:19.040 --> 53:26.040]  And then one's physiological state or emotional state can also have an influence.
+[53:26.040 --> 53:27.040]  Okay?
+[53:27.040 --> 53:30.040]  So what's your comfort level?
+[53:30.040 --> 53:31.040]  Are you stressed?
+[53:31.040 --> 53:33.040]  Are you relaxed?
+[53:35.040 --> 53:36.040]  Okay?
+[53:36.040 --> 53:44.040]  So performance mastery is, I've done this in the before, in the past, I've been very successful at it.
+[53:44.040 --> 53:46.040]  Okay?
+[53:46.040 --> 53:50.040]  Observation is, others are doing it too.
+[53:50.040 --> 53:54.040]  Verbal persuasion or social influence really has to do with encouragement.
+[53:54.040 --> 53:57.040]  Others are telling me I can do it.
+[53:57.040 --> 54:01.040]  And then physiological state is just how are you feeling in the moment?
+[54:01.040 --> 54:02.040]  Are you relaxed?
+[54:02.040 --> 54:03.040]  Are you calm?
+[54:03.040 --> 54:10.040]  All of those influence your belief of how successful you will be at the task.
+[54:10.040 --> 54:12.040]  Make sense?
+[54:14.040 --> 54:15.040]  Yeah?
+[54:15.040 --> 54:16.040]  Okay.
+[54:16.040 --> 54:17.040]  Easy peasy.
+[54:17.040 --> 54:18.040]  Okay.
+[54:18.040 --> 54:19.040]  Okay.
+[54:19.040 --> 54:23.040]  Self-regulation, and I will talk about this in a few minutes.
+[54:23.040 --> 54:24.040]  Right?
+[54:24.040 --> 54:25.040]  Okay.
+[54:25.040 --> 54:31.040]  So self-regulation, and if you don't understand me, please go to the textbook to understand this a little bit better.
+[54:31.040 --> 54:33.040]  Put an asterisk around here.
+[54:33.040 --> 54:34.040]  Okay?
+[54:34.040 --> 54:38.040]  Put an asterisk around self-regulation if you're not able to understand me.
+[54:38.040 --> 54:44.040]  So self-regulation really has to do with how you regulate your behavior.
+[54:45.040 --> 54:46.040]  Okay?
+[54:46.040 --> 54:53.040]  And there's two things you have to keep in mind, which is discrepancy reduction and discrepancy production.
+[54:53.040 --> 54:54.040]  Okay?
+[54:55.040 --> 54:58.040]  So let's break this down a little bit further.
+[54:58.040 --> 55:07.040]  So a key part of this process is people's pursuit of self-set goals that guide their behavior.
+[55:07.040 --> 55:08.040]  Okay?
+[55:09.040 --> 55:33.040]  So when there is a discrepancy between one's goal and performance, individuals are motivated to modify their behavior in pursuit of goal attainment.
+[55:33.040 --> 55:35.040]  Okay?
+[55:35.040 --> 55:39.040]  And this is known as discrepancy reduction.
+[55:39.040 --> 55:40.040]  Okay?
+[55:40.040 --> 55:52.040]  So discrepancy reduction is basically where you see a discrepancy between your own goal and performance.
+[55:56.040 --> 55:57.040]  Okay?
+[55:57.040 --> 56:03.040]  So you see a discrepancy between your own goals, you see a discrepancy between your own goals and performance.
+[56:03.040 --> 56:04.040]  So what are you going to do?
+[56:04.040 --> 56:06.040]  You're going to modify your behavior.
+[56:06.040 --> 56:07.040]  Right?
+[56:07.040 --> 56:09.040]  Because you want to attain that goal.
+[56:09.040 --> 56:13.040]  So that is known as discrepancy reduction.
+[56:18.040 --> 56:19.040]  Okay.
+[56:19.040 --> 56:30.040]  Now, when individuals attain their goals, right, they are likely to set even higher or more challenging goals.
+[56:31.040 --> 56:32.040]  Okay?
+[56:32.040 --> 56:36.040]  So once I've attained the goal, I'm going to work harder.
+[56:36.040 --> 56:37.040]  Hopefully that's you.
+[56:37.040 --> 56:38.040]  Right?
+[56:38.040 --> 56:39.040]  I'm going to work harder.
+[56:39.040 --> 56:41.040]  I'm going to have a new goal.
+[56:41.040 --> 56:44.040]  I'm going to have more challenging goals.
+[56:44.040 --> 56:48.040]  That is known as discrepancy reduction.
+[56:50.040 --> 56:51.040]  Okay?
+[56:51.040 --> 56:55.040]  So what are we suggesting with this?
+[56:55.040 --> 57:00.040]  Do we both understand discrepancy reduction and then discrepancy production?
+[57:00.040 --> 57:01.040]  Right?
+[57:01.040 --> 57:02.040]  Okay.
+[57:02.040 --> 57:13.040]  So in this way, people are continuously engaging in a process of setting goals in pursuit of even higher levels of performance.
+[57:14.040 --> 57:15.040]  Okay?
+[57:15.040 --> 57:27.040]  So in the self-regulatory process, both the discrepancy reduction and the discrepancy production are the, they are like the heart of this process.
+[57:27.040 --> 57:29.040]  You need them both.
+[57:29.040 --> 57:30.040]  Okay?
+[57:30.040 --> 57:31.040]  So let's go here.
+[57:31.040 --> 57:32.040]  Okay?
+[57:32.040 --> 57:33.040]  So this is an example.
+[57:33.040 --> 57:36.040]  So you're currently engaging in some sort of behavior.
+[57:36.040 --> 57:38.040]  And you compare it to a standard.
+[57:38.040 --> 57:43.040]  So you compare it to, you compare your goal to the performance.
+[57:43.040 --> 57:48.040]  You notice a discrepancy, right?
+[57:48.040 --> 57:50.040]  You modify it.
+[57:50.040 --> 57:52.040]  You change your behavior.
+[57:52.040 --> 57:53.040]  Okay?
+[57:53.040 --> 57:56.040]  And now you're going to attain that goal.
+[57:56.040 --> 57:59.040]  So now you need to set another goal.
+[57:59.040 --> 58:02.040]  And that's where the production comes in, discrepancy production.
+[58:02.040 --> 58:07.040]  So say our goal is to like feel prepared for the exam on Monday.
+[58:07.040 --> 58:08.040]  Good.
+[58:08.040 --> 58:13.040]  Where our behavior currently is that maybe we're working on it an hour, hour and a half per day.
+[58:13.040 --> 58:18.040]  But we're noticing now we're not really on pace to like meet that goal.
+[58:18.040 --> 58:19.040]  Yes.
+[58:19.040 --> 58:20.040]  So like.
+[58:20.040 --> 58:22.040]  So that would be what?
+[58:22.040 --> 58:24.040]  Discrepancy or like.
+[58:24.040 --> 58:25.040]  Yes, reduction.
+[58:25.040 --> 58:26.040]  Reduction in bio.
+[58:26.040 --> 58:29.040]  You can reduce it by maybe working more like two hours a day.
+[58:29.040 --> 58:30.040]  Okay.
+[58:30.040 --> 58:31.040]  So you change your behavior.
+[58:31.040 --> 58:32.040]  You modify it.
+[58:32.040 --> 58:33.040]  Right?
+[58:33.040 --> 58:35.040]  So now you have created a new goal.
+[58:35.040 --> 58:38.040]  And that is discrepancy production.
+[58:38.040 --> 58:39.040]  Make sense?
+[58:39.040 --> 58:40.040]  Okay.
+[58:40.040 --> 58:42.040]  So you're studying for the midterm.
+[58:42.040 --> 58:43.040]  Right?
+[58:43.040 --> 58:48.040]  You monitor your current studying behavior.
+[58:48.040 --> 58:51.040]  Compare that to your goal.
+[58:51.040 --> 58:52.040]  Right?
+[58:52.040 --> 58:53.040]  So what happens?
+[58:53.040 --> 58:56.040]  In your case, you will study harder.
+[58:56.040 --> 58:57.040]  Right?
+[58:57.040 --> 58:59.040]  And then you will set a newer goal.
+[58:59.040 --> 59:02.040]  That's basically what this process is talking about.
+[59:02.040 --> 59:03.040]  Okay?
+[59:03.040 --> 59:08.040]  So you notice a discrepancy between your goal and your behavior.
+[59:08.040 --> 59:11.040]  You then modify your behavior.
+[59:11.040 --> 59:14.040]  Now you have kind of achieved the goal.
+[59:14.040 --> 59:16.040]  But not so much in the studying sense.
+[59:16.040 --> 59:17.040]  You're going to constantly.
+[59:17.040 --> 59:18.040]  Right?
+[59:18.040 --> 59:19.040]  You sort of achieved it.
+[59:19.040 --> 59:21.040]  But now you set another goal for yourself.
+[59:21.040 --> 59:22.040]  And you just stop there.
+[59:22.040 --> 59:23.040]  Does that make sense?
+[59:23.040 --> 59:24.040]  Okay.
+[59:24.040 --> 59:25.040]  So we understand that.
+[59:25.040 --> 59:26.040]  Right?
+[59:26.040 --> 59:30.040]  So you're kind of regulating your own behavior in that situation.
+[59:30.040 --> 59:33.040]  Okay?
+[59:33.040 --> 59:36.040]  Any other questions here?
+[59:36.040 --> 59:37.040]  No?
+[59:37.040 --> 59:38.040]  Okay.
+[59:38.040 --> 59:39.040]  Good.
+[59:39.040 --> 59:40.040]  Okay.
+[59:40.040 --> 59:42.040]  So self-regulation involves a number of different things.
+[59:42.040 --> 59:43.040]  Okay?
+[59:43.040 --> 59:49.040]  And so you can collect some observation data so you can monitor your current behavior.
+[59:49.040 --> 59:55.040]  You can observe models so you see how other people are doing it.
+[59:55.040 --> 59:57.040]  You can set behavioral goals.
+[59:57.040 --> 01:00:04.040]  So goal setting to create the discrepancy, to reduce the discrepancy.
+[01:00:04.040 --> 01:00:07.040]  You can recurse to desired behavior.
+[01:00:07.040 --> 01:00:10.040]  And then you can apply self-reinforcement.
+[01:00:10.040 --> 01:00:11.040]  Right?
+[01:00:11.040 --> 01:00:15.040]  So you can be like, I'm going to praise myself or I'm going to take a break or whatever.
+[01:00:15.040 --> 01:00:16.040]  Does that make sense?
+[01:00:16.040 --> 01:00:20.040]  So these are techniques in which you can regulate your behavior.
+[01:00:20.040 --> 01:00:23.040]  But don't confuse this with this process.
+[01:00:23.040 --> 01:00:25.040]  Make sense?
+[01:00:25.040 --> 01:00:29.040]  This is a process of how self-regulation unfolds.
+[01:00:29.040 --> 01:00:30.040]  Right?
+[01:00:30.040 --> 01:00:34.040]  But these are techniques in which you can self-regulate.
+[01:00:34.040 --> 01:00:36.040]  Those are two different things.
+[01:00:36.040 --> 01:00:39.040]  Does that make sense?
+[01:00:39.040 --> 01:00:42.040]  Do we have any questions?
+[01:00:42.040 --> 01:00:43.040]  Okay.
+[01:00:43.040 --> 01:00:47.040]  So from this slide deck, what is important to know?
+[01:00:47.040 --> 01:00:48.040]  What do you think?
+[01:00:48.040 --> 01:00:49.040]  Remind me again.
+[01:00:49.040 --> 01:00:50.040]  Someone tell me.
+[01:00:50.040 --> 01:00:53.040]  I've lost my mic.
+[01:00:53.040 --> 01:00:54.040]  Yes?
+[01:00:54.040 --> 01:00:59.040]  Discrepancy reduction and discrepancy production and the fact that one of them is the process
+[01:00:59.040 --> 01:01:00.040]  and the other one is just the technique.
+[01:01:00.040 --> 01:01:01.040]  Good.
+[01:01:01.040 --> 01:01:02.040]  Okay.
+[01:01:02.040 --> 01:01:03.040]  So you're going to remember this slide.
+[01:01:03.040 --> 01:01:04.040]  Right?
+[01:01:04.040 --> 01:01:09.040]  Well, not the slide, but you're going to remember discrepancy reduction, discrepancy production.
+[01:01:09.040 --> 01:01:12.040]  Again, if you didn't understand what I said in class, go to your textbook and understand it.
+[01:01:12.040 --> 01:01:13.040]  Right?
+[01:01:13.040 --> 01:01:14.040]  Good.
+[01:01:14.040 --> 01:01:15.040]  All right.
+[01:01:15.040 --> 01:01:16.040]  What else did I ask you to remember?
+[01:01:16.040 --> 01:01:17.040]  Yes?
+[01:01:17.040 --> 01:01:20.040]  Not all of the words are reinforcements.
+[01:01:20.040 --> 01:01:21.040]  Okay.
+[01:01:21.040 --> 01:01:22.040]  Sure.
+[01:01:22.040 --> 01:01:23.040]  So know the common mistakes.
+[01:01:23.040 --> 01:01:24.040]  Okay.
+[01:01:24.040 --> 01:01:25.040]  What else?
+[01:01:25.040 --> 01:01:26.040]  There was like someone I said, Erica, sweetheart.
+[01:01:26.040 --> 01:01:27.040]  Using punishment effectively.
+[01:01:27.040 --> 01:01:28.040]  Good.
+[01:01:28.040 --> 01:01:29.040]  No, no, no.
+[01:01:29.040 --> 01:01:30.040]  Reinforcement is more effective than punishment.
+[01:01:30.040 --> 01:01:31.040]  Okay?
+[01:01:31.040 --> 01:01:32.040]  But that was slide under it.
+[01:01:32.040 --> 01:01:33.040]  Yes.
+[01:01:33.040 --> 01:01:34.040]  Okay.
+[01:01:34.040 --> 01:01:35.040]  Good.
+[01:01:35.040 --> 01:01:36.040]  Reinforcement is more effective than punishment.
+[01:01:36.040 --> 01:01:37.040]  I don't think we have that moment.
+[01:01:38.040 --> 01:01:39.040]  Okay.
+[01:01:39.040 --> 01:01:40.040]  Good.
+[01:01:40.040 --> 01:01:41.040]  Good.
+[01:01:41.040 --> 01:01:42.040]  Good.
+[01:01:42.040 --> 01:01:43.040]  Good.
+[01:01:43.040 --> 01:01:44.040]  Okay.
+[01:01:44.040 --> 01:01:45.040]  And what was the other thing?
+[01:01:45.040 --> 01:01:46.040]  What was the last thing I asked you to pay attention?
+[01:01:46.040 --> 01:01:47.040]  Yes?
+[01:01:47.040 --> 01:01:48.040]  Before learning processes.
+[01:01:48.040 --> 01:01:49.040]  Good.
+[01:01:49.040 --> 01:01:50.040]  Right?
+[01:01:50.040 --> 01:01:51.040]  That grid.
+[01:01:51.040 --> 01:01:52.040]  Right?
+[01:01:52.040 --> 01:01:53.040]  Know the reinforcers and then know the punishment versus extinction.
+[01:01:53.040 --> 01:01:54.040]  Probabilities to increase and decrease behavior.
+[01:01:54.040 --> 01:01:55.040]  Good?
+[01:01:55.040 --> 01:01:56.040]  Okay.
+[01:01:56.040 --> 01:01:57.040]  Now I'm going to move on.
+[01:01:57.040 --> 01:01:58.040]  Okay.
+[01:01:58.040 --> 01:01:59.040]  So I'm going to move on to the next slide.
+[01:01:59.040 --> 01:02:00.040]  Okay.
+[01:02:00.040 --> 01:02:01.040]  So I'm going to move on to the next slide.
+[01:02:01.040 --> 01:02:02.040]  Okay.
+[01:02:02.040 --> 01:02:03.040]  So I'm going to move on to the next slide.
+[01:02:03.040 --> 01:02:04.040]  Okay.
+[01:02:04.040 --> 01:02:05.040]  So I'm going to move on to the next slide.
+[01:02:05.040 --> 01:02:06.040]  Okay.
+[01:02:06.040 --> 01:02:07.040]  So I'm going to move on and we're going to talk about what's important in the next,
+[01:02:07.040 --> 01:02:08.040]  this thing.
+[01:02:08.040 --> 01:02:09.040]  Let me see if I can actually pull this out of you and see if I can finish in like 20
+[01:02:09.040 --> 01:02:10.040]  minutes.
+[01:02:10.040 --> 01:02:11.040]  The first idea.
+[01:02:11.040 --> 01:02:12.040]  All right.
+[01:02:12.040 --> 01:02:13.040]  Let's do this out.
+[01:02:13.040 --> 01:02:14.040]  I usually write this into class.
+[01:02:14.040 --> 01:02:15.040]  So this chapter is all about perception, attribution, diversity.
+[01:02:15.040 --> 01:02:18.040]  Let me ask you this, the question I asked you that you said, how do you understand
+[01:02:18.040 --> 01:02:30.400]  I usually break this into class.
+[01:02:30.400 --> 01:02:34.480]  So this chapter is all about perception, attribution, and diversity.
+[01:02:34.480 --> 01:02:35.480]  Let me ask you this.
+[01:02:35.480 --> 01:02:38.480]  Here is a question.
+[01:02:38.480 --> 01:02:41.360]  I will tell you who this is afterwards.
+[01:02:41.360 --> 01:02:47.200]  But your first impression, what is, for those who haven't participated yet, what do you
+[01:02:47.200 --> 01:02:48.960]  think his occupation is?
+[01:02:48.960 --> 01:02:49.960]  Yes?
+[01:02:49.960 --> 01:02:53.280]  Like a gas station worker.
+[01:02:53.280 --> 01:02:55.320]  A gas station worker?
+[01:02:55.320 --> 01:02:56.320]  Anyone else?
+[01:02:56.320 --> 01:02:57.320]  Artist.
+[01:02:57.320 --> 01:02:58.320]  Artist.
+[01:02:58.320 --> 01:02:59.320]  Okay, sure, anyone else?
+[01:02:59.320 --> 01:03:00.320]  A mother.
+[01:03:00.320 --> 01:03:01.320]  Okay, sure, anyone else?
+[01:03:01.320 --> 01:03:02.320]  Do you want to say anything?
+[01:03:02.320 --> 01:03:03.320]  What do you think his personality is like?
+[01:03:03.320 --> 01:03:04.320]  Very like, careless.
+[01:03:04.320 --> 01:03:05.320]  Careless.
+[01:03:05.320 --> 01:03:06.320]  Okay, next.
+[01:03:07.320 --> 01:03:08.320]  Aggressive.
+[01:03:08.320 --> 01:03:09.320]  Aggressive.
+[01:03:09.320 --> 01:03:10.320]  Okay, yes.
+[01:03:10.320 --> 01:03:11.320]  Sure?
+[01:03:11.320 --> 01:03:12.320]  Yeah?
+[01:03:12.320 --> 01:03:13.320]  Maybe lazy.
+[01:03:13.320 --> 01:03:14.320]  Lazy?
+[01:03:14.320 --> 01:03:15.320]  I think he looks pretty nice.
+[01:03:15.320 --> 01:03:16.320]  He looks, okay.
+[01:03:16.320 --> 01:03:17.320]  Alright, he looks nice.
+[01:03:17.320 --> 01:03:18.320]  Okay, sure.
+[01:03:18.320 --> 01:03:19.320]  What do you think are his likes and dislikes?
+[01:03:19.320 --> 01:03:20.320]  Those who, okay, yes, go on.
+[01:03:20.320 --> 01:03:21.320]  Oh, nothing.
+[01:03:21.320 --> 01:03:22.320]  Nothing.
+[01:03:22.320 --> 01:03:23.320]  Okay, so what do you think his personality is like?
+[01:03:23.320 --> 01:03:24.320]  Very like, careless.
+[01:03:24.320 --> 01:03:25.320]  Okay, sure.
+[01:03:25.320 --> 01:03:26.320]  Aggressive.
+[01:03:26.320 --> 01:03:27.320]  Aggressive.
+[01:03:27.320 --> 01:03:28.320]  Okay, yes.
+[01:03:28.320 --> 01:03:29.320]  Sure?
+[01:03:29.320 --> 01:03:30.320]  Yeah?
+[01:03:30.320 --> 01:03:31.320]  Maybe lazy.
+[01:03:31.320 --> 01:03:32.320]  Lazy?
+[01:03:32.320 --> 01:03:33.320]  I think he looks pretty nice.
+[01:03:33.320 --> 01:03:34.320]  He looks, okay.
+[01:03:34.320 --> 01:03:35.320]  Alright, he looks nice.
+[01:03:36.320 --> 01:03:37.320]  Okay, sure.
+[01:03:37.320 --> 01:03:38.320]  Meth?
+[01:03:38.320 --> 01:03:39.320]  Anyone else?
+[01:03:39.320 --> 01:03:40.320]  Come on, easy.
+[01:03:40.320 --> 01:03:41.320]  If you haven't participated, put up your hand.
+[01:03:41.320 --> 01:03:42.320]  Yes?
+[01:03:42.320 --> 01:03:43.320]  Like, gaming.
+[01:03:43.320 --> 01:03:44.320]  Gaming?
+[01:03:44.320 --> 01:03:45.320]  Okay.
+[01:03:45.320 --> 01:03:46.320]  Who else hasn't participated?
+[01:03:46.320 --> 01:03:47.320]  Cocaine.
+[01:03:47.320 --> 01:03:48.320]  Cocaine, sure.
+[01:03:48.320 --> 01:03:49.320]  Rock music.
+[01:03:49.320 --> 01:03:50.320]  Rock music.
+[01:03:50.320 --> 01:03:51.320]  So all four, you've participated.
+[01:03:51.320 --> 01:03:52.320]  What does he mean by that?
+[01:03:52.320 --> 01:03:53.320]  Mona.
+[01:03:53.320 --> 01:03:54.320]  Mona.
+[01:03:54.320 --> 01:03:55.320]  Did you participate?
+[01:03:55.320 --> 01:03:56.320]  No.
+[01:03:56.320 --> 01:03:57.320]  Okay, I'm sorry to pick on you.
+[01:03:57.320 --> 01:03:58.320]  Just me.
+[01:03:58.320 --> 01:03:59.320]  No, it's okay.
+[01:03:59.320 --> 01:04:00.320]  Yeah, we did participate.
+[01:04:00.320 --> 01:04:01.320]  Okay, so what do you think his personality is like?
+[01:04:01.320 --> 01:04:02.320]  Very like, careless.
+[01:04:02.320 --> 01:04:03.320]  Very like, careless.
+[01:04:03.320 --> 01:04:04.320]  Okay, so what do you think his personality is like?
+[01:04:04.320 --> 01:04:05.320]  I'm going to say video games as well.
+[01:04:05.320 --> 01:04:06.320]  Video games.
+[01:04:06.320 --> 01:04:07.320]  Okay.
+[01:04:07.320 --> 01:04:08.320]  Yes?
+[01:04:08.320 --> 01:04:09.320]  Lives on employment insurance?
+[01:04:09.320 --> 01:04:10.320]  It lives on employment insurance.
+[01:04:10.320 --> 01:04:11.320]  Okay.
+[01:04:11.320 --> 01:04:12.320]  Did everyone participate there?
+[01:04:12.320 --> 01:04:13.320]  Yes, we did.
+[01:04:13.320 --> 01:04:14.320]  Participation here was done.
+[01:04:14.320 --> 01:04:15.320]  Participate.
+[01:04:15.320 --> 01:04:16.320]  Trenton, did you participate?
+[01:04:16.320 --> 01:04:17.320]  Do you want me to say something about him, though?
+[01:04:17.320 --> 01:04:18.320]  Yeah, go ahead.
+[01:04:18.320 --> 01:04:19.320]  Any of the questions?
+[01:04:19.320 --> 01:04:20.320]  Any of the questions?
+[01:04:20.320 --> 01:04:21.320]  No.
+[01:04:21.320 --> 01:04:22.320]  I don't know.
+[01:04:22.320 --> 01:04:23.320]  I already know who he is.
+[01:04:23.320 --> 01:04:24.320]  Oh, okay, forget.
+[01:04:24.320 --> 01:04:25.320]  Okay.
+[01:04:26.320 --> 01:04:27.320]  Did everyone participate there?
+[01:04:27.320 --> 01:04:28.320]  Did all?
+[01:04:28.320 --> 01:04:29.320]  Did you participate?
+[01:04:29.320 --> 01:04:30.320]  He looks happy.
+[01:04:30.320 --> 01:04:31.320]  He looks happy, okay.
+[01:04:31.320 --> 01:04:32.320]  Anyone else?
+[01:04:32.320 --> 01:04:33.320]  Everyone participated.
+[01:04:33.320 --> 01:04:34.320]  Oh, yes, sorry, I'm sorry.
+[01:04:34.320 --> 01:04:35.320]  He looks unemployed.
+[01:04:35.320 --> 01:04:36.320]  Unemployed.
+[01:04:36.320 --> 01:04:37.320]  He does drugs.
+[01:04:37.320 --> 01:04:38.320]  Okay, good.
+[01:04:38.320 --> 01:04:39.320]  Everyone participated today, okay?
+[01:04:39.320 --> 01:04:40.320]  Okay, thank you.
+[01:04:40.320 --> 01:04:41.320]  Okay, so that's it for this session.
+[01:04:41.320 --> 01:05:06.320]  Okay, so that's it for this session.
+[01:05:06.320 --> 01:05:29.320]  Okay, so that's it for this session.
+[01:05:29.320 --> 01:05:54.320]  Okay, so that's it for this session.
+[01:05:54.320 --> 01:06:19.320]  Okay, so that's it for this session.
+[01:06:19.320 --> 01:06:44.320]  Okay, so that's it for this session.
+[01:06:44.320 --> 01:07:09.320]  Okay, so that's it for this session.
+[01:07:09.320 --> 01:07:36.320]  Okay, so that's it for this session.
+[01:07:36.320 --> 01:08:03.320]  Okay, so that's it for this session.
+[01:08:03.320 --> 01:08:30.320]  Okay, so that's it for this session.
+[01:08:30.320 --> 01:08:56.320]  Okay, so that's it for this session.
+[01:08:56.320 --> 01:08:58.960]  What are the factors that influence perception?
+[01:08:58.960 --> 01:09:03.240]  Well, there's three components that we need to consider.
+[01:09:03.240 --> 01:09:09.880]  So there's the perceiver, the target, and the situation.
+[01:09:09.880 --> 01:09:11.640]  And this is what I will do.
+[01:09:11.640 --> 01:09:13.960]  For this particular slide, I will actually
+[01:09:13.960 --> 01:09:17.440]  provide you with my notes.
+[01:09:17.440 --> 01:09:20.560]  So let's just hold off of that, because I
+[01:09:20.560 --> 01:09:22.600]  feel like you will just, but here, let
+[01:09:22.600 --> 01:09:25.280]  me tell you in a nutshell what it is.
+[01:09:25.360 --> 01:09:27.960]  So actually, no, I'm not going to tell you.
+[01:09:27.960 --> 01:09:29.400]  Just wait for my notes.
+[01:09:29.400 --> 01:09:30.400]  I'm sorry.
+[01:09:30.400 --> 01:09:32.560]  He's like, you're stressing me out.
+[01:09:32.560 --> 01:09:34.920]  I'm stressed out, because I want to get through this as quickly
+[01:09:34.920 --> 01:09:35.680]  as possible.
+[01:09:35.680 --> 01:09:37.760]  But I'll give you my notes.
+[01:09:37.760 --> 01:09:40.040]  I'll give you my notes for that slide,
+[01:09:40.040 --> 01:09:42.880]  so you'll see it later today.
+[01:09:42.880 --> 01:09:46.400]  Let's talk about perceptual biases and shortcuts.
+[01:09:46.400 --> 01:09:49.560]  Do I have to give you the definition of leech?
+[01:09:49.560 --> 01:09:51.060]  I do.
+[01:09:51.060 --> 01:09:52.840]  How amazing is that?
+[01:09:52.840 --> 01:09:55.280]  So I don't have to even go through that.
+[01:09:55.280 --> 01:09:57.320]  Speed through it.
+[01:09:57.320 --> 01:10:00.240]  But basically, we use a number of different shortcuts
+[01:10:00.240 --> 01:10:02.640]  when we're judging others.
+[01:10:02.640 --> 01:10:04.960]  And an understanding of these shortcuts
+[01:10:04.960 --> 01:10:09.240]  can help us towards recognizing when they might
+[01:10:09.240 --> 01:10:11.880]  lead to significant distortion.
+[01:10:11.880 --> 01:10:13.960]  So this is what I'm going to have you do.
+[01:10:13.960 --> 01:10:19.000]  I'm going to have you read through these slides.
+[01:10:19.000 --> 01:10:23.200]  And if there is something that doesn't make sense to you,
+[01:10:23.200 --> 01:10:26.800]  you ask me next class.
+[01:10:26.800 --> 01:10:30.360]  These might be on your multiple choice.
+[01:10:30.360 --> 01:10:34.680]  So to read through it, ask yourself, does this make sense?
+[01:10:34.680 --> 01:10:37.360]  Does what Santa has on the slide make sense?
+[01:10:37.360 --> 01:10:41.160]  And if it doesn't, you ask me next class.
+[01:10:41.160 --> 01:10:42.080]  All right.
+[01:10:42.080 --> 01:10:45.800]  Stereotyping is another one that you should definitely know.
+[01:10:45.800 --> 01:10:47.000]  And I don't have time.
+[01:10:47.000 --> 01:10:49.000]  But let's go back to this.
+[01:10:49.000 --> 01:10:49.500]  Oh, no.
+[01:10:49.500 --> 01:10:52.880]  Let me first talk to us.
+[01:10:52.880 --> 01:10:56.320]  OK, do we know what stereotyping is?
+[01:10:56.320 --> 01:11:00.760]  In layman terms, what is it?
+[01:11:00.760 --> 01:11:03.120]  What we just did, like 10 minutes ago?
+[01:11:03.120 --> 01:11:03.620]  Yeah.
+[01:11:03.620 --> 01:11:04.320]  OK, good.
+[01:11:04.320 --> 01:11:05.760]  OK, so we stereotype.
+[01:11:05.760 --> 01:11:08.200]  So we took a personal characteristic,
+[01:11:08.200 --> 01:11:11.320]  and we basically stereotyped, right?
+[01:11:11.320 --> 01:11:12.560]  OK.
+[01:11:12.560 --> 01:11:16.440]  So I've actually told you what stereotyping is on this slide.
+[01:11:16.440 --> 01:11:17.960]  So just understand it.
+[01:11:17.960 --> 01:11:22.720]  But let's go back to this person.
+[01:11:22.720 --> 01:11:25.240]  Trendin, sorry to put you on this spot
+[01:11:25.240 --> 01:11:26.960]  and to make you so stressed out because I
+100.117.97.99 - - [22/Sep/2025 17:46:41] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 17:46:41] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [22/Sep/2025 17:46:41] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [22/Sep/2025 17:46:41] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [22/Sep/2025 17:46:41] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [22/Sep/2025 17:46:41] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 17:46:42] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 18:21:20] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 18:29:58] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 18:29:58] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [22/Sep/2025 18:29:58] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [22/Sep/2025 18:29:59] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [22/Sep/2025 18:29:59] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 18:29:59] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [22/Sep/2025 18:30:03] "GET /session/19 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 20:10:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 20:10:41] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 20:10:41] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 20:10:41] "GET /history HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 20:10:42] "GET /manifest.json HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2025 20:10:42] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2025 20:12:43] "GET /session/19 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 20:12:47] "GET /session/15 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 20:59:58] "GET /session/16 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 21:00:06] "GET /session/10 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 21:00:10] "GET /session/16 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 21:00:29] "GET /session/15 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 21:00:30] "GET /session/10 HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 21:02:05] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 21:02:05] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [22/Sep/2025 21:02:05] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [22/Sep/2025 21:02:05] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [22/Sep/2025 21:02:05] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [22/Sep/2025 21:02:05] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [22/Sep/2025 21:02:08] "GET /session/10 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 21:02:36] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 21:04:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 21:04:57] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 21:04:57] "GET /static/script.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/Sep/2025 21:04:57] "GET /history HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 21:04:58] "GET /manifest.json HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2025 21:05:01] "GET /session/19 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 21:05:15] "POST /edit/19 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 21:05:16] "GET /history HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 21:05:21] "POST /transcripts/19/move HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2025 21:05:22] "GET /history HTTP/1.1" 200 -

@@ -1,0 +1,1709 @@
+Directory '..\data' is ready.
+Database and tables verified successfully.
+Queue processor thread started.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.0.0.26:443
+Press CTRL+C to quit
+100.69.197.53 - - [23/Sep/2025 12:00:38] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 12:00:39] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [23/Sep/2025 12:00:39] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [23/Sep/2025 12:00:39] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 12:00:39] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [23/Sep/2025 12:00:39] "GET /favicon.ico HTTP/1.1" 404 -
+100.69.197.53 - - [23/Sep/2025 12:00:40] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [23/Sep/2025 12:00:46] "GET /session/19 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 12:00:53] "GET /session/16 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 12:00:56] "GET /session/15 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 12:01:27] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [23/Sep/2025 12:52:44] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:52:44] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [23/Sep/2025 12:52:44] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [23/Sep/2025 12:52:44] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [23/Sep/2025 12:52:44] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:52:44] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [23/Sep/2025 12:53:15] "POST /transcribe HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:53:18] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:53:21] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:53:24] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:53:27] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:53:30] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:53:33] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:53:36] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:53:39] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:53:42] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:53:45] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:53:48] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:53:51] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:53:54] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:53:57] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:54:01] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:54:03] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:54:06] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:54:09] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:54:12] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:54:15] "GET /status/27 HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 12:54:18] "GET /status/27 HTTP/1.1" 200 -
+Queue processor checking for a new job...
+Processing job 27: New Recording 67.m4a
+Loading Whisper model for the first time...
+Whisper is using device: cuda
+Whisper model loaded successfully.
+--- Starting Transcription for ../uploads\02f333da-9766-4855-a2f1-ba436496a1d7.m4a ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:02.000]  The math course started today.
+[00:02.000 --> 00:06.000]  Everything from the first couple of weeks was intro,
+[00:06.000 --> 00:08.000]  a little bit of theory and definition
+[00:08.000 --> 00:10.000]  trying to give us an understanding
+[00:10.000 --> 00:12.000]  of why you're doing this.
+[00:12.000 --> 00:14.000]  Today, we're going to look at that.
+[00:14.000 --> 00:17.000]  So we're going to finish up classical probability
+[00:17.000 --> 00:19.000]  and talk about the things you can write,
+[00:19.000 --> 00:21.000]  the things you can put in the math,
+[00:21.000 --> 00:23.000]  the laws, the limitations,
+[00:23.000 --> 00:25.000]  the qualifications,
+[00:25.000 --> 00:27.000]  and we're going to finish the class, I think,
+[00:27.000 --> 00:29.000]  with conditional probability.
+[00:29.000 --> 00:33.000]  Once you're done with conditional probability,
+[00:33.000 --> 00:37.000]  you can work on the first quiz.
+[00:37.000 --> 00:40.000]  Well, I mean, you've already started working on it.
+[00:40.000 --> 00:42.000]  You can work on the fifth quiz.
+[00:42.000 --> 00:44.000]  You can do the fifth quiz.
+[00:44.000 --> 00:48.000]  The way you can do it is you can work on the fifth quiz.
+[00:48.000 --> 00:50.000]  You can work on the sixth quiz.
+[00:50.000 --> 00:52.000]  You can work on the sixth quiz.
+[00:53.000 --> 00:56.000]  The way these quizzes are set up,
+[00:56.000 --> 00:58.000]  we've talked about it,
+[00:58.000 --> 01:02.000]  is that you get two attempts per question.
+[01:05.000 --> 01:08.000]  And the questions are the same for everyone,
+[01:08.000 --> 01:11.000]  and they don't change between attempts.
+[01:11.000 --> 01:14.000]  So it doesn't take long to realize
+[01:14.000 --> 01:17.000]  that you shouldn't be able to get a good score.
+[01:23.000 --> 01:28.000]  That said, you should consider the quizzes
+[01:28.000 --> 01:36.000]  to be part of your homework and study tools.
+[01:36.000 --> 01:39.000]  If you are just giving the answers from someone else,
+[01:39.000 --> 01:42.000]  you are not doing this course.
+[01:42.000 --> 01:46.000]  You want to be learning the course as you go,
+[01:46.000 --> 01:50.000]  and many parts of this course build on previous parts.
+[01:50.000 --> 01:53.000]  So if you think you're just going to prove through
+[01:53.000 --> 01:55.000]  and then study for the midterm,
+[01:55.000 --> 01:57.000]  you will find the midterm challenging.
+[01:57.000 --> 01:59.000]  If you went on this course a little bit each week,
+[01:59.000 --> 02:02.000]  you could do the quizzes properly.
+[02:02.000 --> 02:04.000]  By the time you get to the midterm,
+[02:04.000 --> 02:08.000]  you'll be like, oh, this is easier than I would have expected.
+[02:08.000 --> 02:11.000]  It's almost a promise I can make to you.
+[02:11.000 --> 02:14.000]  You find the grand quiz course pretty good.
+[02:21.000 --> 02:23.000]  Okay.
+[02:23.000 --> 02:25.000]  So...
+[02:28.000 --> 02:31.000]  Any questions on the first quiz?
+[02:31.000 --> 02:33.000]  So...
+[02:50.000 --> 02:55.000]  So, behind me here, we have already put the first notes
+[02:55.000 --> 02:58.000]  for today.
+[02:58.000 --> 03:02.000]  It hurts me that although I keep talking about
+[03:02.000 --> 03:04.000]  the probability of a quiz,
+[03:04.000 --> 03:09.000]  that we find it at a relative likelihood
+[03:09.000 --> 03:11.000]  that we should probably take that second
+[03:11.000 --> 03:15.000]  and define it from a more mathematical perspective.
+[03:15.000 --> 03:18.000]  So it's the number of times
+[03:18.000 --> 03:21.000]  the best of curbs in the population
+[03:21.000 --> 03:24.000]  divided by the population.
+[03:24.000 --> 03:28.000]  You have probably seen some versions of it before,
+[03:28.000 --> 03:30.000]  and you know what they're doing.
+[03:30.000 --> 03:33.000]  They're kind of more formal than regular ones.
+[03:33.000 --> 03:35.000]  And an example...
+[03:51.000 --> 03:53.000]  What is it doing?
+[03:54.000 --> 03:58.000]  I'm going to keep using a deck of cards...
+[03:58.000 --> 04:00.000]  What the fuck?
+[04:01.000 --> 04:03.000]  ...which has horses.
+[04:04.000 --> 04:06.000]  And you can draw on it.
+[04:06.000 --> 04:08.000]  Move the camera like this.
+[04:23.000 --> 04:25.000]  Okay.
+[04:47.000 --> 04:49.000]  Do you like the little table of contents
+[04:49.000 --> 04:51.000]  that is long?
+[04:53.000 --> 04:55.000]  Okay.
+[05:07.000 --> 05:09.000]  Okay.
+[05:14.000 --> 05:16.000]  So...
+[05:16.000 --> 05:18.000]  Maybe you have built in tables
+[05:18.000 --> 05:20.000]  like the one on the right,
+[05:20.000 --> 05:22.000]  but you can do it quickly
+[05:22.000 --> 05:25.000]  in case you haven't done the M.O.R.
+[05:25.000 --> 05:29.000]  So in a deck of cards,
+[05:29.000 --> 05:32.000]  there are 13 hearts, 13 clubs,
+[05:32.000 --> 05:35.000]  13 diamonds, and 13 spades.
+[05:37.000 --> 05:40.000]  And if you add that all up,
+[05:42.000 --> 05:45.000]  you get 52 cards.
+[05:50.000 --> 05:52.000]  Which is it?
+[05:52.000 --> 05:54.000]  Or bigger?
+[05:54.000 --> 05:58.000]  And each of those is the rule end,
+[05:58.000 --> 06:02.000]  and then you just pay the probability of the event.
+[06:02.000 --> 06:05.000]  Each of these is 13 or 52.
+[06:05.000 --> 06:07.000]  Okay.
+[06:17.000 --> 06:20.000]  The basic frequency state.
+[06:21.000 --> 06:25.000]  And in classical probability,
+[06:25.000 --> 06:29.000]  where we completely understand the system and population,
+[06:29.000 --> 06:32.000]  this is always how we do things.
+[06:33.000 --> 06:36.000]  We can make more complicated
+[06:38.000 --> 06:40.000]  frequency tables,
+[06:40.000 --> 06:44.000]  which then help you answer more frequently.
+[06:47.000 --> 06:50.000]  I can write something like...
+[06:53.000 --> 06:56.000]  So the probability
+[06:57.000 --> 07:00.000]  of trying at speed
+[07:03.000 --> 07:06.000]  from a shock death
+[07:09.000 --> 07:12.000]  is one over 10.
+[07:22.000 --> 07:24.000]  Okay.
+[07:24.000 --> 07:27.000]  That is the beginning of my half.
+[07:30.000 --> 07:33.000]  Now, last week,
+[07:33.000 --> 07:36.000]  I asked a question like...
+[07:44.000 --> 07:48.000]  What is the probability of drawing an ace or a spade?
+[07:54.000 --> 07:56.000]  Okay.
+[08:13.000 --> 08:16.000]  We can build a more interesting frequency table.
+[08:24.000 --> 08:26.000]  Okay.
+[08:34.000 --> 08:37.000]  So frequency tables don't have to be...
+[08:38.000 --> 08:41.000]  I always want to call that one dimensional.
+[08:41.000 --> 08:44.000]  You can make a little bit.
+[08:44.000 --> 08:47.000]  So over here, I can say spade,
+[08:49.000 --> 08:52.000]  and I can say not spade.
+[08:54.000 --> 08:57.000]  And that's the spade.
+[08:59.000 --> 09:02.000]  I can say the ace, and the spade.
+[09:19.000 --> 09:22.000]  And now you have to be a little bit more careful
+[09:22.000 --> 09:25.000]  how you fill this in.
+[09:27.000 --> 09:30.000]  If you do fill this in properly,
+[09:30.000 --> 09:33.000]  the rest of the probability actually get quick.
+[09:40.000 --> 09:43.000]  Over here is where we want the number of spades.
+[09:48.000 --> 09:51.000]  I'm going to start with an E.
+[09:53.000 --> 09:55.000]  And...
+[09:59.000 --> 10:02.000]  And then we know there are
+[10:02.000 --> 10:05.000]  39 sprockets.
+[10:07.000 --> 10:10.000]  And 52.
+[10:22.000 --> 10:25.000]  Okay.
+[10:34.000 --> 10:37.000]  I'm just going to make a little note.
+[10:37.000 --> 10:40.000]  Sometimes filling in the outside of this table is easier,
+[10:40.000 --> 10:43.000]  because I know how many spades there are,
+[10:43.000 --> 10:46.000]  and do not spade, because it's just in the middle here.
+[10:46.000 --> 10:49.000]  I also know how many aces there are.
+[10:50.000 --> 10:53.000]  Unless there are 48 not aces.
+[11:02.000 --> 11:05.000]  And you can also, because we understand
+[11:05.000 --> 11:10.000]  the population, we can also count all of the things inside.
+[11:19.000 --> 11:22.000]  So there are also ways to build these tables,
+[11:22.000 --> 11:25.000]  you just need to understand how they work.
+[11:25.000 --> 11:28.000]  So an ace of spades,
+[11:28.000 --> 11:31.000]  there's really only one in the deck.
+[11:34.000 --> 11:37.000]  And actually from there, the rest of it is math.
+[11:37.000 --> 11:40.000]  The rest of it is like, subtraction.
+[11:40.000 --> 11:43.000]  I know that's a little bit of a problem,
+[11:43.000 --> 11:46.000]  but I'm going to show you how to do that.
+[11:46.000 --> 11:49.000]  The rest of it is like, subtraction.
+[11:49.000 --> 11:52.000]  I know how many, I know there's one ace of spades,
+[11:52.000 --> 11:55.000]  and I know there's four aces, so you know how to count them.
+[11:55.000 --> 11:58.000]  There are three aces in the right space.
+[11:58.000 --> 12:01.000]  But also this number has to add to that.
+[12:09.000 --> 12:12.000]  I'm going to say one, two, add.
+[12:16.000 --> 12:19.000]  So the value is around the top.
+[12:35.000 --> 12:40.000]  So in front of the camera, I will put this little note
+[12:40.000 --> 12:43.000]  that says you can calculate the rest,
+[12:43.000 --> 12:46.000]  so you can calculate the number of the two calculations.
+[12:46.000 --> 12:49.000]  That is three, that is 12,
+[12:49.000 --> 12:52.000]  and that is 36.
+[12:52.000 --> 12:55.000]  So you can manually count those numbers
+[12:55.000 --> 12:58.000]  if you get on a deck of cards and look at them,
+[12:58.000 --> 13:01.000]  or if you get on a deck of cards and look at them,
+[13:01.000 --> 13:04.000]  or if you have blue numbers and red numbers,
+[13:04.000 --> 13:07.000]  you can subtract, take it to the left.
+[13:13.000 --> 13:18.000]  You can turn this frequency table into a probability table,
+[13:18.000 --> 13:21.000]  or you can start directly answering questions like this.
+[13:43.000 --> 13:46.000]  Thank you.
+[14:14.000 --> 14:17.000]  So you can turn that frequency table into a probability table.
+[14:21.000 --> 14:26.000]  And I will just make, I won't even do the calculations,
+[14:26.000 --> 14:32.000]  but it's going to make this really obvious what I'm doing.
+[14:33.000 --> 14:42.000]  So every one of the cells can get divided by 52.
+[14:51.000 --> 14:54.000]  So any problems?
+[14:54.000 --> 14:56.000]  Problems with the label.
+[15:02.000 --> 15:05.000]  You can simplify these if you want,
+[15:05.000 --> 15:09.000]  but to make it obvious what I am doing,
+[15:09.000 --> 15:12.000]  I'm going to leave them like this.
+[15:32.000 --> 15:37.000]  And once you have this table, or that table,
+[15:37.000 --> 15:42.000]  you can start answering questions
+[15:42.000 --> 15:45.000]  that are a little more complicated.
+[15:45.000 --> 15:50.000]  And you can do them with the help of the probability box.
+[16:02.000 --> 16:09.000]  Your test calls this the general law of division perfect
+[16:09.000 --> 16:16.000]  as opposed to maybe the definite law of division perfect.
+[16:16.000 --> 16:21.000]  So you can do this with the help of the probability box.
+[16:21.000 --> 16:26.000]  And you can do this with the help of the probability box.
+[16:26.000 --> 16:31.000]  As opposed to maybe the definite law of division.
+[16:31.000 --> 16:31.500]  OK.
+[16:52.000 --> 16:58.000]  And when we talk about addition, we are talking about probability
+[16:58.000 --> 17:05.000]  at A and or B. If you will also remember,
+[17:05.000 --> 17:07.000]  I open the room.
+[17:13.000 --> 17:15.000]  So the law of addition helps you calculate unions.
+[17:28.000 --> 17:30.000]  And how do we do that?
+[17:30.000 --> 17:33.000]  Well, you can look up at my table, either table,
+[17:33.000 --> 17:34.000]  or whatever you like.
+[17:34.000 --> 17:42.000]  And if I am trying to calculate probability at A or at B,
+[17:42.000 --> 17:43.000]  this is hand over.
+[17:43.000 --> 17:45.000]  So it's A or at B for both.
+[17:45.000 --> 17:48.000]  And then I want to add up all of the times
+[17:48.000 --> 17:52.000]  with an A and all the times with a table.
+[17:52.000 --> 17:57.000]  So probability of A, probability of B.
+[17:57.000 --> 17:59.000]  But there's a cross.
+[17:59.000 --> 18:05.000]  And that is, if you add up all the A's and you add up all the space,
+[18:05.000 --> 18:07.000]  you have double confidence.
+[18:07.000 --> 18:07.500]  OK.
+[18:07.500 --> 18:26.500]  And then I'm going to bring that back in a sec
+[18:26.500 --> 18:38.500]  after I emphasize you see by adding up all the A's and all
+[18:38.500 --> 18:40.500]  of the space that we have counted.
+[18:40.500 --> 18:56.500]  So we have to subtract to see if the fake is right.
+[18:56.500 --> 18:59.500]  And what is that?
+[18:59.500 --> 19:00.500]  It's the intersection.
+[19:00.500 --> 19:03.500]  So this is the general law of addition.
+[19:03.500 --> 19:05.500]  If you want to add two probabilities,
+[19:05.500 --> 19:08.500]  you have to add the probability of one, which is probably the second,
+[19:08.500 --> 19:10.500]  and then subtract where they intersect,
+[19:10.500 --> 19:12.500]  because you've double-counted that.
+[19:30.500 --> 19:43.500]  So probability of A is 4 over 52.
+[19:43.500 --> 19:53.500]  Probability of A is maybe 13 over 52.
+[19:53.500 --> 19:57.500]  Probability of A intersects table space.
+[20:07.500 --> 20:09.500]  1 over 52.
+[20:09.500 --> 20:15.500]  And that is the three values we need for A.
+[20:15.500 --> 20:20.500]  So there are four A's in 13 spaces and one time that we need for both.
+[20:23.500 --> 20:24.500]  OK.
+[20:24.500 --> 20:26.500]  So we're going to get plugged within.
+[20:26.500 --> 20:27.000]  OK.
+[20:57.500 --> 20:58.000]  OK.
+[21:17.500 --> 21:24.500]  Now, the law of addition obsesses calculators.
+[21:24.500 --> 21:31.500]  But you can also calculate it directly from the frequency table,
+[21:31.500 --> 21:36.500]  because that 16 over 52 I calculated over there is just the sum
+[21:36.500 --> 21:38.500]  of these three numbers as well.
+[21:54.500 --> 21:55.000]  OK.
+[21:55.000 --> 22:21.000]  So you can also, these three numbers are, well,
+[22:21.000 --> 22:27.000]  those three numbers are 52, or it's this one, this one, and this one.
+[22:27.000 --> 22:33.000]  All the ones that are A's are states.
+[22:33.000 --> 22:37.000]  So you can calculate directly from the table, or you can use the table.
+[22:37.000 --> 22:40.000]  Whatever is more convenient.
+[22:40.000 --> 22:41.000]  Whoops.
+[22:41.000 --> 22:43.000]  I wrote 16 when I meant this place.
+[22:43.000 --> 22:43.500]  OK.
+[22:43.500 --> 22:58.000]  That is the general law of addition.
+[22:58.000 --> 22:59.000]  It can be done by formula.
+[22:59.000 --> 23:00.000]  It can be done by table.
+[23:00.000 --> 23:03.000]  You can do both to double check your work.
+[23:03.000 --> 23:06.000]  Questions?
+[23:06.000 --> 23:09.000]  There are so many questions coming up with this.
+[23:09.000 --> 23:09.500]  OK.
+[23:13.500 --> 23:17.000]  Let's put that one.
+[23:17.000 --> 23:18.500]  So that's a nice one.
+[23:39.000 --> 23:40.000]  OK.
+[24:09.500 --> 24:10.000]  OK.
+[24:18.000 --> 24:23.000]  There is a special case of a law of addition
+[24:23.000 --> 24:33.000]  where if you note the events are mutually exclusive, it gets easier.
+[24:34.000 --> 24:39.000]  So if you note the events are mutually exclusive,
+[24:39.000 --> 24:46.000]  that means they don't intersect, which means the probability of their intersection
+[24:46.000 --> 24:49.000]  being 90 is zero.
+[24:49.000 --> 24:53.000]  If you look at that formula, and that's the thing on the right over double counting,
+[24:53.000 --> 24:56.000]  if that goes away, what's left?
+[24:56.000 --> 25:00.000]  It's just B A plus B B.
+[25:00.000 --> 25:08.000]  So A, you can see is just B of A plus B of B.
+[25:08.000 --> 25:13.000]  But it is super important that you only apply this formula
+[25:13.000 --> 25:15.000]  if the events are mutually exclusive.
+[25:15.000 --> 25:17.000]  I don't want to remind that.
+[25:21.000 --> 25:22.000]  So you can cheat.
+[25:22.000 --> 25:25.000]  And use a simpler formula if you know the event is a solution.
+[25:30.000 --> 25:30.500]  OK.
+[25:38.000 --> 25:50.000]  In an old probability, I stumbled across a misunderstanding of this rule
+[25:50.000 --> 25:55.000]  that was like coded to something general in the US.
+[25:55.000 --> 26:03.000]  So someone was talking about a new type of missile,
+[26:03.000 --> 26:07.000]  and how likely this missile was to hit its target.
+[26:07.000 --> 26:11.000]  And it had something like a 1 third chance of hitting its target.
+[26:11.000 --> 26:15.000]  And the general was like, OK, so we just need to fire three missiles.
+[26:15.000 --> 26:18.000]  And if we add up the 1 third, the 1 third, the 1 third,
+[26:18.000 --> 26:21.000]  we will be sure to hit our target.
+[26:25.000 --> 26:29.000]  But those events are not mutually exclusive.
+[26:29.000 --> 26:34.000]  The first missile could miss, the second missile could miss,
+[26:34.000 --> 26:36.000]  or both hits are wrong.
+[26:36.000 --> 26:37.000]  So you can't do that.
+[26:37.000 --> 26:40.000]  You can't just add up probabilities.
+[26:40.000 --> 26:44.000]  And this misunderstanding apparently can go on for a lifetime.
+[26:48.000 --> 26:52.000]  Maybe someday, maybe even today, we'll talk about the 12th package.
+[26:55.000 --> 26:55.500]  OK.
+[27:09.000 --> 27:09.500]  OK.
+[27:09.500 --> 27:14.000]  So next, we need to talk about conditional problems.
+[27:40.500 --> 27:42.000]  OK.
+[27:42.000 --> 27:45.000]  Conditional probability is one of the trickier things
+[27:45.000 --> 27:47.500]  we do in first action course.
+[27:51.500 --> 27:59.000]  And conditional probability can be intuitive,
+[27:59.000 --> 28:02.500]  but it can also be a little tricky.
+[28:09.500 --> 28:10.500]  OK.
+[28:40.000 --> 28:40.500]  What is that?
+[28:44.500 --> 28:45.000]  OK.
+[28:45.000 --> 28:47.500]  So the right conditional probability
+[28:47.500 --> 28:52.500]  likes the probability of A with a vertical bar, which
+[28:52.500 --> 28:55.500]  I think is called a height.
+[28:55.500 --> 29:00.500]  So A, height, and B, which you read as the probability of event
+[29:00.500 --> 29:06.000]  A, the probability of A. Given that, that's what the height means,
+[29:06.000 --> 29:07.500]  B has already happened.
+[29:10.000 --> 29:16.500]  And there's a formula for it, which is not bad.
+[29:16.500 --> 29:21.500]  And I'm also going to try and make sure you understand
+[29:21.500 --> 29:29.500]  why conditional probability happens.
+[29:29.500 --> 29:35.500]  Before I start, the intersection of A and B divided by probability
+[29:35.500 --> 29:39.000]  B. Not terrible.
+[29:39.000 --> 29:42.500]  And you can use the table you've been building
+[29:42.500 --> 29:45.000]  to answer conditional probability questions.
+[29:45.000 --> 29:51.000]  In fact, I do recommend building these tables for a while.
+[29:51.000 --> 29:55.500]  They're a little slower than just applying the formula's direction.
+[29:55.500 --> 30:00.500]  But if you have a table, you can see the answers for all these questions.
+[30:01.000 --> 30:06.500]  But I also want you to get kind of an intuitive feel for what
+[30:06.500 --> 30:09.500]  conditional probability is.
+[30:09.500 --> 30:15.500]  How the probability of events changes when other things happen first.
+[30:15.500 --> 30:20.500]  So continuing with my deck of cards.
+[30:30.500 --> 30:34.000]  So imagine I draw a card.
+[31:01.000 --> 31:05.500]  Let's ask you questions.
+[31:05.500 --> 31:09.500]  What is the probability I group my drawings into?
+[31:09.500 --> 31:15.500]  And now I'm going to say, what is the probability that I'm going to start
+[31:15.500 --> 31:18.500]  abbreviating the R of A?
+[31:18.500 --> 31:23.500]  What is the probability I just need to say, if I draw it and look at it,
+[31:23.500 --> 31:26.500]  I'm not sure if it's A or B?
+[31:27.000 --> 31:31.500]  If I draw it and look at it, I'm not sure if it's A.
+[31:31.500 --> 31:36.500]  But I tell you, oh, it's a space.
+[31:39.500 --> 31:43.500]  Or even stronger, what if I say, oh, it's a piece?
+[31:44.000 --> 31:53.000]  So if I say, if I keep that first, I'm telling you it's A.
+[31:53.000 --> 31:54.000]  OK.
+[31:54.000 --> 31:59.000]  So the probability you draw a piece of space is not very good.
+[31:59.000 --> 32:00.000]  There is one.
+[32:00.000 --> 32:03.000]  And you can see that it's not very good.
+[32:03.000 --> 32:04.500]  So it's not very good.
+[32:04.500 --> 32:09.000]  So what is the probability that I draw a piece of space?
+[32:09.500 --> 32:13.500]  The probability you draw a piece of space is not very good.
+[32:13.500 --> 32:15.000]  There is one of them in the deck.
+[32:15.000 --> 32:17.500]  It is 1 in 50.
+[32:17.500 --> 32:20.500]  And you saw this on the frequency tables.
+[32:20.500 --> 32:24.500]  Actually, there, A is big, 1 in 50.
+[32:25.000 --> 32:29.000]  So what happens if I instead draw a heart and peek at it?
+[32:29.000 --> 32:32.000]  Because I'm looking at it, I'm like, oh, it's actually an ace.
+[32:32.000 --> 32:37.000]  So now you know I'm holding only one of four aces, right?
+[32:40.000 --> 32:42.500]  And I don't have the right to do that.
+[32:42.500 --> 32:45.000]  But if you know I'm holding one of four aces,
+[32:45.000 --> 32:47.500]  you know I'm holding one of four aces.
+[32:47.500 --> 32:50.000]  So I'm holding one of four aces.
+[32:50.000 --> 32:52.000]  And I'm holding one of four aces.
+[32:52.500 --> 32:55.000]  But if you know I'm holding one of four aces,
+[32:55.000 --> 32:58.000]  now it was one ace out of four aces.
+[32:58.000 --> 32:59.500]  And that's actually the end.
+[33:02.500 --> 33:05.000]  One ace of four aces.
+[33:12.500 --> 33:16.000]  So the probability had improved to a quarter,
+[33:16.000 --> 33:18.500]  now that I'm giving you this additional information back.
+[33:22.500 --> 33:29.000]  And that is the basic idea of high conditional probability.
+[33:29.000 --> 33:36.500]  Is that the probabilities change if something's already happened.
+[33:36.500 --> 33:37.000]  Something.
+[33:52.500 --> 33:53.500]  That's it.
+[33:57.500 --> 33:58.500]  And.
+[33:59.000 --> 34:26.000]  So to do this with the formula, we need the probability of A
+[34:26.500 --> 34:32.500]  intersection B, which is the probability that is both an ace and a state.
+[34:38.500 --> 34:45.500]  And keep in mind that the law of addition is and or.
+[34:45.500 --> 34:47.000]  Oh, like or.
+[34:47.000 --> 34:48.500]  The law of addition is for.
+[34:48.500 --> 34:51.500]  And the intersection rule, this is and.
+[34:56.500 --> 35:03.500]  And just kind of for a little reminder here, that the law of addition.
+[35:11.500 --> 35:16.500]  The law of addition is for and or, but the intersection is just and.
+[35:20.500 --> 35:24.500]  So if it's an ace and a state, it's probably A1 and A2.
+[35:25.000 --> 35:31.000]  And we need the probability of B, which is the thing that already happened.
+[35:32.000 --> 35:34.000]  Which is that it's an ace.
+[35:38.000 --> 35:39.000]  Which is a quarter.
+[35:41.000 --> 35:49.000]  And if I plug these two things into my formula, it could spit up the answer that I figured out by myself.
+[35:55.000 --> 35:56.000]  Wait.
+[35:58.000 --> 36:00.000]  He can tell you it's an ace.
+[36:03.000 --> 36:05.000]  One, A1 is 52.
+[36:05.000 --> 36:08.000]  The probability of an ace is one quarter.
+[36:16.000 --> 36:19.000]  Oh, I know what's wrong.
+[36:19.500 --> 36:25.500]  The probability of a right ace is one out of 13.
+[36:32.500 --> 36:34.500]  Right on the table.
+[36:36.500 --> 36:38.500]  4H is at a 52.
+[36:38.500 --> 36:40.500]  The probability of an ace is one out of 13.
+[36:40.500 --> 36:42.500]  What's the name of it?
+[36:49.000 --> 36:50.500]  It's an ace.
+[37:19.500 --> 37:23.500]  Conveniently, we even calculated these numbers already.
+[37:23.500 --> 37:25.500]  So I'm going to leave on the board there.
+[37:25.500 --> 37:26.500]  Red.
+[37:32.500 --> 37:33.500]  Okay.
+[37:34.500 --> 37:41.500]  So we have this intuitive understanding over here, which is like, probably the probability of an ace is a one out of 52.
+[37:41.500 --> 37:44.500]  But if you keep this in mind, you're going to get a point.
+[37:45.000 --> 37:48.000]  The probability of drawing these is a one out of 52.
+[37:48.000 --> 37:53.000]  But if you keep at it and know it's an ace already, you're probably going to have a two to a quarter.
+[37:53.000 --> 37:55.000]  Which is the answer to my question.
+[37:55.000 --> 37:59.000]  The conditional probability formula can walk you through the same thing.
+[37:59.000 --> 38:01.000]  So you need the intersection.
+[38:01.000 --> 38:04.000]  Ace intersects A, which is one out of 52.
+[38:04.000 --> 38:07.000]  Which we had in the rest of the board there.
+[38:07.000 --> 38:09.000]  And probably an ace, one out of 13.
+[38:09.000 --> 38:12.000]  Also something we had in right there.
+[38:12.500 --> 38:15.500]  Take those two numbers, plug them in, and it fits in.
+[38:30.500 --> 38:36.500]  We are, uh, we are about at break time.
+[38:36.500 --> 38:39.500]  I don't really have anything to do.
+[38:42.500 --> 38:45.500]  So why don't you just take our break now?
+[38:45.500 --> 38:48.500]  You can ask questions about conditional probability if you like.
+[38:48.500 --> 38:51.500]  And afterwards I have a whole series of problems.
+[38:51.500 --> 38:54.500]  The long-fall vacation is the probability of A and B happening.
+[38:54.500 --> 38:57.500]  The answer is A and then B happening.
+[38:57.500 --> 39:02.500]  It's kind of like, it's either, you can think about it either way, and both are correct.
+[39:02.500 --> 39:05.500]  It's the probability of two things happening at the same time.
+[39:05.500 --> 39:08.500]  Or of like, one thing happening and then the next thing happening.
+[39:09.000 --> 39:15.000]  Um, although maybe I should rearrange A and B so that it's very obvious.
+[39:17.000 --> 39:20.000]  Hello. I might be rearranging this.
+[39:22.000 --> 39:24.000]  Let's rearrange A and B.
+[39:24.000 --> 39:26.000]  It's a present constant.
+[39:27.000 --> 39:29.000]  Or a formulator.
+[39:29.000 --> 39:34.000]  So if you need to find the probability of two things happening,
+[39:34.000 --> 39:37.000]  you just rearrange that formulator.
+[39:37.500 --> 39:43.500]  So the probability of A and B is the intersection.
+[39:47.500 --> 39:50.500]  We talked about over here.
+[39:51.500 --> 39:55.500]  And so that is the probability of B happening.
+[40:00.500 --> 40:03.500]  And the probability of A happening.
+[40:04.000 --> 40:06.000]  And then B happening.
+[40:15.000 --> 40:19.000]  I'm going to put this up so you can see it better.
+[40:20.000 --> 40:23.000]  This is the probability of B, right?
+[40:25.000 --> 40:28.000]  This is the probability of A.
+[40:30.000 --> 40:32.000]  Given B.
+[40:32.500 --> 40:36.500]  So if you have the probability of B, B happens.
+[40:36.500 --> 40:39.500]  Now you know that B happens, you know what that means.
+[40:39.500 --> 40:41.500]  And then the probability of A.
+[40:41.500 --> 40:45.500]  So it's probability of A times probability of B, knowing that B happened.
+[40:47.500 --> 40:50.500]  Which is your probability of A and B.
+[40:51.500 --> 40:57.500]  And if you look carefully, you will see that I have just rearranged that.
+[40:58.000 --> 41:02.000]  The law of multiplication is part of conditional probability.
+[41:02.000 --> 41:06.000]  In that, as long as you have two of these things, you can get to the third one.
+[41:09.000 --> 41:12.000]  You can also do it from the table.
+[41:12.000 --> 41:16.000]  Which we will object to practice a bit.
+[41:18.000 --> 41:22.000]  So I'm going to put that up a bit in case you're like training to see it.
+[41:22.000 --> 41:25.000]  You need to hammer and see it for a bit.
+[41:25.500 --> 41:28.500]  You need to hammer and see it for a bit.
+[41:34.500 --> 41:41.500]  And the rest of us will move on to my favorite conditional probability example.
+[41:41.500 --> 41:45.500]  Which I saw in a magazine a few years ago, if you'll believe it.
+[41:48.500 --> 41:53.500]  As usual, my obsession with co-ordination and vaccines will come into play here.
+[41:54.000 --> 41:58.000]  So a few years ago, rapid tests were just coming up.
+[41:58.000 --> 42:01.000]  2021-ish, the first rapid test for being issued.
+[42:03.000 --> 42:08.000]  And some enterprising journalists realized that
+[42:11.000 --> 42:14.000]  the way rapid tests work, because they want perfect,
+[42:16.000 --> 42:19.000]  was essentially a conditional probability problem.
+[42:19.500 --> 42:23.500]  So how can I, how can I lay this down?
+[42:27.500 --> 42:30.500]  Concentration is a probability example.
+[42:34.500 --> 42:36.500]  So they got to get it.
+[42:49.500 --> 42:51.500]  So, so, so.
+[43:01.500 --> 43:02.500]  Don't.
+[43:04.500 --> 43:05.500]  Don't.
+[43:09.500 --> 43:11.500]  This is my old house.
+[43:11.500 --> 43:12.500]  Don't.
+[43:19.500 --> 43:25.500]  And this problem can be extended through any type of test,
+[43:25.500 --> 43:27.500]  like the analysis I'm about to do,
+[43:28.500 --> 43:33.500]  including tests for other diseases or tests for pregnancy.
+[43:34.500 --> 43:36.500]  Any test you like.
+[43:41.500 --> 43:46.500]  So other tests for disease, pregnancy, etc.
+[43:49.500 --> 43:52.500]  People also use these tests like,
+[43:52.500 --> 43:56.500]  whether athletes add to the drug-liquid system,
+[43:56.500 --> 43:58.500]  or they use a type of an ad.
+[43:59.500 --> 44:00.500]  Drugs, etc.
+[44:05.500 --> 44:08.500]  So as opposed to know how accurate rapid tests are,
+[44:13.500 --> 44:18.500]  what you're really interested in is the moment that you take a rapid test,
+[44:19.000 --> 44:22.000]  how likely is it to be correct for you?
+[44:27.000 --> 44:31.000]  And it turns out that the answer is not the same.
+[44:49.000 --> 44:51.000]  This is my old house.
+[44:55.000 --> 44:58.000]  It turns out that the answer to this question,
+[44:58.000 --> 45:01.000]  like if I tell you how accurate tests are,
+[45:01.000 --> 45:04.000]  and then I give you a test and you do it,
+[45:04.000 --> 45:06.000]  you can use the accuracy of the test,
+[45:06.000 --> 45:09.000]  but it's not the end of the story.
+[45:09.000 --> 45:12.000]  How likely you are to personally, like, have a,
+[45:12.000 --> 45:15.000]  have, oh, given the results of the test,
+[45:15.500 --> 45:18.500]  are different depending on the test.
+[45:31.500 --> 45:34.500]  And we're going to learn a whole bunch of
+[45:37.500 --> 45:40.500]  terms that are used in practice called lists.
+[45:41.000 --> 45:46.000]  Okay, so, you're going to first learn two things about a test.
+[46:01.000 --> 46:04.000]  So, maybe because of COVID, you're perfect,
+[46:04.000 --> 46:07.000]  but there are actually two methods of how accurate a test is.
+[46:07.500 --> 46:10.500]  The first one is called test sensitive.
+[46:18.500 --> 46:22.500]  For two, how sensitive it is to detecting latest findings.
+[46:22.500 --> 46:25.500]  Do you want to actually find the key into it?
+[46:25.500 --> 46:27.500]  It will ask a lot of slides.
+[46:27.500 --> 46:29.500]  This is going to go through this much.
+[46:29.500 --> 46:32.500]  Actually, I only learned these terms because of COVID.
+[46:32.500 --> 46:35.500]  Before this, you didn't really care about accurate tests.
+[46:36.000 --> 46:38.000]  You just needed one test.
+[46:40.000 --> 46:45.000]  So, it is probably a lot of detecting.
+[47:06.000 --> 47:10.000]  And I have to distinguish between two things here.
+[47:10.000 --> 47:13.000]  It's really important, and if it helps you to think about it
+[47:13.000 --> 47:18.000]  in terms of, like, performance of nesting drugs or pregnancy,
+[47:18.000 --> 47:22.000]  there is a difference between what the test is and what is the truth.
+[47:22.000 --> 47:26.000]  So, you either are or aren't pregnant,
+[47:26.000 --> 47:28.000]  you either are or aren't using performance nesting drugs,
+[47:28.000 --> 47:31.000]  you either are or aren't in fact sick or spoken.
+[47:31.000 --> 47:33.000]  You have to figure this out with COVID,
+[47:33.500 --> 47:36.500]  while you are doing the PCR test.
+[47:38.500 --> 47:43.500]  So, the polyamide chain reaction of the PCR test,
+[47:44.500 --> 47:46.500]  and conclusively,
+[47:48.500 --> 47:51.500]  tests for a test.
+[47:53.500 --> 47:59.500]  The test sensitivity is how often the test said that you were positive
+[48:00.000 --> 48:04.000]  when a subsequent PCR test said that you were infected.
+[48:11.000 --> 48:15.000]  And remember that with tests, positive means that a detective
+[48:15.000 --> 48:18.000]  is not necessarily with him.
+[48:18.000 --> 48:21.000]  Positive means that he is found with the word positive.
+[48:21.000 --> 48:23.000]  So, the probability of positive,
+[48:23.500 --> 48:28.500]  given a PCR test,
+[48:33.500 --> 48:37.500]  and the first round of COVID rapid tests
+[48:37.500 --> 48:42.500]  had a test sensitivity of 87.5%.
+[48:53.500 --> 48:55.500]  Oh yeah.
+[49:09.500 --> 49:12.500]  The probability that it tested positive,
+[49:12.500 --> 49:15.500]  given that you were actually sick,
+[49:16.500 --> 49:18.500]  is 87.5%.
+[49:23.500 --> 49:26.500]  That's fantastic.
+[49:29.500 --> 49:31.500]  So, there are a couple of ways that they calculate
+[49:31.500 --> 49:33.500]  it so that they could have calculated it.
+[49:33.500 --> 49:35.500]  One is that you get a bunch of people
+[49:35.500 --> 49:38.500]  that have been tested by PCR tests,
+[49:38.500 --> 49:40.500]  good tests, and they say,
+[49:40.500 --> 49:41.500]  hey, by the way, since you're sick,
+[49:41.500 --> 49:44.500]  can you take this rapid test and let's see how well it works?
+[49:44.500 --> 49:47.500]  And 87.5% of the time,
+[49:47.500 --> 49:49.500]  what's the difference between the other way around?
+[49:49.500 --> 49:51.500]  It could have been like,
+[49:52.000 --> 49:53.000]  you do a bunch of tests,
+[49:53.000 --> 49:56.000]  and then you send people off to get PCR tests as well,
+[49:56.000 --> 49:59.000]  and you say, okay, how's the people who got COVID,
+[49:59.000 --> 50:01.000]  how many are positive?
+[50:02.000 --> 50:04.000]  Why is that number not 100%?
+[50:06.000 --> 50:08.000]  Have you all taken rapid tests?
+[50:11.000 --> 50:13.000]  The main reason that's not 100%
+[50:13.000 --> 50:17.000]  is you do not do the test right,
+[50:18.000 --> 50:21.000]  or maybe not doing it at the right time,
+[50:22.000 --> 50:24.000]  and you're not doing it right.
+[50:26.000 --> 50:28.000]  One second, one second, one second.
+[50:34.000 --> 50:36.000]  It is pretty easy to mess up that test,
+[50:36.000 --> 50:41.000]  like if you don't find enough virus material
+[50:41.000 --> 50:44.000]  and you can report the sick after four hours.
+[50:45.000 --> 50:47.000]  So that would be user error,
+[50:47.000 --> 50:49.000]  if you do it too early or too late,
+[50:49.500 --> 50:51.500]  and the virus is not made through.
+[50:51.500 --> 50:53.500]  This is probably what's gone,
+[50:53.500 --> 50:56.500]  so that's why it's not 100%.
+[50:59.500 --> 51:01.500]  The other type of sensitive,
+[51:01.500 --> 51:03.500]  the other type of test accuracy
+[51:07.500 --> 51:09.500]  is known as test-testing.
+[51:19.500 --> 51:21.500]  It's a test-testing.
+[51:22.500 --> 51:24.500]  It's a test-testing.
+[51:25.500 --> 51:27.500]  It's a test-testing.
+[51:27.500 --> 51:29.500]  Nothing's worked today.
+[51:29.500 --> 51:31.500]  It's a test-testing.
+[51:35.500 --> 51:39.500]  So test specificity is how good it is at clearing.
+[51:49.500 --> 51:51.500]  So same idea,
+[51:51.500 --> 51:53.500]  a PCR test at some point confirms
+[51:53.500 --> 51:55.500]  that you do not have COVID,
+[51:56.500 --> 51:58.500]  and we check either before or after
+[51:58.500 --> 52:00.500]  whether the rapid test was accurate.
+[52:02.500 --> 52:03.500]  You get a negative result
+[52:03.500 --> 52:05.500]  given you don't have COVID.
+[52:05.500 --> 52:07.500]  We write this as probability negative
+[52:07.500 --> 52:11.500]  given the rapid test was accurate.
+[52:13.500 --> 52:14.500]  You get a negative result
+[52:14.500 --> 52:16.500]  given you don't have COVID.
+[52:16.500 --> 52:18.500]  We write this as probability negative
+[52:19.000 --> 52:21.000]  we'll say no COVID.
+[52:27.000 --> 52:29.000]  And it turns out that this was right.
+[52:31.000 --> 52:33.000]  I mean, it's not.
+[52:40.000 --> 52:43.000]  And I suspect that the only errors here
+[52:43.000 --> 52:46.000]  may have involved you there again
+[52:46.000 --> 52:48.000]  on misreading the test,
+[52:48.500 --> 52:50.500]  like, oh, it says that
+[52:50.500 --> 52:52.500]  even though it returned a negative result
+[52:52.500 --> 52:54.500]  it actually was...
+[52:54.500 --> 52:55.500]  What did you get?
+[52:55.500 --> 52:57.500]  280 years old.
+[52:59.500 --> 53:01.500]  How many did you get?
+[53:01.500 --> 53:02.500]  You do it.
+[53:02.500 --> 53:04.500]  Misreading the test.
+[53:05.500 --> 53:07.500]  Where's the other stuff?
+[53:07.500 --> 53:09.500]  Do it, do it, do it, do it, do it.
+[53:10.000 --> 53:11.000]  Okay.
+[53:12.000 --> 53:14.000]  So you have the test sensitivity
+[53:14.000 --> 53:17.000]  and the test testinficity
+[53:18.000 --> 53:20.000]  two different accuracies
+[53:21.000 --> 53:23.000]  telling you how good it is at detecting COVID
+[53:23.000 --> 53:25.500]  and how good it is at confirming
+[53:25.500 --> 53:27.500]  that you don't have COVID.
+[53:29.000 --> 53:30.000]  So you're like, okay,
+[53:30.000 --> 53:32.000]  so we know it's pretty accurate.
+[53:32.000 --> 53:34.000]  Doesn't that just mean we're like
+[53:34.000 --> 53:36.000]  over the top of the test?
+[53:36.000 --> 53:37.000]  Yeah.
+[53:37.500 --> 53:39.500]  Doesn't that just mean we're like
+[53:39.500 --> 53:40.500]  we're good?
+[53:40.500 --> 53:42.500]  We know how accurate it is.
+[53:42.500 --> 53:44.500]  Well, not exactly.
+[53:44.500 --> 53:46.500]  This is where the conditional probability
+[53:46.500 --> 53:48.500]  comes into play.
+[54:02.500 --> 54:04.500]  That's a fast...
+[54:07.500 --> 54:09.500]  That's a fast...
+[54:11.500 --> 54:13.500]  So now you think you might be sick
+[54:13.500 --> 54:15.500]  and you take the test
+[54:15.500 --> 54:17.500]  or
+[54:19.500 --> 54:21.500]  you want to go to a
+[54:21.500 --> 54:23.500]  you know, a class or a part of your life
+[54:23.500 --> 54:25.500]  and you think you're not sick
+[54:25.500 --> 54:27.500]  but just in case
+[54:27.500 --> 54:29.500]  you're, you know, responsible
+[54:29.500 --> 54:31.500]  you don't want to contact your own friends
+[54:31.500 --> 54:33.500]  you don't want to contact your own friends
+[54:34.000 --> 54:36.000]  you take a test to make sure
+[54:36.000 --> 54:38.000]  that you're not sick.
+[54:52.000 --> 54:54.000]  So what are you actually interested in?
+[54:56.000 --> 54:58.000]  You want to know
+[55:00.000 --> 55:02.000]  if the test
+[55:02.500 --> 55:04.500]  is negative
+[55:06.500 --> 55:08.500]  for the first one
+[55:08.500 --> 55:10.500]  if you think you might be sick and take a test
+[55:10.500 --> 55:12.500]  and the test is negative, you're wondering
+[55:12.500 --> 55:14.500]  could I still have the test?
+[55:14.500 --> 55:16.500]  Right?
+[55:22.500 --> 55:24.500]  And I guess I'm going to
+[55:24.500 --> 55:26.500]  respond about it over
+[55:26.500 --> 55:28.500]  because you're kind of wondering the same thing
+[55:28.500 --> 55:30.500]  with the second one too.
+[55:31.000 --> 55:33.000]  So what you're really wondering
+[55:45.000 --> 55:47.000]  is
+[55:47.000 --> 55:49.000]  given the test is negative
+[55:49.000 --> 55:51.000]  do you approach
+[55:51.000 --> 55:53.000]  and do you notice
+100.117.97.99 - - [23/Sep/2025 13:20:56] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 13:20:56] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [23/Sep/2025 13:20:56] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [23/Sep/2025 13:20:57] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [23/Sep/2025 13:20:57] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 13:20:57] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [23/Sep/2025 13:20:58] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [23/Sep/2025 13:21:01] "GET /session/20 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 16:03:47] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 16:03:47] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [23/Sep/2025 16:03:47] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 16:03:47] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 16:03:47] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 16:03:47] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 16:03:47] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [23/Sep/2025 16:03:47] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [23/Sep/2025 16:03:48] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 16:03:48] "GET /favicon.ico HTTP/1.1" 404 -
+100.69.197.53 - - [23/Sep/2025 16:03:48] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [23/Sep/2025 16:03:49] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [23/Sep/2025 16:04:19] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [23/Sep/2025 16:13:29] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 16:13:29] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [23/Sep/2025 16:13:29] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [23/Sep/2025 16:13:29] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 16:13:29] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [23/Sep/2025 16:13:31] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [23/Sep/2025 16:14:00] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [23/Sep/2025 17:05:43] "POST /transcribe HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:05:46] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:05:49] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:05:52] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:05:55] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:05:59] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:01] "GET /status/28 HTTP/1.1" 200 -
+[55:53.000 --> 55:55.000]  how the order of the statement
+[55:55.000 --> 55:57.000]  is changed?
+[55:57.000 --> 55:59.000]  That is really important
+[55:59.500 --> 56:01.500]  and
+[56:03.500 --> 56:05.500]  that's really important
+[56:05.500 --> 56:07.500]  in order to know
+[56:07.500 --> 56:09.500]  the right and wrong
+[56:09.500 --> 56:11.500]  is it negative or is it
+[56:11.500 --> 56:13.500]  negative?
+[56:59.500 --> 57:01.500]  Where is the angle?
+[57:13.500 --> 57:15.500]  I think we're supposed to learn a angle later
+[57:15.500 --> 57:17.500]  but I think
+[57:17.500 --> 57:19.500]  we should take the angle as a rule.
+[57:23.500 --> 57:25.500]  So
+[57:25.500 --> 57:27.500]  I'm going to be fast.
+[57:29.500 --> 57:31.500]  What the fuck is that?
+[57:35.500 --> 57:37.500]  If you want to flip
+[57:43.500 --> 57:45.500]  so if you have one
+[57:45.500 --> 57:47.500]  and want to flip it into the other
+[57:47.500 --> 57:49.500]  so A giving B
+[57:55.500 --> 57:57.500]  A
+[57:58.000 --> 58:00.000]  divided by one
+[58:06.000 --> 58:08.000]  divided by B
+[58:08.000 --> 58:10.000]  and multiplied by A
+[58:16.000 --> 58:18.000]  A times A
+[58:18.000 --> 58:20.000]  over B over B
+[58:22.000 --> 58:24.000]  So
+[58:24.000 --> 58:26.000]  you can also do this
+[58:26.500 --> 58:28.500]  using the frequency table
+[58:28.500 --> 58:30.500]  you can
+[58:30.500 --> 58:32.500]  get with the formula
+[58:32.500 --> 58:34.500]  and finally I'm going to show you
+[58:34.500 --> 58:36.500]  this really neat technique
+[58:36.500 --> 58:38.500]  that allows you to organize everything
+[58:40.500 --> 58:42.500]  and do these calculations another way
+[58:42.500 --> 58:44.500]  so we're going to do that right now.
+[58:56.500 --> 58:58.500]  So I'm going to answer the question on that center board.
+[58:58.500 --> 59:00.500]  If the test is negative, could I still have a function?
+[59:00.500 --> 59:02.500]  And I can answer that with the formulas
+[59:02.500 --> 59:04.500]  that we have collected
+[59:04.500 --> 59:06.500]  but the first time you do it
+[59:06.500 --> 59:08.500]  it's a little tricky to keep track
+[59:08.500 --> 59:10.500]  of all those
+[59:10.500 --> 59:12.500]  formulas and which numbers you're aware of
+[59:12.500 --> 59:14.500]  but you also have this technique
+[59:14.500 --> 59:16.500]  this table technique that I'm going to teach you
+[59:16.500 --> 59:18.500]  hopefully.
+[59:18.500 --> 59:20.500]  So
+[59:20.500 --> 59:22.500]  I'm going to show you
+[59:22.500 --> 59:24.500]  how to do this
+[59:25.000 --> 59:27.000]  in a minute.
+[59:49.000 --> 59:51.000]  So there's this important
+[59:51.000 --> 59:53.000]  concept in
+[59:53.500 --> 59:55.500]  the language thing called quites
+[59:55.500 --> 59:57.500]  and maybe you have heard the term
+[59:57.500 --> 59:59.500]  you need to update your progress
+[59:59.500 --> 01:00:01.500]  this is kind of what we're doing.
+[01:00:01.500 --> 01:00:03.500]  It's like
+[01:00:03.500 --> 01:00:05.500]  there's a chance you have COVID
+[01:00:05.500 --> 01:00:07.500]  there's a chance you don't have COVID
+[01:00:07.500 --> 01:00:09.500]  and what you're really wondering
+[01:00:09.500 --> 01:00:11.500]  is if I take this test
+[01:00:11.500 --> 01:00:13.500]  what can I learn about
+[01:00:13.500 --> 01:00:15.500]  how I'm going to end up COVID-19?
+[01:00:15.500 --> 01:00:17.500]  So you start with the prior
+[01:00:17.500 --> 01:00:19.500]  and these are usually
+[01:00:19.500 --> 01:00:21.500]  this is like usually unknown
+[01:00:22.000 --> 01:00:24.000]  but the point is
+[01:00:24.000 --> 01:00:26.000]  that you have some guess
+[01:00:26.000 --> 01:00:28.000]  about this
+[01:00:28.000 --> 01:00:30.000]  and to make this interesting
+[01:00:30.000 --> 01:00:32.000]  let's pretend
+[01:00:32.000 --> 01:00:34.000]  that you think you might
+[01:00:34.000 --> 01:00:36.000]  actually be sick
+[01:00:36.000 --> 01:00:38.000]  and so the probability
+[01:00:38.000 --> 01:00:40.000]  that you actually have COVID
+[01:00:40.000 --> 01:00:42.000]  we're going to guess is like 40%.
+[01:00:52.000 --> 01:00:54.000]  So you think you're sick
+[01:00:54.000 --> 01:00:56.000]  you're like I'm taking a test
+[01:00:56.000 --> 01:00:58.000]  maybe it's too clue
+[01:00:58.000 --> 01:01:00.000]  maybe it's difficult
+[01:01:00.000 --> 01:01:02.000]  or maybe it's perfect.
+[01:01:02.000 --> 01:01:04.000]  So I'm going to guess
+[01:01:04.000 --> 01:01:06.000]  you have about a 40% chance
+[01:01:06.000 --> 01:01:08.000]  that you're sick right now because you're taking a test.
+[01:01:10.000 --> 01:01:12.000]  So you don't usually know what these numbers are
+[01:01:12.000 --> 01:01:14.000]  but you need a guess for them
+[01:01:14.000 --> 01:01:16.000]  for them to work.
+[01:01:18.000 --> 01:01:20.000]  Ben
+[01:01:22.000 --> 01:01:24.000]  David
+[01:01:29.000 --> 01:01:32.000]  You collect the test conditions
+[01:01:32.000 --> 01:01:34.000]  which are the test actors.
+[01:01:34.500 --> 01:01:36.500]  David
+[01:01:50.500 --> 01:01:52.500]  You want all of these actors
+[01:01:52.500 --> 01:01:54.500]  to be right in the moment
+[01:01:54.500 --> 01:01:56.500]  the probability of a positive
+[01:01:56.500 --> 01:01:58.500]  to get back to COVID
+[01:01:59.000 --> 01:02:01.000]  The probability of a negative
+[01:02:01.000 --> 01:02:03.000]  to get back to COVID
+[01:02:03.000 --> 01:02:05.000]  The probability of a negative
+[01:02:05.000 --> 01:02:07.000]  to get back to COVID
+[01:02:07.000 --> 01:02:09.000]  The probability of a negative
+[01:02:09.000 --> 01:02:11.000]  to get back to COVID
+[01:02:17.000 --> 01:02:19.000]  And there are
+[01:02:19.000 --> 01:02:21.000]  two more conditions
+[01:02:21.000 --> 01:02:23.000]  which we can calculate.
+[01:02:29.000 --> 01:02:31.000]  So
+[01:02:31.000 --> 01:02:33.000]  So
+[01:02:33.000 --> 01:02:35.000]  So
+[01:02:35.000 --> 01:02:37.000]  So
+[01:02:37.000 --> 01:02:39.000]  So
+[01:02:39.000 --> 01:02:41.000]  So
+[01:02:41.000 --> 01:02:43.000]  So
+[01:02:43.000 --> 01:02:45.000]  So
+[01:02:45.000 --> 01:02:47.000]  So
+[01:02:47.000 --> 01:02:49.000]  So
+[01:02:49.000 --> 01:02:51.000]  So
+[01:02:51.000 --> 01:02:53.000]  So
+[01:02:53.000 --> 01:02:55.000]  So
+[01:02:55.000 --> 01:02:57.000]  So the first one that I put in the loop
+[01:02:57.500 --> 01:02:59.500]  the probability of a negative
+[01:02:59.500 --> 01:03:01.500]  isn't COVID
+[01:03:01.500 --> 01:03:03.500]  it's known as a false negative
+[01:03:05.500 --> 01:03:07.500]  It says you're negative
+[01:03:09.500 --> 01:03:11.500]  but you're not
+[01:03:11.500 --> 01:03:13.500]  and that's that
+[01:03:17.500 --> 01:03:19.500]  and
+[01:03:19.500 --> 01:03:21.500]  it is one minus that
+[01:03:21.500 --> 01:03:23.500]  so either if you have COVID
+[01:03:23.500 --> 01:03:25.500]  it's either right
+[01:03:26.000 --> 01:03:28.000]  or wrong
+[01:03:30.000 --> 01:03:31.000]  Right?
+[01:03:31.000 --> 01:03:32.000]  Even if you have COVID
+[01:03:32.000 --> 01:03:34.000]  it's either right or wrong
+[01:03:36.000 --> 01:03:38.000]  Another thing you can see is that
+[01:03:38.000 --> 01:03:40.000]  these events
+[01:03:40.000 --> 01:03:42.000]  they add up here
+[01:03:52.000 --> 01:03:54.000]  the test is correct
+[01:03:54.500 --> 01:03:56.500]  correct
+[01:03:59.500 --> 01:04:01.500]  That's what those first two problems are
+[01:04:01.500 --> 01:04:02.500]  If you have COVID
+[01:04:02.500 --> 01:04:03.500]  there's an 87% chance
+[01:04:03.500 --> 01:04:04.500]  the test will be right
+[01:04:04.500 --> 01:04:05.500]  and a 12% chance
+[01:04:05.500 --> 01:04:07.500]  it will be wrong
+[01:04:08.500 --> 01:04:10.500]  And you can do the same thing down here
+[01:04:13.500 --> 01:04:15.500]  you might say it's a false positive
+[01:04:24.500 --> 01:04:26.500]  Then
+[01:04:26.500 --> 01:04:28.500]  you go to T
+[01:04:51.500 --> 01:04:53.500]  Um
+[01:04:54.500 --> 01:04:58.500]  Where text has a tree?
+[01:05:07.500 --> 01:05:09.500]  But I don't like teaching the tree
+[01:05:11.500 --> 01:05:13.500]  because next time
+100.69.197.53 - - [23/Sep/2025 17:06:04] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:07] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:10] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:13] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:16] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:19] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:22] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:26] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:28] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:31] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:35] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:37] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:40] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:43] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:46] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:49] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:52] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:55] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:06:58] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:01] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:04] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:07] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:10] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:13] "GET /status/28 HTTP/1.1" 200 -
+[01:05:13.500 --> 01:05:15.500]  in 275
+[01:05:15.500 --> 01:05:17.500]  in business decision model
+[01:05:17.500 --> 01:05:19.500]  you're going to learn about different trees
+[01:05:19.500 --> 01:05:21.500]  and it is
+[01:05:21.500 --> 01:05:23.500]  kind of lame to help students
+[01:05:24.000 --> 01:05:26.000]  between creating this class
+[01:05:26.000 --> 01:05:28.000]  and creating the next class
+[01:05:28.000 --> 01:05:30.000]  I don't think the tree in this class
+[01:05:30.000 --> 01:05:32.000]  is any different
+[01:05:32.000 --> 01:05:34.000]  There are three ways to do a workup to do this
+[01:05:34.000 --> 01:05:36.000]  You can directly apply the formula
+[01:05:36.000 --> 01:05:38.000]  you keep the deloitte on
+[01:05:38.000 --> 01:05:40.000]  you can use the tables
+[01:05:40.000 --> 01:05:42.000]  or you can use the trues
+[01:05:42.000 --> 01:05:44.000]  because the event will probably involve multiple choices
+[01:05:44.000 --> 01:05:46.000]  because the event will probably involve multiple choices
+[01:05:46.000 --> 01:05:48.000]  you only use one of them
+[01:05:48.000 --> 01:05:50.000]  I prefer the tables
+[01:05:50.000 --> 01:05:52.000]  that I showed you
+[01:05:52.500 --> 01:05:54.500]  and I want to emphasize
+[01:05:54.500 --> 01:05:58.500]  that you need one table
+[01:05:58.500 --> 01:06:02.500]  per test group
+[01:06:16.500 --> 01:06:18.500]  Ok
+[01:06:18.500 --> 01:06:20.500]  So let's
+[01:06:21.000 --> 01:06:23.000]  since we probably have run out of time
+[01:06:23.000 --> 01:06:25.000]  for this video
+[01:06:25.000 --> 01:06:27.000]  let's do
+[01:06:27.000 --> 01:06:29.000]  the one we're really interested in
+[01:06:29.000 --> 01:06:31.000]  the one we're really interested in
+[01:06:31.000 --> 01:06:33.000]  the negative test
+[01:06:51.000 --> 01:06:53.000]  Oh
+[01:07:13.000 --> 01:07:15.000]  So
+[01:07:15.000 --> 01:07:17.000]  the table
+[01:07:17.000 --> 01:07:19.000]  looks like this
+[01:07:19.000 --> 01:07:21.000]  We're going to fill it in.
+[01:07:21.000 --> 01:07:22.000]  We've got five minutes.
+[01:07:22.000 --> 01:07:23.000]  I think we're good.
+[01:07:29.000 --> 01:07:38.000]  So this state, borrowing language from using a VDS 275,
+[01:07:38.000 --> 01:07:42.000]  the state is the thing you're actually interested in.
+[01:07:42.000 --> 01:07:43.000]  Do you actually?
+[01:07:50.000 --> 01:07:56.000]  You're using the test to gain additional information about your state.
+[01:07:56.000 --> 01:07:59.000]  Your state is what you're actually interested in.
+[01:07:59.000 --> 01:08:06.000]  And you have, and you get the guesses there, about the probability that you have it over.
+[01:08:06.000 --> 01:08:25.000]  You then carefully grab the conditionals that are associated with the test that you are working with.
+[01:08:25.000 --> 01:08:28.000]  So we're trying to do the negative table.
+[01:08:28.000 --> 01:08:35.000]  So over here, we grab the two negative conditionals.
+[01:08:35.000 --> 01:08:42.000]  And one weird thing that shouldn't happen when you're working with this table is that these two numbers usually don't add up to one,
+[01:08:42.000 --> 01:08:45.000]  which is a little strange for public works.
+[01:08:48.000 --> 01:08:59.000]  But the negative COVID conditional, 2135, and the negative no COVID conditional, 2935.
+[01:09:00.000 --> 01:09:03.000]  I'm going to point out that these don't have to add up to one.
+[01:09:07.000 --> 01:09:08.000]  They might.
+[01:09:12.000 --> 01:09:15.000]  And that is one of the most common mistakes that people make when they're building these tables,
+[01:09:15.000 --> 01:09:20.000]  is that we teach you last week that all probabilities have to add up to one.
+[01:09:20.000 --> 01:09:22.000]  And so those add up to one.
+[01:09:22.000 --> 01:09:25.000]  And a lot of other probabilities can add up to one.
+[01:09:25.000 --> 01:09:26.000]  These add up to one.
+[01:09:26.000 --> 01:09:27.000]  These add up to one.
+[01:09:29.000 --> 01:09:30.000]  These don't add up to one.
+[01:09:32.000 --> 01:09:38.000]  Then you calculate what are called the joint probabilities, which are also the...
+[01:09:52.000 --> 01:09:54.000]  And to do that, you just multiply.
+[01:09:54.000 --> 01:09:55.000]  And you get this.
+[01:09:59.000 --> 01:10:00.000]  And that.
+[01:10:00.000 --> 01:10:01.000]  And that.
+[01:10:01.000 --> 01:10:02.000]  And that.
+[01:10:14.000 --> 01:10:16.000]  And 101 and 25.
+[01:10:24.000 --> 01:10:26.000]  And you add these two up.
+[01:10:41.000 --> 01:10:46.000]  You get a special number that is known as the marginal probability.
+[01:10:55.000 --> 01:11:01.000]  And it is also, conveniently, the probability of a negative threshold.
+[01:11:10.000 --> 01:11:19.000]  So, what usually happens, like let's say you don't have COVID, 60% chance.
+[01:11:20.000 --> 01:11:25.000]  Then it should be about a 60% chance that you get a negative result, right?
+[01:11:25.000 --> 01:11:27.000]  But the test makes mistakes.
+[01:11:27.000 --> 01:11:31.000]  So there's no COVID of 60%, it's exactly how often it gets a negative result,
+[01:11:31.000 --> 01:11:34.000]  it turns out to be 60%.
+[01:11:34.000 --> 01:11:38.000]  And then finally, you divide each and each by that.
+[01:11:41.000 --> 01:11:44.000]  You get what's called the posterior.
+[01:11:49.000 --> 01:11:59.000]  So, this is the posterior going to second, we're going over marginal.
+[01:12:02.000 --> 01:12:05.000]  It gives us the answer to our question.
+[01:12:07.000 --> 01:12:09.000]  So I have two points left to say.
+[01:12:11.000 --> 01:12:14.000]  This works out to be .078.
+[01:12:14.000 --> 01:12:18.000]  And second one turns out to be .921.
+[01:12:18.000 --> 01:12:24.000]  The two things I have left to say, this one is the answer to our question,
+[01:12:24.000 --> 01:12:29.000]  which is slightly alarming, because if you take a COVID rapid death,
+[01:12:29.000 --> 01:12:33.000]  as you did years ago using these accuracies, and you got a negative,
+[01:12:33.000 --> 01:12:37.000]  you still had about an 8% chance of actually having COVID.
+[01:12:37.000 --> 01:12:41.000]  And then going to a party sickness, which is distressing.
+[01:12:41.000 --> 01:12:46.000]  And the other thing I want to say is that next, well, okay,
+[01:12:46.000 --> 01:12:49.000]  so you have enough knowledge to do it.
+--- Transcription Finished ---
+--- Generating Notes with Ollama ---
+--- Notes Generation Finished ---
+Job 27 finalized and removed from queue.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+Queue processor checking for a new job...
+Processing job 28: recording_2025-09-23T21-05-39.mp4
+--- Starting Transcription for ../uploads\ecabbc4c-76b2-401f-b53f-d6c1cd923442.mp4 ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:02.000]  This is Boolean exhibition.
+[00:02.000 --> 00:06.000]  And then we talked about names.
+[00:06.000 --> 00:09.000]  This is X, this is Y.
+[00:09.000 --> 00:14.000]  Then before the inverter, what do I have?
+[00:14.000 --> 00:21.000]  I have XY. After the inverter, I have XY bar.
+[00:21.000 --> 00:30.000]  We will start today with the NOR gate.
+[00:30.000 --> 00:37.000]  This is the NOR gate.
+[00:37.000 --> 00:43.000]  So it is OR, and then I got the inverter.
+[00:43.000 --> 00:47.000]  OR, and then I got the inverter.
+[00:47.000 --> 00:54.000]  So the truth table will be similar to OR, but I inverted.
+[00:54.000 --> 01:01.000]  So 0 or 0 is 0, 0 or 1 is 1, 1 or 0 is 1, 1 or 1 is 1.
+[01:01.000 --> 01:06.000]  So I have 0, 1, 1, 1, and then I inverted.
+[01:06.000 --> 01:11.000]  I inverted the output, so it will become 1, 0, 0, 0.
+[01:11.000 --> 01:15.000]  This is the truth table for NOR.
+[01:15.000 --> 01:20.000]  The truth table for NOR with two inputs.
+[01:20.000 --> 01:27.000]  Last time I talked about a very important thing, which is called the divergence theorem.
+[01:27.000 --> 01:38.000]  X, Y bar equal X bar plus Y bar.
+100.69.197.53 - - [23/Sep/2025 17:07:16] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:20] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:24] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:26] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:28] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:32] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:34] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:37] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:40] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:43] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:46] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:50] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:53] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:55] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:07:59] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:01] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:04] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:07] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:10] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:13] "GET /status/28 HTTP/1.1" 200 -
+[01:38.000 --> 01:48.000]  So I distribute the bar, and I invert the multiplication into addition, into plus.
+[01:48.000 --> 01:56.000]  How to prove that? How to prove that X, Y bar equal X bar plus Y bar?
+[01:56.000 --> 02:03.000]  The simplest way to prove any expression is to come to the truth table.
+[02:03.000 --> 02:10.000]  This is X, this is Y. What are all possible combinations?
+[02:10.000 --> 02:13.000]  This is all possible combinations.
+[02:13.000 --> 02:20.000]  And then what is X, Y? 0, 0, 0, 1.
+[02:20.000 --> 02:28.000]  What is X, Y bar? 1, 1, 1, 0.
+[02:28.000 --> 02:35.000]  What is X bar and what is Y bar? X bar will be 1, 1, 0, 0.
+[02:35.000 --> 02:41.000]  What is Y bar? 1, 0, 1, 0.
+[02:41.000 --> 02:50.000]  What is X bar plus Y bar? 1, 1, 1, 1, 1, 1, 0, 0, 0, 0.
+[02:50.000 --> 02:55.000]  This is the same as this one, and then this is the proof.
+[02:55.000 --> 02:58.000]  This is the proof.
+[02:58.000 --> 03:06.000]  So again, what is today's lecture? We'll start with the NOR gate.
+[03:06.000 --> 03:11.000]  The NOR gate is also universal.
+[03:11.000 --> 03:21.000]  Universal means I can replicate or design not and over.
+[03:21.000 --> 03:24.000]  Okay?
+[03:29.000 --> 03:37.000]  So if I want to design not, then I will just connect those angles.
+[03:37.000 --> 03:45.000]  Because this is X, Y. 0, 0, 1, 1, 1, 1.
+[03:45.000 --> 03:52.000]  For the X, for the NOR gate, NOR gate.
+[03:52.000 --> 03:59.000]  For the OR 0, 1, 1, 1. NOR 1, 0, 0, 0.
+[03:59.000 --> 04:07.000]  Now, when I wrote X and Y together, that means that I have these two cases.
+[04:07.000 --> 04:12.000]  Y equal X, Y equal X.
+[04:12.000 --> 04:16.000]  So when the input is X, what is the output? 1.
+[04:16.000 --> 04:23.000]  When the input is 0, output 1. When the input is 1, output is 0.
+[04:23.000 --> 04:26.000]  So this is an inverter.
+[04:27.000 --> 04:32.000]  What about OR gate?
+[04:32.000 --> 04:41.000]  If I connect another NOR here, I have here X, Y.
+[04:41.000 --> 04:47.000]  X plus Y bar, then I have X plus Y.
+[04:47.000 --> 04:51.000]  This is how to form OR.
+[04:51.000 --> 04:55.000]  This is OR gate.
+[04:55.000 --> 05:00.000]  Using two NOR gates.
+[05:00.000 --> 05:05.000]  This one, I have here X plus Y.
+[05:05.000 --> 05:09.000]  What is left?
+[05:09.000 --> 05:11.000]  And the gate.
+[05:11.000 --> 05:14.000]  What is left is and the gate.
+[05:14.000 --> 05:35.000]  So if I have this gate, this gate, this is NOR, this is NOR, and another NOR.
+[05:35.000 --> 05:40.000]  What do I have here?
+[05:40.000 --> 05:44.000]  Y. What do I have here?
+[05:44.000 --> 05:48.000]  Y bar.
+[05:48.000 --> 05:56.000]  So the output is X bar plus Y bar, right?
+[05:56.000 --> 05:59.000]  Bar.
+[05:59.000 --> 06:07.000]  Which is X bar bar dot Y bar bar, which is X, Y.
+[06:07.000 --> 06:11.000]  Which means that I have here and the gate.
+[06:14.000 --> 06:27.000]  So I have belt and gate, not gate, and also OR gate, OR gate, and gate, not gate.
+[06:27.000 --> 06:33.000]  So this means that the NOR gate is universal.
+[06:33.000 --> 06:39.000]  The NOR gate is universal gate.
+[06:39.000 --> 06:45.000]  Can we have?
+[06:45.000 --> 06:49.000]  Can we have?
+[06:49.000 --> 06:53.000]  Can we have?
+[06:53.000 --> 06:57.000]  Can we have?
+[06:57.000 --> 07:08.000]  Can we have?
+[07:08.000 --> 07:10.000]  Can we have?
+[07:10.000 --> 07:15.000]  I mean A.
+[07:15.000 --> 07:20.000]  NOR B.
+[07:20.000 --> 07:25.000]  1 or 0 is 1, and then I invert it.
+[07:25.000 --> 07:40.000]  have zero. Zero or zero will be zero. Then inverters, they are one. And so on. So I can
+[07:40.000 --> 07:49.600]  give you the input and ask you about what is the output. Right? And as we did before,
+[07:49.600 --> 08:07.280]  can I give you A and X and ask about B? Yes. But there may be more than one answer. Okay.
+[08:07.280 --> 08:17.280]  So I will give you three inputs. Three inputs. Then I will do all three inputs and then I invert it.
+[08:17.280 --> 08:30.280]  One plus zero plus zero is one. I invert it. One because I have here the circle. Then it becomes zero.
+[08:30.280 --> 08:41.280]  One plus one plus zero is one. Inverted and becomes zero. And so on. So this is the timing diagram.
+[08:41.280 --> 09:01.280]  This three inputs. Nor is equivalent to negative. See? Negative and have. How to do zero is negative and?
+[09:01.280 --> 09:17.280]  So what is the question again? I have more. And I want to know that it is negative and. So if I have here X, Y,
+[09:17.280 --> 09:37.280]  and I will give you X, Y. So for this node. X, Y. No. Zero, zero, one, zero, zero, one, one, one. So all will give you zero,
+[09:37.280 --> 09:52.280]  but no one. And as we did before, you will get zeroes. Right? Here X, Y. And I need X bar. X bar, Y bar after the circle.
+[09:52.280 --> 10:12.280]  Zero, one plus. And. But and is between X bar and Y bar. So I have one, one, zero, zero, one, zero, one, zero.
+[10:12.280 --> 10:36.280]  Now. It's bar and Y bar. One and one is one. This is zero and one is zero. One and zero, zero, zero. So this proves that negative and negative and is equivalent to two.
+[10:36.280 --> 10:58.280]  You can also say that X, Y. X plus Y bar equal. X bar, Y bar. But the proof is that.
+[10:58.280 --> 11:18.280]  So what do I have here? X plus Y bar. What do I have here? X bar and Y bar. X bar, Y bar is equal to X plus Y bar.
+[11:18.280 --> 11:34.280]  And this is called development theory. And definitely you will see development theory in your final exam. Again, I want to remind you about the midterm exam in October 2nd.
+[11:34.280 --> 11:54.280]  And you have enough time to do it. The tears will be wasted in my learning space. But most probably I will block the midterm exam in the same location as we do the quizzes.
+[11:54.280 --> 12:12.280]  You have the question and you will select one of the four or five answers. And the question and you select one of possible answers. But you will not, you don't need to submit the details.
+[12:12.280 --> 12:22.280]  You will give the details for yourself. I will only see the final answer. Okay? Yes?
+[12:22.280 --> 12:26.280]  I thought it was a take-home exam. Yeah, it is a take-home exam.
+[12:26.280 --> 12:32.280]  Like did you take the exam? You take it home, you review it home, you say that many, many times. Yes?
+[12:32.280 --> 12:40.280]  Is it almost a choice or almost? Yes. I didn't finish, right? You may give me a chance to finish.
+[12:40.280 --> 12:56.280]  So in the final exam, you will have multiple choice questions and you will submit the details. And if your answer is wrong, you will get zero, obviously.
+[12:56.280 --> 13:14.280]  But you will need to submit the final exam that it is. But in the midterm exam, which is a take-home exam, which is you don't need to come to the class because it is a take-home exam, and I will give you at least 24 hours to do it.
+[13:14.280 --> 13:26.280]  So where you will find the midterm exam, just in ways that you use to do the assignments. Not if it's just more weight. Okay? More weight.
+[13:26.280 --> 13:35.280]  And you are not supposed to talk to each other for the midterm exam, for the two midterm exams. But for the assignment, you can.
+[13:35.280 --> 13:45.280]  I actually solved the assignment with you leaving it in the lecture. And if you have more time today, I will solve assignment two.
+[13:45.280 --> 13:55.280]  So for the midterm exam, you will not need to submit the details. But you will have to do the details to find the correct answer.
+[13:55.280 --> 14:05.280]  And for example, if I ask you to find the tooth component in the midterm exam, then you will do the wealth component and then you will add one and then you will get the answer.
+[14:05.280 --> 14:15.280]  And you look at the multiple choice questions. Oh, this is the answer. Then you mark the answer. If you mark the answer wrong, you will get zero. If you mark it right, you will get four candidates.
+[14:15.280 --> 14:25.280]  So you have a very good chance to get four marks in your midterm exam. I will add the midterm exam one plus the midterm exam two.100.69.197.53 - - [23/Sep/2025 17:08:17] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:20] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:22] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:26] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:29] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:32] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:35] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:37] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:41] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:44] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:47] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:49] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:53] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:56] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:08:58] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:01] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:04] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:08] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:11] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:13] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:16] "GET /status/28 HTTP/1.1" 200 -
+
+[14:25.280 --> 14:37.280]  And if your final is better than the sum, then I will give you the same result. If your final is not good enough, then you will give your midterm exam marks.
+[14:37.280 --> 14:47.280]  And again, you have to pass the final exam to pass the course. This is the development policy in all first year computer science courses.
+[14:47.280 --> 14:57.280]  There is an assignment. Now questions? Questions?
+[14:57.280 --> 15:07.280]  Yes.
+[15:07.280 --> 15:09.280]  What did you say was the weightage? Like if you do better on the-
+[15:09.280 --> 15:17.280]  Yeah, in the course syllabus, I said that you do better in the final exam. Then your final exam will be 60% instead of 40%.
+[15:17.280 --> 15:25.280]  Okay, if you didn't do the midterm exam at all, then your final exam is 60%.
+[15:25.280 --> 15:39.280]  If you didn't do any assignment, your final exam is 60%. If you didn't come to the class and do the assignment and then do the midterm exam, your final exam will be 80%.
+[15:39.280 --> 15:53.280]  And the lab marks will not change. It's up to the lab advisor. If you have any lab questions, don't send them in emails. Don't ask any questions about the lab. Ask the lab advisor.
+[15:53.280 --> 15:56.280]  Questions? Yes?
+[15:56.280 --> 15:58.280]  How many questions in that room?
+[15:58.280 --> 16:09.280]  I don't know yet. But I will make sure that you can do it in like at most one hour because the lecture time is one hour and a half.
+[16:09.280 --> 16:18.280]  And you are supposed to do it during the lecture, but you have no time for the lecture. But you will work like one hour and a half of your time.
+[16:18.280 --> 16:32.280]  Should be like during the lecture, but you don't have to do that again during the lecture. So I'm considering getting like 10 questions, similar to the assignment question, 10 questions.
+[16:32.280 --> 16:44.280]  You spend like a minute in each question. So you should be able to do the midterm exam in like 15 minutes for the other exams.
+[16:44.280 --> 16:49.280]  About one hour and a half from your time.
+[16:49.280 --> 16:51.280]  Or just the intermission.
+[16:51.280 --> 16:54.280]  The test is online and the test is not here.
+[16:54.280 --> 16:58.280]  So it's going to be like 10 questions or 5?
+[17:00.280 --> 17:02.280]  Questions?
+[17:02.280 --> 17:15.280]  So we talked about N or not N and NOR gate.
+[17:15.280 --> 17:24.280]  The special about NOR gate is universal. NAND gate is universal.
+[17:24.280 --> 17:34.280]  And sometimes to implement the NAND gate is easier than implementing the NAND gate in terms of transistors.
+[17:34.280 --> 17:38.280]  In the transistor level.
+[17:39.280 --> 17:40.280]  Okay.
+[17:40.280 --> 17:44.280]  To know the transistor level you need to take an electronics course.
+[17:44.280 --> 17:50.280]  I combined actually many courses in one course.
+[17:50.280 --> 17:52.280]  And C, B, 2, 2, 1.
+[17:52.280 --> 17:55.280]  So you will learn DC circuits.
+[17:55.280 --> 17:59.280]  You will learn Ohm's law and Kirchhoff's current law, Kirchhoff's voltage law.
+[17:59.280 --> 18:02.280]  And you will learn AC circuits.
+[18:02.280 --> 18:06.280]  And you will learn also transistors and VN.
+[18:06.280 --> 18:08.280]  VNB transistors.
+[18:08.280 --> 18:12.280]  In the past I used to get MOSFET but I found it's too much.
+[18:12.280 --> 18:19.280]  So I started last year not to get MOSFET because transistor by molar transistor is good enough.
+[18:19.280 --> 18:22.280]  And you will learn also operational underpinning.
+[18:22.280 --> 18:24.280]  In a single way.
+[18:24.280 --> 18:26.280]  In a very single way.
+[18:28.280 --> 18:29.280]  Okay.
+[18:29.280 --> 18:35.280]  Negative AND is not a gate.
+[18:35.280 --> 18:44.280]  Our gates are NOR, NAND, AND, OR, NOT.
+[18:46.280 --> 18:57.280]  Of course we can, as I said last time, that we can design circuits using just one or two gates.
+[18:57.280 --> 19:00.280]  But these circuits will be very useful.
+[19:01.280 --> 19:14.280]  For example, if a pair of them needs to land, then we have to extend this one, this tire, this tire, and this tire.
+[19:15.280 --> 19:23.280]  So if this is 0, 0, 0, 0, 0, 0, 0, then this is good.
+[19:23.280 --> 19:25.280]  This is safe.
+[19:25.280 --> 19:28.280]  Then the tire is on, extended.
+[19:28.280 --> 19:32.280]  0, 0, 0 means I have one here.
+[19:32.280 --> 19:37.280]  1 here means BCC means the light will light.
+[19:37.280 --> 19:41.280]  If I have 1 here, it means I have 5 volts, for example.
+[19:41.280 --> 19:43.280]  Then this light is going to light.
+[19:43.280 --> 19:45.280]  Then it's green.
+[19:45.280 --> 19:46.280]  Then it's safe.
+[19:46.280 --> 19:54.280]  But if any one of them is 1, then the other is 0 and it's not safe.
+[19:54.280 --> 20:04.280]  So what I'm showing you here is that can I have just like a gate like this one and a gate, but before we have the 3 inverters,
+[20:04.280 --> 20:10.280]  and then I can design that useful circuit, can we make it safe and when it's not safe?
+[20:10.280 --> 20:11.280]  Yes.
+[20:11.280 --> 20:13.280]  This is the idea.
+[20:17.280 --> 20:23.280]  If I have 0 here, that means that this is on.
+[20:23.280 --> 20:26.280]  0 here means I have 1 here.
+[20:26.280 --> 20:34.280]  1 here means I have 1 here or 1 here or 1 here or 1 here and 1 here and 1 here.
+[20:34.280 --> 20:40.280]  So if any one of them is 1 or more than 1 is 1, then problem.
+[20:40.280 --> 20:44.280]  Then the tire is not in the right position.
+[20:44.280 --> 20:47.280]  It's not in one, then it's not extended.
+[20:47.280 --> 20:50.280]  Or two, or three of them, it's not extended.
+[20:50.280 --> 20:54.280]  Then this red light will be on.
+[20:54.280 --> 20:58.280]  Why one? Because I have here 0.
+[20:58.280 --> 21:00.280]  When I have 0 here, there will be current.
+[21:00.280 --> 21:05.280]  I have 5 volts here and 0 here, then there will be current and this will be on.
+[21:05.280 --> 21:11.280]  I have 5 volts here, then this is going to be on.
+[21:17.280 --> 21:23.280]  So if I have this end gate, but before the end there are 4 inverters,
+[21:23.280 --> 21:31.280]  the diagram shows 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.
+[21:31.280 --> 21:33.280]  What is the output?
+[21:34.280 --> 21:41.280]  I invert to the 0, it's 1, 1, 1, 1, 1, so the output is 1.
+[21:41.280 --> 21:52.280]  If I have 1, 0, 0, 0, 1, 0, 0, 0, after the inverter, this one becomes 0, 0,
+[21:52.280 --> 21:55.280]  then the output is 0.
+[21:55.280 --> 21:57.280]  Then the output is 0.
+[21:57.280 --> 22:00.280]  And then we can complete the timing diagram.
+[22:00.280 --> 22:05.280]  So again, what kind of questions can be in your mid-term exam or final exam?
+[22:05.280 --> 22:12.280]  I'll give you the 4 signals and ask you about the possible outputs,
+[22:12.280 --> 22:14.280]  one of them will be correct.
+[22:14.280 --> 22:16.280]  Then you select the output.
+[22:16.280 --> 22:25.280]  I'll give you the output and A, B, C, and I'll ask about what is the possible B.
+[22:25.280 --> 22:29.280]  I will give you the 4 selections, one of them will be correct.
+[22:29.280 --> 22:31.280]  Questions?
+[22:35.280 --> 22:49.280]  What is, when you think about gates, I talked about no gate, end gate, or gate,
+[22:49.280 --> 22:54.280]  and then I said, okay, I can have no gate and no gate.
+[22:54.280 --> 22:57.280]  There are more gates.
+[22:57.280 --> 22:59.280]  There are more gates.
+[22:59.280 --> 23:05.280]  One useful gate is called XOR, it's an exclusive code.
+[23:05.280 --> 23:09.280]  This is the symbol for an exclusive code.
+[23:09.280 --> 23:12.280]  Why is this an exclusive code is important?
+[23:12.280 --> 23:19.280]  Because when you look at the truth table here, you can see 0, 0, the output is 0.
+[23:19.280 --> 23:21.280]  0, 1, what is the output?
+[23:21.280 --> 23:26.280]  It's 1, 1, 0, 1, but when 1, 1, I have 0.
+[23:26.280 --> 23:31.280]  This is useful because this reminds you of adding two bits.
+[23:31.280 --> 23:38.280]  When I add two bits, when they are the same, 0 plus 0 is 0.
+100.69.197.53 - - [23/Sep/2025 17:09:19] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:23] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:25] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:28] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:31] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:34] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:37] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:40] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:44] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:46] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:50] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:52] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:55] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:09:59] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:10:06] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:10:07] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:10:07] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:10:12] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:10:13] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:10:20] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:10:20] "GET /status/28 HTTP/1.1" 200 -
+[23:38.280 --> 23:42.280]  1 plus 1 is 0 and I have to carry 1.
+[23:42.280 --> 23:50.280]  So I can use this when I want to design the end of two bits.
+[23:50.280 --> 23:54.280]  Just two bits, I can use this XOR.
+[23:56.280 --> 24:05.280]  So again, here I have the output is 1, if A is 1 or if B is 1.
+[24:05.280 --> 24:08.280]  If both of them are 1, the output is 0.
+[24:08.280 --> 24:14.280]  This is what is called exclusive or gate.
+[24:14.280 --> 24:17.280]  No low, the output is low.
+[24:17.280 --> 24:20.280]  High, high, the output is low.
+[24:20.280 --> 24:24.280]  But no high, no high, low, the output is high.
+[24:29.280 --> 24:31.280]  Okay.
+[24:31.280 --> 24:41.280]  But also I can come with another gate which is exclusive, not or, it's exclusive or.
+[24:41.280 --> 24:51.280]  It's exclusive or, will give me 1, F0, 0, 1, 1, then the output is 1.
+[24:51.280 --> 24:54.280]  Okay.
+[24:54.280 --> 24:59.280]  So output is 1, when A is 0, B is 0.
+[24:59.280 --> 25:03.280]  Output is 1, when A is 1, B is 1.
+[25:03.280 --> 25:07.280]  Okay, if A is 0, B is 1, the output is 0.
+[25:07.280 --> 25:09.280]  When 0 is output, it's 0.
+[25:09.280 --> 25:12.280]  This is exclusive, not or.
+[25:15.280 --> 25:18.280]  So this is also telling you something useful.
+[25:18.280 --> 25:23.280]  Suppose that you have two bits and you want to see when they are equal.
+[25:23.280 --> 25:27.280]  You want FZR equal, I want to have 1.
+[25:27.280 --> 25:30.280]  Only two bits, two bits.
+[25:30.280 --> 25:42.280]  So I have here input, I have here input, and I have here a device that I want to have 1 FZR equal.
+[25:42.280 --> 25:45.280]  So 0, 0, 1.
+[25:46.280 --> 25:50.280]  1, 1, the output is also 1.
+[25:50.280 --> 25:53.280]  So what should I put here?
+[25:54.280 --> 25:59.280]  It's exclusive, and no.
+[25:59.280 --> 26:03.280]  Because if I want 1, 0, what is the output?
+[26:03.280 --> 26:05.280]  0.
+[26:05.280 --> 26:07.280]  It is here.
+[26:07.280 --> 26:11.280]  If ZR is the same, the output is 1.
+[26:11.280 --> 26:15.280]  If ZR is not the same, the output is 0.
+[26:15.280 --> 26:21.280]  Then I can put here, I can put, it's exclusive, no.
+[26:21.280 --> 26:28.280]  And my design here is telling me when ZR is the same, when ZR is the same,
+[26:28.280 --> 26:35.280]  whether ZR is 0, 0, or 1, 1, the output is going to be 1.
+[26:35.280 --> 26:41.280]  I can compare between two bits and have 1 FZR the same.
+[26:41.280 --> 26:44.280]  Questions?
+[26:46.280 --> 26:50.280]  So we talked about now it's exclusive mode.
+[26:50.280 --> 26:53.280]  We talked about X mode.
+[26:53.280 --> 26:58.280]  Sometimes like this was a circuit, this question was in the midterm exam last year.
+[26:58.280 --> 27:04.280]  So I have input, I have, and I ask, what is the output?
+[27:04.280 --> 27:09.280]  No, I have no input.
+[27:09.280 --> 27:19.280]  So it is X over 1, 1 will get 0, 1 will get 1.
+[27:19.280 --> 27:23.280]  1, 0 will get 1.
+[27:23.280 --> 27:27.280]  And the output is 0.
+[27:27.280 --> 27:34.280]  So I gave you the angles and possible width problems, four of them.
+[27:34.280 --> 27:40.280]  One of them will be correct, and then you select the one which is correct.
+[27:40.280 --> 27:44.280]  So you should be in the midterm exam to get full marks.
+[27:44.280 --> 27:48.280]  You should be also in the assignment to get full marks.
+[27:48.280 --> 27:55.280]  So if you have 40 out of 40, and in the labs most of the students get half marks.
+[27:55.280 --> 28:00.280]  You say 20 out of 20, then you have 60 when you go to the final exam.
+[28:00.280 --> 28:06.280]  If you pass the final exam, 20 out of 20, you get A-.
+[28:06.280 --> 28:10.280]  This course is easy to get high.
+[28:10.280 --> 28:18.280]  You get the course of the materials and the materials are really easy to understand.
+[28:18.280 --> 28:23.280]  So we have a course in microprocessor,
+[28:23.280 --> 28:29.280]  microprocessor interface, 319, mainly VHDM,
+[28:29.280 --> 28:34.280]  that I call to describe the hardware.
+[28:34.280 --> 28:38.280]  So we will give you the understand the details of hardware and the computer.
+[28:38.280 --> 28:43.280]  First we need to know the sports and the loader.
+[28:43.280 --> 28:48.280]  This is what I was talking about.
+[28:48.280 --> 28:55.280]  If I have, give it XOR, it's inclusive, or then 0.00, 0.1 is 1, 1.01, 1.1 is 0.1.
+[28:55.280 --> 28:58.280]  I have a 21.
+[28:58.280 --> 29:01.280]  So I have a 21.
+[29:01.280 --> 29:04.280]  So I have a 21.
+[29:04.280 --> 29:07.280]  So I have a 21.
+[29:07.280 --> 29:12.280]  1.1 is 0.1 and I have a 21.
+[29:12.280 --> 29:14.280]  I have a 21.
+[29:14.280 --> 29:17.280]  So I will need another output.
+[29:17.280 --> 29:22.280]  I will need another output for the 21.
+[29:22.280 --> 29:29.280]  In order to design the circuit from 1.4 to half an hour,
+[29:29.280 --> 29:34.280]  I'm going to talk about this next chapter.
+[29:34.280 --> 29:44.280]  So if I have XOR, XY,
+[29:44.280 --> 29:49.280]  and I will put another bit here,
+[29:49.280 --> 30:00.280]  and to visit where it represents the sum,
+[30:00.280 --> 30:04.280]  and this represents the carry, and the carry is a carry.
+[30:04.280 --> 30:09.280]  So all you want is an equal one, 1.1 and a half carry.
+[30:09.280 --> 30:19.280]  Otherwise, the time will be equal to 0.
+[30:19.280 --> 30:21.280]  And what about here?
+[30:21.280 --> 30:25.280]  This sum is going to be the sum of the sum of 1.
+[30:25.280 --> 30:33.280]  How does a twist table look like?
+[30:33.280 --> 30:37.280]  I have two outputs, two outputs.
+[30:37.280 --> 30:39.280]  The sum is 0.
+[30:39.280 --> 30:44.280]  The sum is, what is the sum in this case?
+[30:44.280 --> 30:45.280]  A u, right?
+[30:45.280 --> 30:47.280]  This is the sum in this case,
+[30:47.280 --> 30:49.280]  this is the sum in this case, 0,
+[30:49.280 --> 30:51.280]  and I have a carry.
+[30:51.280 --> 30:57.280]  In this case, I have a design, half an hour.
+[30:57.280 --> 31:01.280]  And I will start designing for the other,
+[31:01.280 --> 31:04.280]  for other means of frequency input, not to,
+[31:04.280 --> 31:07.280]  and I will design a validator,
+[31:07.280 --> 31:11.280]  so you can sum two binary numbers,
+[31:11.280 --> 31:13.280]  and we will design the wire,
+[31:13.280 --> 31:16.280]  and we will design the circuit,
+[31:16.280 --> 31:19.280]  where the control numbers,
+[31:19.280 --> 31:23.280]  the registers, and then this, right?
+[31:23.280 --> 31:25.280]  Questions?
+[31:35.280 --> 31:37.280]  The last part of this chapter
+[31:37.280 --> 31:41.280]  is talking about programmable logic.
+[31:41.280 --> 31:43.280]  So we will talk about this mainly,
+[31:43.280 --> 31:45.280]  very briefly.
+[31:45.280 --> 31:51.280]  For those that I have C and here,
+[31:51.280 --> 31:55.280]  and you can see I have
+[31:55.280 --> 31:58.280]  A u, B u.
+[31:58.280 --> 32:03.280]  So if I can blow up these numbers,
+[32:03.280 --> 32:05.280]  some of these numbers,
+[32:05.280 --> 32:07.280]  for example, name this line,
+[32:07.280 --> 32:10.280]  name this variable, what is the output?
+[32:10.280 --> 32:15.280]  A is output, and B is B.
+[32:15.280 --> 32:17.280]  B, B.
+[32:17.280 --> 32:22.280]  This is how we will program the chart.
+[32:24.280 --> 32:30.280]  But there are different kinds of programming in the chart.
+[32:30.280 --> 32:34.280]  I can create ROM,
+[32:34.280 --> 32:36.280]  B-ROM,
+[32:36.280 --> 32:38.280]  or B-ROM,
+[32:38.280 --> 32:42.280]  B-ROM means program once,
+[32:42.280 --> 32:45.280]  not only program, but chart,
+[32:45.280 --> 32:47.280]  the output, and I'm reaching
+[32:47.280 --> 32:50.280]  what would be like this for a version.
+[32:50.280 --> 32:54.280]  Or another one,
+[32:54.280 --> 32:56.280]  it is like,
+[32:56.280 --> 32:59.280]  I'm using a cruise,
+[32:59.280 --> 33:02.280]  and there are different cruise,
+[33:02.280 --> 33:05.280]  and this is a good version.
+[33:05.280 --> 33:11.280]  But what about if I use one of the programs?
+[33:11.280 --> 33:16.280]  So I can run the chip
+100.69.197.53 - - [23/Sep/2025 17:11:05] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:11:08] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:11:11] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:11:11] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:11:14] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:11:14] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:11:15] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:11:16] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:11:16] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:11:16] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:11:17] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:11:19] "GET /status/28 HTTP/1.1" 200 -
+[33:16.280 --> 33:19.280]  by the programs,
+[33:19.280 --> 33:23.280]  and whenever it's needed to be programmed,
+[33:23.280 --> 33:26.280]  I will work it in ultraviolet
+[33:26.280 --> 33:28.280]  for like an hour,
+[33:28.280 --> 33:31.280]  and then I can run it again.
+[33:31.280 --> 33:33.280]  This is called the E-GND.
+[33:33.280 --> 33:38.280]  And the last one that I want to mention is called E-E-ROM.
+[33:38.280 --> 33:41.280]  E squared ROM.
+[33:41.280 --> 33:44.280]  E squared ROM
+[33:44.280 --> 33:46.280]  will be a kind of,
+[33:46.280 --> 33:48.280]  I can program the chip,
+[33:48.280 --> 33:51.280]  but my design is not working,
+[33:51.280 --> 33:56.280]  then I can program the chip again
+[33:56.280 --> 33:58.280]  by electricity.
+[33:58.280 --> 34:03.280]  I want to read about the chip in ultraviolet.
+[34:03.280 --> 34:06.280]  How am I going to welcome the chip?
+[34:06.280 --> 34:08.280]  Amazing and interesting.
+[34:08.280 --> 34:09.280]  Why?
+[34:09.280 --> 34:13.280]  Because you will learn, but not in this course,
+[34:13.280 --> 34:15.280]  in similar way,
+[34:15.280 --> 34:17.280]  that you can write a code,
+[34:17.280 --> 34:22.280]  like you use to write code in C or Python.
+[34:22.280 --> 34:27.280]  You will write a code using VTML
+[34:27.280 --> 34:29.280]  to describe the circuit.
+[34:29.280 --> 34:30.280]  You want to say,
+[34:30.280 --> 34:31.280]  I have AND gate here,
+[34:31.280 --> 34:32.280]  and OR gate here,
+[34:32.280 --> 34:34.280]  and the register VMI.
+[34:34.280 --> 34:35.280]  You write the code,
+[34:35.280 --> 34:39.280]  and you can see that the code is readable
+[34:39.280 --> 34:41.280]  and very simple.
+[34:41.280 --> 34:43.280]  To build your circuit.
+[34:43.280 --> 34:47.280]  Or you can select three points
+[34:47.280 --> 34:50.280]  on the right-hand edge of the animation of them
+[34:50.280 --> 34:53.280]  to build a big circuit.
+[34:53.280 --> 34:55.280]  To build a big circuit.
+[34:55.280 --> 35:00.280]  And then, combine download the chip,
+[35:00.280 --> 35:02.280]  and you define, of course,
+[35:02.280 --> 35:04.280]  what is the input output,
+[35:04.280 --> 35:06.280]  and then this big chip.
+[35:06.280 --> 35:10.280]  You found that the design is not working.
+[35:10.280 --> 35:13.280]  Then you can modify your device
+[35:13.280 --> 35:15.280]  by having the statements,
+[35:15.280 --> 35:18.280]  moving the statements,
+[35:18.280 --> 35:20.280]  and between the description,
+[35:20.280 --> 35:23.280]  combine download the chip,
+[35:23.280 --> 35:25.280]  and then this big chip.
+[35:25.280 --> 35:27.280]  Of course, you can test your device
+[35:27.280 --> 35:29.280]  on two intercom devices
+[35:29.280 --> 35:31.280]  before you download it.
+[35:31.280 --> 35:32.280]  The one is good,
+[35:32.280 --> 35:34.280]  and the other is interesting.
+[35:34.280 --> 35:36.280]  What is interesting is,
+[35:36.280 --> 35:40.280]  you describe the hardware by software.
+[35:40.280 --> 35:42.280]  You write a program
+[35:42.280 --> 35:46.280]  to describe what you want for the circuit.
+[35:46.280 --> 35:50.280]  You describe the hardware by software.
+[35:50.280 --> 35:55.280]  The circuit talks a lot more about VHVR.
+[35:55.280 --> 35:57.280]  This is VHVR.
+[35:58.280 --> 36:00.280]  Okay?
+[36:02.280 --> 36:04.280]  Now,
+[36:07.280 --> 36:09.280]  this is a gate,
+[36:09.280 --> 36:10.280]  not a gate,
+[36:10.280 --> 36:13.280]  but a gate, or a gate.
+[36:14.280 --> 36:18.280]  And there is no gate,
+[36:18.280 --> 36:21.280]  and there is no gate,
+[36:21.280 --> 36:25.280]  and there is no gate,
+[36:27.280 --> 36:30.280]  and there is no gate.
+[36:31.280 --> 36:34.280]  These are the gates that we want to.
+[36:34.280 --> 36:37.280]  Can you think of another gate?
+[36:45.280 --> 36:47.280]  This is called box.
+[36:47.280 --> 36:49.280]  What do we not want?
+[36:49.280 --> 36:52.280]  This is a gate.
+[36:54.280 --> 36:56.280]  I am interested now in
+[36:56.280 --> 36:58.280]  to include,
+[36:58.280 --> 37:00.280]  to give a little bit more detail,
+[37:01.280 --> 37:03.280]  a gate,
+[37:03.280 --> 37:05.280]  or gate,
+[37:05.280 --> 37:07.280]  to give a little bit more detail,
+[37:07.280 --> 37:09.280]  a gate,
+[37:09.280 --> 37:11.280]  and a gate,
+[37:11.280 --> 37:13.280]  your gate,
+[37:13.280 --> 37:15.280]  it's all gates.
+[37:15.280 --> 37:18.280]  It's inclusive of all gates.
+[37:18.280 --> 37:21.280]  How about this one gate?
+[37:21.280 --> 37:24.280]  The US is our first gate.
+[37:25.280 --> 37:27.280]  What do we want to do?
+[37:28.280 --> 37:30.280]  Now, what I want to do is
+[37:30.280 --> 37:33.280]  what we put our interests into our gates.
+[37:33.280 --> 37:35.280]  What do we want to do?
+[37:42.280 --> 37:44.280]  To make it easier for you
+[37:44.280 --> 37:46.280]  to get what I mean
+[37:46.280 --> 37:49.280]  and make my information more clear.
+[37:50.280 --> 37:52.280]  But also I need to use this
+[37:52.280 --> 37:54.280]  very well in the final exam.
+[37:55.280 --> 37:57.280]  I said,
+[38:03.280 --> 38:05.280]  you are going to be back quickly.
+[38:07.280 --> 38:09.280]  I am back.
+[38:30.280 --> 38:32.280]  What to say?
+[38:33.160 --> 38:34.520] never
+[38:35.520 --> 38:37.720]  never
+[38:47.720 --> 38:50.020]  because I want to..
+[38:50.020 --> 38:59.020]  which is here, it is just all.
+[38:59.020 --> 39:03.500]  It will be 0, 1, 1, 1.
+[39:03.500 --> 39:05.500]  It's just all.
+[39:05.500 --> 39:10.980]  But if it is all, then it is going to be 1, 0, 0, 0.
+[39:10.980 --> 39:15.460]  If I ask you what is this here, you can give me this question,
+[39:15.460 --> 39:20.260]  and you should say, no.
+[39:20.260 --> 39:21.100]  Right?
+[39:21.100 --> 39:23.740]  Just no gate.
+[39:23.740 --> 39:25.740]  OK?
+[39:25.740 --> 39:28.020]  Sometimes, actually, in the final exam
+[39:28.020 --> 39:30.380]  what I have done in the last, there
+[39:30.380 --> 39:35.660]  was like big circuits connected in end or no gates.
+[39:35.660 --> 39:38.140]  And then I move on to the gate, and I go to this box,
+[39:38.140 --> 39:41.220]  and I say, there's the arc of the situation is so.
+[39:41.220 --> 39:43.860]  What is this gate?
+[39:43.860 --> 39:47.420]  And then you try to figure out how many gates you
+[39:47.420 --> 39:49.020]  learned in this course.
+[39:49.020 --> 39:50.740]  Six?
+[39:50.740 --> 39:56.780]  End or no gate.
+[39:56.780 --> 39:59.660]  It's a crucial or it's a crucial no.
+[39:59.660 --> 40:02.060]  Right?
+[40:02.060 --> 40:03.220]  How many gates you learned?
+[40:03.220 --> 40:04.860]  Forget all the ends.
+[40:04.860 --> 40:09.420]  How many possible gates that we learned in this course?
+[40:09.420 --> 40:11.740]  How many?
+[40:11.740 --> 40:13.060]  Six?
+[40:13.060 --> 40:17.780]  End or no.
+[40:17.780 --> 40:21.500]  X or X and O. Right?
+[40:21.500 --> 40:25.780]  And everyone has different to say.
+[40:25.780 --> 40:27.180]  Right?
+[40:27.180 --> 40:28.500]  Good.
+[40:28.500 --> 40:31.180]  So what is my question again now?
+[40:31.180 --> 40:35.460]  My question is, can you come with another gate?
+[40:38.380 --> 40:41.300]  Yes?
+[40:41.300 --> 40:43.940]  What is X and end?
+[40:43.940 --> 40:45.820]  What is the true scale of X and end?
+[40:45.820 --> 40:47.820]  He is thinking of another gate.
+[40:47.820 --> 40:48.740]  Right?
+[40:48.740 --> 40:54.940]  So he said, if you have X, Y, here if I have an end.
+[40:54.940 --> 40:56.980]  You said end first?
+[40:56.980 --> 40:59.500]  If it is an end.
+[40:59.500 --> 41:01.260]  So what is the output if it is an end?
+[41:04.420 --> 41:08.180]  If I have 0, 0, 1, 0, 0, 1, 1, 1.
+[41:08.180 --> 41:15.300]  So if it is for the end, if it is just the end,
+[41:15.300 --> 41:18.620]  then I will have 0, 0, 0, 1.
+[41:18.620 --> 41:20.180]  Right?
+[41:20.180 --> 41:22.700]  Then I will invert it.
+[41:22.700 --> 41:23.220]  Thank you.
+[41:23.220 --> 41:24.460]  1, 1, 1, 0.
+[41:24.460 --> 41:26.500]  This is an end.
+[41:26.500 --> 41:30.780]  But what you want here for what you named the X and end
+100.69.197.53 - - [23/Sep/2025 17:11:23] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:11:25] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:11:34] "GET /status/28 HTTP/1.1" 200 -
+[41:30.780 --> 41:33.500]  or another gate?
+[41:33.500 --> 41:36.420]  That follows to the answer.
+[41:36.420 --> 41:55.860]  That the answer is, if I have X, Y, X, Y,
+[41:55.940 --> 42:02.660]  and here I will write new, get new, you get new.
+[42:02.660 --> 42:10.020]  0, 0, 1, 0, 0, 1, 1, 1.
+[42:10.020 --> 42:13.220]  How many possible outputs here?
+[42:13.220 --> 42:18.220]  If I have four numbers here, and each one is,
+[42:18.220 --> 42:22.540]  can be 0, can be 1, then how many possible answers here?
+[42:26.460 --> 42:26.940]  OK.
+[42:26.940 --> 42:29.300]  This is now a new question.
+[42:29.300 --> 42:38.100]  I want you to tell me what are all possibilities for outputs.
+[42:38.100 --> 42:39.700]  One of them is low, right?
+[42:39.700 --> 42:42.180]  One of them was an end of the output 6.
+[42:42.180 --> 42:44.060]  How many possible answer?
+[42:49.340 --> 42:51.340]  You said 16.
+[42:51.340 --> 42:52.340]  You?
+[42:52.340 --> 42:52.820]  Good.
+[42:52.820 --> 42:53.820]  Correct.
+[42:54.780 --> 42:57.780]  Your friend said 16, and you will get credit.
+[42:57.780 --> 42:58.260]  OK?
+[42:58.260 --> 43:00.260]  So send me here today.
+[43:00.260 --> 43:02.580]  And I'll have you to see it.
+[43:02.580 --> 43:04.260]  But say the course.
+[43:04.260 --> 43:09.340]  See, C, B, 2, 2, 0, and write 16.
+[43:09.340 --> 43:11.340]  So I will remember what you said.
+[43:11.340 --> 43:12.980]  He said 16.
+[43:12.980 --> 43:15.540]  And the answer is similar, because what
+[43:15.540 --> 43:17.540]  are the possible numbers here?
+[43:17.540 --> 43:21.540]  0, 0, 0, 1, 0, 0, 0.
+[43:21.740 --> 43:23.740]  1, 0, 0, 0.
+[43:23.740 --> 43:26.740]  0, 1, 0, 0, 0.
+[43:26.740 --> 43:29.740]  1, 1, 0, 0.
+[43:29.740 --> 43:36.740]  0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.
+[43:36.740 --> 43:39.740]  It comes from 0.
+[43:39.740 --> 43:44.740]  And we end at 15.
+[43:44.740 --> 43:48.220]  So these are all possible outputs, right?
+[43:52.220 --> 43:57.620]  If I put this input and output 0, is this a gate?
+[43:57.620 --> 43:58.120]  No?
+[43:58.120 --> 44:00.580]  OK.
+[44:00.580 --> 44:06.740]  If I put 0, 0, 1, and I get 1, 1, 1, is this a gate?
+[44:06.740 --> 44:07.220]  No.
+[44:07.220 --> 44:08.220]  What is left?
+[44:08.220 --> 44:08.720]  OK.
+[44:08.720 --> 44:10.700]  Impossible it is.
+[44:10.700 --> 44:12.620]  Why I cannot use this one?
+[44:15.140 --> 44:18.620]  Why I cannot use this one as an argument for a gate?
+[44:22.540 --> 44:23.040]  Why?
+[44:26.040 --> 44:30.540]  If I have 0, 0, now output is 1.
+[44:30.540 --> 44:33.020]  If I have 0, 1, now output is 0.
+[44:33.020 --> 44:35.020]  If I have 1, 0, now output is 0.
+[44:35.020 --> 44:41.020]  And then because how am I going to differentiate
+[44:41.020 --> 44:43.020]  between 0, 1, and 1, 0?
+[44:46.020 --> 44:48.020]  Right?
+[44:48.020 --> 44:56.500]  So in this case, my problem is I will have to order them.
+[44:56.500 --> 45:02.000]  I will have to order them.
+[45:02.000 --> 45:04.500]  But actually, this also may work.
+[45:04.500 --> 45:11.500]  But what the problem is not all of them will work.
+[45:11.500 --> 45:17.500]  Because I may need to say which one is x and which one is y.
+[45:18.500 --> 45:20.000]  Right?
+[45:20.000 --> 45:28.000]  Because I end up having here numbers that will not make sense.
+[45:28.000 --> 45:33.000]  That will not make sense because I will have to order them.
+[45:33.000 --> 45:35.000]  This works for fun.
+[45:35.000 --> 45:38.000]  It's not going to be a good example.
+[45:38.000 --> 45:45.500]  This task to make for a special memory to see how many possibilities.
+[45:45.980 --> 45:49.480]  Obviously, you will say how many possibilities.
+[45:49.480 --> 45:49.980]  Right?
+[45:52.980 --> 45:53.480]  OK.
+[46:11.980 --> 46:14.980]  This is good enough.
+[46:15.960 --> 46:19.460]  I will go to the assignment.
+[46:19.460 --> 46:19.960]  Questions?
+[46:22.460 --> 46:24.460]  We finished this chapter.
+[46:24.460 --> 46:26.460]  We talked a little bit about the memory.
+[46:26.460 --> 46:27.960]  Here's the integrated circuit.
+[46:27.960 --> 46:33.460]  You can see that VCC is connected to the band number 4 here.
+[46:33.460 --> 46:36.460]  And band number 7 connected to the ground.
+[46:36.460 --> 46:38.960]  You'll learn more about this in the circuit.
+[46:38.960 --> 46:42.460]  And here you can see that this integrated circuit is
+[46:42.940 --> 46:48.440]  called 7408.
+[46:48.440 --> 46:51.940]  It has four and a gate.
+[46:51.940 --> 46:55.940]  And it has a PPM, transistor-to-transistor logic.
+[46:55.940 --> 47:01.440]  So you can find the kids about the gate in this grid sheet.
+[47:01.440 --> 47:04.940]  7-4 means transistor-to-transistor logic.
+[47:07.440 --> 47:10.940]  Those are more integrated circuits.
+[47:11.420 --> 47:13.920]  And the input has more than one input.
+[47:16.920 --> 47:20.420]  But now let me go to the assignment.
+[47:33.920 --> 47:38.420]  So your method again will be under the courses.
+[47:38.900 --> 47:43.400]  Some students, few, still doesn't know that there are two
+[47:43.400 --> 47:47.400]  websites, one for the labs, one for the theoretical
+[47:47.400 --> 47:54.900]  work, the course, which is very strange.
+[47:54.900 --> 47:57.400]  Many students actually fill in the course.
+[47:57.400 --> 47:57.900]  Many.
+[48:00.400 --> 48:03.400]  I don't know why.
+[48:03.880 --> 48:10.380]  So now this questions, take questions for assignment two.
+[48:10.380 --> 48:13.880]  So you can see that questions are very simple.
+[48:16.380 --> 48:20.880]  And you will have similar questions in your midterm exam
+[48:20.880 --> 48:22.380]  and your final exam.
+[48:22.380 --> 48:25.380]  I said there will be no surprises at all.
+[48:25.380 --> 48:30.380]  All questions in the midterm exam or the final exam will be
+[48:30.860 --> 48:33.860]  the questions that discussed in the lecture.
+[48:33.860 --> 48:37.860]  42 is equivalent to 2 binary.
+[48:37.860 --> 48:40.860]  Then what is 42?
+[48:40.860 --> 48:47.360]  42 is 32 plus 10.
+[48:47.360 --> 48:49.860]  Why I said 32 plus 10?
+[48:49.860 --> 48:53.360]  Because it's easier for me to know that 32 is 1.
+[48:53.360 --> 48:58.360]  So I have 1, 0, 0, 0, 0, 0.
+[48:58.360 --> 48:59.860]  This is 32.
+[49:00.840 --> 49:03.340]  If I have 1 here, this is 2.
+[49:03.340 --> 49:04.340]  1 here, 4.
+[49:04.340 --> 49:05.840]  1 here, 8.
+[49:05.840 --> 49:08.340]  1 here, 16.
+[49:08.340 --> 49:10.840]  1 here, 32.
+[49:10.840 --> 49:14.840]  1, 0, 1, 0 is 10.
+[49:14.840 --> 49:19.340]  10 plus 32 equal 42.
+[49:19.340 --> 49:25.340]  So I will give you the question similar to this one.
+[49:25.340 --> 49:26.840]  42 is equivalent to a binary.
+[49:26.840 --> 49:29.340]  And then I gave you for answer.
+[49:29.820 --> 49:32.320]  This is the correct answer.
+[49:32.320 --> 49:33.320]  And that's it.
+[49:33.320 --> 49:36.820]  The rest has nothing to do with the question.
+[49:39.320 --> 49:39.820]  OK.
+[49:42.820 --> 49:46.320]  Of course, I can put a number from 42.
+[49:46.320 --> 49:49.320]  I can put 41.
+[49:49.320 --> 49:56.320]  If I put 41, then the correct answer will be 1, 0.
+[49:56.800 --> 50:02.300]  And here I have 1, 0, 0, 1.
+[50:02.300 --> 50:06.800]  It will be 9 plus 32.
+[50:06.800 --> 50:08.800]  9 plus 32.
+[50:08.800 --> 50:12.300]  Of course, you can do it by dividing by 2.
+[50:12.300 --> 50:16.800]  We learned that dividing by 2 is a number.
+[50:16.800 --> 50:18.300]  It's 1, 6.
+[50:18.300 --> 50:19.800]  OK.
+[50:19.800 --> 50:22.300]  So this was the first question.
+[50:22.300 --> 50:23.800]  What about this one?
+[50:27.300 --> 50:30.800]  How about multiplication?
+[50:34.800 --> 50:40.300]  Multiply 1, 1 times 1, 1, 0.
+[50:40.300 --> 50:42.800]  So you can do it by 2 methods.
+[50:42.800 --> 50:44.800]  We have here 1, 1.
+[50:44.800 --> 50:47.300]  We have 1, 1, 0.
+[50:47.300 --> 50:49.800]  What is this number?
+[50:49.800 --> 50:51.300]  In decimal.
+[50:54.300 --> 50:55.300]  6.
+[50:55.780 --> 50:58.280]  What is this number?
+[50:58.280 --> 50:59.780]  7.
+100.69.197.53 - - [23/Sep/2025 17:12:15] "GET /status/28 HTTP/1.1" 200 -
+100.69.197.53 - - [23/Sep/2025 17:13:58] "GET /status/28 HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:10:30] "GET / HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:10:30] "GET /static/style.css HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:10:30] "GET /static/script.js HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:10:30] "GET /history HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:10:30] "GET /manifest.json HTTP/1.1" 404 -
+100.82.57.61 - - [23/Sep/2025 18:10:30] "GET /favicon.ico HTTP/1.1" 404 -
+100.82.57.61 - - [23/Sep/2025 18:10:30] "GET /sw.js HTTP/1.1" 404 -
+100.82.57.61 - - [23/Sep/2025 18:10:32] "GET /session/21 HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:10:33] "GET /session/20 HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:10:46] "POST /edit/20 HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:10:46] "GET /history HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:10:55] "POST /transcripts/20/move HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:10:55] "GET /history HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:10:56] "GET /session/21 HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:11:03] "POST /edit/21 HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:11:03] "GET /history HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:11:05] "GET /session/21 HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:11:08] "POST /transcripts/21/move HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:11:08] "GET /history HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:11:10] "GET /session/19 HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:11:11] "GET /session/16 HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:11:11] "GET /session/15 HTTP/1.1" 200 -
+100.82.57.61 - - [23/Sep/2025 18:11:12] "GET /session/10 HTTP/1.1" 200 -
