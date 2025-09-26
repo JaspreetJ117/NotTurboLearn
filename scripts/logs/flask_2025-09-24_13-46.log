@@ -1,0 +1,1008 @@
+Directory '..\data' is ready.
+Database and tables verified successfully.
+Queue processor thread started.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.0.0.26:443
+Press CTRL+C to quit
+100.69.197.53 - - [24/Sep/2025 15:58:06] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 15:58:06] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 15:58:06] "GET / HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 15:58:06] "GET /static/style.css HTTP/1.1" 304 -
+100.69.197.53 - - [24/Sep/2025 15:58:06] "GET /static/script.js HTTP/1.1" 304 -
+100.69.197.53 - - [24/Sep/2025 15:58:06] "GET /history HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 15:58:06] "GET /manifest.json HTTP/1.1" 404 -
+100.69.197.53 - - [24/Sep/2025 15:58:06] "GET /favicon.ico HTTP/1.1" 404 -
+100.69.197.53 - - [24/Sep/2025 15:58:07] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [24/Sep/2025 15:58:08] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [24/Sep/2025 15:58:38] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [24/Sep/2025 16:04:37] "GET /session/16 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 16:04:45] "GET /session/19 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 16:05:16] "GET /sw.js HTTP/1.1" 404 -
+100.69.197.53 - - [24/Sep/2025 17:14:08] "POST /transcribe HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:14:11] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:14:14] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:14:17] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:14:20] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:14:23] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:14:26] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:14:29] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:14:32] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:14:35] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:14:38] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:14:41] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:14:44] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:14:47] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:14:50] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:14:53] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:14:56] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:14:59] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:02] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:05] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:08] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:11] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:14] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:17] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:20] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:23] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:26] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:29] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:32] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:35] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:38] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:41] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:44] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:47] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:50] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:53] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:56] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:15:59] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:02] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:05] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:08] "GET /status/29 HTTP/1.1" 200 -
+Queue processor checking for a new job...
+Processing job 29: recording_2025-09-24T21-14-03.mp4
+Loading Whisper model for the first time...
+Whisper is using device: cuda
+Whisper model loaded successfully.
+--- Starting Transcription for ../uploads\9dcda90a-1cd1-4552-8e6b-101cad272b1e.mp4 ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:08.000]  I mean, try and focus more of my attention on what you're definitely going to be interested on, okay?
+[00:08.000 --> 00:12.000]  Other stuff, I would have to probably lead to it by yourself.
+[00:12.000 --> 00:22.000]  But we kind of ended off on the attribution theory, so remember it has to do with explaining why someone behaves the way they do,
+[00:22.000 --> 00:28.000]  and you can make two attributions, either dispositional or situational.
+[00:28.000 --> 00:32.000]  Dispositional has to do with one's personality, internal characteristics.
+[00:32.000 --> 00:35.000]  Situational, more so the environment.
+[00:35.000 --> 00:37.000]  External, more so the natural.
+[00:37.000 --> 00:42.000]  And then there's three main questions that you have to take into consideration.
+[00:42.000 --> 00:48.000]  There must be consensus, the consistency, and the distinctiveness cues, okay?
+[00:48.000 --> 00:56.000]  So accordingly, whether there is a low consensus or high consensus, you make either dispositional or situational,
+[00:56.000 --> 01:01.000]  and that goes with consistency and distinctiveness.
+[01:01.000 --> 01:04.000]  Does that make sense? Yeah? Okay.
+[01:04.000 --> 01:13.000]  So now one of the more interesting findings when it comes to the attribution theory
+[01:13.000 --> 01:20.000]  is that there are errors and biases that can kind of distort our attributions, okay?
+[01:20.000 --> 01:32.000]  So when we judge the behavior of other people, we oftentimes tend to put more emphasis on internal or personal factors, right?
+[01:32.000 --> 01:38.000]  So we'll say, oh, that person is acting because of the way they are, right?
+[01:38.000 --> 01:43.000]  And less emphasis on the external factors or the situation, right?
+[01:43.000 --> 02:00.000]  So if Jenny came in late to class, I would say that the human tendency is to say that she came in late because she's just a lazy person, right?
+[02:00.000 --> 02:08.000]  As opposed to saying that, oh, it was raining and so she probably missed the bus or something like that, okay?
+[02:08.000 --> 02:20.000]  So this is known as the fundamental attribution error, where basically, like it says on your slide, you are underestimating the external factors.
+[02:20.000 --> 02:26.000]  So you're placing less emphasis on the external factors and overestimating the internal factors.
+[02:27.000 --> 02:35.000]  So you're placing more emphasis on the internal factors when you're making a judgment about other behaviors, okay?
+[02:35.000 --> 02:42.000]  So this is probably why, if I was to bring an example in, and it's more related to workplace,
+[02:42.000 --> 03:02.000]  a sales manager is more prone to attribute the core performance of his or her sales associate to laziness rather than to maybe have something to do with the product line that they're trying to sell, right?
+[03:02.000 --> 03:06.000]  Or what have you, okay?
+[03:06.000 --> 03:11.000]  So that is basically fundamental attribution error.
+[03:11.000 --> 03:18.000]  The other error that, so this is what we use when we're judging others, right?
+[03:18.000 --> 03:32.000]  And another error that we can use, and by the way, your textbook mentions three, but I'm focusing on these two just because I want you to know that there are errors that we make about others when we're judging others, and then there are errors that we make about ourselves.
+[03:32.000 --> 03:34.000]  So that's a distinction here, okay?
+[03:34.000 --> 03:39.000]  So the self-serving bias is when we judge ourselves, okay?
+[03:39.000 --> 03:47.000]  So this means that when we're successful, we are more likely to believe it is due to internal factors, right?
+[03:47.000 --> 03:53.000]  So we say things like it's due to our ability or it's due to our effort.
+[03:53.000 --> 04:01.000]  When we fail, however, we blame external factors such as luck, okay?
+[04:01.000 --> 04:18.000]  So people tend to believe that their own behavior, that when it's positive behavior related to the self, it has to do with one self and not the external factors.
+[04:18.000 --> 04:21.000]  Does that make sense?
+[04:21.000 --> 04:23.000]  Okay.
+[04:23.000 --> 04:24.000]  All right.
+[04:24.000 --> 04:27.000]  So that basically covers the attribution theory.
+[04:27.000 --> 04:29.000]  Do we have any questions about it?
+[04:29.000 --> 04:32.000]  Because that's an important thing to know.
+[04:32.000 --> 04:40.000]  So understand what's meant by it, understand the three questions, and then understand how attributions can be distorted.
+[04:40.000 --> 04:44.000]  Okay?
+[04:44.000 --> 04:49.000]  Why do perceptions and judgment shortcuts matter in the workplace?
+[04:49.000 --> 04:52.000]  Well, they matter for a number of different reasons.
+[04:52.000 --> 04:56.000]  You know, they matter in interviews.
+[04:56.000 --> 05:04.000]  So it's fair to say that very few people are hired without really undergoing an interview.
+[05:04.000 --> 05:09.000]  But interviewers often can make snap judgments.
+[05:09.000 --> 05:18.000]  So we form impressions of others within like tenth of a second based on our first plans, right?
+[05:18.000 --> 05:27.000]  Research also shows that most interviewers, they make their decision within four to five minutes of interacting with you.
+[05:27.000 --> 05:28.000]  Okay?
+[05:28.000 --> 05:35.000]  So these early impressions really do stick even if they're inaccurate.
+[05:35.000 --> 05:47.000]  And one of the things you'll learn later on is that interviews, even though they should be structured, oftentimes they lack structure, like in terms of how the questions are asked.
+[05:47.000 --> 05:55.000]  And then interviewers vary in terms of what exactly they should be looking for in the candidate, although that shouldn't be the case.
+[05:55.000 --> 05:58.000]  You should have a pre-determined criteria.
+[05:58.000 --> 06:07.000]  So judgments of the same candidate can vary as a result of these two mistakes, I would call them.
+[06:07.000 --> 06:08.000]  Right?
+[06:08.000 --> 06:15.000]  So interview judgment can be biased, it can be inconsistent, which can impact hiring qualities.
+[06:15.000 --> 06:18.000]  The second has to do with performance expectations.
+[06:18.000 --> 06:30.000]  So there's evidence to indicate that people will attempt to validate their perceptions of reality, even when those perceptions are inaccurate or they're faulty.
+[06:30.000 --> 06:37.000]  So this kind of leads to the self-fulfilling prophecy, and I provided you with the definition on the slide.
+[06:37.000 --> 06:43.000]  But it's basically people behave in ways that confirm other people's expectations.
+[06:43.000 --> 06:57.000]  So if a manager expects high performance, self-fulfilling prophecy will basically indicate that those employees would rise to those expectations.
+[06:57.000 --> 07:07.000]  Similarly, if a manager expects very little from you, self-fulfilling prophecy would indicate that performance would decline.
+[07:07.000 --> 07:17.000]  So the key point here really is that our expectations can shape others' behaviors for better or worse.
+[07:17.000 --> 07:26.000]  And then there's performance evaluations, and this may vary depending on the perceptual process as well.
+[07:26.000 --> 07:34.000]  An employee's future, as we all know, is closely tied to how they're appraised.
+[07:34.000 --> 07:40.000]  Promotions, pay raises, continuation of employment.
+[07:40.000 --> 07:51.000]  These are one of the most obvious outcomes associated with the appraisal process.
+[07:52.000 --> 07:56.000]  The appraisal process should be objective.
+100.69.197.53 - - [24/Sep/2025 17:16:11] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:14] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:17] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:20] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:23] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:26] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:29] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:32] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:35] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:38] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:41] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:44] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:47] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:50] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:53] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:56] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:16:59] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:02] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:05] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:08] "GET /status/29 HTTP/1.1" 200 -
+[07:56.000 --> 08:13.000]  So for example, you should be evaluated on if it's sales, maybe it's the number of sales you make, or the number that you bring in, like your revenue generation.
+[08:14.000 --> 08:21.000]  But many jobs, which shouldn't be the case, are evaluated on subjective terms.
+[08:21.000 --> 08:28.000]  So subjective evaluations can come in, but they're problematic.
+[08:28.000 --> 08:38.000]  Why? Because of the errors that I actually asked you to quickly have a look at on this particular slide deck.
+[08:38.000 --> 08:46.000]  A lot of the errors that I've mentioned can actually affect those subjective evaluations.
+[08:46.000 --> 08:56.000]  So these are just some of the ways in which perceptions and judgments can impact us in the workplace.
+[08:56.000 --> 09:05.000]  And so it's very important for us to understand what they are and the implications that they can have.
+[09:05.000 --> 09:12.000]  In order to overcome the implications, the negative implications, we really need to understand what they are.
+[09:12.000 --> 09:20.000]  So didn't we get the chance to look through the shortcuts of these slides here?
+[09:20.000 --> 09:26.000]  Like these ones, the stereotypes and all that.
+[09:26.000 --> 09:32.000]  I mean, it's pretty straightforward, but I will say this, definitely know these.
+[09:32.000 --> 09:35.000]  This will probably be on your multiple choice.
+[09:35.000 --> 09:41.000]  And so understand what's meant by each one of them.
+[09:43.000 --> 09:45.000]  So know the definition.
+[09:45.000 --> 09:52.000]  And if you have any difficulty understanding it, you refer to your textbook or just come to me.
+[09:52.000 --> 09:56.000]  But let me talk a little bit about primacy and recency.
+[09:56.000 --> 10:00.000]  There's another thing. I think I did see it in the multiple choice.
+[10:00.000 --> 10:03.000]  So privacy and recency.
+[10:03.000 --> 10:08.000]  So do definitely know all of these, understand what's meant by all of these.
+[10:08.000 --> 10:11.000]  Know the definitions which are provided on my slide deck.
+[10:11.000 --> 10:16.000]  But let me just spend a few minutes talking about primacy and recency.
+[10:16.000 --> 10:20.000]  So this is one error or bias that can kick in.
+[10:20.000 --> 10:31.000]  So primacy in a nutshell is basically where you're relying on information that was presented at the beginning and not so much at the end.
+[10:31.000 --> 10:34.000]  So just understand that in layman terms.
+[10:34.000 --> 10:40.000]  There's a lot of jargon that's on the slide, but just understand what's meant by that.
+[10:40.000 --> 10:48.000]  So primacy, you're focusing on the initial information provided to you, not so much the latter.
+[10:48.000 --> 10:50.000]  Recency is the opposite.
+[10:50.000 --> 10:57.000]  So if you think of recency, it means that the recent events have more weightage than the initial events.
+[11:01.000 --> 11:03.000]  So let me give you an example.
+[11:03.000 --> 11:08.000]  So I'm evaluating you as a student.
+[11:08.000 --> 11:12.000]  And you have about 12 weeks to go.
+[11:13.000 --> 11:25.000]  So primacy effect would be pay more attention to how you did in the first three classes as opposed to anything that followed after.
+[11:25.000 --> 11:33.000]  Recency effect is I focus more on the last three classes as opposed to what happened before that.
+[11:33.000 --> 11:35.000]  Does that make sense?
+[11:35.000 --> 11:40.000]  So that's the clear, that's the layman terms distinction between the two.
+[11:42.000 --> 11:44.000]  Am I able to?
+[11:44.000 --> 11:46.000]  Yeah.
+[11:46.000 --> 11:47.000]  Okay.
+[11:47.000 --> 11:56.000]  Definitely remember that distinction between the two because the hint is that this is one of, it will have primacy and recency in there.
+[11:56.000 --> 11:57.000]  Okay.
+[11:57.000 --> 12:01.000]  But obviously also know the other definitions too.
+[12:01.000 --> 12:05.000]  So just understand what's meant by the definition.
+[12:05.000 --> 12:08.000]  But attribution is definitely on there.
+[12:08.000 --> 12:11.000]  That's like, I can't emphasize it enough.
+[12:11.000 --> 12:16.000]  It is definitely on there and that's basically why I spent so much time talking about it.
+[12:16.000 --> 12:17.000]  Okay?
+[12:17.000 --> 12:19.000]  Attribution view.
+[12:19.000 --> 12:20.000]  Yes?
+[12:20.000 --> 12:21.000]  Okay.
+[12:21.000 --> 12:22.000]  All right.
+[12:22.000 --> 12:24.000]  So any questions about this?
+[12:24.000 --> 12:27.000]  I know I like, I know it's so fast.
+[12:27.000 --> 12:29.000]  I'm going to cover most of it.
+[12:29.000 --> 12:35.000]  Any questions about perceptions or attribution, anything like that?
+[12:35.000 --> 12:36.000]  No?
+[12:36.000 --> 12:37.000]  Okay.
+[12:37.000 --> 12:38.000]  All right.
+[12:38.000 --> 12:45.000]  So now what I want to do is I want to spend some time talking about values, attitudes, and work behaviors.
+[12:45.000 --> 12:46.000]  Okay?
+[12:46.000 --> 12:49.000]  So a few things to note here.
+[12:49.000 --> 12:52.000]  You should know Hoxsets' framework for assessing culture.
+[12:52.000 --> 13:00.000]  And then we're going to talk about two of the attitudes that are out there, job satisfaction and organizational commitment.
+[13:00.000 --> 13:02.000]  So what are values?
+[13:02.000 --> 13:03.000]  Okay.
+[13:03.000 --> 13:11.000]  So values are concepts or beliefs that guide how we evaluate behaviors and events.
+[13:11.000 --> 13:12.000]  Okay?
+[13:12.000 --> 13:14.000]  And as well as how we make decisions.
+[13:14.000 --> 13:18.000]  So they basically represent our basic conviction.
+[13:18.000 --> 13:24.000]  They tell us what we see as right, as good, or desirable.
+[13:24.000 --> 13:25.000]  Okay?
+[13:25.000 --> 13:30.000]  Why are values important?
+[13:30.000 --> 13:32.000]  Well, they are motivational.
+[13:32.000 --> 13:33.000]  Right?
+[13:33.000 --> 13:35.000]  So they kind of drive our action.
+[13:35.000 --> 13:37.000]  And they're also very general.
+[13:37.000 --> 13:44.000]  So they influence a wide range of behaviors across different situations.
+[13:44.000 --> 13:45.000]  Okay?
+[13:45.000 --> 13:51.000]  They tend to be relatively stable and enduring over time.
+[13:51.000 --> 13:58.000]  So it kind of consists of our consistent internal framework.
+[13:59.000 --> 14:10.000]  Now, when it comes to value systems, it's important to know, and this will probably resonate with you, that we don't hold all our values to work.
+[14:10.000 --> 14:11.000]  Right?
+[14:11.000 --> 14:20.000]  Instead, we have a value system where some values are more central or intense than others.
+[14:20.000 --> 14:23.000]  So they matter a little bit more to us than others.
+[14:23.000 --> 14:24.000]  Okay?
+[14:24.000 --> 14:35.000]  And so this value system, it kind of shapes how we prioritize decisions, how we resolve conflicts between the values.
+[14:35.000 --> 14:36.000]  Right?
+[14:36.000 --> 14:42.000]  Like, for example, do you choose between autonomy or conformity?
+[14:42.000 --> 14:43.000]  Like, it depends.
+[14:43.000 --> 14:44.000]  Right?
+[14:44.000 --> 14:48.000]  Now, where do most of our values come from?
+[14:48.000 --> 14:51.000]  Well, they are formed early in life.
+[14:51.000 --> 14:52.000]  Right?
+[14:52.000 --> 14:58.000]  So they really come from our parents, our teachers, our peers, our societies.
+[14:58.000 --> 15:05.000]  Though what might actually happen is as we grow older, we might actually question our values.
+[15:05.000 --> 15:06.000]  Right?
+[15:06.000 --> 15:14.000]  And in some cases, that reinforces our values, but in other cases, it changes our values.
+[15:14.000 --> 15:15.000]  Okay?
+[15:16.000 --> 15:23.000]  So this actually brings me to a very important point, which is that not everyone shares the same values.
+[15:23.000 --> 15:30.000]  So we actually see value differences, and I'll be talking about the generational as well as the cultural.
+[15:30.000 --> 15:31.000]  Okay?
+100.69.197.53 - - [24/Sep/2025 17:17:11] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:14] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:17] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:20] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:23] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:26] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:29] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:32] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:35] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:38] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:41] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:44] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:47] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:50] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:53] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:56] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:17:59] "GET /status/29 HTTP/1.1" 200 -
+[15:31.000 --> 15:43.000]  So just very quickly, when it comes to the generational differences, so each generation grows in a very different context.
+[15:43.000 --> 15:44.000]  Right?
+[15:44.000 --> 15:49.000]  Post-war versus what we're now seeing, like the digital age.
+[15:49.000 --> 15:54.000]  And these shape our values quite differently.
+[15:54.000 --> 15:55.000]  Right?
+[15:55.000 --> 16:07.000]  And because of that, they can have very profound implications on such things as work ethics or leadership preferences and so forth.
+[16:07.000 --> 16:08.000]  Okay?
+[16:08.000 --> 16:13.000]  That's all you really need to know about generational differences for now.
+[16:13.000 --> 16:20.000]  Cultural factors or cultures are breathing within our culture.
+[16:20.000 --> 16:21.000]  Right?
+[16:21.000 --> 16:25.000]  That can also influence which values are in society.
+[16:25.000 --> 16:33.000]  So like for example, individualism in the West, collectivism in the East, and many of the Eastern societies.
+[16:33.000 --> 16:34.000]  Right?
+[16:34.000 --> 16:40.000]  So while there are differences in values, and you know, I briefly touched upon generational.
+[16:40.000 --> 16:49.000]  I'm going to spend a little bit more time talking about cultural value differences, and that is testable material in the multiple choice format.
+[16:49.000 --> 16:50.000]  Okay?
+[16:50.000 --> 16:55.000]  So before I do that, it's really important for me to define culture for you.
+[16:55.000 --> 17:14.000]  So culture is basically, in a nutshell, the shared values, beliefs, motives, interpretations that result from common experiences of members of a society.
+[17:14.000 --> 17:17.000]  And they do tend to be transmitted across cultures.
+[17:17.000 --> 17:18.000]  Right?
+[17:18.000 --> 17:35.000]  So most of the cross-cultural research really focuses on shared cultural values, which like it says on your slide, are shared beliefs about desirable and state or modes of conduct in each culture.
+[17:35.000 --> 17:36.000]  Okay?
+[17:36.000 --> 17:44.000]  So these basically reflect, in a nutshell, the way these things should be done in each culture.
+[17:44.000 --> 17:46.000]  Okay?
+[17:46.000 --> 17:54.000]  So you can actually think of cultural values as capturing what cultures are like.
+[17:54.000 --> 18:03.000]  So we might use adjectives like traditional or informal or risk aversive or assertive.
+[18:03.000 --> 18:10.000]  These are all examples of values that can be used to summarize a nation.
+[18:10.000 --> 18:13.000]  Okay?
+[18:13.000 --> 18:16.000]  Now, what are the most, so know this one.
+[18:16.000 --> 18:17.000]  Okay?
+[18:17.000 --> 18:42.000]  So one of the most well-known taxonomy of cultural values was derived from the landmark studies in the late 1960s as well as early 70s, and it was done by Hofstad, who basically analyzed 116,000 IBM employees from 76 countries, and it was done so in 2011.
+[18:42.000 --> 18:43.000]  Okay?
+[18:43.000 --> 18:46.000]  So what did this research find?
+[18:46.000 --> 18:55.000]  So this research found that employees working in different countries, they tend to prioritize different values.
+[18:55.000 --> 18:56.000]  Okay?
+[18:56.000 --> 19:02.000]  And these values can actually be clustered into several distinct dimensions.
+[19:02.000 --> 19:08.000]  So the initial studies reveal those dimensions as what you see in the first form.
+[19:08.000 --> 19:16.000]  So power distance, uncertainty avoidance, masculinity and femininity, and then individualism and collective excess.
+[19:16.000 --> 19:27.000]  Then there was a subsequent study, and that added a fifth dimension to the taxonomy, which was known as long-term versus short-term orientation.
+[19:27.000 --> 19:32.000]  And then a more recent extension added a sixth dimension, which was indulgence versus restraint.
+[19:32.000 --> 19:33.000]  Okay?
+[19:33.000 --> 19:36.000]  So his research basically shows that countries vary on their scores on these dimensions.
+[19:36.000 --> 19:37.000]  Right?
+[19:37.000 --> 19:42.000]  So it's basically actually, even if you just Google Hofstad, you can see that there's a lot of different things that are in there.
+[19:43.000 --> 19:50.000]  So this research basically shows that countries vary on their scores on these dimensions.
+[19:50.000 --> 19:51.000]  Right?
+[19:51.000 --> 20:03.000]  So it's basically actually, even if you just Google Hofstad, cross-cultural differences scale, it will bring you to a link.
+[20:03.000 --> 20:07.000]  And if you're interested, I can provide that link for you for your own major.
+[20:07.000 --> 20:15.000]  So if you're a student, like perhaps you're considering working in a different country and you want to know how different is it in Canada, you can do that comparison.
+[20:15.000 --> 20:17.000]  So I can put that up for you.
+[20:17.000 --> 20:28.000]  But it provides you with this quantitative tool which you can use to basically compare and contrast the culture of these different countries.
+[20:28.000 --> 20:29.000]  Okay?
+[20:29.000 --> 20:33.000]  So let's walk through each one of these very quickly.
+[20:33.000 --> 20:37.000]  So the first one has to do with power distance.
+[20:37.000 --> 20:44.000]  So power distance really has to do with how much people accept equality in power.
+[20:44.000 --> 20:45.000]  Okay?
+[20:45.000 --> 20:53.000]  So high power distance means that people accept inequality in power.
+[20:53.000 --> 20:54.000]  Okay?
+[20:54.000 --> 21:02.000]  So inequality in power among institutions, among organizations, among individuals.
+[21:02.000 --> 21:03.000]  Right?
+[21:03.000 --> 21:09.000]  So power basically is distributed unequally within organizations.
+[21:09.000 --> 21:12.000]  Okay?
+[21:12.000 --> 21:16.000]  What do you think might be some countries that fall under this?
+[21:16.000 --> 21:19.000]  Where might you see high power distance?
+[21:19.000 --> 21:22.000]  So power is not the same.
+[21:22.000 --> 21:23.000]  Where might that be?
+[21:23.000 --> 21:24.000]  Which countries?
+[21:24.000 --> 21:25.000]  Yes?
+[21:25.000 --> 21:26.000]  Yeah?
+[21:26.000 --> 21:27.000]  Japan.
+[21:27.000 --> 21:29.000]  Japan, sure.
+[21:29.000 --> 21:30.000]  North Korea.
+[21:30.000 --> 21:32.000]  North Korea, sure.
+[21:32.000 --> 21:34.000]  Anyone else?
+[21:34.000 --> 21:35.000]  Russia.
+[21:35.000 --> 21:37.000]  Russia, sure.
+[21:37.000 --> 21:39.000]  US.
+[21:39.000 --> 21:42.000]  US actually falls in between.
+[21:42.000 --> 21:43.000]  Okay?
+[21:43.000 --> 21:50.000]  But it falls in between.
+[21:50.000 --> 21:52.000]  I will say this.
+[21:52.000 --> 21:57.000]  More of the eastern countries tend to demonstrate this.
+[21:57.000 --> 22:02.000]  So you might see it in China, you might see it in Egypt, you might see it in Mexico.
+[22:02.000 --> 22:03.000]  Right?
+[22:03.000 --> 22:09.000]  Low power distance is basically where people expect equality in power.
+[22:09.000 --> 22:16.000]  And so countries that value low power distance are like Sweden, Germany,
+[22:16.000 --> 22:20.000]  and the United States will certainly extend as well.
+[22:20.000 --> 22:21.000]  Okay?
+[22:21.000 --> 22:23.000]  So do we understand power distance?
+[22:23.000 --> 22:24.000]  Okay.
+[22:24.000 --> 22:31.000]  Uncertainty avoidance, this has to do with the extent to which people feel threatened
+[22:31.000 --> 22:34.000]  about unknown situations.
+[22:34.000 --> 22:35.000]  Okay?
+[22:35.000 --> 22:36.000]  No.
+[22:36.000 --> 22:43.000]  So high uncertainty avoidance means that members of that country, members of that society,
+[22:43.000 --> 22:46.000]  feel uncomfortable with uncertainty.
+[22:46.000 --> 22:47.000]  Right?
+[22:47.000 --> 22:51.000]  They feel uncertain more than they do.
+[22:51.000 --> 22:58.000]  And so they support beliefs and behaviors that promise uncertainty and conformity.
+[22:58.000 --> 23:05.000]  So high uncertainty avoidance includes countries like Greece, Japan, South Korea.
+[23:05.000 --> 23:06.000]  Okay?
+100.69.197.53 - - [24/Sep/2025 17:18:02] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:18:05] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:18:08] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:18:11] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:18:14] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:18:17] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:18:20] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:18:23] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:18:26] "GET /status/29 HTTP/1.1" 200 -
+100.69.197.53 - - [24/Sep/2025 17:18:29] "GET /status/29 HTTP/1.1" 200 -
+[23:06.000 --> 23:14.000]  Low uncertainty avoidance means that people have like a high tolerance for unstructured
+[23:14.000 --> 23:19.000]  or unclear or unpredictable or ambiguous situations.
+[23:19.000 --> 23:20.000]  Right?
+[23:20.000 --> 23:27.000]  So Singapore and Jamaica are two countries that have been found to have low uncertainty avoidance.
+[23:27.000 --> 23:30.000]  You don't need to know the example of the country.
+[23:30.000 --> 23:31.000]  That's too much.
+[23:31.000 --> 23:35.000]  Just understand what is meant by it.
+[23:35.000 --> 23:36.000]  Okay?
+[23:36.000 --> 23:37.000]  All right.
+[23:37.000 --> 23:39.000]  So we understand that, right?
+[23:39.000 --> 23:41.000]  Uncertainty avoidance.
+[23:41.000 --> 23:42.000]  Okay.
+[23:42.000 --> 23:46.000]  Now I'm going to talk about masculinity and femininity.
+[23:46.000 --> 23:53.000]  And so there's a lot that's on this slide, but just to summarize it for you, masculinity
+[23:53.000 --> 24:00.000]  reflects a preference for achievement, for power, for control, for assertiveness.
+[24:00.000 --> 24:05.000]  So what would have stereotypically been male traits?
+[24:05.000 --> 24:06.000]  Okay.
+[24:06.000 --> 24:13.000]  So Italy, Japan, Austria, these are countries with very strong masculine values.
+[24:13.000 --> 24:21.000]  Femininity, values, cooperation, group decision making, quality of life.
+[24:21.000 --> 24:25.000]  So these are like stereotypically female traits.
+[24:25.000 --> 24:26.000]  Right?
+[24:27.000 --> 24:33.000]  And so countries with strong feminine values, according to this research, are Sweden, are
+[24:33.000 --> 24:35.000]  Norway, are Denmark.
+[24:35.000 --> 24:36.000]  Okay?
+[24:36.000 --> 24:40.000]  So that's the easiest way to know masculinity and femininity.
+[24:40.000 --> 24:46.000]  If you see it, it just means more masculine traits, so assertiveness, power, control,
+[24:46.000 --> 24:52.000]  and then femininity is like more feminine traits, cooperation, group, everything group
+[24:52.000 --> 24:55.000]  decision making and all that stuff.
+[24:56.000 --> 25:02.000]  Individualism, collectivism, this is probably what you are most familiar with.
+[25:02.000 --> 25:03.000]  Right?
+[25:03.000 --> 25:10.000]  So individualism loosely myths social framework in which people are expected to take care
+[25:10.000 --> 25:11.000]  of themselves.
+[25:11.000 --> 25:20.000]  So countries that are individualistic are Great Britain, United States, Canada.
+[25:20.000 --> 25:21.000]  Right?
+[25:21.000 --> 25:25.000]  Collectivism, tightly myths social framework.
+[25:25.000 --> 25:26.000]  Right?
+[25:26.000 --> 25:28.000]  Where people look out for one another.
+[25:28.000 --> 25:33.000]  Where in an organization they actually protect one another's interests.
+[25:33.000 --> 25:39.000]  So countries with collectivistic values would be India, China, the Ecuador.
+[25:39.000 --> 25:40.000]  Okay?
+[25:40.000 --> 25:41.000]  Right?
+[25:41.000 --> 25:44.000]  Does that help you with the distinction?
+[25:44.000 --> 25:45.000]  Yeah.
+[25:45.000 --> 25:46.000]  Good.
+[25:46.000 --> 25:48.000]  Am I going too fast?
+[25:48.000 --> 25:49.000]  Yes?
+[25:49.000 --> 25:50.000]  No?
+[25:50.000 --> 25:51.000]  Let me know.
+[25:51.000 --> 25:52.000]  I can stop.
+[25:52.000 --> 25:53.000]  Okay.
+[25:53.000 --> 25:54.000]  Time orientation.
+[25:54.000 --> 25:59.000]  So there is short term versus long term.
+[25:59.000 --> 26:06.000]  So short term, basically you are emphasizing the past and the present.
+[26:06.000 --> 26:09.000]  Long term, you're looking into the future.
+[26:09.000 --> 26:10.000]  Right?
+[26:10.000 --> 26:19.000]  So short term oriented countries, they tend to stress values that are past or present
+[26:19.000 --> 26:20.000]  and future oriented.
+[26:20.000 --> 26:22.000]  So here we're talking about things like tradition.
+[26:22.000 --> 26:23.000]  Right?
+[26:23.000 --> 26:25.000]  Or respect for tradition.
+[26:25.000 --> 26:29.000]  We're also talking about things like fulfilling obligations currently.
+[26:29.000 --> 26:30.000]  Okay?
+[26:30.000 --> 26:37.000]  So United States, Germany, Kenya, these are countries with short term orientation.
+[26:37.000 --> 26:42.000]  Long term means you are stressed, you're more future oriented.
+[26:42.000 --> 26:43.000]  Right?
+[26:43.000 --> 26:50.000]  So you're looking at things like persistence, thrift, and things like that.
+[26:50.000 --> 26:51.000]  Right?
+[26:51.000 --> 26:57.000]  So Brazil, China, Japan, they tend to be more long term oriented.
+[26:57.000 --> 27:02.000]  Now remember, this is a more recently established dimension.
+[27:02.000 --> 27:06.000]  And so it isn't fully there yet.
+[27:06.000 --> 27:09.000]  There is some contradictory evidence here.
+[27:09.000 --> 27:10.000]  Okay?
+[27:10.000 --> 27:15.000]  But having said that, I just want you to remember the distinction.
+[27:15.000 --> 27:20.000]  Short term orientation, you're focusing more on the past or the present.
+[27:20.000 --> 27:24.000]  So you're focusing more on tradition or fulfilling obligations.
+[27:24.000 --> 27:29.000]  Long term orientation, you're focusing more on the future.
+[27:29.000 --> 27:32.000]  Okay?
+[27:32.000 --> 27:36.000]  And the last one is indulgence and restraint.
+[27:36.000 --> 27:39.000]  So this actually is on the scale as well.
+[27:39.000 --> 27:46.000]  So an indulgent culture is one that values expressions and desires related to freedom,
+[27:46.000 --> 27:48.000]  to leisure, to activity.
+[27:48.000 --> 27:54.000]  And so examples would be United States, Brazil, and Netherlands, and places of research.
+[27:54.000 --> 27:59.000]  And a restraint culture is one that values stricter social norms.
+[27:59.000 --> 28:03.000]  So you're focusing more on order or regulation.
+[28:03.000 --> 28:04.000]  Okay?
+[28:04.000 --> 28:07.000]  So indulgence, freedom of speech, for example.
+[28:07.000 --> 28:15.000]  Anything that allows you, right, like freedom of speech, freedom of leisure, activity, and so forth.
+[28:15.000 --> 28:19.000]  Restraint, there's more order and regulation for it to play.
+[28:19.000 --> 28:26.000]  So China, Italy, Japan are more of the restraint culture.
+[28:26.000 --> 28:27.000]  Okay?
+[28:27.000 --> 28:29.000]  Again, you don't need to know the countries, right?
+[28:29.000 --> 28:33.000]  To understand the distinction.
+[28:33.000 --> 28:36.000]  So do we understand that?
+[28:36.000 --> 28:42.000]  Okay, so you'll know that there are six dimensions, and you'll understand the definition.
+[28:42.000 --> 28:48.000]  If you understand how I laid it out for you, you should be fine on the midterm.
+[28:48.000 --> 28:50.000]  I think there's one question on this.
+[28:50.000 --> 28:52.000]  I don't quite remember what it was.
+[28:52.000 --> 28:54.000]  Okay.
+[28:54.000 --> 28:56.000]  I'm going to skip this.
+[28:56.000 --> 29:02.000]  It would have been a participation opportunity, but you've already all participated.
+[29:02.000 --> 29:06.000]  I'm not sure if there's anyone that hasn't participated this week.
+[29:06.000 --> 29:08.000]  This week.
+[29:08.000 --> 29:10.000]  Okay.
+[29:10.000 --> 29:15.000]  I'm going to just beat through it so that I can finish this and let you go.
+[29:15.000 --> 29:17.000]  Okay.
+[29:17.000 --> 29:23.000]  So this is another way I did it.
+[29:23.000 --> 29:31.000]  But like in a nutshell of what I had just said, this is my other way of displaying it.
+[29:31.000 --> 29:34.000]  So that's another thing that you can take into account.
+[29:34.000 --> 29:38.000]  If you didn't want to read my full notes, read this.
+[29:38.000 --> 29:40.000]  Okay.
+[29:40.000 --> 29:49.000]  But what this is showing you is that, again, if you click on that link, it compares and contrasts each of the cultures, right?
+[29:49.000 --> 29:56.000]  And so what we're seeing here is that these are the countries, and that's basically how they do it.
+[29:56.000 --> 30:05.000]  Kind of like, okay, for example, when it comes to power and distance, the one in yellow is the highest, which is Mexico.
+[30:05.000 --> 30:09.000]  But then Mexico is more collectivistic.
+[30:09.000 --> 30:16.000]  It is probably more feminine, and I don't know what happened to long-term, and maybe they don't have enough research over there.
+[30:16.000 --> 30:25.000]  So this is just kind of showing you that countries can be compared and contrasted on these six dimensions.
+[30:25.000 --> 30:27.000]  Okay?
+[30:27.000 --> 30:30.000]  All right.
+[30:30.000 --> 30:31.000]  Okay.
+[30:31.000 --> 30:33.000]  Now let's talk about attitude.
+[30:33.000 --> 30:34.000]  Okay.
+[30:34.000 --> 30:37.000]  So I always like to start off with a definition.
+[30:37.000 --> 30:39.000]  And so what is an attitude?
+[30:39.000 --> 30:53.000]  Well, an attitude, like it says on your slide, is a fairly stable, valued tendency to respond consistently to some specific object, situation, person, or a category of people.
+[30:53.000 --> 30:59.000]  So there are three parts of this definition that I kind of want to draw your attention to.
+[30:59.000 --> 31:02.000]  The first is that attitudes are stable.
+[31:02.000 --> 31:04.000]  Okay?
+[31:04.000 --> 31:08.000]  So they don't change quickly or that easily.
+[31:08.000 --> 31:09.000]  All right?
+[31:09.000 --> 31:20.000]  If your feelings towards your boss, for example, changes on a daily basis, we won't call that an attitude because it's not stable.
+[31:20.000 --> 31:21.000]  All right?
+[31:21.000 --> 31:23.000]  It's too changeable.
+[31:23.000 --> 31:25.000]  So instead we say feelings.
+[31:25.000 --> 31:27.000]  It's not an attitude.
+[31:27.000 --> 31:29.000]  Okay?
+[31:29.000 --> 31:31.000]  The next is that it's evaluative.
+[31:31.000 --> 31:32.000]  Okay?
+[31:32.000 --> 31:34.000]  So I kind of italicized it.
+[31:34.000 --> 31:35.000]  So evaluative.
+[31:35.000 --> 31:41.000]  That means it actually indicates to us how much we like or dislike something.
+[31:41.000 --> 31:43.000]  Okay?
+[31:43.000 --> 31:49.000]  And the third is that attitudes are specific, right, to a certain target.
+[31:49.000 --> 31:53.000]  So they differ from values in that sense.
+[31:53.000 --> 31:58.000]  Values tend to be a little bit more broader in scope.
+[31:59.000 --> 32:03.000]  Attitudes, not so much, right?
+[32:03.000 --> 32:11.000]  It's actually to a specific object, to a specific situation, to a specific person, or a specific category of people.
+[32:11.000 --> 32:12.000]  Okay?
+[32:12.000 --> 32:18.000]  Attitudes, they tend to be more of hypothetical constructs that you probably will not understand right now.
+[32:18.000 --> 32:20.000]  You will understand it really well.
+[32:20.000 --> 32:24.000]  But what that means is like we can't really see attitudes.
+[32:24.000 --> 32:25.000]  Right?
+[32:26.000 --> 32:28.000]  We can attempt to measure them.
+[32:28.000 --> 32:35.000]  Of course, I can give you a scale or a questionnaire and I can get your attitudes on something.
+[32:35.000 --> 32:42.000]  But it's not something that we can actually see.
+[32:42.000 --> 32:44.000]  Okay?
+[32:44.000 --> 32:45.000]  All right.
+[32:45.000 --> 32:48.000]  Now, where do attitudes come from?
+[32:48.000 --> 32:54.000]  So like just down the street at University of Waterloo, Marzana,
+[32:54.000 --> 32:56.000]  he's a psychology professor.
+[32:56.000 --> 33:02.000]  He's famous for his work on attitudes, right?
+[33:02.000 --> 33:09.000]  And so his research found that there are actually three components, or I would say antecedents, to attitudes.
+[33:09.000 --> 33:13.000]  So the first component is a cognitive component.
+[33:13.000 --> 33:19.000]  So this comprises of your thoughts and beliefs about the attitude object.
+[33:19.000 --> 33:24.000]  So for example, my attitude towards playing soccer, right?
+[33:24.000 --> 33:29.000]  I think playing soccer is a good way to exercise.
+[33:29.000 --> 33:33.000]  So I have positive thoughts about playing soccer.
+[33:33.000 --> 33:35.000]  Right?
+[33:35.000 --> 33:38.000]  The second has to do with affect.
+[33:38.000 --> 33:44.000]  So it has to do with your feelings or your emotion towards the attitude object.
+[33:45.000 --> 33:50.000]  So when I'm playing soccer, I'm actually quite happy, right?
+[33:50.000 --> 33:52.000]  Like it's fun to score.
+[33:52.000 --> 33:54.000]  I made a great pass.
+[33:54.000 --> 33:59.000]  And so I have positive feelings towards playing soccer.
+[33:59.000 --> 34:03.000]  And then the third and final component is a behavioral component.
+[34:03.000 --> 34:08.000]  So how do you behave with respect to the attitude object?
+[34:08.000 --> 34:11.000]  Well, I play soccer often.
+[34:11.000 --> 34:12.000]  Okay?
+[34:12.000 --> 34:15.000]  So three components, three antecedents, right?
+[34:15.000 --> 34:26.000]  So to create this stable, evaluative response to a specific object, situation, person, or category,
+[34:26.000 --> 34:28.000]  there needs to be three things that go in.
+[34:28.000 --> 34:30.000]  First is cognition.
+[34:30.000 --> 34:32.000]  So what happens up here, right?
+[34:32.000 --> 34:34.000]  Like your thoughts, your beliefs.
+[34:34.000 --> 34:36.000]  Your second is affect.
+[34:36.000 --> 34:37.000]  Right?
+[34:37.000 --> 34:40.000]  So that has to do with your emotions, your feelings.
+[34:40.000 --> 34:45.000]  And then behavioral, which has to do with how you actually act.
+[34:45.000 --> 34:47.000]  Okay?
+[34:47.000 --> 34:48.000]  All right.
+[34:48.000 --> 34:50.000]  So here's an example.
+[34:50.000 --> 34:53.000]  This is a negative attitude towards me.
+[34:53.000 --> 34:54.000]  Okay?
+[34:54.000 --> 34:55.000]  So cognitive.
+[34:55.000 --> 34:57.000]  Remember, it's the thoughts or feelings.
+[34:57.000 --> 35:00.000]  So I think Santa is me.
+[35:00.000 --> 35:01.000]  Right?
+[35:01.000 --> 35:04.000]  So I'm afraid of Santa.
+[35:04.000 --> 35:05.000]  That's a phrase.
+[35:05.000 --> 35:07.000]  Being afraid is a feeling.
+[35:07.000 --> 35:08.000]  Right?
+[35:08.000 --> 35:14.000]  And then what might be your action when I see her in the hallway and I run away?
+[35:14.000 --> 35:16.000]  Hopefully that's not the end of this.
+[35:16.000 --> 35:17.000]  Okay?
+[35:17.000 --> 35:21.000]  And here's another positive attitude towards Santa.
+[35:21.000 --> 35:24.000]  So cognitive, I think Santa is nice.
+[35:24.000 --> 35:25.000]  Right?
+[35:25.000 --> 35:28.000]  Affective would be I like Santa.
+[35:28.000 --> 35:35.000]  And then behavioral would be that when I see her in the hallways, I'm actually going to wait.
+[35:35.000 --> 35:36.000]  Okay?
+[35:38.000 --> 35:39.000]  So three components.
+[35:39.000 --> 35:41.000]  Santa, feelings, and attitudes.
+[35:41.000 --> 35:56.000]  Now, when we take this together, when we take together the thinking, the cognitive, the affective, and the behavioral component of attitude, we, your textbook actually does this.
+[35:56.000 --> 36:01.000]  It says it is a product of a related belief or a value.
+[36:01.000 --> 36:02.000]  Okay?
+[36:02.000 --> 36:06.000]  So why are we interested in attitudes?
+[36:06.000 --> 36:11.000]  Well, because your attitude can have an influence on your behavior.
+[36:11.000 --> 36:12.000]  Okay?
+[36:12.000 --> 36:14.000]  So notice this.
+[36:14.000 --> 36:27.000]  So the antecedents, what actually comprises of an attitude, remember it consists of cognition, affect, and then behavior.
+[36:27.000 --> 36:28.000]  Right?
+[36:28.000 --> 36:31.000]  And then an attitude that leads to a behavior.
+[36:31.000 --> 36:38.000]  So if you just look at it as it is, you see behavior on both sides of the equation.
+[36:38.000 --> 36:40.000]  Do you see that?
+[36:40.000 --> 36:46.000]  So behavior is on the bottom, but behavior is actually also on the top where it says action.
+[36:46.000 --> 36:47.000]  Right?
+[36:47.000 --> 36:50.000]  So what is that telling us?
+[36:50.000 --> 37:03.000]  It's telling us that, and it actually goes to the classic saying in organizational behavior, that past behavior is predictive of future behavior.
+[37:03.000 --> 37:05.000]  Okay?
+[37:05.000 --> 37:18.000]  That's why things like reference check, work history in forms of resumes, grade transcripts, these are sometimes asked by job recruiters.
+[37:18.000 --> 37:19.000]  Okay?
+[37:19.000 --> 37:20.000]  So that's that.
+[37:20.000 --> 37:22.000]  So why are we interested in attitudes?
+[37:22.000 --> 37:27.000]  Well, we're interested in attitudes because they predict behavior.
+[37:27.000 --> 37:30.000]  Okay?
+[37:30.000 --> 37:39.000]  But as we'll actually come to know, attitudes are not always the best predictors of behavior.
+[37:39.000 --> 37:42.000]  Okay?
+[37:42.000 --> 37:46.000]  Now, let's talk about some of the attitudes that are out there.
+[37:46.000 --> 37:47.000]  Okay?
+[37:47.000 --> 37:52.000]  So there is job satisfaction and then there's organizational commitment.
+[37:52.000 --> 37:54.000]  These are the two most common ones.
+[37:54.000 --> 37:56.000]  So what is job satisfaction?
+[37:56.000 --> 38:05.000]  So at its core, job satisfaction is a collection of attitudes that employees hold about their work.
+[38:05.000 --> 38:06.000]  Okay?
+[38:06.000 --> 38:10.000]  It reflects how people feel about their jobs.
+[38:10.000 --> 38:15.000]  So it's not just emotionally, but also cognitively.
+[38:15.000 --> 38:18.000]  And it's not just one single feeling.
+[38:18.000 --> 38:24.000]  It's a complex mix of thoughts and emotions about different aspects of work.
+[38:24.000 --> 38:25.000]  Okay?
+[38:25.000 --> 38:31.000]  And in a nutshell, it's how satisfied are you with your job?
+[38:31.000 --> 38:32.000]  Right?
+[38:32.000 --> 38:42.000]  And when we're trying to answer the question of how satisfied, we're thinking about not only how we feel at the job, but what we think about the job.
+[38:42.000 --> 38:43.000]  Okay?
+[38:43.000 --> 38:47.000]  So there are two aspects of satisfaction.
+[38:47.000 --> 38:59.000]  There is the global satisfaction, which basically has to do with your overall general feeling or thoughts about your job.
+[38:59.000 --> 39:00.000]  Right?
+[39:00.000 --> 39:07.000]  So basically, all things considered, how satisfied are you with your job?
+[39:08.000 --> 39:14.000]  And so this is a very broad summary evaluation of your job.
+[39:14.000 --> 39:16.000]  Okay?
+[39:16.000 --> 39:20.000]  Does that make sense?
+[39:20.000 --> 39:28.000]  So if I was to be asked how satisfied am I at my workplace, it's a very broad question.
+[39:28.000 --> 39:29.000]  Right?
+[39:29.000 --> 39:34.000]  And therefore, I would give a very broad response and say, I'm satisfied.
+[39:34.000 --> 39:35.000]  Why am I satisfied?
+[39:35.000 --> 39:36.000]  Well, I feel good.
+[39:36.000 --> 39:39.000]  I feel good about what I do.
+[39:39.000 --> 39:40.000]  Right?
+[39:40.000 --> 39:44.000]  And I think I'm happy at Wilfrid Laurier.
+[39:44.000 --> 39:45.000]  Right?
+[39:45.000 --> 39:49.000]  So overall, I'm satisfied with my job.
+[39:49.000 --> 39:51.000]  That's global.
+[39:51.000 --> 39:59.000]  But then there is more specific aspects of a job that can be spoken to.
+[39:59.000 --> 40:00.000]  Right?
+[40:00.000 --> 40:02.000]  So these are where the facets come in.
+[40:03.000 --> 40:09.000]  So it's very self-explanatory, and I actually gave the definition on the next slide.
+[40:09.000 --> 40:11.000]  So just listen to it.
+[40:11.000 --> 40:12.000]  Okay?
+[40:12.000 --> 40:17.000]  So there's different ways that you can look at satisfaction within the job itself.
+[40:17.000 --> 40:18.000]  Right?
+[40:18.000 --> 40:20.000]  So now we're being more specific.
+[40:20.000 --> 40:24.000]  So one of the questions I can ask you is about pay.
+[40:24.000 --> 40:25.000]  Okay?
+[40:26.000 --> 40:33.000]  So pay satisfaction is about how satisfied are you with the compensation at your job.
+[40:33.000 --> 40:42.000]  Promotion satisfaction has to do with employees evaluating how the company handles promotions.
+[40:42.000 --> 40:43.000]  Right?
+[40:43.000 --> 40:47.000]  Or these decisions or executions of the promotion.
+[40:47.000 --> 40:49.000]  Like, is it based on fairness?
+[40:49.000 --> 40:50.000]  Is it based on ability?
+[40:50.000 --> 40:53.000]  Is it frequent?
+[40:53.000 --> 40:58.000]  Supervision satisfaction, as it says, how do you feel about your boss?
+[40:58.000 --> 41:03.000]  Like, do you feel like your boss is confident, polite, a good communicator?
+[41:03.000 --> 41:08.000]  Or do you feel like your boss is lazy, annoying, and too distant?
+[41:08.000 --> 41:09.000]  Right?
+[41:09.000 --> 41:15.000]  Coworker satisfaction, no-brainer there, that has to do with how you feel about people that you work with.
+[41:15.000 --> 41:16.000]  Right?
+[41:16.000 --> 41:20.000]  Are your coworkers smart, responsible, helpful?
+[41:20.000 --> 41:22.000]  Or are they gossipy?
+[41:22.000 --> 41:23.000]  Are they unpleasant?
+[41:23.000 --> 41:25.000]  Are they boring?
+[41:25.000 --> 41:28.000]  And then satisfaction with the work itself.
+[41:28.000 --> 41:29.000]  Right?
+[41:29.000 --> 41:32.000]  So it has to do with the actual work tasks.
+[41:32.000 --> 41:34.000]  Do you find them challenging?
+[41:34.000 --> 41:36.000]  Do you find them interesting?
+[41:36.000 --> 41:39.000]  Do you feel like they're using your skillset?
+[41:39.000 --> 41:40.000]  Or are they dull?
+[41:40.000 --> 41:42.000]  Are they repetitive?
+[41:42.000 --> 41:44.000]  Are they making you uncomfortable?
+[41:44.000 --> 41:45.000]  Okay?
+[41:45.000 --> 41:50.000]  So I've actually provided you with definitions of each on here.
+[41:50.000 --> 41:51.000]  Okay?
+[41:51.000 --> 41:55.000]  And so here I want you to take note of this.
+[41:55.000 --> 41:58.000]  So they're very different facets.
+[41:58.000 --> 42:01.000]  Very different facets of job satisfaction.
+[42:01.000 --> 42:02.000]  Right?
+[42:02.000 --> 42:04.000]  So I've listed them out.
+[42:04.000 --> 42:06.000]  What tends to happen is this.
+[42:06.000 --> 42:15.000]  If I was to not show you that graph and I said, which one of these do you think people feel more satisfaction with?
+[42:15.000 --> 42:17.000]  What do you think their response might be?
+[42:17.000 --> 42:20.000]  Like, which one matters more?
+[42:20.000 --> 42:21.000]  Money.
+[42:21.000 --> 42:22.000]  Right?
+[42:22.000 --> 42:23.000]  Yeah.
+[42:23.000 --> 42:25.000]  So you would probably say pay satisfaction.
+[42:25.000 --> 42:26.000]  Right?
+[42:26.000 --> 42:29.000]  It actually, it's not pay satisfaction.
+[42:29.000 --> 42:32.000]  It's the work itself.
+[42:32.000 --> 42:33.000]  Okay?
+[42:33.000 --> 42:44.000]  So the work itself, as you can see in the green bar at the far right, is the strongest driver of overall job satisfaction.
+[42:44.000 --> 42:47.000]  The supervisor and co-worker follow.
+[42:47.000 --> 42:49.000]  They're also strong drivers.
+[42:49.000 --> 42:55.000]  But at the very least, it's pay and promotion.
+[42:55.000 --> 43:00.000]  So why is it that satisfaction with work itself is so important?
+[43:00.000 --> 43:01.000]  Okay?
+[43:01.000 --> 43:02.000]  So consider this.
+[43:02.000 --> 43:08.000]  Consider that a typical work week is about 2400 minutes.
+[43:08.000 --> 43:09.000]  Right?
+[43:09.000 --> 43:12.000]  2400 minutes.
+[43:12.000 --> 43:16.000]  How much of that time do you think you're thinking about money?
+[43:21.000 --> 43:25.000]  On a weekly basis, how much are you really thinking about money?
+[43:25.000 --> 43:28.000]  One, one what?
+[43:28.000 --> 43:29.000]  One day?
+[43:29.000 --> 43:30.000]  One minute?
+[43:30.000 --> 43:31.000]  Minutes.
+[43:31.000 --> 43:32.000]  How many minutes?
+[43:32.000 --> 43:33.000]  One hour?
+[43:33.000 --> 43:34.000]  45 minutes.
+[43:34.000 --> 43:35.000]  30 minutes.
+[43:35.000 --> 43:36.000]  30 minutes.
+[43:36.000 --> 43:37.000]  Okay, sure.
+[43:37.000 --> 43:38.000]  At your stage maybe.
+[43:38.000 --> 43:39.000]  My stage?
+[43:39.000 --> 43:40.000]  No.
+[43:40.000 --> 43:43.000]  I'm going to wait for 10 minutes, maybe 20 minutes.
+[43:43.000 --> 43:44.000]  Right?
+[43:44.000 --> 43:45.000]  Because I'm older than you.
+[43:45.000 --> 43:46.000]  Right?
+[43:46.000 --> 43:47.000]  20 minutes.
+[43:47.000 --> 43:48.000]  Okay.
+[43:48.000 --> 43:50.000]  The same is true for promotions.
+[43:50.000 --> 43:51.000]  Right?
+[43:51.000 --> 43:57.000]  We want them, but we don't necessarily spend hours and hours and hours thinking about them
+[43:57.000 --> 43:58.000]  each day.
+[43:58.000 --> 43:59.000]  Right?
+[43:59.000 --> 44:06.000]  Now, we do spend quite a bit of our time, especially if you're face-to-face or even
+[44:06.000 --> 44:09.000]  in virtual spheres.
+[44:09.000 --> 44:12.000]  We spend a lot of our time with other people.
+[44:12.000 --> 44:13.000]  Right?
+[44:13.000 --> 44:18.000]  So, if you're in the work, like whatever it may be, you might see them in meetings,
+[44:18.000 --> 44:23.000]  you might see them at lunches, you might have hallway chats with them, you might have
+[44:23.000 --> 44:25.000]  other sorts of conversations.
+[44:25.000 --> 44:26.000]  Right?
+[44:26.000 --> 44:34.000]  So, easily we can spend about 600 minutes a week with our supervisors and coworkers.
+[44:34.000 --> 44:35.000]  Okay?
+[44:35.000 --> 44:42.000]  So, if you take all of that into consideration, you're left with like 1800 minutes per week.
+[44:42.000 --> 44:43.000]  Okay?
+[44:43.000 --> 44:44.000]  1800 minutes per week.
+[44:44.000 --> 44:46.000]  What are you actually doing?
+[44:46.000 --> 44:48.000]  You're doing your job.
+[44:48.000 --> 44:49.000]  Okay?
+[44:49.000 --> 44:55.000]  So, it is going to be ever so difficult for you to enjoy what you're doing if you do
+[44:55.000 --> 44:58.000]  not enjoy the tasks that are assigned to you.
+[44:58.000 --> 45:07.000]  So, that's why work itself is the highest or the strongest predictor of job satisfaction.
+[45:07.000 --> 45:10.000]  Do we understand that?
+[45:10.000 --> 45:11.000]  Yeah?
+[45:11.000 --> 45:12.000]  Okay, good.
+[45:12.000 --> 45:20.000]  Now, what this slide says is that job satisfaction is quite a simple construct.
+[45:20.000 --> 45:21.000]  Right?
+[45:21.000 --> 45:26.000]  But it's pretty much related to a whole host of things.
+[45:26.000 --> 45:27.000]  Right?
+[45:27.000 --> 45:34.000]  So, it's related to performance, it's related to withdrawal behaviors, it's related to
+[45:34.000 --> 45:35.000]  dysfunctional behaviors.
+[45:35.000 --> 45:36.000]  Right?
+[45:36.000 --> 45:43.000]  And we'll talk about these as we talk about the other concepts in OE.
+[45:43.000 --> 45:53.000]  But what this is telling us is that job satisfaction is one attitude that you really want to have
+[45:53.000 --> 45:55.000]  at the workplace.
+[45:55.000 --> 45:56.000]  Right?
+[45:56.000 --> 45:58.000]  Let's just look at withdrawal behaviors.
+[45:58.000 --> 46:04.000]  If you're not satisfied at your workplace, you are less likely to come in.
+[46:04.000 --> 46:07.000]  And eventually what will happen is you will leave.
+[46:07.000 --> 46:08.000]  Right?
+[46:08.000 --> 46:09.000]  Same thing.
+[46:09.000 --> 46:22.000]  If you're less likely to, what's the word I'm looking for, less likely to enjoy your
+[46:23.000 --> 46:30.000]  work, right, you're less likely to actually put in the effort to do the work.
+[46:30.000 --> 46:31.000]  Okay?
+[46:31.000 --> 46:34.000]  And so forth.
+[46:34.000 --> 46:40.000]  So, all in all, what I want you to take away from this is that it is related either positively
+[46:40.000 --> 46:45.000]  or negatively, and I have positive and negative written over there, to a number of different
+[46:45.000 --> 46:46.000]  outcomes.
+[46:46.000 --> 46:49.000]  But you don't necessarily have to know these outcomes.
+[46:49.000 --> 46:50.000]  Does that make sense?
+[46:50.000 --> 46:51.000]  Does that make sense?
+[46:51.000 --> 46:56.000]  You just have to know that job satisfaction is something that is actually very important.
+[46:56.000 --> 46:58.000]  And it should not be overlooked.
+[46:58.000 --> 46:59.000]  Okay?
+[46:59.000 --> 47:00.000]  Okay.
+[47:00.000 --> 47:05.000]  Now, here is the other thing.
+[47:05.000 --> 47:08.000]  So this one you want to understand.
+[47:08.000 --> 47:09.000]  Okay?
+[47:09.000 --> 47:13.000]  So I want to explain to you what the other attitude is.
+[47:13.000 --> 47:19.000]  This is known as organizational commitment, which like it says on your slide, is an attitude
+[47:19.000 --> 47:25.000]  that reflects the strength of the linkage between an employee and an organization.
+[47:25.000 --> 47:35.000]  So in a nutshell, it's basically the employer's employee's desire to stay within the organization.
+[47:35.000 --> 47:39.000]  Anyone?
+[47:39.000 --> 47:48.000]  So organizational commitment, it actually influences whether an employee stays a member
+[47:48.000 --> 47:56.000]  of the organization or whether they leave or pursue another job out there.
+[47:56.000 --> 47:57.000]  Okay?
+[47:57.000 --> 48:04.000]  So whether the employee is retained or whether it needs to turn over.
+[48:04.000 --> 48:05.000]  Okay?
+[48:05.000 --> 48:11.000]  Now, when it comes to organizational commitment, their desire to stay, I'm talking more about
+[48:11.000 --> 48:14.000]  it from the standpoint of voluntary.
+[48:14.000 --> 48:15.000]  Right?
+[48:16.000 --> 48:19.000]  Not so much what would be enforced.
+[48:19.000 --> 48:23.000]  That's like things that you will learn when you're taking HR, when we're talking about
+[48:23.000 --> 48:26.000]  layoffs and downsizing and whatnot.
+[48:26.000 --> 48:27.000]  Okay?
+[48:27.000 --> 48:31.000]  So I understand what is meant by organizational commitment.
+[48:31.000 --> 48:32.000]  We have the definition.
+[48:32.000 --> 48:38.000]  In a nutshell, it is basically one's desire to stay within an organization.
+[48:38.000 --> 48:39.000]  Okay?
+[48:39.000 --> 48:43.000]  Now, there are three forms of commitment.
+[48:43.000 --> 48:48.000]  There's affective, there's continuous, and there's normative.
+[48:48.000 --> 48:51.000]  So I want you to consider a scenario.
+[48:51.000 --> 48:52.000]  Okay?
+[48:52.000 --> 48:57.000]  So imagine that you have worked for your current employer for five years.
+[48:57.000 --> 48:58.000]  Right?
+[48:58.000 --> 49:05.000]  And you've recently been approached by a competing organization.
+[49:05.000 --> 49:10.000]  What would cause you to stay with your current organization?
+[49:10.000 --> 49:11.000]  Let me use this word here.
+[49:11.000 --> 49:14.000]  What are some reasons why you would want to stay?
+[49:14.000 --> 49:16.000]  Friendly coworkers.
+[49:16.000 --> 49:17.000]  Co-workers.
+[49:17.000 --> 49:18.000]  Okay.
+[49:22.000 --> 49:23.000]  Friendly.
+[49:23.000 --> 49:24.000]  Okay.
+[49:24.000 --> 49:25.000]  Anyone else?
+[49:28.000 --> 49:29.000]  Benefits.
+[49:29.000 --> 49:30.000]  Benefits.
+[49:34.000 --> 49:35.000]  Yeah?
+[49:35.000 --> 49:36.000]  Location.
+[49:36.000 --> 49:37.000]  Location.
+[49:37.000 --> 49:38.000]  Promotion.
+[49:44.000 --> 49:46.000]  Better chance at a promotion.
+[49:46.000 --> 49:47.000]  Promotion.
+[49:50.000 --> 49:52.000]  Promotion opportunity.
+[49:59.000 --> 50:00.000]  Work-life balance.
+[50:00.000 --> 50:02.000]  Work-life balance.
+[50:02.000 --> 50:04.000]  Work-life balance.
+[50:07.000 --> 50:08.000]  Work-life balance.
+[50:15.000 --> 50:16.000]  Work-code.
+[50:20.000 --> 50:22.000]  Like challenging work, right?
+[50:22.000 --> 50:23.000]  Yes.
+[50:23.000 --> 50:24.000]  Okay.
+[50:24.000 --> 50:25.000]  All right.
+[50:25.000 --> 50:26.000]  Okay.
+[50:26.000 --> 50:27.000]  The values.
+[50:27.000 --> 50:28.000]  Okay.
+[50:28.000 --> 50:29.000]  The values.
+[50:29.000 --> 50:30.000]  Okay.
+[50:30.000 --> 50:31.000]  Anyone else?
+[50:31.000 --> 50:32.000]  Okay.
+[50:32.000 --> 50:33.000]  Anyone else?
+[50:33.000 --> 50:34.000]  Did you have something, hon?
+[50:34.000 --> 50:45.000]  Well, I was going to say like being used to the system itself and if you only need a
+[50:45.000 --> 50:46.000]  certain training or anything.
+[50:46.000 --> 50:47.000]  So I'm switching that.
+[50:47.000 --> 50:48.000]  Okay.
+[50:48.000 --> 50:49.000]  So being in the system.
+[50:49.000 --> 50:50.000]  Okay.
+[50:51.000 --> 50:52.000]  Okay.
+[50:59.000 --> 51:01.000]  Here, established culture.
+[51:01.000 --> 51:03.000]  Established culture.
+[51:03.000 --> 51:05.000]  Enjoy the culture.
+[51:05.000 --> 51:06.000]  Sure.
+[51:06.000 --> 51:08.000]  Position A.
+[51:08.000 --> 51:10.000]  Position A.
+[51:14.000 --> 51:15.000]  Job security.
+[51:15.000 --> 51:17.000]  Job security.
+[51:20.000 --> 51:21.000]  Okay.
+[51:21.000 --> 51:22.000]  Thanks.
+[51:22.000 --> 51:24.000]  Loyalty to your boss.
+[51:24.000 --> 51:27.000]  Loyalty to your boss.
+[51:27.000 --> 51:28.000]  Okay.
+[51:33.000 --> 51:35.000]  Depends on where you're loyal.
+[51:35.000 --> 51:36.000]  Okay.
+[51:36.000 --> 51:37.000]  Sure.
+[51:37.000 --> 51:38.000]  Anyone else?
+[51:38.000 --> 51:39.000]  Reputation.
+[51:39.000 --> 51:40.000]  Reputation.
+[51:40.000 --> 51:41.000]  Your reputation.
+[51:41.000 --> 51:46.000]  Like how your seniority reputation.
+[51:46.000 --> 51:47.000]  Definitely.
+[51:47.000 --> 51:49.000]  All right.
+[51:49.000 --> 51:56.000]  So as you can see, there are various different reasons why someone would want to stay in
+[51:56.000 --> 51:58.000]  an organization.
+[51:58.000 --> 51:59.000]  Okay.
+[51:59.000 --> 52:08.000]  So what you have done is basically told us various different reasons.
+[52:08.000 --> 52:09.000]  Okay.
+[52:09.000 --> 52:17.000]  So one key way of understanding organizational commitment is to understand where it comes
+[52:17.000 --> 52:18.000]  from.
+[52:18.000 --> 52:19.000]  Okay.
+[52:19.000 --> 52:26.000]  So what is it that creates a desire to remain a member of an organization?
+[52:26.000 --> 52:34.000]  And so this table actually, very much like what you've done, provides you with many
+[52:34.000 --> 52:40.000]  reasons why individuals might want to stay in any given organization.
+[52:40.000 --> 52:41.000]  Okay.
+[52:41.000 --> 52:43.000]  So let's unpack this.
+[52:43.000 --> 52:44.000]  Okay.
+[52:44.000 --> 52:52.000]  So the left-hand column is the emotional reasons for staying within an organization.
+[52:52.000 --> 52:59.000]  So if you just read through them, these reflect feelings about friendship, about the atmosphere,
+[52:59.000 --> 53:06.000]  about the culture of the company, a sense of enjoyment when you're completing the job
+[53:06.000 --> 53:07.000]  duties.
+[53:07.000 --> 53:12.000]  So it kind of goes, I've actually grouped it to what you said, right?
+[53:12.000 --> 53:17.000]  Like enjoying working with your coworkers because they're friendly, you enjoy the culture.
+[53:17.000 --> 53:20.000]  So it's very emotion-based.
+[53:20.000 --> 53:21.000]  Okay.
+[53:21.000 --> 53:29.000]  So these are emotional reasons that create affective commitment.
+[53:29.000 --> 53:30.000]  Okay.
+[53:30.000 --> 53:36.000]  So affective commitment is formally defined as what you see on the slide.
+[53:36.000 --> 53:45.000]  It's a desire to remain a member of the organization due to an emotional attachment or involvement
+[53:45.000 --> 53:48.000]  with that organization.
+[53:48.000 --> 53:53.000]  Put simply, you stay because you want to stay.
+[53:53.000 --> 53:54.000]  Okay.
+[53:54.000 --> 53:57.000]  So what would happen if you were to leave anyway?
+[53:57.000 --> 53:58.000]  What do you see?
+[53:58.000 --> 54:02.000]  What is the emotion that you might feel?
+[54:02.000 --> 54:05.000]  You stay because you want to stay, yes.
+[54:06.000 --> 54:07.000]  So I think there are cells.
+[54:07.000 --> 54:08.000]  I don't know.
+[54:08.000 --> 54:09.000]  Like maybe regret.
+[54:09.000 --> 54:14.000]  And later on if you don't like the new job, it'll just constantly be regret.
+[54:14.000 --> 54:16.000]  It might be a regret, sure.
+[54:16.000 --> 54:18.000]  But there's another thing, right?
+[54:18.000 --> 54:24.000]  Like if you're happy working with your coworkers and whatnot and now you wish to leave, how would you feel?
+[54:24.000 --> 54:26.000]  Does it feel like dumping your girl?
+[54:27.000 --> 54:28.000]  Which is what?
+[54:28.000 --> 54:29.000]  Apparently it's very cold.
+[54:29.000 --> 54:30.000]  How does that feel?
+[54:30.000 --> 54:33.000]  How does it feel to be dumping a girl?
+[54:33.000 --> 54:34.000]  Sad?
+[54:34.000 --> 54:35.000]  Sad, I guess.
+[54:35.000 --> 54:36.000]  Sad, yes.
+[54:36.000 --> 54:40.000]  So if you leave, I mean I'm hoping in sadness.
+[54:43.000 --> 54:46.000]  Yeah, I hope you feel sad when you dump your girl.
+[54:48.000 --> 54:51.000]  Even though it might be the right thing to do, but I hope you feel sad.
+[54:51.000 --> 54:54.000]  So if you leave, you feel sad, right?
+[54:54.000 --> 55:01.000]  So affectively committed individuals, they'd stay as much as anything to avoid feeling sad.
+[55:01.000 --> 55:03.000]  So write that down.
+[55:03.000 --> 55:05.000]  What would you feel if you left anyway?
+[55:05.000 --> 55:07.000]  You would feel sad.
+[55:10.000 --> 55:12.000]  Now, what does research show?
+[55:12.000 --> 55:14.000]  I'm just going to tell you some facts, okay?
+[55:14.000 --> 55:22.000]  So research shows that people with affective commitment, they tend to engage in more interpersonal
+[55:22.000 --> 55:25.000]  and organizational citizenship behavior.
+[55:25.000 --> 55:32.000]  So organizational citizenship behavior is basically where you're going above and beyond what is required of you.
+[55:32.000 --> 55:42.000]  So affectively committed individuals are more likely to help, they're more likely to demonstrate sportsmanship, and so forth.
+[55:44.000 --> 55:51.000]  Now, more and more Canadian companies are understanding the importance of affective commitment.
+[55:51.000 --> 55:58.000]  And so they want to promote emotional bonding between employees, right?
+[55:58.000 --> 56:06.000]  Among employees and between employees, as well as between employees and the organization.
+[56:06.000 --> 56:17.000]  So for example, the keg, right, it's the restaurant, the keg, it relies on the phrase, work hard, playing hard, okay?
+[56:17.000 --> 56:23.000]  So what that means is that they actually tend to have numerous events put into place.
+[56:23.000 --> 56:29.000]  So they have like bars, Oscars, and like kitchen Emmys.
+[56:29.000 --> 56:37.000]  They also have corporate events where it might be like a two-day ski challenge, maybe it's a software tournament.
+[56:37.000 --> 56:43.000]  The idea really is we're going to bring our people together, they're going to bond with one another.
+[56:43.000 --> 56:50.000]  So by bonding, by creating these emotional bonds, we have instilled affective commitment.
+[56:50.000 --> 56:54.000]  People feel emotionally attached to the organization.
+[56:54.000 --> 56:56.000]  Make sense?
+[56:58.000 --> 57:04.000]  Now, affective commitment depends in large on connections among people.
+[57:04.000 --> 57:08.000]  So I want you to understand these two models, okay?
+[57:08.000 --> 57:14.000]  First is the erosion model, and the second is the social influence model.
+[57:14.000 --> 57:23.000]  So the erosion model basically says that people with fewer bonds will be most likely to quit the organization.
+[57:23.000 --> 57:25.000]  Okay?
+[57:25.000 --> 57:32.000]  Why? Because they don't have those emotional attachments put into place for them.
+[57:33.000 --> 57:38.000]  Okay? Making it easier for them to leave the organization.
+[57:38.000 --> 57:45.000]  So here's an image. All of these individuals are bonded to one another using these lines.
+[57:45.000 --> 57:50.000]  Which person has the least line connected to them?
+[57:53.000 --> 57:56.000]  This one? Okay.
+[57:56.000 --> 58:01.000]  So who, according to the erosion model, is more likely to leave?
+[58:01.000 --> 58:04.000]  Is it this one? Yeah.
+[58:04.000 --> 58:09.000]  Maybe he has no emotional attachment. He or she has no emotional attachment, right?
+[58:09.000 --> 58:12.000]  They're not emotionally attached to the other people.
+[58:12.000 --> 58:25.000]  Okay. The social influence model argues that people who have direct linkages to the leavers will be more likely to leave.
+100.117.97.99 - - [24/Sep/2025 17:34:26] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [24/Sep/2025 17:34:26] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [24/Sep/2025 17:34:26] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [24/Sep/2025 17:34:26] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [24/Sep/2025 17:34:26] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [24/Sep/2025 17:34:26] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [24/Sep/2025 17:34:35] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [24/Sep/2025 18:12:32] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [24/Sep/2025 18:12:32] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [24/Sep/2025 18:12:32] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [24/Sep/2025 18:12:32] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [24/Sep/2025 18:12:32] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [24/Sep/2025 18:12:32] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [24/Sep/2025 18:12:34] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [24/Sep/2025 18:12:36] "GET /session/22 HTTP/1.1" 200 -
+^C

@@ -1,0 +1,22 @@
+Directory '..\data' is ready.
+Database and tables verified successfully.
+Queue processor thread started.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.0.0.26:443
+Press CTRL+C to quit
+127.0.0.1 - - [24/Sep/2025 11:10:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:10:23] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:10:23] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:10:23] "GET /history HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:10:24] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Sep/2025 11:10:24] "GET /manifest.json HTTP/1.1" 404 -
+127.0.0.1 - - [24/Sep/2025 11:10:24] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Sep/2025 11:10:27] "GET /session/19 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:10:28] "GET /session/16 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2025 11:10:37] "GET /session/19 HTTP/1.1" 200 -
