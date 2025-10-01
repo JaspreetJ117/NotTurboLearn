@@ -10,3 +10,44 @@ WARNING: This is a development server. Do not use it in a production deployment.
  * Running on https://127.0.0.1:443
  * Running on https://10.0.0.26:443
 Press CTRL+C to quit
+127.0.0.1 - - [28/Sep/2025 14:00:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 14:00:54] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 14:00:54] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 14:00:55] "GET /history HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 14:00:55] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [28/Sep/2025 14:00:55] "GET /manifest.json HTTP/1.1" 404 -
+127.0.0.1 - - [28/Sep/2025 14:00:55] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [28/Sep/2025 14:00:57] "GET /session/19 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 14:01:06] "GET /session/22 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 14:02:06] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 14:17:48] "POST /edit/22 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 14:17:48] "GET /history HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 14:17:54] "POST /transcripts/22/move HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 14:17:55] "GET /history HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 14:17:57] "GET /session/23 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 14:18:03] "POST /edit/23 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 14:18:04] "GET /history HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 14:18:09] "POST /transcripts/23/move HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 14:18:09] "GET /history HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 14:18:25] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 14:18:25] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [28/Sep/2025 18:26:47] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [28/Sep/2025 18:26:47] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [28/Sep/2025 18:26:47] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [28/Sep/2025 18:26:47] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [28/Sep/2025 18:26:48] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [28/Sep/2025 18:26:48] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [28/Sep/2025 18:26:54] "GET /session/10 HTTP/1.1" 200 -
+100.117.97.99 - - [28/Sep/2025 18:28:47] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 18:54:01] "GET /session/10 HTTP/1.1" 200 -
+100.117.97.99 - - [28/Sep/2025 18:54:25] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [28/Sep/2025 18:54:25] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [28/Sep/2025 18:54:25] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [28/Sep/2025 18:54:25] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [28/Sep/2025 18:54:25] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [28/Sep/2025 18:54:25] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [28/Sep/2025 18:54:26] "POST /chat HTTP/1.1" 200 -
+100.117.97.99 - - [28/Sep/2025 18:54:32] "GET /session/10 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 19:22:40] "GET /session/21 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 19:22:45] "GET /session/13 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2025 19:23:05] "POST /chat HTTP/1.1" 200 -
