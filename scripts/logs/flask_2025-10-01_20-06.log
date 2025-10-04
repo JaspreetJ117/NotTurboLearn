@@ -1,0 +1,930 @@
+Directory '..\data' is ready.
+Database and tables verified successfully.
+Queue processor thread started.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.0.0.26:443
+Press CTRL+C to quit
+100.117.97.99 - - [01/Oct/2025 20:09:32] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [01/Oct/2025 20:09:32] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [01/Oct/2025 20:09:32] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [01/Oct/2025 20:09:32] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [01/Oct/2025 20:09:33] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [01/Oct/2025 20:09:33] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [01/Oct/2025 20:09:33] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [01/Oct/2025 20:09:33] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [01/Oct/2025 20:09:33] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [01/Oct/2025 20:09:39] "POST /transcribe HTTP/1.1" 200 -
+100.117.97.99 - - [01/Oct/2025 20:09:42] "GET /status/33 HTTP/1.1" 200 -
+100.117.97.99 - - [01/Oct/2025 20:09:42] "GET /queue_status HTTP/1.1" 200 -
+Queue processor checking for a new job...
+Processing job 33: New Recording 70.m4a
+Loading Whisper model for the first time...
+Whisper is using device: cuda
+Whisper model loaded successfully.
+--- Starting Transcription for ../uploads\7c8f7a86-78bf-4e1c-bc8b-1505156a1db8.m4a ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:10.000]  So groups basically consist of two or more individuals who interact with one another.
+[00:10.000 --> 00:16.000]  Interaction is the most basic element of a group.
+[00:16.000 --> 00:22.000]  And this interaction does not have to be face to face.
+[00:22.000 --> 00:26.000]  Now the other thing that's on this definition is interdependently.
+[00:26.000 --> 00:34.000]  So groups work interdependently, which simply means that group members, they rely on one another.
+[00:34.000 --> 00:38.000]  They have influence over one another.
+[00:38.000 --> 00:44.000]  Groups have some goal that they're seeking to achieve.
+[00:44.000 --> 00:50.000]  So there's a common goal amongst the group members.
+[00:50.000 --> 00:58.000]  And it could be something as simple as having fun to maybe marketing a new product.
+[00:58.000 --> 01:02.000]  It's a common goal.
+[01:02.000 --> 01:08.000]  So when it comes to defining a group, it's basically what it says on your slide.
+[01:08.000 --> 01:16.000]  There's two or more people that are interacting interdependently to achieve a common goal.
+[01:16.000 --> 01:18.000]  Make sense?
+[01:18.000 --> 01:22.000]  Now, groups and teams.
+[01:22.000 --> 01:28.000]  These are used interchangeably, but there are subtle differences between the two.
+[01:28.000 --> 01:38.000]  Groups, basically what that comprises of is two or more individuals interacting and that too interdependently.
+[01:38.000 --> 01:40.000]  They have a stable relationship.
+[01:40.000 --> 01:42.000]  They have a common goal.
+[01:42.000 --> 01:48.000]  They perceive themselves as being a member of a group.
+[01:48.000 --> 01:50.000]  But what is a team?
+[01:50.000 --> 02:04.000]  A team is also a small group of people, two or more, who work closely together towards a common objective, common goal.
+[02:04.000 --> 02:07.000]  They're held accountable to one another.
+[02:07.000 --> 02:15.000]  But they're working over some period of time on some task-related purpose.
+[02:15.000 --> 02:19.000]  So a group broader.
+[02:19.000 --> 02:23.000]  So it's basically you're working.
+[02:23.000 --> 02:25.000]  There's a common relationship.
+[02:25.000 --> 02:29.000]  You're working towards a common goal.
+[02:29.000 --> 02:32.000]  You're interacting interdependently.
+[02:32.000 --> 02:35.000]  Team, look at the definition in itself.
+[02:35.000 --> 02:41.000]  It's basically the same thing with just addition of task-related or task-oriented purpose.
+[02:41.000 --> 02:43.000]  Does that make sense?
+[02:43.000 --> 02:45.000]  Yes.
+[02:45.000 --> 02:47.000]  Yes?
+[02:47.000 --> 02:49.000]  These are the same as in Microsoft.
+[02:49.000 --> 02:51.000]  All right.
+[02:51.000 --> 03:00.000]  Now, in organizational setting, the term teams and group are often, like I said, used interchangeably.
+[03:00.000 --> 03:07.000]  But like I've already said, there are subtle but important distinctions that are useful to understand.
+[03:07.000 --> 03:11.000]  So let me talk a little bit more about this.
+[03:11.000 --> 03:16.000]  So a team is basically a special kind of group.
+[03:16.000 --> 03:21.000]  And it's characterized by task interdependence.
+[03:21.000 --> 03:23.000]  So that is where the key is.
+[03:23.000 --> 03:26.000]  It's a task-oriented purpose.
+[03:26.000 --> 03:39.000]  So members, they rely on one another to complete their tasks and achieve the shared goals.
+[03:39.000 --> 03:47.000]  But they're also, it's a group that's characterized by shared responsibility.
+[03:47.000 --> 04:01.000]  So teams, like I said in the previous slide, they're held accountable for collective outcomes.
+[04:01.000 --> 04:05.000]  A group, it's a broader term.
+[04:05.000 --> 04:17.000]  It refers to a collection of individuals who may or may not interact closely or work independently on a particular task.
+[04:17.000 --> 04:22.000]  So not all groups have task interdependence.
+[04:22.000 --> 04:33.000]  And some groups might actually just be assembled together without a common purpose or a common task.
+[04:33.000 --> 04:43.000]  So all teams are groups, but not all groups are teams, if that makes any sense.
+[04:43.000 --> 04:54.000]  Task interdependence is what really distinguishes teams from general groups.
+[04:54.000 --> 04:56.000]  So that's what you're seeing here.
+[04:56.000 --> 04:59.000]  So group, broader term.
+[04:59.000 --> 05:04.000]  It refers to this definition over here.
+[05:04.000 --> 05:09.000]  However, within a group, we could have a team that is working on a task,
+[05:09.000 --> 05:18.000]  or we could simply just have people that are working together, but there's no common task amongst them.
+[05:18.000 --> 05:22.000]  It's just an assembly of people.
+[05:22.000 --> 05:30.000]  Having said that, for the purpose of this class, I'm actually going to be using them in the same way.
+[05:30.000 --> 05:42.000]  For this class, we will be using them interchangeably, unless I specify otherwise.
+[05:42.000 --> 05:47.000]  So know the distinction, but for this class, we're using them interchangeably,
+[05:47.000 --> 05:50.000]  unless I say, oh no, this is only for team specific.
+[05:50.000 --> 05:55.000]  But do we understand the difference? What's the difference? Tell me what the difference is.
+[05:55.000 --> 05:59.000]  What's the difference between group and task, or group and team? Sorry.
+[05:59.000 --> 06:02.000]  I already answered the question.
+[06:02.000 --> 06:06.000]  The difference, I guess, is the kind of work you're doing in the relationship,
+[06:06.000 --> 06:13.000]  because for a team it's more specific and for a specific period of time, but for a group it could be more general.
+[06:13.000 --> 06:16.000]  Yeah, so it's a broader term, more general.
+[06:16.000 --> 06:20.000]  For example, team really has to do with a task in on hand.
+[06:20.000 --> 06:24.000]  You're working towards some sort of task.
+[06:24.000 --> 06:31.000]  This could be an entire group of people, but you're not really working on any task.
+[06:31.000 --> 06:37.000]  Does that make sense? Whereas with the group presentation, that's a particular task,
+[06:37.000 --> 06:42.000]  so that would be considered the team. Does that make sense?
+[06:43.000 --> 06:49.000]  All right, now let's talk about, like I said, maybe using them interchangeably.
+[06:49.000 --> 06:57.000]  So this I really, oh no, what happened? What is this? What is this?
+[07:02.000 --> 07:07.000]  Okay, so there are two different models on how these teams or groups can be developed,
+[07:07.000 --> 07:11.000]  and so I really want you to understand these models in paint.
+[07:11.000 --> 07:14.000]  I definitely want you to understand the first one.
+[07:14.000 --> 07:20.000]  All right, so the first is known as the five stage model.
+[07:20.000 --> 07:23.000]  This basically, what is happening?
+[07:28.000 --> 07:32.000]  So the first is known as the five stage model.
+[07:32.000 --> 07:36.000]  So what you see on the top half is known as the five stage model.
+[07:36.000 --> 07:47.000]  So the five stage model, what it does is it describes a standardized sequence of stages that groups go through.
+[07:47.000 --> 07:55.000]  What are those stages? Forming, storming, norming, performing, adjourning.
+[07:55.000 --> 08:04.000]  And the second model, which is what you see in green, this is known as the punctuated equilibrium model.
+[08:07.000 --> 08:19.000]  And what this is basically doing is it describes the pattern of development that is specific to temporary teams with deadlines.
+[08:23.000 --> 08:27.000]  So what are these phases that they go through?
+[08:27.000 --> 08:36.000]  So the first phase is basically where you show little work, basically.127.0.0.1 - - [01/Oct/2025 20:12:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:12:44] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:12:44] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:12:44] "GET /history HTTP/1.1" 200 -
+
+[08:36.000 --> 08:41.000]  Then you have a midpoint, and then after the midpoint is when you show most of your work.
+[08:41.000 --> 08:47.000]  But I'll be talking about that in a few minutes. Does that make sense?
+[08:47.000 --> 08:53.000]  So just remember that there are two main models when it comes to group development.
+[08:53.000 --> 08:59.000]  The first is known as the five stage model, which is what you see in red.
+[08:59.000 --> 09:05.000]  And then the second, which you see in green, is known as the punctuated equilibrium model.
+[09:05.000 --> 09:11.000]  So let's first talk about the one in red, the five stage model.
+[09:11.000 --> 09:19.000]  So the five stage model was introduced to us by Bruce Tuckerman.
+[09:19.000 --> 09:23.000]  Tuckerman, sorry, not Tuckerman, Tuckerman.
+[09:23.000 --> 09:31.000]  So like I said, it provides to you a standardized sequence of stages that groups or teams go through.
+[09:31.000 --> 09:39.000]  And it kind of shows us how we move from independence to interdependence.
+[09:39.000 --> 09:45.000]  How we go from working alone to working together.
+[09:45.000 --> 09:48.000]  So what is the first stage?
+[09:48.000 --> 09:53.000]  The first stage is known as forming.
+[09:53.000 --> 09:55.000]  So what happens here?
+[09:55.000 --> 10:01.000]  Basically, the members are trying to orient themselves.
+[10:01.000 --> 10:07.000]  They're trying to understand the boundaries of the team.
+[10:07.000 --> 10:15.000]  They're trying to get an understanding of what is expected of them, what kind of behaviors are expected of them,
+[10:15.000 --> 10:20.000]  what are not appropriate behaviors, so to speak.
+[10:20.000 --> 10:27.000]  So you're kind of testing the waters.
+[10:27.000 --> 10:33.000]  And this stage is usually characterized by uncertainty as well as anxiety.
+[10:33.000 --> 10:40.000]  Because you're trying to get acquainted with one another.
+[10:40.000 --> 10:45.000]  So that's what happens at the forming stage.
+[10:45.000 --> 10:49.000]  Does that make sense?
+[10:49.000 --> 10:55.000]  The second stage is known as forming.
+[10:55.000 --> 10:57.000]  Here, what do we see?
+[10:57.000 --> 11:02.000]  We actually see hostilities and conflict.
+[11:02.000 --> 11:10.000]  People are trying to vie for power, for status.
+[11:10.000 --> 11:18.000]  People actually remain committed to the ideas that they bring to the table.
+[11:18.000 --> 11:24.000]  And they're not really willing to accommodate the other person's ideas just yet.
+[11:24.000 --> 11:29.000]  And because of that, we see conflict.
+[11:29.000 --> 11:34.000]  And it can actually negatively affect some interpersonal relationships.
+[11:34.000 --> 11:40.000]  It can harm the team's progress.
+[11:40.000 --> 11:46.000]  So this stage of conflict amongst members exists.
+[11:46.000 --> 11:56.000]  But at the same time, what they're trying to do is they're trying to work out the purpose, the goals, the objectives of the group.
+[11:56.000 --> 12:05.000]  And if you don't really resolve the conflict, well that can actually threaten the existence of that group.
+[12:05.000 --> 12:10.000]  But conflict can actually also be a good thing.
+[12:10.000 --> 12:20.000]  Where it can help us create roles, it can help us create norms, if the differences are resolved.
+[12:20.000 --> 12:24.000]  Does that make sense?
+[12:24.000 --> 12:26.000]  Yeah? You want me to repeat anything here?
+[12:26.000 --> 12:31.000]  The third stage is known as norming.
+[12:31.000 --> 12:34.000]  So what's happening here?
+[12:34.000 --> 12:41.000]  Members agree on their shared goals. They agree on the norms.
+[12:41.000 --> 12:46.000]  So there's basically expectations that are agreed upon.
+[12:46.000 --> 12:49.000]  Or rules that are agreed upon.
+[12:49.000 --> 12:59.000]  And these expectations, these rules, then guide the behaviors of themselves, of the members.
+[12:59.000 --> 13:02.000]  And what do we actually see at the norming stage?
+[13:02.000 --> 13:08.000]  We actually see closer relationships developing.
+[13:08.000 --> 13:11.000]  So what happens at this stage?
+[13:11.000 --> 13:15.000]  Members, they realize that they have to work together.
+[13:15.000 --> 13:19.000]  They need to work together to accomplish the team goals.
+[13:19.000 --> 13:23.000]  And so they begin to cooperate with one another.
+[13:29.000 --> 13:35.000]  So this is really the stage where the teams become more cohesive.
+[13:35.000 --> 13:40.000]  People start to identify as being a member of that group.
+[13:46.000 --> 13:49.000]  Does that make sense?
+[13:49.000 --> 13:54.000]  So close relationships, this is usually where we see it.
+[13:54.000 --> 14:03.000]  There is now a common way of thinking about doing things, common expectations of how things should be done.
+[14:06.000 --> 14:08.000]  Make sense?
+[14:08.000 --> 14:12.000]  The fourth stage is known as performing.
+[14:12.000 --> 14:19.000]  So now you are actually channeling all your energy in performing the task on hand.
+[14:19.000 --> 14:28.000]  You're comfortable with the roles that have been assigned to you, and you're making progress towards those goals.
+[14:29.000 --> 14:34.000]  So this is really the stage where the work actually gets done.
+[14:34.000 --> 14:44.000]  Okay, and the fifth stage is a journey.
+[14:44.000 --> 14:49.000]  Now this actually applies more to temporary teams.
+[14:49.000 --> 14:56.000]  So here basically you are concerned about wrapping things up rather than task performance.
+[14:57.000 --> 15:05.000]  But for permanent work teams, the last stage that you're at is performing.
+[15:07.000 --> 15:17.000]  But for temporary teams or committees or task force or anything that's temporary of nature, the adjourning stage is the last stage.
+[15:19.000 --> 15:23.000]  So what that means is the group is no longer in existence.
+[15:26.000 --> 15:30.000]  Which will kind of be what you will see after this class.
+[15:32.000 --> 15:40.000]  No, what I mean by that is after this class you might not be in the same classes, right?
+[15:40.000 --> 15:44.000]  So you might be placed in another team altogether.
+[15:46.000 --> 15:53.000]  But if we were in an organization and you were all in one division, you might be there.
+[15:53.000 --> 16:00.000]  You might be at the performing stage for years or decades to come. Does that make sense?
+[16:01.000 --> 16:05.000]  Do I have any questions about any of these five stages?
+[16:09.000 --> 16:15.000]  No? Okay. One of the things I like to do is I like to link this to dating behavior.
+[16:16.000 --> 16:19.000]  Okay, so just imagine this.
+[16:20.000 --> 16:25.000]  We're swiping left, right, left, right on all these stupid apps that are out there.
+[16:25.000 --> 16:28.000]  Right, right, right, right, right.
+[16:28.000 --> 16:32.000]  Okay, so what happens when you both swipe right?
+[16:33.000 --> 16:35.000]  There is a match.
+[16:35.000 --> 16:38.000]  So you're talking and now what happens?
+[16:38.000 --> 16:41.000]  You have your first meeting. Oh my goodness.
+[16:41.000 --> 16:43.000]  You have your second meeting.
+[16:43.000 --> 16:47.000]  So you're in a mess. Uncertainty. Anxiety could be sick, right?
+[16:48.000 --> 16:52.000]  Okay, then what happens? You start going more and more on dates.
+[16:52.000 --> 16:57.000]  Okay, but you know what? I'm setting my ways. You're setting yours.
+[16:57.000 --> 17:00.000]  Conflict might arise, right?
+[17:02.000 --> 17:07.000]  Especially after the novelty wears off. Conflict might arise, right?
+[17:07.000 --> 17:09.000]  And then what happens?
+[17:09.000 --> 17:13.000]  Okay, so you work through your conflict, right?
+[17:13.000 --> 17:17.000]  If you work through your conflict, yay, good for you.
+[17:19.000 --> 17:25.000]  You try and understand how do I maintain my identity but also respect the other person.
+[17:26.000 --> 17:32.000]  You now try and understand what are the expectations of one another.
+[17:32.000 --> 17:35.000]  What are some rules that we can work with?
+[17:36.000 --> 17:42.000]  Okay, so the relationships basically form norms, right?
+127.0.0.1 - - [01/Oct/2025 20:12:45] "GET /manifest.json HTTP/1.1" 404 -
+127.0.0.1 - - [01/Oct/2025 20:12:45] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [01/Oct/2025 20:12:45] "GET /sw.js HTTP/1.1" 404 -
+127.0.0.1 - - [01/Oct/2025 20:12:48] "GET /session/25 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:12:59] "POST /edit/25 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:12:59] "GET /history HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:13:06] "POST /transcripts/25/move HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:13:06] "GET /history HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:13:15] "GET /session/14 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:13:18] "GET /queue_status HTTP/1.1" 200 -
+[17:42.000 --> 17:44.000]  And then what happens?
+[17:44.000 --> 17:47.000]  Okay, we've now been dating for some time.
+[17:47.000 --> 17:49.000]  We're now in a relationship.
+[17:49.000 --> 17:54.000]  But for me it might be marriage, might be kids, right?
+[17:55.000 --> 17:58.000]  What might be adjourning? Divorce.
+[17:58.000 --> 18:01.000]  Yeah, right?
+[18:02.000 --> 18:05.000]  But think of it that way, right?
+[18:05.000 --> 18:09.000]  So that's basically how this works.
+[18:09.000 --> 18:12.000]  I always like to bring dating because everyone starts chuckling and they're like,
+[18:12.000 --> 18:16.000]  oh yeah, that's exactly how it was in my last relationship.
+[18:16.000 --> 18:20.000]  And I'm like, which stage are you in now? They're like, adjourning, right?
+[18:20.000 --> 18:22.000]  So think of it that way.
+[18:22.000 --> 18:25.000]  If ever you're confused about, oh my goodness, how does it work?
+[18:25.000 --> 18:30.000]  Remember Santa's dating behavior example, okay?
+[18:30.000 --> 18:33.000]  That will help you understand these stages.
+[18:33.000 --> 18:41.000]  Okay, now one of the things you have to note when it comes to this particular model of group development
+[18:41.000 --> 18:44.000]  is that not all groups go through these stages.
+[18:44.000 --> 18:46.000]  Okay?
+[18:46.000 --> 18:50.000]  This actually really applies to new groups.
+[18:50.000 --> 18:55.000]  Like as in, it applies to groups that have never met before.
+[18:57.000 --> 18:58.000]  Okay?
+[18:58.000 --> 18:59.000]  So what do I mean by that?
+[18:59.000 --> 19:04.000]  I don't know how many of you know each other except Jenny and Erica.
+[19:04.000 --> 19:07.000]  I don't know how many of you others know each other.
+[19:07.000 --> 19:09.000]  Like when you first came into this class.
+[19:09.000 --> 19:12.000]  I don't know, right?
+[19:12.000 --> 19:14.000]  So this might actually be applicable.
+[19:14.000 --> 19:21.000]  If you've never met your group mates before, this will probably happen in this particular session.
+[19:21.000 --> 19:26.000]  However, say you move on to level three, you move on to year three,
+[19:26.000 --> 19:32.000]  and now you're with some of the people that you've taken a class with before.
+[19:32.000 --> 19:35.000]  You're now really good friends with them, right?
+[19:35.000 --> 19:38.000]  You get to choose your groups.
+[19:38.000 --> 19:42.000]  So you might not go through the whole forming where you're testing the water.
+[19:42.000 --> 19:46.000]  Maybe you might not even go through the storming where you have conflicts
+[19:46.000 --> 19:50.000]  because you kind of understand how things work with one another.
+[19:50.000 --> 19:52.000]  Does that make sense?
+[19:52.000 --> 19:53.000]  Right?
+[19:53.000 --> 19:55.000]  But let's put it into perspective.
+[19:55.000 --> 20:05.000]  So like I said, not all teams go through the stages in the order that they met, that has been specified.
+[20:05.000 --> 20:10.000]  But sometimes we might go to an earlier stage, right?
+[20:10.000 --> 20:18.000]  So what might happen is, okay, so year three, you now get to choose your groups, right?
+[20:18.000 --> 20:21.000]  So you're no longer testing the water.
+[20:21.000 --> 20:26.000]  And you feel like there should be no conflict because you've worked really well with one another.
+[20:26.000 --> 20:30.000]  So you should be at the norming stage, but a conflict might arise.
+[20:30.000 --> 20:33.000]  So you move faster.
+[20:33.000 --> 20:36.000]  Okay?
+[20:36.000 --> 20:43.000]  Conflict, we look at it very negatively, but it actually can be a good thing, right?
+[20:43.000 --> 20:46.000]  But it needs to be resolved in order to be a good thing.
+[20:46.000 --> 20:47.000]  Okay?
+[20:47.000 --> 20:50.000]  And then the last point is context matters.
+[20:50.000 --> 21:00.000]  Pilots, for example, right, the main pilot and co-pilot, sometimes they never work with one another.
+[21:00.000 --> 21:06.000]  They don't have time to do this like forming, norming, or any of those stages.
+[21:06.000 --> 21:07.000]  They don't have time to.
+[21:07.000 --> 21:08.000]  They have to perform.
+[21:08.000 --> 21:09.000]  That's it.
+[21:09.000 --> 21:15.000]  They have no time to test the waters, see if conflict arises, set expectations.
+[21:15.000 --> 21:18.000]  No, they need to perform, right?
+[21:18.000 --> 21:22.000]  They need to get us up in the air and land us in a good time.
+[21:22.000 --> 21:24.000]  Does that make sense?
+[21:24.000 --> 21:25.000]  Okay.
+[21:25.000 --> 21:31.000]  So does everyone understand the five-stage model of group development?
+[21:31.000 --> 21:32.000]  Yes?
+[21:32.000 --> 21:33.000]  Good.
+[21:33.000 --> 21:37.000]  Make an asterisk beside it because this is definitely on your midterm.
+[21:37.000 --> 21:39.000]  Okay?
+[21:39.000 --> 21:40.000]  All right.
+[21:40.000 --> 21:42.000]  What's the second model?
+[21:42.000 --> 21:45.000]  This is known as a punctuated equilibrium model.
+[21:45.000 --> 21:53.000]  So what this does is it describes a pattern that is specific to temporary teams with deadlines.
+[21:53.000 --> 21:54.000]  That's the difference here.
+[21:54.000 --> 21:55.000]  Okay?
+[21:55.000 --> 21:58.000]  So it's a temporary team or group with deadlines.
+[21:58.000 --> 22:00.000]  What's the name of it?
+[22:00.000 --> 22:06.000]  So Connie Gursick is the one that uncovered this particular sequence.
+[22:06.000 --> 22:10.000]  And equilibrium basically refers to stability.
+[22:10.000 --> 22:11.000]  Okay?
+[22:11.000 --> 22:22.000]  And so this research basically revealed to us that there are stretches, that there are phases that people undertake, that teams undertake.
+[22:22.000 --> 22:26.000]  So there are stretches of team stability, right?
+[22:26.000 --> 22:31.000]  There is first a critical meeting point, right?
+[22:31.000 --> 22:33.000]  Then there's a midpoint change.
+[22:33.000 --> 22:37.000]  And then there is a rush to complete the task.
+[22:37.000 --> 22:39.000]  That's basically what it's referring to.
+[22:39.000 --> 22:44.000]  So there are basically two phases with a transition in the middle.
+[22:44.000 --> 22:45.000]  Okay?
+[22:45.000 --> 22:48.000]  So phase one is here.
+[22:48.000 --> 22:50.000]  So what happens in phase one?
+[22:50.000 --> 22:57.000]  Well, phase one would comprise of basically having your first meeting, right?
+[22:57.000 --> 23:04.000]  And this continues until the midpoint in the team's existence.
+[23:04.000 --> 23:06.000]  So what happens in this first meeting?
+[23:06.000 --> 23:09.000]  So you're trying to set the agenda, right?
+[23:09.000 --> 23:14.000]  For what is to happen during the remainder of that phase.
+[23:14.000 --> 23:20.000]  But you're making little progress towards the goal.
+[23:20.000 --> 23:21.000]  Okay?
+[23:21.000 --> 23:30.000]  Transition happens exactly in the middle or halfway point in time towards the team's deadline.
+[23:30.000 --> 23:31.000]  Okay?
+[23:31.000 --> 23:36.000]  So this transition marks a change in the approach that the team takes.
+[23:42.000 --> 23:51.000]  And how the team manages this midpoint actually translates into what we see in phase two.
+[23:51.000 --> 23:52.000]  Okay?
+[23:52.000 --> 23:59.000]  So here you're coming up with all the different activities that need to occur in phase two.
+[23:59.000 --> 24:05.000]  And in phase two is basically where you're rushing to complete the task.
+[24:05.000 --> 24:06.000]  Right?
+[24:06.000 --> 24:13.000]  So decisions, approaches that you had made at the midpoint are now implemented.
+[24:13.000 --> 24:15.000]  Right?
+[24:15.000 --> 24:22.000]  And then what happens is you have a final meeting that kind of reveals a burst of activity
+[24:22.000 --> 24:27.000]  and a concern for how others would evaluate your end product.
+[24:29.000 --> 24:30.000]  Okay?
+[24:30.000 --> 24:37.000]  So basically phase one, have a meeting, kind of set the agenda, but no progress is made.
+[24:37.000 --> 24:41.000]  Then comes the transition point, which is known as the midpoint.
+127.0.0.1 - - [01/Oct/2025 20:14:10] "GET /queue_status HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:14:50] "GET /session/25 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:14:51] "GET /session/18 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:14:51] "GET /session/21 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:14:52] "GET /session/13 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:14:53] "GET /session/21 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:14:53] "GET /session/18 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:14:55] "GET /session/13 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:14:56] "GET /session/21 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:14:56] "GET /session/18 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:14:57] "GET /session/25 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:14:59] "GET /queue_status HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:26:36] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [01/Oct/2025 20:29:07] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [01/Oct/2025 20:29:07] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [01/Oct/2025 20:29:07] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [01/Oct/2025 20:29:07] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [01/Oct/2025 20:29:07] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [01/Oct/2025 20:29:07] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [01/Oct/2025 20:29:16] "POST /transcribe HTTP/1.1" 200 -
+100.117.97.99 - - [01/Oct/2025 20:29:19] "GET /status/34 HTTP/1.1" 200 -
+100.117.97.99 - - [01/Oct/2025 20:29:22] "GET /status/34 HTTP/1.1" 200 -
+[24:41.000 --> 24:47.000]  This is where you're like working out the different approach that you're going to take.
+[24:47.000 --> 24:49.000]  You're coming up with decisions.
+[24:49.000 --> 24:50.000]  Right?
+[24:50.000 --> 24:54.000]  And then in phase two, you're actually implementing this stuff.
+[24:54.000 --> 24:56.000]  You're rushing to get things done.
+[24:56.000 --> 25:01.000]  And then you have this one final meeting at the very end where you go over what it is
+[25:01.000 --> 25:05.000]  that you came up with, how is it going to be evaluated.
+[25:05.000 --> 25:07.000]  Does this sound familiar to you?
+[25:07.000 --> 25:10.000]  What do you think?
+[25:10.000 --> 25:11.000]  Definitely.
+[25:11.000 --> 25:12.000]  Definitely.
+[25:12.000 --> 25:13.000]  Talk about that.
+[25:13.000 --> 25:14.000]  Let's talk about that.
+[25:14.000 --> 25:15.000]  I think it's bound to happen.
+[25:15.000 --> 25:20.000]  At first you never push for much, and then as the deadline creeps up, suddenly you notice
+[25:20.000 --> 25:24.000]  how much work actually has been put in, and then you rush through it.
+[25:24.000 --> 25:25.000]  Exactly.
+[25:25.000 --> 25:26.000]  Right?
+[25:26.000 --> 25:27.000]  Yeah.
+[25:27.000 --> 25:30.000]  So I'm sure right now there's a group presentation that's due.
+[25:30.000 --> 25:31.000]  Well, you don't really know.
+[25:31.000 --> 25:36.000]  I've given you bits and pieces of what that group presentation is going to be about.
+[25:36.000 --> 25:37.000]  Right?
+[25:37.000 --> 25:40.000]  Today was probably the first time you even met your teammate.
+[25:40.000 --> 25:41.000]  Yes or no?
+[25:41.000 --> 25:42.000]  Yeah.
+[25:42.000 --> 25:43.000]  Right?
+[25:43.000 --> 25:46.000]  Next week, I'll probably be telling you about it.
+[25:46.000 --> 25:49.000]  I'll tell you about the group presentation.
+[25:49.000 --> 25:53.000]  You'll probably meet and be like, hey, let's exchange phone numbers.
+[25:53.000 --> 25:54.000]  Right?
+[25:54.000 --> 25:56.000]  And you'll be like, oh, that's going to really happen.
+[25:56.000 --> 25:57.000]  Right?
+[25:57.000 --> 25:58.000]  And then what will happen?
+[25:58.000 --> 26:01.000]  Maybe after the midterm two, that will be your midpoint.
+[26:01.000 --> 26:02.000]  Maybe.
+[26:02.000 --> 26:03.000]  Right?
+[26:03.000 --> 26:09.000]  And you'll be like, oh, S-H-I-T. This group presentation is due pretty soon.
+[26:09.000 --> 26:12.000]  Let's talk about the different things that we're going to do.
+[26:12.000 --> 26:14.000]  Let's divvy up the work.
+[26:14.000 --> 26:15.000]  Right?
+[26:15.000 --> 26:18.000]  You do this, you do this, you do this, you do this, you do this.
+[26:18.000 --> 26:25.000]  Then from that point until the very end, two days or three days before this group presentation
+[26:25.000 --> 26:27.000]  is due, that's when you're getting your work done.
+[26:27.000 --> 26:28.000]  Right?
+[26:28.000 --> 26:33.000]  And then you're all going to come together and say, okay, this is what we came up with.
+[26:33.000 --> 26:34.000]  Let's put it all together.
+[26:34.000 --> 26:35.000]  Right?
+[26:35.000 --> 26:37.000]  You're rushing to complete the task.
+[26:37.000 --> 26:41.000]  And you're concerned about how is this task going to be evaluated.
+[26:41.000 --> 26:42.000]  Only this.
+[26:42.000 --> 26:43.000]  Let's reverse the presentation.
+[26:43.000 --> 26:44.000]  Okay?
+[26:44.000 --> 26:45.000]  So, what is the midterm presentation?
+[26:45.000 --> 26:50.000]  That is what is known as a punctuated equilibrium model.
+[26:50.000 --> 26:51.000]  Okay?
+[26:51.000 --> 26:56.000]  So, it's basically for temporary teams such as yourself with a deadline.
+[26:56.000 --> 26:57.000]  Okay?
+[26:57.000 --> 26:58.000]  Make sense?
+[26:58.000 --> 26:59.000]  Yeah?
+[26:59.000 --> 27:00.000]  Okay.
+[27:00.000 --> 27:01.000]  All right.
+[27:01.000 --> 27:06.000]  So, what are some things that we should know when it comes to the punctuated equilibrium
+[27:06.000 --> 27:07.000]  model?
+[27:07.000 --> 27:10.000]  Well, be careful for the first meeting.
+[27:10.000 --> 27:14.000]  What that means is set the tone, set the structure.
+[27:14.000 --> 27:15.000]  Right?
+[27:15.000 --> 27:16.000]  For phase one.
+[27:16.000 --> 27:18.000]  Early decisions tend to stick.
+[27:18.000 --> 27:24.000]  The second really has to do with don't expect major progress early.
+[27:24.000 --> 27:27.000]  So, phase one is all about planning.
+[27:27.000 --> 27:28.000]  Right?
+[27:28.000 --> 27:30.000]  Not about the progress.
+[27:30.000 --> 27:35.000]  So, allow your time for role setting as well as role exploration.
+[27:36.000 --> 27:40.000]  The third is manage the midpoint transition carefully.
+[27:40.000 --> 27:41.000]  Right?
+[27:41.000 --> 27:48.000]  So, the midpoint just by how I've described it is really the key turning point.
+[27:48.000 --> 27:55.000]  So, here there are scholars that say you should reflect, you should plan, you should make
+[27:55.000 --> 28:00.000]  adjustments, you should have a renewed focus.
+[28:00.000 --> 28:01.000]  Okay?
+[28:02.000 --> 28:07.000]  The fourth thing is ensure that you have resources for phase two.
+[28:07.000 --> 28:14.000]  So, execution really needs you to have proper tools as well as support to implement the
+[28:14.000 --> 28:15.000]  plans.
+[28:15.000 --> 28:20.000]  And then the fifth really has to do with avoiding changing deadlines.
+[28:20.000 --> 28:21.000]  Right?
+[28:21.000 --> 28:27.000]  So, deadlines, they do drive urgency, especially after the midpoint.
+[28:27.000 --> 28:28.000]  Okay?
+[28:28.000 --> 28:31.000]  So, changing them will reduce the motivation.
+[28:31.000 --> 28:35.000]  So, try not to beg for extra time for the order.
+[28:35.000 --> 28:37.000]  Can we do it the next week?
+[28:37.000 --> 28:38.000]  No.
+[28:38.000 --> 28:41.000]  But then the group presentation is assigned.
+[28:41.000 --> 28:42.000]  Okay?
+[28:42.000 --> 28:43.000]  Make sense?
+[28:43.000 --> 28:44.000]  Alright.
+[28:44.000 --> 28:51.000]  Now, what I want to do is I want to talk about group structure on group performance.
+[28:51.000 --> 28:52.000]  Okay?
+[28:52.000 --> 28:59.000]  So, group structure refers to basically the characteristics of a stable social organization
+[28:59.000 --> 29:04.000]  of a group or the way a group is simply put together.
+[29:04.000 --> 29:05.000]  Okay?
+[29:05.000 --> 29:09.000]  So, there are many different ways in which a group can be put together.
+[29:09.000 --> 29:14.000]  But the ones that I want to talk about has to do with size and diversity.
+[29:14.000 --> 29:15.000]  Okay?
+[29:15.000 --> 29:22.000]  But there are other structural characteristics such as norms, roles, and status.
+[29:22.000 --> 29:23.000]  Okay.
+[29:23.000 --> 29:26.000]  So, let's talk about group size.
+[29:26.000 --> 29:27.000]  Okay?
+[29:27.000 --> 29:33.000]  The smallest number in a group would be two people.
+[29:33.000 --> 29:34.000]  Right?
+[29:34.000 --> 29:37.000]  But in practice, what is it that we see?
+[29:37.000 --> 29:44.000]  We see that most work groups, including task forces as well as committees, they usually
+[29:44.000 --> 29:48.000]  comprise of between 30 to 20 members.
+[29:48.000 --> 29:49.000]  Right?
+[29:49.000 --> 29:56.000]  But generally speaking, the effective ones are the ones that have four to five members
+[29:56.000 --> 29:58.000]  in it.
+[29:58.000 --> 29:59.000]  Okay?
+[29:59.000 --> 30:08.000]  The smallest number of people working on a task, the better the outcome will be.
+[30:08.000 --> 30:11.000]  Or the quicker you will make the decisions.
+[30:11.000 --> 30:12.000]  Right?
+[30:13.000 --> 30:21.000]  But when people have a lot of group members, cohesiveness, mutual accountability, things
+[30:21.000 --> 30:23.000]  like that decline.
+[30:23.000 --> 30:29.000]  Social loafing, which is something I'll talk about in a few minutes, it increases.
+[30:29.000 --> 30:34.000]  More and more people do less talking in comparison to others.
+[30:34.000 --> 30:35.000]  Okay?
+[30:35.000 --> 30:37.000]  Does that make sense?
+100.117.97.99 - - [01/Oct/2025 20:29:25] "GET /status/34 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:29:26] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [01/Oct/2025 20:29:28] "GET /status/34 HTTP/1.1" 200 -
+100.117.97.99 - - [01/Oct/2025 20:29:31] "GET /status/34 HTTP/1.1" 200 -
+100.117.97.99 - - [01/Oct/2025 20:29:34] "GET /status/34 HTTP/1.1" 200 -
+100.117.97.99 - - [01/Oct/2025 20:29:37] "GET /status/34 HTTP/1.1" 200 -
+100.117.97.99 - - [01/Oct/2025 20:29:40] "GET /status/34 HTTP/1.1" 200 -
+[30:37.000 --> 30:39.000]  Alright.
+[30:39.000 --> 30:47.000]  So, the relationship between group size and performance depends on the type of task a
+[30:47.000 --> 30:49.000]  group performs.
+[30:49.000 --> 30:50.000]  Okay?
+[30:50.000 --> 30:53.000]  So, let's talk about this.
+[30:53.000 --> 30:58.000]  There are three different kinds of tasks that you should be aware of.
+[30:58.000 --> 31:01.000]  The first is additive tasks.
+[31:01.000 --> 31:04.000]  So, what actually happens here?
+[31:04.000 --> 31:05.000]  Okay?
+[31:05.000 --> 31:13.000]  So, here the group's overall performance is the sum of individual members' efforts.
+[31:13.000 --> 31:15.000]  So, what happens here?
+[31:15.000 --> 31:22.000]  Each member contributes independently and then their efforts are combined directly.
+[31:26.000 --> 31:27.000]  Okay?
+[31:27.000 --> 31:28.000]  So, let's take an example.
+[31:28.000 --> 31:30.000]  You're building a house.
+[31:30.000 --> 31:32.000]  Okay?
+[31:32.000 --> 31:36.000]  There are multiple carpenters that are working on this house.
+[31:36.000 --> 31:40.000]  They're doing different parts, but they're doing so simultaneously.
+[31:40.000 --> 31:41.000]  Right?
+[31:41.000 --> 31:46.000]  So, then the total output equals the combined efforts.
+[31:48.000 --> 31:53.000]  The more skilled workers you have, the faster the house is built.
+[32:00.000 --> 32:01.000]  Okay?
+[32:01.000 --> 32:03.000]  So, what are the implications?
+[32:03.000 --> 32:08.000]  The implications really is that group size matters here.
+[32:08.000 --> 32:15.000]  Performance improves with more members, assuming all contribute.
+[32:15.000 --> 32:16.000]  Right?
+[32:16.000 --> 32:23.000]  Efficiency, it really depends on the coordination as well as individual productivity.
+[32:24.000 --> 32:35.000]  But if there is no coordination, like coordination is difficult, if people engage in social loathing, performance will decline.
+[32:37.000 --> 32:38.000]  Okay?
+[32:40.000 --> 32:47.000]  So, the key point when it comes to this kind of task is that basically there are individuals,
+[32:48.000 --> 32:54.000]  there are each contributing and their contribution really has a direct impact.
+[32:54.000 --> 33:02.000]  The more hands that are used for that particular project usually means faster or better results.
+[33:02.000 --> 33:05.000]  As long as everyone is doing their part.
+[33:05.000 --> 33:06.000]  Yes?
+[33:06.000 --> 33:07.000]  What's social loathing?
+[33:07.000 --> 33:09.000]  Well, I'll talk about it in a few minutes.
+[33:09.000 --> 33:15.000]  But it's basically kind of what someone has said in that group over here where you just don't take part in it.
+[33:15.000 --> 33:16.000]  Okay?
+[33:16.000 --> 33:17.000]  Okay.
+[33:17.000 --> 33:19.000]  So, do we understand that?
+[33:19.000 --> 33:20.000]  Okay.
+[33:20.000 --> 33:23.000]  Then there is disjunctive tasks.
+[33:23.000 --> 33:25.000]  So, what happens here?
+[33:25.000 --> 33:26.000]  Okay?
+[33:26.000 --> 33:33.000]  So, basically this is where the group's performance depends on its best members.
+[33:33.000 --> 33:34.000]  Okay?
+[33:34.000 --> 33:40.000]  A single correct solution or an idea can really drive group success.
+[33:41.000 --> 33:43.000]  So, think about it this way.
+[33:43.000 --> 33:46.000]  It's a group, you're trapped in an escape group.
+[33:48.000 --> 33:49.000]  Okay?
+[33:49.000 --> 34:01.000]  So, success in that particular case will really depend on one sharp, observant, logical person identifying the key solution.
+[34:01.000 --> 34:02.000]  Right?
+[34:02.000 --> 34:04.000]  The others just follow the lead.
+[34:04.000 --> 34:05.000]  Okay?
+[34:06.000 --> 34:07.000]  Right?
+[34:07.000 --> 34:09.000]  The others just follow the lead.
+[34:11.000 --> 34:15.000]  But that one strong contributor makes a difference.
+[34:15.000 --> 34:17.000]  That's what tends to happen with me.
+[34:17.000 --> 34:20.000]  When I'm in an escape room, I'm not that sharp, observant person.
+[34:20.000 --> 34:23.000]  If someone else, I just follow the lead.
+[34:23.000 --> 34:29.000]  But that one sharp, observant person is what drives our success.
+[34:29.000 --> 34:30.000]  Right?
+[34:30.000 --> 34:35.000]  So, for these tasks, group size can help.
+[34:35.000 --> 34:36.000]  Right?
+[34:36.000 --> 34:44.000]  As the group grows, the chances of having that higher performing individual increases.
+[34:46.000 --> 34:48.000]  But it still depends.
+[34:48.000 --> 34:49.000]  Why does it depend?
+[34:49.000 --> 34:52.000]  You need to be able to listen to that person, for example.
+[34:52.000 --> 34:57.000]  You need to avoid dominance by the less competent members.
+[34:57.000 --> 35:03.000]  You need to ensure that that one leader of yours is recognized, is acted upon.
+[35:03.000 --> 35:04.000]  Right?
+[35:04.000 --> 35:09.000]  So, for these kind of tasks, the best person wins.
+[35:09.000 --> 35:10.000]  Right?
+[35:10.000 --> 35:17.000]  So, assembling a team with at least one excellent problem solver is critical.
+[35:18.000 --> 35:19.000]  Does that make sense?
+[35:20.000 --> 35:21.000]  Okay, two minutes.
+[35:21.000 --> 35:23.000]  I'm going to talk about the third task.
+[35:23.000 --> 35:26.000]  This is known as the conjunctive task.
+[35:27.000 --> 35:29.000]  So, what happens here?
+[35:29.000 --> 35:33.000]  The group performance is limited by its weakest member.
+[35:34.000 --> 35:35.000]  Okay?
+[35:35.000 --> 35:40.000]  The group can only perform as well as the least capable participant.
+[35:41.000 --> 35:45.000]  So, an assembly line operation is a classic example.
+[35:45.000 --> 35:46.000]  Right?
+[35:46.000 --> 35:53.000]  If one worker is slow or makes frequent errors, the entire line is delayed.
+[35:54.000 --> 35:55.000]  Right?
+[35:55.000 --> 36:03.000]  So, everyone's output is dependent on that person, on that slowest, most or less accurate individual.
+[36:04.000 --> 36:08.000]  So, here, group size actually becomes a risk.
+[36:08.000 --> 36:09.000]  Right?
+[36:10.000 --> 36:11.000]  So, why?
+[36:11.000 --> 36:18.000]  Because as group size increases, so does the likelihood of including that weak link.
+[36:19.000 --> 36:20.000]  Right?
+[36:20.000 --> 36:23.000]  So, success, what does that depend on?
+[36:23.000 --> 36:27.000]  Well, it depends on identifying and supporting those weak members.
+[36:27.000 --> 36:34.000]  It means that you train them, you supervise them, you redistribute tasks to them.
+[36:35.000 --> 36:36.000]  Okay?
+[36:36.000 --> 36:45.000]  So, with this particular task, basically what happens is that the weakest link can break the chain.
+[36:46.000 --> 36:47.000]  Okay?
+[36:47.000 --> 36:52.000]  So, you kind of have to minimize the variance in ability.
+[36:52.000 --> 36:53.000]  Right?
+[36:53.000 --> 37:00.000]  You kind of need to cater to that, make sure that they obtain that support and training that is needed.
+[37:01.000 --> 37:02.000]  Does that make sense?
+[37:02.000 --> 37:03.000]  Okay.
+[37:03.000 --> 37:05.000]  I'm going to let you go one minute.
+[37:05.000 --> 37:09.000]  I still have like a few more things to do before I go into the next class.
+--- Transcription Finished ---
+--- Generating Notes with Ollama ---
+--- Notes Generation Finished ---
+Job 33 finalized and removed from queue.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+Queue processor checking for a new job...
+Processing job 34: New Recording 70.m4a
+--- Starting Transcription for ../uploads\23938579-8b73-4dc6-a9e7-3c874bea54af.m4a ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:10.000]  So groups basically consist of two or more individuals who interact with one another.
+[00:10.000 --> 00:16.000]  Interaction is the most basic element of a group.
+[00:16.000 --> 00:22.000]  And this interaction does not have to be face to face.
+[00:22.000 --> 00:26.000]  Now the other thing that's on this definition is interdependently.
+[00:26.000 --> 00:34.000]  So groups work interdependently, which simply means that group members, they rely on one another.
+[00:34.000 --> 00:38.000]  They have influence over one another.
+[00:38.000 --> 00:44.000]  Groups have some goal that they're seeking to achieve.
+[00:44.000 --> 00:50.000]  So there's a common goal amongst the group members.
+[00:50.000 --> 00:58.000]  And it could be something as simple as having fun to maybe marketing a new product.
+[00:58.000 --> 01:02.000]  It's a common goal.
+[01:02.000 --> 01:08.000]  So when it comes to defining a group, it's basically what it says on your slide.
+[01:08.000 --> 01:16.000]  There's two or more people that are interacting interdependently to achieve a common goal.
+[01:16.000 --> 01:18.000]  Make sense?
+[01:18.000 --> 01:22.000]  Now, groups and teams.
+[01:22.000 --> 01:28.000]  These are used interchangeably, but there are subtle differences between the two.
+[01:28.000 --> 01:38.000]  Groups, basically what that comprises of is two or more individuals interacting and that too interdependently.
+[01:38.000 --> 01:40.000]  They have a stable relationship.
+[01:40.000 --> 01:42.000]  They have a common goal.
+[01:42.000 --> 01:48.000]  They perceive themselves as being a member of a group.
+[01:48.000 --> 01:50.000]  But what is a team?
+[01:50.000 --> 02:04.000]  A team is also a small group of people, two or more, who work closely together towards a common objective, common goal.
+[02:04.000 --> 02:07.000]  They're held accountable to one another.
+[02:07.000 --> 02:15.000]  But they're working over some period of time on some task-related purpose.
+[02:15.000 --> 02:19.000]  So a group broader.
+[02:19.000 --> 02:23.000]  So it's basically you're working.
+[02:23.000 --> 02:25.000]  There's a common relationship.
+[02:25.000 --> 02:29.000]  You're working towards a common goal.
+[02:29.000 --> 02:32.000]  You're interacting interdependently.
+[02:32.000 --> 02:35.000]  Team, look at the definition in itself.
+[02:35.000 --> 02:41.000]  It's basically the same thing with just addition of task-related or task-oriented purpose.
+[02:41.000 --> 02:43.000]  Does that make sense?
+[02:43.000 --> 02:45.000]  Yes.
+[02:45.000 --> 02:47.000]  Yes?
+[02:47.000 --> 02:49.000]  These are the same as in Microsoft.
+[02:49.000 --> 02:51.000]  All right.
+[02:51.000 --> 03:00.000]  Now, in organizational setting, the term teams and group are often, like I said, used interchangeably.
+[03:00.000 --> 03:07.000]  But like I've already said, there are subtle but important distinctions that are useful to understand.
+[03:07.000 --> 03:11.000]  So let me talk a little bit more about this.
+[03:11.000 --> 03:16.000]  So a team is basically a special kind of group.
+[03:16.000 --> 03:21.000]  And it's characterized by task interdependence.
+[03:21.000 --> 03:23.000]  So that is where the key is.
+[03:23.000 --> 03:26.000]  It's a task-oriented purpose.
+[03:26.000 --> 03:39.000]  So members, they rely on one another to complete their tasks and achieve the shared goals.
+[03:39.000 --> 03:47.000]  But they're also, it's a group that's characterized by shared responsibility.
+[03:47.000 --> 04:01.000]  So teams, like I said in the previous slide, they're held accountable for collective outcomes.
+[04:01.000 --> 04:05.000]  A group, it's a broader term.
+[04:05.000 --> 04:17.000]  It refers to a collection of individuals who may or may not interact closely or work independently on a particular task.
+[04:17.000 --> 04:22.000]  So not all groups have task interdependence.
+[04:22.000 --> 04:33.000]  And some groups might actually just be assembled together without a common purpose or a common task.
+[04:33.000 --> 04:43.000]  So all teams are groups, but not all groups are teams, if that makes any sense.
+[04:43.000 --> 04:54.000]  Task interdependence is what really distinguishes teams from general groups.
+[04:54.000 --> 04:56.000]  So that's what you're seeing here.
+[04:56.000 --> 04:59.000]  So group, broader term.
+[04:59.000 --> 05:04.000]  It refers to this definition over here.
+[05:04.000 --> 05:09.000]  However, within a group, we could have a team that is working on a task,
+[05:09.000 --> 05:18.000]  or we could simply just have people that are working together, but there's no common task amongst them.
+[05:18.000 --> 05:22.000]  It's just an assembly of people.
+[05:22.000 --> 05:30.000]  Having said that, for the purpose of this class, I'm actually going to be using them in the same way.
+[05:30.000 --> 05:42.000]  For this class, we will be using them interchangeably, unless I specify otherwise.
+[05:42.000 --> 05:47.000]  So know the distinction, but for this class, we're using them interchangeably,
+[05:47.000 --> 05:50.000]  unless I say, oh no, this is only for team specific.
+[05:50.000 --> 05:55.000]  But do we understand the difference? What's the difference? Tell me what the difference is.
+[05:55.000 --> 05:59.000]  What's the difference between group and task, or group and team? Sorry.
+[05:59.000 --> 06:02.000]  I already answered the question.
+[06:02.000 --> 06:06.000]  The difference, I guess, is the kind of work you're doing in the relationship,
+[06:06.000 --> 06:13.000]  because for a team it's more specific and for a specific period of time, but for a group it could be more general.
+[06:13.000 --> 06:16.000]  Yeah, so it's a broader term, more general.
+[06:16.000 --> 06:20.000]  For example, team really has to do with a task in on hand.
+[06:20.000 --> 06:24.000]  You're working towards some sort of task.
+[06:24.000 --> 06:31.000]  This could be an entire group of people, but you're not really working on any task.
+[06:31.000 --> 06:37.000]  Does that make sense? Whereas with the group presentation, that's a particular task,
+[06:37.000 --> 06:42.000]  so that would be considered the team. Does that make sense?
+[06:43.000 --> 06:49.000]  All right, now let's talk about, like I said, maybe using them interchangeably.
+[06:49.000 --> 06:57.000]  So this I really, oh no, what happened? What is this? What is this?
+[07:02.000 --> 07:07.000]  Okay, so there are two different models on how these teams or groups can be developed,
+[07:07.000 --> 07:11.000]  and so I really want you to understand these models in paint.
+[07:11.000 --> 07:14.000]  I definitely want you to understand the first one.
+[07:14.000 --> 07:20.000]  All right, so the first is known as the five stage model.
+[07:20.000 --> 07:23.000]  This basically, what is happening?
+[07:28.000 --> 07:32.000]  So the first is known as the five stage model.
+[07:32.000 --> 07:36.000]  So what you see on the top half is known as the five stage model.
+[07:36.000 --> 07:47.000]  So the five stage model, what it does is it describes a standardized sequence of stages that groups go through.
+[07:47.000 --> 07:55.000]  What are those stages? Forming, storming, norming, performing, adjourning.
+[07:55.000 --> 08:04.000]  And the second model, which is what you see in green, this is known as the punctuated equilibrium model.
+[08:07.000 --> 08:19.000]  And what this is basically doing is it describes the pattern of development that is specific to temporary teams with deadlines.
+[08:23.000 --> 08:27.000]  So what are these phases that they go through?
+[08:27.000 --> 08:36.000]  So the first phase is basically where you show little work, basically.
+[08:36.000 --> 08:41.000]  Then you have a midpoint, and then after the midpoint is when you show most of your work.
+[08:41.000 --> 08:47.000]  But I'll be talking about that in a few minutes. Does that make sense?
+[08:47.000 --> 08:53.000]  So just remember that there are two main models when it comes to group development.
+[08:53.000 --> 08:59.000]  The first is known as the five stage model, which is what you see in red.
+[08:59.000 --> 09:05.000]  And then the second, which you see in green, is known as the punctuated equilibrium model.
+[09:05.000 --> 09:11.000]  So let's first talk about the one in red, the five stage model.
+[09:11.000 --> 09:19.000]  So the five stage model was introduced to us by Bruce Tuckerman.
+[09:19.000 --> 09:23.000]  Tuckerman, sorry, not Tuckerman, Tuckerman.
+[09:23.000 --> 09:31.000]  So like I said, it provides to you a standardized sequence of stages that groups or teams go through.
+[09:31.000 --> 09:39.000]  And it kind of shows us how we move from independence to interdependence.
+[09:39.000 --> 09:45.000]  How we go from working alone to working together.
+[09:45.000 --> 09:48.000]  So what is the first stage?
+[09:48.000 --> 09:53.000]  The first stage is known as forming.
+[09:53.000 --> 09:55.000]  So what happens here?
+[09:55.000 --> 10:01.000]  Basically, the members are trying to orient themselves.
+[10:01.000 --> 10:07.000]  They're trying to understand the boundaries of the team.
+[10:07.000 --> 10:15.000]  They're trying to get an understanding of what is expected of them, what kind of behaviors are expected of them,
+[10:15.000 --> 10:20.000]  what are not appropriate behaviors, so to speak.
+[10:20.000 --> 10:27.000]  So you're kind of testing the waters.
+[10:27.000 --> 10:33.000]  And this stage is usually characterized by uncertainty as well as anxiety.
+[10:33.000 --> 10:40.000]  Because you're trying to get acquainted with one another.
+[10:40.000 --> 10:45.000]  So that's what happens at the forming stage.
+[10:45.000 --> 10:49.000]  Does that make sense?
+[10:49.000 --> 10:55.000]  The second stage is known as forming.
+[10:55.000 --> 10:57.000]  Here, what do we see?
+[10:57.000 --> 11:02.000]  We actually see hostilities and conflict.
+[11:02.000 --> 11:10.000]  People are trying to vie for power, for status.
+[11:10.000 --> 11:18.000]  People actually remain committed to the ideas that they bring to the table.
+[11:18.000 --> 11:24.000]  And they're not really willing to accommodate the other person's ideas just yet.
+[11:24.000 --> 11:29.000]  And because of that, we see conflict.
+[11:29.000 --> 11:34.000]  And it can actually negatively affect some interpersonal relationships.
+[11:34.000 --> 11:40.000]  It can harm the team's progress.
+[11:40.000 --> 11:46.000]  So this stage of conflict amongst members exists.
+[11:46.000 --> 11:56.000]  But at the same time, what they're trying to do is they're trying to work out the purpose, the goals, the objectives of the group.
+[11:56.000 --> 12:05.000]  And if you don't really resolve the conflict, well that can actually threaten the existence of that group.
+[12:05.000 --> 12:10.000]  But conflict can actually also be a good thing.
+[12:10.000 --> 12:20.000]  Where it can help us create roles, it can help us create norms, if the differences are resolved.
+[12:20.000 --> 12:24.000]  Does that make sense?
+[12:24.000 --> 12:26.000]  Yeah? You want me to repeat anything here?
+[12:26.000 --> 12:31.000]  The third stage is known as norming.
+[12:31.000 --> 12:34.000]  So what's happening here?
+[12:34.000 --> 12:41.000]  Members agree on their shared goals. They agree on the norms.
+[12:41.000 --> 12:46.000]  So there's basically expectations that are agreed upon.
+[12:46.000 --> 12:49.000]  Or rules that are agreed upon.
+[12:49.000 --> 12:59.000]  And these expectations, these rules, then guide the behaviors of themselves, of the members.
+[12:59.000 --> 13:02.000]  And what do we actually see at the norming stage?
+[13:02.000 --> 13:08.000]  We actually see closer relationships developing.
+[13:08.000 --> 13:11.000]  So what happens at this stage?
+[13:11.000 --> 13:15.000]  Members, they realize that they have to work together.
+[13:15.000 --> 13:19.000]  They need to work together to accomplish the team goals.
+[13:19.000 --> 13:23.000]  And so they begin to cooperate with one another.
+[13:29.000 --> 13:35.000]  So this is really the stage where the teams become more cohesive.
+[13:35.000 --> 13:40.000]  People start to identify as being a member of that group.
+[13:46.000 --> 13:49.000]  Does that make sense?
+[13:49.000 --> 13:54.000]  So close relationships, this is usually where we see it.
+[13:54.000 --> 14:03.000]  There is now a common way of thinking about doing things, common expectations of how things should be done.
+[14:06.000 --> 14:08.000]  Make sense?
+[14:08.000 --> 14:12.000]  The fourth stage is known as performing.
+[14:12.000 --> 14:19.000]  So now you are actually channeling all your energy in performing the task on hand.
+[14:19.000 --> 14:28.000]  You're comfortable with the roles that have been assigned to you, and you're making progress towards those goals.
+[14:29.000 --> 14:34.000]  So this is really the stage where the work actually gets done.
+[14:34.000 --> 14:44.000]  Okay, and the fifth stage is a journey.
+[14:44.000 --> 14:49.000]  Now this actually applies more to temporary teams.
+[14:49.000 --> 14:56.000]  So here basically you are concerned about wrapping things up rather than task performance.
+[14:57.000 --> 15:05.000]  But for permanent work teams, the last stage that you're at is performing.
+[15:07.000 --> 15:17.000]  But for temporary teams or committees or task force or anything that's temporary of nature, the adjourning stage is the last stage.
+[15:19.000 --> 15:23.000]  So what that means is the group is no longer in existence.
+[15:26.000 --> 15:30.000]  Which will kind of be what you will see after this class.
+[15:32.000 --> 15:40.000]  No, what I mean by that is after this class you might not be in the same classes, right?
+[15:40.000 --> 15:44.000]  So you might be placed in another team altogether.
+[15:46.000 --> 15:53.000]  But if we were in an organization and you were all in one division, you might be there.
+[15:53.000 --> 16:00.000]  You might be at the performing stage for years or decades to come. Does that make sense?
+[16:01.000 --> 16:05.000]  Do I have any questions about any of these five stages?
+[16:09.000 --> 16:15.000]  No? Okay. One of the things I like to do is I like to link this to dating behavior.
+[16:16.000 --> 16:19.000]  Okay, so just imagine this.
+[16:20.000 --> 16:25.000]  We're swiping left, right, left, right on all these stupid apps that are out there.
+[16:25.000 --> 16:28.000]  Right, right, right, right, right.
+[16:28.000 --> 16:32.000]  Okay, so what happens when you both swipe right?
+[16:33.000 --> 16:35.000]  There is a match.
+[16:35.000 --> 16:38.000]  So you're talking and now what happens?
+[16:38.000 --> 16:41.000]  You have your first meeting. Oh my goodness.
+[16:41.000 --> 16:46.000]  You have your next. Uncertainty, anxiety could be sick, right?
+[16:47.000 --> 16:51.000]  Okay, then what happens? You start going more and more on dates.
+[16:51.000 --> 16:55.000]  Alright, now okay. But you know what? I'm setting my ways.
+[16:55.000 --> 17:00.000]  You're setting yours. Conflict might arise, right?
+[17:02.000 --> 17:07.000]  Especially after the novelty wears off. Conflict might arise, right?
+[17:07.000 --> 17:09.000]  And then what happens?
+[17:09.000 --> 17:13.000]  Okay, so you work through your conflict, right?
+[17:13.000 --> 17:17.000]  If you work through your conflict, yay, good for you.
+[17:19.000 --> 17:25.000]  You try and understand how do I maintain my identity but also respect the other person.
+[17:26.000 --> 17:32.000]  You now try and understand what are the expectations of one another.
+[17:32.000 --> 17:35.000]  What are some rules that we can work with?
+[17:36.000 --> 17:42.000]  Okay, so the relationships basically form norms, right?
+[17:42.000 --> 17:44.000]  And then what happens?
+[17:44.000 --> 17:47.000]  Okay, we've now been dating for some time.
+[17:47.000 --> 17:49.000]  We're now in a relationship.
+[17:49.000 --> 17:54.000]  But for me it might be marriage, might be kids, right?
+[17:55.000 --> 17:58.000]  What might be adjourning? Divorce.
+[17:58.000 --> 18:01.000]  Yeah, right?
+[18:02.000 --> 18:05.000]  But think of it that way, right?
+[18:05.000 --> 18:09.000]  So that's basically how this works.
+[18:09.000 --> 18:12.000]  I always like to bring dating because everyone starts chuckling and they're like,
+[18:12.000 --> 18:16.000]  oh yeah, that's exactly how it was in my last relationship.
+[18:16.000 --> 18:20.000]  And I'm like, which stage are you in now? They're like, adjourning, right?
+[18:20.000 --> 18:22.000]  So think of it that way.
+[18:22.000 --> 18:25.000]  If ever you're confused about, oh my goodness, how does it work?
+[18:25.000 --> 18:30.000]  Remember Santa's dating behavior example, okay?
+[18:30.000 --> 18:33.000]  That will help you understand these stages.
+[18:33.000 --> 18:41.000]  Okay, now one of the things you have to note when it comes to this particular model of group development
+[18:41.000 --> 18:44.000]  is that not all groups go through these stages.
+[18:44.000 --> 18:46.000]  Okay?
+[18:46.000 --> 18:50.000]  This actually really applies to new groups.
+[18:50.000 --> 18:55.000]  Like as in, it applies to groups that have never met before.
+[18:57.000 --> 18:58.000]  Okay?
+[18:58.000 --> 18:59.000]  So what do I mean by that?
+[18:59.000 --> 19:04.000]  I don't know how many of you know each other except Jenny and Erica.
+[19:04.000 --> 19:07.000]  I don't know how many of you others know each other.
+[19:07.000 --> 19:09.000]  Like when you first came into this class.
+[19:09.000 --> 19:12.000]  I don't know, right?
+[19:12.000 --> 19:14.000]  So this might actually be applicable.
+[19:14.000 --> 19:21.000]  If you've never met your group mates before, this will probably happen in this particular session.
+[19:21.000 --> 19:26.000]  However, say you move on to level three, you move on to year three,
+[19:26.000 --> 19:32.000]  and now you're with some of the people that you've taken a class with before.
+[19:32.000 --> 19:35.000]  You're now really good friends with them, right?
+[19:35.000 --> 19:38.000]  You get to choose your groups.
+[19:38.000 --> 19:42.000]  So you might not go through the whole forming where you're testing the water.
+[19:42.000 --> 19:46.000]  Maybe you might not even go through the storming where you have conflicts
+[19:46.000 --> 19:50.000]  because you kind of understand how things work with one another.
+[19:50.000 --> 19:52.000]  Does that make sense?
+[19:52.000 --> 19:53.000]  Right?
+[19:53.000 --> 19:55.000]  But let's put it into perspective.
+[19:55.000 --> 20:05.000]  So like I said, not all teams go through the stages in the order that they met, that has been specified.
+[20:05.000 --> 20:10.000]  But sometimes we might go to an earlier stage, right?
+[20:10.000 --> 20:18.000]  So what might happen is, okay, so year three, you now get to choose your groups, right?
+[20:18.000 --> 20:21.000]  So you're no longer testing the water.
+[20:21.000 --> 20:26.000]  And you feel like there should be no conflict because you've worked really well with one another.
+[20:26.000 --> 20:30.000]  So you should be at the norming stage, but a conflict might arise.
+[20:30.000 --> 20:33.000]  So you move faster.
+[20:33.000 --> 20:36.000]  Okay?
+[20:36.000 --> 20:43.000]  Conflict, we look at it very negatively, but it actually can be a good thing, right?
+[20:43.000 --> 20:46.000]  But it needs to be resolved in order to be a good thing.
+[20:46.000 --> 20:47.000]  Okay?
+[20:47.000 --> 20:50.000]  And then the last point is context matters.
+[20:50.000 --> 21:00.000]  Pilots, for example, right, the main pilot and co-pilot, sometimes they never work with one another.
+[21:00.000 --> 21:06.000]  They don't have time to do this like forming, norming, or any of those stages.
+[21:06.000 --> 21:07.000]  They don't have time to.
+[21:07.000 --> 21:08.000]  They have to perform.
+[21:08.000 --> 21:09.000]  That's it.
+[21:09.000 --> 21:15.000]  They have no time to test the waters, see if conflict arises, set expectations.
+[21:15.000 --> 21:18.000]  No, they need to perform, right?
+[21:18.000 --> 21:22.000]  They need to get us up in the air and land us in a good time.
+[21:22.000 --> 21:24.000]  Does that make sense?
+[21:24.000 --> 21:25.000]  Okay.
+[21:25.000 --> 21:31.000]  So does everyone understand the five-stage model of group development?
+[21:31.000 --> 21:32.000]  Yes?
+[21:32.000 --> 21:33.000]  Good.
+[21:33.000 --> 21:37.000]  Make an asterisk beside it because this is definitely on your midterm.
+[21:37.000 --> 21:39.000]  Okay?
+[21:39.000 --> 21:40.000]  All right.
+[21:40.000 --> 21:42.000]  What's the second model?
+[21:42.000 --> 21:45.000]  This is known as a punctuated equilibrium model.
+[21:45.000 --> 21:53.000]  So what this does is it describes a pattern that is specific to temporary teams with deadlines.
+[21:53.000 --> 21:54.000]  That's the difference here.
+[21:54.000 --> 21:55.000]  Okay?
+[21:55.000 --> 21:58.000]  So it's a temporary team or group with deadlines.
+[21:58.000 --> 22:00.000]  What's the name of it?
+[22:00.000 --> 22:06.000]  So Connie Gursick is the one that uncovered this particular sequence.
+[22:06.000 --> 22:10.000]  And equilibrium basically refers to stability.
+[22:10.000 --> 22:11.000]  Okay?
+[22:11.000 --> 22:22.000]  And so this research basically revealed to us that there are stretches, that there are phases that people undertake, that teams undertake.
+[22:22.000 --> 22:26.000]  So there are stretches of team stability, right?
+[22:26.000 --> 22:31.000]  There is first a critical meeting point, right?
+[22:31.000 --> 22:33.000]  Then there's a midpoint change.
+[22:33.000 --> 22:37.000]  And then there is a rush to complete the task.
+[22:37.000 --> 22:39.000]  That's basically what it's referring to.
+[22:39.000 --> 22:44.000]  So there are basically two phases with a transition in the middle.
+[22:44.000 --> 22:45.000]  Okay?
+[22:45.000 --> 22:48.000]  So phase one is here.
+[22:48.000 --> 22:50.000]  So what happens in phase one?
+[22:50.000 --> 22:57.000]  Well, phase one would comprise of basically having your first meeting, right?
+[22:57.000 --> 23:04.000]  And this continues until the midpoint in the team's existence.
+[23:04.000 --> 23:06.000]  So what happens in this first meeting?
+[23:06.000 --> 23:09.000]  So you're trying to set the agenda, right?
+[23:09.000 --> 23:14.000]  For what is to happen during the remainder of that phase.
+[23:14.000 --> 23:20.000]  But you're making little progress towards the goal.
+[23:20.000 --> 23:21.000]  Okay?
+[23:21.000 --> 23:30.000]  Transition happens exactly in the middle or halfway point in time towards the team's deadline.
+[23:30.000 --> 23:31.000]  Okay?
+[23:31.000 --> 23:36.000]  So this transition marks a change in the approach that the team takes.
+[23:42.000 --> 23:51.000]  And how the team manages this midpoint actually translates into what we see in phase two.
+[23:51.000 --> 23:52.000]  Okay?
+[23:52.000 --> 23:59.000]  So here you're coming up with all the different activities that need to occur in phase two.
+[23:59.000 --> 24:05.000]  And in phase two is basically where you're rushing to complete the task.
+[24:05.000 --> 24:06.000]  Right?
+[24:06.000 --> 24:13.000]  So decisions, approaches that you had made at the midpoint are now implemented.
+[24:13.000 --> 24:15.000]  Right?
+[24:15.000 --> 24:22.000]  And then what happens is you have a final meeting that kind of reveals a burst of activity
+[24:22.000 --> 24:27.000]  and a concern for how others would evaluate your end product.
+[24:29.000 --> 24:30.000]  Okay?
+[24:30.000 --> 24:37.000]  So basically phase one, have a meeting, kind of set the agenda, but no progress is made.
+[24:37.000 --> 24:41.000]  Then comes the transition point, which is known as the midpoint.
+[24:41.000 --> 24:47.000]  This is where you're like working out the different approach that you're going to take.
+[24:47.000 --> 24:49.000]  You're coming up with decisions.
+[24:49.000 --> 24:50.000]  Right?
+[24:50.000 --> 24:54.000]  And then in phase two, you're actually implementing this stuff.
+[24:54.000 --> 24:56.000]  You're rushing to get things done.
+[24:56.000 --> 25:01.000]  And then you have this one final meeting at the very end where you go over what it is
+[25:01.000 --> 25:05.000]  that you came up with, how is it going to be evaluated.
+[25:05.000 --> 25:07.000]  Does this sound familiar to you?
+[25:07.000 --> 25:10.000]  What do you think?
+[25:10.000 --> 25:11.000]  Definitely.
+[25:11.000 --> 25:12.000]  Definitely.
+[25:12.000 --> 25:13.000]  Talk about that.
+127.0.0.1 - - [01/Oct/2025 20:35:12] "GET /queue_status HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:38:20] "GET /queue_status HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:42:27] "GET /queue_status HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:42:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:42:31] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:42:31] "GET /static/script.js HTTP/1.1" 304 -
+127.0.0.1 - - [01/Oct/2025 20:42:32] "GET /manifest.json HTTP/1.1" 404 -
+127.0.0.1 - - [01/Oct/2025 20:42:32] "GET /history HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:42:34] "GET /session/27 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:42:37] "GET /session/26 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:42:38] "GET /session/27 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:42:39] "GET /session/27 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:42:39] "GET /session/26 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:42:44] "GET /session/27 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:42:45] "GET /session/26 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:42:49] "GET /session/27 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:42:53] "GET /session/26 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:43:04] "GET /session/27 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:43:08] "POST /delete/27 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:43:09] "GET /history HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:43:11] "GET /session/26 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:43:19] "POST /edit/26 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:43:20] "GET /history HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:43:24] "POST /transcripts/26/move HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 20:43:24] "GET /history HTTP/1.1" 200 -

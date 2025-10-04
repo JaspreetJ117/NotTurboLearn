@@ -1,0 +1,431 @@
+Directory '..\data' is ready.
+Database and tables verified successfully.
+Queue processor thread started.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.0.0.26:443
+Press CTRL+C to quit
+100.117.97.99 - - [03/Oct/2025 19:44:14] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [03/Oct/2025 19:44:14] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [03/Oct/2025 19:44:15] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [03/Oct/2025 19:44:15] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [03/Oct/2025 19:44:15] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [03/Oct/2025 19:44:15] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [03/Oct/2025 20:07:59] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [03/Oct/2025 20:07:59] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [03/Oct/2025 20:07:59] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [03/Oct/2025 20:07:59] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [03/Oct/2025 20:07:59] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [03/Oct/2025 20:08:00] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [03/Oct/2025 20:08:50] "POST /transcribe HTTP/1.1" 200 -
+100.117.97.99 - - [03/Oct/2025 20:08:54] "GET /status/35 HTTP/1.1" 200 -
+100.117.97.99 - - [03/Oct/2025 20:08:57] "GET /status/35 HTTP/1.1" 200 -
+100.117.97.99 - - [03/Oct/2025 20:09:00] "GET /status/35 HTTP/1.1" 200 -
+100.117.97.99 - - [03/Oct/2025 20:09:03] "GET /status/35 HTTP/1.1" 200 -
+100.117.97.99 - - [03/Oct/2025 20:09:06] "GET /status/35 HTTP/1.1" 200 -
+100.117.97.99 - - [03/Oct/2025 20:09:09] "GET /status/35 HTTP/1.1" 200 -
+100.117.97.99 - - [03/Oct/2025 20:09:10] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [03/Oct/2025 20:09:12] "GET /status/35 HTTP/1.1" 200 -
+Queue processor checking for a new job...
+Processing job 35: COOP #1 .m4a
+Loading Whisper model for the first time...
+Whisper is using device: cuda
+Whisper model loaded successfully.
+--- Starting Transcription for ../uploads\4f95d9b8-7dad-40fe-a36c-e84e8ec4efc4.m4a ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:13.000]  Congratulations, you made it through. This is module one, welcome to co-op for the co-op fundamentals course.
+[00:13.000 --> 00:18.000]  My name is Tara Fitzgerald, I have my colleague Ian Schwartz with us.
+[00:18.000 --> 00:23.000]  There are a number of people that I do want to acknowledge before we get started.
+[00:23.000 --> 00:28.000]  You have seen Amy Wolf out in the front, she is our associate director for operations.
+[00:28.000 --> 00:33.000]  She is here this evening. We also have another staff member, Carissa, down in French.
+[00:33.000 --> 00:35.000]  She's going to introduce herself later.
+[00:35.000 --> 00:39.000]  We are in last hall, we're not normally here for our co-op events.
+[00:39.000 --> 00:42.000]  We normally see you at the co-op office.
+[00:42.000 --> 00:45.000]  So whether we're here tonight or we're at the co-op office,
+[00:45.000 --> 00:53.000]  I just want to acknowledge the land that we are learning upon, that we reside on, and especially learn upon.
+[00:53.000 --> 00:59.000]  Laurier and its campuses is located on the Haldimand Tract.
+[00:59.000 --> 01:04.000]  That is the traditional territory of the neutral Anishinaabe and Haudenosaunee people.
+[01:04.000 --> 01:08.000]  This land is part of the District One Spoon Treaty.
+[01:08.000 --> 01:11.000]  It's the agreement that we all share, the land.
+[01:11.000 --> 01:16.000]  The Haldimand Treaty was signed back in 1784.
+[01:16.000 --> 01:23.000]  And I encourage you to learn more about the treaties within Canada or wherever you call home at nativeland.ca.
+[01:23.000 --> 01:25.000]  It's a great resource.
+[01:25.000 --> 01:31.000]  You can learn a lot about treaties, languages, territories from our Aboriginal people.
+[01:31.000 --> 01:36.000]  And you can even zoom in on a specific area where you live or reside.
+[01:36.000 --> 01:38.000]  And you can see the Haldimand Treaty here.
+[01:38.000 --> 01:41.000]  You can click on it and learn more about it.
+[01:41.000 --> 01:45.000]  So for tonight, we have some learning objectives.
+[01:45.000 --> 01:47.000]  We want to talk about some of the co-op processes.
+[01:47.000 --> 01:50.000]  That's why we're here first, to kick off the night.
+[01:50.000 --> 01:54.000]  There are a number of other things we're going to work on during our time in co-op.
+[01:54.000 --> 01:57.000]  Some professional attributes.
+[01:57.000 --> 02:03.000]  You're going to really develop that resiliency, that adaptability during your time with us in co-op.
+[02:03.000 --> 02:07.000]  Certainly, as you apply to jobs, you might not secure an interview.
+[02:07.000 --> 02:12.000]  As you apply to interviews and secure an interview, you might not get the job.
+[02:12.000 --> 02:19.000]  So that resiliency, that adaptability, very important as you go through your time with us in co-op.
+[02:19.000 --> 02:21.000]  So for today, here's our agenda.
+[02:21.000 --> 02:24.000]  We're going to talk about co-op and Laurier, what that means.
+[02:24.000 --> 02:30.000]  We have an employer, a speaker here with us tonight, which we will introduce shortly.
+[02:30.000 --> 02:35.000]  We're going to look through the fundamentals course, go through the speaker sharing and policies,
+[02:35.000 --> 02:39.000]  and look at some resources and talk about employment.
+[02:39.000 --> 02:46.000]  Before we get started, I do want to acknowledge that we have a new program just launched with our peer mentors.
+[02:46.000 --> 02:52.000]  These are senior students who provide one-on-one support to you.
+[02:52.000 --> 02:56.000]  They will help you polish some of your resumes and cover letters.
+[02:56.000 --> 02:59.000]  They will help you if you need some help with interview prep.
+[02:59.000 --> 03:07.000]  They provide a lot of great guidance in terms of what they've been through and passing on that knowledge.
+[03:07.000 --> 03:11.000]  So there are some great folks that are here to help you.
+[03:11.000 --> 03:19.000]  You have three BBA peer mentors, but really there are eight of them to support you.
+[03:19.000 --> 03:25.000]  So it's drop-in. You come to the co-op office, they're here to support you and meet with you and chat.
+[03:25.000 --> 03:30.000]  Now, they are focused on different areas. Some are BBA, some are computer science.
+[03:30.000 --> 03:36.000]  You can come to specific people if you like, but you can also just drop in when it works for you.
+[03:36.000 --> 03:42.000]  I say this because you might not think to come to a computer science student like Isabelle,
+[03:42.000 --> 03:47.000]  but she had roles related to an investment analyst position and consulting.
+[03:47.000 --> 03:51.000]  So make sure you're coming up and checking those schedules.
+[03:51.000 --> 03:55.000]  I do want to just acknowledge Charlotte who's here with us tonight.
+[03:55.000 --> 03:59.000]  She's one of our peer mentors, and I'll let her introduce herself.
+[03:59.000 --> 04:01.000]  Hi, I'm Charlotte.
+[04:05.000 --> 04:08.000]  Alright, nice to see you all. Congrats on getting into co-op.
+[04:08.000 --> 04:10.000]  You're a co-op student, so I'm probably happy.
+[04:10.000 --> 04:13.000]  Then about myself, I've had my fourth year.
+[04:13.000 --> 04:20.000]  I've done two co-op jobs so far, one doing sales at Co-op and another doing marketing at Smucker.
+[04:20.000 --> 04:27.000]  Heading into my third co-op in January doing sales at a tech company called Hubhead, so I'm very excited about that.
+[04:27.000 --> 04:34.000]  And just like Karla said, I'll be here throughout the semester to help you with all things co-op related.
+[04:34.000 --> 04:40.000]  If it's just job advice or looking at your resume, your cover letter, please come see us.
+[04:40.000 --> 04:43.000]  I wish I had someone to talk to when I was in your best position.
+[04:43.000 --> 04:45.000]  I remember it was just two years ago.
+[04:45.000 --> 04:49.000]  So yeah, don't hesitate. We're around, and I hope to see you.
+[04:51.000 --> 04:54.000]  Alright, I'm going to give a shout out to Charlotte.
+[04:55.000 --> 05:00.000]  Charlotte is available Friday mornings 10 to noon, just as a plug there for her.
+[05:00.000 --> 05:07.000]  Within our co-op team, we have 14 consultants, so we're not a huge team, but we are mighty.
+[05:07.000 --> 05:12.000]  There are 14 consultants in Waterloo, in the GTA, in Bradford areas.
+[05:12.000 --> 05:20.000]  And what's really unique about our recording co-op consultants is that they work directly with both employers and students.
+[05:20.000 --> 05:26.000]  So not only do they have great knowledge about the industry, they want to pass that knowledge off to you.
+[05:26.000 --> 05:33.000]  So certainly take advantage of them. We have Karissa who is here. She is a co-op consultant.
+[05:33.000 --> 05:38.000]  She can provide a bit more information about some of her role and what she does.
+[05:38.000 --> 05:44.000]  She is also featured as one of our drop-in consultants, so we'll bring her up for that.
+[05:45.000 --> 05:50.000]  Hi everybody. It is so great to see you. Welcome to co-op.
+[05:50.000 --> 05:53.000]  My name is Chris. I'm one of the co-op consultants of 14 people.
+[05:53.000 --> 06:00.000]  Like Tara said, our job is a combination of getting to work with students like you, but then uniquely at Laurier's co-op program,
+[06:00.000 --> 06:05.000]  I also get to work with the companies that I tell you to apply to or that you're interested in.
+[06:05.000 --> 06:12.000]  So the connections that we have, the understanding of the industry, the people that we know, it benefits you as students.
+[06:12.000 --> 06:18.000]  Talk to your consultants. Make no place in the world where you want to help them bring that knowledge and that experience
+[06:18.000 --> 06:22.000]  to help them through that process as best as possible towards your success.
+[06:22.000 --> 06:28.000]  The other thing that I do specifically on the team is that I am responsible for the consultant drop-in hours.
+[06:28.000 --> 06:33.000]  So every Thursday from 11 until 1 in the co-op office, come hang out with me.
+[06:33.000 --> 06:40.000]  If you have questions, you want to go over documents or any of your interview preparation, but also want to talk the co-op process,
+[06:40.000 --> 06:46.000]  that's what I'm here for. It's a lot of fun. If you want to talk travel, food or anything like that, come on and stop by anytime you want.
+[06:46.000 --> 06:50.000]  We'll make sure to help you out that day. And I look forward to seeing you in the office.
+[06:50.000 --> 06:54.000]  Amazing. Thank you, Teresa.
+[06:54.000 --> 07:02.000]  As we mentioned, we have a larger team and we wanted to just show you a quick video of some of the consultants
+[07:02.000 --> 07:07.000]  you might work with during your time with us in co-op as part of your journey.
+[07:07.000 --> 07:10.000]  Can't take a picture of this.
+[07:10.000 --> 07:13.000]  We don't have the volume, but we tested this.
+[07:13.000 --> 07:15.000]  Thank you.
+[07:15.000 --> 07:17.000]  Okay.
+[07:17.000 --> 07:19.000]  Thanks, bro.
+[07:23.000 --> 07:26.000]  Okay. That's okay.
+[07:26.000 --> 07:28.000]  Okay.
+[07:41.000 --> 07:46.000]  All right. So we got a good crew. We're a fun crew. This is one we went on for ice cream together.
+[07:46.000 --> 07:50.000]  We do a lot of fun things around the office. We're very connected.
+[07:50.000 --> 07:58.000]  We're very excited to work with you during your journey. So, to thank the building didn't work, but all right.
+[07:58.000 --> 08:03.000]  So you've met some of our consultants. Carissa, Piers, now is the fundamentals team.
+[08:03.000 --> 08:08.000]  So myself and Ian, we work with Alex, who is our curriculum administrator.
+[08:08.000 --> 08:12.000]  She does everything related to planning and tracking the progress.
+[08:12.000 --> 08:18.000]  So she will reach out if there are items that might have been missed or things you need to be aware of.
+[08:18.000 --> 08:24.000]  She also looks after the 500 plus events that get posted to our event calendar.
+[08:24.000 --> 08:27.000]  So if you have questions about that, you can connect with her.
+[08:27.000 --> 08:33.000]  I would recommend that you connect with us in general through the co-op course at wlu.ca.
+[08:33.000 --> 08:37.000]  Myself, Ian, Alex, we all monitor that shared inbox.
+[08:37.000 --> 08:42.000]  So if you want a quick response to your questions, that's the way to get hold of us.
+[08:42.000 --> 08:47.000]  Obviously, it's me too. Well, introducing myself and Ian.
+[08:47.000 --> 08:51.000]  What you see in the content is what Ian and I have developed in the course.
+[08:51.000 --> 08:55.000]  So we're responsible for all the content you see and the instruction.
+[08:55.000 --> 08:59.000]  We give you feedback on your submissions, which we grade.
+[08:59.000 --> 09:04.000]  And we're really trying to connect about what's happening in industry.
+[09:04.000 --> 09:08.000]  You'll hear us talk a lot about data. We love data. We love numbers.
+[09:08.000 --> 09:14.000]  And we try to stay on top of what's happening in industry and just in terms of applications.
+[09:14.000 --> 09:18.000]  Yes, we will be talking about Gen.A.I. and how that affects your application documents.
+[09:18.000 --> 09:22.000]  We want you to be prepared for work term. And that is our purpose.
+[09:22.000 --> 09:28.000]  We want you to be prepared and certainly are teaching you the pitfalls, but also best practices.
+[09:28.000 --> 09:33.000]  So if anything, we come from a place of care when we provide you with our feedback.
+[09:33.000 --> 09:36.000]  And we look forward to working with you.
+[09:36.000 --> 09:42.000]  Now, Ian and I hear a lot from employers. We are in the thick of things.
+[09:42.000 --> 09:49.000]  And we thought it would only be suitable to really provide some of that straight from the source.
+[09:49.000 --> 09:53.000]  So we have Mikaela here, Mikaela Rice. She's from Sephora.
+[09:53.000 --> 09:56.000]  She's our manager of talent and acquisition programs.
+[09:56.000 --> 10:00.000]  So welcome, Mikaela. Thank you for being here today.
+[10:04.000 --> 10:07.000]  And we'll test this one. Yeah, we're both working. We're going to see Mikaela.
+[10:07.000 --> 10:11.000]  Yeah, we got hot mics going. We really appreciate you coming.
+[10:11.000 --> 10:20.000]  Like Tara had mentioned, one of the big things we tried in this fun mouse course is using information that we're getting directly from recruiting communities.
+[10:20.000 --> 10:26.000]  We're really fortunate tonight to have Mikaela join us from Sephora, who's a manager of talent acquisition programs,
+[10:26.000 --> 10:33.000]  to talk a little bit about what things are like from her side of the table when looking at application packages, considering applicants.
+[10:33.000 --> 10:37.000]  And we'll talk a little bit about the Aspire program at Sephora at the end. So thanks so much for joining us.
+[10:37.000 --> 10:43.000]  Absolutely. I'm very happy to be here. Also, congratulations to you all on being accepted to co-op.
+[10:43.000 --> 10:47.000]  Super exciting. And I'm just to get into it. So let's get started.
+[10:47.000 --> 10:55.000]  For sure. So we can get started. Mikaela, can you tell us a little bit about your overview, the history from coming from Lory to your current role at Sephora?
+[10:55.000 --> 11:03.000]  Absolutely. So I'm a very, very proud Lory alumni. I graduated some moons ago from this lovely campus.
+[11:03.000 --> 11:11.000]  And since then, I've had a very clear and new resources. Post-graduation, I actually started in a tech agency for recruitment.
+[11:11.000 --> 11:20.000]  Realized early on that tech agency just wasn't for me, and that's okay. And we moved on to in-house recruitment for Lavabre's in Canada.
+[11:20.000 --> 11:25.000]  So it's a few years that go back in various functions, recruitment, total awards.
+[11:25.000 --> 11:33.000]  Then I took the journey over to Sephora for one year and then into talent acquisition.
+[11:33.000 --> 11:39.000]  And then I actually went to the e-sports and entertainment for a few years and did some various roles with them.
+[11:39.000 --> 11:45.000]  And then made my way back home, as we like to joke at Sephora, back into the talent acquisition program's role.
+[11:45.000 --> 11:49.000]  And then as of Monday, actually moving into the manager of talent development.
+[11:49.000 --> 11:56.000]  So, yes, still happy to inspire and co-op underneath my portfolio, an expanded role.
+[11:56.000 --> 12:00.000]  So that's what I've been up to since I've been here at the office.
+[12:00.000 --> 12:07.000]  I appreciate that. You were joking earlier that your last time in the room was four convocations, but didn't get to take a course, actually.
+[12:07.000 --> 12:12.000]  No, it did not. But it was very done. So these are all the construction for the four years.
+[12:12.000 --> 12:15.000]  So lovely to enjoy this gorgeous building.
+[12:15.000 --> 12:21.000]  So the first question we have for you is, we're wondering from your side of the table when you're looking at applicants,
+[12:21.000 --> 12:25.000]  what are some of the qualities of co-op students that help you stand out during recruitment?
+[12:25.000 --> 12:32.000]  And even in marketing in particular, if students don't have marketing experience, what can they do to make a good impression for you?
+[12:32.000 --> 12:35.000]  I think it all comes down to initiative and effort.
+[12:35.000 --> 12:40.000]  And I think effort will take you anywhere in business if you just show up and put your mind to something.
+[12:40.000 --> 12:46.000]  So we're thinking about marketing, for example. I know for us, we hire a social media co-op typically every year,
+[12:46.000 --> 12:51.000]  and they're responsible for content creation, editing, concept ideas.
+[12:51.000 --> 12:58.000]  And so typically what we look for is not a lot of students, especially if it's our first co-op term, have had formal experience in a work environment.
+[12:58.000 --> 13:03.000]  So we look at, okay, what were the other platforms or methods that you took on yourself to learn?
+[13:03.000 --> 13:09.000]  So do you have your own channel? Have you tried to, like, are you well versed in all of the meta-platforms?
+[13:09.000 --> 13:17.000]  YouTube, I don't know, TikTok? Can you edit? Did you go so far as to learn how to build, like, strategy for your content?
+[13:17.000 --> 13:23.000]  And can you tell us about it? So that would be a way of taking initiative and learning something completely new to you
+[13:23.000 --> 13:27.000]  and then being able to actually present it to us, which is not formal experience,
+[13:27.000 --> 13:31.000]  but it's great indicators that you could most likely succeed well in that position.
+[13:31.000 --> 13:36.000]  That's great advice. And a lot of those first work term students might not even be taking a course
+[13:36.000 --> 13:42.000]  in some of the types of career paths that they might be looking at for work terms. So it's awesome to go up and dabble on their own.
+[13:42.000 --> 13:45.000]  Absolutely. Get in there. Get a good job at it.
+[13:45.000 --> 13:50.000]  When you're looking at a lot of resumes and cover letters and considering multiple applicants,
+[13:50.000 --> 13:54.000]  what advice do you have for students for standing out the application package itself?
+[13:54.000 --> 14:03.000]  Yeah, that's a really good question. And first and foremost, a clear, concise, well-organized resume is every recruiter's dream.
+[14:03.000 --> 14:07.000]  We love it. So the easier we can find your experience, the better.
+[14:07.000 --> 14:13.000]  To give you kind of a peek behind a career in the recruitment world, especially if it's high-value recruitment,
+[14:13.000 --> 14:19.000]  a recruiter typically looks at your resume from one to three seconds, and then we're going to decide if we want to keep reading or if we're moving on.
+[14:19.000 --> 14:28.000]  So that's like a hard part in fact, but it's true. It is really kind of the importance of making sure that all the clear information is where we can see it
+[14:28.000 --> 14:34.000]  and that you take the time to comb through and make sure that everything relevant is listed on there.
+[14:34.000 --> 14:40.000]  That includes your email, phone number, the way that we can contact you, and all the great experience that you've acquired,
+[14:40.000 --> 14:48.000]  whether it's through volunteer work, clubs you're part of, sports teams, other work experience, so that we can evaluate you for the role.
+[14:48.000 --> 14:55.000]  Good. Thinking about it from a user's perspective, look at what the recruiter needs to do. It's a good place to start. That's great.
+[14:55.000 --> 15:02.000]  I need a click from you there, Tara. I appreciate that.
+[15:02.000 --> 15:10.000]  Alright, so let's talk about the interview process. When you are interviewing, what are you trying to get out of that experience, that conversation?
+[15:10.000 --> 15:19.000]  We've noticed in the last while that a lot of students are trying to leverage AI tools during the interview itself. I'm wondering if you had some thoughts.
+[15:19.000 --> 15:26.000]  I have a lot of thoughts. I couldn't stay here for an hour and tell you my thoughts on this, but I'll keep it concise.
+[15:26.000 --> 15:34.000]  When it comes to interviews, really the goal for anyone in a hiring position or a recruiter or someone like me who hires co-op students,
+[15:34.000 --> 15:42.000]  I'm looking to get to know you. I'm not looking to get to know the AI-generated, perfectly polished version of you, because that's not you. That's not anybody.
+[15:42.000 --> 15:53.000]  I think there's a misconception that when you go into the interview space, you are expected to know all of the answers in the most perfect way possible, and that's just not realistic.
+[15:53.000 --> 16:05.000]  Ultimately, we want to get to know you. We want to know your experience. We want to know your interests, your motivators, and those skills and capabilities that would make you well suited for the position that you're applying for.
+[16:05.000 --> 16:18.000]  When you're coming into an interview, AI is going to help you prep. If I'm going to interview for a social media co-op, what can I anticipate to be asked? Then you can start to prep.
+[16:18.000 --> 16:26.000]  For those of you who wear glasses, we can see when you drag the screen and start typing into Chat TV during your interview.
+[16:26.000 --> 16:36.000]  I've had it happen to me. I've had it happen to my peers. At that point, we can't really assess what you don't know and what you do know. It's okay not to know everything.
+[16:36.000 --> 16:48.000]  I highly encourage you to put Chat TV to your side. Come to the interview as yourself. Come prepared. Just be open and honest about what you're looking to learn and what you're looking to get out of the experience.
+[16:48.000 --> 16:55.000]  From a co-op perspective or a co-op employer perspective, we're just here to help you learn and thrive and grow while you're with us.
+[16:55.000 --> 17:09.000]  That's wonderful advice. Maybe you can speak to this as well. We notice sometimes when we support students with interviews that you can kind of tell when a student might have over-prepared or maybe is reading an answer that they've been prepared.
+[17:09.000 --> 17:26.000]  Maybe students should be more self-aware about the fact that when you read, you sound a certain way. When you talk, you sound very different. Sometimes that polarization becomes obvious. Really, what they're just looking for is that conversation.
+[17:26.000 --> 17:44.000]  Yeah, you're exactly right. It makes us have a moment of pause because of what we're seeing if we go back to your resume. Resumes are very easy to identify, but when every single resume looks the same or the language in your resume does not match the way you're showing up in an interview, there's a gap there.
+[17:44.000 --> 18:04.000]  And when there's a gap, it causes us to question, well, how much do we know of this resume to be true if you can't speak to it from your own thoughts? And don't get me wrong, nerves happen in interviews. You might forget something that's totally fine, but you should be able to speak off the cuff and now for us to get a good barometer of your skills and capabilities and knowledge of something.
+[18:04.000 --> 18:07.000]  So that would be my two cents on that.
+[18:07.000 --> 18:25.000]  I appreciate that. Sorry, Tara, we definitely are losing the hate this is not going to work. Let's talk about the workplace. So when students are getting ready to come into the workplace at Sephora, what would you say separates a good student, a decent student from the all-stars that are memorable and that stop talking about it?
+[18:25.000 --> 18:41.000]  Yeah, there's quite a few things. One is always showing up on time. That's key. Attendance is key. So showing up on time ready to work will always make you stand out. But another couple of things is just initiative. Wanting to take on different responsibilities or projects.
+[18:41.000 --> 19:10.000]  If like when you come into the organization, we're not going to overload you with work, right? We understand that you're learning. We want to make sure that you're set up for success. So we're going to slowly start to onboard you into the organization. If at that point you're like, hey, I know what I'm doing. I'm a wizard with Excel. Ask them where we're. That's a great way for us to know, okay, we can actually match pace a little bit better so that you are engaged with what you're doing. We know that work's getting done to the quality that we're looking for and you're broke with it continuing. So don't be afraid to be like, hey, I'd love some more work.
+[19:10.000 --> 19:34.000]  And you're like, great, we'd love to give you some. So that's a great way. Coming from a place of curiosity, wanting to learn. I think some Rockstar students have done a really good job of networking within the organization. There's like, you're there to learn, right? You have for us with a spire of eight months. So if there's a different department that you want to have knowledge of, raise your hand and ask and we'll kind of get you connected with the right people.
+[19:35.000 --> 19:48.000]  Wonderful advice. Appreciate that. That's in terms of Q&A portion, everything that we have. The last part before we leave is now by Sean Evans part of Hawlings. You want to tell everybody a little bit about the Aspire program? What we've got going on?
+[19:48.000 --> 20:12.000]  Oh my god, I wish we had more of these hot links. That would be amazing. So the Aspire program, as I was kind of, you know, hinting at a little bit earlier, is the co-op program at Sephora that I only need and do all of the hiring for. So our program is eight months long. So we hire every January and the term is from May to December. So with your sequencing, depending on the year, it can work out. So talk to your phone advisor.
+[20:12.000 --> 20:41.000]  And we hire across various functions. Two of our finance roles are actually held by Laurier students at the moment. Last year was also Laurier students held in our finance roles. So just a quick plug there. But beyond finance, we have supply chain, distribution of logistics, marketing, merchandising. We have some tech-adjacent roles, but they're not as common in Canada. And plus human resources, which is obviously everyone's favorite department, amongst some other things. So we have a lot of different things.
+[20:42.000 --> 21:09.000]  It's a really great opportunity. We hire anywhere from 10 to 13 students per year. And you get to spend eight months with your leaders. Also get to spend eight months with me. I do all of the program curriculum and learning and development beyond your daily daily goals. So hopefully you all got to learn a little bit more about co-op and how to set yourself up for success kind of entering this new time in your early career. And I hope you see all the 400 applications when you're ready.
+[21:10.000 --> 21:14.000]  Thanks so much for coming in, Michaela. Maybe even a quick round of applause for coming on.
+[21:22.000 --> 21:26.000]  We have a little token from Laurier for you to take home with you. Thank you so much for coming.
+[21:26.000 --> 21:33.000]  I was just too far away.
+[21:38.000 --> 21:55.000]  What I'm going to talk about next is the co-op course and curriculum we run for you. So like we just heard from Michaela, what we do in the course and what we build for you isn't just stuff that we assume to be true. Like we're talking with employers regularly. We're learning about what students are doing to secure their jobs.
+[21:56.000 --> 22:07.000]  And we're including that content within the course and trying to show you good examples of things that students have used before. So we're going to talk to you a little bit about what's coming in the final course.
+[22:08.000 --> 22:15.000]  So experiential learning at Laurier means that you go back and forth between your work place and your academics. And that part is deliberate.
+[22:15.000 --> 22:28.000]  Co-op experiential learning is the synergy between what you do in the work place and what you're going to do academically. And one of the things that I noticed as a co-op student was that after I started doing work trials, I became a better student.
+[22:28.000 --> 22:40.000]  I became a better student. Like everything made a little bit more sense. Like I understood now why they're teaching us this stuff. Because you really do see it and it helps you engage with your studies even better.
+[22:41.000 --> 22:55.000]  So while I know a lot of you are here because you want to get some experience and you want to make that cheese and you want to have a great time on co-op work terms, know that from our perspective, we're always looking at this from what are you learning and what are you gaining from this and how are you going to use it going forward.
+[22:55.000 --> 23:07.000]  So in the fundamentals course, we do a lot of experiential learning. This is the one module where we should apologize. We don't have a lot of interactive stuff to do with you because we basically have to say, this is co-op and welcoming.
+[23:08.000 --> 23:17.000]  This is what you need to know. But when you come to future sessions, you're going to notice that it's going to be more interactive. You'll do little activities. We'll be teaching you a theory. You get a chance to practice it.
+[23:17.000 --> 23:27.000]  And the last thing you need to know about co-op is that the word co-op means something. So you're not looking for internships. You're not looking for placements when you go to work.
+[23:28.000 --> 23:42.000]  A co-op work term means something particular, something specific. It means you're getting a full-time wage. You're working at least 35 hours a week in full-time hours. And the work that you're doing is aligned in some way to your academic stuff.
+[23:43.000 --> 23:49.000]  So a co-op work term can mean something very different than a placement relationship. It's important to know about that.
+[23:50.000 --> 24:00.000]  So when we do the course, you're going to notice that we emulate the workplace maybe more than your other academic courses. We want you to arrive on time because we're going to start on time.
+[24:01.000 --> 24:06.000]  The sessions are 50 minutes long and we're expecting that if you come, you stay for the 50 minutes.
+[24:06.000 --> 24:18.000]  You're going to notice too that if you're proactive with us, we're very understanding. If you have something going on in your life that you can't beat a deadline, well, what would you do in the workplace?
+[24:19.000 --> 24:28.000]  Probably let your supervisor know. Can we go to the issue? Can we extend this? And you'll be surprised if you're ever going to say, yeah, we can extend that for you. What works?
+[24:29.000 --> 24:39.000]  But what we don't want to do is chase you because, look around, there's a lot of you. We don't want to have to chase all of you. That's not a good use of our time.
+[24:40.000 --> 24:48.000]  We want to help students who are ready to go to the next level and work on things. If we're spending our time looking for your work, not a great use of time.
+[24:49.000 --> 25:00.000]  Students who go beyond the minimum will achieve way more than students who do the bare essentials. Passing the course is not hard. I would say that this is probably the easiest course you're ever going to take it for.
+[25:01.000 --> 25:10.000]  But part of this depends on what you put into it. We're going to give you feedback on a lot of your documents. We look at how students are performing in primary round.
+[25:11.000 --> 25:19.000]  And Tara and I get really sad when we see that we give you all this stuff in class. We give you feedback on your resume and cover letters and then you don't use the feedback.
+[25:20.000 --> 25:24.000]  Use the feedback. That's what we're here to help you with. Make sure you go beyond the minimum.
+[25:25.000 --> 25:32.000]  If you're employed, we know that some students in admission interviews let us know if they have employment for either next summer or next fall. That's great.
+[25:33.000 --> 25:41.000]  You still need to do the course. There are things we're going to teach you about that are really important because we're not going to assume you're going to do a personal job all of your work terms.
+[25:42.000 --> 25:45.000]  You're probably going to go for recruitment at some point. You're going to need to know this.
+[25:46.000 --> 25:55.000]  The last thing is that finding a job is not the same as your academics. If you're here right now, you're all kind of sort of doing okay. Trust me.
+[25:55.000 --> 26:04.000]  You're doing okay academically. You're doing okay with your work, your extracurriculars. You're active, engaged on campus. Trust me, you're doing really, really well.
+[26:05.000 --> 26:17.000]  But that doesn't necessarily translate into a job. If you found academic success to come naturally, if you found everything in your life going pretty smooth, finding a job can be a pretty big barrier for students.
+[26:18.000 --> 26:21.000]  You just have to see how these things are not the same. They're quite different.
+[26:22.000 --> 26:33.000]  If you have an IEP from high school, ALC accommodations, if there's something we can do to make the course better for you, just come talk to Tara and I. We can arrange that.
+[26:34.000 --> 26:39.000]  If you have an injury, illness, something that's going to keep you out of action for a while, you can let us know.
+[26:39.000 --> 26:52.000]  And if it's something bigger, miscellaneous life, like stuff happens, let us know, let the consultant know. If we know the time frame when you're going to be out of commission, we can plan with you and help you get back on track.
+[26:53.000 --> 26:58.000]  Try not to just leave it until you disappear for a month. We don't know where you are. You're going to get a knowing email soon.
+[26:59.000 --> 27:01.000]  So we can help up front if you let us know.
+[27:02.000 --> 27:07.000]  Accreditation. So you're going to get a half credit on your transcript that you're going to be able to see for fundmails and co-op.
+[27:07.000 --> 27:13.000]  It's going to be a pass failed course. There isn't a grade attached to it, but there's a few things about this course you need to know.
+[27:14.000 --> 27:21.000]  First, it does not have credit clear. So you're not going to leave today and go drop an elective or a core course if that's not what this is.
+[27:22.000 --> 27:34.000]  What these credits do is they act as benchmarks. For you have to earn your passes in the fundamentals course and then in your work terms to stay in co-op and eventually get co-op as a designation on your degree.
+[27:34.000 --> 27:43.000]  So know that the fundamentals course doesn't count towards your OSAP, your varsity status if you're an athlete, it doesn't count towards registered education savings plans.
+[27:44.000 --> 27:47.000]  None of that is separate. It's to make sure you're going towards your co-op pathway.
+[27:48.000 --> 27:55.000]  We've added you to the course. Is everybody going to be able to see that you can log on to MyLearningSpaces, you can see fundamentals course, you've seen some of our notifications.
+[27:56.000 --> 27:59.000]  I'm seeing like a few thumbs up and a couple of nods. Awesome engagement.
+[27:59.000 --> 28:08.000]  Okay, good to see it. Blank, you're able to see it. We'll use MyLS for your weekly or so updates. If there's things that we need to tell you, that's where we're going.
+[28:09.000 --> 28:15.000]  How do you stay in co-op? This is important. If you were admitted as a double degree student, you need to stay a double degree student.
+[28:16.000 --> 28:20.000]  If you were admitted as a business econ student, you need to stay in your program.
+[28:21.000 --> 28:27.000]  If you were moved out of the program, either because of grades or course failures, it is possible that you're removed.
+[28:27.000 --> 28:36.000]  So the rule of thumb is make sure you need progression, make sure you take your full-time course load, and then you complete your course and stay in your program and move forward.
+[28:37.000 --> 28:43.000]  Full-time status is important. You need to be taking a full-time course load when you're not in a work time.
+[28:44.000 --> 28:52.000]  So if you drop below four courses or two credits, you can be removed. And don't commit academic misconduct. I think that goes without saying.
+[28:53.000 --> 28:59.000]  Your fees. So if you're in co-op, you do pay fees. Only co-op students pay fees for being in co-op.
+[29:00.000 --> 29:06.000]  The amount is on the screen there. The first fee is due on Halloween, or your treat, I guess.
+[29:07.000 --> 29:15.000]  The second fee is normally in November, goes into December. And the fee is given to you because that money basically funds our entire community.
+[29:16.000 --> 29:24.000]  Nobody else that is a paying student contributes to us being in co-op the same way that your fees do. So while you're in co-op, you pay those fees.
+[29:25.000 --> 29:32.000]  It's also important to know that it's not a placement fee. So hopefully this isn't news by now, but you compete for your job in co-op.
+[29:33.000 --> 29:42.000]  You're not going to be put into a job. You're going to apply to it. And that means that you're not guaranteed a job. It's something that's going to take work, time, and effort. We'll support you through that.
+[29:43.000 --> 29:50.000]  So how do you pass the course? There's three main components. The first is that you have to attend. So attendance is mandatory.
+[29:51.000 --> 29:58.000]  We encourage that you participate live in person wherever you can. But there is an alternative if you can't come live, we'll talk about that.
+[29:59.000 --> 30:07.000]  You have a submission in every module. So each module will be due. There will be something that everyone will submit. We'll review it. We'll give you a grade on it.
+[30:07.000 --> 30:15.000]  And then we'll give you a pass and move on from there. And then you do speaker series events at least four from our events panel. We'll talk about that in more detail.
+[30:17.000 --> 30:24.000]  So the in-person modules are not going to be here from now on. They're in CC 201, which is on the top floor of the co-op and career center.
+[30:25.000 --> 30:30.000]  The spiritual learning center. It's right across from the science building. It's like Kingsbury Gardens. I've been in this campus a long time.
+[30:31.000 --> 30:37.000]  The sessions are 50 minutes. They start on time. They end at 50 minutes. And every module will have a core task like I said.
+[30:38.000 --> 30:46.000]  If you can't come live, so there are people that we know couldn't come tonight, they're not able to come to the sessions tomorrow, we will record one version of each event.
+[30:47.000 --> 30:52.000]  We'll make the recording available so if you wanted to go back and recapture something from a lecture, you can go back and watch it.
+[30:53.000 --> 30:58.000]  But if you didn't come live, you watch the recording. We're going to give you some comprehension questions.
+[30:59.000 --> 31:05.000]  Usually if there's an activity in that class, we'll just ask you to try the activity, share with us what you came up with.
+[31:06.000 --> 31:10.000]  We'll review it and then we give you your attendance record and you'll be done with module from that perspective.
+[31:11.000 --> 31:16.000]  So you're all here tonight. We're going to do an attendance capture at the end of the session of the QR code.
+[31:17.000 --> 31:22.000]  Once that happens, you're done. No recording questions, you get your credit and you're good to go.
+[31:23.000 --> 31:35.000]  So speaker series. Why do we have speaker series? It's because the course modules themselves are going to teach you fairly broad concepts about writing resumes, writing cover letters, but there's more to getting a job than that.
+[31:36.000 --> 31:40.000]  There are going to be types of roles you're interested in where you need to know the pathway.
+[31:40.000 --> 31:50.000]  If you want to get into investing, what types of technical computer skills do you need to get on your resume to make a bigger impact when you apply for those jobs?
+[31:51.000 --> 31:59.000]  So the idea with speaker series is you're going to do some self-directed learning. We're going to promote events to you. You pick the ones you want to go to and you do at least four.
+[32:00.000 --> 32:04.000]  It's designed to give you an advantage and be more ready for the type of recruitment that you're interested in.
+[32:05.000 --> 32:13.000]  So let's say you want to get into a particular industry, you don't know a lot about it yet, you want to get into marketing because Mikhail was talking about support and you thought that sounded sweet.
+[32:14.000 --> 32:27.000]  You're going to go to the information sessions, learn from the source, hear about what they need from you, go to recruitment sessions to learn about what are the current tech needs of that industry, what kinds of people are they looking for, and then you can tailor your documents to that.
+[32:27.000 --> 32:34.000]  We're going to host senior panel discussions. So we'll have students coming in talking about their past experiences and you can learn from them.
+[32:35.000 --> 32:46.000]  You're going to build your network through club events. So if you work for one of the last soft clubs, you'll notice that our events calendar we promote a lot of them, especially flagship events because they're important.
+[32:46.000 --> 32:52.000]  We should be going to those, learning about what's going on, learning from senior students, those will be part of the speaker series.
+[32:53.000 --> 33:04.000]  Prison resources, so normally business students are already opted in, the technical skills training that's offered at prison. If you take prison training, you get the certification, we count those towards your speaker series.
+[33:05.000 --> 33:12.000]  And finally, the career development center. They'll go into some topics that we don't have time for in the course, like building a great LinkedIn profile.
+[33:12.000 --> 33:25.000]  You can go to one of their sessions, and cast a speaker series. So you have to do four of them. I promise, when you see the list on the events calendar, there will be tons and tons to choose from, like 500.
+[33:26.000 --> 33:30.000]  So there shouldn't be a shortage of finding four that make sense for you.
+[33:31.000 --> 33:38.000]  The other thing about speaker series is you're allowed to use one of our recorded events towards your speaker series totals.
+[33:39.000 --> 33:43.000]  When Kara talks a little bit, she's going to show you the resources she has and where you can find them.
+[33:44.000 --> 33:53.000]  So if you look at the events calendar, the events in the speaker series are purple and gold, lower in colors. They're going to have SDK at the front. That means they count as speaker series.
+[33:53.000 --> 34:01.000]  If it doesn't appear in purple and gold, it doesn't have SDK, it is not a speaker series. And they will not count. And it's important to keep that in mind.
+[34:02.000 --> 34:14.000]  So how do you earn attendance credit for some of these sessions? Some of them are straightforward because you're going to go, and when you arrive, they'll sign you in, they'll take attendance, and they'll give us the attendance. And we can just give you credit.
+[34:15.000 --> 34:23.000]  So make sure you pay attention here. Where you register, sometimes there's many good places you have to register.
+[34:24.000 --> 34:31.000]  Both the bar, Navigator, and the club website, the employer website, do them both. And they'll tell you how to get in this way.
+[34:32.000 --> 34:40.000]  Some of them will be online. We want you to go to online info sessions. They're helpful. But there won't be a way for us to know if you went.
+[34:40.000 --> 34:51.000]  So you see under fundamentals co-op students, it says click here for the reflection link. You submit a reflection, what happened at the event, what did you take from it, and then we'll give you credit for going.
+[34:52.000 --> 34:54.000]  And it counts as one of the speaker series.
+[34:56.000 --> 35:04.000]  So attendance is not automatically updated. If you do go to an event, just give us some time. It's not automated. We need to actually manually give you credit.
+[35:05.000 --> 35:08.000]  So just hold off a week or two before you reach out to us if you're missing a credit.
+[35:09.000 --> 35:17.000]  We're not going to go into syllabus week today. I will leave that for your own time. And through the quiz that you're going to do, we're going to get you looking at some of these documents.
+[35:18.000 --> 35:22.000]  But there is one thing I want to talk about in policies. It's our speaker series event policy.
+[35:23.000 --> 35:29.000]  So for our four models, Tara and I, you will not hurt our feelings if you don't show up for tomorrow.
+[35:30.000 --> 35:35.000]  Because we know we have a backup plan for you. We need your support. We know something came up. You don't have to tell us tomorrow.
+[35:35.000 --> 35:41.000]  But for speaker series events, it's really important that you say you're going to go.
+[35:42.000 --> 35:46.000]  So an example of this is we had a company come to you years ago.
+[35:47.000 --> 35:54.000]  Forty people registered to go to the event. They brought extra people from Toronto to meet the students. They brought swag. They brought gifts for everybody.
+[35:55.000 --> 35:59.000]  And then 19 people showed up. And they don't do events with us anymore.
+[35:59.000 --> 36:08.000]  So this is more relationship-managing. If you are going to say you're going to a speaker series event, you either cancel 24 hours in advance or you go.
+[36:09.000 --> 36:15.000]  And if you can't go, you get one free beat, one free strike. If you didn't show up to let me know, hey, you missed this event, it's fine.
+[36:16.000 --> 36:20.000]  But don't make it a pot. Make sure if you're registering, they're expecting you to go.
+[36:21.000 --> 36:28.000]  So if you can't go, like I said, it's either email Alex and it's less than 24 hours. That way we just have to head up or go in and cancel.
+[36:29.000 --> 36:32.000]  So that was a lot of meat. I apologize for that. That was heavily administrative.
+[36:33.000 --> 36:37.000]  But I'm going to turn it back over to Tara to talk a little bit more about the scheduling of the course and the practice.
+[36:38.000 --> 36:39.000]  Thanks, Ian.
+[36:40.000 --> 36:42.000]  Alright, yes. Let's dig into some more scheduling and timing.
+[36:43.000 --> 36:52.000]  It is important for us to first look at recruitment timelines because the recruitment timelines will determine how fast you go through the quote-unquote ventals.
+[36:52.000 --> 36:56.000]  So firstly, we have an early accounting or early CPA round.
+[36:57.000 --> 37:02.000]  And this is for postings and positions that deal with public accounting firms.
+[37:03.000 --> 37:07.000]  So this is something that starts in mid-November, so six weeks from now.
+[37:08.000 --> 37:17.000]  We will run through things quite quickly. That means we've got to get through modules one to seven, so seven classes in six weeks. So it is a fast pace.
+[37:17.000 --> 37:23.000]  Then we have our regular sequence one students. You will apply to jobs in early January.
+[37:24.000 --> 37:30.000]  So we've got a bit of flexibility there with you, but still running through quite a few modules before the end of the fall term.
+[37:31.000 --> 37:36.000]  And sequence twos, we have a bit more balance with you. We spent some time with you in fall and winter.
+[37:37.000 --> 37:44.000]  So there's just some different timelines there because for sequence two, you guys aren't applying to jobs until the May. So a lot more time.
+[37:44.000 --> 37:51.000]  So you can see that with early CPA and the rest of the sequences, it is an accelerated timeframe.
+[37:52.000 --> 37:58.000]  So if you're going to participate in the early CPA or the accounting round, it is optional.
+[37:59.000 --> 38:07.000]  All students can participate. You don't need to opt in or self-identify. You just follow the schedule and we'll show you what that looks like.
+[38:07.000 --> 38:17.000]  So again, those postings start November 13th. And if you go through the round, you don't secure, no problem.
+[38:18.000 --> 38:23.000]  You go back to your regular schedule, sequence one, sequence two, and keep on climbing through.
+[38:24.000 --> 38:26.000]  Double degree students, where are my double degree students?
+[38:27.000 --> 38:34.000]  All right. You must secure four months and the first work term must be in spring if you're going to do this.
+[38:34.000 --> 38:36.000]  Okay. Economics, where are you?
+[38:37.000 --> 38:40.000]  Where are my economics students? Not as many of you. I know.
+[38:41.000 --> 38:45.000]  All right. You may secure four or eight months in either spring or fall.
+[38:46.000 --> 38:52.000]  For you economics students, this is the only time where you can start your first work term in fall. Otherwise, it has to be spring.
+[38:53.000 --> 38:55.000]  Sequence one and two, a little more freedom here.
+[38:56.000 --> 39:02.000]  Okay. You can apply to the jobs that are posted in spring, fall, with a four month start, or eight months.
+[39:02.000 --> 39:09.000]  This is the only time where sequence ones and twos can make their switch only through the early CPA round.
+[39:10.000 --> 39:16.000]  Okay. You're probably sitting here wondering, should I participate in early CPA? Right?
+[39:17.000 --> 39:25.000]  I'm interested in some finance roles. Well, just to give you a better insight, typical employers who post with us are from the public accounting firms.
+[39:25.000 --> 39:32.000]  So firms like Deloitte, PwC, and even others like BDO and then P Grand Thorpe.
+[39:33.000 --> 39:41.000]  If you're thinking about things like investing or private equity, maybe you are interested in working in the corporate finance departments, right?
+[39:42.000 --> 39:50.000]  Business analysts, financial analysts, anything related to accounts payable, receivable, these are not part of the CPA recruitment.
+[39:50.000 --> 39:55.000]  Okay. So just to give you a bit more insight, to give you an idea of what you might be signing up for.
+[39:56.000 --> 40:01.000]  The reason why we mention this is because that early CPA track, it's a fast pace.
+[40:02.000 --> 40:10.000]  We are moving and we need to move quickly because as you can see, early November, mid November, you're done seven modules.
+[40:11.000 --> 40:19.000]  So if along the way you decide, sure, I'm going to participate, I'm interested, but perhaps you change your mind, that is okay.
+[40:20.000 --> 40:28.000]  You can fall back to your regular scheduling, attend one of every other sequence one or sequence two, student attends regular class.
+[40:29.000 --> 40:35.000]  We're not going to make you take the modules twice. The module content has similar information, so you're okay there.
+[40:36.000 --> 40:43.000]  For you sequence ones, this is what your schedule looks like. Again, a bit of time, you're not applying to jobs until January,
+[40:44.000 --> 40:48.000]  but we do want to get those documents in before the Christmas break or the winter break, I should say.
+[40:48.000 --> 40:56.000]  And sequence twos, you can see a little bit more balance here. First four modules are in fall and other modules are later in winter.
+[40:57.000 --> 41:04.000]  If you are a double degree computer science student, where are those students? Let me see. Yeah, okay.
+[41:05.000 --> 41:12.000]  You do have the option to attend our Peth classes. So these are third year computer science students.
+[41:13.000 --> 41:19.000]  The content here is focused on computer science, so you're welcome to attend those classes if you should choose.
+[41:20.000 --> 41:27.000]  If not, just follow your sequence one schedule. And of course, just a quick reminder about your sequences.
+[41:28.000 --> 41:33.000]  So sequence one students, this is what your sequence will look like going out in spring.
+[41:34.000 --> 41:40.000]  Any double degree computer science, you have the option for a fourth term if you choose, and of course there's that fee.
+[41:40.000 --> 41:44.000]  If you're going to do an eight month work term, this is what it looks like here at the bottom.
+[41:45.000 --> 41:50.000]  All right, you've got your first work term, again in spring, and that eight month, just please be aware of double degree students.
+[41:51.000 --> 41:55.000]  Eight months does not work for you. You are not eligible to do an eight month work term.
+[41:56.000 --> 42:00.000]  Sequence two, you guys go out in the fall, so your first work term is fall.
+[42:01.000 --> 42:05.000]  And if you're doing an eight month, again, it just looks a little bit different.
+[42:05.000 --> 42:10.000]  Co-op tools, what are you going to be doing and using while you are with us in the co-op program?
+[42:11.000 --> 42:13.000]  I'm going to show you those.
+[42:14.000 --> 42:17.000]  So one of the main resources you're going to use is the co-op portal navigator.
+[42:18.000 --> 42:27.000]  This is where you will find the fundamentals course, it's where you will submit your resume cover letter reflections and your assignments, majority of them.
+[42:28.000 --> 42:34.000]  It also contains the event calendar's information, it's a little bit of a fun little thing to do,
+[42:35.000 --> 42:38.920]  you just have to go to the website and you'll see the
+[42:39.000 --> 42:44.000]  there's a lot of other things related to employment, you'll apply to jobs in there, you'll check your interview schedules and whatnot.
+[42:45.000 --> 42:49.000]  We won't go into a deep dive yet, other modules will cover that.
+[42:50.000 --> 42:55.000]  We do get a very typical question, lots of students want to know, who is my co-op consultant?
+[42:56.000 --> 43:00.000]  Well, when you log into navigator on your main dashboard, you will see that.
+[43:00.000 --> 43:05.000]  You can scroll down a little bit, but it will be at the bottom and you can see who that is.
+[43:06.000 --> 43:13.000]  You'll probably get an email from them in the near future, introducing themselves, reply back, say hello, be friendly.
+[43:14.000 --> 43:17.000]  As mentioned, this is where our fundamentals course is, it's housed.
+[43:18.000 --> 43:21.000]  You will see all of the activities that you need to complete.
+[43:22.000 --> 43:26.000]  So you'll see at the top, module one, as well as the quiz.
+[43:26.000 --> 43:31.000]  Once those have been completed, you'll see a nice green approve button on the side.
+[43:32.000 --> 43:41.000]  It's meant to help keep you on track, so you know what your expectations are, you can keep track of your progress, and of course, areas where you submit.
+[43:42.000 --> 43:47.000]  So as you know, as you notice, there is a quiz that will be open by the end of the evening tonight.
+[43:48.000 --> 43:57.000]  We also have a resources area. We will be driving you to this area many times because there are some great items that you're going to want to know about.
+[43:58.000 --> 44:05.000]  Some of them include things like the personal tracking spreadsheet, when you're doing your personal job search, or how to get one approved.
+[44:06.000 --> 44:11.000]  The resume and cover letter style guides, those are examples of great, great documents that you should check out.
+[44:12.000 --> 44:17.000]  And Ian had mentioned a recorded event as counting towards your speaker series.
+[44:18.000 --> 44:26.000]  This is our massive inventory of past events that we've recorded because there's great information in it and we want to continue to pass it along to you.
+[44:27.000 --> 44:30.000]  So you might have a look here and say, oh, okay, consulting pathways.
+[44:31.000 --> 44:36.000]  Sure, I like the idea of working about my goals. How can I optimize my job search?
+100.117.97.99 - - [03/Oct/2025 20:53:47] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [03/Oct/2025 20:53:47] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [03/Oct/2025 20:53:47] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [03/Oct/2025 20:53:47] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [03/Oct/2025 20:53:47] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [03/Oct/2025 20:53:47] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [03/Oct/2025 20:53:53] "GET /session/28 HTTP/1.1" 200 -
