@@ -1,0 +1,2458 @@
+Directory '..\data' is ready.
+Database and tables verified successfully.
+Queue processor thread started.
+Queue processor checking for a new job...
+No queued jobs found. Worker is going to sleep.
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.0.0.26:443
+Press CTRL+C to quit
+100.117.97.99 - - [06/Oct/2025 17:18:24] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:18:24] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [06/Oct/2025 17:18:24] "GET /static/style.css HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:18:24] "GET /static/script.js HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:18:24] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:18:24] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [06/Oct/2025 17:18:25] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:18:32] "POST /transcribe HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:18:35] "GET /status/36 HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:18:38] "GET /status/36 HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:18:41] "GET /status/36 HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:18:43] "POST /transcribe HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:18:46] "GET /status/37 HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:18:52] "POST /folders HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:18:52] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:18:55] "GET /status/37 HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:18:58] "POST /transcripts/28/move HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:18:58] "GET /status/37 HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:18:58] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:19:01] "GET /status/37 HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:19:02] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:19:04] "GET /status/37 HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:19:06] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:19:07] "GET /status/37 HTTP/1.1" 200 -
+Queue processor checking for a new job...
+Processing job 36: Coop #2.m4a
+Loading Whisper model for the first time...
+Whisper is using device: cuda
+Whisper model loaded successfully.
+--- Starting Transcription for ../uploads\efebe3d1-306a-4c5e-bb54-5f606228ad0e.m4a ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:04.000]  If you didn't pre-register, try to do it once in the future.
+[00:04.000 --> 00:06.360]  Because like you can see, we've only got room for 90 people.
+[00:06.360 --> 00:08.840]  The next session has 72.
+[00:08.840 --> 00:10.960]  So if we had 18 people to show up,
+[00:10.960 --> 00:12.200]  we're gonna get a little bit tight.
+[00:12.200 --> 00:13.080]  But I'm glad you're here.
+[00:13.080 --> 00:15.000]  This was a good one to show up for.
+[00:15.000 --> 00:17.400]  We're gonna go through five main things in this blog.
+[00:17.400 --> 00:19.200]  We're gonna talk about building a brand.
+[00:19.200 --> 00:20.760]  We're gonna do some introductory stages.
+[00:20.760 --> 00:22.560]  Talk about Foster Syndrome.
+[00:22.560 --> 00:24.840]  And then what I think is the most important thing
+[00:24.840 --> 00:26.080]  that we do in the course,
+[00:26.080 --> 00:28.280]  before we start looking at resumes and cover letters,
+[00:28.320 --> 00:31.040]  is thinking about what exactly should I be saying?
+[00:31.040 --> 00:32.720]  How do I market myself?
+[00:32.720 --> 00:34.880]  How do I brand my experiences in a way
+[00:34.880 --> 00:38.280]  that my next employer is gonna see the value that I bring?
+[00:38.280 --> 00:40.560]  So that's what we're gonna be talking about there.
+[00:40.560 --> 00:42.080]  So everybody has a different story.
+[00:42.080 --> 00:44.960]  Everyone has a mix of skills and experiences
+[00:44.960 --> 00:46.880]  that they've gained from different things.
+[00:46.880 --> 00:48.920]  And there might be parts of your pyramid
+[00:48.920 --> 00:51.640]  where you don't have a lot of a certain thing.
+[00:51.640 --> 00:53.720]  But the reason why we like to show you this
+[00:53.720 --> 00:57.400]  is to remind you that your story and getting a job
+[00:57.400 --> 00:59.600]  are a lot more than just your academics
+[00:59.600 --> 01:01.280]  and your work experiences.
+[01:01.280 --> 01:02.840]  In fact, the common thing we hear from students
+[01:02.840 --> 01:04.680]  is I don't have a lot of work experience.
+[01:04.680 --> 01:06.560]  So how am I gonna get my first placement?
+[01:06.560 --> 01:09.320]  How am I gonna get into my first co-op job?
+[01:09.320 --> 01:11.320]  Well, it's remembering that you're a lot more
+[01:11.320 --> 01:13.680]  than just school and work and thinking about,
+[01:13.680 --> 01:17.160]  so what do my past experiences say about me?
+[01:17.160 --> 01:19.160]  So your personal brand is identity
+[01:19.160 --> 01:21.920]  that stimulates a response in other people.
+[01:21.920 --> 01:24.120]  So it's how other people perceive you.
+[01:24.160 --> 01:27.800]  And the brand that you create is you managing
+[01:27.800 --> 01:30.880]  how people perceive you and what they think you're about.
+[01:30.880 --> 01:33.040]  So I really like this part from Terry O'Brien.
+[01:33.040 --> 01:35.280]  Word of phrase that you want people to think of
+[01:35.280 --> 01:37.160]  when they think of you.
+[01:37.160 --> 01:39.880]  So the concept of positioning yourself means
+[01:39.880 --> 01:42.600]  of all the different things you've done in your life,
+[01:42.600 --> 01:45.000]  you need to think about which specific ones
+[01:45.000 --> 01:48.400]  are gonna be the right ones to engage with,
+[01:48.400 --> 01:51.480]  think about what I have versus what I don't have.
+[01:51.480 --> 01:53.480]  Maybe there are particular types of industry
+[01:53.640 --> 01:56.400]  like in finance that are very specific
+[01:56.400 --> 01:58.360]  and you need to make sure that you understand
+[01:58.360 --> 02:02.000]  what the expectations of that industry is going to be
+[02:02.000 --> 02:04.240]  and then be deliberate about closing any gaps.
+[02:05.120 --> 02:07.840]  So your positioning is gonna be something we do
+[02:07.840 --> 02:11.280]  in practically every module going forward.
+[02:11.280 --> 02:14.360]  So when you're doing networking or job searching,
+[02:14.360 --> 02:17.000]  the way that you introduce yourself to somebody
+[02:17.000 --> 02:19.600]  might very well change depending on your audience
+[02:19.600 --> 02:21.200]  and what kinds of things from your past
+[02:21.240 --> 02:22.520]  or what kinds of things you choose to mention
+[02:22.520 --> 02:24.520]  in a 30 second statement.
+[02:24.520 --> 02:27.880]  Your resume is gonna be a very fluid document.
+[02:27.880 --> 02:30.960]  You're not gonna be submitting the exact same resume
+[02:30.960 --> 02:32.880]  for every job you apply to.
+[02:32.880 --> 02:35.840]  There's ways to get strategic and think about
+[02:35.840 --> 02:38.640]  well which of my roles are gonna be more important
+[02:38.640 --> 02:41.640]  to my target and how am I controlling that message.
+[02:41.640 --> 02:43.120]  Cover letter, same thing.
+[02:43.120 --> 02:45.800]  You only have room for a few stories in the cover letter.
+[02:45.800 --> 02:48.280]  So which ones you choose to tell about,
+[02:48.280 --> 02:50.360]  which ones you go into more detail about
+[02:50.360 --> 02:52.720]  is really important to consider.
+[02:52.720 --> 02:54.480]  And then interview questions.
+[02:54.480 --> 02:56.440]  Like tell me about yourself.
+[02:56.440 --> 02:58.640]  The dreaded questions in interviews.
+[02:58.640 --> 03:02.560]  There isn't exactly a one size fits all answer
+[03:02.560 --> 03:04.640]  to tell me about yourself when you're in an interview
+[03:04.640 --> 03:07.640]  because part of it is me and who I am
+[03:07.640 --> 03:11.760]  but part of it's also them and what they're looking for
+[03:11.760 --> 03:14.680]  and making sure that we're meeting somewhere in the middle.
+[03:14.680 --> 03:16.840]  So branding's a very deliberate thing
+[03:16.840 --> 03:19.640]  that we're gonna be doing throughout the course.
+[03:19.640 --> 03:21.040]  So we're gonna spend some time today
+[03:21.040 --> 03:23.120]  talking about how you do that effectively.
+[03:24.040 --> 03:26.000]  So if everything that you do in your life,
+[03:26.000 --> 03:28.600]  other people could watch you and observe you
+[03:28.600 --> 03:30.680]  and make value judgments about you
+[03:30.680 --> 03:34.240]  and come up with their own idea of what you are,
+[03:34.240 --> 03:36.600]  how do you even start controlling that?
+[03:36.600 --> 03:38.800]  How do you start controlling that message
+[03:38.800 --> 03:41.000]  of how other people perceive you?
+[03:41.000 --> 03:43.280]  There's a couple of main ways.
+[03:43.280 --> 03:46.520]  The first for Martin Nuzzi, I love this idea
+[03:46.520 --> 03:48.880]  of starting with what makes you unique.
+[03:48.920 --> 03:51.520]  And it doesn't have to be one out of one,
+[03:51.520 --> 03:53.080]  you're the only person in the world
+[03:53.080 --> 03:55.560]  who's ever done this thing unique.
+[03:55.560 --> 03:57.120]  It's thinking about what are some of the things
+[03:57.120 --> 03:59.920]  that I've done that relatively few other people have?
+[03:59.920 --> 04:01.520]  What are some things that I've done
+[04:01.520 --> 04:06.040]  and I've done it at a higher quality than most people?
+[04:06.040 --> 04:08.480]  These are easy ways to start positioning yourself
+[04:08.480 --> 04:10.120]  and thinking about yourself.
+[04:10.120 --> 04:11.660]  But there's also this idea.
+[04:11.660 --> 04:13.120]  A lot of students will come in and say,
+[04:13.120 --> 04:16.720]  well, I don't know what really sets me apart.
+[04:16.800 --> 04:19.880]  I feel like I'm kind of the same as every other student.
+[04:19.880 --> 04:21.960]  I had standard high school jobs,
+[04:21.960 --> 04:24.080]  I worked at Subway restaurants,
+[04:24.080 --> 04:25.760]  I did the same kind of extracurriculars
+100.117.97.99 - - [06/Oct/2025 17:20:51] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:20:51] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [06/Oct/2025 17:20:51] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [06/Oct/2025 17:20:51] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [06/Oct/2025 17:20:52] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [06/Oct/2025 17:20:52] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:20:53] "GET /session/28 HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 17:21:02] "GET /queue_status HTTP/1.1" 200 -
+[04:25.760 --> 04:27.580]  that everybody else does.
+[04:27.580 --> 04:31.040]  I don't know what makes me special from other people.
+[04:31.040 --> 04:32.480]  Well, the thing you have to remember
+[04:32.480 --> 04:35.280]  is that the way that you tell your story
+[04:35.280 --> 04:37.560]  is also gonna be unique, right?
+[04:37.560 --> 04:40.160]  You're gonna talk about working at Subway
+[04:40.160 --> 04:43.860]  in a way that would be different than other people, likely.
+[04:43.860 --> 04:46.520]  So for me, I did work at Subway growing up
+[04:47.320 --> 04:48.280]  when I was in late high school.
+[04:48.280 --> 04:49.560]  And there were some things that I loved
+[04:49.560 --> 04:51.920]  about working at Subway, like how you would time
+[04:51.920 --> 04:54.880]  when you'd go on break to put a fresh batch of cookies
+[04:54.880 --> 04:56.440]  in the oven so that when you started break,
+[04:56.440 --> 04:58.840]  you had a fresh one from the oven, it was delicious.
+[04:58.840 --> 04:59.740]  That's better.
+[05:01.160 --> 05:03.040]  But other people would get other things.
+[05:03.040 --> 05:05.920]  Maybe I would talk about ideas like inventory management.
+[05:05.920 --> 05:07.980]  That was the first time that I ever walked in
+[05:07.980 --> 05:09.940]  or worked in a walk-in cooler
+[05:09.940 --> 05:12.360]  and had first-in, first-out principles.
+[05:12.360 --> 05:15.200]  There's ideas of inventory management
+[05:15.200 --> 05:16.880]  that are actually gonna be pretty important
+[05:16.880 --> 05:19.600]  that some jobs are gonna be applied to.
+[05:19.600 --> 05:21.240]  So part of it is just going back
+[05:21.240 --> 05:23.720]  and thinking about what did you do?
+[05:23.720 --> 05:26.160]  How did some of the things I acted on in this job
+[05:26.160 --> 05:29.200]  actually appear in my future roles, right?
+[05:29.200 --> 05:32.080]  So that's important to think about how you tell that story.
+[05:32.080 --> 05:36.000]  The other thing, and this is like 10-year-old Gary Vee.
+[05:36.000 --> 05:39.120]  He was really big on just be good to people.
+[05:39.120 --> 05:42.820]  The first thing you can do to help manage your brand
+[05:42.820 --> 05:45.700]  is thinking about how you make other people feel.
+[05:45.700 --> 05:48.780]  So part of it is managing kindness, right?
+[05:48.780 --> 05:50.440]  Being good to others.
+[05:50.440 --> 05:52.980]  But another part of it is keeping your word
+[05:52.980 --> 05:55.380]  and that when you get to deadlines, you meet them
+[05:55.380 --> 05:57.140]  and that when you say you're gonna do something,
+[05:57.140 --> 05:57.980]  you do them.
+[05:57.980 --> 05:59.860]  Like those are ways that you're gonna build
+[05:59.860 --> 06:03.100]  a good relationship with the people who are making decisions.
+[06:04.180 --> 06:07.100]  The other reason why exploring your brand
+[06:07.100 --> 06:10.300]  and getting to know yourself really well is important
+[06:10.300 --> 06:12.820]  is because we've seen recent data
+[06:12.820 --> 06:15.660]  that suggests that more than half of employers
+[06:15.660 --> 06:18.500]  are significantly less likely to hire an applicant
+[06:18.500 --> 06:21.140]  where they feel they clearly were leveraging AI
+[06:21.140 --> 06:23.540]  to do this description for them.
+[06:23.540 --> 06:25.660]  If it doesn't sound like a human
+[06:25.660 --> 06:28.740]  and you're not talking about your real lived experiences
+[06:28.740 --> 06:31.820]  and they sense that this isn't actually you talking
+[06:31.820 --> 06:33.980]  and they don't get to know you at all,
+[06:33.980 --> 06:35.500]  it's a red flag for them.
+[06:35.500 --> 06:38.180]  So that's a problem and we need to overcome that.
+[06:38.180 --> 06:40.140]  We need to be authentic and human written
+[06:40.980 --> 06:41.820]  wherever possible.
+[06:41.820 --> 06:45.420]  And I like this note from PWC's personal brand workbook.
+[06:45.420 --> 06:48.220]  The secret to standing out and impressing recruiters
+[06:48.220 --> 06:51.540]  is with the unique and authentic you in person,
+[06:51.540 --> 06:53.460]  on paper and online.
+[06:53.460 --> 06:56.180]  And that still holds true today, 10 years later.
+[06:57.440 --> 06:59.820]  So I want you to think from employer's perspective
+[06:59.820 --> 07:02.620]  for a second about what it means to hire somebody.
+[07:03.740 --> 07:06.660]  I think as a student, we think about our perspective
+[07:06.660 --> 07:07.900]  in the labor market.
+[07:07.900 --> 07:09.500]  We're applying to a lot of jobs.
+[07:09.500 --> 07:10.780]  There's a lot of rejection.
+[07:10.780 --> 07:12.940]  There's a lot of time and effort.
+[07:12.940 --> 07:14.780]  But why don't we start with looking at it
+[07:14.780 --> 07:16.700]  from the employer's perspective.
+[07:16.700 --> 07:19.340]  Hiring a student is not easy.
+[07:19.340 --> 07:21.620]  Like they have to start with establishing a need
+[07:21.620 --> 07:24.300]  to hire you, a business case for why it's gonna help
+[07:24.300 --> 07:27.700]  the company to have a student working with them.
+[07:27.700 --> 07:30.300]  Then there's job descriptions, marketing the job,
+[07:30.300 --> 07:32.580]  posting the job, getting applications,
+[07:32.580 --> 07:35.440]  screening the applications, interviewing people.
+[07:36.380 --> 07:39.180]  This is a lot, right?
+[07:39.180 --> 07:41.620]  So what I need you to start thinking about
+[07:41.620 --> 07:44.420]  is that when someone hires you,
+[07:44.420 --> 07:48.180]  they're also putting their professional reputation at stake.
+[07:49.220 --> 07:51.940]  They need to get to know you well enough
+[07:51.940 --> 07:53.620]  that they know when they hire you,
+[07:53.620 --> 07:56.380]  you're gonna come in and perform well,
+[07:56.380 --> 07:58.340]  that you're gonna do your best,
+[07:58.340 --> 08:01.100]  that you're gonna try your best to execute.
+[08:01.100 --> 08:05.020]  If you don't, there's someone tied to you.
+[08:05.020 --> 08:07.020]  And it's important to think about that.
+[08:08.020 --> 08:11.500]  There is a big word that I've started to use
+[08:11.500 --> 08:14.700]  when it comes to what does an employer need to feel about
+[08:14.700 --> 08:16.540]  you in order to hire you.
+[08:16.540 --> 08:19.500]  If they have to do all these things
+[08:19.500 --> 08:21.420]  and it comes down to two students
+[08:22.500 --> 08:24.340]  and they had a tough time figuring out
+[08:24.340 --> 08:25.900]  which of these students am I gonna take,
+[08:25.900 --> 08:27.580]  what do you think this boils down to?
+[08:27.580 --> 08:31.340]  What's the big word that needs to be associated with you?
+[08:31.340 --> 08:32.420]  It starts with a T.
+[08:33.660 --> 08:34.660]  They need to what?
+[08:37.460 --> 08:38.300]  Well, trust.
+[08:38.300 --> 08:39.940]  They need to trust you.
+[08:39.940 --> 08:42.780]  Okay, if you're not giving them who you are
+[08:42.780 --> 08:44.780]  and they don't think they know who you are
+[08:44.780 --> 08:47.620]  by the time they read your application and interview you,
+[08:47.620 --> 08:50.220]  I'm not sure how we're gonna gain their trust.
+[08:50.220 --> 08:53.620]  I'm not sure how it's gonna work out possibly from there.
+[08:53.620 --> 08:55.460]  Need to build trust.
+[08:55.460 --> 08:56.860]  Get them to trust you.
+[08:58.780 --> 09:01.340]  Building trust means they can see
+[09:01.340 --> 09:02.740]  what you're capable of doing
+[09:02.740 --> 09:04.820]  and what you're not capable of doing.
+[09:05.660 --> 09:06.500]  Right?
+[09:06.500 --> 09:08.980]  We shouldn't be going through applications and interviews
+[09:08.980 --> 09:10.900]  thinking that we need to be perfect.
+[09:10.900 --> 09:13.180]  This is not what that is.
+[09:13.180 --> 09:15.340]  They need to be able to leave those situations
+[09:15.340 --> 09:18.180]  knowing who you are and what they would be getting
+[09:18.180 --> 09:19.420]  if they hired you.
+[09:19.420 --> 09:21.500]  That's the important things.
+[09:21.500 --> 09:25.940]  Your pitch needs to be detailed and specific.
+[09:25.940 --> 09:28.260]  This is how you separate yourself from other people.
+[09:28.260 --> 09:31.580]  It's not just that you did a pitch competition.
+[09:31.580 --> 09:34.740]  What was the problem and what was your solution?
+[09:35.660 --> 09:36.900]  Your story is gonna be unique,
+[09:36.900 --> 09:39.140]  but saying you did a pitch is not unique.
+[09:39.140 --> 09:40.860]  Everyone did that.
+[09:40.860 --> 09:42.100]  So getting specific.
+[09:43.100 --> 09:46.060]  Have an understanding of what you know
+[09:46.060 --> 09:48.260]  so that the employer also can know
+[09:48.260 --> 09:50.220]  what you know and what you don't.
+[09:50.220 --> 09:54.220]  And the last thing is that it really should feel genuine.
+[09:54.220 --> 09:57.180]  It should feel like you really want this,
+[09:57.180 --> 09:59.540]  that you thought about this,
+[09:59.540 --> 10:01.820]  that when they say at the end of the interview,
+[10:01.820 --> 10:04.420]  you know, it was really good meeting you.
+[10:04.420 --> 10:06.100]  Of all the companies you applied to,
+[10:06.100 --> 10:08.020]  you applied to ours, why?
+[10:09.540 --> 10:12.180]  You need to have a bit of an answer there.
+[10:12.180 --> 10:14.820]  Oh yeah, what stood out to me about your company
+[10:14.820 --> 10:17.140]  is that I saw that you're doing this.
+[10:17.140 --> 10:19.100]  It means something to me because when I was growing up,
+[10:19.100 --> 10:21.780]  I engaged with that in a similar way.
+[10:21.780 --> 10:23.100]  Right, you need to be able to create
+[10:23.100 --> 10:24.620]  those little connection points.
+[10:25.540 --> 10:29.020]  So we're gonna do our first little branding exercise.
+[10:29.020 --> 10:31.460]  I want you to look at this picture for a second.
+[10:31.460 --> 10:33.740]  I want you to think about what kinds of skills
+[10:33.740 --> 10:37.060]  or abilities do you think that this gardener
+[10:37.060 --> 10:40.660]  is demonstrating when they do this activity?
+[10:40.660 --> 10:43.140]  And we're gonna try Mentimeter.
+[10:43.140 --> 10:44.700]  We've never used this in class before,
+[10:44.700 --> 10:46.860]  and you're our first class we were using it.
+[10:46.860 --> 10:49.580]  So what I need you to do is if you have access
+[10:49.580 --> 10:54.580]  to your phone, you can use your camera
+[10:54.940 --> 10:59.580]  and get the QR code, or get the URL from the QR code.
+[10:59.580 --> 11:03.260]  I'll give you about five, seven more seconds
+[11:03.260 --> 11:05.140]  to activate that.
+[11:05.140 --> 11:09.140]  And then there's going to be a question on the next page
+[11:10.140 --> 11:13.100]  about what skills you think they're gonna demonstrate,
+[11:13.100 --> 11:15.300]  and you can start inputting some of those.
+[11:18.940 --> 11:20.380]  Okay, so this should be live.
+[11:20.380 --> 11:22.060]  Does this change now for your screen?
+[11:22.060 --> 11:24.380]  Are you able to see the activity?
+[11:24.380 --> 11:29.380]  Okay, so put in your, submit for me a couple of skills
+[11:29.380 --> 11:32.180]  that you think that the gardener was showing.
+[11:32.180 --> 11:34.660]  What talents would you say the gardener has?
+[11:50.700 --> 11:52.980]  Has anybody tried to hit submit?
+[11:52.980 --> 11:55.220]  But nothing's coming off from here, from mine?
+[12:02.180 --> 12:03.020]  Okay.
+[12:32.220 --> 12:33.380]  That's a bit of a womp womp.
+[12:33.380 --> 12:35.580]  I can't figure this out in just a second.
+[12:39.540 --> 12:41.740]  Okay, can someone tell me a couple of skills
+[12:41.740 --> 12:42.740]  that came to their mind?
+[12:42.740 --> 12:45.580]  What are some things that you thought of for gardening?
+[12:47.900 --> 12:48.740]  Yeah?
+[12:48.740 --> 12:49.560]  Patience.
+[12:49.560 --> 12:50.900]  So patience is good, yeah?
+[12:51.900 --> 12:52.740]  Organization.
+[12:52.740 --> 12:54.660]  Organizational skills, yeah?
+[12:54.660 --> 12:55.940]  So attention to detail.
+[12:55.940 --> 12:57.900]  Attention to detail, yeah.
+[12:59.540 --> 13:00.900]  Not afraid to get our hands dirty,
+[13:00.900 --> 13:02.460]  you can get the dad jokes, yeah?
+[13:02.460 --> 13:03.460]  Time management.
+[13:03.460 --> 13:04.900]  Time management, good.
+[13:04.900 --> 13:06.660]  And some plant knowledge.
+[13:06.660 --> 13:08.620]  Some plant knowledge, some technical knowledge
+[13:08.620 --> 13:10.580]  about plants and some decision making
+[13:10.580 --> 13:12.540]  about what goes where, yeah.
+[13:12.540 --> 13:14.500]  These are all good words.
+[13:14.500 --> 13:16.420]  What I want you to think about now
+[13:16.420 --> 13:19.540]  is we've got some skills that we've thought of,
+[13:19.540 --> 13:21.900]  but convince me, all we've done so far
+[13:21.900 --> 13:26.380]  is to say you're a gardener, therefore skills.
+[13:26.380 --> 13:28.220]  But how would you describe to me
+[13:28.220 --> 13:31.660]  that a gardener has organizational skill?
+[13:31.660 --> 13:35.580]  What actually goes into having a successful garden
+[13:35.580 --> 13:37.740]  where organizational skills is required?
+[13:38.660 --> 13:40.540]  Can someone articulate that for me?
+[13:40.540 --> 13:43.020]  What would that look like to you?
+[13:43.020 --> 13:45.380]  You can show that you first like gave context
+[13:45.380 --> 13:47.460]  by preparing yourself to garden
+[13:47.460 --> 13:48.900]  and showing the steps that you took
+[13:48.900 --> 13:51.420]  towards preparing yourself, so getting the seeds,
+[13:51.420 --> 13:53.700]  getting the tools, making sure you have the right
+[13:53.700 --> 13:55.820]  plant knowledge and research and all of that.
+[13:55.820 --> 13:58.500]  Yeah, I love the research about the right fertilizers,
+[13:58.500 --> 14:02.620]  having a plan for what is gonna be planted and where.
+[14:02.620 --> 14:04.700]  If you wanted to incorporate plant knowledge,
+[14:04.700 --> 14:06.980]  like if you were applying to a company
+[14:06.980 --> 14:09.700]  that was more in the garden space,
+[14:09.700 --> 14:13.140]  you can get into, yeah, I know about ideas like cohabitation
+[14:13.140 --> 14:14.900]  and putting certain plants near each other
+[14:14.900 --> 14:16.380]  because they usually benefit.
+[14:17.700 --> 14:21.300]  So you can really articulate, demonstrate
+[14:21.300 --> 14:23.420]  both that you're passionate about this,
+[14:23.420 --> 14:26.020]  that you have the right skills for this,
+[14:26.020 --> 14:29.220]  but you see how much better it sounds with a story
+[14:29.220 --> 14:32.820]  versus just saying I'm a gardener, therefore organized.
+[14:33.700 --> 14:36.340]  The part about building trust here is,
+[14:36.340 --> 14:39.780]  well, tell me about it, describe the story for me.
+[14:40.940 --> 14:44.860]  There's more, like I know people who do competitive gaming
+[14:44.860 --> 14:47.100]  and we'll talk about how they get deep
+[14:47.100 --> 14:49.340]  into the frame data of games.
+[14:49.340 --> 14:52.660]  They try to leverage every little micro competitive
+[14:52.820 --> 14:55.700]  advantage they can get so they can beat other people.
+[14:55.700 --> 14:56.740]  That's good.
+[14:56.740 --> 14:58.460]  The part about blowing stuff up,
+[14:58.460 --> 15:01.180]  maybe not how you've grown a brand yourself.
+[15:01.180 --> 15:03.580]  So what's the story you're gonna tell here?
+[15:03.580 --> 15:05.140]  But this can be a trial.
+[15:05.140 --> 15:08.820]  See, a lot of students talk about being on competitive teams,
+[15:08.820 --> 15:12.180]  maybe it's all Ontario's with really good teams,
+[15:12.180 --> 15:14.660]  where everyone was doing a particular function.
+[15:14.660 --> 15:16.060]  It's not just everyone's doing
+[15:16.060 --> 15:18.140]  literally the same thing on your team.
+[15:18.140 --> 15:21.860]  So part of the trick to this is what was your contribution?
+[15:21.860 --> 15:23.460]  You don't just say I'm a good team player
+[15:23.460 --> 15:24.860]  because I play on teams.
+[15:24.860 --> 15:28.380]  When I'm on teams, here's how I'm a good team player.
+[15:28.380 --> 15:30.340]  It's the context, it's the story.
+[15:32.180 --> 15:34.800]  So branding is incredibly crucial.
+[15:34.800 --> 15:37.340]  You will sound generic if you say
+[15:37.340 --> 15:39.700]  experience, therefore skill.
+[15:39.700 --> 15:42.380]  You will not sound generic if you say
+[15:42.380 --> 15:45.860]  experience, how, therefore skill.
+[15:47.660 --> 15:50.500]  So what we'll do for a minute is a little activity,
+[15:50.500 --> 15:52.700]  just to get to know each other a little bit more
+[15:52.700 --> 15:56.700]  and to practice this idea of what have I done before,
+[15:56.700 --> 15:58.500]  how did I do that, what does that look like,
+[15:58.500 --> 16:01.700]  is there a skill that I can tell you that I gained from it?
+[16:01.700 --> 16:03.860]  So I'm gonna walk you through the five parts
+[16:03.860 --> 16:06.440]  of the intro statement that are here.
+[16:06.440 --> 16:10.180]  And then I'll show you what you're gonna do for each one,
+[16:10.180 --> 16:11.440]  and then when we're ready to start,
+[16:11.440 --> 16:13.340]  I'll leave that on the board as a reminder
+[16:13.340 --> 16:14.740]  of what you need to include.
+[16:15.780 --> 16:19.300]  So for the start, so basically I'll go through who you are.
+[16:19.300 --> 16:20.960]  So my name is Ian.
+[16:20.960 --> 16:23.380]  I don't mind if you say your name
+[16:23.380 --> 16:25.940]  and I am a BBA student or an Econ student,
+[16:25.940 --> 16:28.300]  but remember in branding world,
+[16:28.300 --> 16:29.780]  there's a lot of you that do that.
+[16:29.780 --> 16:33.060]  So is there something deeper than that that you can say?
+[16:33.060 --> 16:36.300]  Maybe it's something that more holistically you do
+[16:36.300 --> 16:38.380]  or that you're striving for,
+[16:38.380 --> 16:40.140]  or some way that you would define yourself
+[16:40.140 --> 16:41.740]  that isn't just your degree.
+[16:42.840 --> 16:44.740]  But I know this is kind of impromptu on the spot.
+[16:44.740 --> 16:47.500]  You can only come up with a degree, that's okay.
+[16:47.500 --> 16:49.980]  What I want you to talk about for most of your intro
+[16:49.980 --> 16:51.940]  are the things you're passionate about.
+[16:51.940 --> 16:54.880]  So when you're trying to make connection with new people,
+[16:54.880 --> 16:58.980]  especially colleagues, people around your age,
+[16:58.980 --> 17:00.580]  normally this is how we connect.
+[17:00.580 --> 17:01.580]  What do we love?
+[17:01.580 --> 17:03.780]  What do these passions say about food?
+[17:03.780 --> 17:05.860]  For me, I like talking about food
+[17:05.860 --> 17:10.260]  because it's relatively easy to connect with.
+[17:10.260 --> 17:12.140]  There are other things I'm passionate about.
+[17:12.140 --> 17:14.340]  I'm very passionate about having my own music,
+[17:14.340 --> 17:15.940]  but I'm not gonna say that in intro
+[17:15.940 --> 17:18.340]  when I don't really know what you're into.
+[17:18.340 --> 17:19.600]  I'd be a risk.
+[17:19.600 --> 17:21.620]  So I usually go with food.
+[17:21.620 --> 17:24.180]  I love food because it creates connection.
+[17:24.180 --> 17:25.700]  Because when you eat a meal with people,
+[17:25.700 --> 17:29.620]  I feel like you just gain this level of trust and family
+[17:29.620 --> 17:31.940]  that you wouldn't necessarily have with other people.
+[17:31.940 --> 17:34.380]  It's also a good creative outlet.
+[17:34.380 --> 17:37.100]  You can mess around with recipes,
+[17:37.100 --> 17:38.740]  come up with your own thing.
+[17:38.740 --> 17:40.260]  I've got a whole bunch of things that I make
+[17:40.260 --> 17:42.740]  that I don't think anyone else in the world makes
+[17:42.740 --> 17:43.820]  because I just know what I like
+[17:43.820 --> 17:45.740]  and I've changed things over time.
+[17:46.540 --> 17:47.860]  So it's creative outlet for me.
+[17:47.860 --> 17:48.700]  So what about you?
+[17:48.700 --> 17:51.220]  What are the things that you love?
+[17:51.220 --> 17:53.260]  And what do you think that says about you?
+[17:54.860 --> 17:57.420]  And by all means, you don't have to take it
+[17:57.420 --> 17:58.940]  a conservative connecting route.
+[17:58.940 --> 18:02.100]  If you wanna say something funky that you're into, go for it.
+[18:05.220 --> 18:06.740]  We're gonna do this a little bit shorter.
+[18:06.740 --> 18:08.500]  I don't think that flexing your strengths
+[18:08.500 --> 18:11.420]  is exactly how you make friends with people your age.
+[18:11.420 --> 18:13.780]  You're not gonna talk about how great you are at things.
+[18:13.780 --> 18:15.420]  But I want you to think of one thing.
+[18:16.060 --> 18:16.900]  What's one strength you have?
+[18:16.900 --> 18:18.620]  What's one skill that you gain?
+[18:19.460 --> 18:23.300]  And try to show your listener how you have that.
+[18:23.300 --> 18:24.940]  What have you done before that shows
+[18:24.940 --> 18:26.740]  that you have that talent?
+[18:26.740 --> 18:30.980]  So I did put a couple, just for examples, assessment.
+[18:30.980 --> 18:34.140]  I review tons of resumes and cover letters a year.
+[18:34.140 --> 18:36.900]  But the important thing about that is I start seeing trends.
+[18:36.900 --> 18:39.700]  I start seeing things that multiple students
+[18:39.700 --> 18:41.340]  are getting stuck on.
+[18:41.340 --> 18:43.740]  So then we try to teach ways to get around that
+[18:43.740 --> 18:44.580]  in our sessions.
+[18:44.580 --> 18:46.580]  So my assessment is doing pretty good.
+[18:46.580 --> 18:49.780]  Research skills, use SPSS and Excel.
+[18:49.780 --> 18:50.620]  So how about you?
+[18:50.620 --> 18:54.500]  What's one thing that you think you do pretty well?
+[18:54.500 --> 18:56.060]  And what's the story behind it?
+[18:59.420 --> 19:02.060]  The next part is what's your vision?
+[19:02.060 --> 19:04.100]  So where do you think you're going?
+[19:04.100 --> 19:05.940]  Where do you hope to be in the future?
+[19:05.940 --> 19:08.980]  And it doesn't have to be tremendously long-term.
+[19:08.980 --> 19:10.780]  It could be something this week.
+[19:10.780 --> 19:13.020]  It could be something the end of this month.
+[19:13.020 --> 19:15.220]  It could be something co-operated, non-co-operated.
+[19:15.220 --> 19:16.460]  But what's your vision?
+[19:16.460 --> 19:18.300]  What are you aiming towards right now?
+[19:23.900 --> 19:24.980]  Last part's easy.
+[19:24.980 --> 19:26.900]  It's just you're wrapping up.
+[19:26.900 --> 19:29.820]  And you're saying that's a little bit about me.
+[19:29.820 --> 19:31.980]  Could you tell me about you?
+[19:31.980 --> 19:35.340]  What this is getting us ready for is networking.
+[19:35.340 --> 19:36.620]  Because when you network,
+[19:36.620 --> 19:38.780]  you're not gonna be a performer on a stage.
+[19:38.780 --> 19:40.780]  You're trying to talk 50-50.
+[19:40.780 --> 19:42.820]  You're gonna ask questions back to your listener.
+[19:43.620 --> 19:44.820]  So this is just a way of saying I'm done.
+[19:44.820 --> 19:46.180]  Could you tell me about yourself?
+[19:46.180 --> 19:49.540]  Could you tell me a little bit about what your strengths are?
+[19:49.540 --> 19:51.100]  What are you passionate about?
+[19:52.740 --> 19:55.300]  So if I were to put this all together,
+[19:55.300 --> 19:58.820]  this is what a 30-second intro pitch looks like.
+[19:58.820 --> 19:59.660]  So my name's Ian.
+[19:59.660 --> 20:01.660]  I've been teaching students for about 10 years.
+[20:01.660 --> 20:02.540]  I love food.
+[20:02.540 --> 20:04.900]  I love how it creates regions and authenticity
+[20:04.900 --> 20:06.020]  and traditions.
+[20:06.900 --> 20:08.340]  One of my strengths is assessment.
+[20:08.340 --> 20:11.460]  I review a lot of resumes and cover letters in a year.
+[20:11.460 --> 20:13.500]  And I wanna learn more about authentic strategies
+[20:13.500 --> 20:15.140]  as students are using the network effectively
+[20:15.140 --> 20:17.260]  and comfortably is my big word this year.
+[20:17.260 --> 20:19.620]  How do you do it the way that's comfortable to you?
+[20:19.620 --> 20:20.780]  Tell me about yourself.
+[20:22.060 --> 20:24.540]  So we're aiming for about 30 to 40 seconds.
+[20:25.460 --> 20:29.140]  What I'll have you do is just in small groups,
+[20:29.140 --> 20:32.740]  two is ideal, but three as a max is good.
+[20:32.740 --> 20:35.060]  Turn and find people around you.
+[20:35.060 --> 20:37.900]  In 10 seconds, all I want you to do is say hi
+[20:37.900 --> 20:40.100]  and be next to someone that you can do
+[20:40.100 --> 20:42.220]  your intro statement with.
+[20:42.220 --> 20:44.620]  Once you're there, I'm gonna let you know
+[20:44.620 --> 20:46.420]  how to figure out who goes first.
+[20:49.260 --> 20:50.340]  So you can find people around you.
+[20:50.340 --> 20:51.860]  You can get up, move around.
+[20:51.860 --> 20:53.540]  I'll give you 10 seconds.
+[20:53.540 --> 20:55.260]  And then we're gonna start,
+[20:55.260 --> 20:57.180]  show you who goes first and we'll go from there.
+[20:57.180 --> 20:58.300]  All right, let's move.
+[21:00.300 --> 21:01.500]  I'm gonna put one around you.
+[21:01.500 --> 21:02.940]  You get a machine on the counter.
+[21:02.940 --> 21:04.460]  I put a machine in there.
+[21:04.460 --> 21:05.300]  Which one?
+[21:05.300 --> 21:06.380]  I just put you.
+[21:06.380 --> 21:08.180]  I just put you in front of me.
+[21:08.180 --> 21:13.180]  All right, so now that we're in groups, pairs,
+[21:14.700 --> 21:16.940]  here's how you're gonna know who goes first.
+[21:16.940 --> 21:19.020]  So first in your group who is the tallest
+[21:19.020 --> 21:19.860]  is gonna go first.
+[21:19.860 --> 21:21.980]  If you do not know who is the tallest,
+[21:21.980 --> 21:23.740]  you can stand up and I'll adjudicate,
+[21:23.740 --> 21:25.980]  but hopefully you can figure it out on your own.
+[21:25.980 --> 21:28.500]  Oh, you can do it pretty close.
+[21:28.500 --> 21:29.500]  Just that way.
+[21:29.500 --> 21:32.500]  I'll give you a little bit of a lead.
+[21:32.500 --> 21:34.500]  Yeah, isn't that a lot?
+[21:34.500 --> 21:36.500]  There's a lot more to it.
+[21:36.500 --> 21:40.660]  It's the highest this set that I normally use to see.
+[21:40.660 --> 21:42.420]  All right, so what I'm gonna do
+[21:42.420 --> 21:44.300]  is give that first person a countdown.
+[21:44.300 --> 21:46.580]  Your countdown is three seconds.
+[21:46.580 --> 21:48.940]  I'm gonna let you know when we get to 40 seconds
+[21:48.940 --> 21:50.780]  because that is, all right, we gotta wrap it up.
+[21:50.780 --> 21:52.260]  You're going a little long.
+[21:53.300 --> 21:55.100]  So I'll let you know when we get to 40 seconds.
+[21:55.100 --> 21:56.380]  Okay, so countdown from three.
+[21:56.380 --> 21:58.020]  Tallest person in your group.
+[21:58.020 --> 21:59.460]  Three, two, one.
+[21:59.460 --> 22:00.300]  Let me start.
+[22:00.300 --> 22:02.260]  I'm gonna go up on the table.
+[22:02.260 --> 22:05.060]  I'm gonna be on the table.
+[22:05.340 --> 22:06.580]  I love traveling.
+[22:06.580 --> 22:08.320]  Hold on, hold on.
+[22:08.320 --> 22:10.060]  Let's see how this works out.
+[22:11.740 --> 22:14.240]  Success to manual control.
+[22:15.420 --> 22:18.420]  Let's see where I'm at right now.
+[22:22.980 --> 22:25.040]  Just a little step and we'd be funny enough
+[22:25.040 --> 22:26.760]  for my first round.
+[22:26.760 --> 22:28.140]  Let's start.
+[22:28.140 --> 22:30.380]  What we need to, oh, do we know it to fit?
+[22:30.380 --> 22:32.740]  I'm gonna go these ones and go all out.
+[22:32.740 --> 22:34.740]  Five seconds left.
+[22:34.740 --> 22:38.740]  With the future, I kind of want to learn more about the job.
+[22:38.740 --> 22:40.740]  I'm going to see what I want to do.
+[22:40.740 --> 22:42.740]  All right, we've got to wrap up.
+[22:42.740 --> 22:44.740]  Next person.
+[22:44.740 --> 22:46.740]  I'm going to give you a three-second countdown.
+[22:46.740 --> 22:48.740]  Okay, three, two, one, go.
+[22:48.740 --> 22:50.740]  Hi, my name is Jimmy.
+[22:50.740 --> 22:52.740]  I'm an entrepreneur.
+[22:52.740 --> 22:54.740]  I'm working at a company called Amarok.
+[22:54.740 --> 22:56.740]  It's a company that's been around for over a decade.
+[22:56.740 --> 22:58.740]  I've been trying to get into the business.
+[22:58.740 --> 23:00.740]  I'm a cash flower.
+[23:00.740 --> 23:02.740]  I've been doing a lot of work.
+[23:02.740 --> 23:04.740]  I'm a cash flower.
+[23:04.740 --> 23:06.740]  I'm a cash flower.
+[23:06.740 --> 23:08.740]  I've been doing a lot of work.
+[23:08.740 --> 23:10.740]  I'm a cash flower.
+[23:10.740 --> 23:12.740]  I'm a cash flower.
+[23:12.740 --> 23:14.740]  I'm a cash flower.
+[23:14.740 --> 23:16.740]  I'm a cash flower.
+[23:16.740 --> 23:18.740]  I'm a cash flower.
+[23:18.740 --> 23:20.740]  I'm a cash flower.
+[23:20.740 --> 23:22.740]  I'm a cash flower.
+[23:22.740 --> 23:24.740]  I'm a cash flower.
+[23:24.740 --> 23:26.740]  I'm a cash flower.
+[23:26.740 --> 23:28.740]  I'm a cash flower.
+[23:28.740 --> 23:30.740]  I'm a cash flower.
+[23:30.740 --> 23:32.740]  There you go.
+[23:32.740 --> 23:34.740]  That's...
+[23:34.740 --> 23:36.740]  We can keep it really cool.
+[23:36.740 --> 23:38.740]  That is my passion.
+[23:38.740 --> 23:40.740]  I would definitely do that.
+[23:40.740 --> 23:42.740]  All right, so that's 40 seconds.
+[23:42.740 --> 23:44.740]  So if you've got a third person in your group,
+[23:44.740 --> 23:46.740]  I'm going to give them a chance to talk.
+[23:46.740 --> 23:48.740]  If you've done both of them, you can just hang out for a minute
+[23:48.740 --> 23:50.740]  and debrief.
+[23:50.740 --> 23:52.740]  But I'll give you three seconds to pass.
+[23:52.740 --> 23:54.740]  I'll give you three, two, one, and we'll have the third person to pass.
+[23:54.740 --> 23:56.740]  Okay.
+[24:56.740 --> 24:58.740]  All right.
+[24:58.740 --> 25:00.740]  Thanks for doing that, you guys.
+[25:00.740 --> 25:02.740]  You can stay where you are if you want to.
+[25:02.740 --> 25:04.740]  If you want to go back to your seats,
+[25:04.740 --> 25:06.740]  you can stay where you are.
+[25:06.740 --> 25:08.740]  I'm going to give you three seconds to pass.
+[25:08.740 --> 25:10.740]  Okay.
+[25:10.740 --> 25:12.740]  So that's 40 seconds.
+[25:12.740 --> 25:14.740]  So that's 40 seconds.
+[25:14.740 --> 25:16.740]  So that's 40 seconds.
+[25:16.740 --> 25:18.740]  So that's 40 seconds.
+[25:18.740 --> 25:20.740]  So that's 40 seconds.
+[25:20.740 --> 25:22.740]  So that's 40 seconds.
+[25:22.740 --> 25:24.740]  So that's 40 seconds.
+[25:24.740 --> 25:26.740]  You can stay where you are if you want to.
+[25:26.740 --> 25:28.740]  If you want to go back to your seats, you can.
+[25:28.740 --> 25:30.740]  I appreciate your patience.
+[25:30.740 --> 25:32.740]  We're going to try to make meter one more time at the end of the session.
+[25:32.740 --> 25:34.740]  So I want to see if the end of it works.
+[25:34.740 --> 25:36.740]  All right.
+[25:36.740 --> 25:38.740]  So I hope that that was good to just do a quick intro.
+[25:38.740 --> 25:40.740]  The time restriction was kind of deliberate.
+[25:40.740 --> 25:42.740]  I know it's hard to do a 30 or 40 second intro pitch.
+[25:42.740 --> 25:44.740]  But we need to start conditioning ourselves.
+[25:44.740 --> 25:46.740]  That is, we are doing networking.
+[25:46.740 --> 25:48.740]  We're doing the quick hi, how are you.
+[25:48.740 --> 25:50.740]  We really want that part to be pretty quick.
+[25:50.740 --> 25:52.740]  So we're going to refine that message,
+[25:52.740 --> 25:54.740]  get it down to a few sentences.
+[25:54.740 --> 25:56.740]  Hopefully that was helpful.
+[25:56.740 --> 25:58.740]  And even just getting to know some people in the class is great too.
+[25:58.740 --> 26:00.740]  All right.
+[26:00.740 --> 26:02.740]  So what we're going to talk a little bit about now is a posture syndrome.
+[26:02.740 --> 26:04.740]  So what we know when we apply to jobs
+[26:04.740 --> 26:06.740]  is that companies are going to have job descriptions,
+[26:06.740 --> 26:08.740]  which are lengthy at times.
+[26:08.740 --> 26:10.740]  But you have to remember that these are wish lists.
+[26:10.740 --> 26:12.740]  This is not an ideal candidate that they're looking for.
+[26:12.740 --> 26:14.740]  This is not an ideal candidate that they're looking for.
+[26:14.740 --> 26:16.740]  It is everything that they could possibly want from a student
+[26:16.740 --> 26:18.740]  who's coming into the workplace.
+[26:18.740 --> 26:20.740]  What you're going to do is you're going to be able to
+[26:20.740 --> 26:22.740]  get into the workplace.
+[26:22.740 --> 26:24.740]  What you're going to do is figure out, okay,
+[26:24.740 --> 26:26.740]  so what from this job can I demonstrate?
+[26:26.740 --> 26:28.740]  And can I sell to them that I could do?
+[26:28.740 --> 26:30.740]  So they'll have expectations of you.
+[26:30.740 --> 26:32.740]  You need to think about how you're going to be doing those things.
+[26:32.740 --> 26:34.740]  But at the same time,
+[26:34.740 --> 26:36.740]  don't box yourself in.
+[26:36.740 --> 26:38.740]  It's not a time to say,
+[26:38.740 --> 26:40.740]  yes, I can do literally everything.
+[26:40.740 --> 26:42.740]  They're not expecting you to be perfect.
+[26:42.740 --> 26:44.740]  So have a sense of what you're able to do and what not.
+[26:44.740 --> 26:46.740]  So have a sense of what you're able to do and what not.
+[26:46.740 --> 26:48.740]  It is common for students in undergrad
+[26:48.740 --> 26:50.740]  when they're going through their first work term
+[26:50.740 --> 26:52.740]  to have a feeling like you shouldn't be here,
+[26:52.740 --> 26:54.740]  that you have imposter syndrome.
+[26:54.740 --> 26:56.740]  You might feel a sense of inadequacy.
+[26:56.740 --> 26:58.740]  One of the biggest times that that will happen
+[26:58.740 --> 27:00.740]  is when you're going through recruitment.
+[27:00.740 --> 27:02.740]  And if you have other friends that are in BBA,
+[27:02.740 --> 27:04.740]  you'll see people getting jobs early.
+[27:04.740 --> 27:06.740]  But it might be longer for you.
+[27:06.740 --> 27:08.740]  It might be a struggle.
+[27:08.740 --> 27:10.740]  Does not mean you're not supposed to be here, right?
+[27:10.740 --> 27:12.740]  Everybody will get hired at a different time.
+[27:12.740 --> 27:14.740]  And we'll also feel that way
+[27:14.740 --> 27:16.740]  when we don't feel like we're represented.
+[27:16.740 --> 27:18.740]  We feel like we're not belong in the space that we're in.
+[27:18.740 --> 27:20.740]  And there's a lot of stereotypes and discrimination
+[27:20.740 --> 27:22.740]  that helps push people into that space.
+[27:22.740 --> 27:24.740]  And it's good to be cognizant of that.
+[27:24.740 --> 27:26.740]  So I like this definition of imposter syndrome
+[27:26.740 --> 27:28.740]  from Clance and I.
+[27:28.740 --> 27:30.740]  The idea that you feel lucky,
+[27:30.740 --> 27:32.740]  that you have to work harder than everybody else
+[27:32.740 --> 27:34.740]  to get to where you need to be,
+[27:34.740 --> 27:36.740]  or even that you've duped people,
+[27:36.740 --> 27:38.740]  you've manipulated their expectations
+[27:38.740 --> 27:40.740]  into something that you're not.
+[27:40.740 --> 27:42.740]  These are things that you can't do.
+[27:42.740 --> 27:44.740]  And I think that's a good point.
+[27:44.740 --> 27:46.740]  You can't do something that you're not.
+[27:46.740 --> 27:48.740]  These are five main ways that they are visible.
+[27:48.740 --> 27:50.740]  I can definitely relate with one or two of them.
+[27:50.740 --> 27:52.740]  Professionism.
+[27:52.740 --> 27:54.740]  You let the 1% that doesn't go right
+[27:54.740 --> 27:56.740]  impact how you feel about the process.
+[27:56.740 --> 27:58.740]  Expert is the idea that you're afraid to speak up
+[27:58.740 --> 28:00.740]  until you know literally everything.
+[28:00.740 --> 28:02.740]  Because you don't want to look like you're not an expert.
+[28:02.740 --> 28:04.740]  Natural genius.
+[28:04.740 --> 28:06.740]  If you had a struggle,
+[28:06.740 --> 28:08.740]  this didn't come easy for you.
+[28:08.740 --> 28:10.740]  Well, it went easy for other people.
+[28:10.740 --> 28:12.740]  So there's something going on between you and the other.
+[28:12.740 --> 28:14.740]  And it's easy for other people, so there's something going on with me.
+[28:16.740 --> 28:18.740]  Solists will often not ask for support
+[28:18.740 --> 28:20.740]  because they think that process of asking for help
+[28:20.740 --> 28:22.740]  says something.
+[28:22.740 --> 28:24.740]  And then superhuman is common.
+[28:24.740 --> 28:26.740]  It's the idea that you feel like you have to work extra hard,
+[28:26.740 --> 28:28.740]  put in tons of hours,
+[28:28.740 --> 28:30.740]  tons of time,
+[28:30.740 --> 28:32.740]  just so that you feel like you'll hang with everybody else.
+[28:34.740 --> 28:36.740]  So it's very common to feel these things.
+[28:36.740 --> 28:38.740]  And I'm not a psychologist.
+[28:38.740 --> 28:40.740]  I don't have the easiest answer for you
+[28:40.740 --> 28:42.740]  of how you get through it.
+[28:42.740 --> 28:44.740]  But hopefully these ideas will.
+[28:44.740 --> 28:46.740]  The first thing is,
+[28:46.740 --> 28:48.740]  does this thought help me or does it hurt?
+[28:48.740 --> 28:50.740]  Is this something that I feel?
+[28:50.740 --> 28:52.740]  Or is this something the world feels?
+[28:52.740 --> 28:54.740]  Often there's a disconnect there.
+[28:54.740 --> 28:56.740]  And it's good to remember that.
+[28:56.740 --> 28:58.740]  Constructive criticism.
+[28:58.740 --> 29:00.740]  We've had students,
+[29:00.740 --> 29:02.740]  after we do a resume and cover letter review,
+[29:02.740 --> 29:04.740]  they put in a really honest effort
+[29:04.740 --> 29:06.740]  and came to Tara and I going,
+[29:06.740 --> 29:08.740]  based on how this went,
+[29:08.740 --> 29:10.740]  I'm not sure if I'm cut out for this.
+[29:10.740 --> 29:12.740]  Like I don't think I'm going to be able to get there.
+[29:14.740 --> 29:16.740]  Know that our feedback
+[29:16.740 --> 29:18.740]  is really coming from a place of care
+[29:18.740 --> 29:20.740]  and love, if you will.
+[29:20.740 --> 29:22.740]  We want you all to succeed.
+[29:22.740 --> 29:24.740]  That we're going to give you everything we can
+[29:24.740 --> 29:26.740]  to help you make your documents
+[29:26.740 --> 29:28.740]  as good as we possibly get.
+[29:28.740 --> 29:30.740]  But think of it as support.
+[29:30.740 --> 29:32.740]  If people are giving you feedback,
+[29:32.740 --> 29:34.740]  it's because they care, right?
+[29:34.740 --> 29:36.740]  Otherwise they wouldn't say anything.
+[29:36.740 --> 29:38.740]  And if you're really struggling,
+[29:38.740 --> 29:40.740]  share how you're feeling with people.
+[29:40.740 --> 29:42.740]  Like whether it's family, friends.
+[29:42.740 --> 29:44.740]  The last thing we want you to do
+[29:44.740 --> 29:46.740]  is feel like you're going through this by yourself.
+[29:46.740 --> 29:48.740]  That's why we very deliberately
+[29:48.740 --> 29:50.740]  have peer mentors here
+[29:50.740 --> 29:52.740]  for 14 hours a week.
+[29:52.740 --> 29:54.740]  And
+[29:54.740 --> 29:56.740]  Karissa has her office hours
+[29:56.740 --> 29:58.740]  for two hours a week.
+[29:58.740 --> 30:00.740]  So there's people here.
+[30:00.740 --> 30:02.740]  Because it's hard.
+[30:02.740 --> 30:04.740]  So go talk to somebody if you're feeling like you're having trouble.
+[30:04.740 --> 30:06.740]  And that way, ideally,
+[30:06.740 --> 30:08.740]  you have imposter moments.
+[30:08.740 --> 30:10.740]  But don't feel like you have an imposter life.
+[30:10.740 --> 30:12.740]  So what we're going to do now
+[30:12.740 --> 30:14.740]  is think about, okay, look at all these things
+[30:14.740 --> 30:16.740]  in a job description.
+[30:16.740 --> 30:18.740]  Remember, you don't have to be all that.
+[30:18.740 --> 30:20.740]  I think students will often count
+[30:20.740 --> 30:22.740]  themselves out of jobs.
+[30:22.740 --> 30:24.740]  And think, well I'm not good enough for that. I don't have all these things.
+[30:24.740 --> 30:26.740]  But the secret here
+[30:26.740 --> 30:28.740]  is remembering you don't have to be.
+[30:28.740 --> 30:30.740]  You're just going to think about what in here
+[30:30.740 --> 30:32.740]  can you do?
+[30:32.740 --> 30:34.740]  And you're going to show that you're capable.
+[30:34.740 --> 30:36.740]  So when we're looking at job descriptions,
+[30:36.740 --> 30:38.740]  we start picking out
+[30:38.740 --> 30:40.740]  hard and soft skills.
+[30:40.740 --> 30:42.740]  So what are the skills they need you to do
+[30:42.740 --> 30:44.740]  to do this job well?
+[30:44.740 --> 30:46.740]  Soft skills are part
+[30:46.740 --> 30:48.740]  of your job performance
+[30:48.740 --> 30:50.740]  skill set. So how would you
+[30:50.740 --> 30:52.740]  work in employment?
+[30:52.740 --> 30:54.740]  Things like your work ethic and your teamwork
+[30:54.740 --> 30:56.740]  and your problem solving.
+[30:56.740 --> 30:58.740]  So these are tricky
+[30:58.740 --> 31:00.740]  because you need some context
+[31:00.740 --> 31:02.740]  to prove. When we did the
+[31:02.740 --> 31:04.740]  intro statement, I told you
+[31:04.740 --> 31:06.740]  think of something that you're good at,
+[31:06.740 --> 31:08.740]  but try to tell the story.
+[31:08.740 --> 31:10.740]  Soft skills need a story.
+[31:10.740 --> 31:12.740]  Because you can say in a resume and cover letter
+[31:12.740 --> 31:14.740]  that I've got problem solving, I'm
+[31:14.740 --> 31:16.740]  organized, you can say that stuff all day.
+[31:16.740 --> 31:18.740]  But for someone to believe you,
+[31:18.740 --> 31:20.740]  they need context. They need to hear, well how
+[31:20.740 --> 31:22.740]  are you organized? Can you explain that to me?
+[31:22.740 --> 31:24.740]  So an example could be a demonstrated
+[31:24.740 --> 31:26.740]  leadership as part of the
+[31:26.740 --> 31:28.740]  Biochem Students Club. We invited,
+[31:28.740 --> 31:30.740]  we involved the executive in our
+[31:30.740 --> 31:32.740]  outcomes and presented the findings
+[31:32.740 --> 31:34.740]  to the President of the Student Club. So that's how
+[31:34.740 --> 31:36.740]  I led. These are the actions that I
+[31:36.740 --> 31:38.740]  took. Hard skills
+[31:38.740 --> 31:40.740]  are probably the most
+[31:40.740 --> 31:42.740]  important for more technical
+[31:42.740 --> 31:44.740]  roles. So if you're applying
+[31:44.740 --> 31:46.740]  to a marketing job, talking
+[31:46.740 --> 31:48.740]  about your technical marketing skills,
+[31:48.740 --> 31:50.740]  whether it's SEO or working
+[31:50.740 --> 31:52.740]  with customer databases
+[31:52.740 --> 31:54.740]  or working with graphic design
+[31:54.740 --> 31:56.740]  software or working with social media,
+[31:56.740 --> 31:58.740]  those hard skills are important
+[31:58.740 --> 32:00.740]  to try to dig into and share
+[32:00.740 --> 32:02.740]  what you're capable of and what you've done.
+[32:02.740 --> 32:04.740]  These are normally easier to
+[32:04.740 --> 32:06.740]  prove because if you've really done
+[32:06.740 --> 32:08.740]  these things, it's a matter of
+[32:08.740 --> 32:10.740]  explaining what that was.
+[32:10.740 --> 32:12.740]  How did you use that hard skill in
+[32:12.740 --> 32:14.740]  practice? So if it was Excel,
+[32:14.740 --> 32:16.740]  I analyzed financial statements
+[32:16.740 --> 32:18.740]  as the treasurer of our club and I used pivot
+[32:18.740 --> 32:20.740]  tables and VLOOKUPs, maybe
+[32:20.740 --> 32:22.740]  XLOOKUPs now. Excel is
+[32:22.740 --> 32:24.740]  graduating the more sophisticated ideas
+[32:24.740 --> 32:26.740]  to generate your end reports. So that would be
+[32:26.740 --> 32:28.740]  an example of a hard skill statement.
+[32:28.740 --> 32:30.740]  The reason this is
+[32:30.740 --> 32:32.740]  so important is because a lot
+[32:32.740 --> 32:34.740]  of medium to large sized firms
+[32:34.740 --> 32:36.740]  where they accept hundreds of applications
+[32:36.740 --> 32:38.740]  for certain jobs
+[32:38.740 --> 32:40.740]  will normally have you submit their
+[32:40.740 --> 32:42.740]  application and it goes through
+[32:42.740 --> 32:44.740]  a software that will pick out the
+[32:44.740 --> 32:46.740]  hard and soft skills that the employer
+[32:46.740 --> 32:48.740]  was looking for. And this is normally
+[32:48.740 --> 32:50.740]  what it looks like from the back end.
+[32:50.740 --> 32:52.740]  So let's say this was a more technical coding
+[32:52.740 --> 32:54.740]  role. JavaScript gets you three points
+[32:54.740 --> 32:56.740]  if it's mentioned on your resume.
+[32:56.740 --> 32:58.740]  Frameworks gets you points
+[32:58.740 --> 33:00.740]  on the job description.
+[33:00.740 --> 33:02.740]  Cloud, testing.
+[33:02.740 --> 33:04.740]  So they'll set parameters
+[33:04.740 --> 33:06.740]  for keywords to basically
+[33:06.740 --> 33:08.740]  make their scan go quicker.
+[33:08.740 --> 33:10.740]  We only want the resumes
+[33:10.740 --> 33:12.740]  and cover letters where they touch on the words
+[33:12.740 --> 33:14.740]  that we want. If they don't touch on
+[33:14.740 --> 33:16.740]  those words, normally you go to the
+[33:16.740 --> 33:18.740]  outpot unless you've got a good recruiter
+[33:18.740 --> 33:20.740]  who takes the time to inspect anyways.
+[33:22.740 --> 33:24.740]  So it's important to start getting to know these industries.
+[33:24.740 --> 33:26.740]  Every type of job
+[33:26.740 --> 33:28.740]  you apply to
+[33:28.740 --> 33:30.740]  will have different ATS needs.
+[33:30.740 --> 33:32.740]  What you use on
+[33:32.740 --> 33:34.740]  the job is not universal.
+[33:34.740 --> 33:36.740]  And so a really important
+[33:36.740 --> 33:38.740]  starting point when you
+[33:38.740 --> 33:40.740]  build a resume and cover letter
+[33:40.740 --> 33:42.740]  is you're not going to submit the resume
+[33:42.740 --> 33:44.740]  that you use to apply at co-op.
+[33:44.740 --> 33:46.740]  Because you weren't applying for a job
+[33:46.740 --> 33:48.740]  there. You were just telling us,
+[33:48.740 --> 33:50.740]  blah, here's everything about me.
+[33:50.740 --> 33:52.740]  When you're applying for a job
+[33:52.740 --> 33:54.740]  the trick is that the words from the job
+[33:54.740 --> 33:56.740]  description need to be what you're
+[33:56.740 --> 33:58.740]  focusing on. How have you
+[33:58.740 --> 34:00.740]  looked at pricing before?
+[34:00.740 --> 34:02.740]  How have you worked with Excel before?
+[34:02.740 --> 34:04.740]  Have you done work with annuities?
+[34:04.740 --> 34:06.740]  Any modeling?
+[34:06.740 --> 34:08.740]  So you're going to get a little bit
+[34:08.740 --> 34:10.740]  more strategic. It's not just
+[34:10.740 --> 34:12.740]  me. It's what have I done that
+[34:12.740 --> 34:14.740]  shows this. And it's
+[34:14.740 --> 34:16.740]  also important to know that even jobs
+[34:16.740 --> 34:18.740]  that look similar have nuance.
+[34:18.740 --> 34:20.740]  So when you look at financial
+[34:20.740 --> 34:22.740]  analyst and business analyst roles, a lot of
+[34:22.740 --> 34:24.740]  students will say, well, I mean same thing, right?
+[34:24.740 --> 34:26.740]  Basically you're doing the same thing. Well, I
+[34:26.740 --> 34:28.740]  mean, yeah, to an extent.
+[34:28.740 --> 34:30.740]  But you want to know the one thing that's
+[34:30.740 --> 34:32.740]  missing from financial analyst
+[34:32.740 --> 34:34.740]  that is in business analyst?
+[34:34.740 --> 34:36.740]  It's on the bottom
+[34:36.740 --> 34:38.740]  left.
+[34:38.740 --> 34:40.740]  See in business analyst
+[34:40.740 --> 34:42.740]  we've got problem solving down
+[34:42.740 --> 34:44.740]  here. And we've got
+[34:44.740 --> 34:46.740]  client versus client in
+[34:46.740 --> 34:48.740]  here. I definitely saw client in business
+[34:48.740 --> 34:50.740]  analyst.
+[34:50.740 --> 34:52.740]  Stakeholders,
+[34:52.740 --> 34:54.740]  customers,
+[34:56.740 --> 34:58.740]  priorities team.
+[34:58.740 --> 35:00.740]  A big difference for me between
+[35:00.740 --> 35:02.740]  business analyst and financial analyst
+[35:02.740 --> 35:04.740]  are who you're doing the
+[35:04.740 --> 35:06.740]  work for. In business
+[35:06.740 --> 35:08.740]  analyst roles,
+[35:08.740 --> 35:10.740]  you're trying to find optimizations.
+[35:10.740 --> 35:12.740]  You're trying to solve problems.
+[35:12.740 --> 35:14.740]  We're not being efficient enough with our money.
+[35:14.740 --> 35:16.740]  So how do we fix that?
+[35:16.740 --> 35:18.740]  In financial analyst roles,
+[35:18.740 --> 35:20.740]  you're not necessarily solving a
+[35:20.740 --> 35:22.740]  problem. You're bringing
+[35:22.740 --> 35:24.740]  together all the financial information from
+[35:24.740 --> 35:26.740]  the company and building
+[35:26.740 --> 35:28.740]  reports out of those. And
+[35:28.740 --> 35:30.740]  letting managers and
+[35:30.740 --> 35:32.740]  C-levels know, here's where we are
+[35:32.740 --> 35:34.740]  in our financial standing. That's not
+[35:34.740 --> 35:36.740]  really solving a problem.
+[35:36.740 --> 35:38.740]  So it's important
+[35:38.740 --> 35:40.740]  to think about, like, who are you doing this
+[35:40.740 --> 35:42.740]  for? Is it a client?
+[35:42.740 --> 35:44.740]  Or is it for your company? That will impact
+[35:44.740 --> 35:46.740]  more. Are you going to dig into client service
+[35:46.740 --> 35:48.740]  skills? Or are you going to dig into
+[35:48.740 --> 35:50.740]  your problem solving skills?
+[35:52.740 --> 35:54.740]  So whatever you end up picking,
+[35:54.740 --> 35:56.740]  it's important to start thinking about,
+[35:56.740 --> 35:58.740]  okay, what have I done in the past that
+[35:58.740 --> 36:00.740]  relates? So if we're going for investing
+[36:00.740 --> 36:02.740]  roles, we're going to be doing
+[36:02.740 --> 36:04.740]  markets, analysis,
+[36:04.740 --> 36:06.740]  we're working with clients,
+[36:06.740 --> 36:08.740]  we're working with Excel,
+[36:08.740 --> 36:10.740]  people who
+[36:10.740 --> 36:12.740]  have high levels of achievement,
+[36:12.740 --> 36:14.740]  and now you're thinking about, okay, so
+[36:14.740 --> 36:16.740]  what are the things I've done? What am I
+[36:16.740 --> 36:18.740]  going to promote about myself?
+[36:18.740 --> 36:20.740]  So we're going to spend the last
+[36:20.740 --> 36:22.740]  few minutes of our session today
+[36:22.740 --> 36:24.740]  trying this out.
+[36:24.740 --> 36:26.740]  So a common role that people have
+[36:26.740 --> 36:28.740]  in high school, kind of like my subway stuff,
+[36:28.740 --> 36:30.740]  a lot of people work in restaurants,
+[36:30.740 --> 36:32.740]  in server roles, hostess roles,
+[36:32.740 --> 36:34.740]  coach roles, bussers.
+[36:34.740 --> 36:36.740]  What we want to avoid is just
+[36:36.740 --> 36:38.740]  saying literally what you do.
+[36:38.740 --> 36:40.740]  Because normally, if you're going into a
+[36:40.740 --> 36:42.740]  workplace or co-op,
+[36:42.740 --> 36:44.740]  you're not going to be welcoming guests
+[36:44.740 --> 36:46.740]  and taking them to tables. Like this is just not
+[36:46.740 --> 36:48.740]  branded for where you're going.
+[36:50.740 --> 36:52.740]  So all that has is tasks
+[36:52.740 --> 36:54.740]  and some actions. What we
+[36:54.740 --> 36:56.740]  want to focus on is what were the
+[36:56.740 --> 36:58.740]  skills you gained from being a server.
+[36:58.740 --> 37:00.740]  And you explain it.
+[37:02.740 --> 37:04.740]  So let's start with communication.
+[37:04.740 --> 37:06.740]  Probably an easy one for serving roles.
+[37:06.740 --> 37:08.740]  As everyone can picture, as a server,
+[37:08.740 --> 37:10.740]  you're probably speaking to people.
+[37:10.740 --> 37:12.740]  But we need to describe that.
+[37:12.740 --> 37:14.740]  It's not just taking
+[37:14.740 --> 37:16.740]  people to tables and communicating
+[37:16.740 --> 37:18.740]  to them. What are you communicating?
+[37:18.740 --> 37:20.740]  How are you communicating?
+[37:20.740 --> 37:22.740]  So maybe you had a restaurant
+[37:22.740 --> 37:24.740]  that did daily specials.
+[37:24.740 --> 37:26.740]  So you have to memorize those every day.
+[37:26.740 --> 37:28.740]  The chef might have really exact
+[37:28.740 --> 37:30.740]  expectations of you about
+[37:30.740 --> 37:32.740]  you can describe all these different things.
+[37:32.740 --> 37:34.740]  These ingredients are from
+[37:34.740 --> 37:36.740]  this property that's close to here.
+[37:36.740 --> 37:38.740]  I want you to tell them that when you're
+[37:38.740 --> 37:40.740]  describing this.
+[37:40.740 --> 37:42.740]  And I answer questions about dietary
+[37:42.740 --> 37:44.740]  restrictions,
+[37:44.740 --> 37:46.740]  ingredient sourcing.
+[37:46.740 --> 37:48.740]  So that's how I was a good presenter.
+[37:48.740 --> 37:50.740]  We need the story
+[37:50.740 --> 37:52.740]  part. Problem solving.
+[37:52.740 --> 37:54.740]  Maybe you had customer complaints
+[37:54.740 --> 37:56.740]  about food quality. You had to
+[37:56.740 --> 37:58.740]  issue corrections. You had to
+[37:58.740 --> 38:00.740]  negotiate with your management
+[38:00.740 --> 38:02.740]  about whether you might be able to call
+[38:02.740 --> 38:04.740]  a meal for them. But this
+[38:04.740 --> 38:06.740]  all has to do with problem solving.
+[38:06.740 --> 38:08.740]  How did you go about resolving the
+[38:08.740 --> 38:10.740]  issue? It's not just that there was a
+[38:10.740 --> 38:12.740]  problem you solved. It's how.
+[38:12.740 --> 38:14.740]  And then working under pressure.
+[38:14.740 --> 38:16.740]  It's multiple priorities
+[38:16.740 --> 38:18.740]  as a server.
+[38:18.740 --> 38:20.740]  You're relating yourself to the customer
+[38:20.740 --> 38:22.740]  first. They need your attention.
+[38:22.740 --> 38:24.740]  But you've got multiple tables.
+[38:24.740 --> 38:26.740]  You've got the kitchen who expects
+[38:26.740 --> 38:28.740]  that when something is made, it
+[38:28.740 --> 38:30.740]  gets served hot and it gets
+[38:30.740 --> 38:32.740]  expedited and sent out.
+[38:32.740 --> 38:34.740]  You've got your managers.
+[38:34.740 --> 38:36.740]  You've got other staff that work different
+[38:36.740 --> 38:38.740]  stations in the restaurant.
+[38:38.740 --> 38:40.740]  So there's a lot of pressure here.
+[38:40.740 --> 38:42.740]  But as a reader, we'll only
+[38:42.740 --> 38:44.740]  understand that pressure if you tell us about
+[38:44.740 --> 38:46.740]  it and dig in a little bit.
+[38:46.740 --> 38:48.740]  So get into the how.
+[38:48.740 --> 38:50.740]  That's the important part.
+[38:50.740 --> 38:52.740]  Some more
+[38:52.740 --> 38:54.740]  technical skills.
+[38:54.740 --> 38:56.740]  Let's use
+[38:56.740 --> 38:58.740]  case competitions now. I would say
+[38:58.740 --> 39:00.740]  that if you don't have a lot of
+[39:00.740 --> 39:02.740]  professional work yet, you haven't worked
+[39:02.740 --> 39:04.740]  in a business-y type role, which by the way
+[39:04.740 --> 39:06.740]  is most of us, we're
+[39:06.740 --> 39:08.740]  going to need to lean on something else.
+[39:08.740 --> 39:10.740]  Whether it's cases, projects
+[39:10.740 --> 39:12.740]  from class, that's normally where you use
+[39:12.740 --> 39:14.740]  these concepts.
+[39:14.740 --> 39:16.740]  You can talk about forecasting.
+[39:16.740 --> 39:18.740]  Because I used financial statements and sales
+[39:18.740 --> 39:20.740]  projections from the last three years
+[39:20.740 --> 39:22.740]  to estimate revenue. I did it in this
+[39:22.740 --> 39:24.740]  software. That's really good.
+[39:24.740 --> 39:26.740]  I did market research on consumer data.
+[39:26.740 --> 39:28.740]  They're spending habits. I conducted
+[39:28.740 --> 39:30.740]  surveys, semi-structured,
+[39:30.740 --> 39:32.740]  took that data, found the insights,
+[39:32.740 --> 39:34.740]  and did this with it.
+[39:34.740 --> 39:36.740]  Data analysis. You can focus
+[39:36.740 --> 39:38.740]  on the data piece. So can
+[39:38.740 --> 39:40.740]  you see that for a case competition,
+[39:40.740 --> 39:42.740]  there's a ton that you can lean on,
+[39:42.740 --> 39:44.740]  but the students who aren't
+[39:44.740 --> 39:46.740]  thinking deep enough about branding
+[39:46.740 --> 39:48.740]  will say that.
+[39:48.740 --> 39:50.740]  They're going to say, I worked as
+[39:50.740 --> 39:52.740]  a group, we had a problem, we
+[39:52.740 --> 39:54.740]  worked towards a solution, and then we presented it.
+[39:54.740 --> 39:56.740]  That's a case competition.
+[39:56.740 --> 39:58.740]  But that's not what you did.
+[39:58.740 --> 40:00.740]  So we're missing the branding.
+[40:06.740 --> 40:08.740]  I want to look at some marketing skills.
+[40:08.740 --> 40:10.740]  In marketing, some soft
+[40:10.740 --> 40:12.740]  skills might be your creativity.
+[40:12.740 --> 40:14.740]  It might be that you're working in collaborative settings.
+[40:14.740 --> 40:16.740]  A lot of times in marketing, you're going to hear
+[40:16.740 --> 40:18.740]  that you're a cog, somewhere in the middle,
+[40:18.740 --> 40:20.740]  that reports to finance.
+[40:20.740 --> 40:22.740]  It reports to sales.
+[40:22.740 --> 40:24.740]  You're kind of the middle person taking all
+[40:24.740 --> 40:26.740]  their needs and going and getting about there.
+[40:26.740 --> 40:28.740]  For technical skills,
+[40:28.740 --> 40:30.740]  social media platforms you've used,
+[40:30.740 --> 40:32.740]  web analytics, CRM systems,
+[40:32.740 --> 40:34.740]  you've done market research.
+[40:34.740 --> 40:36.740]  So that might be one flavor
+[40:36.740 --> 40:38.740]  of resume.
+[40:38.740 --> 40:40.740]  But let's look at finance and investing.
+[40:40.740 --> 40:42.740]  This is completely different concepts.
+[40:42.740 --> 40:44.740]  This is more problem solving.
+[40:44.740 --> 40:46.740]  If you're going for investing, these are competitive.
+[40:46.740 --> 40:48.740]  Your expectations
+[40:48.740 --> 40:50.740]  are going to be very, very high.
+[40:50.740 --> 40:52.740]  So people who've done level 10
+[40:52.740 --> 40:54.740]  Royal Conservatory piano,
+[40:54.740 --> 40:56.740]  that's a great thing to market.
+[40:56.740 --> 40:58.740]  I have done something basically
+[40:58.740 --> 41:00.740]  to the top level of capacity
+[41:00.740 --> 41:02.740]  that you can get to.
+[41:02.740 --> 41:04.740]  Varsity athletes,
+[41:04.740 --> 41:06.740]  there's so much we can talk about that's competitive.
+[41:06.740 --> 41:08.740]  And then hard skills,
+[41:08.740 --> 41:10.740]  forecasting, budgeting, using Excel.
+[41:12.740 --> 41:14.740]  So I hope that now we've talked about branding,
+[41:14.740 --> 41:16.740]  I would say sufficiently.
+[41:16.740 --> 41:18.740]  We can see that writing resumes
+[41:18.740 --> 41:20.740]  you might be able to get away with one base for an industry,
+[41:20.740 --> 41:22.740]  but the moment you start going to a different job type
+[41:22.740 --> 41:24.740]  and you're not changing your content,
+[41:24.740 --> 41:26.740]  you will be missing the mark with your branding.
+[41:26.740 --> 41:28.740]  You are not going to talk about the things the employer wants to hear about.
+[41:28.740 --> 41:30.740]  Alright, so what we're going to do is a little activity on Metameter, I hope.
+[41:30.740 --> 41:32.740]  Because this will be really interesting to do without your phone.
+[41:32.740 --> 41:34.740]  So if you want to get your phone out,
+[41:34.740 --> 41:36.740]  I'm going to talk about how you do that.
+[41:36.740 --> 41:38.740]  What I want us to do is
+[41:38.740 --> 41:40.740]  we're going to talk about how you do that.
+[41:40.740 --> 41:42.740]  So let's talk about how you do that.
+[41:42.740 --> 41:44.740]  So let's talk about how you do that.
+[41:44.740 --> 41:46.740]  So let's talk about how you do that.
+[41:46.740 --> 41:48.740]  What I want us to do
+[41:48.740 --> 41:50.740]  is on the first step of the exercise
+[41:50.740 --> 41:52.740]  you're just going to say
+[41:52.740 --> 41:54.740]  what type of job are you interested in?
+[41:54.740 --> 41:56.740]  Just a job title.
+[41:56.740 --> 41:58.740]  The next line, I'm going to get you to
+[41:58.740 --> 42:00.740]  put some skills.
+[42:00.740 --> 42:02.740]  What do you think are some key skills for that type of work?
+[42:02.740 --> 42:04.740]  The next one,
+[42:04.740 --> 42:06.740]  I want you to pick an experience
+[42:06.740 --> 42:08.740]  that you have.
+[42:08.740 --> 42:10.740]  Something you've done in the past, anything.
+[42:10.740 --> 42:12.740]  That you think is going to relate to those skills.
+[42:12.740 --> 42:14.740]  And then the last part
+[42:14.740 --> 42:16.740]  is the important one.
+[42:16.740 --> 42:18.740]  You're going to write a quick
+[42:18.740 --> 42:20.740]  one line story about
+[42:20.740 --> 42:22.740]  how did you gain that skill
+[42:22.740 --> 42:24.740]  in that experience?
+[42:26.740 --> 42:28.740]  So there's your QR code.
+[42:28.740 --> 42:30.740]  Here give me a big thumbs up
+[42:30.740 --> 42:32.740]  because I'm optimistic.
+[42:32.740 --> 42:34.740]  But I'm going to open that up
+[42:34.740 --> 42:36.740]  and activate.
+[42:36.740 --> 42:38.740]  There's also, sorry,
+[42:38.740 --> 42:40.740]  I went too fast on the code.
+[42:40.740 --> 42:42.740]  You can join at Menki.com
+[42:42.740 --> 42:44.740]  and there's a code there.
+[42:44.740 --> 42:46.740]  Yay!
+[42:46.740 --> 42:48.740]  Alright, so we've got someone on the counter.
+[42:48.740 --> 42:50.740]  The more results we get in here
+[42:50.740 --> 42:52.740]  the larger some of the words
+[42:52.740 --> 42:54.740]  you're going to get.
+[42:54.740 --> 42:56.740]  We'll see if there's like popularity
+[42:56.740 --> 42:58.740]  of some roles that are more popular than others.
+[42:58.740 --> 43:00.740]  So let's see.
+[43:00.740 --> 43:02.740]  So let's see.
+[43:02.740 --> 43:04.740]  So let's see.
+[43:04.740 --> 43:08.740]  I'm counting that.
+[43:08.740 --> 43:10.740]  That was pretty funny.
+[43:10.740 --> 43:14.740]  Okay, I'm going to give you about 10 more seconds.
+[43:14.740 --> 43:16.740]  That's software, good.
+[43:18.740 --> 43:20.740]  That's it.
+[43:20.740 --> 43:22.740]  Insurance, good.
+[43:24.740 --> 43:26.740]  Good.
+[43:26.740 --> 43:28.740]  Alright, so that's looking pretty good.
+[43:28.740 --> 43:30.740]  We've got a pretty good range, which is always nice to see.
+[43:30.740 --> 43:32.740]  Not everyone in your room
+[43:32.740 --> 43:34.740]  is going to be competing directly with you,
+[43:34.740 --> 43:36.740]  which is always good to know.
+[43:36.740 --> 43:38.740]  Okay.
+[43:38.740 --> 43:40.740]  When you think about that job,
+[43:40.740 --> 43:42.740]  what skill does that require from you?
+[43:42.740 --> 43:44.740]  What is the key skill
+[43:44.740 --> 43:46.740]  that you need to be able to do
+[43:46.740 --> 43:48.740]  to do the job that you just listed?
+[43:48.740 --> 43:50.740]  So we might have some soft skills,
+[43:50.740 --> 43:52.740]  we might have some hard skills.
+[43:54.740 --> 43:56.740]  Modeling that light, yep.
+[43:56.740 --> 43:58.740]  I feel like that might be
+[43:58.740 --> 44:00.740]  aligning with our investing code.
+[44:02.740 --> 44:04.740]  Our private equity books, yeah.
+[44:04.740 --> 44:06.740]  Communications, good.
+[44:06.740 --> 44:10.740]  We have programming, Java, and Coda, yep.
+[44:12.740 --> 44:14.740]  Is it letting you submit multiple?
+[44:14.740 --> 44:16.740]  That's good. If you've got multiple, go for it.
+[44:24.740 --> 44:26.740]  Alright.
+[44:26.740 --> 44:28.740]  So one thing I want to point out here,
+[44:28.740 --> 44:30.740]  really I was expecting
+[44:30.740 --> 44:32.740]  communication and problem solving might be popular.
+[44:32.740 --> 44:34.740]  They are go-tos.
+[44:34.740 --> 44:36.740]  Important to remember,
+[44:36.740 --> 44:38.740]  if a lot of people are going to talk about
+[44:38.740 --> 44:40.740]  problem solving and communication,
+[44:40.740 --> 44:42.740]  think about the onus that is now on you
+[44:42.740 --> 44:46.740]  to make sure that your example stands out.
+[44:46.740 --> 44:48.740]  We're not going to take
+[44:48.740 --> 44:50.740]  one of those relatively normal
+[44:50.740 --> 44:52.740]  soft skills and give a relatively normal example.
+[44:52.740 --> 44:54.740]  We want to try to stand out there if we can.
+[44:54.740 --> 44:56.740]  Alright, looking really good.
+[44:56.740 --> 44:58.740]  What's a past experience where you've done those skills?
+[44:58.740 --> 45:00.740]  So the ones that you just mentioned?
+[45:02.740 --> 45:04.740]  What have you done in your past?
+[45:04.740 --> 45:06.740]  Whether it's something academic related,
+[45:06.740 --> 45:08.740]  extracurricular related,
+[45:08.740 --> 45:10.740]  work experience related,
+[45:10.740 --> 45:12.740]  where have you done that?
+[45:14.740 --> 45:16.740]  Good, I like how specific we're getting too.
+[45:16.740 --> 45:18.740]  RC sports and pitches, yep.
+[45:22.740 --> 45:24.740]  So, what's the next thing you want to do?
+[45:24.740 --> 45:32.740]  Yeah, some personal projects.
+[45:36.740 --> 45:38.740]  Yeah, from internships and co-ops maybe in high school, good.
+[45:40.740 --> 45:42.740]  Camp counselors, yes.
+[45:42.740 --> 45:44.740]  We can get so deep into what camp counselors do
+[45:44.740 --> 45:46.740]  and how that prepares you for workplaces.
+[45:46.740 --> 45:48.740]  I love that.
+[45:48.740 --> 45:50.740]  Okay.
+[45:50.740 --> 45:52.740]  So on the last slide,
+[45:52.740 --> 45:54.740]  what we're going to do is we're going to take that past experience,
+[45:56.740 --> 45:58.740]  we're going to take the skill that you associated with it,
+[46:00.740 --> 46:02.740]  and I want you to explain
+[46:02.740 --> 46:04.740]  how did you in that experience
+[46:04.740 --> 46:06.740]  show that skill?
+[46:06.740 --> 46:08.740]  This is probably going to be a full sentence.
+[46:08.740 --> 46:10.740]  But describe it for me.
+[46:12.740 --> 46:14.740]  So I need to use data analysis
+[46:16.740 --> 46:18.740]  because I accurately enter data, analyze revenue projections,
+[46:18.740 --> 46:20.740]  and use conditional formatting in Excel.
+[46:20.740 --> 46:22.740]  And maybe that was for a case
+[46:22.740 --> 46:24.740]  or a pitch competition.
+[46:24.740 --> 46:26.740]  Like we have a lot of slots, that's perfect.
+[46:26.740 --> 46:28.740]  So how would you relate
+[46:28.740 --> 46:30.740]  your skill and role like this?
+[46:30.740 --> 46:32.740]  See if you can write one sentence for me.
+[46:40.740 --> 46:42.740]  We have no way of seeing who did what, by the way.
+[46:42.740 --> 46:44.740]  So this couldn't be more low-stake.
+[46:44.740 --> 46:46.740]  So we're going to take that.
+[46:46.740 --> 46:48.740]  So this couldn't be more low-stakes.
+[46:48.740 --> 46:50.740]  Even if it's not great,
+[46:50.740 --> 46:52.740]  that's good, we can work on it together right now.
+[46:52.740 --> 46:54.740]  Develop the UIUX
+[46:54.740 --> 46:56.740]  website for clients
+[46:56.740 --> 46:58.740]  to showcase the portfolio.
+[46:58.740 --> 47:00.740]  I love that.
+[47:00.740 --> 47:02.740]  I had a retail job, I targeted demographics
+[47:02.740 --> 47:04.740]  to market advertisers accordingly.
+[47:04.740 --> 47:06.740]  That's really good. Next level would even be
+[47:06.740 --> 47:08.740]  which demographics?
+[47:08.740 --> 47:10.740]  How did you target them?
+[47:10.740 --> 47:12.740]  That's fantastic.
+[47:12.740 --> 47:14.740]  Communicate with clients about the company's product.
+[47:14.740 --> 47:16.740]  So again, what was the product?
+[47:16.740 --> 47:18.740]  Guiding through the pipeline, that's really nice.
+[47:18.740 --> 47:20.740]  Who liked the school?
+[47:22.740 --> 47:24.740]  Develop programming skills, internet of school products.
+[47:24.740 --> 47:26.740]  Yeah, so for that one, good.
+[47:26.740 --> 47:28.740]  I would even go deeper.
+[47:28.740 --> 47:30.740]  So what was the course? What was the project?
+[47:30.740 --> 47:32.740]  What was the use case?
+[47:32.740 --> 47:34.740]  Some interesting details we can get into.
+[47:34.740 --> 47:36.740]  Review small business financial statements.
+[47:36.740 --> 47:38.740]  Assess their health.
+[47:38.740 --> 47:40.740]  Areas of growth and expansion, yeah.
+[47:40.740 --> 47:42.740]  And what was the recommendation?
+[47:42.740 --> 47:44.740]  What was the goal?
+[47:44.740 --> 47:46.740]  We got our first data point, right?
+[47:46.740 --> 47:48.740]  Getting into the data, proof, context.
+[47:48.740 --> 47:50.740]  That looks really good.
+[47:50.740 --> 47:52.740]  Alright.
+[47:52.740 --> 47:54.740]  I appreciate you sharing these.
+[47:54.740 --> 47:56.740]  I'm going to wrap up this activity.
+[47:56.740 --> 47:58.740]  But when we say personal branding,
+[47:58.740 --> 48:00.740]  you need to brand yourself.
+[48:00.740 --> 48:02.740]  Think back to this activity. It's this.
+[48:02.740 --> 48:04.740]  It's what have you done before
+[48:04.740 --> 48:06.740]  and what skills are you using
+[48:06.740 --> 48:08.740]  on your job target.
+[48:08.740 --> 48:10.740]  They need to go together.
+[48:12.740 --> 48:14.740]  Alright.
+[48:20.740 --> 48:22.740]  Whoa, how much did you get?
+[48:24.740 --> 48:26.740]  Yeah, how is it?
+[48:26.740 --> 48:28.740]  Higher?
+[48:28.740 --> 48:30.740]  Higher.
+[48:30.740 --> 48:32.740]  Oh, I see. Thanks.
+[48:32.740 --> 48:34.740]  Alright.
+[48:34.740 --> 48:36.740]  So we've done this activity. We've done Mentimeter.
+[48:36.740 --> 48:38.740]  What we're going to get ready for
+[48:38.740 --> 48:40.740]  is when we do resumes and cover letters,
+[48:40.740 --> 48:42.740]  we're going to give you sample job descriptions.
+[48:42.740 --> 48:44.740]  So you're going to take a real sample job.
+[48:44.740 --> 48:46.740]  Update your resume and cover letter
+[48:46.740 --> 48:48.740]  to target on that type of area.
+[48:48.740 --> 48:50.740]  We're also going to provide
+[48:50.740 --> 48:52.740]  these word clouds for you.
+[48:52.740 --> 48:54.740]  So if you want to see what types of words
+[48:54.740 --> 48:56.740]  are most commonly associated with job descriptions,
+[48:56.740 --> 48:58.740]  that's what the resource is for.
+[48:58.740 --> 49:00.740]  And keep thinking about your story in the meantime.
+[49:00.740 --> 49:02.740]  Hopefully this helps you to see
+[49:02.740 --> 49:04.740]  that everything here is important.
+[49:04.740 --> 49:06.740]  It's not just your work and your volunteer.
+[49:06.740 --> 49:08.740]  It's not just your education.
+[49:08.740 --> 49:10.740]  There's a lot that you could be doing.
+[49:10.740 --> 49:12.740]  Training, certifications, conferences.
+[49:12.740 --> 49:14.740]  So for upcoming events,
+[49:14.740 --> 49:16.740]  if you wanted to get a speaker series out of the way,
+[49:16.740 --> 49:18.740]  there's LinkedIn sessions this week.
+[49:18.740 --> 49:20.740]  The Advertising Project has a graphic design workshop this week.
+[49:20.740 --> 49:22.740]  So if you're in marketing, that might be a great fit.
+[49:22.740 --> 49:24.740]  And then there's a lot of employer events.
+[49:24.740 --> 49:26.740]  If you are interested in CPA,
+[49:26.740 --> 49:28.740]  know that they are changing
+[49:28.740 --> 49:30.740]  the process of getting your designation for CPA.
+[49:30.740 --> 49:32.740]  And they're going to be doing presentations this week
+[49:32.740 --> 49:34.740]  to start rolling out
+[49:34.740 --> 49:36.740]  what does that look like
+[49:36.740 --> 49:38.740]  and get you up to date information.
+[49:38.740 --> 49:40.740]  Okay?
+[49:40.740 --> 49:42.740]  Peer mentors also start after reading week.
+[49:42.740 --> 49:44.740]  So not this week, but next week.
+[49:44.740 --> 49:46.740]  Their office, by the way, is right across the hall.
+[49:46.740 --> 49:48.740]  So that's where you go for drop-ins.
+[49:48.740 --> 49:50.740]  For module two,
+[49:50.740 --> 49:52.740]  you're going to submit your intro statement,
+[49:52.740 --> 49:54.740]  talk a little bit about your personal brand,
+[49:54.740 --> 49:56.740]  and what you came up with for your
+[49:56.740 --> 49:58.740]  cognitive skills, that one sentence that we just did.
+[49:58.740 --> 50:00.740]  That's what you'll submit.
+[50:00.740 --> 50:02.740]  If you're doing Fast Track for CPA,
+[50:02.740 --> 50:04.740]  we're going to meet again this Thursday.
+[50:04.740 --> 50:06.740]  So you get three modules done before reading week.
+[50:06.740 --> 50:08.740]  If you're not doing CPA,
+[50:08.740 --> 50:10.740]  this is it until late October.
+[50:10.740 --> 50:12.740]  And we'll see you at module three then.
+[50:12.740 --> 50:14.740]  So if you want to stick around, you can.
+[50:14.740 --> 50:16.740]  Otherwise, have a great day.
+[50:16.740 --> 50:18.740]  Thanks for coming by.
+[50:18.740 --> 50:20.740]  We'll talk to you soon.
+--- Transcription Finished ---
+--- Generating Notes with Ollama ---
+--- Notes Generation Finished ---
+Job 36 finalized and removed from queue.
+Queue processor checking for a new job...
+Processing job 37: New Recording 73.m4a
+--- Starting Transcription for ../uploads\a46737ab-5bee-4184-ab3a-bdec1666bfe3.m4a ---
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:11.000]  I can't release them until all the intersections have all the school markers and we just need the Scantrons and so I'm still waiting to hear back or receive the Scantrons.
+[00:11.000 --> 00:15.000]  So bear with me. Hopefully you'll get them soon.
+[00:16.000 --> 00:36.000]  Other than that, I'm not going to have any announcements to make. Other than I'm going to complete group and teamwork and then I will go into motivation.
+[00:36.000 --> 00:41.000]  This weekend is going to be on motivation. You are required to read a case.
+[00:50.000 --> 00:58.000]  It's about motivation. It's the application piece. I mean there's no marks or anything but if we don't do it we cannot tell other people.
+[01:00.000 --> 01:04.000]  Will it help with the exam if we do do it?
+[01:04.000 --> 01:07.000]  No, it's just an application. It's fine.
+[01:08.000 --> 01:11.000]  But we can't tell others, right? Just keep it. Bury it.
+[01:14.000 --> 01:20.000]  I hope you can trust everyone. I'm having a hard time trusting the men back there.
+[01:21.000 --> 01:22.000]  My joke. My joke.
+[01:24.000 --> 01:30.000]  But we read it. It was a great case. Oh my god, the application, the motivation piece was so good.
+[01:30.000 --> 01:33.000]  It was so good. You took away so much.
+[01:36.000 --> 01:39.000]  So let's talk about this. Let's try and finish up group work.
+[01:40.000 --> 01:53.000]  So if you may recall, I kind of talked about between different kinds. So I talked about additive, I talked about disjunctive, and I talked about conjunctive tasks.
+[01:53.000 --> 02:02.000]  And I apologized. I didn't realize that as I was talking to us last week that the slide deck was not available. So why didn't you say anything?
+[02:03.000 --> 02:04.000]  It's okay.
+[02:05.000 --> 02:12.000]  It was only, who came to me? It was you, huh, right? That came to me and was like, who came to me and said, oh no, it was you?
+[02:13.000 --> 02:19.000]  I was like, why didn't you make it available? And I was like, what? I was talking without it being available and I'm supposed to...
+[02:20.000 --> 02:22.000]  Anyway, you had a question.
+[02:23.000 --> 02:26.000]  Oh, judging from the terms that you gave, how well did you do?
+[02:27.000 --> 02:32.000]  So far so good. I wouldn't say they were bad. I mean, yeah, so far so good.
+[02:33.000 --> 02:41.000]  Yeah, so just wait. Just wait. Bear with me. I'm only marked a few. I haven't finished all of it. So yeah, so far so good.
+[02:42.000 --> 02:52.000]  Okay. All right. So let's talk about this. So we kind of ended off there. So the question becomes, do bigger teams mean better performance?
+[02:53.000 --> 03:05.000]  And let's look at active and disruptive tasks. So theoretically, with these two types of tasks, larger teams should lead to better performance.
+[03:05.000 --> 03:15.000]  So remember with additive, the more contributors you have, the more output you have. So like each and every one contributes to something.
+[03:16.000 --> 03:25.000]  With destructive, the more people you have, the higher the chance it is for you to find that best performance.
+[03:26.000 --> 03:35.000]  But in reality, actual performance does not always lead to better performance.
+[03:36.000 --> 03:56.000]  Okay. Now what we see is basically that it could be an equation, which you don't kind of have to know, but it could be that potential performance is there, but then you have to take into consideration the process loss.
+[03:56.000 --> 04:10.000]  So what is process loss? And I'll talk about that over the next few slides. But it's basically the efficiencies and challenges that arise when you're working in groups, right? Especially larger ones.
+[04:11.000 --> 04:24.000]  And so there's two types of loss that you might see in a group process. The first is known as motivational loss, which I'll talk about in a few minutes. That's where social loafing comes in.
+[04:25.000 --> 04:35.000]  And then the other one is coordination loss. And that is basically where you're having difficulty organizing efforts and aligning actions.
+[04:36.000 --> 04:45.000]  Okay. So I want you to imagine the fact that there are 500 carpenters and they're trying to build one house.
+[04:46.000 --> 04:54.000]  Okay. So theoretically, that's quite productive, right? The larger the number, the better performance, right?
+[04:55.000 --> 05:05.000]  But realistically, if you think about it, 500 carpenters working on one house, that is chaos, right? Like that is a lot of people working on one house.
+[05:06.000 --> 05:23.000]  So why is it chaos? Well, there might be loss in terms of coordination, like who does what. There might be tool shortages. There might be role confusion. And all of this could actually lead to ineffectiveness, right?
+[05:24.000 --> 05:43.000]  So basically, larger groups can offer greater potential, but process losses, what they do is they increase with group size and efficiency on an individual level then declines, right?
+[05:43.000 --> 05:52.000]  So that's why you really need to have an optimal team size. Why? Because it balances diversity and skill.
+[05:53.000 --> 06:04.000]  Okay. So let's first talk about diversity. So diversity, it really refers to the extent to which team members, they differ from one another, right?
+[06:05.000 --> 06:13.000]  So there are two different theories related to diversity in groups. And so what are they?
+[06:13.000 --> 06:34.000]  There is, the first really has to do with the fact that diversity is valuable. Okay? So the value and diversity problem solving approach, that basically has to do with the idea that diversity is valuable because different people have different approaches to solving problems, right?
+[06:35.000 --> 06:48.000]  And the second one is diversity is detrimental because people are more attracted to those who are like them than those who are not like them. Okay?
+[06:49.000 --> 07:10.000]  So you have to kind of consider both of these approaches. You have to consider both types of diversity as well as the length of the time that the team has known each other to understand and to understand the real impact of diversity.
+[07:10.000 --> 07:23.000]  Okay. Now, there are two things I want you to note. Okay? So I don't know, like put an asterisk beside this, the surface level diversity and the deep level diversity. Okay? Intense.
+[07:24.000 --> 07:47.000]  So what is surface level diversity? So this is diversity that is based on observable attributes. Okay? So things like age, you can know who is young, who is old, gender, female, male, race, right? Who's Caucasian, who's a visible minority.
+[07:48.000 --> 08:08.000]  So that surface level, what you see on the surface, okay? This kind of diversity can actually lead to problems initially. Okay? Why? Because people may have very difficult time communicating with one another. Right?
+[08:09.000 --> 08:26.000]  So they will have a difficult time communicating with one another or proceed to be different than them. However, this difficulty fades over time. Why? Because people gain experience working with one another. Okay?
+[08:27.000 --> 08:45.000]  So just think of it that way. So, you know, I put you into groups. You met your group mates for the first time last week. Right? And so even if you just looked at one another, you knew that there was surface level diversity. Right?
+[08:45.000 --> 09:05.000]  In terms of maybe what year of the program you're in, maybe what race you're in, or race you belong to or identify in, what sex you identify with. Right? So there were these observable attributes that were there. Okay?
+[09:05.000 --> 09:25.000]  So now when you work together, you will probably face some difficulties. Right? Because you have unique ways of handling things. However, with time, those difficulties will fade because you will start to understand one another. Okay?
+[09:25.000 --> 09:44.000]  Okay? Now, the other kind of diversity is known as deep diversity. So what is that? That is basically diversity on attributes that can be inferred with experience. It's more psychological. It's more cognitive. Okay?
+[09:44.000 --> 10:00.000]  So differences in terms of knowledge, in terms of skills, in terms of attitudes, values, personalities, these are all deep level diversity. Or deep diversity. Okay?
+[10:00.000 --> 10:15.000]  So it's things that are not observable, if that makes sense. Now, these will not cause problems initially. Right? But it can lead to problems over time. Okay?
+[10:15.000 --> 10:39.000]  So for example, if we have similar values and whatnot, that doesn't really mean that we will have issues. But later on, we might. There's a possibility that those values could conflict with one another. Right? The chances are pretty rare. If that makes sense. Does that make sense?
+[10:39.000 --> 11:06.000]  Okay. So remember that. Okay? So remember what's meant by surface level. Remember what's meant by deep diversity. Which one will lead to problems initially out of the two? Surface level. Okay? All right. Is diversity good or bad? Why? What do you think? Yes?
+[11:06.000 --> 11:23.000]  I think it's good because it gives a different point of view. Okay. So different perspectives are brought to the table. What else? Who else? What else? What can happen with different perspectives and stuff? Yes?
+[11:23.000 --> 11:40.000]  I feel like there's factors that depend. Like, what if the group size is too big with diversity is not that good of a thing? Because there's too many opinions? Okay. So too many opinions sometimes could be differing opinions that might come in the way. Right? Good. Yes?
+[11:40.000 --> 11:54.000]  I think group diversity might be good in the beginning. Like to get a good sense of creativity because everyone might have a different approach. But then maybe when you're trying to decide which group you want to take, it could be a bad thing. Yeah. Because you have different perspectives. Okay. Good. Yes?
+[11:54.000 --> 12:08.000]  I think it also depends on what kind of job it is. Like if this is like a factory, we're just working in a room. It doesn't really matter. Yeah. Diversity. It's not. Like it might matter for like a business setting. It could expand into different areas. Sure. Sure. Fair enough. Anyone else? Someone else have their hand up?
+[12:08.000 --> 12:28.000]  Oh, sorry. Yes? I think you don't need diversity for simple tasks. It becomes really just like annoying and not efficient when you're just like trying to be diverse with the simple stuff. Okay. Okay. So, Simp, the less complex it is, the better it is to just kind of work on your own. Okay. Good. Anyone else? Yeah?
+[12:28.000 --> 12:48.000]  Okay. Good. Okay. So, conflicts and misunderstandings can come. Right? Okay. So, diversity is good or bad? Well, there are pros and cons to it. Right? So, if we were to make the case for the pros for diversity, what we would say is that yes, you're welcome to be diverse.
+[12:48.000 --> 13:08.000]  It would bring in more ideas, more perspectives. Right? And because of that, we might see creativity. We might see innovation. We might even see like enhanced problem solving. Right? We might see better decision making. Especially for those complex problems.
+[13:08.000 --> 13:28.000]  That was just mentioned. Diversity kind of reflects what's out there though. Right? Like we're seeing a very diverse workforce. So, it does help with things like inclusivity. It does help with things like adaptability. Right? But if we were to talk about the cons, what we would say is that diversity is good.
+[13:29.000 --> 13:46.000]  And so, it does help with things like inclusivity. It does help with things like adaptability. Right? But if we were to talk about the cons, we were to make the case from the challenges, then yes, it could lead to conflicts. It could lead to misunderstanding. Especially early on.
+[13:46.000 --> 13:50.320]  it could lead to longer decision making,
+[13:50.320 --> 13:53.640]  because now we have to hear each and every one's perspective
+[13:53.640 --> 13:55.320]  on that particular case.
+[13:55.320 --> 13:59.800]  Sometimes it would lead to us having a difficult time
+[13:59.800 --> 14:02.120]  coming to a consensus, right?
+[14:02.120 --> 14:02.960]  Oops, sorry.
+[14:04.200 --> 14:08.120]  And so there are pros and cons to both.
+[14:08.120 --> 14:12.080]  So diversity isn't inherently good or bad.
+[14:12.760 --> 14:16.680]  It depends really on how it's managed, right?
+[14:16.680 --> 14:18.980]  And without the right conditions,
+[14:20.320 --> 14:25.320]  diverse teams can outperform the homogeneous ones
+[14:27.200 --> 14:31.640]  where there is a lack of diversity in the long run, okay?
+[14:31.640 --> 14:36.640]  So group composition really does affect performance,
+[14:36.720 --> 14:39.040]  and so there are two types of teams,
+[14:39.040 --> 14:42.920]  and so you should also know this in multiple roles, okay?
+[14:42.920 --> 14:44.160]  So there's two types.
+[14:44.160 --> 14:47.440]  There's homogeneous, which is basically where the members
+[14:47.440 --> 14:49.760]  are all similar to one another,
+[14:49.760 --> 14:51.760]  and then there's heterogeneous,
+[14:51.760 --> 14:55.640]  which is when you have diverse members, okay?
+[14:55.640 --> 14:59.160]  So each is effective for different tasks.
+[14:59.160 --> 15:02.440]  Homogeneous groups, when are they most useful?
+[15:02.440 --> 15:05.520]  Well, for simple or routine tasks.
+[15:05.520 --> 15:09.920]  So when you have similar members working on it,
+[15:09.920 --> 15:14.120]  there's less debate, there's quick understanding,
+[15:14.120 --> 15:16.580]  there is even efficient execution.
+[15:18.520 --> 15:21.000]  Tasks that require cooperation.
+[15:21.000 --> 15:21.820]  Why?
+[15:21.820 --> 15:25.120]  Because there's shared communication styles,
+[15:25.120 --> 15:28.160]  and you value, as well as values,
+[15:28.160 --> 15:30.200]  which kind of reduce the conflict.
+[15:31.200 --> 15:34.000]  Tasks that mainly involve implementation.
+[15:34.000 --> 15:35.680]  So basically what you're doing
+[15:35.680 --> 15:38.320]  is you're aligning the skills,
+[15:38.320 --> 15:40.880]  you're streamlining it with the execution
+[15:40.880 --> 15:43.360]  of these known plans.
+[15:43.360 --> 15:46.720]  And then tasks that must be done quickly.
+[15:46.720 --> 15:49.920]  So this is time-sensitive, faster decisions,
+[15:49.920 --> 15:51.800]  less disagreements, okay?
+[15:51.800 --> 15:55.880]  So they're best for these kind of situations.
+[15:55.880 --> 15:59.320]  Heterogeneous groups, when are they most useful?
+[15:59.320 --> 16:02.440]  They're useful for complex or ambiguous tasks,
+[16:02.440 --> 16:04.640]  so diverse perspectives.
+[16:04.640 --> 16:08.840]  They help us analyze things from all the different angles.
+[16:08.840 --> 16:12.480]  Tasks requiring creativity or innovation.
+[16:12.480 --> 16:16.620]  So obviously when you have a variety of ideas,
+[16:17.480 --> 16:20.440]  you have more problem solving put into play,
+[16:20.440 --> 16:24.280]  you have more originality and whatnot.
+[16:24.280 --> 16:26.920]  Tasks that mainly involve learning.
+[16:26.920 --> 16:30.160]  So exposure to these new views
+[16:30.160 --> 16:32.840]  kind of broadens our understanding.
+[16:32.840 --> 16:35.760]  And then tasks that don't need speed, right?
+[16:35.760 --> 16:38.360]  So that extra time that you get,
+[16:38.360 --> 16:42.680]  you lose it for deep thinking for better decisions, okay?
+[16:42.680 --> 16:45.880]  So the key takeaway with this particular side
+[16:45.880 --> 16:49.040]  is that you choose your group type
+[16:49.040 --> 16:53.240]  based on the task that you have, okay?
+[16:53.240 --> 16:54.960]  So definitely know that.
+[16:54.960 --> 16:58.200]  Now what I wanna do is I kinda wanna shift our attention
+[16:58.200 --> 17:00.800]  to how groups work, okay?
+[17:00.800 --> 17:03.720]  And so there's, I want you to understand
+[17:03.720 --> 17:06.160]  what's meant by group processes.
+[17:06.160 --> 17:09.720]  So group processes is a term, like it says on your slide,
+[17:09.720 --> 17:13.320]  that reflects the different types of communication,
+[17:13.320 --> 17:18.320]  activities, interactions that occur within groups
+[17:19.120 --> 17:23.320]  and that contribute to ultimate and goal, okay?
+[17:23.320 --> 17:25.840]  So let me tell you what I mean by that in a few minutes.
+[17:25.840 --> 17:28.240]  But the other thing that I want you to remember
+[17:28.240 --> 17:29.800]  is like group characteristics,
+[17:29.800 --> 17:31.600]  especially what we just talked about
+[17:31.600 --> 17:35.440]  in terms of team size, in terms of diversity,
+[17:35.440 --> 17:38.920]  all affect group processes, okay?
+[17:38.920 --> 17:42.120]  And these processes have a strong impact
+[17:42.120 --> 17:46.600]  on how effective that particular group is, okay?
+[17:46.600 --> 17:49.560]  Now, there's a model that's out there
+[17:49.560 --> 17:51.440]  when it comes to group processes.
+[17:51.440 --> 17:55.520]  It's known as the input process output model, okay?
+[17:55.520 --> 17:59.040]  So this explains how input, so what's an input?
+[17:59.040 --> 18:02.920]  Input is basically what the team starts with, okay?
+[18:02.920 --> 18:05.720]  It talks about how these inputs,
+[18:06.800 --> 18:09.880]  and there could be, so it's basically
+[18:09.880 --> 18:12.320]  how a team is shaped, it's operated,
+[18:12.320 --> 18:15.840]  it could be done at the individual level,
+[18:15.840 --> 18:19.200]  at the team level, at the organizational level.
+[18:19.200 --> 18:23.400]  So individual characteristics would be things like skills,
+[18:23.400 --> 18:28.400]  personality, experience, team would be like the size,
+[18:28.560 --> 18:33.560]  the diversity, and organizational would be things like
+[18:35.280 --> 18:38.560]  anything to do with resources that are available to you,
+[18:38.560 --> 18:42.880]  or maybe even just the characteristics of the task, okay?
+[18:42.880 --> 18:47.880]  So input basically is transformed through the process.
+[18:49.440 --> 18:52.000]  So the process is basically referring to,
+[18:52.000 --> 18:56.560]  in a nutshell, how the team actually works together, okay?
+[18:57.800 --> 19:02.800]  To produce outputs, which in our case would be performance,
+[19:03.120 --> 19:05.160]  okay, or the results are output.
+[19:05.160 --> 19:08.080]  So it's basically saying, how does,
+[19:08.080 --> 19:11.280]  what the team starts with, so the resources,
+[19:11.280 --> 19:14.720]  the team composition, the individual characteristics,
+[19:14.720 --> 19:18.280]  how do they influence how a team functions,
+[19:18.280 --> 19:20.440]  which has to do with the processes,
+[19:20.480 --> 19:23.440]  and how does that then come or translate
+[19:23.440 --> 19:25.680]  into the results or outcomes,
+[19:25.680 --> 19:29.600]  or the outputs that we're interested in, okay?
+[19:29.600 --> 19:32.520]  Which in our case would be job performance.
+[19:33.920 --> 19:36.440]  So when it comes to processes,
+[19:37.800 --> 19:39.640]  remember these are interactions
+[19:39.640 --> 19:41.280]  and activities within a group.
+[19:41.280 --> 19:42.760]  So what are we referring to?
+[19:42.760 --> 19:44.800]  We're referring to things like communication,
+[19:44.800 --> 19:47.240]  we're referring to things like coordination,
+[19:47.240 --> 19:50.280]  we're referring to things like decision making,
+[19:51.120 --> 19:53.120]  we're referring to things like conflict resolution,
+[19:53.120 --> 19:56.480]  we're referring to things like cohesion and trust building,
+[19:56.480 --> 19:57.320]  okay?
+[19:57.320 --> 20:00.720]  So processes, they determine how effectively
+[20:00.720 --> 20:04.000]  the team uses it for its output.
+[20:04.000 --> 20:05.520]  And remember what output is.
+[20:05.520 --> 20:09.600]  It's like the result or the outcome of the team's work,
+[20:09.600 --> 20:10.440]  right?
+[20:10.440 --> 20:13.800]  So in this particular slide, I had performance,
+[20:13.800 --> 20:16.040]  which is like the quality of the quantity of work,
+[20:16.040 --> 20:17.120]  but you can have anything.
+[20:17.120 --> 20:19.560]  You can have team satisfaction,
+[20:19.560 --> 20:21.120]  you could have learning growth,
+[20:21.120 --> 20:22.360]  you could have innovation,
+[20:22.360 --> 20:26.080]  any result or outcome that you are interested in.
+[20:26.080 --> 20:31.080]  That output, that outcome is basically
+[20:31.080 --> 20:36.080]  whether or not the team's efforts are successful or not.
+[20:36.080 --> 20:37.480]  Okay?
+[20:37.480 --> 20:41.120]  So let's talk about the team processes.
+[20:41.120 --> 20:44.640]  So sometimes the nature of the team,
+[20:44.640 --> 20:48.640]  what it does or the team's process results in a game,
+[20:48.640 --> 20:52.400]  which is known as process game, okay?
+[20:52.400 --> 20:55.200]  So in this situation, what ends up happening
+[20:55.200 --> 20:57.840]  is that you're getting more from the team
+[20:57.840 --> 21:01.920]  than you would have expected according to the capabilities
+[21:01.920 --> 21:04.640]  of the individual members, okay?
+[21:04.640 --> 21:07.840]  So it's also sometimes known as synergy, okay?
+[21:11.560 --> 21:16.240]  So the polar opposite of that is process loss,
+[21:16.240 --> 21:18.840]  which means you're getting less from the team
+[21:18.840 --> 21:20.800]  than you would have expected
+[21:20.800 --> 21:24.680]  based on the capabilities of the individual's members.
+[21:26.400 --> 21:28.400]  So the question really becomes,
+[21:28.400 --> 21:31.120]  what causes process loss?
+[21:31.120 --> 21:33.320]  What causes process gain?
+[21:33.320 --> 21:35.640]  So let's start with process loss.
+[21:36.640 --> 21:39.760]  So I've actually given you the formal definition here.
+[21:40.840 --> 21:44.400]  So let's focus on process loss, which is in red.
+[21:44.880 --> 21:47.200]  Okay, so you should definitely take note of this
+[21:47.200 --> 21:49.440]  so understand what's meant by process loss.
+[21:51.320 --> 21:54.320]  So let me ask you a question, okay?
+[21:54.320 --> 21:58.320]  For those who are, like, who play a sport, okay?
+[22:01.280 --> 22:05.080]  Do you sometimes feel that you are more
+[22:05.080 --> 22:08.080]  than the sum of the parts, right?
+[22:10.200 --> 22:12.080]  Do you sometimes feel when you're in,
+[22:12.080 --> 22:13.840]  how do you feel in a sports team?
+[22:15.400 --> 22:17.480]  Is everyone contributing?
+[22:19.880 --> 22:20.800]  No.
+[22:20.800 --> 22:22.320]  So then what is it?
+[22:22.320 --> 22:24.400]  But you know they're capable of it.
+[22:24.400 --> 22:27.480]  They're simply not contributing, right?
+[22:29.000 --> 22:30.480]  There could be a couple of different reasons
+[22:30.480 --> 22:31.720]  why they're not contributing,
+[22:31.720 --> 22:36.000]  but that is what is meant by process loss, okay?
+[22:36.000 --> 22:39.120]  So each member has a capability
+[22:39.120 --> 22:41.960]  that they are able to demonstrate,
+[22:41.960 --> 22:46.960]  but for whatever reason they're not doing it, okay?
+[22:49.520 --> 22:54.520]  So I'm sure in that case you felt like you were,
+[22:55.480 --> 22:59.920]  you know, you fell below expectations, right, and whatnot.
+[23:01.400 --> 23:03.760]  But in some cases the whole team
+[23:03.760 --> 23:06.480]  works really well together, right?
+[23:07.840 --> 23:08.920]  Does that make sense?
+[23:09.920 --> 23:12.800]  Are we understanding what's meant by process loss?
+[23:14.240 --> 23:15.080]  Or no?
+[23:17.640 --> 23:22.640]  All right, one of the factors that causes this process loss
+[23:23.160 --> 23:26.240]  is the fact that members, they need to work
+[23:26.240 --> 23:29.280]  not only to accomplish their own tasks,
+[23:29.280 --> 23:32.440]  but also coordinate their activities
+[23:32.440 --> 23:36.640]  with the activities of their teammates, okay?
+[23:36.680 --> 23:39.840]  So just think about the groups that you have worked for
+[23:39.840 --> 23:42.200]  so far in your university degree.
+[23:44.240 --> 23:49.240]  These groups, you have, oftentimes what happens is this,
+[23:49.600 --> 23:53.040]  you divvy up the work, right?
+[23:53.040 --> 23:55.360]  Usually that's what happens.
+[23:55.360 --> 23:57.000]  That's usually what people do when they're like,
+[23:57.000 --> 24:00.160]  oh, it's a group project, let's divvy up the work, okay?
+[24:00.160 --> 24:05.160]  So the group project is one where, you know,
+[24:05.960 --> 24:08.840]  you all have to accomplish your own tasks,
+[24:08.840 --> 24:12.200]  but sometimes there's a lack of coordination.
+[24:13.880 --> 24:15.760]  Sometimes someone doesn't show up,
+[24:15.760 --> 24:18.600]  they don't know what's being allocated to them,
+[24:18.600 --> 24:23.600]  or sometimes people misunderstand what was divvied up
+[24:23.640 --> 24:25.240]  and they end up doing something
+[24:25.240 --> 24:28.440]  that you were supposed to do, okay?
+[24:28.440 --> 24:31.440]  So coordination, that's what's meant by it.
+[24:31.440 --> 24:36.440]  So coordination is necessary, but it kind of results,
+[24:36.600 --> 24:39.040]  it can result in coordination loss
+[24:39.040 --> 24:42.320]  because it consumes time, it consumes energy
+[24:42.320 --> 24:46.320]  that could otherwise be devoted to the task activity, okay?
+[24:48.400 --> 24:50.880]  That's what's meant by coordination loss.
+[24:50.880 --> 24:53.360]  Motivation loss is the second force
+[24:53.360 --> 24:55.800]  that causes process loss.
+[24:55.800 --> 24:58.600]  So what happens here is that,
+[24:58.720 --> 25:02.400]  it's referring to the loss in team productivity
+[25:02.400 --> 25:04.440]  that occurs when the team members
+[25:04.440 --> 25:08.280]  do not work as hard as they should, okay?
+[25:08.280 --> 25:13.000]  So process loss in a nutshell is basically
+[25:13.000 --> 25:18.000]  where you're getting less from the team than expected, okay?
+[25:19.280 --> 25:22.000]  So five of you are in a group,
+[25:22.000 --> 25:27.000]  so I'm expecting it to be a stellar group presentation,
+[25:27.560 --> 25:30.520]  right, but that might not be the case.
+[25:31.840 --> 25:34.240]  That might not be the case, and for two reasons,
+[25:34.240 --> 25:35.720]  there are two causes.
+[25:35.720 --> 25:38.560]  One could be simply that you were not able
+[25:38.560 --> 25:40.640]  to coordinate well enough.
+[25:40.640 --> 25:43.040]  That's what's meant by coordination loss.
+[25:43.040 --> 25:45.720]  And the second is that some members
+[25:45.720 --> 25:48.240]  just do not put in the work.
+[25:48.240 --> 25:50.960]  They're not motivated enough, that's the motivational loss.
+[25:50.960 --> 25:52.880]  Does that make sense?
+[25:52.880 --> 25:54.640]  Okay, all right.
+[25:54.680 --> 25:58.200]  So let's talk about motivational loss for a minute.
+[25:58.200 --> 26:00.960]  So hint, hint, you should know this.
+[26:00.960 --> 26:05.120]  So this slide is on social boating, okay?
+[26:05.120 --> 26:07.520]  So I was asked this question last week.
+[26:07.520 --> 26:10.480]  What is social boating, okay?
+[26:10.480 --> 26:15.160]  So when we think of groups, we automatically assume
+[26:15.160 --> 26:19.200]  that say if there are five people working together,
+[26:19.200 --> 26:22.040]  then we should be able to get five times
+[26:22.040 --> 26:26.480]  as much work done than one person alone, okay?
+[26:26.480 --> 26:29.600]  Five people in a group, you should get the work
+[26:29.600 --> 26:33.160]  five times more, like it should be better
+[26:33.160 --> 26:35.200]  five times more than one person alone.
+[26:36.200 --> 26:38.840]  But what might occur is social loafing.
+[26:38.840 --> 26:43.160]  Social loafing is this tendency that people have
+[26:43.160 --> 26:45.560]  to kind of withhold their physical,
+[26:45.560 --> 26:48.560]  their intellectual effect when they're performing
+[26:48.560 --> 26:50.800]  a group task, okay?
+[26:53.040 --> 26:56.000]  So what does that mean in another way?
+[26:56.000 --> 26:58.880]  So there's always someone in that group
+[26:58.880 --> 27:03.880]  who isn't pulling his or her weight, okay?
+[27:03.960 --> 27:06.320]  And the idea behind social loafing
+[27:06.320 --> 27:08.280]  is what you see over here.
+[27:08.280 --> 27:10.720]  Oh, sorry, what you see over here.
+[27:10.720 --> 27:15.600]  Which is that the more people who contribute to a task,
+[27:15.600 --> 27:20.440]  typically it's one that we're talking about additive, right?
+[27:20.440 --> 27:24.520]  So the more people that contribute to a task,
+[27:24.520 --> 27:27.840]  the less each individual's contribution would be.
+[27:29.920 --> 27:31.440]  Does that make sense?
+[27:31.440 --> 27:34.600]  So let me give you an example, okay?
+[27:34.600 --> 27:36.720]  And I think the best example is one
+[27:36.720 --> 27:38.040]  that's provided by this study,
+[27:38.040 --> 27:41.520]  but I'll also give you a layman example in a few minutes.
+[27:41.520 --> 27:44.360]  So this study was done by Ingram and Colleagues,
+[27:44.360 --> 27:46.760]  and it was done in 1974.
+[27:46.800 --> 27:51.440]  It's a classic demonstration of social loafing, okay?
+[27:51.440 --> 27:55.120]  So remember, social loafing in layman terms,
+[27:55.120 --> 27:59.120]  it's a tendency for individuals to put in less effort
+[27:59.120 --> 28:02.560]  when they believe that they are part of a group, okay?
+[28:02.560 --> 28:05.840]  So what happened in this experiment?
+[28:05.840 --> 28:10.280]  So in this experiment, the participants were blindfolded,
+[28:10.280 --> 28:13.280]  okay, and they were asked to pull a rope, okay?
+[28:14.160 --> 28:15.720]  As hard as they could.
+[28:17.040 --> 28:20.120]  So they kind of thought that they were having
+[28:20.120 --> 28:22.360]  this like tug of war with others.
+[28:23.680 --> 28:28.240]  In reality, they were just pulling this rope alone, okay?
+[28:28.240 --> 28:30.000]  So what did they find?
+[28:30.000 --> 28:33.560]  They found that participants who actually thought
+[28:33.560 --> 28:37.240]  that they had two to five people behind them,
+[28:38.360 --> 28:42.280]  they pulled the rope about 18%
+[28:43.280 --> 28:48.160]  with less force than when they were led to believe
+[28:48.160 --> 28:51.480]  that they were pulling the rope, okay?
+[28:51.480 --> 28:56.040]  So basically, in some cases, they were told
+[28:56.040 --> 28:58.520]  that you're pulling this rope alone,
+[28:58.520 --> 29:01.560]  so they put in more force to pull in that rope.
+[29:01.560 --> 29:05.120]  But when they were told, another group was told
+[29:05.120 --> 29:08.160]  that you have two to five people behind you,
+[29:08.160 --> 29:11.280]  they put in less force in pulling that rope.
+[29:12.720 --> 29:16.680]  Okay, so this kind of shows us that individual effort
+[29:16.680 --> 29:19.680]  can actually decrease in group settings
+[29:19.680 --> 29:22.880]  when people feel less personally accountable
+[29:22.880 --> 29:25.920]  or they assume others will pick up the slack.
+[29:28.000 --> 29:31.520]  Okay, so that's a classic example,
+[29:31.520 --> 29:34.480]  but we can talk about it in our group settings as well,
+[29:34.480 --> 29:35.880]  the ones that you've participated.
+[29:35.880 --> 29:40.760]  I'm sure that there has been a time so far,
+[29:40.800 --> 29:43.560]  maybe you'll experience it in the four years
+[29:43.560 --> 29:47.520]  in university, where you're assigned to a team
+[29:47.520 --> 29:49.680]  and everyone is putting in their hard work,
+[29:49.680 --> 29:52.280]  but there's always that one person who isn't.
+[29:54.600 --> 29:58.320]  Okay, because they're like, everyone else is doing it,
+[29:58.320 --> 29:59.160]  why should I?
+[30:01.040 --> 30:02.560]  That is social opening.
+[30:02.560 --> 30:03.800]  Does that make sense?
+[30:05.960 --> 30:09.120]  So, and you notice it more with larger groups.
+[30:09.160 --> 30:13.080]  If it was a group of 10 people, for example, right?
+[30:14.280 --> 30:15.400]  What tends to happen?
+[30:16.640 --> 30:19.600]  At least five of you will say something or another.
+[30:19.600 --> 30:20.880]  The other five will be like,
+[30:20.880 --> 30:23.480]  oh, why should I even say something?
+[30:23.480 --> 30:25.080]  Let the other people do it.
+[30:25.080 --> 30:27.840]  I see this all the time when I split groups
+[30:27.840 --> 30:30.080]  into two or debates.
+[30:31.160 --> 30:34.880]  It's like a big group and there's a few dominating
+[30:34.880 --> 30:37.080]  individuals that are leading the discussion
+[30:37.080 --> 30:39.680]  and then the others are just like, oh, okay.
+[30:40.600 --> 30:42.320]  I'm not gonna say anything.
+[30:42.320 --> 30:43.520]  That's social opening.
+[30:44.520 --> 30:47.920]  So how can we, so do we understand social opening?
+[30:47.920 --> 30:49.960]  Yeah, good, so we'll know the definition,
+[30:49.960 --> 30:51.080]  which is on here.
+[30:51.920 --> 30:53.800]  We will, I don't know if I asked you
+[30:53.800 --> 30:56.440]  to define this experiment, I don't think I did.
+[30:56.440 --> 31:01.440]  I asked you to give me media layman example.
+[31:02.560 --> 31:05.040]  Maybe you can bring that up anyway.
+[31:05.040 --> 31:08.680]  But how do we go about counteracting the social opening?
+[31:09.760 --> 31:13.200]  So to avoid such kind of process loss,
+[31:13.200 --> 31:16.120]  research suggests that you do a couple of different things.
+[31:16.120 --> 31:19.840]  So first is you make individual performance more visible.
+[31:19.840 --> 31:24.840]  So keep the group small and then you post performance levels.
+[31:27.920 --> 31:29.320]  So keep the group small.
+[31:29.320 --> 31:31.840]  So when there's three people to a group,
+[31:31.840 --> 31:35.720]  you know that those three people are going to participate.
+[31:35.720 --> 31:37.880]  But when there's 10, you know that there are gonna be
+[31:37.880 --> 31:39.520]  some people who are not going to.
+[31:43.880 --> 31:47.600]  The other one would be specialized tasks.
+[31:47.600 --> 31:50.800]  That kind of means you give each person
+[31:50.800 --> 31:52.600]  a unique task to do.
+[31:54.040 --> 31:56.160]  And then goal setting for each individual
+[31:56.160 --> 31:58.840]  would be sort of like saying, okay, this is a task
+[31:58.840 --> 32:01.040]  that you have to do and this is how you have to go
+[32:01.040 --> 32:02.280]  about accomplishing it.
+[32:03.400 --> 32:05.640]  Increase performance feedback.
+[32:05.640 --> 32:10.000]  So make it aware of how, especially in the work setting,
+[32:10.000 --> 32:12.000]  let people know how they're performing.
+[32:14.960 --> 32:17.720]  Make sure the work is interesting.
+[32:17.720 --> 32:21.840]  So if the work is intrinsically motivating,
+[32:21.840 --> 32:23.480]  social loathing won't occur.
+[32:23.480 --> 32:25.800]  So what that means is if you're motivated
+[32:25.800 --> 32:29.360]  for personal reasons, social loathing won't occur.
+[32:29.400 --> 32:31.760]  But there are other things that you can do too.
+[32:34.320 --> 32:39.200]  You can make people feel like what they're doing
+[32:39.200 --> 32:44.040]  is meaningful, that their inputs are needed
+[32:44.040 --> 32:45.840]  for group success.
+[32:45.840 --> 32:50.840]  But you can also go about rewarding group rewards.
+[32:51.280 --> 32:52.800]  Or rewarding group performance.
+[32:52.800 --> 32:56.880]  So when you say that the group's performance
+[32:56.880 --> 32:59.200]  is contingent on each and every individual
+[33:00.040 --> 33:03.080]  and how they do, and you reward them,
+[33:03.080 --> 33:06.320]  that would also counteract social loathing.
+[33:06.320 --> 33:07.920]  Okay, does that make sense?
+[33:10.320 --> 33:11.720]  Okay.
+[33:11.720 --> 33:14.280]  Now, a question that's often asked is,
+[33:14.280 --> 33:17.240]  is social loathing universal?
+[33:17.240 --> 33:20.560]  So this particular thing, what this shows you
+[33:20.560 --> 33:25.480]  is it kind of talks about collectivistic and individualistic.
+[33:25.480 --> 33:28.240]  So in collectivistic cultures,
+[33:28.240 --> 33:33.240]  which is where social networks are defined,
+[33:33.640 --> 33:37.120]  they're closely knit communities,
+[33:37.120 --> 33:40.280]  like China and Israel, people perform better
+[33:40.280 --> 33:42.840]  as members of groups than they do alone.
+[33:44.560 --> 33:47.200]  And in individualistic cultures,
+[33:47.200 --> 33:50.360]  which is more so you're focusing on yourself
+[33:50.360 --> 33:52.840]  and not so much as being part of a community
+[33:52.840 --> 33:56.320]  since the United States, people perform better alone
+[33:56.560 --> 33:57.960]  than in groups.
+[33:57.960 --> 33:58.800]  Why?
+[33:58.800 --> 34:00.800]  Because social loathing tends to occur.
+[34:01.920 --> 34:03.440]  Okay.
+[34:03.440 --> 34:04.680]  Does that make sense?
+[34:04.680 --> 34:06.640]  So is it universal?
+[34:06.640 --> 34:07.640]  Not necessarily.
+[34:07.640 --> 34:10.520]  It really depends on the country that we're talking about
+[34:10.520 --> 34:13.520]  or the society that we're talking about.
+[34:15.080 --> 34:18.960]  But in the ones that we belong to, yes, it can occur.
+[34:18.960 --> 34:19.800]  Okay.
+[34:21.240 --> 34:23.840]  All right, what are some other ways?
+[34:23.840 --> 34:25.760]  So social loathing is one.
+[34:25.800 --> 34:27.360]  The other one is groupthink.
+[34:27.360 --> 34:30.720]  So basically what happens here is it's a phenomenon
+[34:30.720 --> 34:35.720]  where group members, they prioritize harmony and consensus
+[34:35.720 --> 34:40.240]  over basically the critical evaluation of alternatives
+[34:40.240 --> 34:42.600]  leading to flawed decision-making.
+[34:42.600 --> 34:46.720]  So, you know, let me give you an example, okay?
+[34:46.720 --> 34:51.720]  So in a class, I basically ask students to develop
+[34:52.720 --> 34:57.000]  or I've tasked them with developing a business proposal.
+[34:57.000 --> 34:57.840]  Okay?
+[34:57.840 --> 35:02.840]  So if team members, they might actually avoid
+[35:03.840 --> 35:06.920]  giving different opinions about a risk
+[35:06.920 --> 35:11.920]  or they might avoid giving opinions about a risky strategy
+[35:12.600 --> 35:15.440]  to maintain harmony, right?
+[35:15.440 --> 35:20.440]  And they may, as a result, overlook those potential pitfalls
+[35:20.680 --> 35:22.400]  and make a flawed decision.
+[35:22.400 --> 35:26.000]  So groupthink is where conformity pressures
+[35:26.000 --> 35:28.400]  really comes into place, right?
+[35:28.400 --> 35:32.440]  So if four out of five of you are saying one thing,
+[35:32.440 --> 35:37.120]  then you're gonna try to avoid putting out your opinion
+[35:37.120 --> 35:40.280]  because you kinda wanna just keep the harmony.
+[35:40.280 --> 35:42.160]  That's what groupthink is all about.
+[35:44.080 --> 35:47.720]  Group polarization is basically the tendency
+[35:47.720 --> 35:52.720]  for group discussion to enhance the initial positions
+[35:53.520 --> 35:56.600]  of individual group members.
+[35:56.600 --> 36:00.000]  And so then what happens is you see more extreme decisions
+[36:00.000 --> 36:01.880]  or opinions, okay?
+[36:01.880 --> 36:05.320]  So say there's a debate, right, in class
+[36:05.320 --> 36:09.560]  and it's on a controversial business ethics topic.
+[36:09.560 --> 36:12.280]  So people, what they might have is like
+[36:12.280 --> 36:14.320]  their initial views once, right?
+[36:14.320 --> 36:16.040]  But it gives them like a chance to find a school.
+[36:16.040 --> 36:19.960]  And so you get all these people to sit together
+[36:20.880 --> 36:25.080]  and what might happen is through these discussions,
+[36:25.080 --> 36:28.920]  these initial points become so extreme, right?
+[36:28.920 --> 36:31.120]  They may become exaggerated.
+[36:32.400 --> 36:35.720]  Kind of, and then what will happen is
+[36:35.720 --> 36:38.600]  you are reinforcing each other's arguments
+[36:38.600 --> 36:41.480]  and it leads to kind of like polarized opinions
+[36:41.480 --> 36:42.840]  within the class.
+[36:43.840 --> 36:45.120]  Does that make sense?
+[36:46.520 --> 36:50.160]  So either you exaggerate the initial position of the group
+[36:51.160 --> 36:52.640]  or you don't, but if you do,
+[36:52.640 --> 36:55.400]  that's known as group polarization, okay?
+[36:55.400 --> 36:58.960]  So given a debate, there might be someone that says,
+[36:58.960 --> 37:01.800]  I completely agree with it.
+[37:01.800 --> 37:04.320]  Now everyone else agrees with it,
+[37:04.320 --> 37:06.760]  even though it might not be something to agree upon.
+[37:06.760 --> 37:10.120]  That's basically what group polarization is referring to.
+[37:11.400 --> 37:12.360]  Does that make sense?
+[37:13.840 --> 37:16.880]  Okay, let's talk about process gains.
+[37:16.880 --> 37:19.600]  So remember you're getting more from the team
+[37:19.600 --> 37:23.800]  than you would expect according to the capabilities
+[37:23.800 --> 37:25.920]  of the individual members.
+[37:25.920 --> 37:27.920]  And there are various different ways
+[37:27.920 --> 37:32.920]  in which you can increase process gain or synergy, right?
+[37:34.560 --> 37:38.440]  I kind of just wanna talk about team states,
+[37:38.440 --> 37:42.560]  which are the specific types of feelings and thoughts
+[37:42.560 --> 37:44.840]  that kind of go in the minds of the team members
+[37:44.840 --> 37:47.880]  because of their experience working together.
+[37:47.880 --> 37:50.520]  And so there are a number of different ways
+[37:50.520 --> 37:52.280]  in which you can have team states.
+[37:52.280 --> 37:55.200]  There are norms, there are status symbols,
+[37:55.200 --> 37:57.720]  and then there's potency, okay?
+[37:57.720 --> 38:00.600]  And so I am just gonna leave it at that.
+[38:00.600 --> 38:03.640]  I'm not really going to go into it in that much detail.
+[38:03.640 --> 38:06.600]  I provided you with the definition,
+[38:06.600 --> 38:09.800]  but norms can lead to process gains.
+[38:09.840 --> 38:13.720]  So norms are generally agreed upon informal rules
+[38:13.720 --> 38:15.720]  that guide group members' behaviors.
+[38:15.720 --> 38:19.080]  So these are not formal, nor are they written rules,
+[38:19.080 --> 38:20.880]  but they regulate behavior
+[38:20.880 --> 38:24.240]  through shared experiences over time, okay?
+[38:24.240 --> 38:28.080]  So for example, a team might form a norm
+[38:28.080 --> 38:31.160]  about how hard people should work, right?
+[38:31.160 --> 38:34.240]  So setting this norm for working hard
+[38:34.240 --> 38:37.480]  and all its related behaviors go with
+[38:37.520 --> 38:40.920]  what you really don't need to know right now,
+[38:40.920 --> 38:43.440]  but it's called prescriptive norm, right?
+[38:43.440 --> 38:45.280]  It's a norm that dictates behavior
+[38:45.280 --> 38:46.760]  on how it should be performed.
+[38:49.160 --> 38:50.880]  But you can also come up with norms
+[38:50.880 --> 38:53.440]  on how things shouldn't go.
+[38:53.440 --> 38:54.840]  Then there's status symbols.
+[38:54.840 --> 38:57.040]  These kind of keep the group functioning
+[38:57.040 --> 38:58.960]  effectively and orderly.
+[38:58.960 --> 39:01.360]  It has to do with the social position or rank
+[39:01.360 --> 39:03.880]  that's given to group and group members.
+[39:03.880 --> 39:05.840]  So there are formal status symbols,
+[39:06.440 --> 39:09.440]  like big offices, fancy job titles,
+[39:09.440 --> 39:11.280]  reserved parking spots,
+[39:13.640 --> 39:17.960]  and the status actually plays a big role
+[39:17.960 --> 39:21.720]  in determining the influence within an organization.
+[39:21.720 --> 39:24.400]  So people with high status,
+[39:24.400 --> 39:27.240]  they are said to have more respect,
+[39:27.240 --> 39:29.040]  have more of an impact when it comes
+[39:29.040 --> 39:31.760]  to important decisions that are being made.
+[39:31.760 --> 39:35.440]  And so we actually see them doing better in a team.
+[39:36.080 --> 39:37.640]  And then potency refers to the degree
+[39:37.640 --> 39:39.400]  to which members believe that the group
+[39:39.400 --> 39:43.400]  can be effective across a variety of situation and tasks.
+[39:45.320 --> 39:47.920]  When a team has high potency,
+[39:47.920 --> 39:50.000]  members are confident that their teams
+[39:50.000 --> 39:52.480]  can actually perform well.
+[39:52.480 --> 39:56.680]  And as a consequence, they focus more on their energy
+[39:56.680 --> 39:59.000]  on achieving those team goals.
+[39:59.000 --> 40:02.480]  When it has low potency, they're not so confident
+[40:02.480 --> 40:05.360]  about how they're going to be doing the team.
+[40:06.280 --> 40:07.680]  And so they begin to question the team's goals
+[40:07.680 --> 40:09.120]  as well as one another.
+[40:12.120 --> 40:14.680]  And then there's mental mode
+[40:14.680 --> 40:16.760]  and there's cohesiveness as well.
+[40:16.760 --> 40:19.320]  I think I want to focus on cohesiveness.
+[40:19.320 --> 40:24.320]  Cohesiveness is a determinant of group functioning.
+[40:24.800 --> 40:29.800]  Cohesiveness is basically central to team structure
+[40:30.120 --> 40:31.680]  because essentially what it is
+[40:31.680 --> 40:34.600]  is the strength of the team member's desire
+[40:34.600 --> 40:36.920]  to remain a member of the team.
+[40:38.040 --> 40:40.600]  So in very cohesive teams,
+[40:40.600 --> 40:43.360]  what we see is that members like each other,
+[40:43.360 --> 40:44.960]  they like working together,
+[40:44.960 --> 40:48.560]  they work together towards meeting the team goals.
+[40:48.560 --> 40:52.160]  And non-cohesive teams, members don't like each other.
+[40:52.160 --> 40:55.440]  They don't get along, they may be less interested
+[40:55.440 --> 40:59.080]  in their own, or more interested in their personal interests.
+[40:59.080 --> 41:01.880]  So cohesiveness is good, right?
+[41:01.880 --> 41:05.040]  But we really do want people to like each other.
+[41:05.040 --> 41:07.800]  We want them to get along with each other.
+[41:07.800 --> 41:10.600]  We want them to work towards that common goal.
+[41:10.600 --> 41:12.800]  But it can lead to group thinking,
+[41:12.800 --> 41:15.560]  which I've already described, right?
+[41:15.560 --> 41:18.320]  They might conform to the pressures.
+[41:18.320 --> 41:22.400]  So to leverage the benefits of cohesion,
+[41:22.400 --> 41:27.400]  groups have to acknowledge that cohesion can be detrimental
+[41:27.640 --> 41:31.520]  and someone has to play the devil's advocate
+[41:31.520 --> 41:34.400]  in those cohesive teams, okay?
+[41:35.480 --> 41:36.320]  And that's that.
+[41:37.120 --> 41:39.600]  Did we, I went through it so fast,
+[41:39.600 --> 41:42.960]  but any questions on group or team processes?
+[41:44.480 --> 41:45.400]  No, okay.
+[41:45.400 --> 41:47.960]  Now let's talk about motivation, okay?
+[41:47.960 --> 41:50.520]  So motivation is broken into two parts.
+[41:54.280 --> 41:56.880]  Okay, so let's talk about motivation.
+[41:56.880 --> 41:58.360]  So I'm gonna first start off
+[41:58.360 --> 42:00.320]  with the definition of motivation,
+[42:00.320 --> 42:01.400]  and then I'm gonna talk about
+[42:01.400 --> 42:03.280]  the theories of work motivation,
+[42:03.280 --> 42:05.840]  and I've kind of broken them down into content
+[42:05.840 --> 42:07.640]  as well as process.
+[42:07.640 --> 42:10.760]  So let's talk about what is meant by motivation.
+[42:10.760 --> 42:14.440]  So before I do that, I think it is very important
+[42:14.440 --> 42:16.240]  for you to watch this clip.
+[42:16.240 --> 42:18.240]  If it will actually work.
+[42:20.920 --> 42:22.500]  I think it'll work.
+[42:22.500 --> 42:23.340]  Okay.
+[42:29.820 --> 42:30.660]  Okay.
+[42:30.660 --> 42:33.100]  Would you walk through a typical day for you?
+[42:34.860 --> 42:36.700]  Yeah.
+[42:36.700 --> 42:40.340]  Well, I generally come in at least 15 minutes late.
+[42:42.060 --> 42:44.900]  I use the side door, that way one bird can't see me.
+[42:45.860 --> 42:50.060]  And after that, I just sort of space out for about an hour.
+[42:50.180 --> 42:55.180]  I do that for probably another hour after lunch.
+[43:00.980 --> 43:02.780]  I'm saying a given week,
+[43:02.780 --> 43:07.420]  I probably only do about 15 minutes of real actual work.
+[43:09.580 --> 43:12.940]  Peter, would you be a bit sport and indulge us
+[43:12.940 --> 43:15.740]  and just tell us a little more?
+[43:15.740 --> 43:17.260]  Oh yeah.
+[43:17.340 --> 43:20.020]  Let me tell you something about TPS reports.
+[43:22.740 --> 43:25.980]  The thing is Bob, it's not that I'm lazy.
+[43:25.980 --> 43:28.060]  It's that I just don't care.
+[43:28.060 --> 43:30.100]  Don't care?
+[43:30.100 --> 43:32.660]  It's a problem of motivation, all right?
+[43:32.660 --> 43:35.020]  Now if I work my ass off and then it takes ships
+[43:35.020 --> 43:38.060]  a few extra units, I don't see another dime.
+[43:38.060 --> 43:40.260]  So where's the motivation?
+[43:40.260 --> 43:42.420]  Maybe something else, Bob.
+[43:42.420 --> 43:44.340]  I have eight different bosses right now.
+[43:44.340 --> 43:45.180]  A big one?
+[43:45.180 --> 43:46.020]  Eight bosses.
+[43:46.020 --> 43:47.180]  Eight, Bob.
+[43:48.060 --> 43:50.100]  So that means that when I make a mistake,
+[43:50.100 --> 43:53.180]  I have eight different people coming by to tell me about.
+[43:53.180 --> 43:56.380]  That's my only real motivation is not to be hassled.
+[43:56.380 --> 43:59.700]  That's the fear of losing my job, but you know Bob,
+[43:59.700 --> 44:01.620]  that'll only make someone work just hard enough
+[44:01.620 --> 44:02.460]  not to get fired.
+[44:03.380 --> 44:06.420]  Would you bear with me for just a second?
+[44:06.420 --> 44:07.260]  Okay.
+[44:08.860 --> 44:10.860]  What if, and believe me,
+[44:10.860 --> 44:12.820]  it's just under a month's panic,
+[44:12.820 --> 44:17.780]  y'all, what if you were offered some kind of a stock option
+[44:17.780 --> 44:19.780]  equity sharing program?
+[44:19.780 --> 44:21.020]  Would that do anything for you?
+[44:21.020 --> 44:22.420]  I don't know, I guess.
+[44:22.420 --> 44:24.020]  Listen, I'm gonna go.
+[44:24.020 --> 44:27.020]  It's been really nice talking to both of you guys.
+[44:27.020 --> 44:27.980]  Absolutely.
+[44:27.980 --> 44:30.460]  The pleasure is all on this side, and they will trust me.
+[44:30.460 --> 44:31.980]  Good luck with your layoffs, all right?
+[44:31.980 --> 44:33.900]  I hope your firings go really well.
+[44:34.780 --> 44:36.260]  Excellent, great.
+[44:36.260 --> 44:37.140]  Wow.
+[44:37.140 --> 44:40.860]  Okay, so that clip is from the office space.
+[44:40.900 --> 44:43.700]  Have we had the opportunity to watch that movie?
+[44:44.740 --> 44:46.180]  It's a great movie.
+[44:46.180 --> 44:48.420]  It's an old movie, but it's a great movie,
+[44:48.420 --> 44:50.620]  and it brings a lot of the OB concepts.
+[44:50.620 --> 44:52.100]  Maybe I'll assign it to someone
+[44:52.100 --> 44:53.380]  if I know what to locate it on.
+[44:53.380 --> 44:54.220]  Me too.
+[44:54.220 --> 44:57.940]  But basically, in that clip, this gentleman was brought in
+[44:57.940 --> 44:59.540]  because they were gonna fire him.
+[45:00.380 --> 45:01.220]  Okay?
+[45:01.220 --> 45:02.300]  But he kind of like,
+[45:02.300 --> 45:05.540]  he talked his way out of getting fired.
+[45:05.540 --> 45:09.580]  But what we see from that clip is motivation, right?
+[45:09.580 --> 45:13.380]  So motivation, as he described it,
+[45:13.380 --> 45:16.620]  is basically one of the main predictors
+[45:16.620 --> 45:19.300]  of employee performance, right?
+[45:19.300 --> 45:21.780]  It's not the key factor, right?
+[45:21.780 --> 45:23.460]  So it's very, very important.
+[45:23.460 --> 45:26.380]  It is very critical for organization,
+[45:26.380 --> 45:30.260]  and it can, excuse me, lead to very negative outcomes
+[45:30.260 --> 45:34.420]  or consequences if employees are not motivated.
+[45:34.420 --> 45:37.740]  And you kind of saw that in that clip, okay?
+[45:37.740 --> 45:40.980]  So I wanna start off with a definition.
+[45:40.980 --> 45:45.980]  So unfortunately, when it comes to motivation,
+[45:47.980 --> 45:52.340]  the definition is like easier said than done, okay?
+[45:52.340 --> 45:55.900]  There is no real accepted definition
+[45:55.900 --> 45:57.620]  of what motivation is.
+[45:57.620 --> 46:00.060]  But in the work context,
+[46:00.060 --> 46:03.060]  when we say someone is motivated,
+[46:03.060 --> 46:05.060]  what we are really saying
+[46:05.060 --> 46:07.260]  is that they're working towards some goal.
+[46:08.140 --> 46:09.020]  Okay?
+[46:09.020 --> 46:14.020]  So a definition that is as good as any,
+[46:14.660 --> 46:18.140]  is that motivation represents the extent
+[46:18.140 --> 46:23.140]  to which persistent effort is directed towards a goal.
+[46:23.260 --> 46:24.100]  Okay?
+[46:24.100 --> 46:28.620]  So basically, it is referring to the forces,
+[46:28.620 --> 46:32.540]  either internal or external to a person,
+[46:32.540 --> 46:36.940]  that gives rise to enthusiasm and persistence
+[46:36.940 --> 46:41.940]  in order to pursue a particular course of action, okay?
+[46:41.980 --> 46:45.300]  Now, it's important to emphasize a few things.
+[46:45.300 --> 46:50.300]  So the first is that motivation is an inferred construct.
+[46:50.340 --> 46:55.340]  What that means is we cannot observe it directly, okay?
+[46:55.900 --> 47:00.100]  Instead, we infer its presence, okay?
+[47:00.100 --> 47:02.060]  And that's based on behavior.
+[47:02.060 --> 47:03.700]  How persistent is someone?
+[47:03.700 --> 47:05.660]  How engaged is someone?
+[47:05.700 --> 47:07.300]  How is their performance?
+[47:08.180 --> 47:11.020]  That kind of tells us how motivated someone is.
+[47:11.020 --> 47:14.580]  But it's not something that I can see, right?
+[47:14.580 --> 47:16.420]  Based on the behavior right now,
+[47:16.420 --> 47:18.380]  I can see that you are not motivated enough
+[47:18.380 --> 47:22.300]  to listen to me lecture, right?
+[47:22.300 --> 47:23.340]  Simple as that.
+[47:23.340 --> 47:26.780]  But if I was to ask questions, right,
+[47:26.780 --> 47:28.460]  you were to answer, I can say,
+[47:28.460 --> 47:29.900]  oh yeah, they're motivated.
+[47:29.900 --> 47:30.900]  Does that make sense?
+[47:30.900 --> 47:32.500]  That's what's meant by the first.
+[47:32.500 --> 47:34.700]  It's an inferred construct.
+[47:34.700 --> 47:37.020]  The second is that it's considered
+[47:37.020 --> 47:39.940]  to be a intervening variable.
+[47:39.940 --> 47:43.460]  What that means is it explains
+[47:43.460 --> 47:47.820]  how some stimulus leads to a behavior, okay?
+[47:47.820 --> 47:52.380]  A stimulus might be, I don't know, like a challenge, right?
+[47:52.380 --> 47:55.740]  It results in a behavioral response, right?
+[47:55.740 --> 47:58.580]  So the more challenging work you are,
+[47:58.580 --> 48:01.980]  the better performance you demonstrate.
+[48:01.980 --> 48:02.820]  Why?
+[48:02.820 --> 48:03.820]  Because you're more motivated.
+[48:03.820 --> 48:06.660]  So it kind of comes in between.
+[48:06.660 --> 48:11.660]  That's what an intervening variable really is referring to.
+[48:11.660 --> 48:12.500]  Okay?
+[48:13.820 --> 48:16.900]  So without motivation, the link between the stimulus
+[48:16.900 --> 48:20.220]  and the behavior will be incomplete.
+[48:20.220 --> 48:24.380]  And then it's not stable, nor is it permanent, okay?
+[48:24.380 --> 48:26.380]  It can fluctuate over time.
+[48:27.620 --> 48:30.060]  And it's sensitive to a number of things.
+[48:30.060 --> 48:32.660]  Context is one of them, right?
+[48:33.660 --> 48:38.660]  So learning is more stable, right?
+[48:40.380 --> 48:42.380]  It's more permanent.
+[48:42.380 --> 48:46.380]  It can result in a number of different things.
+[48:46.380 --> 48:49.460]  Motivation, not so much.
+[48:49.460 --> 48:50.740]  Does that make sense?
+[48:50.740 --> 48:52.740]  You might be motivated today,
+[48:52.740 --> 48:56.260]  but you might be not motivated tomorrow, okay?
+[48:57.300 --> 49:01.220]  So do we remember how this definition is?
+[49:01.220 --> 49:02.060]  Yeah, okay.
+[49:02.660 --> 49:07.660]  Now let's talk about the parts that go into motivation.
+[49:08.460 --> 49:11.140]  So this you should definitely know.
+[49:11.140 --> 49:13.420]  Paintings, okay?
+[49:13.420 --> 49:15.980]  So what are the three parts of motivation?
+[49:15.980 --> 49:17.260]  The first is effort.
+[49:18.300 --> 49:22.380]  So effort manifests itself differently in different jobs,
+[49:22.380 --> 49:23.220]  right?
+[49:23.220 --> 49:25.380]  But it's basically how,
+[49:26.740 --> 49:31.740]  or it refers to the extent to which someone works diligently.
+[49:32.700 --> 49:36.140]  So effort is how much, okay?
+[49:36.140 --> 49:41.140]  So an athlete who runs until she collapses
+[49:42.020 --> 49:46.460]  is putting forth a great deal of effort, right?
+[49:46.460 --> 49:49.820]  Maybe a little too much, right?
+[49:49.820 --> 49:54.020]  Similarly, a manager who works late into the night
+[49:54.020 --> 49:58.540]  is putting in a great deal of effort, right?
+[49:58.540 --> 50:03.180]  Or someone who spends 16 hours a day working for a job
+[50:03.180 --> 50:05.660]  is also putting in great effort.
+[50:05.660 --> 50:08.140]  Someone who stays up until 2 a.m.
+[50:08.140 --> 50:10.860]  marketing for 18 group projects
+[50:10.860 --> 50:13.140]  is also putting in a lot of effort.
+[50:14.180 --> 50:15.780]  Then she makes mistakes.
+[50:15.780 --> 50:18.220]  Like she gets the organization mixed up
+[50:18.220 --> 50:19.380]  and the students come saying,
+[50:19.380 --> 50:22.380]  oh, we were looking at this organization,
+[50:22.380 --> 50:23.740]  but you put RBC down.
+[50:23.740 --> 50:26.820]  And I'm like, oh, just because I was working so late at night
+[50:26.820 --> 50:29.380]  trying to do your work or market.
+[50:29.380 --> 50:31.220]  So that's the first.
+[50:31.220 --> 50:33.020]  Effort is how much?
+[50:33.020 --> 50:37.420]  How much is someone working diligently, okay?
+[50:39.140 --> 50:41.820]  Persistence is the second part.
+[50:41.820 --> 50:43.420]  What is persistence?
+[50:43.420 --> 50:46.420]  So persistence is related to effort
+[50:46.420 --> 50:48.300]  in that it represents the extent
+[50:48.300 --> 50:52.300]  to which one applies the effort consistently, okay?
+[50:53.300 --> 50:57.100]  Okay, so for how long is that effort going?
+[50:58.220 --> 51:03.220]  Okay, so an athlete who exerts a lot of effort
+[51:04.180 --> 51:08.100]  until they collapse, but then gets up
+[51:09.100 --> 51:13.700]  and says, I'm not ever doing that again, right?
+[51:13.700 --> 51:17.060]  Is not exhibiting a lot of persistence.
+[51:17.060 --> 51:17.900]  They've given up.
+[51:17.900 --> 51:20.460]  Does that make sense, right?
+[51:20.460 --> 51:22.660]  So we would say they're not very motivated.
+[51:25.940 --> 51:30.340]  But someone who collapses gets up and says,
+[51:30.340 --> 51:32.620]  all right, I'm going at it again.
+[51:32.620 --> 51:35.780]  I'm gonna try and run this 5K marathon
+[51:35.780 --> 51:38.820]  is putting in that persistence, right?
+[51:40.060 --> 51:43.420]  A rejection letter, a job seeker
+[51:43.420 --> 51:47.700]  who receives one rejection letter from a potential employer
+[51:47.700 --> 51:50.140]  and then stops looking for work altogether
+[51:50.140 --> 51:51.340]  is not persistent.
+[51:53.500 --> 51:56.140]  A job seeker who gets a rejection letter
+[51:56.140 --> 51:59.020]  but says, ah, I'm gonna keep on applying,
+[51:59.020 --> 52:00.620]  that's persistence right there.
+[52:02.380 --> 52:03.620]  Does that make sense?
+[52:03.620 --> 52:07.660]  So persistence, it refers to how much does one put
+[52:07.660 --> 52:09.540]  in the effort consistently?
+[52:11.100 --> 52:15.340]  How long are they going at it, okay?
+[52:15.340 --> 52:18.340]  And then the third characteristic of motivation
+[52:18.340 --> 52:21.340]  is that it contains the direction
+[52:21.340 --> 52:25.700]  in which one channels persistent effort, okay?
+[52:27.140 --> 52:30.300]  So when we're talking about organizations,
+[52:30.300 --> 52:33.580]  the direction really has to do with
+[52:33.580 --> 52:38.060]  what helps the organization reach its goals, right?
+[52:41.380 --> 52:43.980]  So say there's a manager, okay?
+[52:43.980 --> 52:48.980]  And if that manager works late every night, right?
+[52:48.980 --> 52:50.140]  What is happening here?
+[52:50.140 --> 52:52.180]  They're definitely showing the effort
+[52:52.180 --> 52:54.060]  and it's also persistent.
+[52:54.060 --> 52:56.380]  But if they're working on minor issues
+[52:56.380 --> 52:59.580]  that have nothing to do with organizational goals,
+[52:59.580 --> 53:03.060]  the bigger core goals, then we would say
+[53:03.060 --> 53:06.020]  that that person doesn't have the direction
+[53:06.020 --> 53:08.340]  and isn't motivated.
+[53:08.340 --> 53:09.900]  Does that make sense?
+[53:09.900 --> 53:14.580]  So there's basically three characteristics to motivation.
+[53:14.580 --> 53:18.580]  There's effort, which is how much are you putting in?
+[53:19.740 --> 53:22.980]  What is the extent to which someone is working diligently?
+[53:23.860 --> 53:27.220]  Okay, there's persistence, which it refers to
+[53:27.220 --> 53:30.060]  how long is the effort, right?
+[53:30.060 --> 53:33.980]  To what extent does one apply the effort consistently?
+[53:33.980 --> 53:37.820]  And then there's direction, which really has to do with
+[53:37.860 --> 53:42.060]  where am I channeling this persistent effort?
+[53:43.140 --> 53:46.420]  So those are the three characteristics of motivation.
+[53:47.820 --> 53:49.820]  We'll understand that for the test.
+[53:51.380 --> 53:52.460]  Yeah?
+[53:52.460 --> 53:53.420]  Okay, good.
+[53:53.420 --> 53:55.620]  All right, let me do an exercise.
+[53:55.620 --> 53:57.940]  Let me get you to do some talking.
+[53:57.940 --> 54:00.100]  So who's worked for someone else?
+[54:00.100 --> 54:00.940]  Show up here.
+[54:03.340 --> 54:05.660]  Who's worked for themselves?
+[54:05.660 --> 54:06.700]  A few of you have.
+[54:06.700 --> 54:07.540]  Okay, okay.
+[54:08.300 --> 54:11.820]  For those who work both, what was the difference?
+[54:15.220 --> 54:17.460]  When I've worked for myself, I've found myself
+[54:17.460 --> 54:20.980]  working harder, because it's my own personal goal.
+[54:20.980 --> 54:25.980]  And I see more benefit from working for myself
+[54:25.980 --> 54:29.060]  compared to working for a company or something like that.
+[54:29.060 --> 54:30.900]  Because there's deadlines and stuff like that,
+[54:30.900 --> 54:32.500]  and you're working for a manager
+[54:32.500 --> 54:34.940]  or the company's goals, per se.
+[54:34.980 --> 54:38.340]  So of course I'm gonna work harder for what I work for.
+[54:38.340 --> 54:40.660]  Okay, so it resonated more with you
+[54:40.660 --> 54:41.860]  if you're working harder.
+[54:41.860 --> 54:43.260]  Okay, good, yeah.
+[54:43.260 --> 54:46.220]  I was more motivated to work for myself,
+[54:46.220 --> 54:48.820]  mainly more because I can actually see
+[54:48.820 --> 54:50.580]  where my work is going.
+[54:50.580 --> 54:51.420]  Okay, all right.
+[54:51.420 --> 54:53.060]  I physically see the difference,
+[54:53.060 --> 54:55.580]  compared to in a big corporation
+[54:55.580 --> 54:57.500]  or someone else's party,
+[54:57.500 --> 55:00.100]  just if you know how you're working and what you're doing.
+[55:00.100 --> 55:01.660]  Good, okay, good.
+[55:01.660 --> 55:02.500]  Yes?
+[55:03.380 --> 55:04.420]  When I'm working for someone else,
+[55:04.740 --> 55:08.580]  I feel like I have to do it to their liking.
+[55:08.580 --> 55:09.420]  It's temptation, yeah.
+[55:09.420 --> 55:10.660]  Like what has to be done to their liking
+[55:10.660 --> 55:13.460]  as compared to, I have my own standards, obviously.
+[55:13.460 --> 55:16.580]  But sometimes you don't know exactly
+[55:16.580 --> 55:18.060]  what someone else wants from you.
+[55:18.060 --> 55:18.900]  Okay.
+[55:18.900 --> 55:20.180]  So you can try and communicate as well as they can,
+[55:20.180 --> 55:22.740]  but not everyone is the best at communicating.
+[55:22.740 --> 55:24.100]  So you have to worry about,
+[55:24.100 --> 55:26.860]  oh, will they like this versus that?
+[55:26.860 --> 55:27.700]  Okay, sorry.
+[55:27.700 --> 55:30.140]  So it's a bit of a guess as to what someone else wants
+[55:30.140 --> 55:33.100]  from you versus what you're doing for yourself.
+[55:33.100 --> 55:33.940]  Good.
+[55:34.940 --> 55:36.340]  So when you're working for yourself,
+[55:36.340 --> 55:38.820]  kind of feel like you always have to work
+[55:38.820 --> 55:40.260]  with something else you can do
+[55:40.260 --> 55:42.340]  when you're working for someone
+[55:42.340 --> 55:44.300]  there's like guidelines on what you have to do.
+[55:44.300 --> 55:45.620]  Okay, all right, so you have to have
+[55:45.620 --> 55:47.620]  all of your own ways.
+[55:47.620 --> 55:48.460]  Yeah.
+[55:48.460 --> 55:49.860]  I feel like when you work for someone else,
+[55:49.860 --> 55:50.820]  it feels more safe,
+[55:50.820 --> 55:53.100]  so you don't have to like try to bother them.
+[55:53.100 --> 55:54.340]  I like a safety net.
+[55:54.340 --> 55:56.900]  And they're paid at a very low list.
+[55:56.900 --> 55:59.380]  So you might as well not just put the maximum effort.
+[55:59.380 --> 56:00.220]  Okay.
+[56:00.220 --> 56:01.040]  You might feel like,
+[56:01.040 --> 56:02.140]  you don't want to be an effort,
+[56:02.140 --> 56:03.700]  just to get paid and leave.
+[56:03.740 --> 56:04.580]  Okay, sure.
+[56:04.580 --> 56:05.420]  Fair enough.
+[56:05.420 --> 56:06.260]  If you work for yourself,
+[56:06.260 --> 56:08.180]  there's that pressure of like,
+[56:08.180 --> 56:09.540]  you don't have to like actually do this.
+[56:09.540 --> 56:10.380]  Right?
+[56:10.380 --> 56:11.220]  Yeah.
+[56:11.220 --> 56:12.060]  Makes sense.
+[56:12.060 --> 56:12.900]  Okay.
+[56:12.900 --> 56:15.300]  So we all obviously know which one's more motivating
+[56:15.300 --> 56:18.580]  for you versus someone else, right?
+[56:18.580 --> 56:20.420]  How about others?
+[56:20.420 --> 56:24.500]  Which one do you think is more motivating and why?
+[56:24.500 --> 56:27.380]  We know here, in faith, right?
+[56:27.380 --> 56:28.980]  You kind of know the guidelines
+[56:28.980 --> 56:31.540]  that you're working with or the expectations.
+[56:31.540 --> 56:32.380]  Yes.
+[56:32.460 --> 56:34.860]  I think it can be more motivating to work for yourself
+[56:34.860 --> 56:36.580]  because you're doing it,
+[56:36.580 --> 56:38.060]  like you're more passionate about it.
+[56:38.060 --> 56:39.780]  You can have more versus like,
+[56:39.780 --> 56:42.140]  you can be passionate about your job
+[56:42.140 --> 56:43.340]  or you're employed by someone too,
+[56:43.340 --> 56:45.460]  but a lot of times you're not necessarily
+[56:45.460 --> 56:47.060]  doing exactly what you want.
+[56:47.060 --> 56:47.900]  So you're not passionate about it
+[56:47.900 --> 56:49.900]  because it's not, you're not as passionate about it.
+[56:49.900 --> 56:50.740]  Okay.
+[56:50.740 --> 56:52.020]  So passion comes into play
+[56:52.020 --> 56:53.340]  when you're working for yourself.
+[56:53.340 --> 56:54.340]  Anyone else?
+[56:55.220 --> 56:56.060]  Yes, I'm.
+[56:56.060 --> 56:59.580]  I feel like for when you're working for someone else,
+[56:59.580 --> 57:01.660]  but like it's because of,
+[57:01.660 --> 57:03.180]  like it's based off a recommendation
+[57:03.180 --> 57:04.860]  or something they've heard about you.
+[57:04.860 --> 57:06.700]  Like for example, like I've worked things
+[57:06.700 --> 57:09.180]  where they took me on for specific things
+[57:09.180 --> 57:10.460]  as they heard so and so.
+[57:10.460 --> 57:13.940]  So then I have like a standard for what I want to do.
+[57:13.940 --> 57:15.980]  So I actually tend to be more motivated there
+[57:15.980 --> 57:19.300]  because I want to live up to their expectations.
+[57:19.300 --> 57:20.340]  Okay, sure.
+[57:20.340 --> 57:22.580]  Okay, so you want to live up to their expectations.
+[57:22.580 --> 57:24.100]  Okay, anyone else?
+[57:24.980 --> 57:25.900]  Yes.
+[57:25.900 --> 57:28.540]  I need a lot more freedom when you're working for yourself
+[57:28.540 --> 57:29.820]  rather than for someone else.
+[57:29.820 --> 57:31.620]  All right, so there's more autonomy,
+[57:31.620 --> 57:33.780]  more freedom when you're working for yourself.
+[57:33.780 --> 57:36.580]  Okay, why do you think managers should care
+[57:36.580 --> 57:38.620]  about motivation in the first place?
+[57:38.620 --> 57:40.020]  Why do we care?
+[57:43.140 --> 57:43.980]  Yes.
+[57:43.980 --> 57:46.300]  Because if an employee's not motivated,
+[57:46.300 --> 57:48.100]  quality of their work is not gonna be good.
+[57:48.100 --> 57:49.220]  Okay, good, all right.
+[57:49.220 --> 57:50.780]  So if they're not motivated,
+[57:50.780 --> 57:52.780]  the quality is not gonna be good, right?
+[57:52.780 --> 57:55.340]  So motivating, motivating.
+[57:55.340 --> 57:57.620]  Motivation is a variable that would lead
+[57:57.620 --> 57:59.060]  to a number of different outcomes.
+[57:59.060 --> 58:00.260]  Why you girls laughing?
+[58:00.260 --> 58:01.100]  Yes.
+[58:01.100 --> 58:02.780]  They keep like,
+[58:02.780 --> 58:04.100]  they're gonna say,
+[58:04.100 --> 58:04.940]  why?
+[58:04.940 --> 58:05.780]  Because they're coughing.
+[58:05.780 --> 58:07.420]  They just keep coughing, okay.
+[58:07.420 --> 58:09.220]  All right, okay, sure.
+[58:09.220 --> 58:11.260]  I was like, is it because I'm walking barefoot?
+[58:11.260 --> 58:14.020]  You can see how I have my walking barefoot.
+[58:14.020 --> 58:16.420]  I was like, is it because I'm barefoot?
+[58:16.420 --> 58:18.260]  They're like, oh, yeah, it's dirty, don't worry.
+[58:18.260 --> 58:20.020]  I was in the shower when I got home.
+[58:20.020 --> 58:21.380]  All right.
+[58:21.380 --> 58:22.780]  Anyway, okay.
+[58:24.140 --> 58:25.180]  So why should they care?
+[58:25.180 --> 58:27.300]  Okay, so it could lead to the outcomes
+[58:27.300 --> 58:29.220]  that are of interest to us.
+[58:29.220 --> 58:30.060]  What else?
+[58:31.380 --> 58:33.100]  All right, let's do thinking, Mike.
+[58:33.100 --> 58:34.180]  Why?
+[58:34.180 --> 58:35.020]  Yes.
+[58:35.020 --> 58:37.060]  I mean, just like the care for the motivation
+[58:37.060 --> 58:37.900]  that you just brought us.
+[58:37.900 --> 58:38.740]  Yeah.
+[58:38.740 --> 58:39.580]  They don't have motivation,
+[58:39.580 --> 58:40.820]  they'll feel less effort,
+[58:40.820 --> 58:43.940]  or they'll do work that doesn't really
+[58:43.940 --> 58:45.300]  benefit the organization.
+[58:45.300 --> 58:46.140]  Good.
+[58:46.140 --> 58:48.300]  So just do things that don't really help at all.
+[58:48.300 --> 58:49.660]  Exactly, right?
+[58:49.660 --> 58:52.260]  People will not enjoy coming to work.
+[58:52.260 --> 58:53.940]  They will not perform better.
+[58:53.940 --> 58:56.700]  Your organizational goals will not be met, right?
+[58:56.700 --> 58:59.780]  So motivation is a key construct.
+[58:59.780 --> 59:01.180]  And like I started off,
+[59:01.180 --> 59:04.340]  it is one of, if not the only one
+[59:04.340 --> 59:07.140]  that leads to job performance, right?
+[59:07.140 --> 59:10.740]  Okay, now the reason why I asked you
+[59:10.740 --> 59:13.580]  is it better, what's more motivating?
+[59:13.580 --> 59:16.580]  Is it for others or for yourself?
+[59:16.580 --> 59:19.940]  Was kind of making you think about motivation
+[59:19.940 --> 59:21.940]  and what you value the most.
+[59:22.780 --> 59:23.620]  Okay?
+[59:24.420 --> 59:26.340]  So that's where I wanna bring in
+[59:26.340 --> 59:29.140]  intrinsic and extrinsic motivation.
+[59:29.140 --> 59:32.020]  So everyone values things differently.
+[59:33.020 --> 59:33.900]  Okay?
+[59:33.900 --> 59:36.780]  And so there are types of motivators
+[59:36.780 --> 59:38.660]  that various theories consider.
+[59:38.660 --> 59:40.500]  There's intrinsic motivators
+[59:40.500 --> 59:42.980]  and then there's extrinsic motivators.
+[59:42.980 --> 59:43.820]  Okay?
+[59:43.820 --> 59:48.820]  So intrinsic motivation is a personal, internal desire
+[59:49.820 --> 59:54.820]  to do something such as interest or challenge
+[59:57.100 --> 59:58.780]  or personal satisfaction.
+[01:00:00.020 --> 01:00:00.860]  Okay?
+[01:00:04.660 --> 01:00:06.380]  Were you out at the bar?
+[01:00:06.380 --> 01:00:07.220]  Were you at night?
+[01:00:07.220 --> 01:00:08.900]  What's going on?
+[01:00:08.900 --> 01:00:09.740]  Okay.
+[01:00:09.740 --> 01:00:11.300]  So it's like really two weeks.
+[01:00:11.300 --> 01:00:12.300]  Okay, that's okay.
+[01:00:12.300 --> 01:00:13.260]  All right, that's fine.
+[01:00:13.260 --> 01:00:16.580]  And so intrinsic motivation, it comes from within.
+[01:00:17.500 --> 01:00:18.500]  Okay?
+[01:00:18.500 --> 01:00:19.900]  So what's within us?
+[01:00:19.900 --> 01:00:22.980]  It would be our interest, right?
+[01:00:22.980 --> 01:00:27.340]  Our values, the desire to be challenged.
+[01:00:27.340 --> 01:00:29.900]  The desire, I heard someone say meaningful, right?
+[01:00:29.900 --> 01:00:32.340]  Like it's more meaningful, I don't know who it was,
+[01:00:32.340 --> 01:00:34.740]  I'm really sorry, but someone had said
+[01:00:34.740 --> 01:00:36.500]  when you're working for yourself,
+[01:00:36.500 --> 01:00:40.500]  you kind of are doing work that's more meaningful.
+[01:00:40.500 --> 01:00:42.100]  Something like that, right?
+[01:00:42.100 --> 01:00:44.860]  So that's all intrinsic motivation.
+[01:00:44.860 --> 01:00:45.700]  Okay?
+[01:00:46.580 --> 01:00:51.460]  Extrinsic motivation, it comes from outside the person.
+[01:00:51.460 --> 01:00:52.300]  Right?
+[01:00:52.300 --> 01:00:55.380]  So what are some extrinsic motivators?
+[01:00:55.380 --> 01:00:58.860]  Well, it could be cash, it could be bonuses,
+[01:00:58.860 --> 01:01:01.620]  it could be, okay, not cash, but pay.
+[01:01:01.620 --> 01:01:04.260]  Pay, bonuses, other tangible rewards.
+[01:01:05.740 --> 01:01:06.580]  Okay?
+[01:01:08.100 --> 01:01:09.820]  So does that make sense?
+[01:01:09.820 --> 01:01:11.700]  So ask yourself this.
+[01:01:12.220 --> 01:01:15.780]  What motivates you to come to class?
+[01:01:18.060 --> 01:01:20.180]  What motivates you to come to class?
+[01:01:20.180 --> 01:01:21.020]  What is it?
+[01:01:21.020 --> 01:01:21.860]  Huh?
+[01:01:21.860 --> 01:01:22.860]  Pass the course.
+[01:01:22.860 --> 01:01:25.820]  Pass the course, okay, is that intrinsic or extrinsic?
+[01:01:25.820 --> 01:01:28.300]  Great, is it intrinsic or extrinsic?
+[01:01:28.300 --> 01:01:30.060]  Extrinsic. Extrinsic, right?
+[01:01:30.060 --> 01:01:32.660]  What else, so you want to pass the course, what else?
+[01:01:34.300 --> 01:01:36.020]  Is there anyone that comes just because
+[01:01:36.020 --> 01:01:37.700]  they want to know more about OV?
+[01:01:38.820 --> 01:01:39.660]  Yeah.
+[01:01:39.660 --> 01:01:41.140]  Participation marks? Huh?
+[01:01:41.180 --> 01:01:42.220]  Participation marks.
+[01:01:42.220 --> 01:01:44.380]  Participation marks, is that intrinsic or extrinsic?
+[01:01:44.380 --> 01:01:46.260]  Extrinsic. Extrinsic, okay.
+[01:01:46.260 --> 01:01:47.100]  Anyone else?
+[01:01:48.260 --> 01:01:50.860]  Have you hit the desire to pass kind of intrinsic
+[01:01:50.860 --> 01:01:54.660]  because it's like how we feel about passing the course?
+[01:01:54.660 --> 01:01:56.380]  Yeah, but why do you want to pass?
+[01:01:56.380 --> 01:01:59.060]  No, I think the knowledge, for example,
+[01:01:59.060 --> 01:02:02.460]  that you will attain from this particular course,
+[01:02:02.460 --> 01:02:04.700]  that's intrinsic, right?
+[01:02:06.380 --> 01:02:10.540]  If it's to see Santa every day, that's intrinsic.
+[01:02:10.540 --> 01:02:14.220]  So basically, extrinsic would be anything
+[01:02:14.220 --> 01:02:16.740]  that is outside of your control.
+[01:02:16.740 --> 01:02:19.580]  Intrinsic would be more so within you,
+[01:02:19.580 --> 01:02:22.500]  if that makes sense, okay?
+[01:02:22.500 --> 01:02:27.060]  It's fine, I'm not disappointed that you're all saying
+[01:02:27.060 --> 01:02:28.900]  it's because I need to pass this course,
+[01:02:28.900 --> 01:02:31.260]  I need to get this degree, and the requirement,
+[01:02:31.260 --> 01:02:35.180]  blah, blah, blah, blah, I need to get the grades, sure, right?
+[01:02:35.180 --> 01:02:39.780]  But I think when you go to graduate school, for example,
+[01:02:39.780 --> 01:02:43.220]  that's where intrinsic motivation will come into place,
+[01:02:43.220 --> 01:02:44.060]  right?
+[01:02:44.060 --> 01:02:45.660]  I mean, I think that's where you're like,
+[01:02:45.660 --> 01:02:49.180]  oh, I want this kind of career for myself,
+[01:02:49.180 --> 01:02:51.660]  and so I'm gonna learn this.
+[01:02:51.660 --> 01:02:53.740]  I didn't go into graduate studies,
+[01:02:53.740 --> 01:02:56.220]  I think I don't know, I teach so many classes,
+[01:02:56.220 --> 01:02:58.580]  I don't know which class I taught this to,
+[01:02:58.580 --> 01:03:02.300]  but I didn't go into doing a PhD
+[01:03:02.300 --> 01:03:04.540]  because of the money that I would be making.
+[01:03:04.540 --> 01:03:08.180]  I went in because learning is something that I enjoy.
+[01:03:08.180 --> 01:03:11.020]  And I continue doing that even today, right?
+[01:03:11.020 --> 01:03:13.020]  I'm constantly learning.
+[01:03:13.020 --> 01:03:15.100]  Like I've signed up for an AI course,
+[01:03:15.100 --> 01:03:16.940]  I'm gonna learn machine learning now.
+[01:03:17.940 --> 01:03:19.380]  Imagine that.
+[01:03:19.380 --> 01:03:23.500]  I have no squat, and I'm like, yeah, sure, sign me up, okay?
+[01:03:23.500 --> 01:03:26.380]  So that's intrinsic motivation, okay?
+[01:03:28.100 --> 01:03:30.660]  Was yours going to be intrinsic motivation?
+[01:03:30.660 --> 01:03:31.900]  Yeah, I just wasn't sure,
+[01:03:31.900 --> 01:03:34.460]  because would it become a class because you paid for it,
+[01:03:34.460 --> 01:03:36.740]  would that be intrinsic or extrinsic?
+[01:03:36.740 --> 01:03:38.820]  Extrinsic, extrinsic, yeah,
+[01:03:38.820 --> 01:03:42.460]  you're trying to get into values, that's extrinsic, okay?
+[01:03:42.460 --> 01:03:47.460]  All right, so different pieces, right, different motivators.
+[01:03:48.940 --> 01:03:52.140]  Extrinsic motivators, as you can imagine,
+[01:03:52.140 --> 01:03:56.140]  it does not have a long lasting impact,
+[01:03:56.140 --> 01:03:59.500]  although it works initially, okay?
+[01:03:59.500 --> 01:04:00.940]  So think about it this way.
+[01:04:03.780 --> 01:04:06.020]  You're interested in grades right now,
+[01:04:07.020 --> 01:04:09.420]  but when you get to my age,
+[01:04:09.420 --> 01:04:11.020]  are you really going to be interested
+[01:04:11.020 --> 01:04:12.740]  in how you did in your undergrad?
+[01:04:15.860 --> 01:04:18.100]  No one's gonna ask you for a transcript.
+[01:04:18.100 --> 01:04:19.420]  No one's gonna ask, they're gonna be like,
+[01:04:19.420 --> 01:04:23.420]  where's your degree, can you show me that degree?
+[01:04:23.420 --> 01:04:25.780]  Like that's all I was asked, can you show me your degree?
+[01:04:25.780 --> 01:04:28.500]  I was like, yeah, here, here it is, right?
+100.117.97.99 - - [06/Oct/2025 18:44:08] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 18:44:08] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [06/Oct/2025 18:44:08] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [06/Oct/2025 18:44:08] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [06/Oct/2025 18:44:08] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 18:44:08] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [06/Oct/2025 18:44:11] "GET /queue_status HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 18:44:14] "GET /session/29 HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 19:20:21] "GET / HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 19:20:21] "GET /manifest.json HTTP/1.1" 404 -
+100.117.97.99 - - [06/Oct/2025 19:20:21] "GET /static/style.css HTTP/1.1" 304 -
+100.117.97.99 - - [06/Oct/2025 19:20:21] "GET /static/script.js HTTP/1.1" 304 -
+100.117.97.99 - - [06/Oct/2025 19:20:21] "GET /sw.js HTTP/1.1" 404 -
+100.117.97.99 - - [06/Oct/2025 19:20:21] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 19:20:27] "POST /transcripts/29/move HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 19:20:27] "GET /history HTTP/1.1" 200 -
+100.117.97.99 - - [06/Oct/2025 19:20:30] "GET /session/29 HTTP/1.1" 200 -
