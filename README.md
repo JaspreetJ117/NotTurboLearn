@@ -1,7 +1,7 @@
 
 # NotTurboLearn
 
-NotTurboLearn is an open-source web application that helps students transform lecture recordings into clear, exam-ready notes and interact with their notes using an AI-powered chat assistant. Built with Flask, Whisper AI, and Ollama LLM, it streamlines the process of audio transcription, note generation, and contextual Q&A for deeper learning.
+NotTurboLearn is an open-source web application that helps students transform lecture recordings into clear, exam-ready notes and interact with their notes using an AI-powered chat assistant. Built with FastAPI, Whisper AI, and Ollama LLM, it streamlines the process of audio transcription, note generation, and contextual Q&A for deeper learning.
 
 ## Features
 
@@ -15,7 +15,7 @@ NotTurboLearn is an open-source web application that helps students transform le
 
 ## Technology Stack
 
-- **Backend**: Python, Flask, Whisper AI, Ollama LLM
+- **Backend**: Python, FastAPI, Whisper AI, Ollama LLM
 - **Frontend**: HTML, CSS, JavaScript
 - **Database**: SQLite
 
@@ -31,7 +31,7 @@ NotTurboLearn is an open-source web application that helps students transform le
 	```powershell
 	python -m venv venv
 	.\venv\Scripts\activate
-	pip install flask torch requests whisper
+	pip install fastapi uvicorn python-multipart torch requests whisper
 	```
 
 3. **Install and run Ollama**
@@ -55,10 +55,10 @@ NotTurboLearn is an open-source web application that helps students transform le
 
 ## File Structure
 
-- `scripts/app.py` — Main Flask application and API routes
+- `scripts/app.py` — Main FastAPI application and API routes
 - `scripts/database.py` — Database initialization and management
 - `scripts/static/` — Frontend assets (JS, CSS)
-- `templates/` — HTML templates
+- `scripts/templates/` — HTML templates
 - `uploads/` — Uploaded audio files
 
 ## License

@@ -12,7 +12,7 @@ for /f "tokens=1-4 delims=/ " %%a in ("%date%") do (
 for /f "tokens=1-2 delims=: " %%a in ("%time%") do (
     set time=%%a-%%b
 )
-set logname=logs\flask_%date%_%time%.log
+set logname=logs\fastapi_%date%_%time%.log
 
-REM Run Flask server and log output
-py -3.11 app.py >> "%logname%" 2>&1
+REM Run FastAPI server with uvicorn and log output
+py -3.11 -m uvicorn app:app --host 0.0.0.0 --port 5000 >> "%logname%" 2>&1

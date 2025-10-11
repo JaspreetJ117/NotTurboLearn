@@ -3,7 +3,7 @@ app.py
 
 Server entry point for the LectureScribe application.
 
-This module implements the web interface for the LectureScribe note-taking and transcript management system using Flask. It provides:
+This module implements the web interface for the LectureScribe note-taking and transcript management system using FastAPI. It provides:
 
 - Audio transcription using Whisper AI.
 - Automated note generation from transcripts using Ollama LLM.
@@ -31,7 +31,13 @@ import requests
 import json
 import sqlite3
 import shutil
-from flask import Flask, render_template, request, jsonify, session, send_from_directory
+from fastapi import FastAPI, UploadFile, File, HTTPException, Request, Response
+from fastapi.responses import JSONResponse, FileResponse
+from fastapi.staticfiles import StaticFiles
+from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.sessions import SessionMiddleware
+from pydantic import BaseModel
+from typing import Optional, List, Dict, Any
 import threading
 import time
 
@@ -47,10 +53,36 @@ os.makedirs(DATA_FOLDER, exist_ok=True)
 queue_lock = threading.Lock()
 new_job_event = threading.Event()
 
-# --- Flask App Initialization ---
+# --- FastAPI App Initialization ---
 STATIC_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static')
-app = Flask(__name__, static_folder=STATIC_FOLDER)
-app.secret_key = os.urandom(24)
+TEMPLATES_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
+app = FastAPI()
+
+# Add session middleware
+app.add_middleware(SessionMiddleware, secret_key=os.urandom(24).hex())
+
+# Add CORS middleware if needed
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Pydantic models for request/response
+class ChatRequest(BaseModel):
+    message: str
+
+class FolderCreate(BaseModel):
+    name: str
+
+class SessionNameUpdate(BaseModel):
+    name: str
+
+class TranscriptMove(BaseModel):
+    folder_id: Optional[int] = None
+
 
 # --- AI Model Management (Lazy Loading) ---
 whisper_model = None
@@ -285,46 +317,56 @@ def handle_transcription_failure(job_id, error_message):
     db.commit()
     db.close()
 
-# --- Flask Routes ---
-@app.route('/')
-def index():
-    return render_template('index.html')
+# --- FastAPI Routes ---
+@app.get("/")
+async def index():
+    """Serve the main HTML page"""
+    index_path = os.path.join(TEMPLATES_FOLDER, 'index.html')
+    if os.path.exists(index_path):
+        return FileResponse(index_path)
+    return JSONResponse({"error": "index.html not found"}, status_code=404)
 
-@app.route('/transcribe', methods=['POST'])
-def transcribe_audio():
-    if 'audio' not in request.files:
-        return jsonify({'error': 'No audio file found'}), 400
+@app.post("/transcribe")
+async def transcribe_audio(audio: UploadFile = File(...)):
+    """Upload audio file and queue it for transcription"""
+    if not audio:
+        raise HTTPException(status_code=400, detail="No audio file found")
 
-    audio_file = request.files['audio']
-    _, file_extension = os.path.splitext(audio_file.filename)
+    _, file_extension = os.path.splitext(audio.filename)
     safe_filename = str(uuid.uuid4()) + (file_extension or '.tmp')
     audio_path = os.path.join(UPLOAD_FOLDER, safe_filename)
-    audio_file.save(audio_path)
+    
+    # Save uploaded file
+    with open(audio_path, 'wb') as f:
+        content = await audio.read()
+        f.write(content)
 
     db = get_db()
     cursor = db.cursor()
     cursor.execute(
         "INSERT INTO transcription_queue (audio_path, original_filename) VALUES (?, ?)",
-        (audio_path, audio_file.filename or "recording")
+        (audio_path, audio.filename or "recording")
     )
     job_id = cursor.lastrowid
     db.commit()
     db.close()
 
     new_job_event.set()
-    return jsonify({'job_id': job_id})
+    return {"job_id": job_id}
 
-@app.route('/status/<int:job_id>')
-def get_status(job_id):
+@app.get("/status/{job_id}")
+async def get_status(job_id: int):
+    """Get the status of a transcription job"""
     db = get_db()
     job = db.execute("SELECT status, transcript_id, error_message FROM transcription_queue WHERE id = ?", (job_id,)).fetchone()
     db.close()
     if job is None:
-        return jsonify({'status': 'completed'})
-    return jsonify(dict(job))
+        return {"status": "completed"}
+    return dict(job)
 
-@app.route('/history')
-def get_history():
+@app.get("/history")
+async def get_history():
+    """Get all folders and transcripts"""
     db = get_db()
     folders = db.execute("SELECT id, name FROM folders ORDER BY created_at DESC").fetchall()
     transcripts = db.execute("SELECT id, filename, created_at, folder_id FROM transcripts ORDER BY created_at DESC").fetchall()
@@ -337,16 +379,17 @@ def get_history():
         folder_data.append(folder_dict)
 
     unfiled_transcripts = [dict(t) for t in transcripts if t['folder_id'] is None]
-    return jsonify({'folders': folder_data, 'unfiled': unfiled_transcripts})
+    return {"folders": folder_data, "unfiled": unfiled_transcripts}
 
-@app.route('/session/<int:transcript_id>')
-def get_session_data(transcript_id):
+@app.get("/session/{transcript_id}")
+async def get_session_data(transcript_id: int, request: Request):
+    """Get session data for a specific transcript"""
     db = get_db()
     transcript_row = db.execute("SELECT data_path FROM transcripts WHERE id = ?", (transcript_id,)).fetchone()
     db.close()
 
     if not transcript_row:
-        return jsonify({'error': 'Session data not found'}), 404
+        raise HTTPException(status_code=404, detail="Session data not found")
 
     data_path = transcript_row['data_path']
     try:
@@ -357,25 +400,27 @@ def get_session_data(transcript_id):
         with open(os.path.join(data_path, 'chat_history.json'), 'r', encoding='utf-8') as f:
             chat_history = json.load(f)
     except FileNotFoundError:
-        return jsonify({'error': 'Session files not found'}), 404
+        raise HTTPException(status_code=404, detail="Session files not found")
 
-    session['current_transcript_id'] = transcript_id
-    session['current_data_path'] = data_path
+    # Store in session
+    request.session['current_transcript_id'] = transcript_id
+    request.session['current_data_path'] = data_path
     
-    return jsonify({
+    return {
         'transcript_text': transcript_text,
         'notes_markdown': notes_markdown,
         'chat_history': chat_history
-    })
+    }
     
-@app.route('/chat', methods=['POST'])
-def chat():
-    user_message = request.json.get('message')
-    transcript_id = session.get('current_transcript_id')
-    data_path = session.get('current_data_path')
+@app.post("/chat")
+async def chat(chat_request: ChatRequest, request: Request):
+    """Chat with the AI assistant about the notes"""
+    user_message = chat_request.message
+    transcript_id = request.session.get('current_transcript_id')
+    data_path = request.session.get('current_data_path')
 
     if not user_message or not transcript_id or not data_path:
-        return jsonify({'error': 'Missing message or session context'}), 400
+        raise HTTPException(status_code=400, detail="Missing message or session context")
 
     try:
         with open(os.path.join(data_path, 'notes.md'), 'r', encoding='utf-8') as f:
@@ -383,7 +428,7 @@ def chat():
         with open(os.path.join(data_path, 'chat_history.json'), 'r', encoding='utf-8') as f:
             chat_history = json.load(f)
     except FileNotFoundError:
-        return jsonify({'error': 'Could not retrieve notes or chat history for context'}), 404
+        raise HTTPException(status_code=404, detail="Could not retrieve notes or chat history for context")
 
     ai_response = get_chat_response(user_message, notes_context, chat_history)
     
@@ -393,21 +438,23 @@ def chat():
     with open(os.path.join(data_path, 'chat_history.json'), 'w', encoding='utf-8') as f:
         json.dump(chat_history, f)
 
-    return jsonify({'response': ai_response})
+    return {"response": ai_response}
 
-@app.route('/edit/<int:transcript_id>', methods=['POST'])
-def edit_session_name(transcript_id):
-    new_name = request.json.get('name')
+@app.post("/edit/{transcript_id}")
+async def edit_session_name(transcript_id: int, update: SessionNameUpdate):
+    """Edit the name of a transcript session"""
+    new_name = update.name
     if not new_name:
-        return jsonify({'error': 'New name not provided'}), 400
+        raise HTTPException(status_code=400, detail="New name not provided")
     db = get_db()
     db.execute("UPDATE transcripts SET filename = ? WHERE id = ?", (new_name, transcript_id))
     db.commit()
     db.close()
-    return jsonify({'success': True})
+    return {"success": True}
 
-@app.route('/delete/<int:transcript_id>', methods=['POST'])
-def delete_session(transcript_id):
+@app.post("/delete/{transcript_id}")
+async def delete_session(transcript_id: int, request: Request):
+    """Delete a transcript session"""
     db = get_db()
     transcript_row = db.execute("SELECT data_path FROM transcripts WHERE id = ?", (transcript_id,)).fetchone()
     
@@ -418,31 +465,33 @@ def delete_session(transcript_id):
     db.commit()
     db.close()
     
-    if session.get('current_transcript_id') == transcript_id:
-        session.pop('current_transcript_id', None)
-        session.pop('current_data_path', None)
+    if request.session.get('current_transcript_id') == transcript_id:
+        request.session.pop('current_transcript_id', None)
+        request.session.pop('current_data_path', None)
         
-    return jsonify({'success': True})
+    return {"success": True}
 
-@app.route('/folders', methods=['POST'])
-def create_folder():
-    folder_name = request.json.get('name')
+@app.post("/folders")
+async def create_folder(folder: FolderCreate):
+    """Create a new folder"""
+    folder_name = folder.name
     if not folder_name:
-        return jsonify({'error': 'Folder name not provided'}), 400
+        raise HTTPException(status_code=400, detail="Folder name not provided")
     db = get_db()
     cursor = db.cursor()
     cursor.execute("INSERT INTO folders (name) VALUES (?)", (folder_name,))
     folder_id = cursor.lastrowid
     db.commit()
     db.close()
-    return jsonify({'success': True, 'folder_id': folder_id})
+    return {"success": True, "folder_id": folder_id}
 
-@app.route('/folders/<int:folder_id>', methods=['DELETE'])
-def delete_folder(folder_id):
+@app.delete("/folders/{folder_id}")
+async def delete_folder(folder_id: int):
+    """Delete a folder"""
     db = get_db()
     folder_to_delete = db.execute("SELECT name FROM folders WHERE id = ?", (folder_id,)).fetchone()
     if folder_to_delete and folder_to_delete['name'] == 'Unorganized':
-        return jsonify({'error': 'Cannot delete the Unorganized folder.'}), 400
+        raise HTTPException(status_code=400, detail="Cannot delete the Unorganized folder.")
 
     unorganized_folder = db.execute("SELECT id FROM folders WHERE name = 'Unorganized'").fetchone()
     unorganized_folder_id = unorganized_folder['id'] if unorganized_folder else None
@@ -451,20 +500,21 @@ def delete_folder(folder_id):
     db.execute("DELETE FROM folders WHERE id = ?", (folder_id,))
     db.commit()
     db.close()
-    return jsonify({'success': True})
+    return {"success": True}
 
-@app.route('/transcripts/<int:transcript_id>/move', methods=['POST'])
-def move_transcript(transcript_id):
-    folder_id = request.json.get('folder_id')
-    folder_id = folder_id if folder_id else None
+@app.post("/transcripts/{transcript_id}/move")
+async def move_transcript(transcript_id: int, move_data: TranscriptMove):
+    """Move a transcript to a different folder"""
+    folder_id = move_data.folder_id
     db = get_db()
     db.execute("UPDATE transcripts SET folder_id = ? WHERE id = ?", (folder_id, transcript_id))
     db.commit()
     db.close()
-    return jsonify({'success': True})
+    return {"success": True}
 
-@app.route('/queue_status')
-def queue_status():
+@app.get("/queue_status")
+async def queue_status():
+    """Get the current status of the transcription queue"""
     db = get_db()
     processing_row = db.execute("SELECT original_filename FROM transcription_queue WHERE status = 'processing' LIMIT 1").fetchone()
     queued_count_row = db.execute("SELECT COUNT(*) FROM transcription_queue WHERE status = 'queued'").fetchone()
@@ -472,18 +522,32 @@ def queue_status():
 
     processing_file = processing_row['original_filename'] if processing_row else None
     queued_count = queued_count_row[0] if queued_count_row else 0
-    return jsonify({'processing_file': processing_file, 'queued_count': queued_count})
+    return {"processing_file": processing_file, "queued_count": queued_count}
+
+# Mount static files after all routes are defined
+app.mount("/static", StaticFiles(directory=STATIC_FOLDER), name="static")
+
 
 if __name__ == '__main__':
     from database import init_db
+    import uvicorn
+    
     init_db()
     queue_processor_thread = threading.Thread(target=queue_processor, daemon=True)
     queue_processor_thread.start()
     new_job_event.set()
-    # Corrected line: Use the variables, not strings
+    
+    # SSL certificate files
     cert_file = "jjawandas-pc.tailb4094d.ts.net.crt"
     key_file = "jjawandas-pc.tailb4094d.ts.net.key"
 
-    # Use 0.0.0.0 so other devices on your Tailnet can access it
-    app.run(host="0.0.0.0", port=443, ssl_context=(cert_file, key_file))
-    #app.run(host="0.0.0.0", port=5000)
+    # Use uvicorn to run the FastAPI app with SSL
+    uvicorn.run(
+        app, 
+        host="0.0.0.0", 
+        port=443,
+        ssl_certfile=cert_file,
+        ssl_keyfile=key_file
+    )
+    # For development without SSL, use:
+    # uvicorn.run(app, host="0.0.0.0", port=5000)
