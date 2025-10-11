@@ -33,8 +33,12 @@ scripts\start_server.bat
 # Python
 python scripts/app.py
 
-# Or using uvicorn directly
+# Or using uvicorn directly (from scripts directory)
+cd scripts
 uvicorn app:app --host 0.0.0.0 --port 5000
+
+# Or from repo root
+uvicorn scripts.app:app --host 0.0.0.0 --port 5000
 ```
 
 ## Code Patterns Comparison
@@ -63,6 +67,8 @@ async def chat(chat_request: ChatRequest):
 ```python
 @app.route('/transcribe', methods=['POST'])
 def transcribe_audio():
+    if 'audio' not in request.files:
+        return jsonify({'error': 'No audio file found'}), 400
     audio_file = request.files['audio']
     audio_file.save(audio_path)
 ```
@@ -71,6 +77,8 @@ def transcribe_audio():
 ```python
 @app.post("/transcribe")
 async def transcribe_audio(audio: UploadFile = File(...)):
+    if not audio:
+        raise HTTPException(status_code=400, detail="No audio file found")
     with open(audio_path, 'wb') as f:
         content = await audio.read()
         f.write(content)
