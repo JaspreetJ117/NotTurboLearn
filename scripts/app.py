@@ -35,6 +35,7 @@ from fastapi import FastAPI, UploadFile, File, HTTPException, Request, Response
 from fastapi.responses import JSONResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.templating import Jinja2Templates
 from starlette.middleware.sessions import SessionMiddleware
 from pydantic import BaseModel
 from typing import Optional, List, Dict, Any
@@ -57,6 +58,9 @@ new_job_event = threading.Event()
 STATIC_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static')
 TEMPLATES_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
 app = FastAPI()
+
+# Initialize Jinja2 templates
+templates = Jinja2Templates(directory=TEMPLATES_FOLDER)
 
 # Add session middleware
 app.add_middleware(SessionMiddleware, secret_key=os.urandom(24).hex())
@@ -319,12 +323,17 @@ def handle_transcription_failure(job_id, error_message):
 
 # --- FastAPI Routes ---
 @app.get("/")
-async def index():
+async def index(request: Request):
     """Serve the main HTML page"""
-    index_path = os.path.join(TEMPLATES_FOLDER, 'index.html')
-    if os.path.exists(index_path):
-        return FileResponse(index_path)
-    return JSONResponse({"error": "index.html not found"}, status_code=404)
+    return templates.TemplateResponse("index.html", {"request": request})
+
+@app.get("/manifest.json")
+async def get_manifest():
+    """Serve the manifest.json file"""
+    manifest_path = os.path.join(STATIC_FOLDER, 'manifest.json')
+    if os.path.exists(manifest_path):
+        return FileResponse(manifest_path, media_type="application/json")
+    raise HTTPException(status_code=404, detail="Manifest not found")
 
 @app.post("/transcribe")
 async def transcribe_audio(audio: UploadFile = File(...)):

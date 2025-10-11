@@ -31,7 +31,12 @@ NotTurboLearn is an open-source web application that helps students transform le
 	```powershell
 	python -m venv venv
 	.\venv\Scripts\activate
-	pip install fastapi uvicorn python-multipart torch requests whisper
+	pip install -r requirements.txt
+	```
+	
+	Or install manually:
+	```powershell
+	pip install fastapi uvicorn python-multipart jinja2 torch requests whisper
 	```
 
 3. **Install and run Ollama**
