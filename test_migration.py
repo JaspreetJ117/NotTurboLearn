@@ -6,8 +6,11 @@ Tests that the application can be imported and initialized properly.
 import sys
 import os
 
+# Get the absolute path to the repository root
+REPO_ROOT = os.path.abspath(os.path.dirname(__file__))
+
 # Add the scripts directory to the path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'scripts'))
+sys.path.insert(0, os.path.join(REPO_ROOT, 'scripts'))
 
 def test_imports():
     """Test that all necessary modules can be imported"""
@@ -25,7 +28,7 @@ def test_imports():
 
 def test_app_structure():
     """Test that app.py has correct structure for FastAPI"""
-    app_path = os.path.join(os.path.dirname(__file__), 'scripts', 'app.py')
+    app_path = os.path.join(REPO_ROOT, 'scripts', 'app.py')
     with open(app_path, 'r') as f:
         content = f.read()
     
@@ -51,7 +54,7 @@ def test_app_structure():
 
 def test_routes_migrated():
     """Test that all Flask routes have been converted"""
-    app_path = os.path.join(os.path.dirname(__file__), 'scripts', 'app.py')
+    app_path = os.path.join(REPO_ROOT, 'scripts', 'app.py')
     with open(app_path, 'r') as f:
         content = f.read()
     
@@ -96,7 +99,7 @@ def test_config_files():
     checks = []
     
     # Check requirements.txt
-    req_path = os.path.join(os.path.dirname(__file__), 'requirements.txt')
+    req_path = os.path.join(REPO_ROOT, 'requirements.txt')
     if os.path.exists(req_path):
         with open(req_path, 'r') as f:
             req_content = f.read()
@@ -111,7 +114,7 @@ def test_config_files():
         checks.append(False)
     
     # Check README.md
-    readme_path = os.path.join(os.path.dirname(__file__), 'README.md')
+    readme_path = os.path.join(REPO_ROOT, 'README.md')
     if os.path.exists(readme_path):
         with open(readme_path, 'r') as f:
             readme_content = f.read()
@@ -126,7 +129,7 @@ def test_config_files():
         checks.append(False)
     
     # Check .gitignore
-    gitignore_path = os.path.join(os.path.dirname(__file__), '.gitignore')
+    gitignore_path = os.path.join(REPO_ROOT, '.gitignore')
     if os.path.exists(gitignore_path):
         print("✓ .gitignore exists")
         checks.append(True)
